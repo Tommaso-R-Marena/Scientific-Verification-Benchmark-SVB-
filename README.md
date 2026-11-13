@@ -61,3 +61,5 @@ Core output reproduced byte-for-byte in the recorded Python environment. Optiona
 Code is Apache-2.0; UCI Iris is CC BY 4.0 and PDB archive data are CC0 (see source registry and attribution). Literature review retrieved metadata/abstracts, not a complete systematic full-paper review. The manuscript is an internal research draft, not publication-ready. No broad novelty claim is supported.
 
 A standalone GitHub Actions workflow is provided for explicit manual dispatch. No hosted CI run was started; local tests are the validation evidence. This avoids automatically consuming hosted compute on initial private-repository upload.
+
+GitHub's integration denied repository creation (`createRepository`); the complete local project is committed. See [private repository publishing steps](docs/publishing.md) for the exact commands to use with an authorized account. No remote/public release was made.
