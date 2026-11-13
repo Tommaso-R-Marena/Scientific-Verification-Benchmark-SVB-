@@ -1,0 +1,29 @@
+{
+  "FoldBounds": {
+    "commit": "e373a422eb785f5cb69163b0e114343b150abf08",
+    "head_unchanged": true,
+    "status_after": "?? .lake/\n",
+    "status_before": "?? .lake/\n",
+    "status_unchanged": true,
+    "tracked_bytes_unchanged": true,
+    "tracked_file_count": 84
+  },
+  "proof-carrying-science": {
+    "commit": "bc78660b5fac857fce3873eb6cda0445d1903da1",
+    "head_unchanged": true,
+    "status_after": "",
+    "status_before": "",
+    "status_unchanged": true,
+    "tracked_bytes_unchanged": true,
+    "tracked_file_count": 8047
+  },
+  "proof-carrying-science-site": {
+    "commit": "e8136625c463b271364b36b2b8ae76f8777f1967",
+    "head_unchanged": true,
+    "status_after": "",
+    "status_before": "",
+    "status_unchanged": true,
+    "tracked_bytes_unchanged": true,
+    "tracked_file_count": 3814
+  }
+}

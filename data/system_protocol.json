@@ -1,0 +1,118 @@
+{
+  "format": "svb-system-protocol-v1.1",
+  "frozen_before_execution": false,
+  "reference_policy": "Independent arithmetic, direct enumeration, CSV parsing and third-party Ed25519 verification; no system verdict is used as a reference answer.",
+  "foldbounds": {
+    "families": [
+      {
+        "sequence": "HHHH",
+        "q": "1",
+        "threshold": 1
+      },
+      {
+        "sequence": "HHHH",
+        "q": "3/2",
+        "threshold": 1
+      },
+      {
+        "sequence": "HPHPHP",
+        "q": "2",
+        "threshold": 1
+      },
+      {
+        "sequence": "HHHHHH",
+        "q": "2",
+        "threshold": 2
+      },
+      {
+        "sequence": "HHPHPHH",
+        "q": "3/2",
+        "threshold": 1
+      },
+      {
+        "sequence": "PPPPPP",
+        "q": "2",
+        "threshold": 1
+      }
+    ],
+    "depth_policy": "sorted unique depths {2,min(4,N),N}",
+    "invalid": [
+      {
+        "sequence": "HHXH",
+        "q": "2"
+      },
+      {
+        "sequence": "HHHH",
+        "q": "1/2"
+      }
+    ],
+    "criteria": [
+      "exact value enclosed in every interval",
+      "nested intervals under depth refinement",
+      "full-depth exact rational equality",
+      "invalid model inputs rejected"
+    ]
+  },
+  "pcs": {
+    "fixture": "tests/v06_golden",
+    "cases": [
+      "signed_balanced_positive",
+      "artifact_byte_corruption",
+      "failed_observation",
+      "malformed_transcript"
+    ],
+    "criteria": "Positive signed fixture ACCEPT; artifact corruption REJECT; malformed transcript nonzero exit. failed_observation remains a recorded diagnostic with the original erroneous REJECT expectation and is excluded from correctness scoring.",
+    "limitation": "Existing-system positive fixture is a compatibility control, not an unfamiliar task; negative byte and transcript controls do not assess general scientific adequacy. No production/private data is used.",
+    "unscored_reference_error_cases": [
+      "failed_observation"
+    ]
+  },
+  "site": {
+    "cases": [
+      {
+        "id": "overlap",
+        "left": "id,value\na,1\nb,2\n",
+        "right": "id,value\nb,9\nc,3\n",
+        "accepted": true
+      },
+      {
+        "id": "duplicates",
+        "left": "id\na\na\nb\n",
+        "right": "id\na\na\n",
+        "accepted": true
+      },
+      {
+        "id": "exact_identifier_semantics",
+        "left": "id\n01\na\n",
+        "right": "id\n1\n a\n",
+        "accepted": true
+      },
+      {
+        "id": "quoted_id",
+        "left": "id\n\"a,b\"\nx\n",
+        "right": "id\n\"a,b\"\n",
+        "accepted": true
+      },
+      {
+        "id": "unclosed_quote",
+        "left": "id\n\"abc\n",
+        "right": "id\na\n",
+        "accepted": false
+      },
+      {
+        "id": "nonrectangular",
+        "left": "id,x\na\n",
+        "right": "id\na\n",
+        "accepted": false
+      }
+    ],
+    "criteria": "Python csv/set overlap and row multiplicities equal actual JS result; malformed CSV rejected; report states browser-only scope and no study adequacy guarantee."
+  },
+  "limits": {
+    "subprocess_timeout_seconds": 30,
+    "max_sequence_length": 7,
+    "output_bytes": 1048576
+  },
+  "interpretation": "Capability-specific conformance controls only. No external biological validity claim, fresh Lean proof replay, hidden labels, LLM performance claim or cross-system leaderboard.",
+  "revision_note": "After the first run, source inspection showed that the expected REJECT for a FAIL transcript was erroneous: verified builtin checkers override transcript outcomes. Preserve this as an unscored reference-error diagnostic, not a subject defect. v1 protocol/results retained; no pristine preregistration claim."
+}

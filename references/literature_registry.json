@@ -1,0 +1,1953 @@
+{
+  "format": "svb-targeted-literature-metadata-v1",
+  "scope": "Targeted metadata/abstract review; not systematic or exhaustive; retrieval is not evidence of full-paper review. Hashes identify responses, not paper contents.",
+  "entries": [
+    {
+      "id": "gneiting_raftery_2007",
+      "requested_url": "https://api.crossref.org/works/10.1198/016214506000001437",
+      "resolved_url": "https://api.crossref.org/works/10.1198/016214506000001437",
+      "accessed_utc": "2026-11-13T08:39:08.722470+00:00",
+      "http_status": 200,
+      "sha256": "b6898e80870a72be5a4c0ba25c4c762dc47b5bd66f1b4c858e7299b094c81cf4",
+      "bytes": 6491,
+      "retrieval_scope": "metadata/abstract only; full paper not read",
+      "records": [
+        {
+          "title": [
+            "Strictly Proper Scoring Rules, Prediction, and Estimation"
+          ],
+          "doi": "10.1198/016214506000001437",
+          "authors": [
+            {
+              "given": "Tilmann",
+              "family": "Gneiting",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Adrian E",
+              "family": "Raftery",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2007,
+                3
+              ]
+            ]
+          },
+          "type": "journal-article",
+          "url": "https://doi.org/10.1198/016214506000001437"
+        }
+      ]
+    },
+    {
+      "id": "nrc_2012",
+      "requested_url": "https://api.crossref.org/works/10.17226/13395",
+      "resolved_url": "https://api.crossref.org/works/10.17226/13395",
+      "accessed_utc": "2026-11-13T08:39:08.748231+00:00",
+      "http_status": 200,
+      "sha256": "1ae6a2e3f1db07ab158b77e874903320ed5133b89c1ad6e26fa639ae5d8fee18",
+      "bytes": 1340,
+      "retrieval_scope": "metadata/abstract only; full paper not read",
+      "records": [
+        {
+          "title": [
+            "Assessing the Reliability of Complex Models"
+          ],
+          "doi": "10.17226/13395",
+          "authors": null,
+          "published": {
+            "date-parts": [
+              [
+                2012,
+                6,
+                26
+              ]
+            ]
+          },
+          "type": "edited-book",
+          "url": "https://doi.org/10.17226/13395"
+        }
+      ]
+    },
+    {
+      "id": "nasem_2019",
+      "requested_url": "https://api.crossref.org/works/10.17226/25303",
+      "resolved_url": "https://api.crossref.org/works/10.17226/25303",
+      "accessed_utc": "2026-11-13T08:39:08.765741+00:00",
+      "http_status": 200,
+      "sha256": "f3c7a5ee9876ccd8087dc445264e84ca63c58208f913da385c6bd012c396ba4c",
+      "bytes": 3180,
+      "retrieval_scope": "metadata/abstract only; full paper not read",
+      "records": [
+        {
+          "title": [
+            "Reproducibility and Replicability in Science"
+          ],
+          "doi": "10.17226/25303",
+          "authors": [
+            {
+              "name": "Committee on Reproducibility and Replicability in Science",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "name": "Board on Behavioral, Cognitive, and Sensory Sciences",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "name": "Committee on National Statistics",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "name": "Division of Behavioral and Social Sciences and Education",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "name": "Nuclear and Radiation Studies Board",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "name": "Division on Earth and Life Studies",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "name": "Board on Mathematical Sciences and Analytics",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "name": "Committee on Applied and Theoretical Statistics",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "name": "Division on Engineering and Physical Sciences",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "name": "Board on Research Data and Information",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "name": "Committee on Science, Engineering, Medicine, and Public Policy",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "name": "Policy and Global Affairs",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "name": "National Academies of Sciences, Engineering, and Medicine",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2019,
+                9,
+                20
+              ]
+            ]
+          },
+          "type": "edited-book",
+          "url": "https://doi.org/10.17226/25303"
+        }
+      ]
+    },
+    {
+      "id": "asa_2016",
+      "requested_url": "https://api.crossref.org/works/10.1080/00031305.2016.1154108",
+      "resolved_url": "https://api.crossref.org/works/10.1080/00031305.2016.1154108",
+      "accessed_utc": "2026-11-13T08:39:08.734268+00:00",
+      "http_status": 200,
+      "sha256": "94d586a2f25cd9f83a3bd9a48bd7cc76d8948bd44ea80f50e3365e3523ff7408",
+      "bytes": 10726,
+      "retrieval_scope": "metadata/abstract only; full paper not read",
+      "records": [
+        {
+          "title": [
+            "The ASA Statement on\n                    <i>p</i>\n                    -Values: Context, Process, and Purpose"
+          ],
+          "doi": "10.1080/00031305.2016.1154108",
+          "authors": [
+            {
+              "given": "Ronald L.",
+              "family": "Wasserstein",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "American Statistical Association, 732 North Washington Street, Alexandria, VA 22314-1943"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Nicole A.",
+              "family": "Lazar",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "American Statistical Association, 732 North Washington Street, Alexandria, VA 22314-1943"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2016,
+                4,
+                2
+              ]
+            ]
+          },
+          "type": "journal-article",
+          "url": "https://doi.org/10.1080/00031305.2016.1154108"
+        }
+      ]
+    },
+    {
+      "id": "selective_2017",
+      "requested_url": "https://arxiv.org/abs/1705.08500",
+      "resolved_url": "https://arxiv.org/abs/1705.08500",
+      "accessed_utc": "2026-11-13T08:39:08.588669+00:00",
+      "http_status": 200,
+      "sha256": "8af4138386f323f9fa7b57c722911036d4c51b8e3faee8391916e32a46ae7d8c",
+      "bytes": 41254,
+      "retrieval_scope": "metadata/abstract only; full paper not read",
+      "page_title": "[1705.08500] Selective Classification for Deep Neural Networks",
+      "abstract_excerpt": "Abstract: Selective classification techniques (also known as reject option) have not yet been considered in the context of deep neural networks (DNNs). These techniques can potentially significantly improve DNNs prediction performance by trading-off coverage. In this paper we propose a method to construct a selective classifier given a trained neural network. Our method allows a user to set a desired risk level. At test time, the classifier rejects instances as needed, to grant the desired risk (with high probability). Empirical results over CIFAR and ImageNet convincingly demonstrate the viability of our method, which opens up possibilities to operate DNNs in mission-critical applications. For example, using our method an unprecedented 2% error in top-5 ImageNet classification can be guaranteed with probability 99.9%, and almost 60% test coverage.",
+      "authors_from_arxiv_meta": [
+        "Geifman, Yonatan",
+        "El-Yaniv, Ran"
+      ]
+    },
+    {
+      "id": "scibench",
+      "requested_url": "https://arxiv.org/abs/2307.10635",
+      "resolved_url": "https://arxiv.org/abs/2307.10635",
+      "accessed_utc": "2026-11-13T08:39:08.716375+00:00",
+      "http_status": 200,
+      "sha256": "994e6026804fbe261a91445d5c04d4db16da8ca8702eb3ecc28065f80d83cfd2",
+      "bytes": 43664,
+      "retrieval_scope": "metadata/abstract only; full paper not read",
+      "page_title": "[2307.10635] SciBench: Evaluating College-Level Scientific Problem-Solving Abilities of Large Language Models",
+      "abstract_excerpt": "Abstract: Most of the existing Large Language Model (LLM) benchmarks on scientific problem reasoning focus on problems grounded in high-school subjects and are confined to elementary algebraic operations. To systematically examine the reasoning capabilities required for solving complex scientific problems, we introduce an expansive benchmark suite SciBench for LLMs. SciBench contains a carefully curated dataset featuring a range of collegiate-level scientific problems from mathematics, chemistry, and physics domains. Based on the dataset, we conduct an in-depth benchmarking study of representative open-source and proprietary LLMs with various prompting strategies. The results reveal that the current LLMs fall short of delivering satisfactory performance, with the best overall score of merely 43.22%. Furthermore, through a detailed user study, we categorize the errors made by LLMs into ten problem-solving abilities. Our analysis indicates that no single prompting strategy significantly outperforms the others and some strategies that demonstrate improvements in certain problem-solving skills could result in declines in other skills. We envision that SciBench will catalyze further developments in the reasoning abilities of LLMs, thereby ultimately contributing to scientific research and discovery.",
+      "authors_from_arxiv_meta": [
+        "Wang, Xiaoxuan",
+        "Hu, Ziniu",
+        "Lu, Pan",
+        "Zhu, Yanqiao",
+        "Zhang, Jieyu",
+        "Subramaniam, Satyen",
+        "Loomba, Arjun R.",
+        "Zhang, Shichang",
+        "Sun, Yizhou",
+        "Wang, Wei"
+      ]
+    },
+    {
+      "id": "sciriff",
+      "requested_url": "https://arxiv.org/abs/2406.07835",
+      "resolved_url": "https://arxiv.org/abs/2406.07835",
+      "accessed_utc": "2026-11-13T08:39:08.940734+00:00",
+      "http_status": 200,
+      "sha256": "0227a3f27eeaaecdfdfe83185cd2d285c9a8a980ed50ad99e0a6f88c74ca86b7",
+      "bytes": 43692,
+      "retrieval_scope": "metadata/abstract only; full paper not read",
+      "page_title": "[2406.07835] SciRIFF: A Resource to Enhance Language Model Instruction-Following over Scientific Literature",
+      "abstract_excerpt": "Abstract: We present SciRIFF (Scientific Resource for Instruction-Following and Finetuning), a dataset of 137K instruction-following instances for training and evaluation, covering 54 tasks. These tasks span five core scientific literature understanding capabilities: information extraction, summarization, question answering, claim verification, and classification. SciRIFF is unique in being entirely expert-written, high-quality instruction-following dataset for extracting and synthesizing information from research literature across diverse scientific fields. It features complex instructions with long input contexts, detailed task descriptions, and structured outputs. To demonstrate its utility, we finetune a series of large language models (LLMs) using a mix of general-domain and SciRIFF instructions. On nine out-of-distribution held-out tasks (referred to as SciRIFF-Eval), LLMs finetuned on SciRIFF achieve 70.6% average improvement over baselines trained only on general-domain instructions. SciRIFF facilitates the development and evaluation of LLMs to help researchers navigate the rapidly growing body of scientific literature.",
+      "authors_from_arxiv_meta": [
+        "Wadden, David",
+        "Shi, Kejian",
+        "Morrison, Jacob",
+        "Li, Alan",
+        "Naik, Aakanksha",
+        "Singh, Shruti",
+        "Barzilay, Nitzan",
+        "Lo, Kyle",
+        "Hope, Tom",
+        "Soldaini, Luca",
+        "Shen, Shannon Zejiang",
+        "Downey, Doug",
+        "Hajishirzi, Hannaneh",
+        "Cohan, Arman"
+      ]
+    },
+    {
+      "id": "scienceagentbench",
+      "requested_url": "https://arxiv.org/abs/2410.05080",
+      "resolved_url": "https://arxiv.org/abs/2410.05080",
+      "accessed_utc": "2026-11-13T08:39:08.895677+00:00",
+      "http_status": 200,
+      "sha256": "efa5b42ddf050356e95b207bcc2c3d78153185064f8b875952bf7727b20ddd60",
+      "bytes": 46801,
+      "retrieval_scope": "metadata/abstract only; full paper not read",
+      "page_title": "[2410.05080] ScienceAgentBench: Toward Rigorous Assessment of Language Agents for Data-Driven Scientific Discovery",
+      "abstract_excerpt": "Abstract: The advancements of large language models (LLMs) have piqued growing interest in developing LLM-based language agents to automate scientific discovery end-to-end, which has sparked both excitement and skepticism about their true capabilities. In this work, we call for rigorous assessment of agents on individual tasks in a scientific workflow before making bold claims on end-to-end automation. To this end, we present ScienceAgentBench, a new benchmark for evaluating language agents for data-driven scientific discovery. To ensure the scientific authenticity and real-world relevance of our benchmark, we extract 102 tasks from 44 peer-reviewed publications in four disciplines and engage nine subject matter experts to validate them. We unify the target output for every task to a self-contained Python program file and employ an array of evaluation metrics to examine the generated programs, execution results, and costs. Each task goes through multiple rounds of manual validation by annotators and subject matter experts to ensure its annotation quality and scientific plausibility. We also propose two effective strategies to mitigate data contamination concerns. Using ScienceAgentBench, we evaluate five open-weight and proprietary LLMs, each with three frameworks: direct prompting, OpenHands CodeAct, and self-debug. Given three attempts for each task, the best-performing agent can only solve 32.4% of the tasks independently and 34.3% with expert-provided knowledge. In addition, we evaluate OpenAI o1-preview with direct prompting and self-debug, which can boost the performance to 42.2%, demonstrating the effectiveness of increasing inference-time compute but with more than 10 times the cost of other LLMs. Still, our results underscore the limitations of current language agents in generating code for data-driven discovery, let alone end-to-end automation for scientific research.",
+      "authors_from_arxiv_meta": [
+        "Chen, Ziru",
+        "Chen, Shijie",
+        "Ning, Yuting",
+        "Zhang, Qianheng",
+        "Wang, Boshi",
+        "Yu, Botao",
+        "Li, Yifei",
+        "Liao, Zeyi",
+        "Wei, Chen",
+        "Lu, Zitong",
+        "Dey, Vishal",
+        "Xue, Mingyi",
+        "Baker, Frazier N.",
+        "Burns, Benjamin",
+        "Adu-Ampratwum, Daniel",
+        "Huang, Xuhui",
+        "Ning, Xia",
+        "Gao, Song",
+        "Su, Yu",
+        "Sun, Huan"
+      ]
+    },
+    {
+      "id": "d3r_search",
+      "requested_url": "https://api.crossref.org/works?query.title=D3R%20Grand%20Challenge%204&rows=2",
+      "resolved_url": "https://api.crossref.org/works?query.title=D3R%20Grand%20Challenge%204&rows=2",
+      "accessed_utc": "2026-11-13T08:39:11.025847+00:00",
+      "http_status": 200,
+      "sha256": "6e80f5189772891dc0fab54fb3066ef28fd8740aa61d3de18aa0cf82d8210fdf",
+      "bytes": 75239,
+      "retrieval_scope": "metadata/abstract only; full paper not read",
+      "records": [
+        {
+          "title": [
+            "MathDL: mathematical deep learning for D3R Grand Challenge 4"
+          ],
+          "doi": "10.1007/s10822-019-00237-5",
+          "authors": [
+            {
+              "given": "Duc Duy",
+              "family": "Nguyen",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Kaifu",
+              "family": "Gao",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Menglun",
+              "family": "Wang",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0001-8132-5998",
+              "authenticated-orcid": false,
+              "given": "Guo-Wei",
+              "family": "Wei",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2019,
+                11,
+                16
+              ]
+            ]
+          },
+          "type": "journal-article",
+          "url": "https://doi.org/10.1007/s10822-019-00237-5"
+        },
+        {
+          "title": [
+            "Benchmarking ensemble docking methods in D3R Grand Challenge 4"
+          ],
+          "doi": "10.1007/s10822-021-00433-2",
+          "authors": [
+            {
+              "given": "Jessie Low",
+              "family": "Gan",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Dhruv",
+              "family": "Kumar",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Cynthia",
+              "family": "Chen",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Bryn C.",
+              "family": "Taylor",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Benjamin R.",
+              "family": "Jagger",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Rommie E.",
+              "family": "Amaro",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0002-0670-2308",
+              "authenticated-orcid": false,
+              "given": "Christopher T.",
+              "family": "Lee",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2022,
+                2
+              ]
+            ]
+          },
+          "type": "journal-article",
+          "url": "https://doi.org/10.1007/s10822-021-00433-2"
+        }
+      ]
+    },
+    {
+      "id": "casp_search",
+      "requested_url": "https://api.crossref.org/works?query.title=Critical%20assessment%20protein%20structure%20prediction%20CASP14%20assessment&rows=2",
+      "resolved_url": "https://api.crossref.org/works?query.title=Critical%20assessment%20protein%20structure%20prediction%20CASP14%20assessment&rows=2",
+      "accessed_utc": "2026-11-13T08:39:10.034128+00:00",
+      "http_status": 200,
+      "sha256": "629e5885af515e92c4c285736c11f83e64d9efc287e83f3a48f588b28ec3a382",
+      "bytes": 10995,
+      "retrieval_scope": "metadata/abstract only; full paper not read",
+      "records": [
+        {
+          "title": [
+            "Review for \"Target Classification in the 14th Round of the Critical Assessment of Protein Structure Prediction ( CASP14 )\""
+          ],
+          "doi": "10.1002/prot.26202/v1/review2",
+          "authors": null,
+          "published": {
+            "date-parts": [
+              [
+                2021,
+                5,
+                20
+              ]
+            ]
+          },
+          "type": "peer-review",
+          "url": "https://doi.org/10.1002/prot.26202/v1/review2"
+        },
+        {
+          "title": [
+            "Assessment of domain interactions in the fourteenth round of the Critical Assessment of Structure Prediction (CASP14)"
+          ],
+          "doi": "10.1002/prot.26225",
+          "authors": [
+            {
+              "ORCID": "https://orcid.org/0000-0001-6502-1425",
+              "authenticated-orcid": false,
+              "given": "R. Dustin",
+              "family": "Schaeffer",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "Department of Biophysics UT Southwestern Medical Center  Dallas Texas USA"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0003-3041-2615",
+              "authenticated-orcid": false,
+              "given": "Lisa",
+              "family": "Kinch",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Howard Hughes Medical Institute UT Southwestern Medical Center  Dallas Texas USA"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0001-5066-7178",
+              "authenticated-orcid": false,
+              "given": "Andriy",
+              "family": "Kryshtafovych",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Protein Structure Prediction Center, Genome and Biomedical Sciences Facilities University of California  Davis California USA"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Nick V.",
+              "family": "Grishin",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Department of Biophysics UT Southwestern Medical Center  Dallas Texas USA"
+                },
+                {
+                  "name": "Howard Hughes Medical Institute UT Southwestern Medical Center  Dallas Texas USA"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2021,
+                9,
+                15
+              ]
+            ]
+          },
+          "type": "journal-article",
+          "url": "https://doi.org/10.1002/prot.26225"
+        }
+      ]
+    },
+    {
+      "id": "d3r_overview",
+      "requested_url": "https://api.crossref.org/works?query.bibliographic=D3R%20Grand%20Challenge%204%20blind%20prediction%20protein%20ligand%20poses%20affinity%20rankings%20relative%20binding%20free%20energies&rows=5",
+      "accessed_utc": "2026-11-13T08:40:14.863849+00:00",
+      "http_status": 200,
+      "sha256": "8288f68e8c4026726ec10047d5fd0b47e42b38bf139d40d046ad05f39eb0ddd2",
+      "bytes": 81582,
+      "retrieval_scope": "Crossref title search metadata only; not full-paper review",
+      "records": [
+        {
+          "title": [
+            "D3R grand challenge 4: blind prediction of protein\u2013ligand poses, affinity rankings, and relative binding free energies"
+          ],
+          "doi": "10.1007/s10822-020-00289-y",
+          "authors": [
+            {
+              "given": "Conor D.",
+              "family": "Parks",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Zied",
+              "family": "Gaieb",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Michael",
+              "family": "Chiu",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Huanwang",
+              "family": "Yang",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Chenghua",
+              "family": "Shao",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "W. Patrick",
+              "family": "Walters",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Johanna M.",
+              "family": "Jansen",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Georgia",
+              "family": "McGaughey",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Richard A.",
+              "family": "Lewis",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Scott D.",
+              "family": "Bembenek",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Michael K.",
+              "family": "Ameriks",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Tara",
+              "family": "Mirzadegan",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Stephen K.",
+              "family": "Burley",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0002-9275-9553",
+              "authenticated-orcid": false,
+              "given": "Rommie E.",
+              "family": "Amaro",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0002-3375-1738",
+              "authenticated-orcid": false,
+              "given": "Michael K.",
+              "family": "Gilson",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2020,
+                1,
+                23
+              ]
+            ]
+          },
+          "type": "journal-article",
+          "url": "https://doi.org/10.1007/s10822-020-00289-y"
+        },
+        {
+          "title": [
+            "D3R Grand Challenge 4: Blind Prediction of Protein-Ligand Poses, Affinity Rankings, and Relative Binding Free Energies"
+          ],
+          "doi": "10.26434/chemrxiv.11363006.v1",
+          "authors": [
+            {
+              "ORCID": "https://orcid.org/0000-0001-8158-5116",
+              "authenticated-orcid": false,
+              "given": "conor",
+              "family": "parks",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0002-7868-5412",
+              "authenticated-orcid": false,
+              "given": "Zied",
+              "family": "Gaieb",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "University of California San Diego",
+                  "place": [
+                    "United States"
+                  ]
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Michael",
+              "family": "Chiu",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Huanwang",
+              "family": "Yang",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Chenghua",
+              "family": "Shao",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "W. Patrick",
+              "family": "Walters",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Johanna M.",
+              "family": "Jansen",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Georgia",
+              "family": "McGaughey",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Richard A.",
+              "family": "Lewis",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Scott D.",
+              "family": "Bembenek",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Michael K.",
+              "family": "Ameriks",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Tara",
+              "family": "Mirzadegan",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Stephen K.",
+              "family": "Burley",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Rommie",
+              "family": "Amaro",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Michael",
+              "family": "Gilson",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2019,
+                12,
+                19
+              ]
+            ]
+          },
+          "type": "posted-content",
+          "url": "https://doi.org/10.26434/chemrxiv.11363006.v1"
+        },
+        {
+          "title": [
+            "D3R Grand Challenge 2: blind prediction of protein\u2013ligand poses, affinity rankings, and relative binding free energies"
+          ],
+          "doi": "10.1007/s10822-017-0088-4",
+          "authors": [
+            {
+              "given": "Zied",
+              "family": "Gaieb",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Shuai",
+              "family": "Liu",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Symon",
+              "family": "Gathiaka",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Michael",
+              "family": "Chiu",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Huanwang",
+              "family": "Yang",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Chenghua",
+              "family": "Shao",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Victoria A.",
+              "family": "Feher",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "W. Patrick",
+              "family": "Walters",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Bernd",
+              "family": "Kuhn",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Markus G.",
+              "family": "Rudolph",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Stephen K.",
+              "family": "Burley",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Michael K.",
+              "family": "Gilson",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Rommie E.",
+              "family": "Amaro",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2017,
+                12,
+                4
+              ]
+            ]
+          },
+          "type": "journal-article",
+          "url": "https://doi.org/10.1007/s10822-017-0088-4"
+        },
+        {
+          "title": [
+            "D3R Grand Challenge 3: Blind Prediction of Protein-Ligand Poses and Affinity Rankings"
+          ],
+          "doi": "10.26434/chemrxiv.6752831.v1",
+          "authors": [
+            {
+              "given": "Zied",
+              "family": "Gaieb",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0001-8158-5116",
+              "authenticated-orcid": false,
+              "given": "Conor",
+              "family": "Parks",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "University of California San Diego",
+                  "place": [
+                    "USA"
+                  ]
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Michael",
+              "family": "Chiu",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Huanwang",
+              "family": "Yang",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Chenghua",
+              "family": "Shao",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Patrick",
+              "family": "Walters",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Millard",
+              "family": "Lambert",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Neysa",
+              "family": "Nevins",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Scott D.",
+              "family": "Bembenek",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Stephen K.",
+              "family": "Burley",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Rommie E.",
+              "family": "Amaro",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Michael K.",
+              "family": "Gilson",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2018,
+                7,
+                6
+              ]
+            ]
+          },
+          "type": "posted-content",
+          "url": "https://doi.org/10.26434/chemrxiv.6752831.v1"
+        },
+        {
+          "title": [
+            "Blinded Prediction of Protein-Ligand Binding Affinity Using Amber Thermodynamic Integration for the 2018 D3R Grand Challenge 4"
+          ],
+          "doi": "10.26434/chemrxiv.8312375.v1",
+          "authors": [
+            {
+              "given": "Junjie",
+              "family": "Zou",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0002-3518-7237",
+              "authenticated-orcid": false,
+              "given": "Chuan",
+              "family": "Tian",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0002-7252-4730",
+              "authenticated-orcid": false,
+              "given": "Carlos",
+              "family": "Simmerling",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Stony Brook University",
+                  "place": [
+                    "United States"
+                  ]
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2019,
+                6,
+                24
+              ]
+            ]
+          },
+          "type": "posted-content",
+          "url": "https://doi.org/10.26434/chemrxiv.8312375.v1"
+        }
+      ]
+    },
+    {
+      "id": "casp_overview",
+      "requested_url": "https://api.crossref.org/works?query.bibliographic=Critical%20assessment%20of%20methods%20of%20protein%20structure%20prediction%20CASP%20Round%20XIV&rows=5",
+      "accessed_utc": "2026-11-13T08:40:16.300433+00:00",
+      "http_status": 200,
+      "sha256": "b17726e37171168ba60e101d17a6dcc56bef997eabde9f58fea79d6d8ad76d1b",
+      "bytes": 31080,
+      "retrieval_scope": "Crossref title search metadata only; not full-paper review",
+      "records": [
+        {
+          "title": [
+            "Critical Assessment of Methods of Protein Structure Prediction (CASP) \u2013 Round XV"
+          ],
+          "doi": "10.22541/au.169658651.11658182/v1",
+          "authors": [
+            {
+              "ORCID": "https://orcid.org/0000-0001-5066-7178",
+              "authenticated-orcid": false,
+              "given": "Andriy",
+              "family": "Kryshtafovych",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "University of California Davis Genome Center"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0003-2715-335X",
+              "authenticated-orcid": false,
+              "given": "Torsten",
+              "family": "Schwede",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Universitat Basel Department Biozentrum"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0002-8185-1215",
+              "authenticated-orcid": false,
+              "given": "Maya",
+              "family": "Topf",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Universitatsklinikum Hamburg-Eppendorf Institut fur Experimentelle Pharmakologie und Toxikologie"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0002-8061-412X",
+              "authenticated-orcid": false,
+              "given": "Krzysztof",
+              "family": "Fidelis",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "University of California Davis Genome Center"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0002-3012-2282",
+              "authenticated-orcid": false,
+              "given": "John",
+              "family": "Moult",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Institute for Bioscience and Biotechnology Research Shady Grove"
+                }
+              ],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2023,
+                10,
+                6
+              ]
+            ]
+          },
+          "type": "posted-content",
+          "url": "https://doi.org/10.22541/au.169658651.11658182/v1"
+        },
+        {
+          "title": [
+            "Critical assessment of methods of protein structure prediction (CASP)\u2014Round <scp>XIV</scp>"
+          ],
+          "doi": "10.1002/prot.26237",
+          "authors": [
+            {
+              "ORCID": "https://orcid.org/0000-0001-5066-7178",
+              "authenticated-orcid": false,
+              "given": "Andriy",
+              "family": "Kryshtafovych",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "Genome Center, University of California, Davis  Davis California USA"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0003-2715-335X",
+              "authenticated-orcid": false,
+              "given": "Torsten",
+              "family": "Schwede",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "University of Basel, Biozentrum &amp; SIB Swiss Institute of Bioinformatics  Basel Switzerland"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0002-8185-1215",
+              "authenticated-orcid": false,
+              "given": "Maya",
+              "family": "Topf",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Centre for Structural Systems Biology, Leibniz\u2010Institut f\u00fcr Experimentelle Virologie and Universit\u2002tsklinikum Hamburg\u2010Eppendorf (UKE)  Hamburg Germany"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0002-8061-412X",
+              "authenticated-orcid": false,
+              "given": "Krzysztof",
+              "family": "Fidelis",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Genome Center, University of California, Davis  Davis California USA"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0002-3012-2282",
+              "authenticated-orcid": false,
+              "given": "John",
+              "family": "Moult",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Institute for Bioscience and Biotechnology Research  Rockville Maryland USA"
+                },
+                {
+                  "name": "Department of Cell Biology and Molecular Genetics University of Maryland  College Park Maryland USA"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2021,
+                10,
+                7
+              ]
+            ]
+          },
+          "type": "journal-article",
+          "url": "https://doi.org/10.1002/prot.26237"
+        },
+        {
+          "title": [
+            "Decision letter for \"Critical assessment of methods of protein structure prediction (&lt;scp&gt;CASP&lt;/scp&gt;)\u2014Round &lt;scp&gt;XV&lt;/scp&gt;\""
+          ],
+          "doi": "10.1002/prot.26617/v1/decision1",
+          "authors": null,
+          "published": {
+            "date-parts": [
+              [
+                2023,
+                10,
+                6
+              ]
+            ]
+          },
+          "type": "peer-review",
+          "url": "https://doi.org/10.1002/prot.26617/v1/decision1"
+        },
+        {
+          "title": [
+            "Critical assessment of methods of protein structure prediction (CASP)-round V"
+          ],
+          "doi": "10.1002/prot.10556",
+          "authors": [
+            {
+              "given": "John",
+              "family": "Moult",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Krzysztof",
+              "family": "Fidelis",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Adam",
+              "family": "Zemla",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Tim",
+              "family": "Hubbard",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2003
+              ]
+            ]
+          },
+          "type": "journal-article",
+          "url": "https://doi.org/10.1002/prot.10556"
+        },
+        {
+          "title": [
+            "Critical assessment of methods of protein structure prediction (CASP): Round IV"
+          ],
+          "doi": "10.1002/prot.10054",
+          "authors": [
+            {
+              "given": "John",
+              "family": "Moult",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Krzysztof",
+              "family": "Fidelis",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Adam",
+              "family": "Zemla",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Tim",
+              "family": "Hubbard",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2001
+              ]
+            ]
+          },
+          "type": "journal-article",
+          "url": "https://doi.org/10.1002/prot.10054"
+        }
+      ]
+    }
+  ]
+}

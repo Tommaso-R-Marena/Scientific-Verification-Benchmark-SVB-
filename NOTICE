@@ -1,0 +1,11 @@
+Scientific Verification Benchmark (SVB), authored pilot 2026.
+Project code and authored text: Apache-2.0. Third-party source data retain their licenses.
+UCI Iris dataset, DOI 10.24432/C56C76, creator R. A. Fisher; retrieved from
+https://archive.ics.uci.edu/static/public/53/iris.zip on 2026-11-13, CC BY 4.0.
+Use the specifically pinned archived iris.data variant; historical discrepancies
+are disclosed in data/iris.names. Redistribution is not fresh empirical validation.
+PDB 1CRN deposited crambin structure, DOI 10.2210/pdb1CRN/pdb; retrieved from
+https://files.rcsb.org/download/1CRN.pdb on 2026-11-13. PDB archive data are CC0.
+Coordinate arithmetic describes the deposited model, not physical exactness.
+Bibliographic metadata and links are attributed in references/literature_registry.json.
+No PCS, FoldBounds or website source is bundled as a benchmark dependency.

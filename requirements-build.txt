@@ -1,0 +1,2 @@
+# Only needed for optional pip installation; PYTHONPATH=src needs no build tool.
+setuptools==84.0.0

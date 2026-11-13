@@ -1,0 +1,991 @@
+{
+  "format": "svb-system-evaluations-v1",
+  "protocol_sha256": "8c6b85928370f721a81e478174a99c0510ab7b3b07c5789a8aa753c83908ea48",
+  "runtime": {
+    "python": "3.12.14",
+    "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+    "node": "v24.22.1"
+  },
+  "systems": {
+    "foldbounds": {
+      "available": true,
+      "path": "/workspace/FoldBounds",
+      "commit": "e373a422eb785f5cb69163b0e114343b150abf08",
+      "rows": [
+        {
+          "id": "HHHH-q1-t1-depth2",
+          "expected": {
+            "spectrum": {
+              "0": 7,
+              "1": 2
+            },
+            "paths": 9,
+            "partition": "9",
+            "probability": "2/9"
+          },
+          "observed": {
+            "model": "2D square-lattice HP self-avoiding walk, anchored first edge",
+            "method": "baseline",
+            "enhanced_lookahead": null,
+            "matching": false,
+            "transfer": false,
+            "transfer_memory": 2,
+            "witness_nodes": 0,
+            "monotone": false,
+            "turn_family": false,
+            "terminal_box": false,
+            "sequence": "HHHH",
+            "q": "1",
+            "event_at_least": 1,
+            "depth": 2,
+            "partition_interval": [
+              "0",
+              "9"
+            ],
+            "event_probability_interval": [
+              "0",
+              "1"
+            ],
+            "exact_paths": 0,
+            "bounded_subtrees": 1,
+            "exact": false
+          },
+          "outcome": "valid",
+          "elapsed_seconds": 0.05279701299991757
+        },
+        {
+          "id": "HHHH-q1-t1-depth4",
+          "expected": {
+            "spectrum": {
+              "0": 7,
+              "1": 2
+            },
+            "paths": 9,
+            "partition": "9",
+            "probability": "2/9"
+          },
+          "observed": {
+            "model": "2D square-lattice HP self-avoiding walk, anchored first edge",
+            "method": "baseline",
+            "enhanced_lookahead": null,
+            "matching": false,
+            "transfer": false,
+            "transfer_memory": 2,
+            "witness_nodes": 0,
+            "monotone": false,
+            "turn_family": false,
+            "terminal_box": false,
+            "sequence": "HHHH",
+            "q": "1",
+            "event_at_least": 1,
+            "depth": 4,
+            "partition_interval": [
+              "9",
+              "9"
+            ],
+            "event_probability_interval": [
+              "2/9",
+              "2/9"
+            ],
+            "exact_paths": 9,
+            "bounded_subtrees": 0,
+            "exact": true
+          },
+          "outcome": "valid",
+          "elapsed_seconds": 0.06389991499997905
+        },
+        {
+          "id": "HHHH-q3/2-t1-depth2",
+          "expected": {
+            "spectrum": {
+              "0": 7,
+              "1": 2
+            },
+            "paths": 9,
+            "partition": "10",
+            "probability": "3/10"
+          },
+          "observed": {
+            "model": "2D square-lattice HP self-avoiding walk, anchored first edge",
+            "method": "baseline",
+            "enhanced_lookahead": null,
+            "matching": false,
+            "transfer": false,
+            "transfer_memory": 2,
+            "witness_nodes": 0,
+            "monotone": false,
+            "turn_family": false,
+            "terminal_box": false,
+            "sequence": "HHHH",
+            "q": "3/2",
+            "event_at_least": 1,
+            "depth": 2,
+            "partition_interval": [
+              "0",
+              "27/2"
+            ],
+            "event_probability_interval": [
+              "0",
+              "1"
+            ],
+            "exact_paths": 0,
+            "bounded_subtrees": 1,
+            "exact": false
+          },
+          "outcome": "valid",
+          "elapsed_seconds": 0.05384553299995787
+        },
+        {
+          "id": "HHHH-q3/2-t1-depth4",
+          "expected": {
+            "spectrum": {
+              "0": 7,
+              "1": 2
+            },
+            "paths": 9,
+            "partition": "10",
+            "probability": "3/10"
+          },
+          "observed": {
+            "model": "2D square-lattice HP self-avoiding walk, anchored first edge",
+            "method": "baseline",
+            "enhanced_lookahead": null,
+            "matching": false,
+            "transfer": false,
+            "transfer_memory": 2,
+            "witness_nodes": 0,
+            "monotone": false,
+            "turn_family": false,
+            "terminal_box": false,
+            "sequence": "HHHH",
+            "q": "3/2",
+            "event_at_least": 1,
+            "depth": 4,
+            "partition_interval": [
+              "10",
+              "10"
+            ],
+            "event_probability_interval": [
+              "3/10",
+              "3/10"
+            ],
+            "exact_paths": 9,
+            "bounded_subtrees": 0,
+            "exact": true
+          },
+          "outcome": "valid",
+          "elapsed_seconds": 0.054092136000008395
+        },
+        {
+          "id": "HPHPHP-q2-t1-depth2",
+          "expected": {
+            "spectrum": {
+              "0": 71
+            },
+            "paths": 71,
+            "partition": "71",
+            "probability": "0"
+          },
+          "observed": {
+            "model": "2D square-lattice HP self-avoiding walk, anchored first edge",
+            "method": "baseline",
+            "enhanced_lookahead": null,
+            "matching": false,
+            "transfer": false,
+            "transfer_memory": 2,
+            "witness_nodes": 0,
+            "monotone": false,
+            "turn_family": false,
+            "terminal_box": false,
+            "sequence": "HPHPHP",
+            "q": "2",
+            "event_at_least": 1,
+            "depth": 2,
+            "partition_interval": [
+              "0",
+              "81"
+            ],
+            "event_probability_interval": [
+              "0",
+              "0"
+            ],
+            "exact_paths": 0,
+            "bounded_subtrees": 1,
+            "exact": false
+          },
+          "outcome": "valid",
+          "elapsed_seconds": 0.05214304399999037
+        },
+        {
+          "id": "HPHPHP-q2-t1-depth4",
+          "expected": {
+            "spectrum": {
+              "0": 71
+            },
+            "paths": 71,
+            "partition": "71",
+            "probability": "0"
+          },
+          "observed": {
+            "model": "2D square-lattice HP self-avoiding walk, anchored first edge",
+            "method": "baseline",
+            "enhanced_lookahead": null,
+            "matching": false,
+            "transfer": false,
+            "transfer_memory": 2,
+            "witness_nodes": 0,
+            "monotone": false,
+            "turn_family": false,
+            "terminal_box": false,
+            "sequence": "HPHPHP",
+            "q": "2",
+            "event_at_least": 1,
+            "depth": 4,
+            "partition_interval": [
+              "0",
+              "81"
+            ],
+            "event_probability_interval": [
+              "0",
+              "0"
+            ],
+            "exact_paths": 0,
+            "bounded_subtrees": 9,
+            "exact": false
+          },
+          "outcome": "valid",
+          "elapsed_seconds": 0.05323154399991381
+        },
+        {
+          "id": "HPHPHP-q2-t1-depth6",
+          "expected": {
+            "spectrum": {
+              "0": 71
+            },
+            "paths": 71,
+            "partition": "71",
+            "probability": "0"
+          },
+          "observed": {
+            "model": "2D square-lattice HP self-avoiding walk, anchored first edge",
+            "method": "baseline",
+            "enhanced_lookahead": null,
+            "matching": false,
+            "transfer": false,
+            "transfer_memory": 2,
+            "witness_nodes": 0,
+            "monotone": false,
+            "turn_family": false,
+            "terminal_box": false,
+            "sequence": "HPHPHP",
+            "q": "2",
+            "event_at_least": 1,
+            "depth": 6,
+            "partition_interval": [
+              "71",
+              "71"
+            ],
+            "event_probability_interval": [
+              "0",
+              "0"
+            ],
+            "exact_paths": 71,
+            "bounded_subtrees": 0,
+            "exact": true
+          },
+          "outcome": "valid",
+          "elapsed_seconds": 0.054117591000022
+        },
+        {
+          "id": "HHHHHH-q2-t2-depth2",
+          "expected": {
+            "spectrum": {
+              "0": 41,
+              "1": 22,
+              "2": 8
+            },
+            "paths": 71,
+            "partition": "117",
+            "probability": "32/117"
+          },
+          "observed": {
+            "model": "2D square-lattice HP self-avoiding walk, anchored first edge",
+            "method": "baseline",
+            "enhanced_lookahead": null,
+            "matching": false,
+            "transfer": false,
+            "transfer_memory": 2,
+            "witness_nodes": 0,
+            "monotone": false,
+            "turn_family": false,
+            "terminal_box": false,
+            "sequence": "HHHHHH",
+            "q": "2",
+            "event_at_least": 2,
+            "depth": 2,
+            "partition_interval": [
+              "0",
+              "1296"
+            ],
+            "event_probability_interval": [
+              "0",
+              "1"
+            ],
+            "exact_paths": 0,
+            "bounded_subtrees": 1,
+            "exact": false
+          },
+          "outcome": "valid",
+          "elapsed_seconds": 0.05424950400004036
+        },
+        {
+          "id": "HHHHHH-q2-t2-depth4",
+          "expected": {
+            "spectrum": {
+              "0": 41,
+              "1": 22,
+              "2": 8
+            },
+            "paths": 71,
+            "partition": "117",
+            "probability": "32/117"
+          },
+          "observed": {
+            "model": "2D square-lattice HP self-avoiding walk, anchored first edge",
+            "method": "baseline",
+            "enhanced_lookahead": null,
+            "matching": false,
+            "transfer": false,
+            "transfer_memory": 2,
+            "witness_nodes": 0,
+            "monotone": false,
+            "turn_family": false,
+            "terminal_box": false,
+            "sequence": "HHHHHH",
+            "q": "2",
+            "event_at_least": 2,
+            "depth": 4,
+            "partition_interval": [
+              "0",
+              "792"
+            ],
+            "event_probability_interval": [
+              "0",
+              "1"
+            ],
+            "exact_paths": 0,
+            "bounded_subtrees": 9,
+            "exact": false
+          },
+          "outcome": "valid",
+          "elapsed_seconds": 0.053709429000036835
+        },
+        {
+          "id": "HHHHHH-q2-t2-depth6",
+          "expected": {
+            "spectrum": {
+              "0": 41,
+              "1": 22,
+              "2": 8
+            },
+            "paths": 71,
+            "partition": "117",
+            "probability": "32/117"
+          },
+          "observed": {
+            "model": "2D square-lattice HP self-avoiding walk, anchored first edge",
+            "method": "baseline",
+            "enhanced_lookahead": null,
+            "matching": false,
+            "transfer": false,
+            "transfer_memory": 2,
+            "witness_nodes": 0,
+            "monotone": false,
+            "turn_family": false,
+            "terminal_box": false,
+            "sequence": "HHHHHH",
+            "q": "2",
+            "event_at_least": 2,
+            "depth": 6,
+            "partition_interval": [
+              "117",
+              "117"
+            ],
+            "event_probability_interval": [
+              "32/117",
+              "32/117"
+            ],
+            "exact_paths": 71,
+            "bounded_subtrees": 0,
+            "exact": true
+          },
+          "outcome": "valid",
+          "elapsed_seconds": 0.05266887899995254
+        },
+        {
+          "id": "HHPHPHH-q3/2-t1-depth2",
+          "expected": {
+            "spectrum": {
+              "0": 123,
+              "1": 60,
+              "2": 12
+            },
+            "paths": 195,
+            "partition": "240",
+            "probability": "39/80"
+          },
+          "observed": {
+            "model": "2D square-lattice HP self-avoiding walk, anchored first edge",
+            "method": "baseline",
+            "enhanced_lookahead": null,
+            "matching": false,
+            "transfer": false,
+            "transfer_memory": 2,
+            "witness_nodes": 0,
+            "monotone": false,
+            "turn_family": false,
+            "terminal_box": false,
+            "sequence": "HHPHPHH",
+            "q": "3/2",
+            "event_at_least": 1,
+            "depth": 2,
+            "partition_interval": [
+              "0",
+              "19683/16"
+            ],
+            "event_probability_interval": [
+              "0",
+              "1"
+            ],
+            "exact_paths": 0,
+            "bounded_subtrees": 1,
+            "exact": false
+          },
+          "outcome": "valid",
+          "elapsed_seconds": 0.057238580999978694
+        },
+        {
+          "id": "HHPHPHH-q3/2-t1-depth4",
+          "expected": {
+            "spectrum": {
+              "0": 123,
+              "1": 60,
+              "2": 12
+            },
+            "paths": 195,
+            "partition": "240",
+            "probability": "39/80"
+          },
+          "observed": {
+            "model": "2D square-lattice HP self-avoiding walk, anchored first edge",
+            "method": "baseline",
+            "enhanced_lookahead": null,
+            "matching": false,
+            "transfer": false,
+            "transfer_memory": 2,
+            "witness_nodes": 0,
+            "monotone": false,
+            "turn_family": false,
+            "terminal_box": false,
+            "sequence": "HHPHPHH",
+            "q": "3/2",
+            "event_at_least": 1,
+            "depth": 4,
+            "partition_interval": [
+              "0",
+              "3645/4"
+            ],
+            "event_probability_interval": [
+              "0",
+              "1"
+            ],
+            "exact_paths": 0,
+            "bounded_subtrees": 9,
+            "exact": false
+          },
+          "outcome": "valid",
+          "elapsed_seconds": 0.05190367599993806
+        },
+        {
+          "id": "HHPHPHH-q3/2-t1-depth7",
+          "expected": {
+            "spectrum": {
+              "0": 123,
+              "1": 60,
+              "2": 12
+            },
+            "paths": 195,
+            "partition": "240",
+            "probability": "39/80"
+          },
+          "observed": {
+            "model": "2D square-lattice HP self-avoiding walk, anchored first edge",
+            "method": "baseline",
+            "enhanced_lookahead": null,
+            "matching": false,
+            "transfer": false,
+            "transfer_memory": 2,
+            "witness_nodes": 0,
+            "monotone": false,
+            "turn_family": false,
+            "terminal_box": false,
+            "sequence": "HHPHPHH",
+            "q": "3/2",
+            "event_at_least": 1,
+            "depth": 7,
+            "partition_interval": [
+              "240",
+              "240"
+            ],
+            "event_probability_interval": [
+              "39/80",
+              "39/80"
+            ],
+            "exact_paths": 195,
+            "bounded_subtrees": 0,
+            "exact": true
+          },
+          "outcome": "valid",
+          "elapsed_seconds": 0.05750543900001048
+        },
+        {
+          "id": "PPPPPP-q2-t1-depth2",
+          "expected": {
+            "spectrum": {
+              "0": 71
+            },
+            "paths": 71,
+            "partition": "71",
+            "probability": "0"
+          },
+          "observed": {
+            "model": "2D square-lattice HP self-avoiding walk, anchored first edge",
+            "method": "baseline",
+            "enhanced_lookahead": null,
+            "matching": false,
+            "transfer": false,
+            "transfer_memory": 2,
+            "witness_nodes": 0,
+            "monotone": false,
+            "turn_family": false,
+            "terminal_box": false,
+            "sequence": "PPPPPP",
+            "q": "2",
+            "event_at_least": 1,
+            "depth": 2,
+            "partition_interval": [
+              "0",
+              "81"
+            ],
+            "event_probability_interval": [
+              "0",
+              "0"
+            ],
+            "exact_paths": 0,
+            "bounded_subtrees": 1,
+            "exact": false
+          },
+          "outcome": "valid",
+          "elapsed_seconds": 0.060602709000022514
+        },
+        {
+          "id": "PPPPPP-q2-t1-depth4",
+          "expected": {
+            "spectrum": {
+              "0": 71
+            },
+            "paths": 71,
+            "partition": "71",
+            "probability": "0"
+          },
+          "observed": {
+            "model": "2D square-lattice HP self-avoiding walk, anchored first edge",
+            "method": "baseline",
+            "enhanced_lookahead": null,
+            "matching": false,
+            "transfer": false,
+            "transfer_memory": 2,
+            "witness_nodes": 0,
+            "monotone": false,
+            "turn_family": false,
+            "terminal_box": false,
+            "sequence": "PPPPPP",
+            "q": "2",
+            "event_at_least": 1,
+            "depth": 4,
+            "partition_interval": [
+              "0",
+              "81"
+            ],
+            "event_probability_interval": [
+              "0",
+              "0"
+            ],
+            "exact_paths": 0,
+            "bounded_subtrees": 9,
+            "exact": false
+          },
+          "outcome": "valid",
+          "elapsed_seconds": 0.053600373999984186
+        },
+        {
+          "id": "PPPPPP-q2-t1-depth6",
+          "expected": {
+            "spectrum": {
+              "0": 71
+            },
+            "paths": 71,
+            "partition": "71",
+            "probability": "0"
+          },
+          "observed": {
+            "model": "2D square-lattice HP self-avoiding walk, anchored first edge",
+            "method": "baseline",
+            "enhanced_lookahead": null,
+            "matching": false,
+            "transfer": false,
+            "transfer_memory": 2,
+            "witness_nodes": 0,
+            "monotone": false,
+            "turn_family": false,
+            "terminal_box": false,
+            "sequence": "PPPPPP",
+            "q": "2",
+            "event_at_least": 1,
+            "depth": 6,
+            "partition_interval": [
+              "71",
+              "71"
+            ],
+            "event_probability_interval": [
+              "0",
+              "0"
+            ],
+            "exact_paths": 71,
+            "bounded_subtrees": 0,
+            "exact": true
+          },
+          "outcome": "valid",
+          "elapsed_seconds": 0.055366676999938136
+        },
+        {
+          "id": "reject-HHXH-q2",
+          "expected": "nonzero exit",
+          "observed": 1,
+          "outcome": "valid",
+          "elapsed_seconds": 0.053822675999981584
+        },
+        {
+          "id": "reject-HHHH-q1/2",
+          "expected": "nonzero exit",
+          "observed": 1,
+          "outcome": "valid",
+          "elapsed_seconds": 0.055134727999984534
+        }
+      ],
+      "scope": "Small anchored finite 2D HP model; no physical protein validation or Lean proof replay.",
+      "denominator": 18,
+      "eligible_denominator": 18,
+      "outcomes": {
+        "valid": 18,
+        "refuted": 0,
+        "execution_error": 0,
+        "unsupported": 0,
+        "reference_error": 0
+      }
+    },
+    "pcs": {
+      "available": true,
+      "path": "/workspace/proof-carrying-science",
+      "commit": "bc78660b5fac857fce3873eb6cda0445d1903da1",
+      "rows": [
+        {
+          "id": "signed_balanced_positive",
+          "expected": "ACCEPT",
+          "observed": "ACCEPT",
+          "outcome": "valid",
+          "elapsed_seconds": 0.019138839999982338
+        },
+        {
+          "id": "artifact_byte_corruption",
+          "expected": "REJECT",
+          "observed": "REJECT:package",
+          "outcome": "valid",
+          "elapsed_seconds": 0.020591071000012562
+        },
+        {
+          "id": "failed_observation",
+          "expected": "REJECT",
+          "observed": "ACCEPT",
+          "outcome": "reference_error",
+          "score_eligible": false,
+          "adjudication": "Initial REJECT expectation was erroneous. The builtin Lean atom-balance checker takes priority over transcript reports; the chemically balanced claim remains true. Retained as an unscored diagnostic, not a PCS defect or a hidden-label result.",
+          "elapsed_seconds": 0.02869073700003355
+        },
+        {
+          "id": "malformed_transcript",
+          "expected": "nonzero exit",
+          "observed": "",
+          "outcome": "valid",
+          "elapsed_seconds": 0.014862589000017579
+        }
+      ],
+      "independent_reference": {
+        "atom_counts": [
+          {
+            "H": 4,
+            "O": 2
+          },
+          {
+            "H": 4,
+            "O": 2
+          }
+        ],
+        "signed_file_hashes_checked": 4,
+        "independent_ed25519_signatures_checked": 2,
+        "limitation": "Signature/hash and stoichiometry checks do not independently reimplement every PCS package admission rule."
+      },
+      "binary_sha256": "3fd286e68299ad399b59078618045cdaedac3bd0d55305d074005ade16317b49",
+      "scope": "One signed known atom-balance fixture plus byte/transcript rejection controls; not general scientific inference or adversarial security certification.",
+      "denominator": 4,
+      "eligible_denominator": 3,
+      "outcomes": {
+        "valid": 3,
+        "refuted": 0,
+        "execution_error": 0,
+        "unsupported": 0,
+        "reference_error": 1
+      }
+    },
+    "site": {
+      "available": true,
+      "path": "/workspace/proof-carrying-science-site",
+      "commit": "e8136625c463b271364b36b2b8ae76f8777f1967",
+      "rows": [
+        {
+          "id": "overlap",
+          "expected": {
+            "shared_ids": 1,
+            "shared": [
+              "b"
+            ],
+            "left_rows": 2,
+            "right_rows": 2,
+            "left_repeated_rows": 0,
+            "right_repeated_rows": 0,
+            "left_affected_rows": 1,
+            "right_affected_rows": 1
+          },
+          "observed": {
+            "accepted": true,
+            "result": {
+              "scope": "exact-utf8-id-overlap-v1",
+              "summary": {
+                "left_rows": 2,
+                "right_rows": 2,
+                "left_unique": 2,
+                "right_unique": 2,
+                "left_repeated_rows": 0,
+                "right_repeated_rows": 0,
+                "shared_ids": 1,
+                "left_affected_rows": 1,
+                "right_affected_rows": 1,
+                "left_spaced_ids": 0,
+                "right_spaced_ids": 0
+              },
+              "shared": [
+                {
+                  "id": "b",
+                  "left": [
+                    3
+                  ],
+                  "right": [
+                    2
+                  ]
+                }
+              ],
+              "disjoint": false
+            },
+            "browser_scope": true,
+            "study_scope": true
+          },
+          "outcome": "valid",
+          "elapsed_seconds": 0.04881431700005123
+        },
+        {
+          "id": "duplicates",
+          "expected": {
+            "shared_ids": 1,
+            "shared": [
+              "a"
+            ],
+            "left_rows": 3,
+            "right_rows": 2,
+            "left_repeated_rows": 1,
+            "right_repeated_rows": 1,
+            "left_affected_rows": 2,
+            "right_affected_rows": 2
+          },
+          "observed": {
+            "accepted": true,
+            "result": {
+              "scope": "exact-utf8-id-overlap-v1",
+              "summary": {
+                "left_rows": 3,
+                "right_rows": 2,
+                "left_unique": 2,
+                "right_unique": 1,
+                "left_repeated_rows": 1,
+                "right_repeated_rows": 1,
+                "shared_ids": 1,
+                "left_affected_rows": 2,
+                "right_affected_rows": 2,
+                "left_spaced_ids": 0,
+                "right_spaced_ids": 0
+              },
+              "shared": [
+                {
+                  "id": "a",
+                  "left": [
+                    2,
+                    3
+                  ],
+                  "right": [
+                    2,
+                    3
+                  ]
+                }
+              ],
+              "disjoint": false
+            },
+            "browser_scope": true,
+            "study_scope": true
+          },
+          "outcome": "valid",
+          "elapsed_seconds": 0.039325820999920325
+        },
+        {
+          "id": "exact_identifier_semantics",
+          "expected": {
+            "shared_ids": 0,
+            "shared": [],
+            "left_rows": 2,
+            "right_rows": 2,
+            "left_repeated_rows": 0,
+            "right_repeated_rows": 0,
+            "left_affected_rows": 0,
+            "right_affected_rows": 0
+          },
+          "observed": {
+            "accepted": true,
+            "result": {
+              "scope": "exact-utf8-id-overlap-v1",
+              "summary": {
+                "left_rows": 2,
+                "right_rows": 2,
+                "left_unique": 2,
+                "right_unique": 2,
+                "left_repeated_rows": 0,
+                "right_repeated_rows": 0,
+                "shared_ids": 0,
+                "left_affected_rows": 0,
+                "right_affected_rows": 0,
+                "left_spaced_ids": 0,
+                "right_spaced_ids": 1
+              },
+              "shared": [],
+              "disjoint": true
+            },
+            "browser_scope": true,
+            "study_scope": true
+          },
+          "outcome": "valid",
+          "elapsed_seconds": 0.053700118999927327
+        },
+        {
+          "id": "quoted_id",
+          "expected": {
+            "shared_ids": 1,
+            "shared": [
+              "a,b"
+            ],
+            "left_rows": 2,
+            "right_rows": 1,
+            "left_repeated_rows": 0,
+            "right_repeated_rows": 0,
+            "left_affected_rows": 1,
+            "right_affected_rows": 1
+          },
+          "observed": {
+            "accepted": true,
+            "result": {
+              "scope": "exact-utf8-id-overlap-v1",
+              "summary": {
+                "left_rows": 2,
+                "right_rows": 1,
+                "left_unique": 2,
+                "right_unique": 1,
+                "left_repeated_rows": 0,
+                "right_repeated_rows": 0,
+                "shared_ids": 1,
+                "left_affected_rows": 1,
+                "right_affected_rows": 1,
+                "left_spaced_ids": 0,
+                "right_spaced_ids": 0
+              },
+              "shared": [
+                {
+                  "id": "a,b",
+                  "left": [
+                    2
+                  ],
+                  "right": [
+                    2
+                  ]
+                }
+              ],
+              "disjoint": false
+            },
+            "browser_scope": true,
+            "study_scope": true
+          },
+          "outcome": "valid",
+          "elapsed_seconds": 0.041322932999946715
+        },
+        {
+          "id": "unclosed_quote",
+          "expected": "reject malformed CSV",
+          "observed": {
+            "accepted": false,
+            "error": "A quoted field is not closed. Export the file as CSV again."
+          },
+          "outcome": "valid",
+          "elapsed_seconds": 0.034317043999976704
+        },
+        {
+          "id": "nonrectangular",
+          "expected": "reject malformed CSV",
+          "observed": {
+            "accepted": false,
+            "error": "Line 2 has 1 fields; the heading has 2. Export a rectangular table."
+          },
+          "outcome": "valid",
+          "elapsed_seconds": 0.03767518699999073
+        }
+      ],
+      "module_sha256": "a6f3c23acee28d74bfbfd3f69bad83f92c27a6c10a5e346dae2cf00a1e3b909b",
+      "scope": "Actual JS parser/intersection/report strings, not DOM rendering or production interface usability.",
+      "denominator": 6,
+      "eligible_denominator": 6,
+      "outcomes": {
+        "valid": 6,
+        "refuted": 0,
+        "execution_error": 0,
+        "unsupported": 0,
+        "reference_error": 0
+      }
+    }
+  },
+  "interpretation": "Capability-specific conformance controls only. No external biological validity claim, fresh Lean proof replay, hidden labels, LLM performance claim or cross-system leaderboard.",
+  "security_scope": "Known local tools only, minimal child environment and timeout; not a sandbox for arbitrary submitted programs."
+}

@@ -1,0 +1,18 @@
+{
+  "files": {
+    "data/1CRN.pdb": "42199a30a0701864a2a5cc76cd7f35cc544cd0e65fbcf63e03c166543249b811",
+    "data/iris.data": "6f608b71a7317216319b4d27b4d9bc84e6abd734eda7872b71a458569e2656c0",
+    "data/iris.names": "71a09fb3ee237614cdb9c09d06e8ae1f610ce2a274c0d77272fea8a233e5eea3",
+    "data/iris.zip": "d11fe30213d36434a0879aab7cb00ce3c812eb7ba2495874438abff7b7b762e9",
+    "data/protocol.json": "650eb39fd263a827a45562615f1465d0194772b41675561853addc0e5f583eee",
+    "data/registry.json": "d3e81f4a5da204d6ab62bbb628e78143f6f31fc24cad69666cf32d9573c15121",
+    "data/tasks.json": "ab75db8ec142859ece2d54279de437f8b29dc5dac6f8c1221155c5b248ffeee2",
+    "docs/reference_protocol.md": "4e6a8c353bc31c86008504b312663ef50be94e3977e76da03265bcf158a93403",
+    "src/svb/baselines.py": "3b796c6d0fc358597ab6e472dac453328dcef36f2c009f5a34e68848dfa3ef29",
+    "src/svb/cli.py": "58f68df27ff4cfc931a4b58f2ad6fad7d537df168e6a33ebd0629b9486d42a55",
+    "src/svb/core.py": "f74df7a0a069ebe6b59fa20a2516eb28b3cfef43f91a985dd4e8b9e97e0cbfb6"
+  },
+  "protected_holdout": false,
+  "state": "frozen-public",
+  "version": "0.1.0"
+}

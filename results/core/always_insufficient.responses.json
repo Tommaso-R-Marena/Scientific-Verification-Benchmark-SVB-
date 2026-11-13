@@ -1,0 +1,347 @@
+[
+  {
+    "confidence": {
+      "computationally_established": 0.0,
+      "disputed_or_unresolved": 0.0,
+      "empirically_supported": 0.0,
+      "formally_established": 0.0,
+      "insufficient_evidence": 1.0,
+      "refuted": 0.0
+    },
+    "id": "M03",
+    "label": "insufficient_evidence",
+    "reason": "Always return insufficient evidence.",
+    "scopes": [],
+    "status": "ok"
+  },
+  {
+    "confidence": {
+      "computationally_established": 0.0,
+      "disputed_or_unresolved": 0.0,
+      "empirically_supported": 0.0,
+      "formally_established": 0.0,
+      "insufficient_evidence": 1.0,
+      "refuted": 0.0
+    },
+    "id": "M04",
+    "label": "insufficient_evidence",
+    "reason": "Always return insufficient evidence.",
+    "scopes": [],
+    "status": "ok"
+  },
+  {
+    "confidence": {
+      "computationally_established": 0.0,
+      "disputed_or_unresolved": 0.0,
+      "empirically_supported": 0.0,
+      "formally_established": 0.0,
+      "insufficient_evidence": 1.0,
+      "refuted": 0.0
+    },
+    "id": "M05",
+    "label": "insufficient_evidence",
+    "reason": "Always return insufficient evidence.",
+    "scopes": [],
+    "status": "ok"
+  },
+  {
+    "confidence": {
+      "computationally_established": 0.0,
+      "disputed_or_unresolved": 0.0,
+      "empirically_supported": 0.0,
+      "formally_established": 0.0,
+      "insufficient_evidence": 1.0,
+      "refuted": 0.0
+    },
+    "id": "M06",
+    "label": "insufficient_evidence",
+    "reason": "Always return insufficient evidence.",
+    "scopes": [],
+    "status": "ok"
+  },
+  {
+    "confidence": {
+      "computationally_established": 0.0,
+      "disputed_or_unresolved": 0.0,
+      "empirically_supported": 0.0,
+      "formally_established": 0.0,
+      "insufficient_evidence": 1.0,
+      "refuted": 0.0
+    },
+    "id": "C02",
+    "label": "insufficient_evidence",
+    "reason": "Always return insufficient evidence.",
+    "scopes": [],
+    "status": "ok"
+  },
+  {
+    "confidence": {
+      "computationally_established": 0.0,
+      "disputed_or_unresolved": 0.0,
+      "empirically_supported": 0.0,
+      "formally_established": 0.0,
+      "insufficient_evidence": 1.0,
+      "refuted": 0.0
+    },
+    "id": "C04",
+    "label": "insufficient_evidence",
+    "reason": "Always return insufficient evidence.",
+    "scopes": [],
+    "status": "ok"
+  },
+  {
+    "confidence": {
+      "computationally_established": 0.0,
+      "disputed_or_unresolved": 0.0,
+      "empirically_supported": 0.0,
+      "formally_established": 0.0,
+      "insufficient_evidence": 1.0,
+      "refuted": 0.0
+    },
+    "id": "C05",
+    "label": "insufficient_evidence",
+    "reason": "Always return insufficient evidence.",
+    "scopes": [],
+    "status": "ok"
+  },
+  {
+    "confidence": {
+      "computationally_established": 0.0,
+      "disputed_or_unresolved": 0.0,
+      "empirically_supported": 0.0,
+      "formally_established": 0.0,
+      "insufficient_evidence": 1.0,
+      "refuted": 0.0
+    },
+    "id": "C06",
+    "label": "insufficient_evidence",
+    "reason": "Always return insufficient evidence.",
+    "scopes": [],
+    "status": "ok"
+  },
+  {
+    "confidence": {
+      "computationally_established": 0.0,
+      "disputed_or_unresolved": 0.0,
+      "empirically_supported": 0.0,
+      "formally_established": 0.0,
+      "insufficient_evidence": 1.0,
+      "refuted": 0.0
+    },
+    "id": "S02",
+    "label": "insufficient_evidence",
+    "reason": "Always return insufficient evidence.",
+    "scopes": [],
+    "status": "ok"
+  },
+  {
+    "confidence": {
+      "computationally_established": 0.0,
+      "disputed_or_unresolved": 0.0,
+      "empirically_supported": 0.0,
+      "formally_established": 0.0,
+      "insufficient_evidence": 1.0,
+      "refuted": 0.0
+    },
+    "id": "S03",
+    "label": "insufficient_evidence",
+    "reason": "Always return insufficient evidence.",
+    "scopes": [],
+    "status": "ok"
+  },
+  {
+    "confidence": {
+      "computationally_established": 0.0,
+      "disputed_or_unresolved": 0.0,
+      "empirically_supported": 0.0,
+      "formally_established": 0.0,
+      "insufficient_evidence": 1.0,
+      "refuted": 0.0
+    },
+    "id": "S04",
+    "label": "insufficient_evidence",
+    "reason": "Always return insufficient evidence.",
+    "scopes": [],
+    "status": "ok"
+  },
+  {
+    "confidence": {
+      "computationally_established": 0.0,
+      "disputed_or_unresolved": 0.0,
+      "empirically_supported": 0.0,
+      "formally_established": 0.0,
+      "insufficient_evidence": 1.0,
+      "refuted": 0.0
+    },
+    "id": "S05",
+    "label": "insufficient_evidence",
+    "reason": "Always return insufficient evidence.",
+    "scopes": [],
+    "status": "ok"
+  },
+  {
+    "confidence": {
+      "computationally_established": 0.0,
+      "disputed_or_unresolved": 0.0,
+      "empirically_supported": 0.0,
+      "formally_established": 0.0,
+      "insufficient_evidence": 1.0,
+      "refuted": 0.0
+    },
+    "id": "B03",
+    "label": "insufficient_evidence",
+    "reason": "Always return insufficient evidence.",
+    "scopes": [],
+    "status": "ok"
+  },
+  {
+    "confidence": {
+      "computationally_established": 0.0,
+      "disputed_or_unresolved": 0.0,
+      "empirically_supported": 0.0,
+      "formally_established": 0.0,
+      "insufficient_evidence": 1.0,
+      "refuted": 0.0
+    },
+    "id": "B04",
+    "label": "insufficient_evidence",
+    "reason": "Always return insufficient evidence.",
+    "scopes": [],
+    "status": "ok"
+  },
+  {
+    "confidence": {
+      "computationally_established": 0.0,
+      "disputed_or_unresolved": 0.0,
+      "empirically_supported": 0.0,
+      "formally_established": 0.0,
+      "insufficient_evidence": 1.0,
+      "refuted": 0.0
+    },
+    "id": "B05",
+    "label": "insufficient_evidence",
+    "reason": "Always return insufficient evidence.",
+    "scopes": [],
+    "status": "ok"
+  },
+  {
+    "confidence": {
+      "computationally_established": 0.0,
+      "disputed_or_unresolved": 0.0,
+      "empirically_supported": 0.0,
+      "formally_established": 0.0,
+      "insufficient_evidence": 1.0,
+      "refuted": 0.0
+    },
+    "id": "P02",
+    "label": "insufficient_evidence",
+    "reason": "Always return insufficient evidence.",
+    "scopes": [],
+    "status": "ok"
+  },
+  {
+    "confidence": {
+      "computationally_established": 0.0,
+      "disputed_or_unresolved": 0.0,
+      "empirically_supported": 0.0,
+      "formally_established": 0.0,
+      "insufficient_evidence": 1.0,
+      "refuted": 0.0
+    },
+    "id": "P03",
+    "label": "insufficient_evidence",
+    "reason": "Always return insufficient evidence.",
+    "scopes": [],
+    "status": "ok"
+  },
+  {
+    "confidence": {
+      "computationally_established": 0.0,
+      "disputed_or_unresolved": 0.0,
+      "empirically_supported": 0.0,
+      "formally_established": 0.0,
+      "insufficient_evidence": 1.0,
+      "refuted": 0.0
+    },
+    "id": "P04",
+    "label": "insufficient_evidence",
+    "reason": "Always return insufficient evidence.",
+    "scopes": [],
+    "status": "ok"
+  },
+  {
+    "confidence": {
+      "computationally_established": 0.0,
+      "disputed_or_unresolved": 0.0,
+      "empirically_supported": 0.0,
+      "formally_established": 0.0,
+      "insufficient_evidence": 1.0,
+      "refuted": 0.0
+    },
+    "id": "A02",
+    "label": "insufficient_evidence",
+    "reason": "Always return insufficient evidence.",
+    "scopes": [],
+    "status": "ok"
+  },
+  {
+    "confidence": {
+      "computationally_established": 0.0,
+      "disputed_or_unresolved": 0.0,
+      "empirically_supported": 0.0,
+      "formally_established": 0.0,
+      "insufficient_evidence": 1.0,
+      "refuted": 0.0
+    },
+    "id": "A03",
+    "label": "insufficient_evidence",
+    "reason": "Always return insufficient evidence.",
+    "scopes": [],
+    "status": "ok"
+  },
+  {
+    "confidence": {
+      "computationally_established": 0.0,
+      "disputed_or_unresolved": 0.0,
+      "empirically_supported": 0.0,
+      "formally_established": 0.0,
+      "insufficient_evidence": 1.0,
+      "refuted": 0.0
+    },
+    "id": "A04",
+    "label": "insufficient_evidence",
+    "reason": "Always return insufficient evidence.",
+    "scopes": [],
+    "status": "ok"
+  },
+  {
+    "confidence": {
+      "computationally_established": 0.0,
+      "disputed_or_unresolved": 0.0,
+      "empirically_supported": 0.0,
+      "formally_established": 0.0,
+      "insufficient_evidence": 1.0,
+      "refuted": 0.0
+    },
+    "id": "A05",
+    "label": "insufficient_evidence",
+    "reason": "Always return insufficient evidence.",
+    "scopes": [],
+    "status": "ok"
+  },
+  {
+    "confidence": {
+      "computationally_established": 0.0,
+      "disputed_or_unresolved": 0.0,
+      "empirically_supported": 0.0,
+      "formally_established": 0.0,
+      "insufficient_evidence": 1.0,
+      "refuted": 0.0
+    },
+    "id": "U01",
+    "label": "insufficient_evidence",
+    "reason": "Always return insufficient evidence.",
+    "scopes": [],
+    "status": "ok"
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "version":"0.1.0",
+  "design":"Public purposive pilot; freeze before first scored core comparison, no protected holdout",
+  "seed":0,
+  "primary_contrast":"calculation_only versus scope_gated on missing-bridge and strict-JSON controls; same floating-point algorithm in both",
+  "hypothesis":"Removing an explicit missing-evidence gate causes false acceptance on authored missing-bridge controls; adding the gate does not fix numerical instability",
+  "baselines":["always_accept","always_insufficient","always_unsupported","calculation_only","scope_gated"],
+  "baseline_constraints":"Public structured task only; never reference labels, expected_response or criteria. Built-in known counterexample patterns; not general reasoning agents.",
+  "float_tolerance":{"relative":1e-12,"absolute":1e-12,"note":"Baseline tolerance heuristic only; exact rational references use equality"},
+  "evaluation_split":"evaluation",
+  "excluded":"scored=false open question retained in raw rows",
+  "metrics":["all-task accuracy","answered coverage","false accept/nonaccept reference","false rejection/accept reference","scope overclaims","accepted risk","Brier mean on answered items"],
+  "intervals":"Wilson 95% descriptive only under hypothetical iid Bernoulli assumptions; no population inference or superiority p-value on this purposive dependent set",
+  "no_tuning":"No labels or task selection changes after first core scored run; any future change requires version bump and preserved previous artifacts",
+  "no_AI_claim":"Baselines are deterministic engineered controls, not paid APIs, LLMs or deployed scientific verification systems",
+  "system_evaluations":"Separate capability protocols with no pooled leaderboard; source snapshots and exploratory reference-error correction disclosed"
+}

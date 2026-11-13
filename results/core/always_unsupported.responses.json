@@ -1,0 +1,186 @@
+[
+  {
+    "confidence": null,
+    "id": "M03",
+    "label": null,
+    "reason": "No claimed capability.",
+    "scopes": [],
+    "status": "unsupported"
+  },
+  {
+    "confidence": null,
+    "id": "M04",
+    "label": null,
+    "reason": "No claimed capability.",
+    "scopes": [],
+    "status": "unsupported"
+  },
+  {
+    "confidence": null,
+    "id": "M05",
+    "label": null,
+    "reason": "No claimed capability.",
+    "scopes": [],
+    "status": "unsupported"
+  },
+  {
+    "confidence": null,
+    "id": "M06",
+    "label": null,
+    "reason": "No claimed capability.",
+    "scopes": [],
+    "status": "unsupported"
+  },
+  {
+    "confidence": null,
+    "id": "C02",
+    "label": null,
+    "reason": "No claimed capability.",
+    "scopes": [],
+    "status": "unsupported"
+  },
+  {
+    "confidence": null,
+    "id": "C04",
+    "label": null,
+    "reason": "No claimed capability.",
+    "scopes": [],
+    "status": "unsupported"
+  },
+  {
+    "confidence": null,
+    "id": "C05",
+    "label": null,
+    "reason": "No claimed capability.",
+    "scopes": [],
+    "status": "unsupported"
+  },
+  {
+    "confidence": null,
+    "id": "C06",
+    "label": null,
+    "reason": "No claimed capability.",
+    "scopes": [],
+    "status": "unsupported"
+  },
+  {
+    "confidence": null,
+    "id": "S02",
+    "label": null,
+    "reason": "No claimed capability.",
+    "scopes": [],
+    "status": "unsupported"
+  },
+  {
+    "confidence": null,
+    "id": "S03",
+    "label": null,
+    "reason": "No claimed capability.",
+    "scopes": [],
+    "status": "unsupported"
+  },
+  {
+    "confidence": null,
+    "id": "S04",
+    "label": null,
+    "reason": "No claimed capability.",
+    "scopes": [],
+    "status": "unsupported"
+  },
+  {
+    "confidence": null,
+    "id": "S05",
+    "label": null,
+    "reason": "No claimed capability.",
+    "scopes": [],
+    "status": "unsupported"
+  },
+  {
+    "confidence": null,
+    "id": "B03",
+    "label": null,
+    "reason": "No claimed capability.",
+    "scopes": [],
+    "status": "unsupported"
+  },
+  {
+    "confidence": null,
+    "id": "B04",
+    "label": null,
+    "reason": "No claimed capability.",
+    "scopes": [],
+    "status": "unsupported"
+  },
+  {
+    "confidence": null,
+    "id": "B05",
+    "label": null,
+    "reason": "No claimed capability.",
+    "scopes": [],
+    "status": "unsupported"
+  },
+  {
+    "confidence": null,
+    "id": "P02",
+    "label": null,
+    "reason": "No claimed capability.",
+    "scopes": [],
+    "status": "unsupported"
+  },
+  {
+    "confidence": null,
+    "id": "P03",
+    "label": null,
+    "reason": "No claimed capability.",
+    "scopes": [],
+    "status": "unsupported"
+  },
+  {
+    "confidence": null,
+    "id": "P04",
+    "label": null,
+    "reason": "No claimed capability.",
+    "scopes": [],
+    "status": "unsupported"
+  },
+  {
+    "confidence": null,
+    "id": "A02",
+    "label": null,
+    "reason": "No claimed capability.",
+    "scopes": [],
+    "status": "unsupported"
+  },
+  {
+    "confidence": null,
+    "id": "A03",
+    "label": null,
+    "reason": "No claimed capability.",
+    "scopes": [],
+    "status": "unsupported"
+  },
+  {
+    "confidence": null,
+    "id": "A04",
+    "label": null,
+    "reason": "No claimed capability.",
+    "scopes": [],
+    "status": "unsupported"
+  },
+  {
+    "confidence": null,
+    "id": "A05",
+    "label": null,
+    "reason": "No claimed capability.",
+    "scopes": [],
+    "status": "unsupported"
+  },
+  {
+    "confidence": null,
+    "id": "U01",
+    "label": null,
+    "reason": "No claimed capability.",
+    "scopes": [],
+    "status": "unsupported"
+  }
+]

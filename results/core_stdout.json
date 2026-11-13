@@ -1,0 +1,155 @@
+{
+  "always_accept": {
+    "accept_reference_n": 4,
+    "accepted_n": 22,
+    "accepted_risk": 0.8636363636363636,
+    "accuracy_all": 0.13636363636363635,
+    "accuracy_answered": 0.13636363636363635,
+    "accuracy_wilson95_descriptive": [
+      0.04749003714055253,
+      0.33334987166571717
+    ],
+    "confusion": {
+      "computationally_established -> computationally_established": 3,
+      "formally_established -> computationally_established": 1,
+      "insufficient_evidence -> computationally_established": 10,
+      "refuted -> computationally_established": 8
+    },
+    "correct": 3,
+    "correct_insufficient": 0,
+    "coverage": 1.0,
+    "false_accept_count": 18,
+    "false_accept_rate": 1.0,
+    "false_reject_count": 0,
+    "mean_brier_answered": 1.7272727272727273,
+    "n": 22,
+    "nonaccept_reference_n": 18,
+    "scope_overclaims": 8,
+    "statuses": {
+      "ok": 22
+    }
+  },
+  "always_insufficient": {
+    "accept_reference_n": 4,
+    "accepted_n": 0,
+    "accepted_risk": null,
+    "accuracy_all": 0.45454545454545453,
+    "accuracy_answered": 0.45454545454545453,
+    "accuracy_wilson95_descriptive": [
+      0.2692029418081331,
+      0.6534020467926505
+    ],
+    "confusion": {
+      "computationally_established -> insufficient_evidence": 3,
+      "formally_established -> insufficient_evidence": 1,
+      "insufficient_evidence -> insufficient_evidence": 10,
+      "refuted -> insufficient_evidence": 8
+    },
+    "correct": 10,
+    "correct_insufficient": 10,
+    "coverage": 1.0,
+    "false_accept_count": 0,
+    "false_accept_rate": 0.0,
+    "false_reject_count": 0,
+    "mean_brier_answered": 1.0909090909090908,
+    "n": 22,
+    "nonaccept_reference_n": 18,
+    "scope_overclaims": 0,
+    "statuses": {
+      "ok": 22
+    }
+  },
+  "always_unsupported": {
+    "accept_reference_n": 4,
+    "accepted_n": 0,
+    "accepted_risk": null,
+    "accuracy_all": 0.0,
+    "accuracy_answered": null,
+    "accuracy_wilson95_descriptive": [
+      0.0,
+      0.14865487460862087
+    ],
+    "confusion": {
+      "computationally_established -> unsupported": 3,
+      "formally_established -> unsupported": 1,
+      "insufficient_evidence -> unsupported": 10,
+      "refuted -> unsupported": 8
+    },
+    "correct": 0,
+    "correct_insufficient": 0,
+    "coverage": 0.0,
+    "false_accept_count": 0,
+    "false_accept_rate": 0.0,
+    "false_reject_count": 0,
+    "mean_brier_answered": null,
+    "n": 22,
+    "nonaccept_reference_n": 18,
+    "scope_overclaims": 0,
+    "statuses": {
+      "unsupported": 22
+    }
+  },
+  "calculation_only": {
+    "accept_reference_n": 4,
+    "accepted_n": 14,
+    "accepted_risk": 0.7857142857142857,
+    "accuracy_all": 0.45454545454545453,
+    "accuracy_answered": 0.45454545454545453,
+    "accuracy_wilson95_descriptive": [
+      0.2692029418081331,
+      0.6534020467926505
+    ],
+    "confusion": {
+      "computationally_established -> computationally_established": 2,
+      "computationally_established -> refuted": 1,
+      "formally_established -> formally_established": 1,
+      "insufficient_evidence -> computationally_established": 10,
+      "refuted -> computationally_established": 1,
+      "refuted -> refuted": 7
+    },
+    "correct": 10,
+    "correct_insufficient": 0,
+    "coverage": 1.0,
+    "false_accept_count": 11,
+    "false_accept_rate": 0.6111111111111112,
+    "false_reject_count": 1,
+    "mean_brier_answered": 1.0909090909090908,
+    "n": 22,
+    "nonaccept_reference_n": 18,
+    "scope_overclaims": 10,
+    "statuses": {
+      "ok": 22
+    }
+  },
+  "scope_gated": {
+    "accept_reference_n": 4,
+    "accepted_n": 3,
+    "accepted_risk": 0.0,
+    "accuracy_all": 0.9545454545454546,
+    "accuracy_answered": 0.9545454545454546,
+    "accuracy_wilson95_descriptive": [
+      0.7820195416134267,
+      0.991930572378736
+    ],
+    "confusion": {
+      "computationally_established -> computationally_established": 2,
+      "computationally_established -> refuted": 1,
+      "formally_established -> formally_established": 1,
+      "insufficient_evidence -> insufficient_evidence": 10,
+      "refuted -> refuted": 8
+    },
+    "correct": 21,
+    "correct_insufficient": 10,
+    "coverage": 1.0,
+    "false_accept_count": 0,
+    "false_accept_rate": 0.0,
+    "false_reject_count": 1,
+    "mean_brier_answered": 0.09090909090909091,
+    "n": 22,
+    "nonaccept_reference_n": 18,
+    "scope_overclaims": 0,
+    "statuses": {
+      "ok": 22
+    }
+  }
+}

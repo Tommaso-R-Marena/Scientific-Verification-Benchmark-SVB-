@@ -1,0 +1,150 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SVB response v0.1.0",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "status",
+    "label",
+    "scopes",
+    "confidence",
+    "reason"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "status": {
+      "enum": [
+        "ok",
+        "unsupported",
+        "execution_error"
+      ]
+    },
+    "label": {
+      "enum": [
+        "formally_established",
+        "computationally_established",
+        "empirically_supported",
+        "refuted",
+        "insufficient_evidence",
+        "disputed_or_unresolved",
+        null
+      ]
+    },
+    "scopes": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "enum": [
+          "mathematical",
+          "computational",
+          "numerical",
+          "statistical",
+          "model",
+          "empirical",
+          "provenance",
+          "epistemic"
+        ]
+      }
+    },
+    "confidence": {
+      "oneOf": [
+        {
+          "type": "null"
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "formally_established",
+            "computationally_established",
+            "empirically_supported",
+            "refuted",
+            "insufficient_evidence",
+            "disputed_or_unresolved"
+          ],
+          "properties": {
+            "formally_established": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "computationally_established": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "empirically_supported": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "refuted": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "insufficient_evidence": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "disputed_or_unresolved": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            }
+          }
+        }
+      ]
+    },
+    "reason": {
+      "type": "string",
+      "maxLength": 10000
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "status": {
+            "const": "ok"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "label": {
+            "enum": [
+              "formally_established",
+              "computationally_established",
+              "empirically_supported",
+              "refuted",
+              "insufficient_evidence",
+              "disputed_or_unresolved"
+            ]
+          },
+          "confidence": {
+            "type": "object"
+          }
+        }
+      },
+      "else": {
+        "properties": {
+          "label": {
+            "type": "null"
+          },
+          "confidence": {
+            "type": "null"
+          },
+          "scopes": {
+            "maxItems": 0
+          }
+        }
+      }
+    }
+  ],
+  "description": "Runtime additionally enforces finite numbers, probability sum one, argmax consistency, ID uniqueness and no unknown IDs. Duplicate JSON keys rejected before schema admission."
+}

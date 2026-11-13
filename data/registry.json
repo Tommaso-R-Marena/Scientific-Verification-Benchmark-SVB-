@@ -1,0 +1,39 @@
+{
+  "sources": {
+    "crambin": {
+      "doi": "10.2210/pdb1CRN/pdb",
+      "license": "CC0-1.0",
+      "license_url": "https://www.rcsb.org/pages/policies",
+      "path": "data/1CRN.pdb",
+      "retrieved": "2026-11-13",
+      "sha256": "42199a30a0701864a2a5cc76cd7f35cc544cd0e65fbcf63e03c166543249b811",
+      "title": "PDB 1CRN, deposited crambin structure",
+      "transform": "Fixed-width ATOM CA chain A coordinates; decimal coordinates treated exactly only as stored model values, not physical precision.",
+      "url": "https://files.rcsb.org/download/1CRN.pdb"
+    },
+    "exact": {
+      "license": "Apache-2.0",
+      "method": "Exact rational arithmetic or explicit finite countermodel; no evaluated-system output",
+      "origin": "data/tasks.json",
+      "title": "SVB authored finite mathematical specifications"
+    },
+    "iris": {
+      "doi": "10.24432/C56C76",
+      "license": "CC-BY-4.0",
+      "license_url": "https://archive.ics.uci.edu/dataset/53/iris",
+      "path": "data/iris.data",
+      "retrieved": "2026-11-13",
+      "sha256": "6f608b71a7317216319b4d27b4d9bc84e6abd734eda7872b71a458569e2656c0",
+      "title": "UCI Iris, iris.data archive variant",
+      "transform": "Extract iris.data without normalization; not bezdekIris.data. iris.names documents historical discrepancies; do not equate with exact Fisher original.",
+      "url": "https://archive.ics.uci.edu/static/public/53/iris.zip"
+    },
+    "scope": {
+      "license": "Apache-2.0",
+      "method": "Review explicit missing bridge and competing compatible explanations; not empirical adjudication by algorithm",
+      "origin": "docs/reference_protocol.md",
+      "title": "SVB authored alternative-world sufficiency judgments"
+    }
+  },
+  "version": "0.1.0"
+}

@@ -1,0 +1,85 @@
+{
+  "evidence_sha256": {
+    "data/manifest.json": "02416396351f789f671b5ab678af98843d56c4f999544b0da4af701e497f99cb",
+    "data/system_protocol.json": "8c6b85928370f721a81e478174a99c0510ab7b3b07c5789a8aa753c83908ea48",
+    "data/system_protocol.v1.json": "f8ba4074599992a874f0a29e23a6b5fc521c64769a034171e55c49ac0be166e6",
+    "results/ablations.json": "dfa917aa7dbf189b09550bd04c93b454de3a0e842942e956066362de8e12a715",
+    "results/core/baselines.json": "0956dccf8a65bd43c4ce275d6f5d365c695b7527b34bb80913f9bfef426fc8f0",
+    "results/core/summary.csv": "b3ae3f8ec6ae0c509015bb89e9b38d66c7893cca0094dde2cf33e7d6dedaac51",
+    "results/lean_scope.log": "b6e4724a11afe48daf791685ca00af27934efac9281cfd78cea24987040791a1",
+    "results/subject_integrity.json": "4c4ce48758b919e2cc2c1256ab993a18aac14187a6d3a1719bf841f04fcabc18",
+    "results/system_summary.json": "7561d31c09b58e707124f9100fb25ac4621f11eabcd5006515ba13ed07edc397",
+    "results/tests.log": "ae42a5ed9aba537d6b732cc36b6e0c78b7e94b611db30dc413a4c6a472ec8383",
+    "theory/Scope.lean": "2442a6b42d8dc74513d5c4bc4272bea4409eb926a154c2cd883c15f3595b0717"
+  },
+  "executed": {
+    "core_experiment": {
+      "byte_identical_repeat": true,
+      "command": "PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=src python3 -m svb.cli experiment --output results/local/repeat",
+      "dev": 11,
+      "open_unscored": 1,
+      "scored_items": 22
+    },
+    "lean": {
+      "command": "lean theory/Scope.lean",
+      "result": "scope_preservation and excluded_type depend on no axioms",
+      "scope": "unary rule-closure conditional invariants only",
+      "toolchain": "Lean 4.28.0"
+    },
+    "subjects": "tracked bytes/HEAD/status unchanged",
+    "systems": {
+      "evidence": "results/system_summary.json",
+      "foldbounds": "18/18 related small-model controls",
+      "pcs": "3/3 eligible of four observed; one reference_error retained",
+      "site": "6/6 module controls"
+    },
+    "tests": {
+      "command": "PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=src python3 -m unittest discover -s tests -v",
+      "evidence": "results/tests.log",
+      "failed": 0,
+      "passed": 36
+    }
+  },
+  "implemented": [
+    "strict data-only registry/task/response admission",
+    "exact references and explicit scope-judgment annotations",
+    "five diagnostic baselines",
+    "separate real-system conformance adapters",
+    "confidence/confusion/coverage/scope metrics",
+    "frozen code/data protocol",
+    "small independent Lean closure proof"
+  ],
+  "initial_failures_and_corrections": [
+    {
+      "correction": "registered source path confinement before core freeze",
+      "evidence": "docs/adversarial_review.md; audit tests",
+      "failure": "checker path escape accepted ../ and absolute paths"
+    },
+    {
+      "correction": "same-family groups entirely development before core freeze",
+      "failure": "paired unit-conversion/two-state controls across splits"
+    },
+    {
+      "correction": "reference_error, not subject defect; initial protocol retained; eligible denominator excludes it",
+      "evidence": "data/system_protocol.v1.json; results/system_summary.json",
+      "failure": "PCS failed_observation expected rejection but actual builtin recomputation accepted"
+    }
+  ],
+  "negative_results": [
+    "Numerical cancellation C04 remains wrong in scope_gated baseline",
+    "No general AI/model performance measured",
+    "No empirical biological validation",
+    "No independent human/expert adjudication",
+    "No genuine novel theorem established",
+    "No protected heldout data",
+    "Literature retrieval metadata/abstracts only"
+  ],
+  "proposed_unvalidated": [
+    "protected evaluation",
+    "external expert adjudication",
+    "real LLM experiments",
+    "biophysical empirical positives",
+    "hard OS sandbox for executable submissions"
+  ],
+  "version": "0.1.0"
+}

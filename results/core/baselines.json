@@ -1,0 +1,3246 @@
+{
+  "baselines": {
+    "always_accept": {
+      "by_difficulty": {
+        "conceptual": {
+          "accept_reference_n": 0,
+          "accepted_n": 10,
+          "accepted_risk": 1.0,
+          "accuracy_all": 0.0,
+          "accuracy_answered": 0.0,
+          "accuracy_wilson95_descriptive": [
+            0.0,
+            0.2775327998628892
+          ],
+          "confusion": {
+            "insufficient_evidence -> computationally_established": 10
+          },
+          "correct": 0,
+          "correct_insufficient": 0,
+          "coverage": 1.0,
+          "false_accept_count": 10,
+          "false_accept_rate": 1.0,
+          "false_reject_count": 0,
+          "mean_brier_answered": 2.0,
+          "n": 10,
+          "nonaccept_reference_n": 10,
+          "scope_overclaims": 3,
+          "statuses": {
+            "ok": 10
+          }
+        },
+        "finite": {
+          "accept_reference_n": 4,
+          "accepted_n": 12,
+          "accepted_risk": 0.75,
+          "accuracy_all": 0.25,
+          "accuracy_answered": 0.25,
+          "accuracy_wilson95_descriptive": [
+            0.08894166839405471,
+            0.5323053349335657
+          ],
+          "confusion": {
+            "computationally_established -> computationally_established": 3,
+            "formally_established -> computationally_established": 1,
+            "refuted -> computationally_established": 8
+          },
+          "correct": 3,
+          "correct_insufficient": 0,
+          "coverage": 1.0,
+          "false_accept_count": 8,
+          "false_accept_rate": 1.0,
+          "false_reject_count": 0,
+          "mean_brier_answered": 1.5,
+          "n": 12,
+          "nonaccept_reference_n": 8,
+          "scope_overclaims": 5,
+          "statuses": {
+            "ok": 12
+          }
+        }
+      },
+      "by_domain": {
+        "biophysics": {
+          "accept_reference_n": 1,
+          "accepted_n": 3,
+          "accepted_risk": 0.6666666666666666,
+          "accuracy_all": 0.3333333333333333,
+          "accuracy_answered": 0.3333333333333333,
+          "accuracy_wilson95_descriptive": [
+            0.06149194472039621,
+            0.7923403991979522
+          ],
+          "confusion": {
+            "computationally_established -> computationally_established": 1,
+            "insufficient_evidence -> computationally_established": 2
+          },
+          "correct": 1,
+          "correct_insufficient": 0,
+          "coverage": 1.0,
+          "false_accept_count": 2,
+          "false_accept_rate": 1.0,
+          "false_reject_count": 0,
+          "mean_brier_answered": 1.3333333333333333,
+          "n": 3,
+          "nonaccept_reference_n": 2,
+          "scope_overclaims": 0,
+          "statuses": {
+            "ok": 3
+          }
+        },
+        "computation": {
+          "accept_reference_n": 2,
+          "accepted_n": 4,
+          "accepted_risk": 0.5,
+          "accuracy_all": 0.5,
+          "accuracy_answered": 0.5,
+          "accuracy_wilson95_descriptive": [
+            0.15003898915214947,
+            0.8499610108478506
+          ],
+          "confusion": {
+            "computationally_established -> computationally_established": 2,
+            "refuted -> computationally_established": 2
+          },
+          "correct": 2,
+          "correct_insufficient": 0,
+          "coverage": 1.0,
+          "false_accept_count": 2,
+          "false_accept_rate": 1.0,
+          "false_reject_count": 0,
+          "mean_brier_answered": 1.0,
+          "n": 4,
+          "nonaccept_reference_n": 2,
+          "scope_overclaims": 0,
+          "statuses": {
+            "ok": 4
+          }
+        },
+        "mathematics": {
+          "accept_reference_n": 1,
+          "accepted_n": 4,
+          "accepted_risk": 1.0,
+          "accuracy_all": 0.0,
+          "accuracy_answered": 0.0,
+          "accuracy_wilson95_descriptive": [
+            0.0,
+            0.4898908364545973
+          ],
+          "confusion": {
+            "formally_established -> computationally_established": 1,
+            "refuted -> computationally_established": 3
+          },
+          "correct": 0,
+          "correct_insufficient": 0,
+          "coverage": 1.0,
+          "false_accept_count": 3,
+          "false_accept_rate": 1.0,
+          "false_reject_count": 0,
+          "mean_brier_answered": 2.0,
+          "n": 4,
+          "nonaccept_reference_n": 3,
+          "scope_overclaims": 4,
+          "statuses": {
+            "ok": 4
+          }
+        },
+        "provenance": {
+          "accept_reference_n": 0,
+          "accepted_n": 3,
+          "accepted_risk": 1.0,
+          "accuracy_all": 0.0,
+          "accuracy_answered": 0.0,
+          "accuracy_wilson95_descriptive": [
+            5.551115123125783e-17,
+            0.5614970317550454
+          ],
+          "confusion": {
+            "insufficient_evidence -> computationally_established": 2,
+            "refuted -> computationally_established": 1
+          },
+          "correct": 0,
+          "correct_insufficient": 0,
+          "coverage": 1.0,
+          "false_accept_count": 3,
+          "false_accept_rate": 1.0,
+          "false_reject_count": 0,
+          "mean_brier_answered": 2.0,
+          "n": 3,
+          "nonaccept_reference_n": 3,
+          "scope_overclaims": 0,
+          "statuses": {
+            "ok": 3
+          }
+        },
+        "safety": {
+          "accept_reference_n": 0,
+          "accepted_n": 4,
+          "accepted_risk": 1.0,
+          "accuracy_all": 0.0,
+          "accuracy_answered": 0.0,
+          "accuracy_wilson95_descriptive": [
+            0.0,
+            0.4898908364545973
+          ],
+          "confusion": {
+            "insufficient_evidence -> computationally_established": 3,
+            "refuted -> computationally_established": 1
+          },
+          "correct": 0,
+          "correct_insufficient": 0,
+          "coverage": 1.0,
+          "false_accept_count": 4,
+          "false_accept_rate": 1.0,
+          "false_reject_count": 0,
+          "mean_brier_answered": 2.0,
+          "n": 4,
+          "nonaccept_reference_n": 4,
+          "scope_overclaims": 1,
+          "statuses": {
+            "ok": 4
+          }
+        },
+        "statistics": {
+          "accept_reference_n": 0,
+          "accepted_n": 4,
+          "accepted_risk": 1.0,
+          "accuracy_all": 0.0,
+          "accuracy_answered": 0.0,
+          "accuracy_wilson95_descriptive": [
+            0.0,
+            0.4898908364545973
+          ],
+          "confusion": {
+            "insufficient_evidence -> computationally_established": 3,
+            "refuted -> computationally_established": 1
+          },
+          "correct": 0,
+          "correct_insufficient": 0,
+          "coverage": 1.0,
+          "false_accept_count": 4,
+          "false_accept_rate": 1.0,
+          "false_reject_count": 0,
+          "mean_brier_answered": 2.0,
+          "n": 4,
+          "nonaccept_reference_n": 4,
+          "scope_overclaims": 3,
+          "statuses": {
+            "ok": 4
+          }
+        }
+      },
+      "by_severity": {
+        "high": {
+          "accept_reference_n": 0,
+          "accepted_n": 11,
+          "accepted_risk": 1.0,
+          "accuracy_all": 0.0,
+          "accuracy_answered": 0.0,
+          "accuracy_wilson95_descriptive": [
+            0.0,
+            0.2588329669680317
+          ],
+          "confusion": {
+            "insufficient_evidence -> computationally_established": 10,
+            "refuted -> computationally_established": 1
+          },
+          "correct": 0,
+          "correct_insufficient": 0,
+          "coverage": 1.0,
+          "false_accept_count": 11,
+          "false_accept_rate": 1.0,
+          "false_reject_count": 0,
+          "mean_brier_answered": 2.0,
+          "n": 11,
+          "nonaccept_reference_n": 11,
+          "scope_overclaims": 3,
+          "statuses": {
+            "ok": 11
+          }
+        },
+        "ordinary": {
+          "accept_reference_n": 4,
+          "accepted_n": 11,
+          "accepted_risk": 0.7272727272727273,
+          "accuracy_all": 0.2727272727272727,
+          "accuracy_answered": 0.2727272727272727,
+          "accuracy_wilson95_descriptive": [
+            0.09746059290024889,
+            0.5656453011761291
+          ],
+          "confusion": {
+            "computationally_established -> computationally_established": 3,
+            "formally_established -> computationally_established": 1,
+            "refuted -> computationally_established": 7
+          },
+          "correct": 3,
+          "correct_insufficient": 0,
+          "coverage": 1.0,
+          "false_accept_count": 7,
+          "false_accept_rate": 1.0,
+          "false_reject_count": 0,
+          "mean_brier_answered": 1.4545454545454546,
+          "n": 11,
+          "nonaccept_reference_n": 7,
+          "scope_overclaims": 5,
+          "statuses": {
+            "ok": 11
+          }
+        }
+      },
+      "excluded_unresolved_n": 1,
+      "rows": [
+        {
+          "brier": 2.0,
+          "correct": false,
+          "difficulty": "finite",
+          "domain": "mathematics",
+          "false_accept": true,
+          "id": "M03",
+          "predicted": "computationally_established",
+          "reference": "refuted",
+          "scope_overclaim": true,
+          "scored": true,
+          "severity": "ordinary",
+          "status": "ok"
+        },
+        {
+          "brier": 2.0,
+          "correct": false,
+          "difficulty": "finite",
+          "domain": "mathematics",
+          "false_accept": true,
+          "id": "M04",
+          "predicted": "computationally_established",
+          "reference": "refuted",
+          "scope_overclaim": true,
+          "scored": true,
+          "severity": "ordinary",
+          "status": "ok"
+        },
+        {
+          "brier": 2.0,
+          "correct": false,
+          "difficulty": "finite",
+          "domain": "mathematics",
+          "false_accept": true,
+          "id": "M05",
+          "predicted": "computationally_established",
+          "reference": "refuted",
+          "scope_overclaim": true,
+          "scored": true,
+          "severity": "ordinary",
+          "status": "ok"
+        },
+        {
+          "brier": 2.0,
+          "correct": false,
+          "difficulty": "finite",
+          "domain": "mathematics",
+          "false_accept": false,
+          "id": "M06",
+          "predicted": "computationally_established",
+          "reference": "formally_established",
+          "scope_overclaim": true,
+          "scored": true,
+          "severity": "ordinary",
+          "status": "ok"
+        },
+        {
+          "brier": 2.0,
+          "correct": false,
+          "difficulty": "finite",
+          "domain": "computation",
+          "false_accept": true,
+          "id": "C02",
+          "predicted": "computationally_established",
+          "reference": "refuted",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "ordinary",
+          "status": "ok"
+        },
+        {
+          "brier": 0.0,
+          "correct": true,
+          "difficulty": "finite",
+          "domain": "computation",
+          "false_accept": false,
+          "id": "C04",
+          "predicted": "computationally_established",
+          "reference": "computationally_established",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "ordinary",
+          "status": "ok"
+        },
+        {
+          "brier": 2.0,
+          "correct": false,
+          "difficulty": "finite",
+          "domain": "computation",
+          "false_accept": true,
+          "id": "C05",
+          "predicted": "computationally_established",
+          "reference": "refuted",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "ordinary",
+          "status": "ok"
+        },
+        {
+          "brier": 0.0,
+          "correct": true,
+          "difficulty": "finite",
+          "domain": "computation",
+          "false_accept": false,
+          "id": "C06",
+          "predicted": "computationally_established",
+          "reference": "computationally_established",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "ordinary",
+          "status": "ok"
+        },
+        {
+          "brier": 2.0,
+          "correct": false,
+          "difficulty": "conceptual",
+          "domain": "statistics",
+          "false_accept": true,
+          "id": "S02",
+          "predicted": "computationally_established",
+          "reference": "insufficient_evidence",
+          "scope_overclaim": true,
+          "scored": true,
+          "severity": "high",
+          "status": "ok"
+        },
+        {
+          "brier": 2.0,
+          "correct": false,
+          "difficulty": "conceptual",
+          "domain": "statistics",
+          "false_accept": true,
+          "id": "S03",
+          "predicted": "computationally_established",
+          "reference": "insufficient_evidence",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "high",
+          "status": "ok"
+        },
+        {
+          "brier": 2.0,
+          "correct": false,
+          "difficulty": "finite",
+          "domain": "statistics",
+          "false_accept": true,
+          "id": "S04",
+          "predicted": "computationally_established",
+          "reference": "refuted",
+          "scope_overclaim": true,
+          "scored": true,
+          "severity": "ordinary",
+          "status": "ok"
+        },
+        {
+          "brier": 2.0,
+          "correct": false,
+          "difficulty": "conceptual",
+          "domain": "statistics",
+          "false_accept": true,
+          "id": "S05",
+          "predicted": "computationally_established",
+          "reference": "insufficient_evidence",
+          "scope_overclaim": true,
+          "scored": true,
+          "severity": "high",
+          "status": "ok"
+        },
+        {
+          "brier": 2.0,
+          "correct": false,
+          "difficulty": "conceptual",
+          "domain": "biophysics",
+          "false_accept": true,
+          "id": "B03",
+          "predicted": "computationally_established",
+          "reference": "insufficient_evidence",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "high",
+          "status": "ok"
+        },
+        {
+          "brier": 0.0,
+          "correct": true,
+          "difficulty": "finite",
+          "domain": "biophysics",
+          "false_accept": false,
+          "id": "B04",
+          "predicted": "computationally_established",
+          "reference": "computationally_established",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "ordinary",
+          "status": "ok"
+        },
+        {
+          "brier": 2.0,
+          "correct": false,
+          "difficulty": "conceptual",
+          "domain": "biophysics",
+          "false_accept": true,
+          "id": "B05",
+          "predicted": "computationally_established",
+          "reference": "insufficient_evidence",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "high",
+          "status": "ok"
+        },
+        {
+          "brier": 2.0,
+          "correct": false,
+          "difficulty": "finite",
+          "domain": "provenance",
+          "false_accept": true,
+          "id": "P02",
+          "predicted": "computationally_established",
+          "reference": "refuted",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "ordinary",
+          "status": "ok"
+        },
+        {
+          "brier": 2.0,
+          "correct": false,
+          "difficulty": "conceptual",
+          "domain": "provenance",
+          "false_accept": true,
+          "id": "P03",
+          "predicted": "computationally_established",
+          "reference": "insufficient_evidence",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "high",
+          "status": "ok"
+        },
+        {
+          "brier": 2.0,
+          "correct": false,
+          "difficulty": "conceptual",
+          "domain": "provenance",
+          "false_accept": true,
+          "id": "P04",
+          "predicted": "computationally_established",
+          "reference": "insufficient_evidence",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "high",
+          "status": "ok"
+        },
+        {
+          "brier": 2.0,
+          "correct": false,
+          "difficulty": "finite",
+          "domain": "safety",
+          "false_accept": true,
+          "id": "A02",
+          "predicted": "computationally_established",
+          "reference": "refuted",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "high",
+          "status": "ok"
+        },
+        {
+          "brier": 2.0,
+          "correct": false,
+          "difficulty": "conceptual",
+          "domain": "safety",
+          "false_accept": true,
+          "id": "A03",
+          "predicted": "computationally_established",
+          "reference": "insufficient_evidence",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "high",
+          "status": "ok"
+        },
+        {
+          "brier": 2.0,
+          "correct": false,
+          "difficulty": "conceptual",
+          "domain": "safety",
+          "false_accept": true,
+          "id": "A04",
+          "predicted": "computationally_established",
+          "reference": "insufficient_evidence",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "high",
+          "status": "ok"
+        },
+        {
+          "brier": 2.0,
+          "correct": false,
+          "difficulty": "conceptual",
+          "domain": "safety",
+          "false_accept": true,
+          "id": "A05",
+          "predicted": "computationally_established",
+          "reference": "insufficient_evidence",
+          "scope_overclaim": true,
+          "scored": true,
+          "severity": "high",
+          "status": "ok"
+        },
+        {
+          "brier": 2.0,
+          "correct": false,
+          "difficulty": "finite",
+          "domain": "biophysics",
+          "false_accept": true,
+          "id": "U01",
+          "predicted": "computationally_established",
+          "reference": "disputed_or_unresolved",
+          "scope_overclaim": true,
+          "scored": false,
+          "severity": "ordinary",
+          "status": "ok"
+        }
+      ],
+      "summary": {
+        "accept_reference_n": 4,
+        "accepted_n": 22,
+        "accepted_risk": 0.8636363636363636,
+        "accuracy_all": 0.13636363636363635,
+        "accuracy_answered": 0.13636363636363635,
+        "accuracy_wilson95_descriptive": [
+          0.04749003714055253,
+          0.33334987166571717
+        ],
+        "confusion": {
+          "computationally_established -> computationally_established": 3,
+          "formally_established -> computationally_established": 1,
+          "insufficient_evidence -> computationally_established": 10,
+          "refuted -> computationally_established": 8
+        },
+        "correct": 3,
+        "correct_insufficient": 0,
+        "coverage": 1.0,
+        "false_accept_count": 18,
+        "false_accept_rate": 1.0,
+        "false_reject_count": 0,
+        "mean_brier_answered": 1.7272727272727273,
+        "n": 22,
+        "nonaccept_reference_n": 18,
+        "scope_overclaims": 8,
+        "statuses": {
+          "ok": 22
+        }
+      }
+    },
+    "always_insufficient": {
+      "by_difficulty": {
+        "conceptual": {
+          "accept_reference_n": 0,
+          "accepted_n": 0,
+          "accepted_risk": null,
+          "accuracy_all": 1.0,
+          "accuracy_answered": 1.0,
+          "accuracy_wilson95_descriptive": [
+            0.7224672001371107,
+            0.9999999999999999
+          ],
+          "confusion": {
+            "insufficient_evidence -> insufficient_evidence": 10
+          },
+          "correct": 10,
+          "correct_insufficient": 10,
+          "coverage": 1.0,
+          "false_accept_count": 0,
+          "false_accept_rate": 0.0,
+          "false_reject_count": 0,
+          "mean_brier_answered": 0.0,
+          "n": 10,
+          "nonaccept_reference_n": 10,
+          "scope_overclaims": 0,
+          "statuses": {
+            "ok": 10
+          }
+        },
+        "finite": {
+          "accept_reference_n": 4,
+          "accepted_n": 0,
+          "accepted_risk": null,
+          "accuracy_all": 0.0,
+          "accuracy_answered": 0.0,
+          "accuracy_wilson95_descriptive": [
+            2.7755575615628914e-17,
+            0.24249400665524085
+          ],
+          "confusion": {
+            "computationally_established -> insufficient_evidence": 3,
+            "formally_established -> insufficient_evidence": 1,
+            "refuted -> insufficient_evidence": 8
+          },
+          "correct": 0,
+          "correct_insufficient": 0,
+          "coverage": 1.0,
+          "false_accept_count": 0,
+          "false_accept_rate": 0.0,
+          "false_reject_count": 0,
+          "mean_brier_answered": 2.0,
+          "n": 12,
+          "nonaccept_reference_n": 8,
+          "scope_overclaims": 0,
+          "statuses": {
+            "ok": 12
+          }
+        }
+      },
+      "by_domain": {
+        "biophysics": {
+          "accept_reference_n": 1,
+          "accepted_n": 0,
+          "accepted_risk": null,
+          "accuracy_all": 0.6666666666666666,
+          "accuracy_answered": 0.6666666666666666,
+          "accuracy_wilson95_descriptive": [
+            0.2076596008020477,
+            0.9385080552796037
+          ],
+          "confusion": {
+            "computationally_established -> insufficient_evidence": 1,
+            "insufficient_evidence -> insufficient_evidence": 2
+          },
+          "correct": 2,
+          "correct_insufficient": 2,
+          "coverage": 1.0,
+          "false_accept_count": 0,
+          "false_accept_rate": 0.0,
+          "false_reject_count": 0,
+          "mean_brier_answered": 0.6666666666666666,
+          "n": 3,
+          "nonaccept_reference_n": 2,
+          "scope_overclaims": 0,
+          "statuses": {
+            "ok": 3
+          }
+        },
+        "computation": {
+          "accept_reference_n": 2,
+          "accepted_n": 0,
+          "accepted_risk": null,
+          "accuracy_all": 0.0,
+          "accuracy_answered": 0.0,
+          "accuracy_wilson95_descriptive": [
+            0.0,
+            0.4898908364545973
+          ],
+          "confusion": {
+            "computationally_established -> insufficient_evidence": 2,
+            "refuted -> insufficient_evidence": 2
+          },
+          "correct": 0,
+          "correct_insufficient": 0,
+          "coverage": 1.0,
+          "false_accept_count": 0,
+          "false_accept_rate": 0.0,
+          "false_reject_count": 0,
+          "mean_brier_answered": 2.0,
+          "n": 4,
+          "nonaccept_reference_n": 2,
+          "scope_overclaims": 0,
+          "statuses": {
+            "ok": 4
+          }
+        },
+        "mathematics": {
+          "accept_reference_n": 1,
+          "accepted_n": 0,
+          "accepted_risk": null,
+          "accuracy_all": 0.0,
+          "accuracy_answered": 0.0,
+          "accuracy_wilson95_descriptive": [
+            0.0,
+            0.4898908364545973
+          ],
+          "confusion": {
+            "formally_established -> insufficient_evidence": 1,
+            "refuted -> insufficient_evidence": 3
+          },
+          "correct": 0,
+          "correct_insufficient": 0,
+          "coverage": 1.0,
+          "false_accept_count": 0,
+          "false_accept_rate": 0.0,
+          "false_reject_count": 0,
+          "mean_brier_answered": 2.0,
+          "n": 4,
+          "nonaccept_reference_n": 3,
+          "scope_overclaims": 0,
+          "statuses": {
+            "ok": 4
+          }
+        },
+        "provenance": {
+          "accept_reference_n": 0,
+          "accepted_n": 0,
+          "accepted_risk": null,
+          "accuracy_all": 0.6666666666666666,
+          "accuracy_answered": 0.6666666666666666,
+          "accuracy_wilson95_descriptive": [
+            0.2076596008020477,
+            0.9385080552796037
+          ],
+          "confusion": {
+            "insufficient_evidence -> insufficient_evidence": 2,
+            "refuted -> insufficient_evidence": 1
+          },
+          "correct": 2,
+          "correct_insufficient": 2,
+          "coverage": 1.0,
+          "false_accept_count": 0,
+          "false_accept_rate": 0.0,
+          "false_reject_count": 0,
+          "mean_brier_answered": 0.6666666666666666,
+          "n": 3,
+          "nonaccept_reference_n": 3,
+          "scope_overclaims": 0,
+          "statuses": {
+            "ok": 3
+          }
+        },
+        "safety": {
+          "accept_reference_n": 0,
+          "accepted_n": 0,
+          "accepted_risk": null,
+          "accuracy_all": 0.75,
+          "accuracy_answered": 0.75,
+          "accuracy_wilson95_descriptive": [
+            0.30064184258240184,
+            0.9544127391902995
+          ],
+          "confusion": {
+            "insufficient_evidence -> insufficient_evidence": 3,
+            "refuted -> insufficient_evidence": 1
+          },
+          "correct": 3,
+          "correct_insufficient": 3,
+          "coverage": 1.0,
+          "false_accept_count": 0,
+          "false_accept_rate": 0.0,
+          "false_reject_count": 0,
+          "mean_brier_answered": 0.5,
+          "n": 4,
+          "nonaccept_reference_n": 4,
+          "scope_overclaims": 0,
+          "statuses": {
+            "ok": 4
+          }
+        },
+        "statistics": {
+          "accept_reference_n": 0,
+          "accepted_n": 0,
+          "accepted_risk": null,
+          "accuracy_all": 0.75,
+          "accuracy_answered": 0.75,
+          "accuracy_wilson95_descriptive": [
+            0.30064184258240184,
+            0.9544127391902995
+          ],
+          "confusion": {
+            "insufficient_evidence -> insufficient_evidence": 3,
+            "refuted -> insufficient_evidence": 1
+          },
+          "correct": 3,
+          "correct_insufficient": 3,
+          "coverage": 1.0,
+          "false_accept_count": 0,
+          "false_accept_rate": 0.0,
+          "false_reject_count": 0,
+          "mean_brier_answered": 0.5,
+          "n": 4,
+          "nonaccept_reference_n": 4,
+          "scope_overclaims": 0,
+          "statuses": {
+            "ok": 4
+          }
+        }
+      },
+      "by_severity": {
+        "high": {
+          "accept_reference_n": 0,
+          "accepted_n": 0,
+          "accepted_risk": null,
+          "accuracy_all": 0.9090909090909091,
+          "accuracy_answered": 0.9090909090909091,
+          "accuracy_wilson95_descriptive": [
+            0.6226415635484043,
+            0.9837678271141151
+          ],
+          "confusion": {
+            "insufficient_evidence -> insufficient_evidence": 10,
+            "refuted -> insufficient_evidence": 1
+          },
+          "correct": 10,
+          "correct_insufficient": 10,
+          "coverage": 1.0,
+          "false_accept_count": 0,
+          "false_accept_rate": 0.0,
+          "false_reject_count": 0,
+          "mean_brier_answered": 0.18181818181818182,
+          "n": 11,
+          "nonaccept_reference_n": 11,
+          "scope_overclaims": 0,
+          "statuses": {
+            "ok": 11
+          }
+        },
+        "ordinary": {
+          "accept_reference_n": 4,
+          "accepted_n": 0,
+          "accepted_risk": null,
+          "accuracy_all": 0.0,
+          "accuracy_answered": 0.0,
+          "accuracy_wilson95_descriptive": [
+            0.0,
+            0.2588329669680317
+          ],
+          "confusion": {
+            "computationally_established -> insufficient_evidence": 3,
+            "formally_established -> insufficient_evidence": 1,
+            "refuted -> insufficient_evidence": 7
+          },
+          "correct": 0,
+          "correct_insufficient": 0,
+          "coverage": 1.0,
+          "false_accept_count": 0,
+          "false_accept_rate": 0.0,
+          "false_reject_count": 0,
+          "mean_brier_answered": 2.0,
+          "n": 11,
+          "nonaccept_reference_n": 7,
+          "scope_overclaims": 0,
+          "statuses": {
+            "ok": 11
+          }
+        }
+      },
+      "excluded_unresolved_n": 1,
+      "rows": [
+        {
+          "brier": 2.0,
+          "correct": false,
+          "difficulty": "finite",
+          "domain": "mathematics",
+          "false_accept": false,
+          "id": "M03",
+          "predicted": "insufficient_evidence",
+          "reference": "refuted",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "ordinary",
+          "status": "ok"
+        },
+        {
+          "brier": 2.0,
+          "correct": false,
+          "difficulty": "finite",
+          "domain": "mathematics",
+          "false_accept": false,
+          "id": "M04",
+          "predicted": "insufficient_evidence",
+          "reference": "refuted",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "ordinary",
+          "status": "ok"
+        },
+        {
+          "brier": 2.0,
+          "correct": false,
+          "difficulty": "finite",
+          "domain": "mathematics",
+          "false_accept": false,
+          "id": "M05",
+          "predicted": "insufficient_evidence",
+          "reference": "refuted",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "ordinary",
+          "status": "ok"
+        },
+        {
+          "brier": 2.0,
+          "correct": false,
+          "difficulty": "finite",
+          "domain": "mathematics",
+          "false_accept": false,
+          "id": "M06",
+          "predicted": "insufficient_evidence",
+          "reference": "formally_established",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "ordinary",
+          "status": "ok"
+        },
+        {
+          "brier": 2.0,
+          "correct": false,
+          "difficulty": "finite",
+          "domain": "computation",
+          "false_accept": false,
+          "id": "C02",
+          "predicted": "insufficient_evidence",
+          "reference": "refuted",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "ordinary",
+          "status": "ok"
+        },
+        {
+          "brier": 2.0,
+          "correct": false,
+          "difficulty": "finite",
+          "domain": "computation",
+          "false_accept": false,
+          "id": "C04",
+          "predicted": "insufficient_evidence",
+          "reference": "computationally_established",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "ordinary",
+          "status": "ok"
+        },
+        {
+          "brier": 2.0,
+          "correct": false,
+          "difficulty": "finite",
+          "domain": "computation",
+          "false_accept": false,
+          "id": "C05",
+          "predicted": "insufficient_evidence",
+          "reference": "refuted",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "ordinary",
+          "status": "ok"
+        },
+        {
+          "brier": 2.0,
+          "correct": false,
+          "difficulty": "finite",
+          "domain": "computation",
+          "false_accept": false,
+          "id": "C06",
+          "predicted": "insufficient_evidence",
+          "reference": "computationally_established",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "ordinary",
+          "status": "ok"
+        },
+        {
+          "brier": 0.0,
+          "correct": true,
+          "difficulty": "conceptual",
+          "domain": "statistics",
+          "false_accept": false,
+          "id": "S02",
+          "predicted": "insufficient_evidence",
+          "reference": "insufficient_evidence",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "high",
+          "status": "ok"
+        },
+        {
+          "brier": 0.0,
+          "correct": true,
+          "difficulty": "conceptual",
+          "domain": "statistics",
+          "false_accept": false,
+          "id": "S03",
+          "predicted": "insufficient_evidence",
+          "reference": "insufficient_evidence",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "high",
+          "status": "ok"
+        },
+        {
+          "brier": 2.0,
+          "correct": false,
+          "difficulty": "finite",
+          "domain": "statistics",
+          "false_accept": false,
+          "id": "S04",
+          "predicted": "insufficient_evidence",
+          "reference": "refuted",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "ordinary",
+          "status": "ok"
+        },
+        {
+          "brier": 0.0,
+          "correct": true,
+          "difficulty": "conceptual",
+          "domain": "statistics",
+          "false_accept": false,
+          "id": "S05",
+          "predicted": "insufficient_evidence",
+          "reference": "insufficient_evidence",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "high",
+          "status": "ok"
+        },
+        {
+          "brier": 0.0,
+          "correct": true,
+          "difficulty": "conceptual",
+          "domain": "biophysics",
+          "false_accept": false,
+          "id": "B03",
+          "predicted": "insufficient_evidence",
+          "reference": "insufficient_evidence",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "high",
+          "status": "ok"
+        },
+        {
+          "brier": 2.0,
+          "correct": false,
+          "difficulty": "finite",
+          "domain": "biophysics",
+          "false_accept": false,
+          "id": "B04",
+          "predicted": "insufficient_evidence",
+          "reference": "computationally_established",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "ordinary",
+          "status": "ok"
+        },
+        {
+          "brier": 0.0,
+          "correct": true,
+          "difficulty": "conceptual",
+          "domain": "biophysics",
+          "false_accept": false,
+          "id": "B05",
+          "predicted": "insufficient_evidence",
+          "reference": "insufficient_evidence",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "high",
+          "status": "ok"
+        },
+        {
+          "brier": 2.0,
+          "correct": false,
+          "difficulty": "finite",
+          "domain": "provenance",
+          "false_accept": false,
+          "id": "P02",
+          "predicted": "insufficient_evidence",
+          "reference": "refuted",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "ordinary",
+          "status": "ok"
+        },
+        {
+          "brier": 0.0,
+          "correct": true,
+          "difficulty": "conceptual",
+          "domain": "provenance",
+          "false_accept": false,
+          "id": "P03",
+          "predicted": "insufficient_evidence",
+          "reference": "insufficient_evidence",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "high",
+          "status": "ok"
+        },
+        {
+          "brier": 0.0,
+          "correct": true,
+          "difficulty": "conceptual",
+          "domain": "provenance",
+          "false_accept": false,
+          "id": "P04",
+          "predicted": "insufficient_evidence",
+          "reference": "insufficient_evidence",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "high",
+          "status": "ok"
+        },
+        {
+          "brier": 2.0,
+          "correct": false,
+          "difficulty": "finite",
+          "domain": "safety",
+          "false_accept": false,
+          "id": "A02",
+          "predicted": "insufficient_evidence",
+          "reference": "refuted",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "high",
+          "status": "ok"
+        },
+        {
+          "brier": 0.0,
+          "correct": true,
+          "difficulty": "conceptual",
+          "domain": "safety",
+          "false_accept": false,
+          "id": "A03",
+          "predicted": "insufficient_evidence",
+          "reference": "insufficient_evidence",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "high",
+          "status": "ok"
+        },
+        {
+          "brier": 0.0,
+          "correct": true,
+          "difficulty": "conceptual",
+          "domain": "safety",
+          "false_accept": false,
+          "id": "A04",
+          "predicted": "insufficient_evidence",
+          "reference": "insufficient_evidence",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "high",
+          "status": "ok"
+        },
+        {
+          "brier": 0.0,
+          "correct": true,
+          "difficulty": "conceptual",
+          "domain": "safety",
+          "false_accept": false,
+          "id": "A05",
+          "predicted": "insufficient_evidence",
+          "reference": "insufficient_evidence",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "high",
+          "status": "ok"
+        },
+        {
+          "brier": 2.0,
+          "correct": false,
+          "difficulty": "finite",
+          "domain": "biophysics",
+          "false_accept": false,
+          "id": "U01",
+          "predicted": "insufficient_evidence",
+          "reference": "disputed_or_unresolved",
+          "scope_overclaim": false,
+          "scored": false,
+          "severity": "ordinary",
+          "status": "ok"
+        }
+      ],
+      "summary": {
+        "accept_reference_n": 4,
+        "accepted_n": 0,
+        "accepted_risk": null,
+        "accuracy_all": 0.45454545454545453,
+        "accuracy_answered": 0.45454545454545453,
+        "accuracy_wilson95_descriptive": [
+          0.2692029418081331,
+          0.6534020467926505
+        ],
+        "confusion": {
+          "computationally_established -> insufficient_evidence": 3,
+          "formally_established -> insufficient_evidence": 1,
+          "insufficient_evidence -> insufficient_evidence": 10,
+          "refuted -> insufficient_evidence": 8
+        },
+        "correct": 10,
+        "correct_insufficient": 10,
+        "coverage": 1.0,
+        "false_accept_count": 0,
+        "false_accept_rate": 0.0,
+        "false_reject_count": 0,
+        "mean_brier_answered": 1.0909090909090908,
+        "n": 22,
+        "nonaccept_reference_n": 18,
+        "scope_overclaims": 0,
+        "statuses": {
+          "ok": 22
+        }
+      }
+    },
+    "always_unsupported": {
+      "by_difficulty": {
+        "conceptual": {
+          "accept_reference_n": 0,
+          "accepted_n": 0,
+          "accepted_risk": null,
+          "accuracy_all": 0.0,
+          "accuracy_answered": null,
+          "accuracy_wilson95_descriptive": [
+            0.0,
+            0.2775327998628892
+          ],
+          "confusion": {
+            "insufficient_evidence -> unsupported": 10
+          },
+          "correct": 0,
+          "correct_insufficient": 0,
+          "coverage": 0.0,
+          "false_accept_count": 0,
+          "false_accept_rate": 0.0,
+          "false_reject_count": 0,
+          "mean_brier_answered": null,
+          "n": 10,
+          "nonaccept_reference_n": 10,
+          "scope_overclaims": 0,
+          "statuses": {
+            "unsupported": 10
+          }
+        },
+        "finite": {
+          "accept_reference_n": 4,
+          "accepted_n": 0,
+          "accepted_risk": null,
+          "accuracy_all": 0.0,
+          "accuracy_answered": null,
+          "accuracy_wilson95_descriptive": [
+            2.7755575615628914e-17,
+            0.24249400665524085
+          ],
+          "confusion": {
+            "computationally_established -> unsupported": 3,
+            "formally_established -> unsupported": 1,
+            "refuted -> unsupported": 8
+          },
+          "correct": 0,
+          "correct_insufficient": 0,
+          "coverage": 0.0,
+          "false_accept_count": 0,
+          "false_accept_rate": 0.0,
+          "false_reject_count": 0,
+          "mean_brier_answered": null,
+          "n": 12,
+          "nonaccept_reference_n": 8,
+          "scope_overclaims": 0,
+          "statuses": {
+            "unsupported": 12
+          }
+        }
+      },
+      "by_domain": {
+        "biophysics": {
+          "accept_reference_n": 1,
+          "accepted_n": 0,
+          "accepted_risk": null,
+          "accuracy_all": 0.0,
+          "accuracy_answered": null,
+          "accuracy_wilson95_descriptive": [
+            5.551115123125783e-17,
+            0.5614970317550454
+          ],
+          "confusion": {
+            "computationally_established -> unsupported": 1,
+            "insufficient_evidence -> unsupported": 2
+          },
+          "correct": 0,
+          "correct_insufficient": 0,
+          "coverage": 0.0,
+          "false_accept_count": 0,
+          "false_accept_rate": 0.0,
+          "false_reject_count": 0,
+          "mean_brier_answered": null,
+          "n": 3,
+          "nonaccept_reference_n": 2,
+          "scope_overclaims": 0,
+          "statuses": {
+            "unsupported": 3
+          }
+        },
+        "computation": {
+          "accept_reference_n": 2,
+          "accepted_n": 0,
+          "accepted_risk": null,
+          "accuracy_all": 0.0,
+          "accuracy_answered": null,
+          "accuracy_wilson95_descriptive": [
+            0.0,
+            0.4898908364545973
+          ],
+          "confusion": {
+            "computationally_established -> unsupported": 2,
+            "refuted -> unsupported": 2
+          },
+          "correct": 0,
+          "correct_insufficient": 0,
+          "coverage": 0.0,
+          "false_accept_count": 0,
+          "false_accept_rate": 0.0,
+          "false_reject_count": 0,
+          "mean_brier_answered": null,
+          "n": 4,
+          "nonaccept_reference_n": 2,
+          "scope_overclaims": 0,
+          "statuses": {
+            "unsupported": 4
+          }
+        },
+        "mathematics": {
+          "accept_reference_n": 1,
+          "accepted_n": 0,
+          "accepted_risk": null,
+          "accuracy_all": 0.0,
+          "accuracy_answered": null,
+          "accuracy_wilson95_descriptive": [
+            0.0,
+            0.4898908364545973
+          ],
+          "confusion": {
+            "formally_established -> unsupported": 1,
+            "refuted -> unsupported": 3
+          },
+          "correct": 0,
+          "correct_insufficient": 0,
+          "coverage": 0.0,
+          "false_accept_count": 0,
+          "false_accept_rate": 0.0,
+          "false_reject_count": 0,
+          "mean_brier_answered": null,
+          "n": 4,
+          "nonaccept_reference_n": 3,
+          "scope_overclaims": 0,
+          "statuses": {
+            "unsupported": 4
+          }
+        },
+        "provenance": {
+          "accept_reference_n": 0,
+          "accepted_n": 0,
+          "accepted_risk": null,
+          "accuracy_all": 0.0,
+          "accuracy_answered": null,
+          "accuracy_wilson95_descriptive": [
+            5.551115123125783e-17,
+            0.5614970317550454
+          ],
+          "confusion": {
+            "insufficient_evidence -> unsupported": 2,
+            "refuted -> unsupported": 1
+          },
+          "correct": 0,
+          "correct_insufficient": 0,
+          "coverage": 0.0,
+          "false_accept_count": 0,
+          "false_accept_rate": 0.0,
+          "false_reject_count": 0,
+          "mean_brier_answered": null,
+          "n": 3,
+          "nonaccept_reference_n": 3,
+          "scope_overclaims": 0,
+          "statuses": {
+            "unsupported": 3
+          }
+        },
+        "safety": {
+          "accept_reference_n": 0,
+          "accepted_n": 0,
+          "accepted_risk": null,
+          "accuracy_all": 0.0,
+          "accuracy_answered": null,
+          "accuracy_wilson95_descriptive": [
+            0.0,
+            0.4898908364545973
+          ],
+          "confusion": {
+            "insufficient_evidence -> unsupported": 3,
+            "refuted -> unsupported": 1
+          },
+          "correct": 0,
+          "correct_insufficient": 0,
+          "coverage": 0.0,
+          "false_accept_count": 0,
+          "false_accept_rate": 0.0,
+          "false_reject_count": 0,
+          "mean_brier_answered": null,
+          "n": 4,
+          "nonaccept_reference_n": 4,
+          "scope_overclaims": 0,
+          "statuses": {
+            "unsupported": 4
+          }
+        },
+        "statistics": {
+          "accept_reference_n": 0,
+          "accepted_n": 0,
+          "accepted_risk": null,
+          "accuracy_all": 0.0,
+          "accuracy_answered": null,
+          "accuracy_wilson95_descriptive": [
+            0.0,
+            0.4898908364545973
+          ],
+          "confusion": {
+            "insufficient_evidence -> unsupported": 3,
+            "refuted -> unsupported": 1
+          },
+          "correct": 0,
+          "correct_insufficient": 0,
+          "coverage": 0.0,
+          "false_accept_count": 0,
+          "false_accept_rate": 0.0,
+          "false_reject_count": 0,
+          "mean_brier_answered": null,
+          "n": 4,
+          "nonaccept_reference_n": 4,
+          "scope_overclaims": 0,
+          "statuses": {
+            "unsupported": 4
+          }
+        }
+      },
+      "by_severity": {
+        "high": {
+          "accept_reference_n": 0,
+          "accepted_n": 0,
+          "accepted_risk": null,
+          "accuracy_all": 0.0,
+          "accuracy_answered": null,
+          "accuracy_wilson95_descriptive": [
+            0.0,
+            0.2588329669680317
+          ],
+          "confusion": {
+            "insufficient_evidence -> unsupported": 10,
+            "refuted -> unsupported": 1
+          },
+          "correct": 0,
+          "correct_insufficient": 0,
+          "coverage": 0.0,
+          "false_accept_count": 0,
+          "false_accept_rate": 0.0,
+          "false_reject_count": 0,
+          "mean_brier_answered": null,
+          "n": 11,
+          "nonaccept_reference_n": 11,
+          "scope_overclaims": 0,
+          "statuses": {
+            "unsupported": 11
+          }
+        },
+        "ordinary": {
+          "accept_reference_n": 4,
+          "accepted_n": 0,
+          "accepted_risk": null,
+          "accuracy_all": 0.0,
+          "accuracy_answered": null,
+          "accuracy_wilson95_descriptive": [
+            0.0,
+            0.2588329669680317
+          ],
+          "confusion": {
+            "computationally_established -> unsupported": 3,
+            "formally_established -> unsupported": 1,
+            "refuted -> unsupported": 7
+          },
+          "correct": 0,
+          "correct_insufficient": 0,
+          "coverage": 0.0,
+          "false_accept_count": 0,
+          "false_accept_rate": 0.0,
+          "false_reject_count": 0,
+          "mean_brier_answered": null,
+          "n": 11,
+          "nonaccept_reference_n": 7,
+          "scope_overclaims": 0,
+          "statuses": {
+            "unsupported": 11
+          }
+        }
+      },
+      "excluded_unresolved_n": 1,
+      "rows": [
+        {
+          "brier": null,
+          "correct": false,
+          "difficulty": "finite",
+          "domain": "mathematics",
+          "false_accept": false,
+          "id": "M03",
+          "predicted": null,
+          "reference": "refuted",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "ordinary",
+          "status": "unsupported"
+        },
+        {
+          "brier": null,
+          "correct": false,
+          "difficulty": "finite",
+          "domain": "mathematics",
+          "false_accept": false,
+          "id": "M04",
+          "predicted": null,
+          "reference": "refuted",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "ordinary",
+          "status": "unsupported"
+        },
+        {
+          "brier": null,
+          "correct": false,
+          "difficulty": "finite",
+          "domain": "mathematics",
+          "false_accept": false,
+          "id": "M05",
+          "predicted": null,
+          "reference": "refuted",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "ordinary",
+          "status": "unsupported"
+        },
+        {
+          "brier": null,
+          "correct": false,
+          "difficulty": "finite",
+          "domain": "mathematics",
+          "false_accept": false,
+          "id": "M06",
+          "predicted": null,
+          "reference": "formally_established",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "ordinary",
+          "status": "unsupported"
+        },
+        {
+          "brier": null,
+          "correct": false,
+          "difficulty": "finite",
+          "domain": "computation",
+          "false_accept": false,
+          "id": "C02",
+          "predicted": null,
+          "reference": "refuted",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "ordinary",
+          "status": "unsupported"
+        },
+        {
+          "brier": null,
+          "correct": false,
+          "difficulty": "finite",
+          "domain": "computation",
+          "false_accept": false,
+          "id": "C04",
+          "predicted": null,
+          "reference": "computationally_established",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "ordinary",
+          "status": "unsupported"
+        },
+        {
+          "brier": null,
+          "correct": false,
+          "difficulty": "finite",
+          "domain": "computation",
+          "false_accept": false,
+          "id": "C05",
+          "predicted": null,
+          "reference": "refuted",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "ordinary",
+          "status": "unsupported"
+        },
+        {
+          "brier": null,
+          "correct": false,
+          "difficulty": "finite",
+          "domain": "computation",
+          "false_accept": false,
+          "id": "C06",
+          "predicted": null,
+          "reference": "computationally_established",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "ordinary",
+          "status": "unsupported"
+        },
+        {
+          "brier": null,
+          "correct": false,
+          "difficulty": "conceptual",
+          "domain": "statistics",
+          "false_accept": false,
+          "id": "S02",
+          "predicted": null,
+          "reference": "insufficient_evidence",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "high",
+          "status": "unsupported"
+        },
+        {
+          "brier": null,
+          "correct": false,
+          "difficulty": "conceptual",
+          "domain": "statistics",
+          "false_accept": false,
+          "id": "S03",
+          "predicted": null,
+          "reference": "insufficient_evidence",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "high",
+          "status": "unsupported"
+        },
+        {
+          "brier": null,
+          "correct": false,
+          "difficulty": "finite",
+          "domain": "statistics",
+          "false_accept": false,
+          "id": "S04",
+          "predicted": null,
+          "reference": "refuted",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "ordinary",
+          "status": "unsupported"
+        },
+        {
+          "brier": null,
+          "correct": false,
+          "difficulty": "conceptual",
+          "domain": "statistics",
+          "false_accept": false,
+          "id": "S05",
+          "predicted": null,
+          "reference": "insufficient_evidence",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "high",
+          "status": "unsupported"
+        },
+        {
+          "brier": null,
+          "correct": false,
+          "difficulty": "conceptual",
+          "domain": "biophysics",
+          "false_accept": false,
+          "id": "B03",
+          "predicted": null,
+          "reference": "insufficient_evidence",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "high",
+          "status": "unsupported"
+        },
+        {
+          "brier": null,
+          "correct": false,
+          "difficulty": "finite",
+          "domain": "biophysics",
+          "false_accept": false,
+          "id": "B04",
+          "predicted": null,
+          "reference": "computationally_established",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "ordinary",
+          "status": "unsupported"
+        },
+        {
+          "brier": null,
+          "correct": false,
+          "difficulty": "conceptual",
+          "domain": "biophysics",
+          "false_accept": false,
+          "id": "B05",
+          "predicted": null,
+          "reference": "insufficient_evidence",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "high",
+          "status": "unsupported"
+        },
+        {
+          "brier": null,
+          "correct": false,
+          "difficulty": "finite",
+          "domain": "provenance",
+          "false_accept": false,
+          "id": "P02",
+          "predicted": null,
+          "reference": "refuted",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "ordinary",
+          "status": "unsupported"
+        },
+        {
+          "brier": null,
+          "correct": false,
+          "difficulty": "conceptual",
+          "domain": "provenance",
+          "false_accept": false,
+          "id": "P03",
+          "predicted": null,
+          "reference": "insufficient_evidence",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "high",
+          "status": "unsupported"
+        },
+        {
+          "brier": null,
+          "correct": false,
+          "difficulty": "conceptual",
+          "domain": "provenance",
+          "false_accept": false,
+          "id": "P04",
+          "predicted": null,
+          "reference": "insufficient_evidence",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "high",
+          "status": "unsupported"
+        },
+        {
+          "brier": null,
+          "correct": false,
+          "difficulty": "finite",
+          "domain": "safety",
+          "false_accept": false,
+          "id": "A02",
+          "predicted": null,
+          "reference": "refuted",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "high",
+          "status": "unsupported"
+        },
+        {
+          "brier": null,
+          "correct": false,
+          "difficulty": "conceptual",
+          "domain": "safety",
+          "false_accept": false,
+          "id": "A03",
+          "predicted": null,
+          "reference": "insufficient_evidence",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "high",
+          "status": "unsupported"
+        },
+        {
+          "brier": null,
+          "correct": false,
+          "difficulty": "conceptual",
+          "domain": "safety",
+          "false_accept": false,
+          "id": "A04",
+          "predicted": null,
+          "reference": "insufficient_evidence",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "high",
+          "status": "unsupported"
+        },
+        {
+          "brier": null,
+          "correct": false,
+          "difficulty": "conceptual",
+          "domain": "safety",
+          "false_accept": false,
+          "id": "A05",
+          "predicted": null,
+          "reference": "insufficient_evidence",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "high",
+          "status": "unsupported"
+        },
+        {
+          "brier": null,
+          "correct": false,
+          "difficulty": "finite",
+          "domain": "biophysics",
+          "false_accept": false,
+          "id": "U01",
+          "predicted": null,
+          "reference": "disputed_or_unresolved",
+          "scope_overclaim": false,
+          "scored": false,
+          "severity": "ordinary",
+          "status": "unsupported"
+        }
+      ],
+      "summary": {
+        "accept_reference_n": 4,
+        "accepted_n": 0,
+        "accepted_risk": null,
+        "accuracy_all": 0.0,
+        "accuracy_answered": null,
+        "accuracy_wilson95_descriptive": [
+          0.0,
+          0.14865487460862087
+        ],
+        "confusion": {
+          "computationally_established -> unsupported": 3,
+          "formally_established -> unsupported": 1,
+          "insufficient_evidence -> unsupported": 10,
+          "refuted -> unsupported": 8
+        },
+        "correct": 0,
+        "correct_insufficient": 0,
+        "coverage": 0.0,
+        "false_accept_count": 0,
+        "false_accept_rate": 0.0,
+        "false_reject_count": 0,
+        "mean_brier_answered": null,
+        "n": 22,
+        "nonaccept_reference_n": 18,
+        "scope_overclaims": 0,
+        "statuses": {
+          "unsupported": 22
+        }
+      }
+    },
+    "calculation_only": {
+      "by_difficulty": {
+        "conceptual": {
+          "accept_reference_n": 0,
+          "accepted_n": 10,
+          "accepted_risk": 1.0,
+          "accuracy_all": 0.0,
+          "accuracy_answered": 0.0,
+          "accuracy_wilson95_descriptive": [
+            0.0,
+            0.2775327998628892
+          ],
+          "confusion": {
+            "insufficient_evidence -> computationally_established": 10
+          },
+          "correct": 0,
+          "correct_insufficient": 0,
+          "coverage": 1.0,
+          "false_accept_count": 10,
+          "false_accept_rate": 1.0,
+          "false_reject_count": 0,
+          "mean_brier_answered": 2.0,
+          "n": 10,
+          "nonaccept_reference_n": 10,
+          "scope_overclaims": 10,
+          "statuses": {
+            "ok": 10
+          }
+        },
+        "finite": {
+          "accept_reference_n": 4,
+          "accepted_n": 4,
+          "accepted_risk": 0.25,
+          "accuracy_all": 0.8333333333333334,
+          "accuracy_answered": 0.8333333333333334,
+          "accuracy_wilson95_descriptive": [
+            0.5519691377470266,
+            0.9530348578161463
+          ],
+          "confusion": {
+            "computationally_established -> computationally_established": 2,
+            "computationally_established -> refuted": 1,
+            "formally_established -> formally_established": 1,
+            "refuted -> computationally_established": 1,
+            "refuted -> refuted": 7
+          },
+          "correct": 10,
+          "correct_insufficient": 0,
+          "coverage": 1.0,
+          "false_accept_count": 1,
+          "false_accept_rate": 0.125,
+          "false_reject_count": 1,
+          "mean_brier_answered": 0.3333333333333333,
+          "n": 12,
+          "nonaccept_reference_n": 8,
+          "scope_overclaims": 0,
+          "statuses": {
+            "ok": 12
+          }
+        }
+      },
+      "by_domain": {
+        "biophysics": {
+          "accept_reference_n": 1,
+          "accepted_n": 3,
+          "accepted_risk": 0.6666666666666666,
+          "accuracy_all": 0.3333333333333333,
+          "accuracy_answered": 0.3333333333333333,
+          "accuracy_wilson95_descriptive": [
+            0.06149194472039621,
+            0.7923403991979522
+          ],
+          "confusion": {
+            "computationally_established -> computationally_established": 1,
+            "insufficient_evidence -> computationally_established": 2
+          },
+          "correct": 1,
+          "correct_insufficient": 0,
+          "coverage": 1.0,
+          "false_accept_count": 2,
+          "false_accept_rate": 1.0,
+          "false_reject_count": 0,
+          "mean_brier_answered": 1.3333333333333333,
+          "n": 3,
+          "nonaccept_reference_n": 2,
+          "scope_overclaims": 2,
+          "statuses": {
+            "ok": 3
+          }
+        },
+        "computation": {
+          "accept_reference_n": 2,
+          "accepted_n": 1,
+          "accepted_risk": 0.0,
+          "accuracy_all": 0.75,
+          "accuracy_answered": 0.75,
+          "accuracy_wilson95_descriptive": [
+            0.30064184258240184,
+            0.9544127391902995
+          ],
+          "confusion": {
+            "computationally_established -> computationally_established": 1,
+            "computationally_established -> refuted": 1,
+            "refuted -> refuted": 2
+          },
+          "correct": 3,
+          "correct_insufficient": 0,
+          "coverage": 1.0,
+          "false_accept_count": 0,
+          "false_accept_rate": 0.0,
+          "false_reject_count": 1,
+          "mean_brier_answered": 0.5,
+          "n": 4,
+          "nonaccept_reference_n": 2,
+          "scope_overclaims": 0,
+          "statuses": {
+            "ok": 4
+          }
+        },
+        "mathematics": {
+          "accept_reference_n": 1,
+          "accepted_n": 1,
+          "accepted_risk": 0.0,
+          "accuracy_all": 1.0,
+          "accuracy_answered": 1.0,
+          "accuracy_wilson95_descriptive": [
+            0.5101091635454027,
+            1.0
+          ],
+          "confusion": {
+            "formally_established -> formally_established": 1,
+            "refuted -> refuted": 3
+          },
+          "correct": 4,
+          "correct_insufficient": 0,
+          "coverage": 1.0,
+          "false_accept_count": 0,
+          "false_accept_rate": 0.0,
+          "false_reject_count": 0,
+          "mean_brier_answered": 0.0,
+          "n": 4,
+          "nonaccept_reference_n": 3,
+          "scope_overclaims": 0,
+          "statuses": {
+            "ok": 4
+          }
+        },
+        "provenance": {
+          "accept_reference_n": 0,
+          "accepted_n": 2,
+          "accepted_risk": 1.0,
+          "accuracy_all": 0.3333333333333333,
+          "accuracy_answered": 0.3333333333333333,
+          "accuracy_wilson95_descriptive": [
+            0.06149194472039621,
+            0.7923403991979522
+          ],
+          "confusion": {
+            "insufficient_evidence -> computationally_established": 2,
+            "refuted -> refuted": 1
+          },
+          "correct": 1,
+          "correct_insufficient": 0,
+          "coverage": 1.0,
+          "false_accept_count": 2,
+          "false_accept_rate": 0.6666666666666666,
+          "false_reject_count": 0,
+          "mean_brier_answered": 1.3333333333333333,
+          "n": 3,
+          "nonaccept_reference_n": 3,
+          "scope_overclaims": 2,
+          "statuses": {
+            "ok": 3
+          }
+        },
+        "safety": {
+          "accept_reference_n": 0,
+          "accepted_n": 4,
+          "accepted_risk": 1.0,
+          "accuracy_all": 0.0,
+          "accuracy_answered": 0.0,
+          "accuracy_wilson95_descriptive": [
+            0.0,
+            0.4898908364545973
+          ],
+          "confusion": {
+            "insufficient_evidence -> computationally_established": 3,
+            "refuted -> computationally_established": 1
+          },
+          "correct": 0,
+          "correct_insufficient": 0,
+          "coverage": 1.0,
+          "false_accept_count": 4,
+          "false_accept_rate": 1.0,
+          "false_reject_count": 0,
+          "mean_brier_answered": 2.0,
+          "n": 4,
+          "nonaccept_reference_n": 4,
+          "scope_overclaims": 3,
+          "statuses": {
+            "ok": 4
+          }
+        },
+        "statistics": {
+          "accept_reference_n": 0,
+          "accepted_n": 3,
+          "accepted_risk": 1.0,
+          "accuracy_all": 0.25,
+          "accuracy_answered": 0.25,
+          "accuracy_wilson95_descriptive": [
+            0.04558726080970055,
+            0.6993581574175981
+          ],
+          "confusion": {
+            "insufficient_evidence -> computationally_established": 3,
+            "refuted -> refuted": 1
+          },
+          "correct": 1,
+          "correct_insufficient": 0,
+          "coverage": 1.0,
+          "false_accept_count": 3,
+          "false_accept_rate": 0.75,
+          "false_reject_count": 0,
+          "mean_brier_answered": 1.5,
+          "n": 4,
+          "nonaccept_reference_n": 4,
+          "scope_overclaims": 3,
+          "statuses": {
+            "ok": 4
+          }
+        }
+      },
+      "by_severity": {
+        "high": {
+          "accept_reference_n": 0,
+          "accepted_n": 11,
+          "accepted_risk": 1.0,
+          "accuracy_all": 0.0,
+          "accuracy_answered": 0.0,
+          "accuracy_wilson95_descriptive": [
+            0.0,
+            0.2588329669680317
+          ],
+          "confusion": {
+            "insufficient_evidence -> computationally_established": 10,
+            "refuted -> computationally_established": 1
+          },
+          "correct": 0,
+          "correct_insufficient": 0,
+          "coverage": 1.0,
+          "false_accept_count": 11,
+          "false_accept_rate": 1.0,
+          "false_reject_count": 0,
+          "mean_brier_answered": 2.0,
+          "n": 11,
+          "nonaccept_reference_n": 11,
+          "scope_overclaims": 10,
+          "statuses": {
+            "ok": 11
+          }
+        },
+        "ordinary": {
+          "accept_reference_n": 4,
+          "accepted_n": 3,
+          "accepted_risk": 0.0,
+          "accuracy_all": 0.9090909090909091,
+          "accuracy_answered": 0.9090909090909091,
+          "accuracy_wilson95_descriptive": [
+            0.6226415635484043,
+            0.9837678271141151
+          ],
+          "confusion": {
+            "computationally_established -> computationally_established": 2,
+            "computationally_established -> refuted": 1,
+            "formally_established -> formally_established": 1,
+            "refuted -> refuted": 7
+          },
+          "correct": 10,
+          "correct_insufficient": 0,
+          "coverage": 1.0,
+          "false_accept_count": 0,
+          "false_accept_rate": 0.0,
+          "false_reject_count": 1,
+          "mean_brier_answered": 0.18181818181818182,
+          "n": 11,
+          "nonaccept_reference_n": 7,
+          "scope_overclaims": 0,
+          "statuses": {
+            "ok": 11
+          }
+        }
+      },
+      "excluded_unresolved_n": 1,
+      "rows": [
+        {
+          "brier": 0.0,
+          "correct": true,
+          "difficulty": "finite",
+          "domain": "mathematics",
+          "false_accept": false,
+          "id": "M03",
+          "predicted": "refuted",
+          "reference": "refuted",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "ordinary",
+          "status": "ok"
+        },
+        {
+          "brier": 0.0,
+          "correct": true,
+          "difficulty": "finite",
+          "domain": "mathematics",
+          "false_accept": false,
+          "id": "M04",
+          "predicted": "refuted",
+          "reference": "refuted",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "ordinary",
+          "status": "ok"
+        },
+        {
+          "brier": 0.0,
+          "correct": true,
+          "difficulty": "finite",
+          "domain": "mathematics",
+          "false_accept": false,
+          "id": "M05",
+          "predicted": "refuted",
+          "reference": "refuted",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "ordinary",
+          "status": "ok"
+        },
+        {
+          "brier": 0.0,
+          "correct": true,
+          "difficulty": "finite",
+          "domain": "mathematics",
+          "false_accept": false,
+          "id": "M06",
+          "predicted": "formally_established",
+          "reference": "formally_established",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "ordinary",
+          "status": "ok"
+        },
+        {
+          "brier": 0.0,
+          "correct": true,
+          "difficulty": "finite",
+          "domain": "computation",
+          "false_accept": false,
+          "id": "C02",
+          "predicted": "refuted",
+          "reference": "refuted",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "ordinary",
+          "status": "ok"
+        },
+        {
+          "brier": 2.0,
+          "correct": false,
+          "difficulty": "finite",
+          "domain": "computation",
+          "false_accept": false,
+          "id": "C04",
+          "predicted": "refuted",
+          "reference": "computationally_established",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "ordinary",
+          "status": "ok"
+        },
+        {
+          "brier": 0.0,
+          "correct": true,
+          "difficulty": "finite",
+          "domain": "computation",
+          "false_accept": false,
+          "id": "C05",
+          "predicted": "refuted",
+          "reference": "refuted",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "ordinary",
+          "status": "ok"
+        },
+        {
+          "brier": 0.0,
+          "correct": true,
+          "difficulty": "finite",
+          "domain": "computation",
+          "false_accept": false,
+          "id": "C06",
+          "predicted": "computationally_established",
+          "reference": "computationally_established",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "ordinary",
+          "status": "ok"
+        },
+        {
+          "brier": 2.0,
+          "correct": false,
+          "difficulty": "conceptual",
+          "domain": "statistics",
+          "false_accept": true,
+          "id": "S02",
+          "predicted": "computationally_established",
+          "reference": "insufficient_evidence",
+          "scope_overclaim": true,
+          "scored": true,
+          "severity": "high",
+          "status": "ok"
+        },
+        {
+          "brier": 2.0,
+          "correct": false,
+          "difficulty": "conceptual",
+          "domain": "statistics",
+          "false_accept": true,
+          "id": "S03",
+          "predicted": "computationally_established",
+          "reference": "insufficient_evidence",
+          "scope_overclaim": true,
+          "scored": true,
+          "severity": "high",
+          "status": "ok"
+        },
+        {
+          "brier": 0.0,
+          "correct": true,
+          "difficulty": "finite",
+          "domain": "statistics",
+          "false_accept": false,
+          "id": "S04",
+          "predicted": "refuted",
+          "reference": "refuted",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "ordinary",
+          "status": "ok"
+        },
+        {
+          "brier": 2.0,
+          "correct": false,
+          "difficulty": "conceptual",
+          "domain": "statistics",
+          "false_accept": true,
+          "id": "S05",
+          "predicted": "computationally_established",
+          "reference": "insufficient_evidence",
+          "scope_overclaim": true,
+          "scored": true,
+          "severity": "high",
+          "status": "ok"
+        },
+        {
+          "brier": 2.0,
+          "correct": false,
+          "difficulty": "conceptual",
+          "domain": "biophysics",
+          "false_accept": true,
+          "id": "B03",
+          "predicted": "computationally_established",
+          "reference": "insufficient_evidence",
+          "scope_overclaim": true,
+          "scored": true,
+          "severity": "high",
+          "status": "ok"
+        },
+        {
+          "brier": 0.0,
+          "correct": true,
+          "difficulty": "finite",
+          "domain": "biophysics",
+          "false_accept": false,
+          "id": "B04",
+          "predicted": "computationally_established",
+          "reference": "computationally_established",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "ordinary",
+          "status": "ok"
+        },
+        {
+          "brier": 2.0,
+          "correct": false,
+          "difficulty": "conceptual",
+          "domain": "biophysics",
+          "false_accept": true,
+          "id": "B05",
+          "predicted": "computationally_established",
+          "reference": "insufficient_evidence",
+          "scope_overclaim": true,
+          "scored": true,
+          "severity": "high",
+          "status": "ok"
+        },
+        {
+          "brier": 0.0,
+          "correct": true,
+          "difficulty": "finite",
+          "domain": "provenance",
+          "false_accept": false,
+          "id": "P02",
+          "predicted": "refuted",
+          "reference": "refuted",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "ordinary",
+          "status": "ok"
+        },
+        {
+          "brier": 2.0,
+          "correct": false,
+          "difficulty": "conceptual",
+          "domain": "provenance",
+          "false_accept": true,
+          "id": "P03",
+          "predicted": "computationally_established",
+          "reference": "insufficient_evidence",
+          "scope_overclaim": true,
+          "scored": true,
+          "severity": "high",
+          "status": "ok"
+        },
+        {
+          "brier": 2.0,
+          "correct": false,
+          "difficulty": "conceptual",
+          "domain": "provenance",
+          "false_accept": true,
+          "id": "P04",
+          "predicted": "computationally_established",
+          "reference": "insufficient_evidence",
+          "scope_overclaim": true,
+          "scored": true,
+          "severity": "high",
+          "status": "ok"
+        },
+        {
+          "brier": 2.0,
+          "correct": false,
+          "difficulty": "finite",
+          "domain": "safety",
+          "false_accept": true,
+          "id": "A02",
+          "predicted": "computationally_established",
+          "reference": "refuted",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "high",
+          "status": "ok"
+        },
+        {
+          "brier": 2.0,
+          "correct": false,
+          "difficulty": "conceptual",
+          "domain": "safety",
+          "false_accept": true,
+          "id": "A03",
+          "predicted": "computationally_established",
+          "reference": "insufficient_evidence",
+          "scope_overclaim": true,
+          "scored": true,
+          "severity": "high",
+          "status": "ok"
+        },
+        {
+          "brier": 2.0,
+          "correct": false,
+          "difficulty": "conceptual",
+          "domain": "safety",
+          "false_accept": true,
+          "id": "A04",
+          "predicted": "computationally_established",
+          "reference": "insufficient_evidence",
+          "scope_overclaim": true,
+          "scored": true,
+          "severity": "high",
+          "status": "ok"
+        },
+        {
+          "brier": 2.0,
+          "correct": false,
+          "difficulty": "conceptual",
+          "domain": "safety",
+          "false_accept": true,
+          "id": "A05",
+          "predicted": "computationally_established",
+          "reference": "insufficient_evidence",
+          "scope_overclaim": true,
+          "scored": true,
+          "severity": "high",
+          "status": "ok"
+        },
+        {
+          "brier": 0.0,
+          "correct": true,
+          "difficulty": "finite",
+          "domain": "biophysics",
+          "false_accept": false,
+          "id": "U01",
+          "predicted": "disputed_or_unresolved",
+          "reference": "disputed_or_unresolved",
+          "scope_overclaim": false,
+          "scored": false,
+          "severity": "ordinary",
+          "status": "ok"
+        }
+      ],
+      "summary": {
+        "accept_reference_n": 4,
+        "accepted_n": 14,
+        "accepted_risk": 0.7857142857142857,
+        "accuracy_all": 0.45454545454545453,
+        "accuracy_answered": 0.45454545454545453,
+        "accuracy_wilson95_descriptive": [
+          0.2692029418081331,
+          0.6534020467926505
+        ],
+        "confusion": {
+          "computationally_established -> computationally_established": 2,
+          "computationally_established -> refuted": 1,
+          "formally_established -> formally_established": 1,
+          "insufficient_evidence -> computationally_established": 10,
+          "refuted -> computationally_established": 1,
+          "refuted -> refuted": 7
+        },
+        "correct": 10,
+        "correct_insufficient": 0,
+        "coverage": 1.0,
+        "false_accept_count": 11,
+        "false_accept_rate": 0.6111111111111112,
+        "false_reject_count": 1,
+        "mean_brier_answered": 1.0909090909090908,
+        "n": 22,
+        "nonaccept_reference_n": 18,
+        "scope_overclaims": 10,
+        "statuses": {
+          "ok": 22
+        }
+      }
+    },
+    "scope_gated": {
+      "by_difficulty": {
+        "conceptual": {
+          "accept_reference_n": 0,
+          "accepted_n": 0,
+          "accepted_risk": null,
+          "accuracy_all": 1.0,
+          "accuracy_answered": 1.0,
+          "accuracy_wilson95_descriptive": [
+            0.7224672001371107,
+            0.9999999999999999
+          ],
+          "confusion": {
+            "insufficient_evidence -> insufficient_evidence": 10
+          },
+          "correct": 10,
+          "correct_insufficient": 10,
+          "coverage": 1.0,
+          "false_accept_count": 0,
+          "false_accept_rate": 0.0,
+          "false_reject_count": 0,
+          "mean_brier_answered": 0.0,
+          "n": 10,
+          "nonaccept_reference_n": 10,
+          "scope_overclaims": 0,
+          "statuses": {
+            "ok": 10
+          }
+        },
+        "finite": {
+          "accept_reference_n": 4,
+          "accepted_n": 3,
+          "accepted_risk": 0.0,
+          "accuracy_all": 0.9166666666666666,
+          "accuracy_answered": 0.9166666666666666,
+          "accuracy_wilson95_descriptive": [
+            0.646120088858883,
+            0.9851349055950829
+          ],
+          "confusion": {
+            "computationally_established -> computationally_established": 2,
+            "computationally_established -> refuted": 1,
+            "formally_established -> formally_established": 1,
+            "refuted -> refuted": 8
+          },
+          "correct": 11,
+          "correct_insufficient": 0,
+          "coverage": 1.0,
+          "false_accept_count": 0,
+          "false_accept_rate": 0.0,
+          "false_reject_count": 1,
+          "mean_brier_answered": 0.16666666666666666,
+          "n": 12,
+          "nonaccept_reference_n": 8,
+          "scope_overclaims": 0,
+          "statuses": {
+            "ok": 12
+          }
+        }
+      },
+      "by_domain": {
+        "biophysics": {
+          "accept_reference_n": 1,
+          "accepted_n": 1,
+          "accepted_risk": 0.0,
+          "accuracy_all": 1.0,
+          "accuracy_answered": 1.0,
+          "accuracy_wilson95_descriptive": [
+            0.4385029682449546,
+            1.0
+          ],
+          "confusion": {
+            "computationally_established -> computationally_established": 1,
+            "insufficient_evidence -> insufficient_evidence": 2
+          },
+          "correct": 3,
+          "correct_insufficient": 2,
+          "coverage": 1.0,
+          "false_accept_count": 0,
+          "false_accept_rate": 0.0,
+          "false_reject_count": 0,
+          "mean_brier_answered": 0.0,
+          "n": 3,
+          "nonaccept_reference_n": 2,
+          "scope_overclaims": 0,
+          "statuses": {
+            "ok": 3
+          }
+        },
+        "computation": {
+          "accept_reference_n": 2,
+          "accepted_n": 1,
+          "accepted_risk": 0.0,
+          "accuracy_all": 0.75,
+          "accuracy_answered": 0.75,
+          "accuracy_wilson95_descriptive": [
+            0.30064184258240184,
+            0.9544127391902995
+          ],
+          "confusion": {
+            "computationally_established -> computationally_established": 1,
+            "computationally_established -> refuted": 1,
+            "refuted -> refuted": 2
+          },
+          "correct": 3,
+          "correct_insufficient": 0,
+          "coverage": 1.0,
+          "false_accept_count": 0,
+          "false_accept_rate": 0.0,
+          "false_reject_count": 1,
+          "mean_brier_answered": 0.5,
+          "n": 4,
+          "nonaccept_reference_n": 2,
+          "scope_overclaims": 0,
+          "statuses": {
+            "ok": 4
+          }
+        },
+        "mathematics": {
+          "accept_reference_n": 1,
+          "accepted_n": 1,
+          "accepted_risk": 0.0,
+          "accuracy_all": 1.0,
+          "accuracy_answered": 1.0,
+          "accuracy_wilson95_descriptive": [
+            0.5101091635454027,
+            1.0
+          ],
+          "confusion": {
+            "formally_established -> formally_established": 1,
+            "refuted -> refuted": 3
+          },
+          "correct": 4,
+          "correct_insufficient": 0,
+          "coverage": 1.0,
+          "false_accept_count": 0,
+          "false_accept_rate": 0.0,
+          "false_reject_count": 0,
+          "mean_brier_answered": 0.0,
+          "n": 4,
+          "nonaccept_reference_n": 3,
+          "scope_overclaims": 0,
+          "statuses": {
+            "ok": 4
+          }
+        },
+        "provenance": {
+          "accept_reference_n": 0,
+          "accepted_n": 0,
+          "accepted_risk": null,
+          "accuracy_all": 1.0,
+          "accuracy_answered": 1.0,
+          "accuracy_wilson95_descriptive": [
+            0.4385029682449546,
+            1.0
+          ],
+          "confusion": {
+            "insufficient_evidence -> insufficient_evidence": 2,
+            "refuted -> refuted": 1
+          },
+          "correct": 3,
+          "correct_insufficient": 2,
+          "coverage": 1.0,
+          "false_accept_count": 0,
+          "false_accept_rate": 0.0,
+          "false_reject_count": 0,
+          "mean_brier_answered": 0.0,
+          "n": 3,
+          "nonaccept_reference_n": 3,
+          "scope_overclaims": 0,
+          "statuses": {
+            "ok": 3
+          }
+        },
+        "safety": {
+          "accept_reference_n": 0,
+          "accepted_n": 0,
+          "accepted_risk": null,
+          "accuracy_all": 1.0,
+          "accuracy_answered": 1.0,
+          "accuracy_wilson95_descriptive": [
+            0.5101091635454027,
+            1.0
+          ],
+          "confusion": {
+            "insufficient_evidence -> insufficient_evidence": 3,
+            "refuted -> refuted": 1
+          },
+          "correct": 4,
+          "correct_insufficient": 3,
+          "coverage": 1.0,
+          "false_accept_count": 0,
+          "false_accept_rate": 0.0,
+          "false_reject_count": 0,
+          "mean_brier_answered": 0.0,
+          "n": 4,
+          "nonaccept_reference_n": 4,
+          "scope_overclaims": 0,
+          "statuses": {
+            "ok": 4
+          }
+        },
+        "statistics": {
+          "accept_reference_n": 0,
+          "accepted_n": 0,
+          "accepted_risk": null,
+          "accuracy_all": 1.0,
+          "accuracy_answered": 1.0,
+          "accuracy_wilson95_descriptive": [
+            0.5101091635454027,
+            1.0
+          ],
+          "confusion": {
+            "insufficient_evidence -> insufficient_evidence": 3,
+            "refuted -> refuted": 1
+          },
+          "correct": 4,
+          "correct_insufficient": 3,
+          "coverage": 1.0,
+          "false_accept_count": 0,
+          "false_accept_rate": 0.0,
+          "false_reject_count": 0,
+          "mean_brier_answered": 0.0,
+          "n": 4,
+          "nonaccept_reference_n": 4,
+          "scope_overclaims": 0,
+          "statuses": {
+            "ok": 4
+          }
+        }
+      },
+      "by_severity": {
+        "high": {
+          "accept_reference_n": 0,
+          "accepted_n": 0,
+          "accepted_risk": null,
+          "accuracy_all": 1.0,
+          "accuracy_answered": 1.0,
+          "accuracy_wilson95_descriptive": [
+            0.7411670330319684,
+            1.0
+          ],
+          "confusion": {
+            "insufficient_evidence -> insufficient_evidence": 10,
+            "refuted -> refuted": 1
+          },
+          "correct": 11,
+          "correct_insufficient": 10,
+          "coverage": 1.0,
+          "false_accept_count": 0,
+          "false_accept_rate": 0.0,
+          "false_reject_count": 0,
+          "mean_brier_answered": 0.0,
+          "n": 11,
+          "nonaccept_reference_n": 11,
+          "scope_overclaims": 0,
+          "statuses": {
+            "ok": 11
+          }
+        },
+        "ordinary": {
+          "accept_reference_n": 4,
+          "accepted_n": 3,
+          "accepted_risk": 0.0,
+          "accuracy_all": 0.9090909090909091,
+          "accuracy_answered": 0.9090909090909091,
+          "accuracy_wilson95_descriptive": [
+            0.6226415635484043,
+            0.9837678271141151
+          ],
+          "confusion": {
+            "computationally_established -> computationally_established": 2,
+            "computationally_established -> refuted": 1,
+            "formally_established -> formally_established": 1,
+            "refuted -> refuted": 7
+          },
+          "correct": 10,
+          "correct_insufficient": 0,
+          "coverage": 1.0,
+          "false_accept_count": 0,
+          "false_accept_rate": 0.0,
+          "false_reject_count": 1,
+          "mean_brier_answered": 0.18181818181818182,
+          "n": 11,
+          "nonaccept_reference_n": 7,
+          "scope_overclaims": 0,
+          "statuses": {
+            "ok": 11
+          }
+        }
+      },
+      "excluded_unresolved_n": 1,
+      "rows": [
+        {
+          "brier": 0.0,
+          "correct": true,
+          "difficulty": "finite",
+          "domain": "mathematics",
+          "false_accept": false,
+          "id": "M03",
+          "predicted": "refuted",
+          "reference": "refuted",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "ordinary",
+          "status": "ok"
+        },
+        {
+          "brier": 0.0,
+          "correct": true,
+          "difficulty": "finite",
+          "domain": "mathematics",
+          "false_accept": false,
+          "id": "M04",
+          "predicted": "refuted",
+          "reference": "refuted",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "ordinary",
+          "status": "ok"
+        },
+        {
+          "brier": 0.0,
+          "correct": true,
+          "difficulty": "finite",
+          "domain": "mathematics",
+          "false_accept": false,
+          "id": "M05",
+          "predicted": "refuted",
+          "reference": "refuted",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "ordinary",
+          "status": "ok"
+        },
+        {
+          "brier": 0.0,
+          "correct": true,
+          "difficulty": "finite",
+          "domain": "mathematics",
+          "false_accept": false,
+          "id": "M06",
+          "predicted": "formally_established",
+          "reference": "formally_established",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "ordinary",
+          "status": "ok"
+        },
+        {
+          "brier": 0.0,
+          "correct": true,
+          "difficulty": "finite",
+          "domain": "computation",
+          "false_accept": false,
+          "id": "C02",
+          "predicted": "refuted",
+          "reference": "refuted",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "ordinary",
+          "status": "ok"
+        },
+        {
+          "brier": 2.0,
+          "correct": false,
+          "difficulty": "finite",
+          "domain": "computation",
+          "false_accept": false,
+          "id": "C04",
+          "predicted": "refuted",
+          "reference": "computationally_established",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "ordinary",
+          "status": "ok"
+        },
+        {
+          "brier": 0.0,
+          "correct": true,
+          "difficulty": "finite",
+          "domain": "computation",
+          "false_accept": false,
+          "id": "C05",
+          "predicted": "refuted",
+          "reference": "refuted",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "ordinary",
+          "status": "ok"
+        },
+        {
+          "brier": 0.0,
+          "correct": true,
+          "difficulty": "finite",
+          "domain": "computation",
+          "false_accept": false,
+          "id": "C06",
+          "predicted": "computationally_established",
+          "reference": "computationally_established",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "ordinary",
+          "status": "ok"
+        },
+        {
+          "brier": 0.0,
+          "correct": true,
+          "difficulty": "conceptual",
+          "domain": "statistics",
+          "false_accept": false,
+          "id": "S02",
+          "predicted": "insufficient_evidence",
+          "reference": "insufficient_evidence",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "high",
+          "status": "ok"
+        },
+        {
+          "brier": 0.0,
+          "correct": true,
+          "difficulty": "conceptual",
+          "domain": "statistics",
+          "false_accept": false,
+          "id": "S03",
+          "predicted": "insufficient_evidence",
+          "reference": "insufficient_evidence",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "high",
+          "status": "ok"
+        },
+        {
+          "brier": 0.0,
+          "correct": true,
+          "difficulty": "finite",
+          "domain": "statistics",
+          "false_accept": false,
+          "id": "S04",
+          "predicted": "refuted",
+          "reference": "refuted",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "ordinary",
+          "status": "ok"
+        },
+        {
+          "brier": 0.0,
+          "correct": true,
+          "difficulty": "conceptual",
+          "domain": "statistics",
+          "false_accept": false,
+          "id": "S05",
+          "predicted": "insufficient_evidence",
+          "reference": "insufficient_evidence",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "high",
+          "status": "ok"
+        },
+        {
+          "brier": 0.0,
+          "correct": true,
+          "difficulty": "conceptual",
+          "domain": "biophysics",
+          "false_accept": false,
+          "id": "B03",
+          "predicted": "insufficient_evidence",
+          "reference": "insufficient_evidence",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "high",
+          "status": "ok"
+        },
+        {
+          "brier": 0.0,
+          "correct": true,
+          "difficulty": "finite",
+          "domain": "biophysics",
+          "false_accept": false,
+          "id": "B04",
+          "predicted": "computationally_established",
+          "reference": "computationally_established",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "ordinary",
+          "status": "ok"
+        },
+        {
+          "brier": 0.0,
+          "correct": true,
+          "difficulty": "conceptual",
+          "domain": "biophysics",
+          "false_accept": false,
+          "id": "B05",
+          "predicted": "insufficient_evidence",
+          "reference": "insufficient_evidence",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "high",
+          "status": "ok"
+        },
+        {
+          "brier": 0.0,
+          "correct": true,
+          "difficulty": "finite",
+          "domain": "provenance",
+          "false_accept": false,
+          "id": "P02",
+          "predicted": "refuted",
+          "reference": "refuted",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "ordinary",
+          "status": "ok"
+        },
+        {
+          "brier": 0.0,
+          "correct": true,
+          "difficulty": "conceptual",
+          "domain": "provenance",
+          "false_accept": false,
+          "id": "P03",
+          "predicted": "insufficient_evidence",
+          "reference": "insufficient_evidence",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "high",
+          "status": "ok"
+        },
+        {
+          "brier": 0.0,
+          "correct": true,
+          "difficulty": "conceptual",
+          "domain": "provenance",
+          "false_accept": false,
+          "id": "P04",
+          "predicted": "insufficient_evidence",
+          "reference": "insufficient_evidence",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "high",
+          "status": "ok"
+        },
+        {
+          "brier": 0.0,
+          "correct": true,
+          "difficulty": "finite",
+          "domain": "safety",
+          "false_accept": false,
+          "id": "A02",
+          "predicted": "refuted",
+          "reference": "refuted",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "high",
+          "status": "ok"
+        },
+        {
+          "brier": 0.0,
+          "correct": true,
+          "difficulty": "conceptual",
+          "domain": "safety",
+          "false_accept": false,
+          "id": "A03",
+          "predicted": "insufficient_evidence",
+          "reference": "insufficient_evidence",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "high",
+          "status": "ok"
+        },
+        {
+          "brier": 0.0,
+          "correct": true,
+          "difficulty": "conceptual",
+          "domain": "safety",
+          "false_accept": false,
+          "id": "A04",
+          "predicted": "insufficient_evidence",
+          "reference": "insufficient_evidence",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "high",
+          "status": "ok"
+        },
+        {
+          "brier": 0.0,
+          "correct": true,
+          "difficulty": "conceptual",
+          "domain": "safety",
+          "false_accept": false,
+          "id": "A05",
+          "predicted": "insufficient_evidence",
+          "reference": "insufficient_evidence",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "high",
+          "status": "ok"
+        },
+        {
+          "brier": 0.0,
+          "correct": true,
+          "difficulty": "finite",
+          "domain": "biophysics",
+          "false_accept": false,
+          "id": "U01",
+          "predicted": "disputed_or_unresolved",
+          "reference": "disputed_or_unresolved",
+          "scope_overclaim": false,
+          "scored": false,
+          "severity": "ordinary",
+          "status": "ok"
+        }
+      ],
+      "summary": {
+        "accept_reference_n": 4,
+        "accepted_n": 3,
+        "accepted_risk": 0.0,
+        "accuracy_all": 0.9545454545454546,
+        "accuracy_answered": 0.9545454545454546,
+        "accuracy_wilson95_descriptive": [
+          0.7820195416134267,
+          0.991930572378736
+        ],
+        "confusion": {
+          "computationally_established -> computationally_established": 2,
+          "computationally_established -> refuted": 1,
+          "formally_established -> formally_established": 1,
+          "insufficient_evidence -> insufficient_evidence": 10,
+          "refuted -> refuted": 8
+        },
+        "correct": 21,
+        "correct_insufficient": 10,
+        "coverage": 1.0,
+        "false_accept_count": 0,
+        "false_accept_rate": 0.0,
+        "false_reject_count": 1,
+        "mean_brier_answered": 0.09090909090909091,
+        "n": 22,
+        "nonaccept_reference_n": 18,
+        "scope_overclaims": 0,
+        "statuses": {
+          "ok": 22
+        }
+      }
+    }
+  },
+  "evaluation_n": 23,
+  "limitations": [
+    "Public frozen labels, no protected holdout",
+    "Diagnostic hand-coded policies, not general AI systems",
+    "Author-adjudicated pilot; no external scientific expert qualification",
+    "Wilson intervals descriptive under hypothetical iid sampling only; purposive sample is not iid"
+  ],
+  "manifest_sha256": "02416396351f789f671b5ab678af98843d56c4f999544b0da4af701e497f99cb",
+  "protocol_sha256": "650eb39fd263a827a45562615f1465d0194772b41675561853addc0e5f583eee",
+  "python": "3.12.14",
+  "scored_evaluation_n": 22,
+  "version": "0.1.0"
+}

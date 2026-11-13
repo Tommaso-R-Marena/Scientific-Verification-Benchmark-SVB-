@@ -1,0 +1,6 @@
+policy,n,correct,accuracy_all,coverage,false_accept_count,scope_overclaims,mean_brier_answered
+always_accept,22,3,0.13636363636363635,1.0,18,8,1.7272727272727273
+always_insufficient,22,10,0.45454545454545453,1.0,0,0,1.0909090909090908
+always_unsupported,22,0,0.0,0.0,0,0,
+calculation_only,22,10,0.45454545454545453,1.0,11,10,1.0909090909090908
+scope_gated,22,21,0.9545454545454546,1.0,0,0,0.09090909090909091

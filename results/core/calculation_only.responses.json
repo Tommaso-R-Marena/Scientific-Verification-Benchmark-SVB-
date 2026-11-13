@@ -1,0 +1,409 @@
+[
+  {
+    "confidence": {
+      "computationally_established": 0.0,
+      "disputed_or_unresolved": 0.0,
+      "empirically_supported": 0.0,
+      "formally_established": 0.0,
+      "insufficient_evidence": 0.0,
+      "refuted": 1.0
+    },
+    "id": "M03",
+    "label": "refuted",
+    "reason": "Limited deterministic rule with binary64 calculation; confidence is degenerate, not calibrated.",
+    "scopes": [
+      "mathematical"
+    ],
+    "status": "ok"
+  },
+  {
+    "confidence": {
+      "computationally_established": 0.0,
+      "disputed_or_unresolved": 0.0,
+      "empirically_supported": 0.0,
+      "formally_established": 0.0,
+      "insufficient_evidence": 0.0,
+      "refuted": 1.0
+    },
+    "id": "M04",
+    "label": "refuted",
+    "reason": "Limited deterministic rule with binary64 calculation; confidence is degenerate, not calibrated.",
+    "scopes": [
+      "mathematical"
+    ],
+    "status": "ok"
+  },
+  {
+    "confidence": {
+      "computationally_established": 0.0,
+      "disputed_or_unresolved": 0.0,
+      "empirically_supported": 0.0,
+      "formally_established": 0.0,
+      "insufficient_evidence": 0.0,
+      "refuted": 1.0
+    },
+    "id": "M05",
+    "label": "refuted",
+    "reason": "Limited deterministic rule with binary64 calculation; confidence is degenerate, not calibrated.",
+    "scopes": [
+      "mathematical"
+    ],
+    "status": "ok"
+  },
+  {
+    "confidence": {
+      "computationally_established": 0.0,
+      "disputed_or_unresolved": 0.0,
+      "empirically_supported": 0.0,
+      "formally_established": 1.0,
+      "insufficient_evidence": 0.0,
+      "refuted": 0.0
+    },
+    "id": "M06",
+    "label": "formally_established",
+    "reason": "Limited deterministic rule with binary64 calculation; confidence is degenerate, not calibrated.",
+    "scopes": [
+      "mathematical"
+    ],
+    "status": "ok"
+  },
+  {
+    "confidence": {
+      "computationally_established": 0.0,
+      "disputed_or_unresolved": 0.0,
+      "empirically_supported": 0.0,
+      "formally_established": 0.0,
+      "insufficient_evidence": 0.0,
+      "refuted": 1.0
+    },
+    "id": "C02",
+    "label": "refuted",
+    "reason": "Limited deterministic rule with binary64 calculation; confidence is degenerate, not calibrated.",
+    "scopes": [
+      "computational"
+    ],
+    "status": "ok"
+  },
+  {
+    "confidence": {
+      "computationally_established": 0.0,
+      "disputed_or_unresolved": 0.0,
+      "empirically_supported": 0.0,
+      "formally_established": 0.0,
+      "insufficient_evidence": 0.0,
+      "refuted": 1.0
+    },
+    "id": "C04",
+    "label": "refuted",
+    "reason": "Limited deterministic rule with binary64 calculation; confidence is degenerate, not calibrated.",
+    "scopes": [
+      "computational"
+    ],
+    "status": "ok"
+  },
+  {
+    "confidence": {
+      "computationally_established": 0.0,
+      "disputed_or_unresolved": 0.0,
+      "empirically_supported": 0.0,
+      "formally_established": 0.0,
+      "insufficient_evidence": 0.0,
+      "refuted": 1.0
+    },
+    "id": "C05",
+    "label": "refuted",
+    "reason": "Limited deterministic rule with binary64 calculation; confidence is degenerate, not calibrated.",
+    "scopes": [
+      "computational"
+    ],
+    "status": "ok"
+  },
+  {
+    "confidence": {
+      "computationally_established": 1.0,
+      "disputed_or_unresolved": 0.0,
+      "empirically_supported": 0.0,
+      "formally_established": 0.0,
+      "insufficient_evidence": 0.0,
+      "refuted": 0.0
+    },
+    "id": "C06",
+    "label": "computationally_established",
+    "reason": "Limited deterministic rule with binary64 calculation; confidence is degenerate, not calibrated.",
+    "scopes": [
+      "computational"
+    ],
+    "status": "ok"
+  },
+  {
+    "confidence": {
+      "computationally_established": 1.0,
+      "disputed_or_unresolved": 0.0,
+      "empirically_supported": 0.0,
+      "formally_established": 0.0,
+      "insufficient_evidence": 0.0,
+      "refuted": 0.0
+    },
+    "id": "S02",
+    "label": "computationally_established",
+    "reason": "Treat intermediate computational evidence as final acceptance (intentional ablation).",
+    "scopes": [
+      "empirical",
+      "statistical"
+    ],
+    "status": "ok"
+  },
+  {
+    "confidence": {
+      "computationally_established": 1.0,
+      "disputed_or_unresolved": 0.0,
+      "empirically_supported": 0.0,
+      "formally_established": 0.0,
+      "insufficient_evidence": 0.0,
+      "refuted": 0.0
+    },
+    "id": "S03",
+    "label": "computationally_established",
+    "reason": "Treat intermediate computational evidence as final acceptance (intentional ablation).",
+    "scopes": [
+      "computational",
+      "empirical"
+    ],
+    "status": "ok"
+  },
+  {
+    "confidence": {
+      "computationally_established": 0.0,
+      "disputed_or_unresolved": 0.0,
+      "empirically_supported": 0.0,
+      "formally_established": 0.0,
+      "insufficient_evidence": 0.0,
+      "refuted": 1.0
+    },
+    "id": "S04",
+    "label": "refuted",
+    "reason": "Limited deterministic rule with binary64 calculation; confidence is degenerate, not calibrated.",
+    "scopes": [
+      "statistical"
+    ],
+    "status": "ok"
+  },
+  {
+    "confidence": {
+      "computationally_established": 1.0,
+      "disputed_or_unresolved": 0.0,
+      "empirically_supported": 0.0,
+      "formally_established": 0.0,
+      "insufficient_evidence": 0.0,
+      "refuted": 0.0
+    },
+    "id": "S05",
+    "label": "computationally_established",
+    "reason": "Treat intermediate computational evidence as final acceptance (intentional ablation).",
+    "scopes": [
+      "empirical",
+      "statistical"
+    ],
+    "status": "ok"
+  },
+  {
+    "confidence": {
+      "computationally_established": 1.0,
+      "disputed_or_unresolved": 0.0,
+      "empirically_supported": 0.0,
+      "formally_established": 0.0,
+      "insufficient_evidence": 0.0,
+      "refuted": 0.0
+    },
+    "id": "B03",
+    "label": "computationally_established",
+    "reason": "Treat intermediate computational evidence as final acceptance (intentional ablation).",
+    "scopes": [
+      "computational",
+      "empirical",
+      "mathematical",
+      "model"
+    ],
+    "status": "ok"
+  },
+  {
+    "confidence": {
+      "computationally_established": 1.0,
+      "disputed_or_unresolved": 0.0,
+      "empirically_supported": 0.0,
+      "formally_established": 0.0,
+      "insufficient_evidence": 0.0,
+      "refuted": 0.0
+    },
+    "id": "B04",
+    "label": "computationally_established",
+    "reason": "Limited deterministic rule with binary64 calculation; confidence is degenerate, not calibrated.",
+    "scopes": [
+      "computational",
+      "model"
+    ],
+    "status": "ok"
+  },
+  {
+    "confidence": {
+      "computationally_established": 1.0,
+      "disputed_or_unresolved": 0.0,
+      "empirically_supported": 0.0,
+      "formally_established": 0.0,
+      "insufficient_evidence": 0.0,
+      "refuted": 0.0
+    },
+    "id": "B05",
+    "label": "computationally_established",
+    "reason": "Treat intermediate computational evidence as final acceptance (intentional ablation).",
+    "scopes": [
+      "computational",
+      "empirical",
+      "model"
+    ],
+    "status": "ok"
+  },
+  {
+    "confidence": {
+      "computationally_established": 0.0,
+      "disputed_or_unresolved": 0.0,
+      "empirically_supported": 0.0,
+      "formally_established": 0.0,
+      "insufficient_evidence": 0.0,
+      "refuted": 1.0
+    },
+    "id": "P02",
+    "label": "refuted",
+    "reason": "Limited deterministic rule with binary64 calculation; confidence is degenerate, not calibrated.",
+    "scopes": [
+      "computational",
+      "provenance"
+    ],
+    "status": "ok"
+  },
+  {
+    "confidence": {
+      "computationally_established": 1.0,
+      "disputed_or_unresolved": 0.0,
+      "empirically_supported": 0.0,
+      "formally_established": 0.0,
+      "insufficient_evidence": 0.0,
+      "refuted": 0.0
+    },
+    "id": "P03",
+    "label": "computationally_established",
+    "reason": "Treat intermediate computational evidence as final acceptance (intentional ablation).",
+    "scopes": [
+      "computational",
+      "empirical",
+      "provenance"
+    ],
+    "status": "ok"
+  },
+  {
+    "confidence": {
+      "computationally_established": 1.0,
+      "disputed_or_unresolved": 0.0,
+      "empirically_supported": 0.0,
+      "formally_established": 0.0,
+      "insufficient_evidence": 0.0,
+      "refuted": 0.0
+    },
+    "id": "P04",
+    "label": "computationally_established",
+    "reason": "Treat intermediate computational evidence as final acceptance (intentional ablation).",
+    "scopes": [
+      "computational",
+      "empirical",
+      "provenance"
+    ],
+    "status": "ok"
+  },
+  {
+    "confidence": {
+      "computationally_established": 1.0,
+      "disputed_or_unresolved": 0.0,
+      "empirically_supported": 0.0,
+      "formally_established": 0.0,
+      "insufficient_evidence": 0.0,
+      "refuted": 0.0
+    },
+    "id": "A02",
+    "label": "computationally_established",
+    "reason": "Limited deterministic rule with binary64 calculation; confidence is degenerate, not calibrated.",
+    "scopes": [
+      "computational"
+    ],
+    "status": "ok"
+  },
+  {
+    "confidence": {
+      "computationally_established": 1.0,
+      "disputed_or_unresolved": 0.0,
+      "empirically_supported": 0.0,
+      "formally_established": 0.0,
+      "insufficient_evidence": 0.0,
+      "refuted": 0.0
+    },
+    "id": "A03",
+    "label": "computationally_established",
+    "reason": "Treat intermediate computational evidence as final acceptance (intentional ablation).",
+    "scopes": [
+      "computational",
+      "empirical"
+    ],
+    "status": "ok"
+  },
+  {
+    "confidence": {
+      "computationally_established": 1.0,
+      "disputed_or_unresolved": 0.0,
+      "empirically_supported": 0.0,
+      "formally_established": 0.0,
+      "insufficient_evidence": 0.0,
+      "refuted": 0.0
+    },
+    "id": "A04",
+    "label": "computationally_established",
+    "reason": "Treat intermediate computational evidence as final acceptance (intentional ablation).",
+    "scopes": [
+      "computational",
+      "mathematical"
+    ],
+    "status": "ok"
+  },
+  {
+    "confidence": {
+      "computationally_established": 1.0,
+      "disputed_or_unresolved": 0.0,
+      "empirically_supported": 0.0,
+      "formally_established": 0.0,
+      "insufficient_evidence": 0.0,
+      "refuted": 0.0
+    },
+    "id": "A05",
+    "label": "computationally_established",
+    "reason": "Treat intermediate computational evidence as final acceptance (intentional ablation).",
+    "scopes": [
+      "empirical",
+      "mathematical",
+      "model"
+    ],
+    "status": "ok"
+  },
+  {
+    "confidence": {
+      "computationally_established": 0.0,
+      "disputed_or_unresolved": 1.0,
+      "empirically_supported": 0.0,
+      "formally_established": 0.0,
+      "insufficient_evidence": 0.0,
+      "refuted": 0.0
+    },
+    "id": "U01",
+    "label": "disputed_or_unresolved",
+    "reason": "Open-ended task has no operational resolution.",
+    "scopes": [],
+    "status": "ok"
+  }
+]

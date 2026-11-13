@@ -1,0 +1,83 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SVB task collection v0.1.0",
+  "type": "array",
+  "minItems": 1,
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+      "assumptions",
+      "checker",
+      "claim",
+      "criteria",
+      "difficulty",
+      "domain",
+      "expected_response",
+      "family",
+      "id",
+      "limitations",
+      "question",
+      "reference",
+      "scored",
+      "severity",
+      "sources",
+      "split",
+      "uncertainty"
+    ],
+    "properties": {
+      "assumptions": {
+        "type": "array"
+      },
+      "checker": {
+        "type": "object"
+      },
+      "claim": {
+        "type": "string"
+      },
+      "criteria": {
+        "type": "string"
+      },
+      "difficulty": {
+        "type": "string"
+      },
+      "domain": {
+        "type": "string"
+      },
+      "expected_response": {
+        "type": "object"
+      },
+      "family": {
+        "type": "string"
+      },
+      "id": {
+        "type": "string"
+      },
+      "limitations": {
+        "type": "string"
+      },
+      "question": {
+        "type": "string"
+      },
+      "reference": {
+        "type": "object"
+      },
+      "scored": {
+        "type": "boolean"
+      },
+      "severity": {
+        "type": "string"
+      },
+      "sources": {
+        "type": "array"
+      },
+      "split": {
+        "type": "string"
+      },
+      "uncertainty": {
+        "type": "string"
+      }
+    }
+  },
+  "description": "Runtime also recomputes reference labels, checks evidence hashes, scopes, source registry, split family integrity and duplicate fingerprints. This is an interchange schema, not a substitute for those semantic checks."
+}

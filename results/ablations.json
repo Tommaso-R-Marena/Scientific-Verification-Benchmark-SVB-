@@ -1,0 +1,100 @@
+{
+  "analysis": "Post-hoc controlled hybrid ablation of frozen response artifacts, not new preregistered comparison",
+  "hybrids": {
+    "both": {
+      "accept_reference_n": 4,
+      "accepted_n": 3,
+      "accepted_risk": 0.0,
+      "accuracy_all": 0.9545454545454546,
+      "accuracy_answered": 0.9545454545454546,
+      "accuracy_wilson95_descriptive": [
+        0.7820195416134267,
+        0.991930572378736
+      ],
+      "confusion": {
+        "computationally_established -> computationally_established": 2,
+        "computationally_established -> refuted": 1,
+        "formally_established -> formally_established": 1,
+        "insufficient_evidence -> insufficient_evidence": 10,
+        "refuted -> refuted": 8
+      },
+      "correct": 21,
+      "correct_insufficient": 10,
+      "coverage": 1.0,
+      "false_accept_count": 0,
+      "false_accept_rate": 0.0,
+      "false_reject_count": 1,
+      "mean_brier_answered": 0.09090909090909091,
+      "n": 22,
+      "nonaccept_reference_n": 18,
+      "scope_overclaims": 0,
+      "statuses": {
+        "ok": 22
+      }
+    },
+    "scope_gate_only": {
+      "accept_reference_n": 4,
+      "accepted_n": 4,
+      "accepted_risk": 0.25,
+      "accuracy_all": 0.9090909090909091,
+      "accuracy_answered": 0.9090909090909091,
+      "accuracy_wilson95_descriptive": [
+        0.7218505315839417,
+        0.9747045710090046
+      ],
+      "confusion": {
+        "computationally_established -> computationally_established": 2,
+        "computationally_established -> refuted": 1,
+        "formally_established -> formally_established": 1,
+        "insufficient_evidence -> insufficient_evidence": 10,
+        "refuted -> computationally_established": 1,
+        "refuted -> refuted": 7
+      },
+      "correct": 20,
+      "correct_insufficient": 10,
+      "coverage": 1.0,
+      "false_accept_count": 1,
+      "false_accept_rate": 0.05555555555555555,
+      "false_reject_count": 1,
+      "mean_brier_answered": 0.18181818181818182,
+      "n": 22,
+      "nonaccept_reference_n": 18,
+      "scope_overclaims": 0,
+      "statuses": {
+        "ok": 22
+      }
+    },
+    "strict_json_only": {
+      "accept_reference_n": 4,
+      "accepted_n": 13,
+      "accepted_risk": 0.7692307692307693,
+      "accuracy_all": 0.5,
+      "accuracy_answered": 0.5,
+      "accuracy_wilson95_descriptive": [
+        0.3072210627372502,
+        0.6927789372627497
+      ],
+      "confusion": {
+        "computationally_established -> computationally_established": 2,
+        "computationally_established -> refuted": 1,
+        "formally_established -> formally_established": 1,
+        "insufficient_evidence -> computationally_established": 10,
+        "refuted -> refuted": 8
+      },
+      "correct": 11,
+      "correct_insufficient": 0,
+      "coverage": 1.0,
+      "false_accept_count": 10,
+      "false_accept_rate": 0.5555555555555556,
+      "false_reject_count": 1,
+      "mean_brier_answered": 1.0,
+      "n": 22,
+      "nonaccept_reference_n": 18,
+      "scope_overclaims": 10,
+      "statuses": {
+        "ok": 22
+      }
+    }
+  },
+  "risk_coverage_limitation": "One-hot policies have no confidence ranking; a smooth curve or calibration claim would be misleading."
+}

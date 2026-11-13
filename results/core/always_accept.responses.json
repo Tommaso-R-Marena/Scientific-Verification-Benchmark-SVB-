@@ -1,0 +1,393 @@
+[
+  {
+    "confidence": {
+      "computationally_established": 1.0,
+      "disputed_or_unresolved": 0.0,
+      "empirically_supported": 0.0,
+      "formally_established": 0.0,
+      "insufficient_evidence": 0.0,
+      "refuted": 0.0
+    },
+    "id": "M03",
+    "label": "computationally_established",
+    "reason": "Always accept the computational statement.",
+    "scopes": [
+      "computational"
+    ],
+    "status": "ok"
+  },
+  {
+    "confidence": {
+      "computationally_established": 1.0,
+      "disputed_or_unresolved": 0.0,
+      "empirically_supported": 0.0,
+      "formally_established": 0.0,
+      "insufficient_evidence": 0.0,
+      "refuted": 0.0
+    },
+    "id": "M04",
+    "label": "computationally_established",
+    "reason": "Always accept the computational statement.",
+    "scopes": [
+      "computational"
+    ],
+    "status": "ok"
+  },
+  {
+    "confidence": {
+      "computationally_established": 1.0,
+      "disputed_or_unresolved": 0.0,
+      "empirically_supported": 0.0,
+      "formally_established": 0.0,
+      "insufficient_evidence": 0.0,
+      "refuted": 0.0
+    },
+    "id": "M05",
+    "label": "computationally_established",
+    "reason": "Always accept the computational statement.",
+    "scopes": [
+      "computational"
+    ],
+    "status": "ok"
+  },
+  {
+    "confidence": {
+      "computationally_established": 1.0,
+      "disputed_or_unresolved": 0.0,
+      "empirically_supported": 0.0,
+      "formally_established": 0.0,
+      "insufficient_evidence": 0.0,
+      "refuted": 0.0
+    },
+    "id": "M06",
+    "label": "computationally_established",
+    "reason": "Always accept the computational statement.",
+    "scopes": [
+      "computational"
+    ],
+    "status": "ok"
+  },
+  {
+    "confidence": {
+      "computationally_established": 1.0,
+      "disputed_or_unresolved": 0.0,
+      "empirically_supported": 0.0,
+      "formally_established": 0.0,
+      "insufficient_evidence": 0.0,
+      "refuted": 0.0
+    },
+    "id": "C02",
+    "label": "computationally_established",
+    "reason": "Always accept the computational statement.",
+    "scopes": [
+      "computational"
+    ],
+    "status": "ok"
+  },
+  {
+    "confidence": {
+      "computationally_established": 1.0,
+      "disputed_or_unresolved": 0.0,
+      "empirically_supported": 0.0,
+      "formally_established": 0.0,
+      "insufficient_evidence": 0.0,
+      "refuted": 0.0
+    },
+    "id": "C04",
+    "label": "computationally_established",
+    "reason": "Always accept the computational statement.",
+    "scopes": [
+      "computational"
+    ],
+    "status": "ok"
+  },
+  {
+    "confidence": {
+      "computationally_established": 1.0,
+      "disputed_or_unresolved": 0.0,
+      "empirically_supported": 0.0,
+      "formally_established": 0.0,
+      "insufficient_evidence": 0.0,
+      "refuted": 0.0
+    },
+    "id": "C05",
+    "label": "computationally_established",
+    "reason": "Always accept the computational statement.",
+    "scopes": [
+      "computational"
+    ],
+    "status": "ok"
+  },
+  {
+    "confidence": {
+      "computationally_established": 1.0,
+      "disputed_or_unresolved": 0.0,
+      "empirically_supported": 0.0,
+      "formally_established": 0.0,
+      "insufficient_evidence": 0.0,
+      "refuted": 0.0
+    },
+    "id": "C06",
+    "label": "computationally_established",
+    "reason": "Always accept the computational statement.",
+    "scopes": [
+      "computational"
+    ],
+    "status": "ok"
+  },
+  {
+    "confidence": {
+      "computationally_established": 1.0,
+      "disputed_or_unresolved": 0.0,
+      "empirically_supported": 0.0,
+      "formally_established": 0.0,
+      "insufficient_evidence": 0.0,
+      "refuted": 0.0
+    },
+    "id": "S02",
+    "label": "computationally_established",
+    "reason": "Always accept the computational statement.",
+    "scopes": [
+      "computational"
+    ],
+    "status": "ok"
+  },
+  {
+    "confidence": {
+      "computationally_established": 1.0,
+      "disputed_or_unresolved": 0.0,
+      "empirically_supported": 0.0,
+      "formally_established": 0.0,
+      "insufficient_evidence": 0.0,
+      "refuted": 0.0
+    },
+    "id": "S03",
+    "label": "computationally_established",
+    "reason": "Always accept the computational statement.",
+    "scopes": [
+      "computational"
+    ],
+    "status": "ok"
+  },
+  {
+    "confidence": {
+      "computationally_established": 1.0,
+      "disputed_or_unresolved": 0.0,
+      "empirically_supported": 0.0,
+      "formally_established": 0.0,
+      "insufficient_evidence": 0.0,
+      "refuted": 0.0
+    },
+    "id": "S04",
+    "label": "computationally_established",
+    "reason": "Always accept the computational statement.",
+    "scopes": [
+      "computational"
+    ],
+    "status": "ok"
+  },
+  {
+    "confidence": {
+      "computationally_established": 1.0,
+      "disputed_or_unresolved": 0.0,
+      "empirically_supported": 0.0,
+      "formally_established": 0.0,
+      "insufficient_evidence": 0.0,
+      "refuted": 0.0
+    },
+    "id": "S05",
+    "label": "computationally_established",
+    "reason": "Always accept the computational statement.",
+    "scopes": [
+      "computational"
+    ],
+    "status": "ok"
+  },
+  {
+    "confidence": {
+      "computationally_established": 1.0,
+      "disputed_or_unresolved": 0.0,
+      "empirically_supported": 0.0,
+      "formally_established": 0.0,
+      "insufficient_evidence": 0.0,
+      "refuted": 0.0
+    },
+    "id": "B03",
+    "label": "computationally_established",
+    "reason": "Always accept the computational statement.",
+    "scopes": [
+      "computational"
+    ],
+    "status": "ok"
+  },
+  {
+    "confidence": {
+      "computationally_established": 1.0,
+      "disputed_or_unresolved": 0.0,
+      "empirically_supported": 0.0,
+      "formally_established": 0.0,
+      "insufficient_evidence": 0.0,
+      "refuted": 0.0
+    },
+    "id": "B04",
+    "label": "computationally_established",
+    "reason": "Always accept the computational statement.",
+    "scopes": [
+      "computational"
+    ],
+    "status": "ok"
+  },
+  {
+    "confidence": {
+      "computationally_established": 1.0,
+      "disputed_or_unresolved": 0.0,
+      "empirically_supported": 0.0,
+      "formally_established": 0.0,
+      "insufficient_evidence": 0.0,
+      "refuted": 0.0
+    },
+    "id": "B05",
+    "label": "computationally_established",
+    "reason": "Always accept the computational statement.",
+    "scopes": [
+      "computational"
+    ],
+    "status": "ok"
+  },
+  {
+    "confidence": {
+      "computationally_established": 1.0,
+      "disputed_or_unresolved": 0.0,
+      "empirically_supported": 0.0,
+      "formally_established": 0.0,
+      "insufficient_evidence": 0.0,
+      "refuted": 0.0
+    },
+    "id": "P02",
+    "label": "computationally_established",
+    "reason": "Always accept the computational statement.",
+    "scopes": [
+      "computational"
+    ],
+    "status": "ok"
+  },
+  {
+    "confidence": {
+      "computationally_established": 1.0,
+      "disputed_or_unresolved": 0.0,
+      "empirically_supported": 0.0,
+      "formally_established": 0.0,
+      "insufficient_evidence": 0.0,
+      "refuted": 0.0
+    },
+    "id": "P03",
+    "label": "computationally_established",
+    "reason": "Always accept the computational statement.",
+    "scopes": [
+      "computational"
+    ],
+    "status": "ok"
+  },
+  {
+    "confidence": {
+      "computationally_established": 1.0,
+      "disputed_or_unresolved": 0.0,
+      "empirically_supported": 0.0,
+      "formally_established": 0.0,
+      "insufficient_evidence": 0.0,
+      "refuted": 0.0
+    },
+    "id": "P04",
+    "label": "computationally_established",
+    "reason": "Always accept the computational statement.",
+    "scopes": [
+      "computational"
+    ],
+    "status": "ok"
+  },
+  {
+    "confidence": {
+      "computationally_established": 1.0,
+      "disputed_or_unresolved": 0.0,
+      "empirically_supported": 0.0,
+      "formally_established": 0.0,
+      "insufficient_evidence": 0.0,
+      "refuted": 0.0
+    },
+    "id": "A02",
+    "label": "computationally_established",
+    "reason": "Always accept the computational statement.",
+    "scopes": [
+      "computational"
+    ],
+    "status": "ok"
+  },
+  {
+    "confidence": {
+      "computationally_established": 1.0,
+      "disputed_or_unresolved": 0.0,
+      "empirically_supported": 0.0,
+      "formally_established": 0.0,
+      "insufficient_evidence": 0.0,
+      "refuted": 0.0
+    },
+    "id": "A03",
+    "label": "computationally_established",
+    "reason": "Always accept the computational statement.",
+    "scopes": [
+      "computational"
+    ],
+    "status": "ok"
+  },
+  {
+    "confidence": {
+      "computationally_established": 1.0,
+      "disputed_or_unresolved": 0.0,
+      "empirically_supported": 0.0,
+      "formally_established": 0.0,
+      "insufficient_evidence": 0.0,
+      "refuted": 0.0
+    },
+    "id": "A04",
+    "label": "computationally_established",
+    "reason": "Always accept the computational statement.",
+    "scopes": [
+      "computational"
+    ],
+    "status": "ok"
+  },
+  {
+    "confidence": {
+      "computationally_established": 1.0,
+      "disputed_or_unresolved": 0.0,
+      "empirically_supported": 0.0,
+      "formally_established": 0.0,
+      "insufficient_evidence": 0.0,
+      "refuted": 0.0
+    },
+    "id": "A05",
+    "label": "computationally_established",
+    "reason": "Always accept the computational statement.",
+    "scopes": [
+      "computational"
+    ],
+    "status": "ok"
+  },
+  {
+    "confidence": {
+      "computationally_established": 1.0,
+      "disputed_or_unresolved": 0.0,
+      "empirically_supported": 0.0,
+      "formally_established": 0.0,
+      "insufficient_evidence": 0.0,
+      "refuted": 0.0
+    },
+    "id": "U01",
+    "label": "computationally_established",
+    "reason": "Always accept the computational statement.",
+    "scopes": [
+      "computational"
+    ],
+    "status": "ok"
+  }
+]
