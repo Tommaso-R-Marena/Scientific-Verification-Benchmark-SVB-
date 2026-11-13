@@ -1,0 +1,9 @@
+# Keep frozen hashes stable across checkouts and preserve archived source bytes.
+* text eol=lf
+data/** -text
+# Fixed-width PDB and archived names intentionally retain original padding.
+data/1CRN.pdb whitespace=-blank-at-eol
+data/iris.names whitespace=-blank-at-eol
+data/iris.data whitespace=-blank-at-eof
+# csv.writer emits standard CRLF; retain it for byte-identical reproduction.
+results/core/*.csv -text whitespace=-blank-at-eol
