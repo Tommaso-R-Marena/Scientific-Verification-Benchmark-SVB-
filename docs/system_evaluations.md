@@ -117,3 +117,7 @@ guarantee, cross-system superiority, or novel algorithm is established by these
 controls. Unsupported capability, execution failure and reference error remain
 separate from an incorrect subject verdict. The adapters deliberately do not
 turn a successful finite computation into an empirical scientific claim.
+
+## Post-observation adapter admission hardening
+
+Final review found that accepting any nonzero exit could misclassify a signal or unrelated crash as an intended negative control. The adapter now requires the known validation exit code and diagnostic for FoldBounds input validation and PCS malformed transcripts. Three regression tests distinguish validation errors, unrelated failures, signals and timeouts. All 28 observed case outcomes matched the original retained measurements on rerun; `results/adapter_hardening.json` records this. This is disclosed post-observation engineering hardening, not a changed scientific label or a hidden preregistered trial. The original sanitized measurement and protocol history remain retained.

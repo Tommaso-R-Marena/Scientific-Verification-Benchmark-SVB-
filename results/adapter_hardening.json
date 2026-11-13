@@ -1,0 +1,6 @@
+{
+  "change": "Post-observation adapter hardening distinguishes documented validation rejection from crashes/signals/timeouts; no core protocol/labels changed",
+  "original_retained_results_sha256": "7561d31c09b58e707124f9100fb25ac4621f11eabcd5006515ba13ed07edc397",
+  "outcome_comparison": "All 28 observed system-case outcomes identical to retained first measurements",
+  "test_count": 39
+}

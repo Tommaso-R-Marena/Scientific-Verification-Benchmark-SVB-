@@ -311,7 +311,7 @@ PYTHONPATH=src python3 -B -m svb.cli experiment --output results/reproduced
 PYTHONPATH=src python3 -B scripts/analyze.py
 ```
 
-The retained test log records 36 passing tests at the time of writing.
+The retained test log records 39 passing tests at the time of writing.
 `results/core/baselines.json`, `results/ablations.json`, and
 `results/system_summary.json` contain the reported measurements; manifests retain
 content identities and the public-freeze boundary. Optional subject reproduction

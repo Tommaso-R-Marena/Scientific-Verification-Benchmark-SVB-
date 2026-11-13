@@ -125,6 +125,13 @@ def _row(case_id: str, expected: Any, observed: Any, valid: bool, execution: dic
             "execution": execution}
 
 
+def known_rejection(execution: dict[str, Any], codes: tuple[int, ...], message: str) -> bool:
+    """A crash, signal, timeout or unrelated failure is not input rejection."""
+    return ("execution_error" not in execution
+            and execution.get("returncode") in codes
+            and message in execution.get("stderr", ""))
+
+
 def _metadata(repo: Path, project: Path) -> dict[str, Any]:
     if not repo.is_dir():
         return {"available": False, "path": str(repo)}
@@ -165,8 +172,11 @@ def evaluate_foldbounds(repo: Path, project: Path, protocol: dict[str, Any]) -> 
             rows.append(_row(f"{sequence}-q{q}-t{threshold}-depth{depth}", reference, observed, valid, execution))
     for invalid in protocol["invalid"]:
         execution = _execute([str(python), "-B", "-m", "foldbounds", invalid["sequence"], "--q", invalid["q"]], project, repo / "src")
+        message = ("ValueError: sequence must contain at least two H/P residues"
+                   if set(invalid["sequence"]) - {"H", "P"}
+                   else "ValueError: q must be an exact Fraction >= 1")
         rows.append(_row("reject-" + invalid["sequence"] + "-q" + invalid["q"], "nonzero exit", execution.get("returncode"),
-                         isinstance(execution.get("returncode"), int) and execution["returncode"] != 0, execution))
+                         known_rejection(execution, (1,), message), execution))
     return {"rows": rows, "scope": "Small anchored finite 2D HP model; no physical protein validation or Lean proof replay."}
 
 
@@ -244,7 +254,7 @@ def evaluate_pcs(repo: Path, project: Path, protocol: dict[str, Any]) -> dict[st
             observed = execution.get("stdout", "").strip()
             if case == "malformed_transcript":
                 expected = "nonzero exit"
-                valid = execution.get("returncode", 0) != 0
+                valid = known_rejection(execution, (2,), "invalid authority observation transcript")
             else:
                 expected = "ACCEPT" if case == "signed_balanced_positive" else "REJECT"
                 valid = execution.get("returncode") == 0 and (observed == "ACCEPT" if expected == "ACCEPT" else observed.startswith("REJECT"))

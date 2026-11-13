@@ -4,21 +4,34 @@
     "data/system_protocol.json": "8c6b85928370f721a81e478174a99c0510ab7b3b07c5789a8aa753c83908ea48",
     "data/system_protocol.v1.json": "f8ba4074599992a874f0a29e23a6b5fc521c64769a034171e55c49ac0be166e6",
     "results/ablations.json": "dfa917aa7dbf189b09550bd04c93b454de3a0e842942e956066362de8e12a715",
+    "results/adapter_hardening.json": "3cb29fa9fa43070e989337de9711f0a652aabd9c5e0d7cf934e76eda18efca98",
     "results/core/baselines.json": "0956dccf8a65bd43c4ce275d6f5d365c695b7527b34bb80913f9bfef426fc8f0",
     "results/core/summary.csv": "b3ae3f8ec6ae0c509015bb89e9b38d66c7893cca0094dde2cf33e7d6dedaac51",
     "results/lean_scope.log": "b6e4724a11afe48daf791685ca00af27934efac9281cfd78cea24987040791a1",
     "results/subject_integrity.json": "4c4ce48758b919e2cc2c1256ab993a18aac14187a6d3a1719bf841f04fcabc18",
     "results/system_summary.json": "7561d31c09b58e707124f9100fb25ac4621f11eabcd5006515ba13ed07edc397",
-    "results/tests.log": "ae42a5ed9aba537d6b732cc36b6e0c78b7e94b611db30dc413a4c6a472ec8383",
+    "results/tests.log": "258248d1c414bb1d2a21ae560652b3e469c64210343db5d7ee6e02e227dfa5be",
     "theory/Scope.lean": "2442a6b42d8dc74513d5c4bc4272bea4409eb926a154c2cd883c15f3595b0717"
   },
   "executed": {
+    "adapter_hardening": {
+      "change": "Post-observation adapter hardening distinguishes documented validation rejection from crashes/signals/timeouts; no core protocol/labels changed",
+      "original_retained_results_sha256": "7561d31c09b58e707124f9100fb25ac4621f11eabcd5006515ba13ed07edc397",
+      "outcome_comparison": "All 28 observed system-case outcomes identical to retained first measurements",
+      "test_count": 39
+    },
     "core_experiment": {
       "byte_identical_repeat": true,
       "command": "PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=src python3 -m svb.cli experiment --output results/local/repeat",
       "dev": 11,
       "open_unscored": 1,
       "scored_items": 22
+    },
+    "fresh_committed_checkout": {
+      "commit": "5e3c46f",
+      "core_json_csv_identical": true,
+      "note": "Before the optional adapter-only hardening; frozen core code unchanged",
+      "tests_passed": 36
     },
     "lean": {
       "command": "lean theory/Scope.lean",
@@ -37,7 +50,7 @@
       "command": "PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=src python3 -m unittest discover -s tests -v",
       "evidence": "results/tests.log",
       "failed": 0,
-      "passed": 36
+      "passed": 39
     }
   },
   "implemented": [
@@ -81,5 +94,11 @@
     "biophysical empirical positives",
     "hard OS sandbox for executable submissions"
   ],
+  "publication": {
+    "blocker": "GitHub integration denied createRepository",
+    "github_created": false,
+    "instructions": "docs/publishing.md",
+    "local_committed": true
+  },
   "version": "0.1.0"
 }
