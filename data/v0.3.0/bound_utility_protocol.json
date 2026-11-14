@@ -1,0 +1,123 @@
+{
+  "format": "svb-bound-utility-protocol-v0.3.0",
+  "created_utc": "2026-11-14T17:08:01.074902+00:00",
+  "frozen_before_execution": true,
+  "call_budget": 32,
+  "families": [
+    {
+      "id": "low_q8",
+      "sequence": "HHHHHHHH",
+      "q": "1",
+      "event_contact_threshold": 2,
+      "role": "nontrivial"
+    },
+    {
+      "id": "rational_q9",
+      "sequence": "HHHHHHHHH",
+      "q": "3/2",
+      "event_contact_threshold": 2,
+      "role": "nontrivial"
+    },
+    {
+      "id": "scale10",
+      "sequence": "HHHHHHHHHH",
+      "q": "2",
+      "event_contact_threshold": 2,
+      "role": "nontrivial"
+    },
+    {
+      "id": "high_threshold8",
+      "sequence": "HHHHHHHH",
+      "q": "3",
+      "event_contact_threshold": 3,
+      "role": "nontrivial"
+    },
+    {
+      "id": "mixed9",
+      "sequence": "HHPHPHPHH",
+      "q": "5/4",
+      "event_contact_threshold": 1,
+      "role": "nontrivial"
+    },
+    {
+      "id": "mixed10",
+      "sequence": "HPHPHHPHPH",
+      "q": "5/2",
+      "event_contact_threshold": 1,
+      "role": "nontrivial"
+    },
+    {
+      "id": "impossible_event",
+      "sequence": "PPPPPPPP",
+      "q": "2",
+      "event_contact_threshold": 1,
+      "role": "negative_control"
+    },
+    {
+      "id": "certain_event",
+      "sequence": "HHPHPHPHH",
+      "q": "3/2",
+      "event_contact_threshold": 0,
+      "role": "positive_control"
+    }
+  ],
+  "configurations": [
+    {
+      "id": "shallow",
+      "depth": 2,
+      "args": []
+    },
+    {
+      "id": "moderate",
+      "depth": 6,
+      "args": []
+    },
+    {
+      "id": "enriched",
+      "depth": 4,
+      "args": [
+        "--enhanced-lookahead",
+        "2",
+        "--matching",
+        "--transfer",
+        "--transfer-memory",
+        "4",
+        "--terminal-box",
+        "--witness-nodes",
+        "128",
+        "--monotone"
+      ]
+    },
+    {
+      "id": "full",
+      "depth": "N",
+      "args": []
+    }
+  ],
+  "decision_thresholds": [
+    "0",
+    "1/100",
+    "1/4",
+    "1/2",
+    "3/4",
+    "99/100",
+    "1"
+  ],
+  "equality_threshold_rule": "Add exact independently enumerated reference probability p as threshold, deduplicate exact rationals. Compute reference before invoking subject.",
+  "decision_rule": "For target P>=t: yes iff lower>=t; no iff upper<t; otherwise undecided. Equal upper=t is not sufficient for no. Equal lower=t suffices for yes.",
+  "correctness_rule": "Require 0<=lower<=exact_p<=upper<=1, exact partition enclosure, and all definite threshold decisions equal (exact_p>=t). Refute any wrong definite decision or invalid enclosure; report undecided and execution errors separately.",
+  "utility_measures": [
+    "probability interval width",
+    "relative partition interval width",
+    "decision coverage and wrong-decision count per configuration and family role",
+    "descriptive subprocess wall time and reference enumeration time",
+    "decision rows near exact-reference equality versus other thresholds"
+  ],
+  "limits": {
+    "max_sequence_length": 10,
+    "timeout_seconds": 90,
+    "captured_output_limit_bytes": 1048576
+  },
+  "interpretation": "Finite synthetic model decision support, no empirical proteins or biological validity. No pooled system ranking, independent-sample assumption, significance test, calibrated risk or asymptotic runtime claim.",
+  "privacy": "Subject source read-only, only fixed local FoldBounds CLI, -B and minimal credential-free environment, cwd/temp artifacts in SVB. No installation, builds, network or production."
+}

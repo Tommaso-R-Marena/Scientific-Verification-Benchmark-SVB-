@@ -1,0 +1,279 @@
+{
+  "attention": "eager",
+  "bundle_records": 19,
+  "category_constraints": {
+    "eos_token_id": 151645,
+    "labels": [
+      "formally_established",
+      "computationally_established",
+      "empirically_supported",
+      "refuted",
+      "insufficient_evidence",
+      "disputed_or_unresolved"
+    ],
+    "method": "prefix-allowed category trie plus EOS; syntax intervention only",
+    "sequences": [
+      [
+        627,
+        745,
+        18583,
+        5102,
+        291
+      ],
+      [
+        874,
+        13320,
+        745,
+        18583,
+        5102,
+        291
+      ],
+      [
+        3262,
+        404,
+        2673,
+        57885
+      ],
+      [
+        1097,
+        2774
+      ],
+      [
+        1330,
+        26683,
+        2204,
+        27480
+      ],
+      [
+        4243,
+        19292,
+        8734,
+        4907,
+        39747
+      ]
+    ]
+  },
+  "constrained_a": false,
+  "credential_use": false,
+  "device": "cpu",
+  "do_sample": false,
+  "dtype": "float32",
+  "elapsed_seconds": 219.6025629043579,
+  "format": "svb-phase2b-model-run-v1",
+  "max_input_tokens": 4096,
+  "model_id": "Qwen/Qwen2.5-1.5B-Instruct",
+  "model_key": "qwen-1.5b",
+  "model_load_seconds": 8.597426891326904,
+  "new_token_caps": {
+    "A": 24,
+    "B": 128,
+    "C": 384
+  },
+  "output_sha256": "2dd393e280069ab811d008159bd7986d117d4d5b2e86734a63a9198bfde3a964",
+  "paid_api_calls": 0,
+  "prompt_file_sha256": "3c6022393a35ba8e0a368913d5b9d4d71d6d7cbdfe52456d20947618a72f2313",
+  "prompt_truncation": false,
+  "python": "3.12.14",
+  "records": [
+    {
+      "condition": "dev_standard",
+      "id": "svb-fdb98c815923",
+      "input_tokens": 303,
+      "output_reached_token_limit": false,
+      "output_tokens": 6,
+      "seconds": 4.3281515359994955,
+      "status": "completed",
+      "task": "A"
+    },
+    {
+      "condition": "dev_reverse",
+      "id": "svb-fdb98c815923",
+      "input_tokens": 303,
+      "output_reached_token_limit": false,
+      "output_tokens": 5,
+      "seconds": 3.9415164629990613,
+      "status": "completed",
+      "task": "A"
+    },
+    {
+      "condition": "dev_standard",
+      "id": "svb-e7f149994481",
+      "input_tokens": 304,
+      "output_reached_token_limit": false,
+      "output_tokens": 6,
+      "seconds": 4.254878282999925,
+      "status": "completed",
+      "task": "A"
+    },
+    {
+      "condition": "dev_reverse",
+      "id": "svb-e7f149994481",
+      "input_tokens": 304,
+      "output_reached_token_limit": false,
+      "output_tokens": 5,
+      "seconds": 4.0727115659992705,
+      "status": "completed",
+      "task": "A"
+    },
+    {
+      "condition": "dev_standard",
+      "id": "svb-5f377d39e94f",
+      "input_tokens": 303,
+      "output_reached_token_limit": false,
+      "output_tokens": 3,
+      "seconds": 3.6440208120002353,
+      "status": "completed",
+      "task": "A"
+    },
+    {
+      "condition": "dev_reverse",
+      "id": "svb-5f377d39e94f",
+      "input_tokens": 303,
+      "output_reached_token_limit": false,
+      "output_tokens": 3,
+      "seconds": 3.589841744998921,
+      "status": "completed",
+      "task": "A"
+    },
+    {
+      "condition": "dev_standard",
+      "id": "svb-5b0444dab3f1",
+      "input_tokens": 696,
+      "output_reached_token_limit": false,
+      "output_tokens": 6,
+      "seconds": 8.816035252999427,
+      "status": "completed",
+      "task": "A"
+    },
+    {
+      "condition": "dev_reverse",
+      "id": "svb-5b0444dab3f1",
+      "input_tokens": 696,
+      "output_reached_token_limit": false,
+      "output_tokens": 5,
+      "seconds": 9.035317193000083,
+      "status": "completed",
+      "task": "A"
+    },
+    {
+      "condition": "dev_standard",
+      "id": "svb-41d488eab4fd",
+      "input_tokens": 686,
+      "output_reached_token_limit": false,
+      "output_tokens": 3,
+      "seconds": 8.18123094099974,
+      "status": "completed",
+      "task": "A"
+    },
+    {
+      "condition": "dev_reverse",
+      "id": "svb-41d488eab4fd",
+      "input_tokens": 686,
+      "output_reached_token_limit": false,
+      "output_tokens": 3,
+      "seconds": 8.016077201000371,
+      "status": "completed",
+      "task": "A"
+    },
+    {
+      "condition": "dev_standard",
+      "id": "svb-849e1285da6c",
+      "input_tokens": 326,
+      "output_reached_token_limit": false,
+      "output_tokens": 6,
+      "seconds": 4.4646498520014575,
+      "status": "completed",
+      "task": "A"
+    },
+    {
+      "condition": "dev_reverse",
+      "id": "svb-849e1285da6c",
+      "input_tokens": 326,
+      "output_reached_token_limit": false,
+      "output_tokens": 6,
+      "seconds": 4.714314322000064,
+      "status": "completed",
+      "task": "A"
+    },
+    {
+      "condition": "dev_alternative",
+      "id": "svb-fdb98c815923",
+      "input_tokens": 288,
+      "output_reached_token_limit": false,
+      "output_tokens": 6,
+      "seconds": 4.251943135001056,
+      "status": "completed",
+      "task": "A"
+    },
+    {
+      "condition": "dev_alternative",
+      "id": "svb-e7f149994481",
+      "input_tokens": 289,
+      "output_reached_token_limit": false,
+      "output_tokens": 6,
+      "seconds": 4.266982561000987,
+      "status": "completed",
+      "task": "A"
+    },
+    {
+      "condition": "dev_alternative",
+      "id": "svb-5f377d39e94f",
+      "input_tokens": 288,
+      "output_reached_token_limit": false,
+      "output_tokens": 3,
+      "seconds": 3.6148775100009516,
+      "status": "completed",
+      "task": "A"
+    },
+    {
+      "condition": "dev_standard",
+      "id": "svb-fdb98c815923",
+      "input_tokens": 220,
+      "output_reached_token_limit": false,
+      "output_tokens": 42,
+      "seconds": 12.125309517999995,
+      "status": "completed",
+      "task": "B"
+    },
+    {
+      "condition": "dev_standard",
+      "id": "svb-e7f149994481",
+      "input_tokens": 221,
+      "output_reached_token_limit": false,
+      "output_tokens": 112,
+      "seconds": 40.97047657999974,
+      "status": "completed",
+      "task": "B"
+    },
+    {
+      "condition": "dev_standard",
+      "id": "svb-fdb98c815923",
+      "input_tokens": 459,
+      "output_reached_token_limit": false,
+      "output_tokens": 120,
+      "seconds": 35.6165860459987,
+      "status": "completed",
+      "task": "C"
+    },
+    {
+      "condition": "dev_standard",
+      "id": "svb-e7f149994481",
+      "input_tokens": 460,
+      "output_reached_token_limit": false,
+      "output_tokens": 136,
+      "seconds": 43.083784385999024,
+      "status": "completed",
+      "task": "C"
+    }
+  ],
+  "reference_labels_loaded": false,
+  "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+  "runner_sha256": "c5254e0cc2afb18582011a399975aaa94f8c82a8d929c85c7de4f1f5489bcd7e",
+  "scoring_performed": false,
+  "seed": 0,
+  "selected_records": 19,
+  "threads": 4,
+  "torch": "2.7.1+cpu",
+  "transformers": "4.51.3",
+  "weights_sha256": "dd924a11b4c220f385b51ffa522daea7c9f3d850e31b162bb5661df483c6d3ee"
+}

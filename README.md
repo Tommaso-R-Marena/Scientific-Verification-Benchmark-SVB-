@@ -4,6 +4,22 @@ An independent **research pilot** for evaluating what a scientific conclusion's 
 
 SVB separates mathematical validity, computation, numerical reliability, statistics, model adequacy, empirical support, provenance and evidence sufficiency. A correct computation does not automatically establish its physical interpretation.
 
+## Phase IIb (protocol/data v0.3.0)
+
+Phase IIb separates **A: exact category only**, **B: prose justification/source attribution**, and **C: the preserved rich verification schema**. Unconstrained and category-constrained decoding are explicit separate interventions. Development qualification covered three pinned model sizes; none met every prespecified gate. The two original capacity levels are therefore measured as diagnostic behavior, not advertised as qualified scientific verifiers. No threshold was relaxed or model chosen using new-source outputs.
+
+There are12 new cases in six pairs from three additional studies: paired sleep observations, longitudinal chick growth, and biochemical oxygen demand. All are public curated sources, not hidden cases, original laboratory replications or guaranteed-unseen pretraining data. Old public items remain historical/development material, and frozen earlier results stay untouched. The source-complete external-review ZIP contains44 packets and132 blank forms; **zero human reviews have occurred**.
+
+See [methodology audit](docs/phase-iib/methodology_audit.md), [reference audit](docs/phase-iib/reference_adjudication_audit.md), [new sources](docs/phase-iib/new_sources.md), [model qualification](docs/phase-iib/model_qualification.md), [external review brief](docs/phase-iib/external_review_brief.md), and [bound utility study](docs/phase-iib/bound_utility.md). Dataset/protocol0.3 is additive; no Python-package release or prior PR merge is implied.
+
+```sh
+export PYTHONPATH="$PWD/src"
+export PYTHONDONTWRITEBYTECODE=1
+python3 -m svb.phase2b validate
+python3 -m svb.phase2b_references
+python3 -m unittest discover -s tests -v
+```
+
 ## Phase II (v0.2.0 release candidate)
 
 Phase II adds32 naturalistic sourced cases in16 pairs, including11 provisional narrow empirical-support cases. Its8 development and24 evaluation items are separated by scientific source family. Model prompts receive only claim/question, documents, methodology and naturally disclosed assumptions—never the reference/checker/missing-evidence annotations. The original v0.1 benchmark, source manifest, labels and recorded results below remain preserved.

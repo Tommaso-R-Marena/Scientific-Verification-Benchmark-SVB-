@@ -1,0 +1,7 @@
+id,smiles,name,experimental_kcal_mol,experimental_uncertainty_kcal_mol,calculated_kcal_mol,calculated_uncertainty_kcal_mol,experimental_reference,calculated_reference,notes
+mobley_1261349,CC(C)(C)C,neopentane,2.51,0.60,2.51,0.02,10.1021/ct050097l,10.1021/acs.jced.7b00104,"Experimental uncertainty not presently available, so assigned a default value."
+mobley_1323538,CCOP(=O)(OCC)OCC,triethylphosphate,-7.50,0.20,-10.25,0.04,10.1039/P29900000291,10.1021/acs.jced.7b00104,Experimental uncertainty as suggested by 10.1039/P29900000291 -- 0.2 kcal/mol.
+mobley_1636752,CO,methanol,-5.10,0.60,-3.49,0.02,10.1021/ct050097l,10.1021/acs.jced.7b00104,"Experimental uncertainty not presently available, so assigned a default value."
+mobley_2310185,CCO,ethanol,-5.00,0.60,-3.39,0.02,10.1021/ct050097l,10.1021/acs.jced.7b00104,"Experimental uncertainty not presently available, so assigned a default value."
+mobley_3053621,c1ccccc1,benzene,-0.90,0.20,-0.81,0.02,10.1039/P29900000291,10.1021/acs.jced.7b00104,Experimental uncertainty as suggested by 10.1039/P29900000291 -- 0.2 kcal/mol.
+mobley_9055303,C,methane,2.00,0.20,2.45,0.01,10.1039/P29900000291,10.1021/acs.jced.7b00104,Experimental uncertainty as suggested by 10.1039/P29900000291 -- 0.2 kcal/mol.

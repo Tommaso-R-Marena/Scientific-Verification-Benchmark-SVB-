@@ -1,0 +1,9 @@
+{
+  "format": "svb-phase2b-review-preparation-v1",
+  "human_reviews_completed": 0,
+  "internal_mapping_in_zip": false,
+  "status": "prepared_not_distributed; coordinator rights/conflict/blinding audit required",
+  "zip_bytes": 731253,
+  "zip_files": 39,
+  "zip_sha256": "b5f1a13e05eaea64e91ea03c961645909fd546a8548eaaa3f5d45e430a8c9c5f"
+}

@@ -1,0 +1,73 @@
+{
+  "format": "svb-phase2b-explanation-method-literature-v1",
+  "earlier_ten_source_registry": "references/phase2_registry.json",
+  "earlier_registry_modified": false,
+  "paper_contents_redistributed": false,
+  "entries": [
+    {
+      "id": "turpin",
+      "arxiv_id": "2305.04388",
+      "abs": {
+        "url": "https://arxiv.org/abs/2305.04388",
+        "resolved": "https://arxiv.org/abs/2305.04388",
+        "retrieved_utc": "2026-11-14T17:09:15.406070+00:00",
+        "sha256": "00bf2be48f00133943b4e940b6bc0a211e1927052e252b94662d1de2279af89f",
+        "bytes": 43124,
+        "http_status": 200
+      },
+      "title": "[2305.04388] Language Models Don't Always Say What They Think: Unfaithful Explanations in Chain-of-Thought Prompting",
+      "license_links": [
+        "http://creativecommons.org/licenses/by/4.0/"
+      ],
+      "html": {
+        "url": "https://arxiv.org/html/2305.04388",
+        "resolved": "https://arxiv.org/html/2305.04388",
+        "retrieved_utc": "2026-11-14T17:09:15.715668+00:00",
+        "sha256": "bf30140a58f44de7a4f379569f37710c448667e8f866d8d9405a34719fb25949",
+        "bytes": 717635,
+        "http_status": 200
+      },
+      "status": "full_html_retrieved",
+      "review_scope": "Selected full-text methods and limitations inspected; targeted follow-up, not systematic or a complete-paper audit; model experiments not reproduced.",
+      "sections_reviewed": [
+        "2 Evaluating Systematic Unfaithfulness",
+        "3 Perturbing Input Features Not Referenced by Explanations",
+        "6 Discussion and Limitations"
+      ],
+      "rights_note": "Article license applies only to article; retrieved full text stays in ignored .cache and is not included in reviewer ZIP.",
+      "methodological_limit": "Plausible explanations and passed perturbation controls do not establish faithful internal reasoning; SVB human review concerns stated public justifications."
+    },
+    {
+      "id": "lanham",
+      "arxiv_id": "2307.13702",
+      "abs": {
+        "url": "https://arxiv.org/abs/2307.13702",
+        "resolved": "https://arxiv.org/abs/2307.13702",
+        "retrieved_utc": "2026-11-14T17:09:15.422543+00:00",
+        "sha256": "28f5aeee1a21523edd0cc6a09db0666b179378bb2575ec004844d86905cc7f48",
+        "bytes": 44646,
+        "http_status": 200
+      },
+      "title": "[2307.13702] Measuring Faithfulness in Chain-of-Thought Reasoning",
+      "license_links": [
+        "http://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      ],
+      "html": {
+        "url": "https://arxiv.org/html/2307.13702",
+        "resolved": "https://arxiv.org/html/2307.13702",
+        "retrieved_utc": "2026-11-14T17:09:15.675617+00:00",
+        "sha256": "4ee3663c4b2149fc114b0986ee6b81db0d1a6406d1806ce443cab660769eb5c2",
+        "bytes": 175167,
+        "http_status": 200
+      },
+      "status": "full_html_retrieved",
+      "review_scope": "Selected full-text methods and limitations inspected; targeted follow-up, not systematic or a complete-paper audit; model experiments not reproduced.",
+      "sections_reviewed": [
+        "2 Measuring Chain of Thought Faithfulness: intervention descriptions",
+        "5 Limitations"
+      ],
+      "rights_note": "Article license applies only to article; retrieved full text stays in ignored .cache and is not included in reviewer ZIP.",
+      "methodological_limit": "Plausible explanations and passed perturbation controls do not establish faithful internal reasoning; SVB human review concerns stated public justifications."
+    }
+  ]
+}

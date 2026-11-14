@@ -6,3 +6,6 @@ build/
 dist/
 .cache/
 results/local/
+
+# Coordinator maps omitted from uploads; this does not create protected labels.
+data/v0.3.0/review/*/internal/

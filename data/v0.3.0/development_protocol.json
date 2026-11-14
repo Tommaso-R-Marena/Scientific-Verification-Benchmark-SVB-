@@ -1,0 +1,40 @@
+{
+  "configuration": {
+    "A_new_tokens": 24,
+    "B_new_tokens": 128,
+    "C_new_tokens": 384,
+    "greedy": true,
+    "max_input_tokens": 4096,
+    "seed": 0,
+    "threads": 4
+  },
+  "constrained_calls_per_model": 6,
+  "controls": 6,
+  "development_optimization": "One fixed design; no new-source outputs viewed; primary scientific prompts still to be frozen after resource/comprehension qualification.",
+  "expected_control_labels": {
+    "svb-41d488eab4fd": "insufficient_evidence",
+    "svb-5b0444dab3f1": "empirically_supported",
+    "svb-5f377d39e94f": "refuted",
+    "svb-849e1285da6c": "disputed_or_unresolved",
+    "svb-e7f149994481": "computationally_established",
+    "svb-fdb98c815923": "formally_established"
+  },
+  "failure_interpretation": "A model failing development qualification may still be measured diagnostically, but does not establish qualified scientific-verifier performance. Constrained syntax alone cannot qualify reasoning.",
+  "formats": "A exact category only; B prose/attribution; C existing rich schema; no silent repair",
+  "prompt_files_sha256": {
+    "qualification_constrained.jsonl": "976401d8cda877a3f6f4e8b6cddebc4e0ff0a47d7bb0ec862a50fb570fdfd4fd",
+    "qualification_unconstrained.jsonl": "3c6022393a35ba8e0a368913d5b9d4d71d6d7cbdfe52456d20947618a72f2313"
+  },
+  "purpose": "Independent instruction/category/format qualification before final scientific inference; all old public cases are historical/development, not independent new evaluation",
+  "qualification_thresholds": {
+    "A_standard_denominator": 6,
+    "A_standard_exact_category_at_least": 4,
+    "A_standard_syntax_at_least": 5,
+    "label_order_consistency_at_least": 4,
+    "order_pair_denominator": 6,
+    "wording_consistency_reported": true
+  },
+  "selection_rule": "Both prechosen capacity levels retained with qualification failures visible; do not choose a winner or optimize prompts on new-source evaluation",
+  "source_exposure": "PG04N/S are old public historical-development cases; four other controls are explicitly author-defined instruction probes, not scientific discoveries.",
+  "unconstrained_calls_per_model": 19
+}

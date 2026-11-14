@@ -1,0 +1,759 @@
+{
+  "qwen-0.5b": {
+    "groups": {
+      "constrained": {
+        "A_dev_standard": {
+          "exact_correct": 0,
+          "format_valid": 6,
+          "n": 6,
+          "rows": [
+            {
+              "correct": false,
+              "format_valid": true,
+              "id": "svb-fdb98c815923",
+              "seconds": 1.4544940979994863,
+              "status": "completed",
+              "verdict": "disputed_or_unresolved"
+            },
+            {
+              "correct": false,
+              "format_valid": true,
+              "id": "svb-e7f149994481",
+              "seconds": 1.4462943690014072,
+              "status": "completed",
+              "verdict": "disputed_or_unresolved"
+            },
+            {
+              "correct": false,
+              "format_valid": true,
+              "id": "svb-5f377d39e94f",
+              "seconds": 1.3496331840015046,
+              "status": "completed",
+              "verdict": "disputed_or_unresolved"
+            },
+            {
+              "correct": false,
+              "format_valid": true,
+              "id": "svb-5b0444dab3f1",
+              "seconds": 2.948034879998886,
+              "status": "completed",
+              "verdict": "refuted"
+            },
+            {
+              "correct": false,
+              "format_valid": true,
+              "id": "svb-41d488eab4fd",
+              "seconds": 2.8908591480012547,
+              "status": "completed",
+              "verdict": "refuted"
+            },
+            {
+              "correct": false,
+              "format_valid": true,
+              "id": "svb-849e1285da6c",
+              "seconds": 1.1658823100005975,
+              "status": "completed",
+              "verdict": "refuted"
+            }
+          ]
+        }
+      },
+      "unconstrained": {
+        "A_dev_alternative": {
+          "exact_correct": 1,
+          "format_valid": 3,
+          "n": 3,
+          "rows": [
+            {
+              "correct": true,
+              "format_valid": true,
+              "id": "svb-fdb98c815923",
+              "seconds": 1.4416298720007035,
+              "status": "completed",
+              "verdict": "formally_established"
+            },
+            {
+              "correct": false,
+              "format_valid": true,
+              "id": "svb-e7f149994481",
+              "seconds": 1.1102746320011647,
+              "status": "completed",
+              "verdict": "refuted"
+            },
+            {
+              "correct": false,
+              "format_valid": true,
+              "id": "svb-5f377d39e94f",
+              "seconds": 1.4083072080011334,
+              "status": "completed",
+              "verdict": "formally_established"
+            }
+          ]
+        },
+        "A_dev_reverse": {
+          "exact_correct": 1,
+          "format_valid": 5,
+          "n": 6,
+          "rows": [
+            {
+              "correct": false,
+              "format_valid": true,
+              "id": "svb-fdb98c815923",
+              "seconds": 1.3486875260005036,
+              "status": "completed",
+              "verdict": "disputed_or_unresolved"
+            },
+            {
+              "correct": false,
+              "format_valid": true,
+              "id": "svb-e7f149994481",
+              "seconds": 1.3496137940001063,
+              "status": "completed",
+              "verdict": "disputed_or_unresolved"
+            },
+            {
+              "correct": false,
+              "format_valid": true,
+              "id": "svb-5f377d39e94f",
+              "seconds": 1.3392950220004423,
+              "status": "completed",
+              "verdict": "disputed_or_unresolved"
+            },
+            {
+              "correct": false,
+              "format_valid": false,
+              "id": "svb-5b0444dab3f1",
+              "seconds": 2.7510853209987545,
+              "status": "completed",
+              "verdict": null
+            },
+            {
+              "correct": false,
+              "format_valid": true,
+              "id": "svb-41d488eab4fd",
+              "seconds": 3.120890155001689,
+              "status": "completed",
+              "verdict": "empirically_supported"
+            },
+            {
+              "correct": true,
+              "format_valid": true,
+              "id": "svb-849e1285da6c",
+              "seconds": 1.586746041000879,
+              "status": "completed",
+              "verdict": "disputed_or_unresolved"
+            }
+          ]
+        },
+        "A_dev_standard": {
+          "exact_correct": 0,
+          "format_valid": 6,
+          "n": 6,
+          "rows": [
+            {
+              "correct": false,
+              "format_valid": true,
+              "id": "svb-fdb98c815923",
+              "seconds": 1.6183709609995276,
+              "status": "completed",
+              "verdict": "disputed_or_unresolved"
+            },
+            {
+              "correct": false,
+              "format_valid": true,
+              "id": "svb-e7f149994481",
+              "seconds": 1.3565556079993257,
+              "status": "completed",
+              "verdict": "disputed_or_unresolved"
+            },
+            {
+              "correct": false,
+              "format_valid": true,
+              "id": "svb-5f377d39e94f",
+              "seconds": 1.3576540239992028,
+              "status": "completed",
+              "verdict": "disputed_or_unresolved"
+            },
+            {
+              "correct": false,
+              "format_valid": true,
+              "id": "svb-5b0444dab3f1",
+              "seconds": 2.7288797219989647,
+              "status": "completed",
+              "verdict": "refuted"
+            },
+            {
+              "correct": false,
+              "format_valid": true,
+              "id": "svb-41d488eab4fd",
+              "seconds": 2.9070632479997585,
+              "status": "completed",
+              "verdict": "refuted"
+            },
+            {
+              "correct": false,
+              "format_valid": true,
+              "id": "svb-849e1285da6c",
+              "seconds": 1.3195581090003543,
+              "status": "completed",
+              "verdict": "refuted"
+            }
+          ]
+        },
+        "B_dev_standard": {
+          "exact_correct": 0,
+          "format_valid": 2,
+          "n": 2,
+          "rows": [
+            {
+              "correct": false,
+              "format_valid": true,
+              "id": "svb-fdb98c815923",
+              "seconds": 6.464065900001515,
+              "status": "completed",
+              "verdict": null
+            },
+            {
+              "correct": false,
+              "format_valid": true,
+              "id": "svb-e7f149994481",
+              "seconds": 6.8865612170011445,
+              "status": "completed",
+              "verdict": null
+            }
+          ]
+        },
+        "C_dev_standard": {
+          "exact_correct": 0,
+          "format_valid": 0,
+          "n": 2,
+          "rows": [
+            {
+              "correct": false,
+              "format_valid": false,
+              "id": "svb-fdb98c815923",
+              "seconds": 8.453466481998476,
+              "status": "completed",
+              "verdict": null
+            },
+            {
+              "correct": false,
+              "format_valid": false,
+              "id": "svb-e7f149994481",
+              "seconds": 7.331538800000999,
+              "status": "completed",
+              "verdict": null
+            }
+          ]
+        }
+      }
+    },
+    "observed_generation_seconds": 67.13544163100778,
+    "order_consistent": 3,
+    "order_pairs": 6,
+    "qualification_limit": "Author-defined instruction controls and two historical public cases, not independent scientific generalization; C historical rich-prompt differs from minimal A instruction bundle.",
+    "standard_development_thresholds_met": false
+  },
+  "qwen-1.5b": {
+    "groups": {
+      "constrained": {
+        "A_dev_standard": {
+          "exact_correct": 3,
+          "format_valid": 6,
+          "n": 6,
+          "rows": [
+            {
+              "correct": true,
+              "format_valid": true,
+              "id": "svb-fdb98c815923",
+              "seconds": 4.951709379998647,
+              "status": "completed",
+              "verdict": "formally_established"
+            },
+            {
+              "correct": false,
+              "format_valid": true,
+              "id": "svb-e7f149994481",
+              "seconds": 4.395343378000689,
+              "status": "completed",
+              "verdict": "insufficient_evidence"
+            },
+            {
+              "correct": true,
+              "format_valid": true,
+              "id": "svb-5f377d39e94f",
+              "seconds": 3.89411369499976,
+              "status": "completed",
+              "verdict": "refuted"
+            },
+            {
+              "correct": false,
+              "format_valid": true,
+              "id": "svb-5b0444dab3f1",
+              "seconds": 10.058278050000808,
+              "status": "completed",
+              "verdict": "computationally_established"
+            },
+            {
+              "correct": false,
+              "format_valid": true,
+              "id": "svb-41d488eab4fd",
+              "seconds": 8.624034205000498,
+              "status": "completed",
+              "verdict": "refuted"
+            },
+            {
+              "correct": true,
+              "format_valid": true,
+              "id": "svb-849e1285da6c",
+              "seconds": 4.682818467001198,
+              "status": "completed",
+              "verdict": "disputed_or_unresolved"
+            }
+          ]
+        }
+      },
+      "unconstrained": {
+        "A_dev_alternative": {
+          "exact_correct": 3,
+          "format_valid": 3,
+          "n": 3,
+          "rows": [
+            {
+              "correct": true,
+              "format_valid": true,
+              "id": "svb-fdb98c815923",
+              "seconds": 4.251943135001056,
+              "status": "completed",
+              "verdict": "formally_established"
+            },
+            {
+              "correct": true,
+              "format_valid": true,
+              "id": "svb-e7f149994481",
+              "seconds": 4.266982561000987,
+              "status": "completed",
+              "verdict": "computationally_established"
+            },
+            {
+              "correct": true,
+              "format_valid": true,
+              "id": "svb-5f377d39e94f",
+              "seconds": 3.6148775100009516,
+              "status": "completed",
+              "verdict": "refuted"
+            }
+          ]
+        },
+        "A_dev_reverse": {
+          "exact_correct": 3,
+          "format_valid": 6,
+          "n": 6,
+          "rows": [
+            {
+              "correct": false,
+              "format_valid": true,
+              "id": "svb-fdb98c815923",
+              "seconds": 3.9415164629990613,
+              "status": "completed",
+              "verdict": "empirically_supported"
+            },
+            {
+              "correct": false,
+              "format_valid": true,
+              "id": "svb-e7f149994481",
+              "seconds": 4.0727115659992705,
+              "status": "completed",
+              "verdict": "empirically_supported"
+            },
+            {
+              "correct": true,
+              "format_valid": true,
+              "id": "svb-5f377d39e94f",
+              "seconds": 3.589841744998921,
+              "status": "completed",
+              "verdict": "refuted"
+            },
+            {
+              "correct": true,
+              "format_valid": true,
+              "id": "svb-5b0444dab3f1",
+              "seconds": 9.035317193000083,
+              "status": "completed",
+              "verdict": "empirically_supported"
+            },
+            {
+              "correct": false,
+              "format_valid": true,
+              "id": "svb-41d488eab4fd",
+              "seconds": 8.016077201000371,
+              "status": "completed",
+              "verdict": "refuted"
+            },
+            {
+              "correct": true,
+              "format_valid": true,
+              "id": "svb-849e1285da6c",
+              "seconds": 4.714314322000064,
+              "status": "completed",
+              "verdict": "disputed_or_unresolved"
+            }
+          ]
+        },
+        "A_dev_standard": {
+          "exact_correct": 4,
+          "format_valid": 6,
+          "n": 6,
+          "rows": [
+            {
+              "correct": true,
+              "format_valid": true,
+              "id": "svb-fdb98c815923",
+              "seconds": 4.3281515359994955,
+              "status": "completed",
+              "verdict": "formally_established"
+            },
+            {
+              "correct": true,
+              "format_valid": true,
+              "id": "svb-e7f149994481",
+              "seconds": 4.254878282999925,
+              "status": "completed",
+              "verdict": "computationally_established"
+            },
+            {
+              "correct": true,
+              "format_valid": true,
+              "id": "svb-5f377d39e94f",
+              "seconds": 3.6440208120002353,
+              "status": "completed",
+              "verdict": "refuted"
+            },
+            {
+              "correct": false,
+              "format_valid": true,
+              "id": "svb-5b0444dab3f1",
+              "seconds": 8.816035252999427,
+              "status": "completed",
+              "verdict": "computationally_established"
+            },
+            {
+              "correct": false,
+              "format_valid": true,
+              "id": "svb-41d488eab4fd",
+              "seconds": 8.18123094099974,
+              "status": "completed",
+              "verdict": "refuted"
+            },
+            {
+              "correct": true,
+              "format_valid": true,
+              "id": "svb-849e1285da6c",
+              "seconds": 4.4646498520014575,
+              "status": "completed",
+              "verdict": "disputed_or_unresolved"
+            }
+          ]
+        },
+        "B_dev_standard": {
+          "exact_correct": 0,
+          "format_valid": 2,
+          "n": 2,
+          "rows": [
+            {
+              "correct": false,
+              "format_valid": true,
+              "id": "svb-fdb98c815923",
+              "seconds": 12.125309517999995,
+              "status": "completed",
+              "verdict": null
+            },
+            {
+              "correct": false,
+              "format_valid": true,
+              "id": "svb-e7f149994481",
+              "seconds": 40.97047657999974,
+              "status": "completed",
+              "verdict": null
+            }
+          ]
+        },
+        "C_dev_standard": {
+          "exact_correct": 0,
+          "format_valid": 0,
+          "n": 2,
+          "rows": [
+            {
+              "correct": false,
+              "format_valid": false,
+              "id": "svb-fdb98c815923",
+              "seconds": 35.6165860459987,
+              "status": "completed",
+              "verdict": null
+            },
+            {
+              "correct": false,
+              "format_valid": false,
+              "id": "svb-e7f149994481",
+              "seconds": 43.083784385999024,
+              "status": "completed",
+              "verdict": null
+            }
+          ]
+        }
+      }
+    },
+    "observed_generation_seconds": 247.5950020780001,
+    "order_consistent": 3,
+    "order_pairs": 6,
+    "qualification_limit": "Author-defined instruction controls and two historical public cases, not independent scientific generalization; C historical rich-prompt differs from minimal A instruction bundle.",
+    "standard_development_thresholds_met": false
+  },
+  "qwen-3b": {
+    "groups": {
+      "constrained": {
+        "A_dev_standard": {
+          "exact_correct": 3,
+          "format_valid": 5,
+          "n": 5,
+          "rows": [
+            {
+              "correct": true,
+              "format_valid": true,
+              "id": "svb-fdb98c815923",
+              "seconds": 9.342860192002263,
+              "status": "completed",
+              "verdict": "formally_established"
+            },
+            {
+              "correct": false,
+              "format_valid": true,
+              "id": "svb-e7f149994481",
+              "seconds": 9.10809384300228,
+              "status": "completed",
+              "verdict": "insufficient_evidence"
+            },
+            {
+              "correct": true,
+              "format_valid": true,
+              "id": "svb-5f377d39e94f",
+              "seconds": 7.994841077001183,
+              "status": "completed",
+              "verdict": "refuted"
+            },
+            {
+              "correct": false,
+              "format_valid": true,
+              "id": "svb-5b0444dab3f1",
+              "seconds": 18.86493910599893,
+              "status": "completed",
+              "verdict": "insufficient_evidence"
+            },
+            {
+              "correct": true,
+              "format_valid": true,
+              "id": "svb-41d488eab4fd",
+              "seconds": 18.104279118000704,
+              "status": "completed",
+              "verdict": "insufficient_evidence"
+            }
+          ]
+        }
+      },
+      "unconstrained": {
+        "A_dev_alternative": {
+          "exact_correct": 2,
+          "format_valid": 3,
+          "n": 3,
+          "rows": [
+            {
+              "correct": true,
+              "format_valid": true,
+              "id": "svb-fdb98c815923",
+              "seconds": 8.40277456700278,
+              "status": "completed",
+              "verdict": "formally_established"
+            },
+            {
+              "correct": true,
+              "format_valid": true,
+              "id": "svb-e7f149994481",
+              "seconds": 8.694970708002074,
+              "status": "completed",
+              "verdict": "computationally_established"
+            },
+            {
+              "correct": false,
+              "format_valid": true,
+              "id": "svb-5f377d39e94f",
+              "seconds": 8.17170841099869,
+              "status": "completed",
+              "verdict": "insufficient_evidence"
+            }
+          ]
+        },
+        "A_dev_reverse": {
+          "exact_correct": 3,
+          "format_valid": 6,
+          "n": 6,
+          "rows": [
+            {
+              "correct": false,
+              "format_valid": true,
+              "id": "svb-fdb98c815923",
+              "seconds": 9.076050454001233,
+              "status": "completed",
+              "verdict": "empirically_supported"
+            },
+            {
+              "correct": false,
+              "format_valid": true,
+              "id": "svb-e7f149994481",
+              "seconds": 8.825228007000987,
+              "status": "completed",
+              "verdict": "empirically_supported"
+            },
+            {
+              "correct": true,
+              "format_valid": true,
+              "id": "svb-5f377d39e94f",
+              "seconds": 8.356359189001523,
+              "status": "completed",
+              "verdict": "refuted"
+            },
+            {
+              "correct": true,
+              "format_valid": true,
+              "id": "svb-5b0444dab3f1",
+              "seconds": 17.64872820600067,
+              "status": "completed",
+              "verdict": "empirically_supported"
+            },
+            {
+              "correct": false,
+              "format_valid": true,
+              "id": "svb-41d488eab4fd",
+              "seconds": 16.994092930999614,
+              "status": "completed",
+              "verdict": "refuted"
+            },
+            {
+              "correct": true,
+              "format_valid": true,
+              "id": "svb-849e1285da6c",
+              "seconds": 9.184834279996721,
+              "status": "completed",
+              "verdict": "disputed_or_unresolved"
+            }
+          ]
+        },
+        "A_dev_standard": {
+          "exact_correct": 4,
+          "format_valid": 6,
+          "n": 6,
+          "rows": [
+            {
+              "correct": true,
+              "format_valid": true,
+              "id": "svb-fdb98c815923",
+              "seconds": 9.899368133003009,
+              "status": "completed",
+              "verdict": "formally_established"
+            },
+            {
+              "correct": false,
+              "format_valid": true,
+              "id": "svb-e7f149994481",
+              "seconds": 8.745705460998579,
+              "status": "completed",
+              "verdict": "insufficient_evidence"
+            },
+            {
+              "correct": true,
+              "format_valid": true,
+              "id": "svb-5f377d39e94f",
+              "seconds": 7.841140439999435,
+              "status": "completed",
+              "verdict": "refuted"
+            },
+            {
+              "correct": false,
+              "format_valid": true,
+              "id": "svb-5b0444dab3f1",
+              "seconds": 18.705186426999717,
+              "status": "completed",
+              "verdict": "insufficient_evidence"
+            },
+            {
+              "correct": true,
+              "format_valid": true,
+              "id": "svb-41d488eab4fd",
+              "seconds": 17.172874933999992,
+              "status": "completed",
+              "verdict": "insufficient_evidence"
+            },
+            {
+              "correct": true,
+              "format_valid": true,
+              "id": "svb-849e1285da6c",
+              "seconds": 9.12824905800153,
+              "status": "completed",
+              "verdict": "disputed_or_unresolved"
+            }
+          ]
+        },
+        "B_dev_standard": {
+          "exact_correct": 0,
+          "format_valid": 2,
+          "n": 2,
+          "rows": [
+            {
+              "correct": false,
+              "format_valid": true,
+              "id": "svb-fdb98c815923",
+              "seconds": 29.98041065600046,
+              "status": "completed",
+              "verdict": null
+            },
+            {
+              "correct": false,
+              "format_valid": true,
+              "id": "svb-e7f149994481",
+              "seconds": 38.59162357999958,
+              "status": "completed",
+              "verdict": null
+            }
+          ]
+        },
+        "C_dev_standard": {
+          "exact_correct": 0,
+          "format_valid": 2,
+          "n": 2,
+          "rows": [
+            {
+              "correct": false,
+              "format_valid": true,
+              "id": "svb-fdb98c815923",
+              "seconds": 89.8708549059993,
+              "status": "completed",
+              "verdict": null
+            },
+            {
+              "correct": false,
+              "format_valid": true,
+              "id": "svb-e7f149994481",
+              "seconds": 89.78617550700073,
+              "status": "completed",
+              "verdict": null
+            }
+          ]
+        }
+      }
+    },
+    "observed_generation_seconds": 478.491349191012,
+    "order_consistent": 2,
+    "order_pairs": 6,
+    "qualification_limit": "Author-defined instruction controls and two historical public cases, not independent scientific generalization; C historical rich-prompt differs from minimal A instruction bundle.",
+    "standard_development_thresholds_met": false
+  }
+}

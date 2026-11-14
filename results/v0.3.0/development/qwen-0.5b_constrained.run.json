@@ -1,0 +1,149 @@
+{
+  "attention": "eager",
+  "bundle_records": 6,
+  "category_constraints": {
+    "eos_token_id": 151645,
+    "labels": [
+      "formally_established",
+      "computationally_established",
+      "empirically_supported",
+      "refuted",
+      "insufficient_evidence",
+      "disputed_or_unresolved"
+    ],
+    "method": "prefix-allowed category trie plus EOS; syntax intervention only",
+    "sequences": [
+      [
+        627,
+        745,
+        18583,
+        5102,
+        291
+      ],
+      [
+        874,
+        13320,
+        745,
+        18583,
+        5102,
+        291
+      ],
+      [
+        3262,
+        404,
+        2673,
+        57885
+      ],
+      [
+        1097,
+        2774
+      ],
+      [
+        1330,
+        26683,
+        2204,
+        27480
+      ],
+      [
+        4243,
+        19292,
+        8734,
+        4907,
+        39747
+      ]
+    ]
+  },
+  "constrained_a": true,
+  "credential_use": false,
+  "device": "cpu",
+  "do_sample": false,
+  "dtype": "float32",
+  "elapsed_seconds": 17.4518404006958,
+  "format": "svb-phase2b-model-run-v1",
+  "max_input_tokens": 4096,
+  "model_id": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen-0.5b",
+  "model_load_seconds": 6.189922094345093,
+  "new_token_caps": {
+    "A": 24,
+    "B": 128,
+    "C": 384
+  },
+  "output_sha256": "f8a740dd971d337f779f41951746db53322163182dda46912225549064c069e1",
+  "paid_api_calls": 0,
+  "prompt_file_sha256": "976401d8cda877a3f6f4e8b6cddebc4e0ff0a47d7bb0ec862a50fb570fdfd4fd",
+  "prompt_truncation": false,
+  "python": "3.12.14",
+  "records": [
+    {
+      "condition": "dev_standard",
+      "id": "svb-fdb98c815923",
+      "input_tokens": 303,
+      "output_reached_token_limit": false,
+      "output_tokens": 6,
+      "seconds": 1.4544940979994863,
+      "status": "completed",
+      "task": "A"
+    },
+    {
+      "condition": "dev_standard",
+      "id": "svb-e7f149994481",
+      "input_tokens": 304,
+      "output_reached_token_limit": false,
+      "output_tokens": 6,
+      "seconds": 1.4462943690014072,
+      "status": "completed",
+      "task": "A"
+    },
+    {
+      "condition": "dev_standard",
+      "id": "svb-5f377d39e94f",
+      "input_tokens": 303,
+      "output_reached_token_limit": false,
+      "output_tokens": 6,
+      "seconds": 1.3496331840015046,
+      "status": "completed",
+      "task": "A"
+    },
+    {
+      "condition": "dev_standard",
+      "id": "svb-5b0444dab3f1",
+      "input_tokens": 696,
+      "output_reached_token_limit": false,
+      "output_tokens": 3,
+      "seconds": 2.948034879998886,
+      "status": "completed",
+      "task": "A"
+    },
+    {
+      "condition": "dev_standard",
+      "id": "svb-41d488eab4fd",
+      "input_tokens": 686,
+      "output_reached_token_limit": false,
+      "output_tokens": 3,
+      "seconds": 2.8908591480012547,
+      "status": "completed",
+      "task": "A"
+    },
+    {
+      "condition": "dev_standard",
+      "id": "svb-849e1285da6c",
+      "input_tokens": 326,
+      "output_reached_token_limit": false,
+      "output_tokens": 3,
+      "seconds": 1.1658823100005975,
+      "status": "completed",
+      "task": "A"
+    }
+  ],
+  "reference_labels_loaded": false,
+  "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+  "runner_sha256": "c5254e0cc2afb18582011a399975aaa94f8c82a8d929c85c7de4f1f5489bcd7e",
+  "scoring_performed": false,
+  "seed": 0,
+  "selected_records": 6,
+  "threads": 4,
+  "torch": "2.7.1+cpu",
+  "transformers": "4.51.3",
+  "weights_sha256": "fdf756fa7fcbe7404d5c60e26bff1a0c8b8aa1f72ced49e7dd0210fe288fb7fe"
+}
