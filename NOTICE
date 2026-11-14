@@ -16,3 +16,10 @@ R datasets source/documentation: GPL-2.0-or-later, with R_COPYING retained.
 FreeSolv data: CC-BY-4.0 to the extent upstream can license the derived data;
 upstream original-source caveats and experimental references are retained.
 These source-data terms do not relicense the independent Apache-2.0 SVB code.
+
+Phase IIb adds public R study records under their retained GPL-2.0-or-later
+source notices. Model weights are not distributed. Qwen2.5-0.5B/1.5B use
+Apache-2.0; the development-only Qwen2.5-3B checkpoint uses the Qwen
+RESEARCH LICENSE (2024-09-19), limited to noncommercial research/evaluation.
+Model source terms are distinct from the Apache-2.0 SVB code license.
+The third-model measurements are research observations, not a model release.

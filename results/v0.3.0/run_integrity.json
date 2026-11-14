@@ -1,0 +1,50 @@
+{
+  "checks": [
+    {
+      "generation_statuses": {
+        "completed": 24
+      },
+      "identity_and_prompt_checks_passed": true,
+      "mode": "constrained",
+      "model": "qwen-0.5b",
+      "prompt_sha256": "5b6cf2250ae264a203492a773e4ca9fe3b99d82f6169842dcf720f4cf37de4e6",
+      "raw_sha256": "1a550eb1ae7dcd1e7e822ddb668f8877cef8144974a7791d394364afa5126c7f",
+      "records": 24
+    },
+    {
+      "generation_statuses": {
+        "completed": 36
+      },
+      "identity_and_prompt_checks_passed": true,
+      "mode": "unconstrained",
+      "model": "qwen-0.5b",
+      "prompt_sha256": "ea926f124b620c91d808573b459dc4f3476585ef4a173a210dd41cc6c1fe22d4",
+      "raw_sha256": "b942a7407f3aa40ca080a41176b253a459a38e126d2c4905ac61882ff9575d28",
+      "records": 36
+    },
+    {
+      "generation_statuses": {
+        "completed": 24
+      },
+      "identity_and_prompt_checks_passed": true,
+      "mode": "constrained",
+      "model": "qwen-1.5b",
+      "prompt_sha256": "5b6cf2250ae264a203492a773e4ca9fe3b99d82f6169842dcf720f4cf37de4e6",
+      "raw_sha256": "9fa80e1738df3a721b3bdac6019e14599d3ae7e93f8472d86ac138f748604b98",
+      "records": 24
+    },
+    {
+      "generation_statuses": {
+        "completed": 36
+      },
+      "identity_and_prompt_checks_passed": true,
+      "mode": "unconstrained",
+      "model": "qwen-1.5b",
+      "prompt_sha256": "ea926f124b620c91d808573b459dc4f3476585ef4a173a210dd41cc6c1fe22d4",
+      "raw_sha256": "e145cfcd1c3f0e8e706f5d6035fce0ecb7d7bf2439d9688392cdd63b37f67ce1",
+      "records": 36
+    }
+  ],
+  "human_adjudication_completed": false,
+  "scientific_reference_validity_proved": false
+}

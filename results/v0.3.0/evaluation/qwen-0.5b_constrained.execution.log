@@ -1,0 +1,25 @@
+Sliding Window Attention is enabled but not implemented for `eager`; unexpected results may be encountered.
+{"index": 1, "selected": 24, "id": "svb-fc666137259f", "task": "A", "condition": "evidence", "status": "completed", "tokens": 3, "seconds": 2.667291331999877}
+{"index": 2, "selected": 24, "id": "svb-3aaf182f254f", "task": "A", "condition": "evidence", "status": "completed", "tokens": 3, "seconds": 3.4379298300009395}
+{"index": 3, "selected": 24, "id": "svb-9027589da364", "task": "A", "condition": "evidence", "status": "completed", "tokens": 6, "seconds": 2.7184207739992416}
+{"index": 4, "selected": 24, "id": "svb-9792d7ac8f17", "task": "A", "condition": "evidence", "status": "completed", "tokens": 6, "seconds": 3.020305558999098}
+{"index": 5, "selected": 24, "id": "svb-d48507e1d19e", "task": "A", "condition": "evidence", "status": "completed", "tokens": 5, "seconds": 3.948339804999705}
+{"index": 6, "selected": 24, "id": "svb-a7ca66d0e04f", "task": "A", "condition": "evidence", "status": "completed", "tokens": 5, "seconds": 3.7516793869981484}
+{"index": 7, "selected": 24, "id": "svb-716f0a9027bd", "task": "A", "condition": "evidence", "status": "completed", "tokens": 6, "seconds": 2.947420680997311}
+{"index": 8, "selected": 24, "id": "svb-e3d611a0ffa3", "task": "A", "condition": "evidence", "status": "completed", "tokens": 6, "seconds": 2.983887276997848}
+{"index": 9, "selected": 24, "id": "svb-84e330a0728d", "task": "A", "condition": "evidence", "status": "completed", "tokens": 6, "seconds": 2.3416381269998965}
+{"index": 10, "selected": 24, "id": "svb-162ce6f1d8cf", "task": "A", "condition": "evidence", "status": "completed", "tokens": 6, "seconds": 2.224367317998258}
+{"index": 11, "selected": 24, "id": "svb-db97426ec44e", "task": "A", "condition": "evidence", "status": "completed", "tokens": 3, "seconds": 2.0365040869983204}
+{"index": 12, "selected": 24, "id": "svb-e0fba25d46f1", "task": "A", "condition": "evidence", "status": "completed", "tokens": 6, "seconds": 2.246020040998701}
+{"index": 13, "selected": 24, "id": "svb-fc666137259f", "task": "A", "condition": "no_evidence", "status": "completed", "tokens": 3, "seconds": 1.1291934380024031}
+{"index": 14, "selected": 24, "id": "svb-3aaf182f254f", "task": "A", "condition": "no_evidence", "status": "completed", "tokens": 3, "seconds": 1.1308092509971175}
+{"index": 15, "selected": 24, "id": "svb-9027589da364", "task": "A", "condition": "no_evidence", "status": "completed", "tokens": 6, "seconds": 1.3522155300015584}
+{"index": 16, "selected": 24, "id": "svb-9792d7ac8f17", "task": "A", "condition": "no_evidence", "status": "completed", "tokens": 6, "seconds": 1.3314949659979902}
+{"index": 17, "selected": 24, "id": "svb-d48507e1d19e", "task": "A", "condition": "no_evidence", "status": "completed", "tokens": 5, "seconds": 1.3091521890019067}
+{"index": 18, "selected": 24, "id": "svb-a7ca66d0e04f", "task": "A", "condition": "no_evidence", "status": "completed", "tokens": 5, "seconds": 1.2655607300002885}
+{"index": 19, "selected": 24, "id": "svb-716f0a9027bd", "task": "A", "condition": "no_evidence", "status": "completed", "tokens": 6, "seconds": 1.368685491001088}
+{"index": 20, "selected": 24, "id": "svb-e3d611a0ffa3", "task": "A", "condition": "no_evidence", "status": "completed", "tokens": 6, "seconds": 1.7846228429989424}
+{"index": 21, "selected": 24, "id": "svb-84e330a0728d", "task": "A", "condition": "no_evidence", "status": "completed", "tokens": 6, "seconds": 1.416479141000309}
+{"index": 22, "selected": 24, "id": "svb-162ce6f1d8cf", "task": "A", "condition": "no_evidence", "status": "completed", "tokens": 6, "seconds": 1.3551755619992036}
+{"index": 23, "selected": 24, "id": "svb-db97426ec44e", "task": "A", "condition": "no_evidence", "status": "completed", "tokens": 6, "seconds": 1.3252224739990197}
+{"index": 24, "selected": 24, "id": "svb-e0fba25d46f1", "task": "A", "condition": "no_evidence", "status": "completed", "tokens": 6, "seconds": 1.496488890999899}

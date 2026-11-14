@@ -10,6 +10,8 @@ Phase IIb separates **A: exact category only**, **B: prose justification/source 
 
 There are12 new cases in six pairs from three additional studies: paired sleep observations, longitudinal chick growth, and biochemical oxygen demand. All are public curated sources, not hidden cases, original laboratory replications or guaranteed-unseen pretraining data. Old public items remain historical/development material, and frozen earlier results stay untouched. The source-complete external-review ZIP contains44 packets and132 blank forms; **zero human reviews have occurred**.
 
+Read the [executed Phase IIb report](docs/phase-iib/report.md), [specification](docs/phase-iib/specification.md), [manuscript continuation](docs/phase-iib/manuscript.md), and [reproduction commands](docs/phase-iib/reproduce.md). All120 final model calls completed; evidence-present minimal A admitted12/12 per model, exact2/12 (0.5B) and6/12 (1.5B), while rich C admitted0/6 each. These are provisional-reference diagnostics, not independently qualified scientific performance.
+
 See [methodology audit](docs/phase-iib/methodology_audit.md), [reference audit](docs/phase-iib/reference_adjudication_audit.md), [new sources](docs/phase-iib/new_sources.md), [model qualification](docs/phase-iib/model_qualification.md), [external review brief](docs/phase-iib/external_review_brief.md), and [bound utility study](docs/phase-iib/bound_utility.md). Dataset/protocol0.3 is additive; no Python-package release or prior PR merge is implied.
 
 ```sh
