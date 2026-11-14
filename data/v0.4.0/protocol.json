@@ -1,0 +1,17 @@
+{
+  "version": "0.4.0-proposal",
+  "purpose": "Taxonomy proposal and first human-review pilot; not a new model evaluation or validated taxonomy.",
+  "historical_freeze": "All prior labels, scores, manifests, raw outputs and unsuccessful findings remain unchanged.",
+  "pilot": "Twelve purposively selected public existing cases, five study families. Selection after model outcomes but before human reviews; no representative sample claim.",
+  "round_one": "Independent reference judgments before discussion and before candidate-response package. Exposure to public labels is declared rather than assumed absent.",
+  "round_two": "Optional reconciliation; retain immutable first-round forms and link exact prior form hash. No automatic majority reference or overwrite.",
+  "labels": "Allow one, multiple simultaneously applicable, alternative-interpretation, or no adequate historical categories; distinguish these relations. Reviewers may propose revisions.",
+  "provenance": "Production ingestion requires human origin, personal attestation and a separate coordinator-attested eligibility/consent/independence registry. This is documentary provenance, not proof of identity or expertise. Software-test fixtures are rejected by production ingestion.",
+  "analysis": "Pairwise exact set agreement, nonempty-union Jaccard, singleton-only nominal Cohen kappa and evidence-relation kappa. Report joint completion and exclusion denominators, missing assignments, reviewer exposure, roles and source-family dependence. Descriptive only; no iid confidence intervals or population reliability claims.",
+  "reference_errors": "Record suspected correction separately from taxonomy overlap, target ambiguity, source gaps and irreconcilable interpretation. Independent numerical/source checking and documented human resolution required; no automated gold changes.",
+  "candidate_analysis": "Reasoning, attribution, scope and uncertainty ratings separate; no hidden reasoning-faithfulness claim. Compare candidate ratings only after reference judgments locked. Missing candidates/reviews explicit.",
+  "privacy": "Only anonymous codes in forms. Registry and actual ratings stay private; CLI writes inside repository only under ignored results/local, or outside the repository. Do not publish human records without separate consent and authorization.",
+  "outreach": "Draft correspondence only. No reviewers contacted or invited by this implementation.",
+  "models": "No new inference executed; stronger-model study is design only. No paid resources.",
+  "freeze": "Manifest frozen after software tests and packet construction, before any actual human review. Internal content freeze, not external preregistration or independent custody."
+}

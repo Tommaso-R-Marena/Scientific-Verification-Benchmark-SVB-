@@ -1,0 +1,55 @@
+{
+  "candidate_identity_policy": "No provider metadata exported; prose not redacted. Public files can reveal identity; coordinator must check cues and use neutral distribution paths.",
+  "case_mapping": {
+    "svb-162ce6f1d8cf": {
+      "case_id": "OD01X",
+      "packet_id": "P07"
+    },
+    "svb-42170d786de1": {
+      "case_id": "FS04N",
+      "packet_id": "P06"
+    },
+    "svb-5cac43968ca3": {
+      "case_id": "PU01N",
+      "packet_id": "P02"
+    },
+    "svb-6cf18a16d481": {
+      "case_id": "PU01S",
+      "packet_id": "P09"
+    },
+    "svb-716f0a9027bd": {
+      "case_id": "CW02N",
+      "packet_id": "P05"
+    },
+    "svb-84e330a0728d": {
+      "case_id": "OD01P",
+      "packet_id": "P08"
+    },
+    "svb-9027589da364": {
+      "case_id": "SL02N",
+      "packet_id": "P11"
+    },
+    "svb-9792d7ac8f17": {
+      "case_id": "SL02S",
+      "packet_id": "P04"
+    },
+    "svb-ceaeb8b404e1": {
+      "case_id": "FS04S",
+      "packet_id": "P12"
+    },
+    "svb-db97426ec44e": {
+      "case_id": "OD02N",
+      "packet_id": "P10"
+    },
+    "svb-e0fba25d46f1": {
+      "case_id": "OD02S",
+      "packet_id": "P03"
+    },
+    "svb-e3d611a0ffa3": {
+      "case_id": "CW02S",
+      "packet_id": "P01"
+    }
+  },
+  "human_reviews_completed": 0,
+  "review_status": "prepared_not_distributed"
+}

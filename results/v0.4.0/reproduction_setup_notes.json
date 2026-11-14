@@ -1,0 +1,10 @@
+{
+  "all_clean_replays_passed": true,
+  "initial_clean_export_setup": {
+    "correction": "Reran checkout-index --force only into the same disposable clone, then completed all clean-tree checks",
+    "reason": "checkout-index without --force refused pre-existing files in a disposable local clone; new files were exported but command exited nonzero",
+    "scientific_outputs_or_subjects_modified": false,
+    "status": "failed_before_tests"
+  },
+  "rerun_clean_tests": 202
+}

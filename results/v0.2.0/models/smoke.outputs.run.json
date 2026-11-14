@@ -1,0 +1,37 @@
+{
+  "bundle_records": 1,
+  "credential_use": false,
+  "device": "cpu",
+  "do_sample": false,
+  "dtype": "float32",
+  "elapsed_seconds": 6.73543906211853,
+  "max_input_tokens": 4096,
+  "max_new_tokens": 64,
+  "model_id": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_load_seconds": 5.627548694610596,
+  "output_sha256": "a7a2026bd5c81227ec14bbebb71004976746e3c0c4fffd8c05d824f2b9bc687d",
+  "paid_api_calls": 0,
+  "prompt_file_sha256": "016a0e7d22fb2cc7630c31d6a7af7494c6f3af87526c2925a13666505db0017f",
+  "prompt_truncation": false,
+  "python": "3.12.14",
+  "records": [
+    {
+      "condition": "smoke",
+      "id": "smoke-arithmetic",
+      "input_tokens": 48,
+      "output_reached_token_limit": false,
+      "output_tokens": 10,
+      "seconds": 1.1064664800069295,
+      "status": "completed"
+    }
+  ],
+  "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+  "runner_sha256": "a4ea65db00c6bee6b31227a00f19131afcfbb5ec0fda342588f89a339e87e184",
+  "scoring_performed": false,
+  "seed": 0,
+  "selected_records": 1,
+  "threads": 4,
+  "torch": "2.7.1+cpu",
+  "transformers": "4.51.3",
+  "weights_sha256": "fdf756fa7fcbe7404d5c60e26bff1a0c8b8aa1f72ced49e7dd0210fe288fb7fe"
+}

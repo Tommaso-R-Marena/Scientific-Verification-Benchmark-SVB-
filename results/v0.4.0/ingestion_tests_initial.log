@@ -1,0 +1,30 @@
+test_degenerate_and_missing_kappa_are_null (test_phase3_adjudication.Agreement.test_degenerate_and_missing_kappa_are_null) ... ok
+test_disagreement_can_have_negative_kappa (test_phase3_adjudication.Agreement.test_disagreement_can_have_negative_kappa) ... ok
+test_kappa_matches_hand_calculation (test_phase3_adjudication.Agreement.test_kappa_matches_hand_calculation) ... ok
+test_set_agreement_singleton_selection_and_jaccard_denominators (test_phase3_adjudication.Agreement.test_set_agreement_singleton_selection_and_jaccard_denominators) ... ok
+test_alternative_interpretations_distinct_from_simultaneous (test_phase3_adjudication.Ingestion.test_alternative_interpretations_distinct_from_simultaneous) ... ok
+test_candidate_ratings_require_reference_lock_and_raw_identity (test_phase3_adjudication.Ingestion.test_candidate_ratings_require_reference_lock_and_raw_identity) ... ok
+test_citations_are_supplied_and_exact_when_quoted (test_phase3_adjudication.Ingestion.test_citations_are_supplied_and_exact_when_quoted) ... ok
+test_duplicate_foreign_or_out_of_assignment_cases (test_phase3_adjudication.Ingestion.test_duplicate_foreign_or_out_of_assignment_cases) ... ok
+test_duplicate_forms_refused_instead_of_overwrite (test_phase3_adjudication.Ingestion.test_duplicate_forms_refused_instead_of_overwrite) ... ok
+test_first_round_cannot_be_post_discussion (test_phase3_adjudication.Ingestion.test_first_round_cannot_be_post_discussion) ... ok
+test_fixture_analysis_is_watermarked_zero_humans (test_phase3_adjudication.Ingestion.test_fixture_analysis_is_watermarked_zero_humans) ... ok
+test_hash_bound_context_and_judgment (test_phase3_adjudication.Ingestion.test_hash_bound_context_and_judgment) ... ok
+test_inconsistent_sets_or_duplicate_labels_rejected (test_phase3_adjudication.Ingestion.test_inconsistent_sets_or_duplicate_labels_rejected) ... ok
+test_json_duplicate_keys_nonfinite_or_oversize_rejected (test_phase3_adjudication.Ingestion.test_json_duplicate_keys_nonfinite_or_oversize_rejected) ... ok
+test_linked_second_round_retains_first (test_phase3_adjudication.Ingestion.test_linked_second_round_retains_first) ... ok
+test_missing_and_unassessable_distinct (test_phase3_adjudication.Ingestion.test_missing_and_unassessable_distinct) ... ok
+test_multiple_categories_and_none_fit_are_preserved (test_phase3_adjudication.Ingestion.test_multiple_categories_and_none_fit_are_preserved) ... ok
+test_origin_and_human_attestation_must_match (test_phase3_adjudication.Ingestion.test_origin_and_human_attestation_must_match) ... ok
+test_partial_roles_are_reported_without_population_claims (test_phase3_adjudication.Ingestion.test_partial_roles_are_reported_without_population_claims) ... ok
+test_production_rejects_software_fixtures (test_phase3_adjudication.Ingestion.test_production_rejects_software_fixtures) ... ok
+test_reference_error_allegations_never_become_corrections (test_phase3_adjudication.Ingestion.test_reference_error_allegations_never_become_corrections) ... ok
+test_registry_checks_consent_role_duplicates_and_identity (test_phase3_adjudication.Ingestion.test_registry_checks_consent_role_duplicates_and_identity) ... ok
+test_round_two_cannot_introduce_new_cases_or_link_another_reviewer (test_phase3_adjudication.Ingestion.test_round_two_cannot_introduce_new_cases_or_link_another_reviewer) ... ok
+test_unassessable_cannot_carry_reference_verdict (test_phase3_adjudication.Ingestion.test_unassessable_cannot_carry_reference_verdict) ... ok
+test_unfounded_correction_disposition_rejected (test_phase3_adjudication.Ingestion.test_unfounded_correction_disposition_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 25 tests in 0.026s
+
+OK

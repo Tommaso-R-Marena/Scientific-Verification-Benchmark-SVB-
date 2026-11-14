@@ -1,0 +1,186 @@
+{
+  "artifacts_sha256": {
+    "data/manifest.json": "02416396351f789f671b5ab678af98843d56c4f999544b0da4af701e497f99cb",
+    "data/v0.2.0/manifest.json": "93e52594f1c333670a14946592091c19205ef38f622a6318f568dce818b784da",
+    "data/v0.2.0/protocol.json": "1e4c6246cfa8b84e21c622ca97d8e156b50a80db9906b16193f8c52cb4308f8c",
+    "data/v0.2.0/run_plan.json": "2a7a685a0ac9fd48eef9460d5974f886ab288ad27da2c73ba97533bd9770eed4",
+    "results/v0.2.0/development_order_audit.json": "d5df6916e8792f090ad15b59661899954795ce2e4681a3692ac85d9d73ad5b9d",
+    "results/v0.2.0/model_attribution_audit.json": "db40bc350f8bb2edea0ec7a7519fac39b74d0762f531648de787c74aeb2ca74b",
+    "results/v0.2.0/model_scores.json": "b6b385585f279baa244b9b3bd02c034cbbc2c1b182b2baa0c58070a2d14b9603",
+    "results/v0.2.0/models/qwen_development_order.jsonl": "f3e481fddd7a91050ecde45f4f75b278676a3c7d4b74054c61bf1d80e8cf1a17",
+    "results/v0.2.0/models/qwen_scientific.jsonl": "9f810b5462eeb8cc3762cdfd3d7a9ccb68a771133bb29cd987d64aedbf94a0bc",
+    "results/v0.2.0/models/qwen_scientific_complete.jsonl": "611be1e93470b66feab9fffcd2fb9510f49301ca5a773b5f6c91af3fa88b51c4",
+    "results/v0.2.0/models/qwen_scientific_complete.run.json": "9cf10c918810e2f81f400f41d6f4175495091c8f26c48aaa594bb26fd89dbea5",
+    "results/v0.2.0/models/qwen_scientific_interruption.json": "567d74112433137cb335a9cc7dd5bfa3d813cdfd4d929ed170099c82b6595e88",
+    "results/v0.2.0/models/qwen_scientific_remainder.jsonl": "c8f8067e624500fd1587af2f6aff6d540a6191f8832638d2abade6b967b9c8ef",
+    "results/v0.2.0/reference_checks.json": "f4f8dadd6c28dca248bf4e37266d5a8bf55c1a07372a619438601a4477895f20",
+    "results/v0.2.0/systems.json": "07485991fd1045174124f0fc26636a35266fdb9e4bd83ce2e281a3bffed9aa99",
+    "results/v0.2.0/systems_initial_construction_errors.json": "da6ebecf533ac7435d06bc540e807194a80e24e081bb32fab48143f5ccc2de29",
+    "results/v0.2.0/tests_final.log": "c16629a94393eeb21f85abf4abec81bf008d97ef4f9b0e9754aed7ccd3a9e5f7"
+  },
+  "base_release_commit": "30f842e241b0a37ab5d24ef6537113d6bbbb4103",
+  "branch": "phase-ii/scientific-validation",
+  "environment": {
+    "core_dependencies": [],
+    "model_dependencies": "requirements-models.txt",
+    "python": "3.12.14"
+  },
+  "executed": {
+    "actual_primary_model": {
+      "generation_completed": 60,
+      "generation_seconds_lower_bound": 935.5094679599439,
+      "input_truncations": 0,
+      "interruption": "46 original outputs preserved, environment transition killed process; resumed only14missing fixed-plan requests into separate artifact; unknown unflushed work cost; no correctness retries or response repair",
+      "model": "Qwen/Qwen2.5-0.5B-Instruct",
+      "output_cap_hits": 1,
+      "paid_api_calls": 0,
+      "private_model_credentials_used": false,
+      "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+      "secondary_exact_category_agreement": 0,
+      "secondary_extracted": 60,
+      "selected_label_all": "formally_established",
+      "source_ids_nonsupplied_no_evidence": "23/23 parseable objects, not fabricated-paper adjudication",
+      "strict_admitted": 0,
+      "strict_malformed": 60
+    },
+    "baseline_results": {
+      "lexical": {
+        "answered": 24,
+        "correct": 13,
+        "false_accepts": 6,
+        "n": 24,
+        "nonaccept_n": 12
+      },
+      "numerical": {
+        "answered": 4,
+        "correct": 3,
+        "false_accepts": 0,
+        "n": 24
+      }
+    },
+    "independent_numerical_references": {
+      "empirical_adequacy_mechanically_validated": false,
+      "exact_source_transformations_checked": true,
+      "witnesses": 17
+    },
+    "new_cases": {
+      "cases": 32,
+      "development": 8,
+      "empirical_source_fact_positives_all": 11,
+      "evaluation": 24,
+      "external_human_reviews": 0,
+      "pairs": 16,
+      "protected_holdout": false,
+      "provisional_author_adjudicated": true
+    },
+    "phase2_tests": {
+      "failed": 0,
+      "final_head_hosted_ci_lookup": "GitHub PR1 / independent-svb workflow; inspect retained platform result for exact final head. No success is preclaimed in this static record.",
+      "initial_implementation_ci": {
+        "commit": "7222c65c0937542897bcad375073a5d7ff5869f8",
+        "conclusion": "success",
+        "run": 43569029081,
+        "tests": 103
+      },
+      "log": "results/v0.2.0/tests_final.log",
+      "passed": 105
+    },
+    "posthoc_development_diagnostic": {
+      "all_outputs_schema_invalid": true,
+      "allowed_label_enumeration_reversed": true,
+      "calls_completed": 4,
+      "development_cases": 2,
+      "labels_changed": 2,
+      "not_primary_or_prospective": true
+    },
+    "real_subjects": {
+      "foldbounds": {
+        "eligible": 27,
+        "matched": 27
+      },
+      "pcs": {
+        "eligible": 6,
+        "matched": 6,
+        "unsupported": 2
+      },
+      "pooled_leaderboard": false,
+      "website_dom": {
+        "eligible": 8,
+        "matched": 8
+      }
+    },
+    "reproducibility": {
+      "new_baseline_json_byte_identical_fresh_checkout": true,
+      "recorded_model_scores_byte_identical_repeat": true,
+      "stdlib_isolation_tests_passed": 103
+    },
+    "v01_reproduction": {
+      "ci_conclusion": "success",
+      "ci_run": 43567831890,
+      "clean_checkout": true,
+      "manifest_valid": true,
+      "old_json_csv_byte_identical": true,
+      "original_reference_error_preserved": true,
+      "tests_passed": 39
+    }
+  },
+  "implementation_commit": "7222c65c0937542897bcad375073a5d7ff5869f8",
+  "negative_and_corrected_outcomes": [
+    {
+      "correct_values": [
+        "281/15",
+        "245/6"
+      ],
+      "corrected_before_freeze": true,
+      "event": "draft grass-mean reference arithmetic",
+      "evidence": "docs/phase-ii/adversarial_review.md"
+    },
+    {
+      "event": "synthetic missing-evidence prose in draft source notes",
+      "removed_before_freeze": true
+    },
+    {
+      "event": "NIST illustrative XML and atmospheric CO2 candidate sources",
+      "evidence": "docs/phase-ii/adversarial_review.md",
+      "rejected": true
+    },
+    {
+      "event": "initial fresh PCS producer/string and browser socket construction failures",
+      "only_SVB_corrected": true,
+      "preserved": "results/v0.2.0/systems_initial_construction_errors.json"
+    },
+    {
+      "corrected_invocation_no_source_change": true,
+      "event": "isolated test child missing PYTHONPATH",
+      "initial_failure_preserved": true
+    },
+    {
+      "event": "scientific model schema/category qualification",
+      "failed": true,
+      "not_general_scientific_AI_performance": true
+    },
+    {
+      "event": "environment interruption",
+      "ledger": "results/v0.2.0/models/qwen_scientific_interruption.json",
+      "preserved": true
+    }
+  ],
+  "pull_request": "https://github.com/Tommaso-R-Marena/Scientific-Verification-Benchmark-SVB-/pull/1",
+  "remaining_external_requirements": [
+    "Actual independent domain/statistical reviewers and disagreement adjudication",
+    "External custodian/access controls and model-exposure audits",
+    "Better-qualified interfaces/models and wider primary experimental sources"
+  ],
+  "status": "Draft release candidate; no merge or expert/publication-quality qualification",
+  "still_unproven": [
+    "Independent expert validity of scientific labels",
+    "Source laboratory execution and complete primary experimental methods",
+    "Protected/hidden or independently preregistered evaluation",
+    "Strong multi-model scientific reasoning generalization",
+    "Human source entailment and rationale accuracy",
+    "General benefit of evidence-dependency or verification assistance",
+    "Novel mathematical or benchmark superiority",
+    "Biological/clinical discoveries"
+  ],
+  "version": "0.2.0"
+}

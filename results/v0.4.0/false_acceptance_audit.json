@@ -1,0 +1,63 @@
+{
+  "cross_acceptance_boundary": "If actual independent reviewers admit both accepting and nonaccepting references, the indicator is set-valued (0..1) for an accepting prediction. No definite false-accept rate is then identified without a resolution policy. Counts on fixed denominators or stratified definite/ambiguous counts are preferable to moving-denominator bounds.",
+  "historical_scores_modified": false,
+  "kind": "post_hoc_class_membership_invariance_audit_not_rescoring",
+  "new_gold_created": false,
+  "representative_model_ranking_justified": false,
+  "rows": [
+    {
+      "accepted_supported_items": 1,
+      "false_accept_items": [
+        "svb-a7ca66d0e04f"
+      ],
+      "historical_false_accepts": 1,
+      "historical_nonaccept_reference_n": 6,
+      "mode": "constrained",
+      "model": "qwen-0.5b",
+      "scientific_references_externally_adjudicated": false,
+      "supported_reference_n": 6,
+      "unchanged_under_within_accepting_group_multiplicity": true
+    },
+    {
+      "accepted_supported_items": 1,
+      "false_accept_items": [
+        "svb-a7ca66d0e04f"
+      ],
+      "historical_false_accepts": 1,
+      "historical_nonaccept_reference_n": 6,
+      "mode": "unconstrained",
+      "model": "qwen-0.5b",
+      "scientific_references_externally_adjudicated": false,
+      "supported_reference_n": 6,
+      "unchanged_under_within_accepting_group_multiplicity": true
+    },
+    {
+      "accepted_supported_items": 3,
+      "false_accept_items": [
+        "svb-9792d7ac8f17",
+        "svb-162ce6f1d8cf"
+      ],
+      "historical_false_accepts": 2,
+      "historical_nonaccept_reference_n": 6,
+      "mode": "constrained",
+      "model": "qwen-1.5b",
+      "scientific_references_externally_adjudicated": false,
+      "supported_reference_n": 6,
+      "unchanged_under_within_accepting_group_multiplicity": true
+    },
+    {
+      "accepted_supported_items": 3,
+      "false_accept_items": [
+        "svb-9792d7ac8f17",
+        "svb-162ce6f1d8cf"
+      ],
+      "historical_false_accepts": 2,
+      "historical_nonaccept_reference_n": 6,
+      "mode": "unconstrained",
+      "model": "qwen-1.5b",
+      "scientific_references_externally_adjudicated": false,
+      "supported_reference_n": 6,
+      "unchanged_under_within_accepting_group_multiplicity": true
+    }
+  ]
+}

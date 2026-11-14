@@ -1,0 +1,310 @@
+{
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "const": "0.4.0-proposal"
+    },
+    "target": {
+      "type": "object",
+      "properties": {
+        "claim": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 20000
+        },
+        "scope": {
+          "type": "object",
+          "properties": {
+            "population_or_system": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 20000
+            },
+            "conditions": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 20000
+            },
+            "quantifier": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 20000
+            }
+          },
+          "required": [
+            "population_or_system",
+            "conditions",
+            "quantifier"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "claim",
+        "scope"
+      ],
+      "additionalProperties": false
+    },
+    "evidence": {
+      "type": "object",
+      "properties": {
+        "document_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 20000
+          },
+          "uniqueItems": true,
+          "maxItems": 100
+        },
+        "assumptions": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 20000
+          },
+          "uniqueItems": true,
+          "maxItems": 100
+        }
+      },
+      "required": [
+        "document_ids",
+        "assumptions"
+      ],
+      "additionalProperties": false
+    },
+    "relation": {
+      "type": "object",
+      "properties": {
+        "support": {
+          "type": "boolean"
+        },
+        "opposition": {
+          "type": "boolean"
+        },
+        "assessed": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "support",
+        "opposition",
+        "assessed"
+      ],
+      "additionalProperties": false
+    },
+    "justification_types": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "deductive",
+          "computational",
+          "observational",
+          "experimental",
+          "statistical",
+          "provenance"
+        ]
+      },
+      "uniqueItems": true,
+      "maxItems": 100
+    },
+    "computational_check": {
+      "type": "object",
+      "properties": {
+        "status": {
+          "enum": [
+            "not_checked",
+            "not_applicable",
+            "passed",
+            "failed"
+          ]
+        },
+        "method": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 20000
+        },
+        "machine_checked": {
+          "type": "boolean"
+        },
+        "establishes": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 20000
+          },
+          "uniqueItems": true,
+          "maxItems": 100
+        },
+        "does_not_establish": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 20000
+          },
+          "uniqueItems": true,
+          "maxItems": 100
+        }
+      },
+      "required": [
+        "status",
+        "method",
+        "machine_checked",
+        "establishes",
+        "does_not_establish"
+      ],
+      "additionalProperties": false
+    },
+    "empirical_support": {
+      "type": "object",
+      "properties": {
+        "status": {
+          "enum": [
+            "not_assessed",
+            "not_applicable",
+            "record_only",
+            "supports_target",
+            "opposes_target",
+            "mixed"
+          ]
+        },
+        "design_and_limitations": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 20000
+        }
+      },
+      "required": [
+        "status",
+        "design_and_limitations"
+      ],
+      "additionalProperties": false
+    },
+    "evidence_strength": {
+      "type": "object",
+      "properties": {
+        "rubric": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "value": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "rationale": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 20000
+        }
+      },
+      "required": [
+        "rubric",
+        "value",
+        "rationale"
+      ],
+      "additionalProperties": false
+    },
+    "uncertainty": {
+      "type": "object",
+      "properties": {
+        "measurement": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 20000
+        },
+        "statistical": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 20000
+        },
+        "model": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 20000
+        },
+        "reviewer": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 20000
+        }
+      },
+      "required": [
+        "measurement",
+        "statistical",
+        "model",
+        "reviewer"
+      ],
+      "additionalProperties": false
+    },
+    "missing_assumptions": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 20000
+      },
+      "uniqueItems": true,
+      "maxItems": 100
+    },
+    "research_dispute": {
+      "type": "object",
+      "properties": {
+        "status": {
+          "enum": [
+            "not_assessed",
+            "documented",
+            "not_documented"
+          ]
+        },
+        "documentation_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 20000
+          },
+          "uniqueItems": true,
+          "maxItems": 100
+        }
+      },
+      "required": [
+        "status",
+        "documentation_ids"
+      ],
+      "additionalProperties": false
+    },
+    "rationale": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 20000
+    }
+  },
+  "required": [
+    "schema_version",
+    "target",
+    "evidence",
+    "relation",
+    "justification_types",
+    "computational_check",
+    "empirical_support",
+    "evidence_strength",
+    "uncertainty",
+    "missing_assumptions",
+    "research_dispute",
+    "rationale"
+  ],
+  "additionalProperties": false,
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SVB proposed evidence dimensions; structural validation does not verify scientific claims",
+  "$comment": "Cross-field checks in svb.taxonomy.validate_assessment are authoritative; no full JSON Schema engine is required by the core."
+}

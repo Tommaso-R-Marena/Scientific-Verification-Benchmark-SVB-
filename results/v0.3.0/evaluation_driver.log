@@ -1,0 +1,8 @@
+{"starting": "results/v0.3.0/evaluation/qwen-0.5b_unconstrained.jsonl", "model": "qwen-0.5b", "mode": "unconstrained"}
+{"finished": "results/v0.3.0/evaluation/qwen-0.5b_unconstrained.jsonl", "process_returncode": 0}
+{"starting": "results/v0.3.0/evaluation/qwen-0.5b_constrained.jsonl", "model": "qwen-0.5b", "mode": "constrained"}
+{"finished": "results/v0.3.0/evaluation/qwen-0.5b_constrained.jsonl", "process_returncode": 0}
+{"starting": "results/v0.3.0/evaluation/qwen-1.5b_unconstrained.jsonl", "model": "qwen-1.5b", "mode": "unconstrained"}
+{"finished": "results/v0.3.0/evaluation/qwen-1.5b_unconstrained.jsonl", "process_returncode": 0}
+{"starting": "results/v0.3.0/evaluation/qwen-1.5b_constrained.jsonl", "model": "qwen-1.5b", "mode": "constrained"}
+{"finished": "results/v0.3.0/evaluation/qwen-1.5b_constrained.jsonl", "process_returncode": 0}

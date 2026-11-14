@@ -1,0 +1,1006 @@
+[
+  {
+    "assumptions": [
+      "For arithmetic, treat the displayed stored values as exact numerical inputs; this does not make the physical measurements exact."
+    ],
+    "claim": "Using patient ID to pair the recorded observations, the mean of drug 2 minus drug 1 sleep prolongation is 3.16 hours.",
+    "documents": [
+      {
+        "id": "SL-METHOD",
+        "source_id": "sleep",
+        "text": "The R datasets manual describes the sleep data as the effect of two soporific drugs: increase in hours of sleep compared with control on 10 patients. The column extra is the increase in hours; group identifies the drug and ID identifies the patient. The manual explicitly states that the group name may be misleading: these are measurements on 10 persons, not separate groups. The data have 20 observations. The source citations are Cushny and Peebles (1905) and Student (1908). This packet transcribes the public R dataset and its documentation.",
+        "title": "R datasets documentation of the historical sleep study"
+      },
+      {
+        "id": "SL-OBS",
+        "source_id": "sleep",
+        "text": "ID,group,extra\n1,1,0.7\n2,1,-1.6\n3,1,-0.2\n4,1,-1.2\n5,1,-0.1\n6,1,3.4\n7,1,3.7\n8,1,0.8\n9,1,0\n10,1,2\n1,2,1.9\n2,2,0.8\n3,2,1.1\n4,2,0.1\n5,2,-0.1\n6,2,4.4\n7,2,5.5\n8,2,1.6\n9,2,4.6\n10,2,3.4\n",
+        "title": "Recorded sleep prolongation observations"
+      }
+    ],
+    "methodology": "Read the source description and recorded observations. Check any calculation using the stated units and experimental identifiers. Assess the precise target claim and explain its evidential basis.",
+    "public_id": "svb-3aaf182f254f",
+    "question": "Which epistemic status is justified for this precise claim by the supplied scientific record?"
+  },
+  {
+    "assumptions": [
+      "Compare only the recorded high-substrate observations."
+    ],
+    "claim": "The higher treated reaction rates establish that Puromycin improves patients’ health or survival.",
+    "documents": [
+      {
+        "id": "PU-METHOD",
+        "source_id": "puromycin",
+        "text": "R datasets Puromycin documents substrate concentration in ppm and instantaneous reaction rate in counts/min/min. It says counts per minute of radioactive product were measured as a function of substrate concentration, then initial reaction velocity was calculated. The experiment was conducted once with enzyme treated with Puromycin and once untreated. There are 23 rows. Source: Treloar (1974), as reproduced in Bates and Watts (1988), AppendixA 1.3; curated R source transcription.",
+        "title": "R source documentation of enzyme experiment"
+      },
+      {
+        "id": "PU-DATA",
+        "source_id": "puromycin",
+        "text": "conc,rate,state\n0.02,76,treated\n0.02,47,treated\n0.06,97,treated\n0.06,107,treated\n0.11,123,treated\n0.11,139,treated\n0.22,159,treated\n0.22,152,treated\n0.56,191,treated\n0.56,201,treated\n1.1,207,treated\n1.1,200,treated\n0.02,67,untreated\n0.02,51,untreated\n0.06,84,untreated\n0.06,86,untreated\n0.11,98,untreated\n0.11,115,untreated\n0.22,131,untreated\n0.22,124,untreated\n0.56,144,untreated\n0.56,158,untreated\n1.1,160,untreated\n",
+        "title": "Recorded Puromycin enzyme-reaction data"
+      }
+    ],
+    "methodology": "Read the supplied source excerpts and measurement tables. Check any arithmetic directly from the observations. Evaluate only the exact proposed claim; distinguish a failure of evidence from a contradiction.",
+    "public_id": "svb-4399d7d82628",
+    "question": "What epistemic status does the supplied evidence justify for this exact claim? Distinguish measured observations, calculations, assumptions, and stronger scientific interpretations."
+  },
+  {
+    "assumptions": [
+      "For arithmetic, treat the displayed stored values as exact numerical inputs; this does not make the physical measurements exact."
+    ],
+    "claim": "The recorded demand on day 7 minus the recorded demand on day 1 equals 0.0115 grams per litre.",
+    "documents": [
+      {
+        "id": "OD-METHOD",
+        "source_id": "oxygen_demand",
+        "text": "The R BOD dataset contains six observations of biochemical oxygen demand versus time in an evaluation of water quality. Time is the measurement time in days; demand is biochemical oxygen demand in mg/l. The R source attributes the data to Marske (1967), reproduced in Bates and Watts (1988), Appendix A1.4, page 270. The documentation illustrates fitting an asymptotic first-order curve to the recorded values.",
+        "title": "R documentation of biochemical oxygen demand observations"
+      },
+      {
+        "id": "OD-OBS",
+        "source_id": "oxygen_demand",
+        "text": "Time,demand\n1,8.3\n2,10.3\n3,19\n4,16\n5,15.6\n7,19.8\n",
+        "title": "Recorded biochemical oxygen demand table"
+      }
+    ],
+    "methodology": "Read the source description and recorded observations. Check any calculation using the stated units and experimental identifiers. Assess the precise target claim and explain its evidential basis.",
+    "public_id": "svb-84e330a0728d",
+    "question": "Which epistemic status is justified for this precise claim by the supplied scientific record?"
+  },
+  {
+    "assumptions": [
+      "Use nonmissing recorded body masses and the arithmetic mean; do not impute NA."
+    ],
+    "claim": "For the nonmissing recorded observations, Gentoo penguins have a higher mean body mass than Adélie penguins.",
+    "documents": [
+      {
+        "id": "PG-METHOD",
+        "source_id": "penguins",
+        "text": "Gorman, Williams and Fraser (2014), PLOS ONE 9:e 90081, DOI10.1371/journal.pone.0090081, and Palmer LTER dataset excerpts. Adult penguins were sampled at nests near Palmer Station during 2007–2009; raw Stage values are Adult, 1 Egg Stage. Body Mass (g), Species, Sex, Island and studyName are recorded fields. This is an observational breeding-season sample. Missing values are NA. The paper states body mass results are relevant to the egg-laying period and should not be considered representative of chick rearing or outside the breeding season.",
+        "title": "Palmer observational sampling and measurement context"
+      },
+      {
+        "id": "PG-MASS",
+        "source_id": "penguins",
+        "text": "Species,Body Mass (g)\nAdelie Penguin (Pygoscelis adeliae),3750\nAdelie Penguin (Pygoscelis adeliae),3800\nAdelie Penguin (Pygoscelis adeliae),3250\nAdelie Penguin (Pygoscelis adeliae),NA\nAdelie Penguin (Pygoscelis adeliae),3450\nAdelie Penguin (Pygoscelis adeliae),3650\nAdelie Penguin (Pygoscelis adeliae),3625\nAdelie Penguin (Pygoscelis adeliae),4675\nAdelie Penguin (Pygoscelis adeliae),3475\nAdelie Penguin (Pygoscelis adeliae),4250\nAdelie Penguin (Pygoscelis adeliae),3300\nAdelie Penguin (Pygoscelis adeliae),3700\nAdelie Penguin (Pygoscelis adeliae),3200\nAdelie Penguin (Pygoscelis adeliae),3800\nAdelie Penguin (Pygoscelis adeliae),4400\nAdelie Penguin (Pygoscelis adeliae),3700\nAdelie Penguin (Pygoscelis adeliae),3450\nAdelie Penguin (Pygoscelis adeliae),4500\nAdelie Penguin (Pygoscelis adeliae),3325\nAdelie Penguin (Pygoscelis adeliae),4200\nAdelie Penguin (Pygoscelis adeliae),3400\nAdelie Penguin (Pygoscelis adeliae),3600\nAdelie Penguin (Pygoscelis adeliae),3800\nAdelie Penguin (Pygoscelis adeliae),3950\nAdelie Penguin (Pygoscelis adeliae),3800\nAdelie Penguin (Pygoscelis adeliae),3800\nAdelie Penguin (Pygoscelis adeliae),3550\nAdelie Penguin (Pygoscelis adeliae),3200\nAdelie Penguin (Pygoscelis adeliae),3150\nAdelie Penguin (Pygoscelis adeliae),3950\nAdelie Penguin (Pygoscelis adeliae),3250\nAdelie Penguin (Pygoscelis adeliae),3900\nAdelie Penguin (Pygoscelis adeliae),3300\nAdelie Penguin (Pygoscelis adeliae),3900\nAdelie Penguin (Pygoscelis adeliae),3325\nAdelie Penguin (Pygoscelis adeliae),4150\nAdelie Penguin (Pygoscelis adeliae),3950\nAdelie Penguin (Pygoscelis adeliae),3550\nAdelie Penguin (Pygoscelis adeliae),3300\nAdelie Penguin (Pygoscelis adeliae),4650\nAdelie Penguin (Pygoscelis adeliae),3150\nAdelie Penguin (Pygoscelis adeliae),3900\nAdelie Penguin (Pygoscelis adeliae),3100\nAdelie Penguin (Pygoscelis adeliae),4400\nAdelie Penguin (Pygoscelis adeliae),3000\nAdelie Penguin (Pygoscelis adeliae),4600\nAdelie Penguin (Pygoscelis adeliae),3425\nAdelie Penguin (Pygoscelis adeliae),2975\nAdelie Penguin (Pygoscelis adeliae),3450\nAdelie Penguin (Pygoscelis adeliae),4150\nAdelie Penguin (Pygoscelis adeliae),3500\nAdelie Penguin (Pygoscelis adeliae),4300\nAdelie Penguin (Pygoscelis adeliae),3450\nAdelie Penguin (Pygoscelis adeliae),4050\nAdelie Penguin (Pygoscelis adeliae),2900\nAdelie Penguin (Pygoscelis adeliae),3700\nAdelie Penguin (Pygoscelis adeliae),3550\nAdelie Penguin (Pygoscelis adeliae),3800\nAdelie Penguin (Pygoscelis adeliae),2850\nAdelie Penguin (Pygoscelis adeliae),3750\nAdelie Penguin (Pygoscelis adeliae),3150\nAdelie Penguin (Pygoscelis adeliae),4400\nAdelie Penguin (Pygoscelis adeliae),3600\nAdelie Penguin (Pygoscelis adeliae),4050\nAdelie Penguin (Pygoscelis adeliae),2850\nAdelie Penguin (Pygoscelis adeliae),3950\nAdelie Penguin (Pygoscelis adeliae),3350\nAdelie Penguin (Pygoscelis adeliae),4100\nAdelie Penguin (Pygoscelis adeliae),3050\nAdelie Penguin (Pygoscelis adeliae),4450\nAdelie Penguin (Pygoscelis adeliae),3600\nAdelie Penguin (Pygoscelis adeliae),3900\nAdelie Penguin (Pygoscelis adeliae),3550\nAdelie Penguin (Pygoscelis adeliae),4150\nAdelie Penguin (Pygoscelis adeliae),3700\nAdelie Penguin (Pygoscelis adeliae),4250\nAdelie Penguin (Pygoscelis adeliae),3700\nAdelie Penguin (Pygoscelis adeliae),3900\nAdelie Penguin (Pygoscelis adeliae),3550\nAdelie Penguin (Pygoscelis adeliae),4000\nAdelie Penguin (Pygoscelis adeliae),3200\nAdelie Penguin (Pygoscelis adeliae),4700\nAdelie Penguin (Pygoscelis adeliae),3800\nAdelie Penguin (Pygoscelis adeliae),4200\nAdelie Penguin (Pygoscelis adeliae),3350\nAdelie Penguin (Pygoscelis adeliae),3550\nAdelie Penguin (Pygoscelis adeliae),3800\nAdelie Penguin (Pygoscelis adeliae),3500\nAdelie Penguin (Pygoscelis adeliae),3950\nAdelie Penguin (Pygoscelis adeliae),3600\nAdelie Penguin (Pygoscelis adeliae),3550\nAdelie Penguin (Pygoscelis adeliae),4300\nAdelie Penguin (Pygoscelis adeliae),3400\nAdelie Penguin (Pygoscelis adeliae),4450\nAdelie Penguin (Pygoscelis adeliae),3300\nAdelie Penguin (Pygoscelis adeliae),4300\nAdelie Penguin (Pygoscelis adeliae),3700\nAdelie Penguin (Pygoscelis adeliae),4350\nAdelie Penguin (Pygoscelis adeliae),2900\nAdelie Penguin (Pygoscelis adeliae),4100\nAdelie Penguin (Pygoscelis adeliae),3725\nAdelie Penguin (Pygoscelis adeliae),4725\nAdelie Penguin (Pygoscelis adeliae),3075\nAdelie Penguin (Pygoscelis adeliae),4250\nAdelie Penguin (Pygoscelis adeliae),2925\nAdelie Penguin (Pygoscelis adeliae),3550\nAdelie Penguin (Pygoscelis adeliae),3750\nAdelie Penguin (Pygoscelis adeliae),3900\nAdelie Penguin (Pygoscelis adeliae),3175\nAdelie Penguin (Pygoscelis adeliae),4775\nAdelie Penguin (Pygoscelis adeliae),3825\nAdelie Penguin (Pygoscelis adeliae),4600\nAdelie Penguin (Pygoscelis adeliae),3200\nAdelie Penguin (Pygoscelis adeliae),4275\nAdelie Penguin (Pygoscelis adeliae),3900\nAdelie Penguin (Pygoscelis adeliae),4075\nAdelie Penguin (Pygoscelis adeliae),2900\nAdelie Penguin (Pygoscelis adeliae),3775\nAdelie Penguin (Pygoscelis adeliae),3350\nAdelie Penguin (Pygoscelis adeliae),3325\nAdelie Penguin (Pygoscelis adeliae),3150\nAdelie Penguin (Pygoscelis adeliae),3500\nAdelie Penguin (Pygoscelis adeliae),3450\nAdelie Penguin (Pygoscelis adeliae),3875\nAdelie Penguin (Pygoscelis adeliae),3050\nAdelie Penguin (Pygoscelis adeliae),4000\nAdelie Penguin (Pygoscelis adeliae),3275\nAdelie Penguin (Pygoscelis adeliae),4300\nAdelie Penguin (Pygoscelis adeliae),3050\nAdelie Penguin (Pygoscelis adeliae),4000\nAdelie Penguin (Pygoscelis adeliae),3325\nAdelie Penguin (Pygoscelis adeliae),3500\nAdelie Penguin (Pygoscelis adeliae),3500\nAdelie Penguin (Pygoscelis adeliae),4475\nAdelie Penguin (Pygoscelis adeliae),3425\nAdelie Penguin (Pygoscelis adeliae),3900\nAdelie Penguin (Pygoscelis adeliae),3175\nAdelie Penguin (Pygoscelis adeliae),3975\nAdelie Penguin (Pygoscelis adeliae),3400\nAdelie Penguin (Pygoscelis adeliae),4250\nAdelie Penguin (Pygoscelis adeliae),3400\nAdelie Penguin (Pygoscelis adeliae),3475\nAdelie Penguin (Pygoscelis adeliae),3050\nAdelie Penguin (Pygoscelis adeliae),3725\nAdelie Penguin (Pygoscelis adeliae),3000\nAdelie Penguin (Pygoscelis adeliae),3650\nAdelie Penguin (Pygoscelis adeliae),4250\nAdelie Penguin (Pygoscelis adeliae),3475\nAdelie Penguin (Pygoscelis adeliae),3450\nAdelie Penguin (Pygoscelis adeliae),3750\nAdelie Penguin (Pygoscelis adeliae),3700\nAdelie Penguin (Pygoscelis adeliae),4000\nGentoo penguin (Pygoscelis papua),4500\nGentoo penguin (Pygoscelis papua),5700\nGentoo penguin (Pygoscelis papua),4450\nGentoo penguin (Pygoscelis papua),5700\nGentoo penguin (Pygoscelis papua),5400\nGentoo penguin (Pygoscelis papua),4550\nGentoo penguin (Pygoscelis papua),4800\nGentoo penguin (Pygoscelis papua),5200\nGentoo penguin (Pygoscelis papua),4400\nGentoo penguin (Pygoscelis papua),5150\nGentoo penguin (Pygoscelis papua),4650\nGentoo penguin (Pygoscelis papua),5550\nGentoo penguin (Pygoscelis papua),4650\nGentoo penguin (Pygoscelis papua),5850\nGentoo penguin (Pygoscelis papua),4200\nGentoo penguin (Pygoscelis papua),5850\nGentoo penguin (Pygoscelis papua),4150\nGentoo penguin (Pygoscelis papua),6300\nGentoo penguin (Pygoscelis papua),4800\nGentoo penguin (Pygoscelis papua),5350\nGentoo penguin (Pygoscelis papua),5700\nGentoo penguin (Pygoscelis papua),5000\nGentoo penguin (Pygoscelis papua),4400\nGentoo penguin (Pygoscelis papua),5050\nGentoo penguin (Pygoscelis papua),5000\nGentoo penguin (Pygoscelis papua),5100\nGentoo penguin (Pygoscelis papua),4100\nGentoo penguin (Pygoscelis papua),5650\nGentoo penguin (Pygoscelis papua),4600\nGentoo penguin (Pygoscelis papua),5550\nGentoo penguin (Pygoscelis papua),5250\nGentoo penguin (Pygoscelis papua),4700\nGentoo penguin (Pygoscelis papua),5050\nGentoo penguin (Pygoscelis papua),6050\nGentoo penguin (Pygoscelis papua),5150\nGentoo penguin (Pygoscelis papua),5400\nGentoo penguin (Pygoscelis papua),4950\nGentoo penguin (Pygoscelis papua),5250\nGentoo penguin (Pygoscelis papua),4350\nGentoo penguin (Pygoscelis papua),5350\nGentoo penguin (Pygoscelis papua),3950\nGentoo penguin (Pygoscelis papua),5700\nGentoo penguin (Pygoscelis papua),4300\nGentoo penguin (Pygoscelis papua),4750\nGentoo penguin (Pygoscelis papua),5550\nGentoo penguin (Pygoscelis papua),4900\nGentoo penguin (Pygoscelis papua),4200\nGentoo penguin (Pygoscelis papua),5400\nGentoo penguin (Pygoscelis papua),5100\nGentoo penguin (Pygoscelis papua),5300\nGentoo penguin (Pygoscelis papua),4850\nGentoo penguin (Pygoscelis papua),5300\nGentoo penguin (Pygoscelis papua),4400\nGentoo penguin (Pygoscelis papua),5000\nGentoo penguin (Pygoscelis papua),4900\nGentoo penguin (Pygoscelis papua),5050\nGentoo penguin (Pygoscelis papua),4300\nGentoo penguin (Pygoscelis papua),5000\nGentoo penguin (Pygoscelis papua),4450\nGentoo penguin (Pygoscelis papua),5550\nGentoo penguin (Pygoscelis papua),4200\nGentoo penguin (Pygoscelis papua),5300\nGentoo penguin (Pygoscelis papua),4400\nGentoo penguin (Pygoscelis papua),5650\nGentoo penguin (Pygoscelis papua),4700\nGentoo penguin (Pygoscelis papua),5700\nGentoo penguin (Pygoscelis papua),4650\nGentoo penguin (Pygoscelis papua),5800\nGentoo penguin (Pygoscelis papua),4700\nGentoo penguin (Pygoscelis papua),5550\nGentoo penguin (Pygoscelis papua),4750\nGentoo penguin (Pygoscelis papua),5000\nGentoo penguin (Pygoscelis papua),5100\nGentoo penguin (Pygoscelis papua),5200\nGentoo penguin (Pygoscelis papua),4700\nGentoo penguin (Pygoscelis papua),5800\nGentoo penguin (Pygoscelis papua),4600\nGentoo penguin (Pygoscelis papua),6000\nGentoo penguin (Pygoscelis papua),4750\nGentoo penguin (Pygoscelis papua),5950\nGentoo penguin (Pygoscelis papua),4625\nGentoo penguin (Pygoscelis papua),5450\nGentoo penguin (Pygoscelis papua),4725\nGentoo penguin (Pygoscelis papua),5350\nGentoo penguin (Pygoscelis papua),4750\nGentoo penguin (Pygoscelis papua),5600\nGentoo penguin (Pygoscelis papua),4600\nGentoo penguin (Pygoscelis papua),5300\nGentoo penguin (Pygoscelis papua),4875\nGentoo penguin (Pygoscelis papua),5550\nGentoo penguin (Pygoscelis papua),4950\nGentoo penguin (Pygoscelis papua),5400\nGentoo penguin (Pygoscelis papua),4750\nGentoo penguin (Pygoscelis papua),5650\nGentoo penguin (Pygoscelis papua),4850\nGentoo penguin (Pygoscelis papua),5200\nGentoo penguin (Pygoscelis papua),4925\nGentoo penguin (Pygoscelis papua),4875\nGentoo penguin (Pygoscelis papua),4625\nGentoo penguin (Pygoscelis papua),5250\nGentoo penguin (Pygoscelis papua),4850\nGentoo penguin (Pygoscelis papua),5600\nGentoo penguin (Pygoscelis papua),4975\nGentoo penguin (Pygoscelis papua),5500\nGentoo penguin (Pygoscelis papua),4725\nGentoo penguin (Pygoscelis papua),5500\nGentoo penguin (Pygoscelis papua),4700\nGentoo penguin (Pygoscelis papua),5500\nGentoo penguin (Pygoscelis papua),4575\nGentoo penguin (Pygoscelis papua),5500\nGentoo penguin (Pygoscelis papua),5000\nGentoo penguin (Pygoscelis papua),5950\nGentoo penguin (Pygoscelis papua),4650\nGentoo penguin (Pygoscelis papua),5500\nGentoo penguin (Pygoscelis papua),4375\nGentoo penguin (Pygoscelis papua),5850\nGentoo penguin (Pygoscelis papua),4875\nGentoo penguin (Pygoscelis papua),6000\nGentoo penguin (Pygoscelis papua),4925\nGentoo penguin (Pygoscelis papua),NA\nGentoo penguin (Pygoscelis papua),4850\nGentoo penguin (Pygoscelis papua),5750\nGentoo penguin (Pygoscelis papua),5200\nGentoo penguin (Pygoscelis papua),5400\nChinstrap penguin (Pygoscelis antarctica),3500\nChinstrap penguin (Pygoscelis antarctica),3900\nChinstrap penguin (Pygoscelis antarctica),3650\nChinstrap penguin (Pygoscelis antarctica),3525\nChinstrap penguin (Pygoscelis antarctica),3725\nChinstrap penguin (Pygoscelis antarctica),3950\nChinstrap penguin (Pygoscelis antarctica),3250\nChinstrap penguin (Pygoscelis antarctica),3750\nChinstrap penguin (Pygoscelis antarctica),4150\nChinstrap penguin (Pygoscelis antarctica),3700\nChinstrap penguin (Pygoscelis antarctica),3800\nChinstrap penguin (Pygoscelis antarctica),3775\nChinstrap penguin (Pygoscelis antarctica),3700\nChinstrap penguin (Pygoscelis antarctica),4050\nChinstrap penguin (Pygoscelis antarctica),3575\nChinstrap penguin (Pygoscelis antarctica),4050\nChinstrap penguin (Pygoscelis antarctica),3300\nChinstrap penguin (Pygoscelis antarctica),3700\nChinstrap penguin (Pygoscelis antarctica),3450\nChinstrap penguin (Pygoscelis antarctica),4400\nChinstrap penguin (Pygoscelis antarctica),3600\nChinstrap penguin (Pygoscelis antarctica),3400\nChinstrap penguin (Pygoscelis antarctica),2900\nChinstrap penguin (Pygoscelis antarctica),3800\nChinstrap penguin (Pygoscelis antarctica),3300\nChinstrap penguin (Pygoscelis antarctica),4150\nChinstrap penguin (Pygoscelis antarctica),3400\nChinstrap penguin (Pygoscelis antarctica),3800\nChinstrap penguin (Pygoscelis antarctica),3700\nChinstrap penguin (Pygoscelis antarctica),4550\nChinstrap penguin (Pygoscelis antarctica),3200\nChinstrap penguin (Pygoscelis antarctica),4300\nChinstrap penguin (Pygoscelis antarctica),3350\nChinstrap penguin (Pygoscelis antarctica),4100\nChinstrap penguin (Pygoscelis antarctica),3600\nChinstrap penguin (Pygoscelis antarctica),3900\nChinstrap penguin (Pygoscelis antarctica),3850\nChinstrap penguin (Pygoscelis antarctica),4800\nChinstrap penguin (Pygoscelis antarctica),2700\nChinstrap penguin (Pygoscelis antarctica),4500\nChinstrap penguin (Pygoscelis antarctica),3950\nChinstrap penguin (Pygoscelis antarctica),3650\nChinstrap penguin (Pygoscelis antarctica),3550\nChinstrap penguin (Pygoscelis antarctica),3500\nChinstrap penguin (Pygoscelis antarctica),3675\nChinstrap penguin (Pygoscelis antarctica),4450\nChinstrap penguin (Pygoscelis antarctica),3400\nChinstrap penguin (Pygoscelis antarctica),4300\nChinstrap penguin (Pygoscelis antarctica),3250\nChinstrap penguin (Pygoscelis antarctica),3675\nChinstrap penguin (Pygoscelis antarctica),3325\nChinstrap penguin (Pygoscelis antarctica),3950\nChinstrap penguin (Pygoscelis antarctica),3600\nChinstrap penguin (Pygoscelis antarctica),4050\nChinstrap penguin (Pygoscelis antarctica),3350\nChinstrap penguin (Pygoscelis antarctica),3450\nChinstrap penguin (Pygoscelis antarctica),3250\nChinstrap penguin (Pygoscelis antarctica),4050\nChinstrap penguin (Pygoscelis antarctica),3800\nChinstrap penguin (Pygoscelis antarctica),3525\nChinstrap penguin (Pygoscelis antarctica),3950\nChinstrap penguin (Pygoscelis antarctica),3650\nChinstrap penguin (Pygoscelis antarctica),3650\nChinstrap penguin (Pygoscelis antarctica),4000\nChinstrap penguin (Pygoscelis antarctica),3400\nChinstrap penguin (Pygoscelis antarctica),3775\nChinstrap penguin (Pygoscelis antarctica),4100\nChinstrap penguin (Pygoscelis antarctica),3775\n",
+        "title": "Recorded species and body mass, all344 rows"
+      }
+    ],
+    "methodology": "Read the supplied source excerpts and measurement tables. Check any arithmetic directly from the observations. Evaluate only the exact proposed claim; distinguish a failure of evidence from a contradiction.",
+    "public_id": "svb-f53f0d4d4f11",
+    "question": "What epistemic status does the supplied evidence justify for this exact claim? Distinguish measured observations, calculations, assumptions, and stronger scientific interpretations."
+  },
+  {
+    "assumptions": [
+      "Analyze only Quebec plants and recorded concentration code 1000."
+    ],
+    "claim": "The Quebec experiment establishes the same cold-treatment effect for all grass species under future field climates.",
+    "documents": [
+      {
+        "id": "CO-METHOD",
+        "source_id": "grass_co2",
+        "text": "R datasets CO2:84 observations from 12 grass plants (Echinochloa crus-galli), six from Quebec and six from Mississippi. Each plant was measured at seven recorded ambient concentration levels 95, 175, 250, 350, 500, 675, 1000. Half the plants of each origin were chilled overnight. Plant is the experimental-unit identifier; successive concentrations are repeated observations of that plant. Uptake is documented in micromol per square metre per second. The R manual labels ambient concentration mL/L; the numeric source scale is preserved in this table. Source Potvin, Lechowicz and Tardif (1990), curated R transcription, formerly nlme.",
+        "title": "R documentation of cold-tolerance experiment"
+      },
+      {
+        "id": "CO-DATA",
+        "source_id": "grass_co2",
+        "text": "Plant,Type,Treatment,conc,uptake\nQn1,Quebec,nonchilled,95,16\nQn1,Quebec,nonchilled,175,30.4\nQn1,Quebec,nonchilled,250,34.8\nQn1,Quebec,nonchilled,350,37.2\nQn1,Quebec,nonchilled,500,35.3\nQn1,Quebec,nonchilled,675,39.2\nQn1,Quebec,nonchilled,1000,39.7\nQn2,Quebec,nonchilled,95,13.6\nQn2,Quebec,nonchilled,175,27.3\nQn2,Quebec,nonchilled,250,37.1\nQn2,Quebec,nonchilled,350,41.8\nQn2,Quebec,nonchilled,500,40.6\nQn2,Quebec,nonchilled,675,41.4\nQn2,Quebec,nonchilled,1000,44.3\nQn3,Quebec,nonchilled,95,16.2\nQn3,Quebec,nonchilled,175,32.4\nQn3,Quebec,nonchilled,250,40.3\nQn3,Quebec,nonchilled,350,42.1\nQn3,Quebec,nonchilled,500,42.9\nQn3,Quebec,nonchilled,675,43.9\nQn3,Quebec,nonchilled,1000,45.5\nQc1,Quebec,chilled,95,14.2\nQc1,Quebec,chilled,175,24.1\nQc1,Quebec,chilled,250,30.3\nQc1,Quebec,chilled,350,34.6\nQc1,Quebec,chilled,500,32.5\nQc1,Quebec,chilled,675,35.4\nQc1,Quebec,chilled,1000,38.7\nQc2,Quebec,chilled,95,9.3\nQc2,Quebec,chilled,175,27.3\nQc2,Quebec,chilled,250,35\nQc2,Quebec,chilled,350,38.8\nQc2,Quebec,chilled,500,38.6\nQc2,Quebec,chilled,675,37.5\nQc2,Quebec,chilled,1000,42.4\nQc3,Quebec,chilled,95,15.1\nQc3,Quebec,chilled,175,21\nQc3,Quebec,chilled,250,38.1\nQc3,Quebec,chilled,350,34\nQc3,Quebec,chilled,500,38.9\nQc3,Quebec,chilled,675,39.6\nQc3,Quebec,chilled,1000,41.4\nMn1,Mississippi,nonchilled,95,10.6\nMn1,Mississippi,nonchilled,175,19.2\nMn1,Mississippi,nonchilled,250,26.2\nMn1,Mississippi,nonchilled,350,30\nMn1,Mississippi,nonchilled,500,30.9\nMn1,Mississippi,nonchilled,675,32.4\nMn1,Mississippi,nonchilled,1000,35.5\nMn2,Mississippi,nonchilled,95,12\nMn2,Mississippi,nonchilled,175,22\nMn2,Mississippi,nonchilled,250,30.6\nMn2,Mississippi,nonchilled,350,31.8\nMn2,Mississippi,nonchilled,500,32.4\nMn2,Mississippi,nonchilled,675,31.1\nMn2,Mississippi,nonchilled,1000,31.5\nMn3,Mississippi,nonchilled,95,11.3\nMn3,Mississippi,nonchilled,175,19.4\nMn3,Mississippi,nonchilled,250,25.8\nMn3,Mississippi,nonchilled,350,27.9\nMn3,Mississippi,nonchilled,500,28.5\nMn3,Mississippi,nonchilled,675,28.1\nMn3,Mississippi,nonchilled,1000,27.8\nMc1,Mississippi,chilled,95,10.5\nMc1,Mississippi,chilled,175,14.9\nMc1,Mississippi,chilled,250,18.1\nMc1,Mississippi,chilled,350,18.9\nMc1,Mississippi,chilled,500,19.5\nMc1,Mississippi,chilled,675,22.2\nMc1,Mississippi,chilled,1000,21.9\nMc2,Mississippi,chilled,95,7.7\nMc2,Mississippi,chilled,175,11.4\nMc2,Mississippi,chilled,250,12.3\nMc2,Mississippi,chilled,350,13\nMc2,Mississippi,chilled,500,12.5\nMc2,Mississippi,chilled,675,13.7\nMc2,Mississippi,chilled,1000,14.4\nMc3,Mississippi,chilled,95,10.6\nMc3,Mississippi,chilled,175,18\nMc3,Mississippi,chilled,250,17.9\nMc3,Mississippi,chilled,350,17.9\nMc3,Mississippi,chilled,500,17.9\nMc3,Mississippi,chilled,675,18.9\nMc3,Mississippi,chilled,1000,19.9\n",
+        "title": "Recorded grass-plant CO2 uptake data"
+      }
+    ],
+    "methodology": "Read the supplied source excerpts and measurement tables. Check any arithmetic directly from the observations. Evaluate only the exact proposed claim; distinguish a failure of evidence from a contradiction.",
+    "public_id": "svb-8ebbf0ce72cf",
+    "question": "What epistemic status does the supplied evidence justify for this exact claim? Distinguish measured observations, calculations, assumptions, and stronger scientific interpretations."
+  },
+  {
+    "assumptions": [],
+    "claim": "For the three Mississippi nonchilled plants at concentration code 1000, the mean recorded uptake exceeds the mean of the three Mississippi chilled plants.",
+    "documents": [
+      {
+        "id": "CO-METHOD",
+        "source_id": "grass_co2",
+        "text": "R datasets CO2:84 observations from 12 grass plants (Echinochloa crus-galli), six from Quebec and six from Mississippi. Each plant was measured at seven recorded ambient concentration levels 95, 175, 250, 350, 500, 675, 1000. Half the plants of each origin were chilled overnight. Plant is the experimental-unit identifier; successive concentrations are repeated observations of that plant. Uptake is documented in micromol per square metre per second. The R manual labels ambient concentration mL/L; the numeric source scale is preserved in this table. Source Potvin, Lechowicz and Tardif (1990), curated R transcription, formerly nlme.",
+        "title": "R documentation of cold-tolerance experiment"
+      },
+      {
+        "id": "CO-DATA",
+        "source_id": "grass_co2",
+        "text": "Plant,Type,Treatment,conc,uptake\nQn1,Quebec,nonchilled,95,16\nQn1,Quebec,nonchilled,175,30.4\nQn1,Quebec,nonchilled,250,34.8\nQn1,Quebec,nonchilled,350,37.2\nQn1,Quebec,nonchilled,500,35.3\nQn1,Quebec,nonchilled,675,39.2\nQn1,Quebec,nonchilled,1000,39.7\nQn2,Quebec,nonchilled,95,13.6\nQn2,Quebec,nonchilled,175,27.3\nQn2,Quebec,nonchilled,250,37.1\nQn2,Quebec,nonchilled,350,41.8\nQn2,Quebec,nonchilled,500,40.6\nQn2,Quebec,nonchilled,675,41.4\nQn2,Quebec,nonchilled,1000,44.3\nQn3,Quebec,nonchilled,95,16.2\nQn3,Quebec,nonchilled,175,32.4\nQn3,Quebec,nonchilled,250,40.3\nQn3,Quebec,nonchilled,350,42.1\nQn3,Quebec,nonchilled,500,42.9\nQn3,Quebec,nonchilled,675,43.9\nQn3,Quebec,nonchilled,1000,45.5\nQc1,Quebec,chilled,95,14.2\nQc1,Quebec,chilled,175,24.1\nQc1,Quebec,chilled,250,30.3\nQc1,Quebec,chilled,350,34.6\nQc1,Quebec,chilled,500,32.5\nQc1,Quebec,chilled,675,35.4\nQc1,Quebec,chilled,1000,38.7\nQc2,Quebec,chilled,95,9.3\nQc2,Quebec,chilled,175,27.3\nQc2,Quebec,chilled,250,35\nQc2,Quebec,chilled,350,38.8\nQc2,Quebec,chilled,500,38.6\nQc2,Quebec,chilled,675,37.5\nQc2,Quebec,chilled,1000,42.4\nQc3,Quebec,chilled,95,15.1\nQc3,Quebec,chilled,175,21\nQc3,Quebec,chilled,250,38.1\nQc3,Quebec,chilled,350,34\nQc3,Quebec,chilled,500,38.9\nQc3,Quebec,chilled,675,39.6\nQc3,Quebec,chilled,1000,41.4\nMn1,Mississippi,nonchilled,95,10.6\nMn1,Mississippi,nonchilled,175,19.2\nMn1,Mississippi,nonchilled,250,26.2\nMn1,Mississippi,nonchilled,350,30\nMn1,Mississippi,nonchilled,500,30.9\nMn1,Mississippi,nonchilled,675,32.4\nMn1,Mississippi,nonchilled,1000,35.5\nMn2,Mississippi,nonchilled,95,12\nMn2,Mississippi,nonchilled,175,22\nMn2,Mississippi,nonchilled,250,30.6\nMn2,Mississippi,nonchilled,350,31.8\nMn2,Mississippi,nonchilled,500,32.4\nMn2,Mississippi,nonchilled,675,31.1\nMn2,Mississippi,nonchilled,1000,31.5\nMn3,Mississippi,nonchilled,95,11.3\nMn3,Mississippi,nonchilled,175,19.4\nMn3,Mississippi,nonchilled,250,25.8\nMn3,Mississippi,nonchilled,350,27.9\nMn3,Mississippi,nonchilled,500,28.5\nMn3,Mississippi,nonchilled,675,28.1\nMn3,Mississippi,nonchilled,1000,27.8\nMc1,Mississippi,chilled,95,10.5\nMc1,Mississippi,chilled,175,14.9\nMc1,Mississippi,chilled,250,18.1\nMc1,Mississippi,chilled,350,18.9\nMc1,Mississippi,chilled,500,19.5\nMc1,Mississippi,chilled,675,22.2\nMc1,Mississippi,chilled,1000,21.9\nMc2,Mississippi,chilled,95,7.7\nMc2,Mississippi,chilled,175,11.4\nMc2,Mississippi,chilled,250,12.3\nMc2,Mississippi,chilled,350,13\nMc2,Mississippi,chilled,500,12.5\nMc2,Mississippi,chilled,675,13.7\nMc2,Mississippi,chilled,1000,14.4\nMc3,Mississippi,chilled,95,10.6\nMc3,Mississippi,chilled,175,18\nMc3,Mississippi,chilled,250,17.9\nMc3,Mississippi,chilled,350,17.9\nMc3,Mississippi,chilled,500,17.9\nMc3,Mississippi,chilled,675,18.9\nMc3,Mississippi,chilled,1000,19.9\n",
+        "title": "Recorded grass-plant CO2 uptake data"
+      }
+    ],
+    "methodology": "Read the supplied source excerpts and measurement tables. Check any arithmetic directly from the observations. Evaluate only the exact proposed claim; distinguish a failure of evidence from a contradiction.",
+    "public_id": "svb-e3e8e1a3f404",
+    "question": "What epistemic status does the supplied evidence justify for this exact claim? Distinguish measured observations, calculations, assumptions, and stronger scientific interpretations."
+  },
+  {
+    "assumptions": [],
+    "claim": "The table contains 12 treated rows and 11 untreated rows.",
+    "documents": [
+      {
+        "id": "PU-METHOD",
+        "source_id": "puromycin",
+        "text": "R datasets Puromycin documents substrate concentration in ppm and instantaneous reaction rate in counts/min/min. It says counts per minute of radioactive product were measured as a function of substrate concentration, then initial reaction velocity was calculated. The experiment was conducted once with enzyme treated with Puromycin and once untreated. There are 23 rows. Source: Treloar (1974), as reproduced in Bates and Watts (1988), AppendixA 1.3; curated R source transcription.",
+        "title": "R source documentation of enzyme experiment"
+      },
+      {
+        "id": "PU-DATA",
+        "source_id": "puromycin",
+        "text": "conc,rate,state\n0.02,76,treated\n0.02,47,treated\n0.06,97,treated\n0.06,107,treated\n0.11,123,treated\n0.11,139,treated\n0.22,159,treated\n0.22,152,treated\n0.56,191,treated\n0.56,201,treated\n1.1,207,treated\n1.1,200,treated\n0.02,67,untreated\n0.02,51,untreated\n0.06,84,untreated\n0.06,86,untreated\n0.11,98,untreated\n0.11,115,untreated\n0.22,131,untreated\n0.22,124,untreated\n0.56,144,untreated\n0.56,158,untreated\n1.1,160,untreated\n",
+        "title": "Recorded Puromycin enzyme-reaction data"
+      }
+    ],
+    "methodology": "Read the supplied source excerpts and measurement tables. Check any arithmetic directly from the observations. Evaluate only the exact proposed claim; distinguish a failure of evidence from a contradiction.",
+    "public_id": "svb-68536bb7a951",
+    "question": "What epistemic status does the supplied evidence justify for this exact claim? Distinguish measured observations, calculations, assumptions, and stronger scientific interpretations."
+  },
+  {
+    "assumptions": [
+      "Read the result as a reported held-out within-study classification result, not independently reproduced model performance."
+    ],
+    "claim": "The reported held-out accuracy establishes 88.64%classification accuracy for any future penguin population, species and seasonal stage.",
+    "documents": [
+      {
+        "id": "PG-METHOD",
+        "source_id": "penguins",
+        "text": "Gorman, Williams and Fraser (2014), PLOS ONE 9:e 90081, DOI10.1371/journal.pone.0090081, and Palmer LTER dataset excerpts. Adult penguins were sampled at nests near Palmer Station during 2007–2009; raw Stage values are Adult, 1 Egg Stage. Body Mass (g), Species, Sex, Island and studyName are recorded fields. This is an observational breeding-season sample. Missing values are NA. The paper states body mass results are relevant to the egg-laying period and should not be considered representative of chick rearing or outside the breeding season.",
+        "title": "Palmer observational sampling and measurement context"
+      },
+      {
+        "id": "PG-HOLDOUT",
+        "source_id": "penguins_article",
+        "text": "Gorman etal.(2014) Results, Sex classification, states: \"all supported models accurately predicted sex for 39 out of 44 individuals (88.64%, Table 1)\" for Adélie penguins at probability threshold 0.50. Methods states that structural-size models were developed using a randomly chosen two-thirds subset and assessed on a one-third subset not included in developing the models. Reported denominators are 44 Adélie, 18 chinstrap and 38 gentoo; the outcome is classification of sex in the study population, not disease, survival or clinical efficacy. Excerpt numerals are normalized with spacing; see archived primary article for the exact typography.",
+        "title": "Primary article held-out classification result"
+      }
+    ],
+    "methodology": "Read the supplied source excerpts and measurement tables. Check any arithmetic directly from the observations. Evaluate only the exact proposed claim; distinguish a failure of evidence from a contradiction.",
+    "public_id": "svb-32373c3aa3a1",
+    "question": "What epistemic status does the supplied evidence justify for this exact claim? Distinguish measured observations, calculations, assumptions, and stronger scientific interpretations."
+  },
+  {
+    "assumptions": [
+      "Count Plant identifiers and concentration observations separately."
+    ],
+    "claim": "The table has 12 distinct Plant identifiers and 84 rows, with seven recorded concentrations per plant.",
+    "documents": [
+      {
+        "id": "CO-METHOD",
+        "source_id": "grass_co2",
+        "text": "R datasets CO2:84 observations from 12 grass plants (Echinochloa crus-galli), six from Quebec and six from Mississippi. Each plant was measured at seven recorded ambient concentration levels 95, 175, 250, 350, 500, 675, 1000. Half the plants of each origin were chilled overnight. Plant is the experimental-unit identifier; successive concentrations are repeated observations of that plant. Uptake is documented in micromol per square metre per second. The R manual labels ambient concentration mL/L; the numeric source scale is preserved in this table. Source Potvin, Lechowicz and Tardif (1990), curated R transcription, formerly nlme.",
+        "title": "R documentation of cold-tolerance experiment"
+      },
+      {
+        "id": "CO-DATA",
+        "source_id": "grass_co2",
+        "text": "Plant,Type,Treatment,conc,uptake\nQn1,Quebec,nonchilled,95,16\nQn1,Quebec,nonchilled,175,30.4\nQn1,Quebec,nonchilled,250,34.8\nQn1,Quebec,nonchilled,350,37.2\nQn1,Quebec,nonchilled,500,35.3\nQn1,Quebec,nonchilled,675,39.2\nQn1,Quebec,nonchilled,1000,39.7\nQn2,Quebec,nonchilled,95,13.6\nQn2,Quebec,nonchilled,175,27.3\nQn2,Quebec,nonchilled,250,37.1\nQn2,Quebec,nonchilled,350,41.8\nQn2,Quebec,nonchilled,500,40.6\nQn2,Quebec,nonchilled,675,41.4\nQn2,Quebec,nonchilled,1000,44.3\nQn3,Quebec,nonchilled,95,16.2\nQn3,Quebec,nonchilled,175,32.4\nQn3,Quebec,nonchilled,250,40.3\nQn3,Quebec,nonchilled,350,42.1\nQn3,Quebec,nonchilled,500,42.9\nQn3,Quebec,nonchilled,675,43.9\nQn3,Quebec,nonchilled,1000,45.5\nQc1,Quebec,chilled,95,14.2\nQc1,Quebec,chilled,175,24.1\nQc1,Quebec,chilled,250,30.3\nQc1,Quebec,chilled,350,34.6\nQc1,Quebec,chilled,500,32.5\nQc1,Quebec,chilled,675,35.4\nQc1,Quebec,chilled,1000,38.7\nQc2,Quebec,chilled,95,9.3\nQc2,Quebec,chilled,175,27.3\nQc2,Quebec,chilled,250,35\nQc2,Quebec,chilled,350,38.8\nQc2,Quebec,chilled,500,38.6\nQc2,Quebec,chilled,675,37.5\nQc2,Quebec,chilled,1000,42.4\nQc3,Quebec,chilled,95,15.1\nQc3,Quebec,chilled,175,21\nQc3,Quebec,chilled,250,38.1\nQc3,Quebec,chilled,350,34\nQc3,Quebec,chilled,500,38.9\nQc3,Quebec,chilled,675,39.6\nQc3,Quebec,chilled,1000,41.4\nMn1,Mississippi,nonchilled,95,10.6\nMn1,Mississippi,nonchilled,175,19.2\nMn1,Mississippi,nonchilled,250,26.2\nMn1,Mississippi,nonchilled,350,30\nMn1,Mississippi,nonchilled,500,30.9\nMn1,Mississippi,nonchilled,675,32.4\nMn1,Mississippi,nonchilled,1000,35.5\nMn2,Mississippi,nonchilled,95,12\nMn2,Mississippi,nonchilled,175,22\nMn2,Mississippi,nonchilled,250,30.6\nMn2,Mississippi,nonchilled,350,31.8\nMn2,Mississippi,nonchilled,500,32.4\nMn2,Mississippi,nonchilled,675,31.1\nMn2,Mississippi,nonchilled,1000,31.5\nMn3,Mississippi,nonchilled,95,11.3\nMn3,Mississippi,nonchilled,175,19.4\nMn3,Mississippi,nonchilled,250,25.8\nMn3,Mississippi,nonchilled,350,27.9\nMn3,Mississippi,nonchilled,500,28.5\nMn3,Mississippi,nonchilled,675,28.1\nMn3,Mississippi,nonchilled,1000,27.8\nMc1,Mississippi,chilled,95,10.5\nMc1,Mississippi,chilled,175,14.9\nMc1,Mississippi,chilled,250,18.1\nMc1,Mississippi,chilled,350,18.9\nMc1,Mississippi,chilled,500,19.5\nMc1,Mississippi,chilled,675,22.2\nMc1,Mississippi,chilled,1000,21.9\nMc2,Mississippi,chilled,95,7.7\nMc2,Mississippi,chilled,175,11.4\nMc2,Mississippi,chilled,250,12.3\nMc2,Mississippi,chilled,350,13\nMc2,Mississippi,chilled,500,12.5\nMc2,Mississippi,chilled,675,13.7\nMc2,Mississippi,chilled,1000,14.4\nMc3,Mississippi,chilled,95,10.6\nMc3,Mississippi,chilled,175,18\nMc3,Mississippi,chilled,250,17.9\nMc3,Mississippi,chilled,350,17.9\nMc3,Mississippi,chilled,500,17.9\nMc3,Mississippi,chilled,675,18.9\nMc3,Mississippi,chilled,1000,19.9\n",
+        "title": "Recorded grass-plant CO2 uptake data"
+      }
+    ],
+    "methodology": "Read the supplied source excerpts and measurement tables. Check any arithmetic directly from the observations. Evaluate only the exact proposed claim; distinguish a failure of evidence from a contradiction.",
+    "public_id": "svb-9f33c4663a5d",
+    "question": "What epistemic status does the supplied evidence justify for this exact claim? Distinguish measured observations, calculations, assumptions, and stronger scientific interpretations."
+  },
+  {
+    "assumptions": [],
+    "claim": "For the three Mississippi plants in each condition at concentration code 1000, the chilled mean recorded uptake is greater than the nonchilled mean.",
+    "documents": [
+      {
+        "id": "CO-METHOD",
+        "source_id": "grass_co2",
+        "text": "R datasets CO2:84 observations from 12 grass plants (Echinochloa crus-galli), six from Quebec and six from Mississippi. Each plant was measured at seven recorded ambient concentration levels 95, 175, 250, 350, 500, 675, 1000. Half the plants of each origin were chilled overnight. Plant is the experimental-unit identifier; successive concentrations are repeated observations of that plant. Uptake is documented in micromol per square metre per second. The R manual labels ambient concentration mL/L; the numeric source scale is preserved in this table. Source Potvin, Lechowicz and Tardif (1990), curated R transcription, formerly nlme.",
+        "title": "R documentation of cold-tolerance experiment"
+      },
+      {
+        "id": "CO-DATA",
+        "source_id": "grass_co2",
+        "text": "Plant,Type,Treatment,conc,uptake\nQn1,Quebec,nonchilled,95,16\nQn1,Quebec,nonchilled,175,30.4\nQn1,Quebec,nonchilled,250,34.8\nQn1,Quebec,nonchilled,350,37.2\nQn1,Quebec,nonchilled,500,35.3\nQn1,Quebec,nonchilled,675,39.2\nQn1,Quebec,nonchilled,1000,39.7\nQn2,Quebec,nonchilled,95,13.6\nQn2,Quebec,nonchilled,175,27.3\nQn2,Quebec,nonchilled,250,37.1\nQn2,Quebec,nonchilled,350,41.8\nQn2,Quebec,nonchilled,500,40.6\nQn2,Quebec,nonchilled,675,41.4\nQn2,Quebec,nonchilled,1000,44.3\nQn3,Quebec,nonchilled,95,16.2\nQn3,Quebec,nonchilled,175,32.4\nQn3,Quebec,nonchilled,250,40.3\nQn3,Quebec,nonchilled,350,42.1\nQn3,Quebec,nonchilled,500,42.9\nQn3,Quebec,nonchilled,675,43.9\nQn3,Quebec,nonchilled,1000,45.5\nQc1,Quebec,chilled,95,14.2\nQc1,Quebec,chilled,175,24.1\nQc1,Quebec,chilled,250,30.3\nQc1,Quebec,chilled,350,34.6\nQc1,Quebec,chilled,500,32.5\nQc1,Quebec,chilled,675,35.4\nQc1,Quebec,chilled,1000,38.7\nQc2,Quebec,chilled,95,9.3\nQc2,Quebec,chilled,175,27.3\nQc2,Quebec,chilled,250,35\nQc2,Quebec,chilled,350,38.8\nQc2,Quebec,chilled,500,38.6\nQc2,Quebec,chilled,675,37.5\nQc2,Quebec,chilled,1000,42.4\nQc3,Quebec,chilled,95,15.1\nQc3,Quebec,chilled,175,21\nQc3,Quebec,chilled,250,38.1\nQc3,Quebec,chilled,350,34\nQc3,Quebec,chilled,500,38.9\nQc3,Quebec,chilled,675,39.6\nQc3,Quebec,chilled,1000,41.4\nMn1,Mississippi,nonchilled,95,10.6\nMn1,Mississippi,nonchilled,175,19.2\nMn1,Mississippi,nonchilled,250,26.2\nMn1,Mississippi,nonchilled,350,30\nMn1,Mississippi,nonchilled,500,30.9\nMn1,Mississippi,nonchilled,675,32.4\nMn1,Mississippi,nonchilled,1000,35.5\nMn2,Mississippi,nonchilled,95,12\nMn2,Mississippi,nonchilled,175,22\nMn2,Mississippi,nonchilled,250,30.6\nMn2,Mississippi,nonchilled,350,31.8\nMn2,Mississippi,nonchilled,500,32.4\nMn2,Mississippi,nonchilled,675,31.1\nMn2,Mississippi,nonchilled,1000,31.5\nMn3,Mississippi,nonchilled,95,11.3\nMn3,Mississippi,nonchilled,175,19.4\nMn3,Mississippi,nonchilled,250,25.8\nMn3,Mississippi,nonchilled,350,27.9\nMn3,Mississippi,nonchilled,500,28.5\nMn3,Mississippi,nonchilled,675,28.1\nMn3,Mississippi,nonchilled,1000,27.8\nMc1,Mississippi,chilled,95,10.5\nMc1,Mississippi,chilled,175,14.9\nMc1,Mississippi,chilled,250,18.1\nMc1,Mississippi,chilled,350,18.9\nMc1,Mississippi,chilled,500,19.5\nMc1,Mississippi,chilled,675,22.2\nMc1,Mississippi,chilled,1000,21.9\nMc2,Mississippi,chilled,95,7.7\nMc2,Mississippi,chilled,175,11.4\nMc2,Mississippi,chilled,250,12.3\nMc2,Mississippi,chilled,350,13\nMc2,Mississippi,chilled,500,12.5\nMc2,Mississippi,chilled,675,13.7\nMc2,Mississippi,chilled,1000,14.4\nMc3,Mississippi,chilled,95,10.6\nMc3,Mississippi,chilled,175,18\nMc3,Mississippi,chilled,250,17.9\nMc3,Mississippi,chilled,350,17.9\nMc3,Mississippi,chilled,500,17.9\nMc3,Mississippi,chilled,675,18.9\nMc3,Mississippi,chilled,1000,19.9\n",
+        "title": "Recorded grass-plant CO2 uptake data"
+      }
+    ],
+    "methodology": "Read the supplied source excerpts and measurement tables. Check any arithmetic directly from the observations. Evaluate only the exact proposed claim; distinguish a failure of evidence from a contradiction.",
+    "public_id": "svb-1ebab3b83fb1",
+    "question": "What epistemic status does the supplied evidence justify for this exact claim? Distinguish measured observations, calculations, assumptions, and stronger scientific interpretations."
+  },
+  {
+    "assumptions": [
+      "Compare treated means at the two stated concentrations; do not fit a model or infer molecular mechanisms."
+    ],
+    "claim": "For treated observations, increasing substrate from 0.02 to 1.1 ppm increases the recorded mean rate by less than the 55-fold increase in concentration.",
+    "documents": [
+      {
+        "id": "PU-METHOD",
+        "source_id": "puromycin",
+        "text": "R datasets Puromycin documents substrate concentration in ppm and instantaneous reaction rate in counts/min/min. It says counts per minute of radioactive product were measured as a function of substrate concentration, then initial reaction velocity was calculated. The experiment was conducted once with enzyme treated with Puromycin and once untreated. There are 23 rows. Source: Treloar (1974), as reproduced in Bates and Watts (1988), AppendixA 1.3; curated R source transcription.",
+        "title": "R source documentation of enzyme experiment"
+      },
+      {
+        "id": "PU-DATA",
+        "source_id": "puromycin",
+        "text": "conc,rate,state\n0.02,76,treated\n0.02,47,treated\n0.06,97,treated\n0.06,107,treated\n0.11,123,treated\n0.11,139,treated\n0.22,159,treated\n0.22,152,treated\n0.56,191,treated\n0.56,201,treated\n1.1,207,treated\n1.1,200,treated\n0.02,67,untreated\n0.02,51,untreated\n0.06,84,untreated\n0.06,86,untreated\n0.11,98,untreated\n0.11,115,untreated\n0.22,131,untreated\n0.22,124,untreated\n0.56,144,untreated\n0.56,158,untreated\n1.1,160,untreated\n",
+        "title": "Recorded Puromycin enzyme-reaction data"
+      }
+    ],
+    "methodology": "Read the supplied source excerpts and measurement tables. Check any arithmetic directly from the observations. Evaluate only the exact proposed claim; distinguish a failure of evidence from a contradiction.",
+    "public_id": "svb-6bb569d5ba7e",
+    "question": "What epistemic status does the supplied evidence justify for this exact claim? Distinguish measured observations, calculations, assumptions, and stronger scientific interpretations."
+  },
+  {
+    "assumptions": [
+      "Read the result as a reported held-out within-study classification result, not independently reproduced model performance."
+    ],
+    "claim": "The primary article reports 39 correct classifications out of 44 held-out Adélie individuals, approximately 88.64%, under its stated sex-classification procedure.",
+    "documents": [
+      {
+        "id": "PG-METHOD",
+        "source_id": "penguins",
+        "text": "Gorman, Williams and Fraser (2014), PLOS ONE 9:e 90081, DOI10.1371/journal.pone.0090081, and Palmer LTER dataset excerpts. Adult penguins were sampled at nests near Palmer Station during 2007–2009; raw Stage values are Adult, 1 Egg Stage. Body Mass (g), Species, Sex, Island and studyName are recorded fields. This is an observational breeding-season sample. Missing values are NA. The paper states body mass results are relevant to the egg-laying period and should not be considered representative of chick rearing or outside the breeding season.",
+        "title": "Palmer observational sampling and measurement context"
+      },
+      {
+        "id": "PG-HOLDOUT",
+        "source_id": "penguins_article",
+        "text": "Gorman etal.(2014) Results, Sex classification, states: \"all supported models accurately predicted sex for 39 out of 44 individuals (88.64%, Table 1)\" for Adélie penguins at probability threshold 0.50. Methods states that structural-size models were developed using a randomly chosen two-thirds subset and assessed on a one-third subset not included in developing the models. Reported denominators are 44 Adélie, 18 chinstrap and 38 gentoo; the outcome is classification of sex in the study population, not disease, survival or clinical efficacy. Excerpt numerals are normalized with spacing; see archived primary article for the exact typography.",
+        "title": "Primary article held-out classification result"
+      }
+    ],
+    "methodology": "Read the supplied source excerpts and measurement tables. Check any arithmetic directly from the observations. Evaluate only the exact proposed claim; distinguish a failure of evidence from a contradiction.",
+    "public_id": "svb-83e39caa2f7a",
+    "question": "What epistemic status does the supplied evidence justify for this exact claim? Distinguish measured observations, calculations, assumptions, and stronger scientific interpretations."
+  },
+  {
+    "assumptions": [
+      "Strings identify records only as documented; do not assume identifier stability across studies."
+    ],
+    "claim": "Repeated Individual ID strings across studies establish that these are repeated measurements of the same animals and allow individual growth rates to be inferred.",
+    "documents": [
+      {
+        "id": "PG-METHOD",
+        "source_id": "penguins",
+        "text": "Gorman, Williams and Fraser (2014), PLOS ONE 9:e 90081, DOI10.1371/journal.pone.0090081, and Palmer LTER dataset excerpts. Adult penguins were sampled at nests near Palmer Station during 2007–2009; raw Stage values are Adult, 1 Egg Stage. Body Mass (g), Species, Sex, Island and studyName are recorded fields. This is an observational breeding-season sample. Missing values are NA. The paper states body mass results are relevant to the egg-laying period and should not be considered representative of chick rearing or outside the breeding season.",
+        "title": "Palmer observational sampling and measurement context"
+      },
+      {
+        "id": "PG-ID",
+        "source_id": "penguins",
+        "text": "studyName,Individual ID\nPAL0708,N1A1\nPAL0708,N1A2\nPAL0708,N2A1\nPAL0708,N2A2\nPAL0708,N3A1\nPAL0708,N3A2\nPAL0708,N4A1\nPAL0708,N4A2\nPAL0708,N5A1\nPAL0708,N5A2\nPAL0708,N6A1\nPAL0708,N6A2\nPAL0708,N7A1\nPAL0708,N7A2\nPAL0708,N8A1\nPAL0708,N8A2\nPAL0708,N9A1\nPAL0708,N9A2\nPAL0708,N10A1\nPAL0708,N10A2\nPAL0708,N11A1\nPAL0708,N11A2\nPAL0708,N12A1\nPAL0708,N12A2\nPAL0708,N13A1\nPAL0708,N13A2\nPAL0708,N17A1\nPAL0708,N17A2\nPAL0708,N18A1\nPAL0708,N18A2\nPAL0708,N21A1\nPAL0708,N21A2\nPAL0708,N22A1\nPAL0708,N22A2\nPAL0708,N23A1\nPAL0708,N23A2\nPAL0708,N24A1\nPAL0708,N24A2\nPAL0708,N25A1\nPAL0708,N25A2\nPAL0708,N26A1\nPAL0708,N26A2\nPAL0708,N27A1\nPAL0708,N27A2\nPAL0708,N28A1\nPAL0708,N28A2\nPAL0708,N29A1\nPAL0708,N29A2\nPAL0708,N30A1\nPAL0708,N30A2\nPAL0809,N21A1\nPAL0809,N21A2\nPAL0809,N22A1\nPAL0809,N22A2\nPAL0809,N23A1\nPAL0809,N23A2\nPAL0809,N24A1\nPAL0809,N24A2\nPAL0809,N25A1\nPAL0809,N25A2\nPAL0809,N27A1\nPAL0809,N27A2\nPAL0809,N28A1\nPAL0809,N28A2\nPAL0809,N29A1\nPAL0809,N29A2\nPAL0809,N30A1\nPAL0809,N30A2\nPAL0809,N32A1\nPAL0809,N32A2\nPAL0809,N34A1\nPAL0809,N34A2\nPAL0809,N35A1\nPAL0809,N35A2\nPAL0809,N36A1\nPAL0809,N36A2\nPAL0809,N37A1\nPAL0809,N37A2\nPAL0809,N38A1\nPAL0809,N38A2\nPAL0809,N39A1\nPAL0809,N39A2\nPAL0809,N40A1\nPAL0809,N40A2\nPAL0809,N41A1\nPAL0809,N41A2\nPAL0809,N42A1\nPAL0809,N42A2\nPAL0809,N44A1\nPAL0809,N44A2\nPAL0809,N45A1\nPAL0809,N45A2\nPAL0809,N46A1\nPAL0809,N46A2\nPAL0809,N48A1\nPAL0809,N48A2\nPAL0809,N49A1\nPAL0809,N49A2\nPAL0809,N50A1\nPAL0809,N50A2\nPAL0910,N47A1\nPAL0910,N47A2\nPAL0910,N49A1\nPAL0910,N49A2\nPAL0910,N51A1\nPAL0910,N51A2\nPAL0910,N53A1\nPAL0910,N53A2\nPAL0910,N55A1\nPAL0910,N55A2\nPAL0910,N58A1\nPAL0910,N58A2\nPAL0910,N60A1\nPAL0910,N60A2\nPAL0910,N61A1\nPAL0910,N61A2\nPAL0910,N63A1\nPAL0910,N63A2\nPAL0910,N64A1\nPAL0910,N64A2\nPAL0910,N66A1\nPAL0910,N66A2\nPAL0910,N67A1\nPAL0910,N67A2\nPAL0910,N69A1\nPAL0910,N69A2\nPAL0910,N71A1\nPAL0910,N71A2\nPAL0910,N72A1\nPAL0910,N72A2\nPAL0910,N73A1\nPAL0910,N73A2\nPAL0910,N76A1\nPAL0910,N76A2\nPAL0910,N77A1\nPAL0910,N77A2\nPAL0910,N78A1\nPAL0910,N78A2\nPAL0910,N79A1\nPAL0910,N79A2\nPAL0910,N80A1\nPAL0910,N80A2\nPAL0910,N81A1\nPAL0910,N81A2\nPAL0910,N82A1\nPAL0910,N82A2\nPAL0910,N83A1\nPAL0910,N83A2\nPAL0910,N84A1\nPAL0910,N84A2\nPAL0910,N85A1\nPAL0910,N85A2\nPAL0708,N31A1\nPAL0708,N31A2\nPAL0708,N32A1\nPAL0708,N32A2\nPAL0708,N33A1\nPAL0708,N33A2\nPAL0708,N34A1\nPAL0708,N34A2\nPAL0708,N35A1\nPAL0708,N35A2\nPAL0708,N36A1\nPAL0708,N36A2\nPAL0708,N37A1\nPAL0708,N37A2\nPAL0708,N38A1\nPAL0708,N38A2\nPAL0708,N39A1\nPAL0708,N39A2\nPAL0708,N40A1\nPAL0708,N40A2\nPAL0708,N41A1\nPAL0708,N41A2\nPAL0708,N42A1\nPAL0708,N42A2\nPAL0708,N44A1\nPAL0708,N44A2\nPAL0708,N46A1\nPAL0708,N46A2\nPAL0708,N47A1\nPAL0708,N47A2\nPAL0708,N50A1\nPAL0708,N50A2\nPAL0708,N56A1\nPAL0708,N56A2\nPAL0809,N2A1\nPAL0809,N2A2\nPAL0809,N4A1\nPAL0809,N4A2\nPAL0809,N5A1\nPAL0809,N5A2\nPAL0809,N6A1\nPAL0809,N6A2\nPAL0809,N7A1\nPAL0809,N7A2\nPAL0809,N8A1\nPAL0809,N8A2\nPAL0809,N11A1\nPAL0809,N11A2\nPAL0809,N12A1\nPAL0809,N12A2\nPAL0809,N13A1\nPAL0809,N13A2\nPAL0809,N14A1\nPAL0809,N14A2\nPAL0809,N15A1\nPAL0809,N15A2\nPAL0809,N16A1\nPAL0809,N16A2\nPAL0809,N17A1\nPAL0809,N17A2\nPAL0809,N18A1\nPAL0809,N18A2\nPAL0809,N19A1\nPAL0809,N19A2\nPAL0809,N20A1\nPAL0809,N20A2\nPAL0809,N51A1\nPAL0809,N51A2\nPAL0809,N53A1\nPAL0809,N53A2\nPAL0809,N54A1\nPAL0809,N54A2\nPAL0809,N55A1\nPAL0809,N55A2\nPAL0809,N56A1\nPAL0809,N56A2\nPAL0809,N58A1\nPAL0809,N58A2\nPAL0809,N60A1\nPAL0809,N60A2\nPAL0910,N1A1\nPAL0910,N1A2\nPAL0910,N6A1\nPAL0910,N6A2\nPAL0910,N8A1\nPAL0910,N8A2\nPAL0910,N13A1\nPAL0910,N13A2\nPAL0910,N14A1\nPAL0910,N14A2\nPAL0910,N15A1\nPAL0910,N15A2\nPAL0910,N18A1\nPAL0910,N18A2\nPAL0910,N19A1\nPAL0910,N19A2\nPAL0910,N20A1\nPAL0910,N20A2\nPAL0910,N21A1\nPAL0910,N21A2\nPAL0910,N22A1\nPAL0910,N22A2\nPAL0910,N23A1\nPAL0910,N23A2\nPAL0910,N24A1\nPAL0910,N24A2\nPAL0910,N28A1\nPAL0910,N28A2\nPAL0910,N29A1\nPAL0910,N29A2\nPAL0910,N32A1\nPAL0910,N32A2\nPAL0910,N34A1\nPAL0910,N34A2\nPAL0910,N35A1\nPAL0910,N35A2\nPAL0910,N36A1\nPAL0910,N36A2\nPAL0910,N38A1\nPAL0910,N38A2\nPAL0910,N39A1\nPAL0910,N39A2\nPAL0910,N43A1\nPAL0910,N43A2\nPAL0708,N61A1\nPAL0708,N61A2\nPAL0708,N62A1\nPAL0708,N62A2\nPAL0708,N64A1\nPAL0708,N64A2\nPAL0708,N66A1\nPAL0708,N66A2\nPAL0708,N67A1\nPAL0708,N67A2\nPAL0708,N68A1\nPAL0708,N68A2\nPAL0708,N69A1\nPAL0708,N69A2\nPAL0708,N70A1\nPAL0708,N70A2\nPAL0708,N71A1\nPAL0708,N71A2\nPAL0708,N72A1\nPAL0708,N72A2\nPAL0708,N73A1\nPAL0708,N73A2\nPAL0708,N85A1\nPAL0708,N85A2\nPAL0708,N89A1\nPAL0708,N89A2\nPAL0809,N61A1\nPAL0809,N61A2\nPAL0809,N62A1\nPAL0809,N62A2\nPAL0809,N63A1\nPAL0809,N63A2\nPAL0809,N65A1\nPAL0809,N65A2\nPAL0809,N67A1\nPAL0809,N67A2\nPAL0809,N69A1\nPAL0809,N69A2\nPAL0809,N72A1\nPAL0809,N72A2\nPAL0809,N74A1\nPAL0809,N74A2\nPAL0809,N75A1\nPAL0809,N75A2\nPAL0910,N86A1\nPAL0910,N86A2\nPAL0910,N87A1\nPAL0910,N87A2\nPAL0910,N88A1\nPAL0910,N88A2\nPAL0910,N90A1\nPAL0910,N90A2\nPAL0910,N92A1\nPAL0910,N92A2\nPAL0910,N93A1\nPAL0910,N93A2\nPAL0910,N94A1\nPAL0910,N94A2\nPAL0910,N95A1\nPAL0910,N95A2\nPAL0910,N96A1\nPAL0910,N96A2\nPAL0910,N98A1\nPAL0910,N98A2\nPAL0910,N99A1\nPAL0910,N99A2\nPAL0910,N100A1\nPAL0910,N100A2\n",
+        "title": "Raw study and individual identifiers"
+      }
+    ],
+    "methodology": "Read the supplied source excerpts and measurement tables. Check any arithmetic directly from the observations. Evaluate only the exact proposed claim; distinguish a failure of evidence from a contradiction.",
+    "public_id": "svb-364092826c52",
+    "question": "What epistemic status does the supplied evidence justify for this exact claim? Distinguish measured observations, calculations, assumptions, and stronger scientific interpretations."
+  },
+  {
+    "assumptions": [
+      "Use nonmissing recorded body masses and the arithmetic mean; do not impute NA."
+    ],
+    "claim": "The observed species difference proves that moving an Adélie penguin to Biscoe Island would cause its mass to become that of a Gentoo penguin.",
+    "documents": [
+      {
+        "id": "PG-METHOD",
+        "source_id": "penguins",
+        "text": "Gorman, Williams and Fraser (2014), PLOS ONE 9:e 90081, DOI10.1371/journal.pone.0090081, and Palmer LTER dataset excerpts. Adult penguins were sampled at nests near Palmer Station during 2007–2009; raw Stage values are Adult, 1 Egg Stage. Body Mass (g), Species, Sex, Island and studyName are recorded fields. This is an observational breeding-season sample. Missing values are NA. The paper states body mass results are relevant to the egg-laying period and should not be considered representative of chick rearing or outside the breeding season.",
+        "title": "Palmer observational sampling and measurement context"
+      },
+      {
+        "id": "PG-MASS",
+        "source_id": "penguins",
+        "text": "Species,Body Mass (g)\nAdelie Penguin (Pygoscelis adeliae),3750\nAdelie Penguin (Pygoscelis adeliae),3800\nAdelie Penguin (Pygoscelis adeliae),3250\nAdelie Penguin (Pygoscelis adeliae),NA\nAdelie Penguin (Pygoscelis adeliae),3450\nAdelie Penguin (Pygoscelis adeliae),3650\nAdelie Penguin (Pygoscelis adeliae),3625\nAdelie Penguin (Pygoscelis adeliae),4675\nAdelie Penguin (Pygoscelis adeliae),3475\nAdelie Penguin (Pygoscelis adeliae),4250\nAdelie Penguin (Pygoscelis adeliae),3300\nAdelie Penguin (Pygoscelis adeliae),3700\nAdelie Penguin (Pygoscelis adeliae),3200\nAdelie Penguin (Pygoscelis adeliae),3800\nAdelie Penguin (Pygoscelis adeliae),4400\nAdelie Penguin (Pygoscelis adeliae),3700\nAdelie Penguin (Pygoscelis adeliae),3450\nAdelie Penguin (Pygoscelis adeliae),4500\nAdelie Penguin (Pygoscelis adeliae),3325\nAdelie Penguin (Pygoscelis adeliae),4200\nAdelie Penguin (Pygoscelis adeliae),3400\nAdelie Penguin (Pygoscelis adeliae),3600\nAdelie Penguin (Pygoscelis adeliae),3800\nAdelie Penguin (Pygoscelis adeliae),3950\nAdelie Penguin (Pygoscelis adeliae),3800\nAdelie Penguin (Pygoscelis adeliae),3800\nAdelie Penguin (Pygoscelis adeliae),3550\nAdelie Penguin (Pygoscelis adeliae),3200\nAdelie Penguin (Pygoscelis adeliae),3150\nAdelie Penguin (Pygoscelis adeliae),3950\nAdelie Penguin (Pygoscelis adeliae),3250\nAdelie Penguin (Pygoscelis adeliae),3900\nAdelie Penguin (Pygoscelis adeliae),3300\nAdelie Penguin (Pygoscelis adeliae),3900\nAdelie Penguin (Pygoscelis adeliae),3325\nAdelie Penguin (Pygoscelis adeliae),4150\nAdelie Penguin (Pygoscelis adeliae),3950\nAdelie Penguin (Pygoscelis adeliae),3550\nAdelie Penguin (Pygoscelis adeliae),3300\nAdelie Penguin (Pygoscelis adeliae),4650\nAdelie Penguin (Pygoscelis adeliae),3150\nAdelie Penguin (Pygoscelis adeliae),3900\nAdelie Penguin (Pygoscelis adeliae),3100\nAdelie Penguin (Pygoscelis adeliae),4400\nAdelie Penguin (Pygoscelis adeliae),3000\nAdelie Penguin (Pygoscelis adeliae),4600\nAdelie Penguin (Pygoscelis adeliae),3425\nAdelie Penguin (Pygoscelis adeliae),2975\nAdelie Penguin (Pygoscelis adeliae),3450\nAdelie Penguin (Pygoscelis adeliae),4150\nAdelie Penguin (Pygoscelis adeliae),3500\nAdelie Penguin (Pygoscelis adeliae),4300\nAdelie Penguin (Pygoscelis adeliae),3450\nAdelie Penguin (Pygoscelis adeliae),4050\nAdelie Penguin (Pygoscelis adeliae),2900\nAdelie Penguin (Pygoscelis adeliae),3700\nAdelie Penguin (Pygoscelis adeliae),3550\nAdelie Penguin (Pygoscelis adeliae),3800\nAdelie Penguin (Pygoscelis adeliae),2850\nAdelie Penguin (Pygoscelis adeliae),3750\nAdelie Penguin (Pygoscelis adeliae),3150\nAdelie Penguin (Pygoscelis adeliae),4400\nAdelie Penguin (Pygoscelis adeliae),3600\nAdelie Penguin (Pygoscelis adeliae),4050\nAdelie Penguin (Pygoscelis adeliae),2850\nAdelie Penguin (Pygoscelis adeliae),3950\nAdelie Penguin (Pygoscelis adeliae),3350\nAdelie Penguin (Pygoscelis adeliae),4100\nAdelie Penguin (Pygoscelis adeliae),3050\nAdelie Penguin (Pygoscelis adeliae),4450\nAdelie Penguin (Pygoscelis adeliae),3600\nAdelie Penguin (Pygoscelis adeliae),3900\nAdelie Penguin (Pygoscelis adeliae),3550\nAdelie Penguin (Pygoscelis adeliae),4150\nAdelie Penguin (Pygoscelis adeliae),3700\nAdelie Penguin (Pygoscelis adeliae),4250\nAdelie Penguin (Pygoscelis adeliae),3700\nAdelie Penguin (Pygoscelis adeliae),3900\nAdelie Penguin (Pygoscelis adeliae),3550\nAdelie Penguin (Pygoscelis adeliae),4000\nAdelie Penguin (Pygoscelis adeliae),3200\nAdelie Penguin (Pygoscelis adeliae),4700\nAdelie Penguin (Pygoscelis adeliae),3800\nAdelie Penguin (Pygoscelis adeliae),4200\nAdelie Penguin (Pygoscelis adeliae),3350\nAdelie Penguin (Pygoscelis adeliae),3550\nAdelie Penguin (Pygoscelis adeliae),3800\nAdelie Penguin (Pygoscelis adeliae),3500\nAdelie Penguin (Pygoscelis adeliae),3950\nAdelie Penguin (Pygoscelis adeliae),3600\nAdelie Penguin (Pygoscelis adeliae),3550\nAdelie Penguin (Pygoscelis adeliae),4300\nAdelie Penguin (Pygoscelis adeliae),3400\nAdelie Penguin (Pygoscelis adeliae),4450\nAdelie Penguin (Pygoscelis adeliae),3300\nAdelie Penguin (Pygoscelis adeliae),4300\nAdelie Penguin (Pygoscelis adeliae),3700\nAdelie Penguin (Pygoscelis adeliae),4350\nAdelie Penguin (Pygoscelis adeliae),2900\nAdelie Penguin (Pygoscelis adeliae),4100\nAdelie Penguin (Pygoscelis adeliae),3725\nAdelie Penguin (Pygoscelis adeliae),4725\nAdelie Penguin (Pygoscelis adeliae),3075\nAdelie Penguin (Pygoscelis adeliae),4250\nAdelie Penguin (Pygoscelis adeliae),2925\nAdelie Penguin (Pygoscelis adeliae),3550\nAdelie Penguin (Pygoscelis adeliae),3750\nAdelie Penguin (Pygoscelis adeliae),3900\nAdelie Penguin (Pygoscelis adeliae),3175\nAdelie Penguin (Pygoscelis adeliae),4775\nAdelie Penguin (Pygoscelis adeliae),3825\nAdelie Penguin (Pygoscelis adeliae),4600\nAdelie Penguin (Pygoscelis adeliae),3200\nAdelie Penguin (Pygoscelis adeliae),4275\nAdelie Penguin (Pygoscelis adeliae),3900\nAdelie Penguin (Pygoscelis adeliae),4075\nAdelie Penguin (Pygoscelis adeliae),2900\nAdelie Penguin (Pygoscelis adeliae),3775\nAdelie Penguin (Pygoscelis adeliae),3350\nAdelie Penguin (Pygoscelis adeliae),3325\nAdelie Penguin (Pygoscelis adeliae),3150\nAdelie Penguin (Pygoscelis adeliae),3500\nAdelie Penguin (Pygoscelis adeliae),3450\nAdelie Penguin (Pygoscelis adeliae),3875\nAdelie Penguin (Pygoscelis adeliae),3050\nAdelie Penguin (Pygoscelis adeliae),4000\nAdelie Penguin (Pygoscelis adeliae),3275\nAdelie Penguin (Pygoscelis adeliae),4300\nAdelie Penguin (Pygoscelis adeliae),3050\nAdelie Penguin (Pygoscelis adeliae),4000\nAdelie Penguin (Pygoscelis adeliae),3325\nAdelie Penguin (Pygoscelis adeliae),3500\nAdelie Penguin (Pygoscelis adeliae),3500\nAdelie Penguin (Pygoscelis adeliae),4475\nAdelie Penguin (Pygoscelis adeliae),3425\nAdelie Penguin (Pygoscelis adeliae),3900\nAdelie Penguin (Pygoscelis adeliae),3175\nAdelie Penguin (Pygoscelis adeliae),3975\nAdelie Penguin (Pygoscelis adeliae),3400\nAdelie Penguin (Pygoscelis adeliae),4250\nAdelie Penguin (Pygoscelis adeliae),3400\nAdelie Penguin (Pygoscelis adeliae),3475\nAdelie Penguin (Pygoscelis adeliae),3050\nAdelie Penguin (Pygoscelis adeliae),3725\nAdelie Penguin (Pygoscelis adeliae),3000\nAdelie Penguin (Pygoscelis adeliae),3650\nAdelie Penguin (Pygoscelis adeliae),4250\nAdelie Penguin (Pygoscelis adeliae),3475\nAdelie Penguin (Pygoscelis adeliae),3450\nAdelie Penguin (Pygoscelis adeliae),3750\nAdelie Penguin (Pygoscelis adeliae),3700\nAdelie Penguin (Pygoscelis adeliae),4000\nGentoo penguin (Pygoscelis papua),4500\nGentoo penguin (Pygoscelis papua),5700\nGentoo penguin (Pygoscelis papua),4450\nGentoo penguin (Pygoscelis papua),5700\nGentoo penguin (Pygoscelis papua),5400\nGentoo penguin (Pygoscelis papua),4550\nGentoo penguin (Pygoscelis papua),4800\nGentoo penguin (Pygoscelis papua),5200\nGentoo penguin (Pygoscelis papua),4400\nGentoo penguin (Pygoscelis papua),5150\nGentoo penguin (Pygoscelis papua),4650\nGentoo penguin (Pygoscelis papua),5550\nGentoo penguin (Pygoscelis papua),4650\nGentoo penguin (Pygoscelis papua),5850\nGentoo penguin (Pygoscelis papua),4200\nGentoo penguin (Pygoscelis papua),5850\nGentoo penguin (Pygoscelis papua),4150\nGentoo penguin (Pygoscelis papua),6300\nGentoo penguin (Pygoscelis papua),4800\nGentoo penguin (Pygoscelis papua),5350\nGentoo penguin (Pygoscelis papua),5700\nGentoo penguin (Pygoscelis papua),5000\nGentoo penguin (Pygoscelis papua),4400\nGentoo penguin (Pygoscelis papua),5050\nGentoo penguin (Pygoscelis papua),5000\nGentoo penguin (Pygoscelis papua),5100\nGentoo penguin (Pygoscelis papua),4100\nGentoo penguin (Pygoscelis papua),5650\nGentoo penguin (Pygoscelis papua),4600\nGentoo penguin (Pygoscelis papua),5550\nGentoo penguin (Pygoscelis papua),5250\nGentoo penguin (Pygoscelis papua),4700\nGentoo penguin (Pygoscelis papua),5050\nGentoo penguin (Pygoscelis papua),6050\nGentoo penguin (Pygoscelis papua),5150\nGentoo penguin (Pygoscelis papua),5400\nGentoo penguin (Pygoscelis papua),4950\nGentoo penguin (Pygoscelis papua),5250\nGentoo penguin (Pygoscelis papua),4350\nGentoo penguin (Pygoscelis papua),5350\nGentoo penguin (Pygoscelis papua),3950\nGentoo penguin (Pygoscelis papua),5700\nGentoo penguin (Pygoscelis papua),4300\nGentoo penguin (Pygoscelis papua),4750\nGentoo penguin (Pygoscelis papua),5550\nGentoo penguin (Pygoscelis papua),4900\nGentoo penguin (Pygoscelis papua),4200\nGentoo penguin (Pygoscelis papua),5400\nGentoo penguin (Pygoscelis papua),5100\nGentoo penguin (Pygoscelis papua),5300\nGentoo penguin (Pygoscelis papua),4850\nGentoo penguin (Pygoscelis papua),5300\nGentoo penguin (Pygoscelis papua),4400\nGentoo penguin (Pygoscelis papua),5000\nGentoo penguin (Pygoscelis papua),4900\nGentoo penguin (Pygoscelis papua),5050\nGentoo penguin (Pygoscelis papua),4300\nGentoo penguin (Pygoscelis papua),5000\nGentoo penguin (Pygoscelis papua),4450\nGentoo penguin (Pygoscelis papua),5550\nGentoo penguin (Pygoscelis papua),4200\nGentoo penguin (Pygoscelis papua),5300\nGentoo penguin (Pygoscelis papua),4400\nGentoo penguin (Pygoscelis papua),5650\nGentoo penguin (Pygoscelis papua),4700\nGentoo penguin (Pygoscelis papua),5700\nGentoo penguin (Pygoscelis papua),4650\nGentoo penguin (Pygoscelis papua),5800\nGentoo penguin (Pygoscelis papua),4700\nGentoo penguin (Pygoscelis papua),5550\nGentoo penguin (Pygoscelis papua),4750\nGentoo penguin (Pygoscelis papua),5000\nGentoo penguin (Pygoscelis papua),5100\nGentoo penguin (Pygoscelis papua),5200\nGentoo penguin (Pygoscelis papua),4700\nGentoo penguin (Pygoscelis papua),5800\nGentoo penguin (Pygoscelis papua),4600\nGentoo penguin (Pygoscelis papua),6000\nGentoo penguin (Pygoscelis papua),4750\nGentoo penguin (Pygoscelis papua),5950\nGentoo penguin (Pygoscelis papua),4625\nGentoo penguin (Pygoscelis papua),5450\nGentoo penguin (Pygoscelis papua),4725\nGentoo penguin (Pygoscelis papua),5350\nGentoo penguin (Pygoscelis papua),4750\nGentoo penguin (Pygoscelis papua),5600\nGentoo penguin (Pygoscelis papua),4600\nGentoo penguin (Pygoscelis papua),5300\nGentoo penguin (Pygoscelis papua),4875\nGentoo penguin (Pygoscelis papua),5550\nGentoo penguin (Pygoscelis papua),4950\nGentoo penguin (Pygoscelis papua),5400\nGentoo penguin (Pygoscelis papua),4750\nGentoo penguin (Pygoscelis papua),5650\nGentoo penguin (Pygoscelis papua),4850\nGentoo penguin (Pygoscelis papua),5200\nGentoo penguin (Pygoscelis papua),4925\nGentoo penguin (Pygoscelis papua),4875\nGentoo penguin (Pygoscelis papua),4625\nGentoo penguin (Pygoscelis papua),5250\nGentoo penguin (Pygoscelis papua),4850\nGentoo penguin (Pygoscelis papua),5600\nGentoo penguin (Pygoscelis papua),4975\nGentoo penguin (Pygoscelis papua),5500\nGentoo penguin (Pygoscelis papua),4725\nGentoo penguin (Pygoscelis papua),5500\nGentoo penguin (Pygoscelis papua),4700\nGentoo penguin (Pygoscelis papua),5500\nGentoo penguin (Pygoscelis papua),4575\nGentoo penguin (Pygoscelis papua),5500\nGentoo penguin (Pygoscelis papua),5000\nGentoo penguin (Pygoscelis papua),5950\nGentoo penguin (Pygoscelis papua),4650\nGentoo penguin (Pygoscelis papua),5500\nGentoo penguin (Pygoscelis papua),4375\nGentoo penguin (Pygoscelis papua),5850\nGentoo penguin (Pygoscelis papua),4875\nGentoo penguin (Pygoscelis papua),6000\nGentoo penguin (Pygoscelis papua),4925\nGentoo penguin (Pygoscelis papua),NA\nGentoo penguin (Pygoscelis papua),4850\nGentoo penguin (Pygoscelis papua),5750\nGentoo penguin (Pygoscelis papua),5200\nGentoo penguin (Pygoscelis papua),5400\nChinstrap penguin (Pygoscelis antarctica),3500\nChinstrap penguin (Pygoscelis antarctica),3900\nChinstrap penguin (Pygoscelis antarctica),3650\nChinstrap penguin (Pygoscelis antarctica),3525\nChinstrap penguin (Pygoscelis antarctica),3725\nChinstrap penguin (Pygoscelis antarctica),3950\nChinstrap penguin (Pygoscelis antarctica),3250\nChinstrap penguin (Pygoscelis antarctica),3750\nChinstrap penguin (Pygoscelis antarctica),4150\nChinstrap penguin (Pygoscelis antarctica),3700\nChinstrap penguin (Pygoscelis antarctica),3800\nChinstrap penguin (Pygoscelis antarctica),3775\nChinstrap penguin (Pygoscelis antarctica),3700\nChinstrap penguin (Pygoscelis antarctica),4050\nChinstrap penguin (Pygoscelis antarctica),3575\nChinstrap penguin (Pygoscelis antarctica),4050\nChinstrap penguin (Pygoscelis antarctica),3300\nChinstrap penguin (Pygoscelis antarctica),3700\nChinstrap penguin (Pygoscelis antarctica),3450\nChinstrap penguin (Pygoscelis antarctica),4400\nChinstrap penguin (Pygoscelis antarctica),3600\nChinstrap penguin (Pygoscelis antarctica),3400\nChinstrap penguin (Pygoscelis antarctica),2900\nChinstrap penguin (Pygoscelis antarctica),3800\nChinstrap penguin (Pygoscelis antarctica),3300\nChinstrap penguin (Pygoscelis antarctica),4150\nChinstrap penguin (Pygoscelis antarctica),3400\nChinstrap penguin (Pygoscelis antarctica),3800\nChinstrap penguin (Pygoscelis antarctica),3700\nChinstrap penguin (Pygoscelis antarctica),4550\nChinstrap penguin (Pygoscelis antarctica),3200\nChinstrap penguin (Pygoscelis antarctica),4300\nChinstrap penguin (Pygoscelis antarctica),3350\nChinstrap penguin (Pygoscelis antarctica),4100\nChinstrap penguin (Pygoscelis antarctica),3600\nChinstrap penguin (Pygoscelis antarctica),3900\nChinstrap penguin (Pygoscelis antarctica),3850\nChinstrap penguin (Pygoscelis antarctica),4800\nChinstrap penguin (Pygoscelis antarctica),2700\nChinstrap penguin (Pygoscelis antarctica),4500\nChinstrap penguin (Pygoscelis antarctica),3950\nChinstrap penguin (Pygoscelis antarctica),3650\nChinstrap penguin (Pygoscelis antarctica),3550\nChinstrap penguin (Pygoscelis antarctica),3500\nChinstrap penguin (Pygoscelis antarctica),3675\nChinstrap penguin (Pygoscelis antarctica),4450\nChinstrap penguin (Pygoscelis antarctica),3400\nChinstrap penguin (Pygoscelis antarctica),4300\nChinstrap penguin (Pygoscelis antarctica),3250\nChinstrap penguin (Pygoscelis antarctica),3675\nChinstrap penguin (Pygoscelis antarctica),3325\nChinstrap penguin (Pygoscelis antarctica),3950\nChinstrap penguin (Pygoscelis antarctica),3600\nChinstrap penguin (Pygoscelis antarctica),4050\nChinstrap penguin (Pygoscelis antarctica),3350\nChinstrap penguin (Pygoscelis antarctica),3450\nChinstrap penguin (Pygoscelis antarctica),3250\nChinstrap penguin (Pygoscelis antarctica),4050\nChinstrap penguin (Pygoscelis antarctica),3800\nChinstrap penguin (Pygoscelis antarctica),3525\nChinstrap penguin (Pygoscelis antarctica),3950\nChinstrap penguin (Pygoscelis antarctica),3650\nChinstrap penguin (Pygoscelis antarctica),3650\nChinstrap penguin (Pygoscelis antarctica),4000\nChinstrap penguin (Pygoscelis antarctica),3400\nChinstrap penguin (Pygoscelis antarctica),3775\nChinstrap penguin (Pygoscelis antarctica),4100\nChinstrap penguin (Pygoscelis antarctica),3775\n",
+        "title": "Recorded species and body mass, all344 rows"
+      }
+    ],
+    "methodology": "Read the supplied source excerpts and measurement tables. Check any arithmetic directly from the observations. Evaluate only the exact proposed claim; distinguish a failure of evidence from a contradiction.",
+    "public_id": "svb-911bf0fdfd66",
+    "question": "What epistemic status does the supplied evidence justify for this exact claim? Distinguish measured observations, calculations, assumptions, and stronger scientific interpretations."
+  },
+  {
+    "assumptions": [
+      "Read each uncertainty note, not only the numeric uncertainty field."
+    ],
+    "claim": "The FreeSolv methanol record marks its 0.60 kcal/mol experimental-uncertainty field as an assigned default because experimental uncertainty is not presently available.",
+    "documents": [
+      {
+        "id": "FS-METHOD",
+        "source_id": "freesolv",
+        "text": "FreeSolv database.txt header labels experimental hydration free energy, experimental uncertainty, GAFF calculated hydration free energy and calculated uncertainty, all in kcal/mol. Hydration is transfer to water. Experimental_reference identifies the paper from which a value was taken; calculated_reference for these rows is10.1021/acs.jced.7b00104. Fields label different evidence types. The database notes mark some uncertainty values as assigned defaults when experimental uncertainty is unavailable.",
+        "title": "FreeSolv field definitions and provenance"
+      },
+      {
+        "id": "FS-DATA",
+        "source_id": "freesolv",
+        "text": "id,name,experimental_kcal_mol,experimental_uncertainty_kcal_mol,calculated_kcal_mol,calculated_uncertainty_kcal_mol,experimental_reference,calculated_reference,notes\nmobley_1261349,neopentane,2.51,0.60,2.51,0.02,10.1021/ct050097l,10.1021/acs.jced.7b00104,\"Experimental uncertainty not presently available, so assigned a default value.\"\nmobley_1323538,triethylphosphate,-7.50,0.20,-10.25,0.04,10.1039/P29900000291,10.1021/acs.jced.7b00104,Experimental uncertainty as suggested by 10.1039/P29900000291 -- 0.2 kcal/mol.\nmobley_1636752,methanol,-5.10,0.60,-3.49,0.02,10.1021/ct050097l,10.1021/acs.jced.7b00104,\"Experimental uncertainty not presently available, so assigned a default value.\"\nmobley_2310185,ethanol,-5.00,0.60,-3.39,0.02,10.1021/ct050097l,10.1021/acs.jced.7b00104,\"Experimental uncertainty not presently available, so assigned a default value.\"\nmobley_3053621,benzene,-0.90,0.20,-0.81,0.02,10.1039/P29900000291,10.1021/acs.jced.7b00104,Experimental uncertainty as suggested by 10.1039/P29900000291 -- 0.2 kcal/mol.\nmobley_9055303,methane,2.00,0.20,2.45,0.01,10.1039/P29900000291,10.1021/acs.jced.7b00104,Experimental uncertainty as suggested by 10.1039/P29900000291 -- 0.2 kcal/mol.\n",
+        "title": "FreeSolv selected thermodynamic records"
+      }
+    ],
+    "methodology": "Read the supplied source excerpts and measurement tables. Check any arithmetic directly from the observations. Evaluate only the exact proposed claim; distinguish a failure of evidence from a contradiction.",
+    "public_id": "svb-3dac26205064",
+    "question": "What epistemic status does the supplied evidence justify for this exact claim? Distinguish measured observations, calculations, assumptions, and stronger scientific interpretations."
+  },
+  {
+    "assumptions": [],
+    "claim": "The 23 rows constitute 23 independent biological experiments, as documented by this study.",
+    "documents": [
+      {
+        "id": "PU-METHOD",
+        "source_id": "puromycin",
+        "text": "R datasets Puromycin documents substrate concentration in ppm and instantaneous reaction rate in counts/min/min. It says counts per minute of radioactive product were measured as a function of substrate concentration, then initial reaction velocity was calculated. The experiment was conducted once with enzyme treated with Puromycin and once untreated. There are 23 rows. Source: Treloar (1974), as reproduced in Bates and Watts (1988), AppendixA 1.3; curated R source transcription.",
+        "title": "R source documentation of enzyme experiment"
+      },
+      {
+        "id": "PU-DATA",
+        "source_id": "puromycin",
+        "text": "conc,rate,state\n0.02,76,treated\n0.02,47,treated\n0.06,97,treated\n0.06,107,treated\n0.11,123,treated\n0.11,139,treated\n0.22,159,treated\n0.22,152,treated\n0.56,191,treated\n0.56,201,treated\n1.1,207,treated\n1.1,200,treated\n0.02,67,untreated\n0.02,51,untreated\n0.06,84,untreated\n0.06,86,untreated\n0.11,98,untreated\n0.11,115,untreated\n0.22,131,untreated\n0.22,124,untreated\n0.56,144,untreated\n0.56,158,untreated\n1.1,160,untreated\n",
+        "title": "Recorded Puromycin enzyme-reaction data"
+      }
+    ],
+    "methodology": "Read the supplied source excerpts and measurement tables. Check any arithmetic directly from the observations. Evaluate only the exact proposed claim; distinguish a failure of evidence from a contradiction.",
+    "public_id": "svb-d9ffef148dc5",
+    "question": "What epistemic status does the supplied evidence justify for this exact claim? Distinguish measured observations, calculations, assumptions, and stronger scientific interpretations."
+  },
+  {
+    "assumptions": [
+      "Compare only the recorded high-substrate observations."
+    ],
+    "claim": "At 1.1 ppm, the two treated rates are 207 and 200 counts/min/min, while the single untreated rate is 160 counts/min/min.",
+    "documents": [
+      {
+        "id": "PU-METHOD",
+        "source_id": "puromycin",
+        "text": "R datasets Puromycin documents substrate concentration in ppm and instantaneous reaction rate in counts/min/min. It says counts per minute of radioactive product were measured as a function of substrate concentration, then initial reaction velocity was calculated. The experiment was conducted once with enzyme treated with Puromycin and once untreated. There are 23 rows. Source: Treloar (1974), as reproduced in Bates and Watts (1988), AppendixA 1.3; curated R source transcription.",
+        "title": "R source documentation of enzyme experiment"
+      },
+      {
+        "id": "PU-DATA",
+        "source_id": "puromycin",
+        "text": "conc,rate,state\n0.02,76,treated\n0.02,47,treated\n0.06,97,treated\n0.06,107,treated\n0.11,123,treated\n0.11,139,treated\n0.22,159,treated\n0.22,152,treated\n0.56,191,treated\n0.56,201,treated\n1.1,207,treated\n1.1,200,treated\n0.02,67,untreated\n0.02,51,untreated\n0.06,84,untreated\n0.06,86,untreated\n0.11,98,untreated\n0.11,115,untreated\n0.22,131,untreated\n0.22,124,untreated\n0.56,144,untreated\n0.56,158,untreated\n1.1,160,untreated\n",
+        "title": "Recorded Puromycin enzyme-reaction data"
+      }
+    ],
+    "methodology": "Read the supplied source excerpts and measurement tables. Check any arithmetic directly from the observations. Evaluate only the exact proposed claim; distinguish a failure of evidence from a contradiction.",
+    "public_id": "svb-8cd269de53bf",
+    "question": "What epistemic status does the supplied evidence justify for this exact claim? Distinguish measured observations, calculations, assumptions, and stronger scientific interpretations."
+  },
+  {
+    "assumptions": [
+      "For arithmetic, treat the displayed stored values as exact numerical inputs; this does not make the physical measurements exact."
+    ],
+    "claim": "The recorded demand on day 7 minus the recorded demand on day 1 equals 11.5 grams per litre.",
+    "documents": [
+      {
+        "id": "OD-METHOD",
+        "source_id": "oxygen_demand",
+        "text": "The R BOD dataset contains six observations of biochemical oxygen demand versus time in an evaluation of water quality. Time is the measurement time in days; demand is biochemical oxygen demand in mg/l. The R source attributes the data to Marske (1967), reproduced in Bates and Watts (1988), Appendix A1.4, page 270. The documentation illustrates fitting an asymptotic first-order curve to the recorded values.",
+        "title": "R documentation of biochemical oxygen demand observations"
+      },
+      {
+        "id": "OD-OBS",
+        "source_id": "oxygen_demand",
+        "text": "Time,demand\n1,8.3\n2,10.3\n3,19\n4,16\n5,15.6\n7,19.8\n",
+        "title": "Recorded biochemical oxygen demand table"
+      }
+    ],
+    "methodology": "Read the source description and recorded observations. Check any calculation using the stated units and experimental identifiers. Assess the precise target claim and explain its evidential basis.",
+    "public_id": "svb-162ce6f1d8cf",
+    "question": "Which epistemic status is justified for this precise claim by the supplied scientific record?"
+  },
+  {
+    "assumptions": [
+      "Calculate the signed residual as GAFF calculated minus experimental value."
+    ],
+    "claim": "This single residual proves that GAFF is inaccurate by exactly 2.75 kcal/mol for every protein-binding calculation.",
+    "documents": [
+      {
+        "id": "FS-METHOD",
+        "source_id": "freesolv",
+        "text": "FreeSolv database.txt header labels experimental hydration free energy, experimental uncertainty, GAFF calculated hydration free energy and calculated uncertainty, all in kcal/mol. Hydration is transfer to water. Experimental_reference identifies the paper from which a value was taken; calculated_reference for these rows is10.1021/acs.jced.7b00104. Fields label different evidence types. The database notes mark some uncertainty values as assigned defaults when experimental uncertainty is unavailable.",
+        "title": "FreeSolv field definitions and provenance"
+      },
+      {
+        "id": "FS-DATA",
+        "source_id": "freesolv",
+        "text": "id,name,experimental_kcal_mol,experimental_uncertainty_kcal_mol,calculated_kcal_mol,calculated_uncertainty_kcal_mol,experimental_reference,calculated_reference,notes\nmobley_1261349,neopentane,2.51,0.60,2.51,0.02,10.1021/ct050097l,10.1021/acs.jced.7b00104,\"Experimental uncertainty not presently available, so assigned a default value.\"\nmobley_1323538,triethylphosphate,-7.50,0.20,-10.25,0.04,10.1039/P29900000291,10.1021/acs.jced.7b00104,Experimental uncertainty as suggested by 10.1039/P29900000291 -- 0.2 kcal/mol.\nmobley_1636752,methanol,-5.10,0.60,-3.49,0.02,10.1021/ct050097l,10.1021/acs.jced.7b00104,\"Experimental uncertainty not presently available, so assigned a default value.\"\nmobley_2310185,ethanol,-5.00,0.60,-3.39,0.02,10.1021/ct050097l,10.1021/acs.jced.7b00104,\"Experimental uncertainty not presently available, so assigned a default value.\"\nmobley_3053621,benzene,-0.90,0.20,-0.81,0.02,10.1039/P29900000291,10.1021/acs.jced.7b00104,Experimental uncertainty as suggested by 10.1039/P29900000291 -- 0.2 kcal/mol.\nmobley_9055303,methane,2.00,0.20,2.45,0.01,10.1039/P29900000291,10.1021/acs.jced.7b00104,Experimental uncertainty as suggested by 10.1039/P29900000291 -- 0.2 kcal/mol.\n",
+        "title": "FreeSolv selected thermodynamic records"
+      }
+    ],
+    "methodology": "Read the supplied source excerpts and measurement tables. Check any arithmetic directly from the observations. Evaluate only the exact proposed claim; distinguish a failure of evidence from a contradiction.",
+    "public_id": "svb-8bd40c4e6af8",
+    "question": "What epistemic status does the supplied evidence justify for this exact claim? Distinguish measured observations, calculations, assumptions, and stronger scientific interpretations."
+  },
+  {
+    "assumptions": [
+      "For arithmetic, treat the displayed stored values as exact numerical inputs; this does not make the physical measurements exact."
+    ],
+    "claim": "The recorded patient comparisons establish that drug 2 will increase sleep more than drug 1 for every future patient.",
+    "documents": [
+      {
+        "id": "SL-METHOD",
+        "source_id": "sleep",
+        "text": "The R datasets manual describes the sleep data as the effect of two soporific drugs: increase in hours of sleep compared with control on 10 patients. The column extra is the increase in hours; group identifies the drug and ID identifies the patient. The manual explicitly states that the group name may be misleading: these are measurements on 10 persons, not separate groups. The data have 20 observations. The source citations are Cushny and Peebles (1905) and Student (1908). This packet transcribes the public R dataset and its documentation.",
+        "title": "R datasets documentation of the historical sleep study"
+      },
+      {
+        "id": "SL-OBS",
+        "source_id": "sleep",
+        "text": "ID,group,extra\n1,1,0.7\n2,1,-1.6\n3,1,-0.2\n4,1,-1.2\n5,1,-0.1\n6,1,3.4\n7,1,3.7\n8,1,0.8\n9,1,0\n10,1,2\n1,2,1.9\n2,2,0.8\n3,2,1.1\n4,2,0.1\n5,2,-0.1\n6,2,4.4\n7,2,5.5\n8,2,1.6\n9,2,4.6\n10,2,3.4\n",
+        "title": "Recorded sleep prolongation observations"
+      }
+    ],
+    "methodology": "Read the source description and recorded observations. Check any calculation using the stated units and experimental identifiers. Assess the precise target claim and explain its evidential basis.",
+    "public_id": "svb-9792d7ac8f17",
+    "question": "Which epistemic status is justified for this precise claim by the supplied scientific record?"
+  },
+  {
+    "assumptions": [
+      "Read each uncertainty note, not only the numeric uncertainty field."
+    ],
+    "claim": "The methanol 0.60 kcal/mol field is a measured 95%confidence interval from independent replicate hydration experiments.",
+    "documents": [
+      {
+        "id": "FS-METHOD",
+        "source_id": "freesolv",
+        "text": "FreeSolv database.txt header labels experimental hydration free energy, experimental uncertainty, GAFF calculated hydration free energy and calculated uncertainty, all in kcal/mol. Hydration is transfer to water. Experimental_reference identifies the paper from which a value was taken; calculated_reference for these rows is10.1021/acs.jced.7b00104. Fields label different evidence types. The database notes mark some uncertainty values as assigned defaults when experimental uncertainty is unavailable.",
+        "title": "FreeSolv field definitions and provenance"
+      },
+      {
+        "id": "FS-DATA",
+        "source_id": "freesolv",
+        "text": "id,name,experimental_kcal_mol,experimental_uncertainty_kcal_mol,calculated_kcal_mol,calculated_uncertainty_kcal_mol,experimental_reference,calculated_reference,notes\nmobley_1261349,neopentane,2.51,0.60,2.51,0.02,10.1021/ct050097l,10.1021/acs.jced.7b00104,\"Experimental uncertainty not presently available, so assigned a default value.\"\nmobley_1323538,triethylphosphate,-7.50,0.20,-10.25,0.04,10.1039/P29900000291,10.1021/acs.jced.7b00104,Experimental uncertainty as suggested by 10.1039/P29900000291 -- 0.2 kcal/mol.\nmobley_1636752,methanol,-5.10,0.60,-3.49,0.02,10.1021/ct050097l,10.1021/acs.jced.7b00104,\"Experimental uncertainty not presently available, so assigned a default value.\"\nmobley_2310185,ethanol,-5.00,0.60,-3.39,0.02,10.1021/ct050097l,10.1021/acs.jced.7b00104,\"Experimental uncertainty not presently available, so assigned a default value.\"\nmobley_3053621,benzene,-0.90,0.20,-0.81,0.02,10.1039/P29900000291,10.1021/acs.jced.7b00104,Experimental uncertainty as suggested by 10.1039/P29900000291 -- 0.2 kcal/mol.\nmobley_9055303,methane,2.00,0.20,2.45,0.01,10.1039/P29900000291,10.1021/acs.jced.7b00104,Experimental uncertainty as suggested by 10.1039/P29900000291 -- 0.2 kcal/mol.\n",
+        "title": "FreeSolv selected thermodynamic records"
+      }
+    ],
+    "methodology": "Read the supplied source excerpts and measurement tables. Check any arithmetic directly from the observations. Evaluate only the exact proposed claim; distinguish a failure of evidence from a contradiction.",
+    "public_id": "svb-9ba09d786a13",
+    "question": "What epistemic status does the supplied evidence justify for this exact claim? Distinguish measured observations, calculations, assumptions, and stronger scientific interpretations."
+  },
+  {
+    "assumptions": [
+      "For arithmetic, treat the displayed stored values as exact numerical inputs; this does not make the physical measurements exact."
+    ],
+    "claim": "The recorded oxygen-demand values decrease between day 3 and day 4.",
+    "documents": [
+      {
+        "id": "OD-METHOD",
+        "source_id": "oxygen_demand",
+        "text": "The R BOD dataset contains six observations of biochemical oxygen demand versus time in an evaluation of water quality. Time is the measurement time in days; demand is biochemical oxygen demand in mg/l. The R source attributes the data to Marske (1967), reproduced in Bates and Watts (1988), Appendix A1.4, page 270. The documentation illustrates fitting an asymptotic first-order curve to the recorded values.",
+        "title": "R documentation of biochemical oxygen demand observations"
+      },
+      {
+        "id": "OD-OBS",
+        "source_id": "oxygen_demand",
+        "text": "Time,demand\n1,8.3\n2,10.3\n3,19\n4,16\n5,15.6\n7,19.8\n",
+        "title": "Recorded biochemical oxygen demand table"
+      }
+    ],
+    "methodology": "Read the source description and recorded observations. Check any calculation using the stated units and experimental identifiers. Assess the precise target claim and explain its evidential basis.",
+    "public_id": "svb-db97426ec44e",
+    "question": "Which epistemic status is justified for this precise claim by the supplied scientific record?"
+  },
+  {
+    "assumptions": [
+      "For arithmetic, treat the displayed stored values as exact numerical inputs; this does not make the physical measurements exact."
+    ],
+    "claim": "In every recorded patient pair, the sleep prolongation under drug 2 is at least as large as under drug 1.",
+    "documents": [
+      {
+        "id": "SL-METHOD",
+        "source_id": "sleep",
+        "text": "The R datasets manual describes the sleep data as the effect of two soporific drugs: increase in hours of sleep compared with control on 10 patients. The column extra is the increase in hours; group identifies the drug and ID identifies the patient. The manual explicitly states that the group name may be misleading: these are measurements on 10 persons, not separate groups. The data have 20 observations. The source citations are Cushny and Peebles (1905) and Student (1908). This packet transcribes the public R dataset and its documentation.",
+        "title": "R datasets documentation of the historical sleep study"
+      },
+      {
+        "id": "SL-OBS",
+        "source_id": "sleep",
+        "text": "ID,group,extra\n1,1,0.7\n2,1,-1.6\n3,1,-0.2\n4,1,-1.2\n5,1,-0.1\n6,1,3.4\n7,1,3.7\n8,1,0.8\n9,1,0\n10,1,2\n1,2,1.9\n2,2,0.8\n3,2,1.1\n4,2,0.1\n5,2,-0.1\n6,2,4.4\n7,2,5.5\n8,2,1.6\n9,2,4.6\n10,2,3.4\n",
+        "title": "Recorded sleep prolongation observations"
+      }
+    ],
+    "methodology": "Read the source description and recorded observations. Check any calculation using the stated units and experimental identifiers. Assess the precise target claim and explain its evidential basis.",
+    "public_id": "svb-9027589da364",
+    "question": "Which epistemic status is justified for this precise claim by the supplied scientific record?"
+  },
+  {
+    "assumptions": [
+      "Compare Qn1 recorded uptake values directly, retaining source concentration codes."
+    ],
+    "claim": "The observed decrease in Qn1 establishes a reproducible inhibitory CO2 effect above concentration 350 for this species.",
+    "documents": [
+      {
+        "id": "CO-METHOD",
+        "source_id": "grass_co2",
+        "text": "R datasets CO2:84 observations from 12 grass plants (Echinochloa crus-galli), six from Quebec and six from Mississippi. Each plant was measured at seven recorded ambient concentration levels 95, 175, 250, 350, 500, 675, 1000. Half the plants of each origin were chilled overnight. Plant is the experimental-unit identifier; successive concentrations are repeated observations of that plant. Uptake is documented in micromol per square metre per second. The R manual labels ambient concentration mL/L; the numeric source scale is preserved in this table. Source Potvin, Lechowicz and Tardif (1990), curated R transcription, formerly nlme.",
+        "title": "R documentation of cold-tolerance experiment"
+      },
+      {
+        "id": "CO-DATA",
+        "source_id": "grass_co2",
+        "text": "Plant,Type,Treatment,conc,uptake\nQn1,Quebec,nonchilled,95,16\nQn1,Quebec,nonchilled,175,30.4\nQn1,Quebec,nonchilled,250,34.8\nQn1,Quebec,nonchilled,350,37.2\nQn1,Quebec,nonchilled,500,35.3\nQn1,Quebec,nonchilled,675,39.2\nQn1,Quebec,nonchilled,1000,39.7\nQn2,Quebec,nonchilled,95,13.6\nQn2,Quebec,nonchilled,175,27.3\nQn2,Quebec,nonchilled,250,37.1\nQn2,Quebec,nonchilled,350,41.8\nQn2,Quebec,nonchilled,500,40.6\nQn2,Quebec,nonchilled,675,41.4\nQn2,Quebec,nonchilled,1000,44.3\nQn3,Quebec,nonchilled,95,16.2\nQn3,Quebec,nonchilled,175,32.4\nQn3,Quebec,nonchilled,250,40.3\nQn3,Quebec,nonchilled,350,42.1\nQn3,Quebec,nonchilled,500,42.9\nQn3,Quebec,nonchilled,675,43.9\nQn3,Quebec,nonchilled,1000,45.5\nQc1,Quebec,chilled,95,14.2\nQc1,Quebec,chilled,175,24.1\nQc1,Quebec,chilled,250,30.3\nQc1,Quebec,chilled,350,34.6\nQc1,Quebec,chilled,500,32.5\nQc1,Quebec,chilled,675,35.4\nQc1,Quebec,chilled,1000,38.7\nQc2,Quebec,chilled,95,9.3\nQc2,Quebec,chilled,175,27.3\nQc2,Quebec,chilled,250,35\nQc2,Quebec,chilled,350,38.8\nQc2,Quebec,chilled,500,38.6\nQc2,Quebec,chilled,675,37.5\nQc2,Quebec,chilled,1000,42.4\nQc3,Quebec,chilled,95,15.1\nQc3,Quebec,chilled,175,21\nQc3,Quebec,chilled,250,38.1\nQc3,Quebec,chilled,350,34\nQc3,Quebec,chilled,500,38.9\nQc3,Quebec,chilled,675,39.6\nQc3,Quebec,chilled,1000,41.4\nMn1,Mississippi,nonchilled,95,10.6\nMn1,Mississippi,nonchilled,175,19.2\nMn1,Mississippi,nonchilled,250,26.2\nMn1,Mississippi,nonchilled,350,30\nMn1,Mississippi,nonchilled,500,30.9\nMn1,Mississippi,nonchilled,675,32.4\nMn1,Mississippi,nonchilled,1000,35.5\nMn2,Mississippi,nonchilled,95,12\nMn2,Mississippi,nonchilled,175,22\nMn2,Mississippi,nonchilled,250,30.6\nMn2,Mississippi,nonchilled,350,31.8\nMn2,Mississippi,nonchilled,500,32.4\nMn2,Mississippi,nonchilled,675,31.1\nMn2,Mississippi,nonchilled,1000,31.5\nMn3,Mississippi,nonchilled,95,11.3\nMn3,Mississippi,nonchilled,175,19.4\nMn3,Mississippi,nonchilled,250,25.8\nMn3,Mississippi,nonchilled,350,27.9\nMn3,Mississippi,nonchilled,500,28.5\nMn3,Mississippi,nonchilled,675,28.1\nMn3,Mississippi,nonchilled,1000,27.8\nMc1,Mississippi,chilled,95,10.5\nMc1,Mississippi,chilled,175,14.9\nMc1,Mississippi,chilled,250,18.1\nMc1,Mississippi,chilled,350,18.9\nMc1,Mississippi,chilled,500,19.5\nMc1,Mississippi,chilled,675,22.2\nMc1,Mississippi,chilled,1000,21.9\nMc2,Mississippi,chilled,95,7.7\nMc2,Mississippi,chilled,175,11.4\nMc2,Mississippi,chilled,250,12.3\nMc2,Mississippi,chilled,350,13\nMc2,Mississippi,chilled,500,12.5\nMc2,Mississippi,chilled,675,13.7\nMc2,Mississippi,chilled,1000,14.4\nMc3,Mississippi,chilled,95,10.6\nMc3,Mississippi,chilled,175,18\nMc3,Mississippi,chilled,250,17.9\nMc3,Mississippi,chilled,350,17.9\nMc3,Mississippi,chilled,500,17.9\nMc3,Mississippi,chilled,675,18.9\nMc3,Mississippi,chilled,1000,19.9\n",
+        "title": "Recorded grass-plant CO2 uptake data"
+      }
+    ],
+    "methodology": "Read the supplied source excerpts and measurement tables. Check any arithmetic directly from the observations. Evaluate only the exact proposed claim; distinguish a failure of evidence from a contradiction.",
+    "public_id": "svb-419e5e13b7b7",
+    "question": "What epistemic status does the supplied evidence justify for this exact claim? Distinguish measured observations, calculations, assumptions, and stronger scientific interpretations."
+  },
+  {
+    "assumptions": [
+      "For arithmetic, treat the displayed stored values as exact numerical inputs; this does not make the physical measurements exact."
+    ],
+    "claim": "The recorded body weight of chick 1 increased from 42 grams at birth to 205 grams on day 21 while it received diet 1.",
+    "documents": [
+      {
+        "id": "CW-METHOD",
+        "source_id": "chick_growth",
+        "text": "The R ChickWeight dataset describes an experiment on early growth under four protein diets. Body weight is recorded in grams; Time is days since birth; Chick is a unique chick identifier; Diet identifies the experimental diet. Weights were measured at birth and every second day until day 20, and also at day 21. The complete curated table has 578 observations. The R source cites Crowder and Hand (1990), Example 5.3, pages 74–78, and Hand and Crowder (1996), Table A.2, page 172. Ordered factor labels identify chicks; factor ordering groups diets and orders final weights.",
+        "title": "R documentation of early chick growth observations"
+      },
+      {
+        "id": "CW-CHICK1",
+        "source_id": "chick_growth",
+        "text": "Chick,Diet,Time,weight\n1,1,0,42\n1,1,2,51\n1,1,4,59\n1,1,6,64\n1,1,8,76\n1,1,10,93\n1,1,12,106\n1,1,14,125\n1,1,16,149\n1,1,18,171\n1,1,20,199\n1,1,21,205\n",
+        "title": "Recorded growth series for chick 1"
+      }
+    ],
+    "methodology": "Read the source description and recorded observations. Check any calculation using the stated units and experimental identifiers. Assess the precise target claim and explain its evidential basis.",
+    "public_id": "svb-716f0a9027bd",
+    "question": "Which epistemic status is justified for this precise claim by the supplied scientific record?"
+  },
+  {
+    "assumptions": [
+      "For arithmetic, treat the displayed stored values as exact numerical inputs; this does not make the physical measurements exact."
+    ],
+    "claim": "Among the supplied day-21 observations, the arithmetic mean weight for diet 4 is lower than that for diet 1.",
+    "documents": [
+      {
+        "id": "CW-METHOD",
+        "source_id": "chick_growth",
+        "text": "The R ChickWeight dataset describes an experiment on early growth under four protein diets. Body weight is recorded in grams; Time is days since birth; Chick is a unique chick identifier; Diet identifies the experimental diet. Weights were measured at birth and every second day until day 20, and also at day 21. The complete curated table has 578 observations. The R source cites Crowder and Hand (1990), Example 5.3, pages 74–78, and Hand and Crowder (1996), Table A.2, page 172. Ordered factor labels identify chicks; factor ordering groups diets and orders final weights.",
+        "title": "R documentation of early chick growth observations"
+      },
+      {
+        "id": "CW-DAY21",
+        "source_id": "chick_growth",
+        "text": "Chick,Diet,Time,weight\n1,1,21,205\n2,1,21,215\n3,1,21,202\n4,1,21,157\n5,1,21,223\n6,1,21,157\n7,1,21,305\n9,1,21,98\n10,1,21,124\n11,1,21,175\n12,1,21,205\n13,1,21,96\n14,1,21,266\n17,1,21,142\n19,1,21,157\n20,1,21,117\n41,4,21,204\n42,4,21,281\n43,4,21,200\n45,4,21,196\n46,4,21,238\n47,4,21,205\n48,4,21,322\n49,4,21,237\n50,4,21,264\n",
+        "title": "Recorded day-21 weights for diets 1 and 4"
+      }
+    ],
+    "methodology": "Read the source description and recorded observations. Check any calculation using the stated units and experimental identifiers. Assess the precise target claim and explain its evidential basis.",
+    "public_id": "svb-a7ca66d0e04f",
+    "question": "Which epistemic status is justified for this precise claim by the supplied scientific record?"
+  },
+  {
+    "assumptions": [
+      "For arithmetic, treat the displayed stored values as exact numerical inputs; this does not make the physical measurements exact."
+    ],
+    "claim": "Among the supplied day-21 observations, the arithmetic mean weight for diet 4 exceeds that for diet 1 by exactly 2189/36 grams.",
+    "documents": [
+      {
+        "id": "CW-METHOD",
+        "source_id": "chick_growth",
+        "text": "The R ChickWeight dataset describes an experiment on early growth under four protein diets. Body weight is recorded in grams; Time is days since birth; Chick is a unique chick identifier; Diet identifies the experimental diet. Weights were measured at birth and every second day until day 20, and also at day 21. The complete curated table has 578 observations. The R source cites Crowder and Hand (1990), Example 5.3, pages 74–78, and Hand and Crowder (1996), Table A.2, page 172. Ordered factor labels identify chicks; factor ordering groups diets and orders final weights.",
+        "title": "R documentation of early chick growth observations"
+      },
+      {
+        "id": "CW-DAY21",
+        "source_id": "chick_growth",
+        "text": "Chick,Diet,Time,weight\n1,1,21,205\n2,1,21,215\n3,1,21,202\n4,1,21,157\n5,1,21,223\n6,1,21,157\n7,1,21,305\n9,1,21,98\n10,1,21,124\n11,1,21,175\n12,1,21,205\n13,1,21,96\n14,1,21,266\n17,1,21,142\n19,1,21,157\n20,1,21,117\n41,4,21,204\n42,4,21,281\n43,4,21,200\n45,4,21,196\n46,4,21,238\n47,4,21,205\n48,4,21,322\n49,4,21,237\n50,4,21,264\n",
+        "title": "Recorded day-21 weights for diets 1 and 4"
+      }
+    ],
+    "methodology": "Read the source description and recorded observations. Check any calculation using the stated units and experimental identifiers. Assess the precise target claim and explain its evidential basis.",
+    "public_id": "svb-d48507e1d19e",
+    "question": "Which epistemic status is justified for this precise claim by the supplied scientific record?"
+  },
+  {
+    "assumptions": [
+      "Describe only the records with identified sex and nonmissing body mass."
+    ],
+    "claim": "These egg-laying-period observations establish the same male–female mass difference during every season throughout Antarctica.",
+    "documents": [
+      {
+        "id": "PG-METHOD",
+        "source_id": "penguins",
+        "text": "Gorman, Williams and Fraser (2014), PLOS ONE 9:e 90081, DOI10.1371/journal.pone.0090081, and Palmer LTER dataset excerpts. Adult penguins were sampled at nests near Palmer Station during 2007–2009; raw Stage values are Adult, 1 Egg Stage. Body Mass (g), Species, Sex, Island and studyName are recorded fields. This is an observational breeding-season sample. Missing values are NA. The paper states body mass results are relevant to the egg-laying period and should not be considered representative of chick rearing or outside the breeding season.",
+        "title": "Palmer observational sampling and measurement context"
+      },
+      {
+        "id": "PG-SEX",
+        "source_id": "penguins",
+        "text": "studyName,Sex,Body Mass (g)\nPAL0708,MALE,3750\nPAL0708,FEMALE,3800\nPAL0708,FEMALE,3250\nPAL0708,FEMALE,3450\nPAL0708,MALE,3650\nPAL0708,FEMALE,3625\nPAL0708,MALE,4675\nPAL0708,FEMALE,3200\nPAL0708,MALE,3800\nPAL0708,MALE,4400\nPAL0708,FEMALE,3700\nPAL0708,FEMALE,3450\nPAL0708,MALE,4500\nPAL0708,FEMALE,3325\nPAL0708,MALE,4200\nPAL0708,FEMALE,3400\nPAL0708,MALE,3600\nPAL0708,FEMALE,3800\nPAL0708,MALE,3950\nPAL0708,MALE,3800\nPAL0708,FEMALE,3800\nPAL0708,MALE,3550\nPAL0708,FEMALE,3200\nPAL0708,FEMALE,3150\nPAL0708,MALE,3950\nPAL0708,FEMALE,3250\nPAL0708,MALE,3900\nPAL0708,FEMALE,3300\nPAL0708,MALE,3900\nPAL0708,FEMALE,3325\nPAL0708,MALE,4150\nPAL0708,MALE,3950\nPAL0708,FEMALE,3550\nPAL0708,FEMALE,3300\nPAL0708,MALE,4650\nPAL0708,FEMALE,3150\nPAL0708,MALE,3900\nPAL0708,FEMALE,3100\nPAL0708,MALE,4400\nPAL0708,FEMALE,3000\nPAL0708,MALE,4600\nPAL0708,MALE,3425\nPAL0708,FEMALE,3450\nPAL0708,MALE,4150\nPAL0809,FEMALE,3500\nPAL0809,MALE,4300\nPAL0809,FEMALE,3450\nPAL0809,MALE,4050\nPAL0809,FEMALE,2900\nPAL0809,MALE,3700\nPAL0809,FEMALE,3550\nPAL0809,MALE,3800\nPAL0809,FEMALE,2850\nPAL0809,MALE,3750\nPAL0809,FEMALE,3150\nPAL0809,MALE,4400\nPAL0809,FEMALE,3600\nPAL0809,MALE,4050\nPAL0809,FEMALE,2850\nPAL0809,MALE,3950\nPAL0809,FEMALE,3350\nPAL0809,MALE,4100\nPAL0809,FEMALE,3050\nPAL0809,MALE,4450\nPAL0809,FEMALE,3600\nPAL0809,MALE,3900\nPAL0809,FEMALE,3550\nPAL0809,MALE,4150\nPAL0809,FEMALE,3700\nPAL0809,MALE,4250\nPAL0809,FEMALE,3700\nPAL0809,MALE,3900\nPAL0809,FEMALE,3550\nPAL0809,MALE,4000\nPAL0809,FEMALE,3200\nPAL0809,MALE,4700\nPAL0809,FEMALE,3800\nPAL0809,MALE,4200\nPAL0809,FEMALE,3350\nPAL0809,MALE,3550\nPAL0809,MALE,3800\nPAL0809,FEMALE,3500\nPAL0809,MALE,3950\nPAL0809,FEMALE,3600\nPAL0809,FEMALE,3550\nPAL0809,MALE,4300\nPAL0809,FEMALE,3400\nPAL0809,MALE,4450\nPAL0809,FEMALE,3300\nPAL0809,MALE,4300\nPAL0809,FEMALE,3700\nPAL0809,MALE,4350\nPAL0809,FEMALE,2900\nPAL0809,MALE,4100\nPAL0910,FEMALE,3725\nPAL0910,MALE,4725\nPAL0910,FEMALE,3075\nPAL0910,MALE,4250\nPAL0910,FEMALE,2925\nPAL0910,MALE,3550\nPAL0910,FEMALE,3750\nPAL0910,MALE,3900\nPAL0910,FEMALE,3175\nPAL0910,MALE,4775\nPAL0910,FEMALE,3825\nPAL0910,MALE,4600\nPAL0910,FEMALE,3200\nPAL0910,MALE,4275\nPAL0910,FEMALE,3900\nPAL0910,MALE,4075\nPAL0910,FEMALE,2900\nPAL0910,MALE,3775\nPAL0910,FEMALE,3350\nPAL0910,MALE,3325\nPAL0910,FEMALE,3150\nPAL0910,MALE,3500\nPAL0910,FEMALE,3450\nPAL0910,MALE,3875\nPAL0910,FEMALE,3050\nPAL0910,MALE,4000\nPAL0910,FEMALE,3275\nPAL0910,MALE,4300\nPAL0910,FEMALE,3050\nPAL0910,MALE,4000\nPAL0910,FEMALE,3325\nPAL0910,MALE,3500\nPAL0910,FEMALE,3500\nPAL0910,MALE,4475\nPAL0910,FEMALE,3425\nPAL0910,MALE,3900\nPAL0910,FEMALE,3175\nPAL0910,MALE,3975\nPAL0910,FEMALE,3400\nPAL0910,MALE,4250\nPAL0910,FEMALE,3400\nPAL0910,MALE,3475\nPAL0910,FEMALE,3050\nPAL0910,MALE,3725\nPAL0910,FEMALE,3000\nPAL0910,MALE,3650\nPAL0910,MALE,4250\nPAL0910,FEMALE,3475\nPAL0910,FEMALE,3450\nPAL0910,MALE,3750\nPAL0910,FEMALE,3700\nPAL0910,MALE,4000\n",
+        "title": "Adélie records with identified sex"
+      }
+    ],
+    "methodology": "Read the supplied source excerpts and measurement tables. Check any arithmetic directly from the observations. Evaluate only the exact proposed claim; distinguish a failure of evidence from a contradiction.",
+    "public_id": "svb-c08eb18e8a53",
+    "question": "What epistemic status does the supplied evidence justify for this exact claim? Distinguish measured observations, calculations, assumptions, and stronger scientific interpretations."
+  },
+  {
+    "assumptions": [
+      "For arithmetic, treat the displayed stored values as exact numerical inputs; this does not make the physical measurements exact."
+    ],
+    "claim": "The observed day-3 to day-4 decline uniquely establishes that the microorganisms in the water stopped aerobic respiration during that interval.",
+    "documents": [
+      {
+        "id": "OD-METHOD",
+        "source_id": "oxygen_demand",
+        "text": "The R BOD dataset contains six observations of biochemical oxygen demand versus time in an evaluation of water quality. Time is the measurement time in days; demand is biochemical oxygen demand in mg/l. The R source attributes the data to Marske (1967), reproduced in Bates and Watts (1988), Appendix A1.4, page 270. The documentation illustrates fitting an asymptotic first-order curve to the recorded values.",
+        "title": "R documentation of biochemical oxygen demand observations"
+      },
+      {
+        "id": "OD-OBS",
+        "source_id": "oxygen_demand",
+        "text": "Time,demand\n1,8.3\n2,10.3\n3,19\n4,16\n5,15.6\n7,19.8\n",
+        "title": "Recorded biochemical oxygen demand table"
+      }
+    ],
+    "methodology": "Read the source description and recorded observations. Check any calculation using the stated units and experimental identifiers. Assess the precise target claim and explain its evidential basis.",
+    "public_id": "svb-e0fba25d46f1",
+    "question": "Which epistemic status is justified for this precise claim by the supplied scientific record?"
+  },
+  {
+    "assumptions": [
+      "Strings identify records only as documented; do not assume identifier stability across studies."
+    ],
+    "claim": "The supplied table has 344 records, 190 distinct Individual ID strings, and 344 distinct (studyName, Individual ID) pairs.",
+    "documents": [
+      {
+        "id": "PG-METHOD",
+        "source_id": "penguins",
+        "text": "Gorman, Williams and Fraser (2014), PLOS ONE 9:e 90081, DOI10.1371/journal.pone.0090081, and Palmer LTER dataset excerpts. Adult penguins were sampled at nests near Palmer Station during 2007–2009; raw Stage values are Adult, 1 Egg Stage. Body Mass (g), Species, Sex, Island and studyName are recorded fields. This is an observational breeding-season sample. Missing values are NA. The paper states body mass results are relevant to the egg-laying period and should not be considered representative of chick rearing or outside the breeding season.",
+        "title": "Palmer observational sampling and measurement context"
+      },
+      {
+        "id": "PG-ID",
+        "source_id": "penguins",
+        "text": "studyName,Individual ID\nPAL0708,N1A1\nPAL0708,N1A2\nPAL0708,N2A1\nPAL0708,N2A2\nPAL0708,N3A1\nPAL0708,N3A2\nPAL0708,N4A1\nPAL0708,N4A2\nPAL0708,N5A1\nPAL0708,N5A2\nPAL0708,N6A1\nPAL0708,N6A2\nPAL0708,N7A1\nPAL0708,N7A2\nPAL0708,N8A1\nPAL0708,N8A2\nPAL0708,N9A1\nPAL0708,N9A2\nPAL0708,N10A1\nPAL0708,N10A2\nPAL0708,N11A1\nPAL0708,N11A2\nPAL0708,N12A1\nPAL0708,N12A2\nPAL0708,N13A1\nPAL0708,N13A2\nPAL0708,N17A1\nPAL0708,N17A2\nPAL0708,N18A1\nPAL0708,N18A2\nPAL0708,N21A1\nPAL0708,N21A2\nPAL0708,N22A1\nPAL0708,N22A2\nPAL0708,N23A1\nPAL0708,N23A2\nPAL0708,N24A1\nPAL0708,N24A2\nPAL0708,N25A1\nPAL0708,N25A2\nPAL0708,N26A1\nPAL0708,N26A2\nPAL0708,N27A1\nPAL0708,N27A2\nPAL0708,N28A1\nPAL0708,N28A2\nPAL0708,N29A1\nPAL0708,N29A2\nPAL0708,N30A1\nPAL0708,N30A2\nPAL0809,N21A1\nPAL0809,N21A2\nPAL0809,N22A1\nPAL0809,N22A2\nPAL0809,N23A1\nPAL0809,N23A2\nPAL0809,N24A1\nPAL0809,N24A2\nPAL0809,N25A1\nPAL0809,N25A2\nPAL0809,N27A1\nPAL0809,N27A2\nPAL0809,N28A1\nPAL0809,N28A2\nPAL0809,N29A1\nPAL0809,N29A2\nPAL0809,N30A1\nPAL0809,N30A2\nPAL0809,N32A1\nPAL0809,N32A2\nPAL0809,N34A1\nPAL0809,N34A2\nPAL0809,N35A1\nPAL0809,N35A2\nPAL0809,N36A1\nPAL0809,N36A2\nPAL0809,N37A1\nPAL0809,N37A2\nPAL0809,N38A1\nPAL0809,N38A2\nPAL0809,N39A1\nPAL0809,N39A2\nPAL0809,N40A1\nPAL0809,N40A2\nPAL0809,N41A1\nPAL0809,N41A2\nPAL0809,N42A1\nPAL0809,N42A2\nPAL0809,N44A1\nPAL0809,N44A2\nPAL0809,N45A1\nPAL0809,N45A2\nPAL0809,N46A1\nPAL0809,N46A2\nPAL0809,N48A1\nPAL0809,N48A2\nPAL0809,N49A1\nPAL0809,N49A2\nPAL0809,N50A1\nPAL0809,N50A2\nPAL0910,N47A1\nPAL0910,N47A2\nPAL0910,N49A1\nPAL0910,N49A2\nPAL0910,N51A1\nPAL0910,N51A2\nPAL0910,N53A1\nPAL0910,N53A2\nPAL0910,N55A1\nPAL0910,N55A2\nPAL0910,N58A1\nPAL0910,N58A2\nPAL0910,N60A1\nPAL0910,N60A2\nPAL0910,N61A1\nPAL0910,N61A2\nPAL0910,N63A1\nPAL0910,N63A2\nPAL0910,N64A1\nPAL0910,N64A2\nPAL0910,N66A1\nPAL0910,N66A2\nPAL0910,N67A1\nPAL0910,N67A2\nPAL0910,N69A1\nPAL0910,N69A2\nPAL0910,N71A1\nPAL0910,N71A2\nPAL0910,N72A1\nPAL0910,N72A2\nPAL0910,N73A1\nPAL0910,N73A2\nPAL0910,N76A1\nPAL0910,N76A2\nPAL0910,N77A1\nPAL0910,N77A2\nPAL0910,N78A1\nPAL0910,N78A2\nPAL0910,N79A1\nPAL0910,N79A2\nPAL0910,N80A1\nPAL0910,N80A2\nPAL0910,N81A1\nPAL0910,N81A2\nPAL0910,N82A1\nPAL0910,N82A2\nPAL0910,N83A1\nPAL0910,N83A2\nPAL0910,N84A1\nPAL0910,N84A2\nPAL0910,N85A1\nPAL0910,N85A2\nPAL0708,N31A1\nPAL0708,N31A2\nPAL0708,N32A1\nPAL0708,N32A2\nPAL0708,N33A1\nPAL0708,N33A2\nPAL0708,N34A1\nPAL0708,N34A2\nPAL0708,N35A1\nPAL0708,N35A2\nPAL0708,N36A1\nPAL0708,N36A2\nPAL0708,N37A1\nPAL0708,N37A2\nPAL0708,N38A1\nPAL0708,N38A2\nPAL0708,N39A1\nPAL0708,N39A2\nPAL0708,N40A1\nPAL0708,N40A2\nPAL0708,N41A1\nPAL0708,N41A2\nPAL0708,N42A1\nPAL0708,N42A2\nPAL0708,N44A1\nPAL0708,N44A2\nPAL0708,N46A1\nPAL0708,N46A2\nPAL0708,N47A1\nPAL0708,N47A2\nPAL0708,N50A1\nPAL0708,N50A2\nPAL0708,N56A1\nPAL0708,N56A2\nPAL0809,N2A1\nPAL0809,N2A2\nPAL0809,N4A1\nPAL0809,N4A2\nPAL0809,N5A1\nPAL0809,N5A2\nPAL0809,N6A1\nPAL0809,N6A2\nPAL0809,N7A1\nPAL0809,N7A2\nPAL0809,N8A1\nPAL0809,N8A2\nPAL0809,N11A1\nPAL0809,N11A2\nPAL0809,N12A1\nPAL0809,N12A2\nPAL0809,N13A1\nPAL0809,N13A2\nPAL0809,N14A1\nPAL0809,N14A2\nPAL0809,N15A1\nPAL0809,N15A2\nPAL0809,N16A1\nPAL0809,N16A2\nPAL0809,N17A1\nPAL0809,N17A2\nPAL0809,N18A1\nPAL0809,N18A2\nPAL0809,N19A1\nPAL0809,N19A2\nPAL0809,N20A1\nPAL0809,N20A2\nPAL0809,N51A1\nPAL0809,N51A2\nPAL0809,N53A1\nPAL0809,N53A2\nPAL0809,N54A1\nPAL0809,N54A2\nPAL0809,N55A1\nPAL0809,N55A2\nPAL0809,N56A1\nPAL0809,N56A2\nPAL0809,N58A1\nPAL0809,N58A2\nPAL0809,N60A1\nPAL0809,N60A2\nPAL0910,N1A1\nPAL0910,N1A2\nPAL0910,N6A1\nPAL0910,N6A2\nPAL0910,N8A1\nPAL0910,N8A2\nPAL0910,N13A1\nPAL0910,N13A2\nPAL0910,N14A1\nPAL0910,N14A2\nPAL0910,N15A1\nPAL0910,N15A2\nPAL0910,N18A1\nPAL0910,N18A2\nPAL0910,N19A1\nPAL0910,N19A2\nPAL0910,N20A1\nPAL0910,N20A2\nPAL0910,N21A1\nPAL0910,N21A2\nPAL0910,N22A1\nPAL0910,N22A2\nPAL0910,N23A1\nPAL0910,N23A2\nPAL0910,N24A1\nPAL0910,N24A2\nPAL0910,N28A1\nPAL0910,N28A2\nPAL0910,N29A1\nPAL0910,N29A2\nPAL0910,N32A1\nPAL0910,N32A2\nPAL0910,N34A1\nPAL0910,N34A2\nPAL0910,N35A1\nPAL0910,N35A2\nPAL0910,N36A1\nPAL0910,N36A2\nPAL0910,N38A1\nPAL0910,N38A2\nPAL0910,N39A1\nPAL0910,N39A2\nPAL0910,N43A1\nPAL0910,N43A2\nPAL0708,N61A1\nPAL0708,N61A2\nPAL0708,N62A1\nPAL0708,N62A2\nPAL0708,N64A1\nPAL0708,N64A2\nPAL0708,N66A1\nPAL0708,N66A2\nPAL0708,N67A1\nPAL0708,N67A2\nPAL0708,N68A1\nPAL0708,N68A2\nPAL0708,N69A1\nPAL0708,N69A2\nPAL0708,N70A1\nPAL0708,N70A2\nPAL0708,N71A1\nPAL0708,N71A2\nPAL0708,N72A1\nPAL0708,N72A2\nPAL0708,N73A1\nPAL0708,N73A2\nPAL0708,N85A1\nPAL0708,N85A2\nPAL0708,N89A1\nPAL0708,N89A2\nPAL0809,N61A1\nPAL0809,N61A2\nPAL0809,N62A1\nPAL0809,N62A2\nPAL0809,N63A1\nPAL0809,N63A2\nPAL0809,N65A1\nPAL0809,N65A2\nPAL0809,N67A1\nPAL0809,N67A2\nPAL0809,N69A1\nPAL0809,N69A2\nPAL0809,N72A1\nPAL0809,N72A2\nPAL0809,N74A1\nPAL0809,N74A2\nPAL0809,N75A1\nPAL0809,N75A2\nPAL0910,N86A1\nPAL0910,N86A2\nPAL0910,N87A1\nPAL0910,N87A2\nPAL0910,N88A1\nPAL0910,N88A2\nPAL0910,N90A1\nPAL0910,N90A2\nPAL0910,N92A1\nPAL0910,N92A2\nPAL0910,N93A1\nPAL0910,N93A2\nPAL0910,N94A1\nPAL0910,N94A2\nPAL0910,N95A1\nPAL0910,N95A2\nPAL0910,N96A1\nPAL0910,N96A2\nPAL0910,N98A1\nPAL0910,N98A2\nPAL0910,N99A1\nPAL0910,N99A2\nPAL0910,N100A1\nPAL0910,N100A2\n",
+        "title": "Raw study and individual identifiers"
+      }
+    ],
+    "methodology": "Read the supplied source excerpts and measurement tables. Check any arithmetic directly from the observations. Evaluate only the exact proposed claim; distinguish a failure of evidence from a contradiction.",
+    "public_id": "svb-3d7012259dc6",
+    "question": "What epistemic status does the supplied evidence justify for this exact claim? Distinguish measured observations, calculations, assumptions, and stronger scientific interpretations."
+  },
+  {
+    "assumptions": [
+      "Compare the reported readings only; preserve ppm and counts/min/min units."
+    ],
+    "claim": "The difference at 0.11 ppm establishes a precisely estimated population-average treatment effect across independent enzyme preparations.",
+    "documents": [
+      {
+        "id": "PU-METHOD",
+        "source_id": "puromycin",
+        "text": "R datasets Puromycin documents substrate concentration in ppm and instantaneous reaction rate in counts/min/min. It says counts per minute of radioactive product were measured as a function of substrate concentration, then initial reaction velocity was calculated. The experiment was conducted once with enzyme treated with Puromycin and once untreated. There are 23 rows. Source: Treloar (1974), as reproduced in Bates and Watts (1988), AppendixA 1.3; curated R source transcription.",
+        "title": "R source documentation of enzyme experiment"
+      },
+      {
+        "id": "PU-DATA",
+        "source_id": "puromycin",
+        "text": "conc,rate,state\n0.02,76,treated\n0.02,47,treated\n0.06,97,treated\n0.06,107,treated\n0.11,123,treated\n0.11,139,treated\n0.22,159,treated\n0.22,152,treated\n0.56,191,treated\n0.56,201,treated\n1.1,207,treated\n1.1,200,treated\n0.02,67,untreated\n0.02,51,untreated\n0.06,84,untreated\n0.06,86,untreated\n0.11,98,untreated\n0.11,115,untreated\n0.22,131,untreated\n0.22,124,untreated\n0.56,144,untreated\n0.56,158,untreated\n1.1,160,untreated\n",
+        "title": "Recorded Puromycin enzyme-reaction data"
+      }
+    ],
+    "methodology": "Read the supplied source excerpts and measurement tables. Check any arithmetic directly from the observations. Evaluate only the exact proposed claim; distinguish a failure of evidence from a contradiction.",
+    "public_id": "svb-6cf18a16d481",
+    "question": "What epistemic status does the supplied evidence justify for this exact claim? Distinguish measured observations, calculations, assumptions, and stronger scientific interpretations."
+  },
+  {
+    "assumptions": [
+      "Compare the reported readings only; preserve ppm and counts/min/min units."
+    ],
+    "claim": "At recorded concentration 0.11 ppm, the treated mean reaction rate is 131 counts/min/min and the untreated mean is 106.5 counts/min/min.",
+    "documents": [
+      {
+        "id": "PU-METHOD",
+        "source_id": "puromycin",
+        "text": "R datasets Puromycin documents substrate concentration in ppm and instantaneous reaction rate in counts/min/min. It says counts per minute of radioactive product were measured as a function of substrate concentration, then initial reaction velocity was calculated. The experiment was conducted once with enzyme treated with Puromycin and once untreated. There are 23 rows. Source: Treloar (1974), as reproduced in Bates and Watts (1988), AppendixA 1.3; curated R source transcription.",
+        "title": "R source documentation of enzyme experiment"
+      },
+      {
+        "id": "PU-DATA",
+        "source_id": "puromycin",
+        "text": "conc,rate,state\n0.02,76,treated\n0.02,47,treated\n0.06,97,treated\n0.06,107,treated\n0.11,123,treated\n0.11,139,treated\n0.22,159,treated\n0.22,152,treated\n0.56,191,treated\n0.56,201,treated\n1.1,207,treated\n1.1,200,treated\n0.02,67,untreated\n0.02,51,untreated\n0.06,84,untreated\n0.06,86,untreated\n0.11,98,untreated\n0.11,115,untreated\n0.22,131,untreated\n0.22,124,untreated\n0.56,144,untreated\n0.56,158,untreated\n1.1,160,untreated\n",
+        "title": "Recorded Puromycin enzyme-reaction data"
+      }
+    ],
+    "methodology": "Read the supplied source excerpts and measurement tables. Check any arithmetic directly from the observations. Evaluate only the exact proposed claim; distinguish a failure of evidence from a contradiction.",
+    "public_id": "svb-5cac43968ca3",
+    "question": "What epistemic status does the supplied evidence justify for this exact claim? Distinguish measured observations, calculations, assumptions, and stronger scientific interpretations."
+  },
+  {
+    "assumptions": [
+      "For arithmetic, treat the displayed stored values as exact numerical inputs; this does not make the physical measurements exact."
+    ],
+    "claim": "The growth series of chick 1 establishes that diet 1 caused exactly 163 grams of additional body weight compared with what this chick would have weighed without diet 1.",
+    "documents": [
+      {
+        "id": "CW-METHOD",
+        "source_id": "chick_growth",
+        "text": "The R ChickWeight dataset describes an experiment on early growth under four protein diets. Body weight is recorded in grams; Time is days since birth; Chick is a unique chick identifier; Diet identifies the experimental diet. Weights were measured at birth and every second day until day 20, and also at day 21. The complete curated table has 578 observations. The R source cites Crowder and Hand (1990), Example 5.3, pages 74–78, and Hand and Crowder (1996), Table A.2, page 172. Ordered factor labels identify chicks; factor ordering groups diets and orders final weights.",
+        "title": "R documentation of early chick growth observations"
+      },
+      {
+        "id": "CW-CHICK1",
+        "source_id": "chick_growth",
+        "text": "Chick,Diet,Time,weight\n1,1,0,42\n1,1,2,51\n1,1,4,59\n1,1,6,64\n1,1,8,76\n1,1,10,93\n1,1,12,106\n1,1,14,125\n1,1,16,149\n1,1,18,171\n1,1,20,199\n1,1,21,205\n",
+        "title": "Recorded growth series for chick 1"
+      }
+    ],
+    "methodology": "Read the source description and recorded observations. Check any calculation using the stated units and experimental identifiers. Assess the precise target claim and explain its evidential basis.",
+    "public_id": "svb-e3d611a0ffa3",
+    "question": "Which epistemic status is justified for this precise claim by the supplied scientific record?"
+  },
+  {
+    "assumptions": [
+      "Compare treated means at the two stated concentrations; do not fit a model or infer molecular mechanisms."
+    ],
+    "claim": "The recorded sublinear rate increase uniquely establishes Michaelis–Menten binding kinetics and identifies the molecular binding mechanism.",
+    "documents": [
+      {
+        "id": "PU-METHOD",
+        "source_id": "puromycin",
+        "text": "R datasets Puromycin documents substrate concentration in ppm and instantaneous reaction rate in counts/min/min. It says counts per minute of radioactive product were measured as a function of substrate concentration, then initial reaction velocity was calculated. The experiment was conducted once with enzyme treated with Puromycin and once untreated. There are 23 rows. Source: Treloar (1974), as reproduced in Bates and Watts (1988), AppendixA 1.3; curated R source transcription.",
+        "title": "R source documentation of enzyme experiment"
+      },
+      {
+        "id": "PU-DATA",
+        "source_id": "puromycin",
+        "text": "conc,rate,state\n0.02,76,treated\n0.02,47,treated\n0.06,97,treated\n0.06,107,treated\n0.11,123,treated\n0.11,139,treated\n0.22,159,treated\n0.22,152,treated\n0.56,191,treated\n0.56,201,treated\n1.1,207,treated\n1.1,200,treated\n0.02,67,untreated\n0.02,51,untreated\n0.06,84,untreated\n0.06,86,untreated\n0.11,98,untreated\n0.11,115,untreated\n0.22,131,untreated\n0.22,124,untreated\n0.56,144,untreated\n0.56,158,untreated\n1.1,160,untreated\n",
+        "title": "Recorded Puromycin enzyme-reaction data"
+      }
+    ],
+    "methodology": "Read the supplied source excerpts and measurement tables. Check any arithmetic directly from the observations. Evaluate only the exact proposed claim; distinguish a failure of evidence from a contradiction.",
+    "public_id": "svb-8ac12705d301",
+    "question": "What epistemic status does the supplied evidence justify for this exact claim? Distinguish measured observations, calculations, assumptions, and stronger scientific interpretations."
+  },
+  {
+    "assumptions": [
+      "Analyze only Quebec plants and recorded concentration code 1000."
+    ],
+    "claim": "At concentration code 1000, the observed mean uptake of the three Quebec nonchilled plants exceeds that of the three Quebec chilled plants.",
+    "documents": [
+      {
+        "id": "CO-METHOD",
+        "source_id": "grass_co2",
+        "text": "R datasets CO2:84 observations from 12 grass plants (Echinochloa crus-galli), six from Quebec and six from Mississippi. Each plant was measured at seven recorded ambient concentration levels 95, 175, 250, 350, 500, 675, 1000. Half the plants of each origin were chilled overnight. Plant is the experimental-unit identifier; successive concentrations are repeated observations of that plant. Uptake is documented in micromol per square metre per second. The R manual labels ambient concentration mL/L; the numeric source scale is preserved in this table. Source Potvin, Lechowicz and Tardif (1990), curated R transcription, formerly nlme.",
+        "title": "R documentation of cold-tolerance experiment"
+      },
+      {
+        "id": "CO-DATA",
+        "source_id": "grass_co2",
+        "text": "Plant,Type,Treatment,conc,uptake\nQn1,Quebec,nonchilled,95,16\nQn1,Quebec,nonchilled,175,30.4\nQn1,Quebec,nonchilled,250,34.8\nQn1,Quebec,nonchilled,350,37.2\nQn1,Quebec,nonchilled,500,35.3\nQn1,Quebec,nonchilled,675,39.2\nQn1,Quebec,nonchilled,1000,39.7\nQn2,Quebec,nonchilled,95,13.6\nQn2,Quebec,nonchilled,175,27.3\nQn2,Quebec,nonchilled,250,37.1\nQn2,Quebec,nonchilled,350,41.8\nQn2,Quebec,nonchilled,500,40.6\nQn2,Quebec,nonchilled,675,41.4\nQn2,Quebec,nonchilled,1000,44.3\nQn3,Quebec,nonchilled,95,16.2\nQn3,Quebec,nonchilled,175,32.4\nQn3,Quebec,nonchilled,250,40.3\nQn3,Quebec,nonchilled,350,42.1\nQn3,Quebec,nonchilled,500,42.9\nQn3,Quebec,nonchilled,675,43.9\nQn3,Quebec,nonchilled,1000,45.5\nQc1,Quebec,chilled,95,14.2\nQc1,Quebec,chilled,175,24.1\nQc1,Quebec,chilled,250,30.3\nQc1,Quebec,chilled,350,34.6\nQc1,Quebec,chilled,500,32.5\nQc1,Quebec,chilled,675,35.4\nQc1,Quebec,chilled,1000,38.7\nQc2,Quebec,chilled,95,9.3\nQc2,Quebec,chilled,175,27.3\nQc2,Quebec,chilled,250,35\nQc2,Quebec,chilled,350,38.8\nQc2,Quebec,chilled,500,38.6\nQc2,Quebec,chilled,675,37.5\nQc2,Quebec,chilled,1000,42.4\nQc3,Quebec,chilled,95,15.1\nQc3,Quebec,chilled,175,21\nQc3,Quebec,chilled,250,38.1\nQc3,Quebec,chilled,350,34\nQc3,Quebec,chilled,500,38.9\nQc3,Quebec,chilled,675,39.6\nQc3,Quebec,chilled,1000,41.4\nMn1,Mississippi,nonchilled,95,10.6\nMn1,Mississippi,nonchilled,175,19.2\nMn1,Mississippi,nonchilled,250,26.2\nMn1,Mississippi,nonchilled,350,30\nMn1,Mississippi,nonchilled,500,30.9\nMn1,Mississippi,nonchilled,675,32.4\nMn1,Mississippi,nonchilled,1000,35.5\nMn2,Mississippi,nonchilled,95,12\nMn2,Mississippi,nonchilled,175,22\nMn2,Mississippi,nonchilled,250,30.6\nMn2,Mississippi,nonchilled,350,31.8\nMn2,Mississippi,nonchilled,500,32.4\nMn2,Mississippi,nonchilled,675,31.1\nMn2,Mississippi,nonchilled,1000,31.5\nMn3,Mississippi,nonchilled,95,11.3\nMn3,Mississippi,nonchilled,175,19.4\nMn3,Mississippi,nonchilled,250,25.8\nMn3,Mississippi,nonchilled,350,27.9\nMn3,Mississippi,nonchilled,500,28.5\nMn3,Mississippi,nonchilled,675,28.1\nMn3,Mississippi,nonchilled,1000,27.8\nMc1,Mississippi,chilled,95,10.5\nMc1,Mississippi,chilled,175,14.9\nMc1,Mississippi,chilled,250,18.1\nMc1,Mississippi,chilled,350,18.9\nMc1,Mississippi,chilled,500,19.5\nMc1,Mississippi,chilled,675,22.2\nMc1,Mississippi,chilled,1000,21.9\nMc2,Mississippi,chilled,95,7.7\nMc2,Mississippi,chilled,175,11.4\nMc2,Mississippi,chilled,250,12.3\nMc2,Mississippi,chilled,350,13\nMc2,Mississippi,chilled,500,12.5\nMc2,Mississippi,chilled,675,13.7\nMc2,Mississippi,chilled,1000,14.4\nMc3,Mississippi,chilled,95,10.6\nMc3,Mississippi,chilled,175,18\nMc3,Mississippi,chilled,250,17.9\nMc3,Mississippi,chilled,350,17.9\nMc3,Mississippi,chilled,500,17.9\nMc3,Mississippi,chilled,675,18.9\nMc3,Mississippi,chilled,1000,19.9\n",
+        "title": "Recorded grass-plant CO2 uptake data"
+      }
+    ],
+    "methodology": "Read the supplied source excerpts and measurement tables. Check any arithmetic directly from the observations. Evaluate only the exact proposed claim; distinguish a failure of evidence from a contradiction.",
+    "public_id": "svb-f00434596561",
+    "question": "What epistemic status does the supplied evidence justify for this exact claim? Distinguish measured observations, calculations, assumptions, and stronger scientific interpretations."
+  },
+  {
+    "assumptions": [
+      "Describe agreement of the two displayed rounded values only."
+    ],
+    "claim": "For neopentane, the displayed FreeSolv experimental and calculated hydration values both equal 2.51 kcal/mol.",
+    "documents": [
+      {
+        "id": "FS-METHOD",
+        "source_id": "freesolv",
+        "text": "FreeSolv database.txt header labels experimental hydration free energy, experimental uncertainty, GAFF calculated hydration free energy and calculated uncertainty, all in kcal/mol. Hydration is transfer to water. Experimental_reference identifies the paper from which a value was taken; calculated_reference for these rows is10.1021/acs.jced.7b00104. Fields label different evidence types. The database notes mark some uncertainty values as assigned defaults when experimental uncertainty is unavailable.",
+        "title": "FreeSolv field definitions and provenance"
+      },
+      {
+        "id": "FS-DATA",
+        "source_id": "freesolv",
+        "text": "id,name,experimental_kcal_mol,experimental_uncertainty_kcal_mol,calculated_kcal_mol,calculated_uncertainty_kcal_mol,experimental_reference,calculated_reference,notes\nmobley_1261349,neopentane,2.51,0.60,2.51,0.02,10.1021/ct050097l,10.1021/acs.jced.7b00104,\"Experimental uncertainty not presently available, so assigned a default value.\"\nmobley_1323538,triethylphosphate,-7.50,0.20,-10.25,0.04,10.1039/P29900000291,10.1021/acs.jced.7b00104,Experimental uncertainty as suggested by 10.1039/P29900000291 -- 0.2 kcal/mol.\nmobley_1636752,methanol,-5.10,0.60,-3.49,0.02,10.1021/ct050097l,10.1021/acs.jced.7b00104,\"Experimental uncertainty not presently available, so assigned a default value.\"\nmobley_2310185,ethanol,-5.00,0.60,-3.39,0.02,10.1021/ct050097l,10.1021/acs.jced.7b00104,\"Experimental uncertainty not presently available, so assigned a default value.\"\nmobley_3053621,benzene,-0.90,0.20,-0.81,0.02,10.1039/P29900000291,10.1021/acs.jced.7b00104,Experimental uncertainty as suggested by 10.1039/P29900000291 -- 0.2 kcal/mol.\nmobley_9055303,methane,2.00,0.20,2.45,0.01,10.1039/P29900000291,10.1021/acs.jced.7b00104,Experimental uncertainty as suggested by 10.1039/P29900000291 -- 0.2 kcal/mol.\n",
+        "title": "FreeSolv selected thermodynamic records"
+      }
+    ],
+    "methodology": "Read the supplied source excerpts and measurement tables. Check any arithmetic directly from the observations. Evaluate only the exact proposed claim; distinguish a failure of evidence from a contradiction.",
+    "public_id": "svb-42170d786de1",
+    "question": "What epistemic status does the supplied evidence justify for this exact claim? Distinguish measured observations, calculations, assumptions, and stronger scientific interpretations."
+  },
+  {
+    "assumptions": [
+      "Count Plant identifiers and concentration observations separately."
+    ],
+    "claim": "A comparison using all 84 rows as 84 independent plants is justified by the supplied repeated-observation design.",
+    "documents": [
+      {
+        "id": "CO-METHOD",
+        "source_id": "grass_co2",
+        "text": "R datasets CO2:84 observations from 12 grass plants (Echinochloa crus-galli), six from Quebec and six from Mississippi. Each plant was measured at seven recorded ambient concentration levels 95, 175, 250, 350, 500, 675, 1000. Half the plants of each origin were chilled overnight. Plant is the experimental-unit identifier; successive concentrations are repeated observations of that plant. Uptake is documented in micromol per square metre per second. The R manual labels ambient concentration mL/L; the numeric source scale is preserved in this table. Source Potvin, Lechowicz and Tardif (1990), curated R transcription, formerly nlme.",
+        "title": "R documentation of cold-tolerance experiment"
+      },
+      {
+        "id": "CO-DATA",
+        "source_id": "grass_co2",
+        "text": "Plant,Type,Treatment,conc,uptake\nQn1,Quebec,nonchilled,95,16\nQn1,Quebec,nonchilled,175,30.4\nQn1,Quebec,nonchilled,250,34.8\nQn1,Quebec,nonchilled,350,37.2\nQn1,Quebec,nonchilled,500,35.3\nQn1,Quebec,nonchilled,675,39.2\nQn1,Quebec,nonchilled,1000,39.7\nQn2,Quebec,nonchilled,95,13.6\nQn2,Quebec,nonchilled,175,27.3\nQn2,Quebec,nonchilled,250,37.1\nQn2,Quebec,nonchilled,350,41.8\nQn2,Quebec,nonchilled,500,40.6\nQn2,Quebec,nonchilled,675,41.4\nQn2,Quebec,nonchilled,1000,44.3\nQn3,Quebec,nonchilled,95,16.2\nQn3,Quebec,nonchilled,175,32.4\nQn3,Quebec,nonchilled,250,40.3\nQn3,Quebec,nonchilled,350,42.1\nQn3,Quebec,nonchilled,500,42.9\nQn3,Quebec,nonchilled,675,43.9\nQn3,Quebec,nonchilled,1000,45.5\nQc1,Quebec,chilled,95,14.2\nQc1,Quebec,chilled,175,24.1\nQc1,Quebec,chilled,250,30.3\nQc1,Quebec,chilled,350,34.6\nQc1,Quebec,chilled,500,32.5\nQc1,Quebec,chilled,675,35.4\nQc1,Quebec,chilled,1000,38.7\nQc2,Quebec,chilled,95,9.3\nQc2,Quebec,chilled,175,27.3\nQc2,Quebec,chilled,250,35\nQc2,Quebec,chilled,350,38.8\nQc2,Quebec,chilled,500,38.6\nQc2,Quebec,chilled,675,37.5\nQc2,Quebec,chilled,1000,42.4\nQc3,Quebec,chilled,95,15.1\nQc3,Quebec,chilled,175,21\nQc3,Quebec,chilled,250,38.1\nQc3,Quebec,chilled,350,34\nQc3,Quebec,chilled,500,38.9\nQc3,Quebec,chilled,675,39.6\nQc3,Quebec,chilled,1000,41.4\nMn1,Mississippi,nonchilled,95,10.6\nMn1,Mississippi,nonchilled,175,19.2\nMn1,Mississippi,nonchilled,250,26.2\nMn1,Mississippi,nonchilled,350,30\nMn1,Mississippi,nonchilled,500,30.9\nMn1,Mississippi,nonchilled,675,32.4\nMn1,Mississippi,nonchilled,1000,35.5\nMn2,Mississippi,nonchilled,95,12\nMn2,Mississippi,nonchilled,175,22\nMn2,Mississippi,nonchilled,250,30.6\nMn2,Mississippi,nonchilled,350,31.8\nMn2,Mississippi,nonchilled,500,32.4\nMn2,Mississippi,nonchilled,675,31.1\nMn2,Mississippi,nonchilled,1000,31.5\nMn3,Mississippi,nonchilled,95,11.3\nMn3,Mississippi,nonchilled,175,19.4\nMn3,Mississippi,nonchilled,250,25.8\nMn3,Mississippi,nonchilled,350,27.9\nMn3,Mississippi,nonchilled,500,28.5\nMn3,Mississippi,nonchilled,675,28.1\nMn3,Mississippi,nonchilled,1000,27.8\nMc1,Mississippi,chilled,95,10.5\nMc1,Mississippi,chilled,175,14.9\nMc1,Mississippi,chilled,250,18.1\nMc1,Mississippi,chilled,350,18.9\nMc1,Mississippi,chilled,500,19.5\nMc1,Mississippi,chilled,675,22.2\nMc1,Mississippi,chilled,1000,21.9\nMc2,Mississippi,chilled,95,7.7\nMc2,Mississippi,chilled,175,11.4\nMc2,Mississippi,chilled,250,12.3\nMc2,Mississippi,chilled,350,13\nMc2,Mississippi,chilled,500,12.5\nMc2,Mississippi,chilled,675,13.7\nMc2,Mississippi,chilled,1000,14.4\nMc3,Mississippi,chilled,95,10.6\nMc3,Mississippi,chilled,175,18\nMc3,Mississippi,chilled,250,17.9\nMc3,Mississippi,chilled,350,17.9\nMc3,Mississippi,chilled,500,17.9\nMc3,Mississippi,chilled,675,18.9\nMc3,Mississippi,chilled,1000,19.9\n",
+        "title": "Recorded grass-plant CO2 uptake data"
+      }
+    ],
+    "methodology": "Read the supplied source excerpts and measurement tables. Check any arithmetic directly from the observations. Evaluate only the exact proposed claim; distinguish a failure of evidence from a contradiction.",
+    "public_id": "svb-4d714c05db2d",
+    "question": "What epistemic status does the supplied evidence justify for this exact claim? Distinguish measured observations, calculations, assumptions, and stronger scientific interpretations."
+  },
+  {
+    "assumptions": [
+      "Interpret experimental and calculated columns according to the source header; use only the named published-reference entries."
+    ],
+    "claim": "These hydration values prove that ethanol binds more tightly than methane to an arbitrary protein target.",
+    "documents": [
+      {
+        "id": "FS-METHOD",
+        "source_id": "freesolv",
+        "text": "FreeSolv database.txt header labels experimental hydration free energy, experimental uncertainty, GAFF calculated hydration free energy and calculated uncertainty, all in kcal/mol. Hydration is transfer to water. Experimental_reference identifies the paper from which a value was taken; calculated_reference for these rows is10.1021/acs.jced.7b00104. Fields label different evidence types. The database notes mark some uncertainty values as assigned defaults when experimental uncertainty is unavailable.",
+        "title": "FreeSolv field definitions and provenance"
+      },
+      {
+        "id": "FS-DATA",
+        "source_id": "freesolv",
+        "text": "id,name,experimental_kcal_mol,experimental_uncertainty_kcal_mol,calculated_kcal_mol,calculated_uncertainty_kcal_mol,experimental_reference,calculated_reference,notes\nmobley_1261349,neopentane,2.51,0.60,2.51,0.02,10.1021/ct050097l,10.1021/acs.jced.7b00104,\"Experimental uncertainty not presently available, so assigned a default value.\"\nmobley_1323538,triethylphosphate,-7.50,0.20,-10.25,0.04,10.1039/P29900000291,10.1021/acs.jced.7b00104,Experimental uncertainty as suggested by 10.1039/P29900000291 -- 0.2 kcal/mol.\nmobley_1636752,methanol,-5.10,0.60,-3.49,0.02,10.1021/ct050097l,10.1021/acs.jced.7b00104,\"Experimental uncertainty not presently available, so assigned a default value.\"\nmobley_2310185,ethanol,-5.00,0.60,-3.39,0.02,10.1021/ct050097l,10.1021/acs.jced.7b00104,\"Experimental uncertainty not presently available, so assigned a default value.\"\nmobley_3053621,benzene,-0.90,0.20,-0.81,0.02,10.1039/P29900000291,10.1021/acs.jced.7b00104,Experimental uncertainty as suggested by 10.1039/P29900000291 -- 0.2 kcal/mol.\nmobley_9055303,methane,2.00,0.20,2.45,0.01,10.1039/P29900000291,10.1021/acs.jced.7b00104,Experimental uncertainty as suggested by 10.1039/P29900000291 -- 0.2 kcal/mol.\n",
+        "title": "FreeSolv selected thermodynamic records"
+      }
+    ],
+    "methodology": "Read the supplied source excerpts and measurement tables. Check any arithmetic directly from the observations. Evaluate only the exact proposed claim; distinguish a failure of evidence from a contradiction.",
+    "public_id": "svb-452e4e23d192",
+    "question": "What epistemic status does the supplied evidence justify for this exact claim? Distinguish measured observations, calculations, assumptions, and stronger scientific interpretations."
+  },
+  {
+    "assumptions": [
+      "Describe agreement of the two displayed rounded values only."
+    ],
+    "claim": "Equality of the two displayed neopentane values proves exact physical prediction with zero model discrepancy at every temperature.",
+    "documents": [
+      {
+        "id": "FS-METHOD",
+        "source_id": "freesolv",
+        "text": "FreeSolv database.txt header labels experimental hydration free energy, experimental uncertainty, GAFF calculated hydration free energy and calculated uncertainty, all in kcal/mol. Hydration is transfer to water. Experimental_reference identifies the paper from which a value was taken; calculated_reference for these rows is10.1021/acs.jced.7b00104. Fields label different evidence types. The database notes mark some uncertainty values as assigned defaults when experimental uncertainty is unavailable.",
+        "title": "FreeSolv field definitions and provenance"
+      },
+      {
+        "id": "FS-DATA",
+        "source_id": "freesolv",
+        "text": "id,name,experimental_kcal_mol,experimental_uncertainty_kcal_mol,calculated_kcal_mol,calculated_uncertainty_kcal_mol,experimental_reference,calculated_reference,notes\nmobley_1261349,neopentane,2.51,0.60,2.51,0.02,10.1021/ct050097l,10.1021/acs.jced.7b00104,\"Experimental uncertainty not presently available, so assigned a default value.\"\nmobley_1323538,triethylphosphate,-7.50,0.20,-10.25,0.04,10.1039/P29900000291,10.1021/acs.jced.7b00104,Experimental uncertainty as suggested by 10.1039/P29900000291 -- 0.2 kcal/mol.\nmobley_1636752,methanol,-5.10,0.60,-3.49,0.02,10.1021/ct050097l,10.1021/acs.jced.7b00104,\"Experimental uncertainty not presently available, so assigned a default value.\"\nmobley_2310185,ethanol,-5.00,0.60,-3.39,0.02,10.1021/ct050097l,10.1021/acs.jced.7b00104,\"Experimental uncertainty not presently available, so assigned a default value.\"\nmobley_3053621,benzene,-0.90,0.20,-0.81,0.02,10.1039/P29900000291,10.1021/acs.jced.7b00104,Experimental uncertainty as suggested by 10.1039/P29900000291 -- 0.2 kcal/mol.\nmobley_9055303,methane,2.00,0.20,2.45,0.01,10.1039/P29900000291,10.1021/acs.jced.7b00104,Experimental uncertainty as suggested by 10.1039/P29900000291 -- 0.2 kcal/mol.\n",
+        "title": "FreeSolv selected thermodynamic records"
+      }
+    ],
+    "methodology": "Read the supplied source excerpts and measurement tables. Check any arithmetic directly from the observations. Evaluate only the exact proposed claim; distinguish a failure of evidence from a contradiction.",
+    "public_id": "svb-ceaeb8b404e1",
+    "question": "What epistemic status does the supplied evidence justify for this exact claim? Distinguish measured observations, calculations, assumptions, and stronger scientific interpretations."
+  },
+  {
+    "assumptions": [
+      "For arithmetic, treat the displayed stored values as exact numerical inputs; this does not make the physical measurements exact."
+    ],
+    "claim": "Using patient ID to pair the recorded observations, the mean of drug 2 minus drug 1 sleep prolongation is 1.58 hours.",
+    "documents": [
+      {
+        "id": "SL-METHOD",
+        "source_id": "sleep",
+        "text": "The R datasets manual describes the sleep data as the effect of two soporific drugs: increase in hours of sleep compared with control on 10 patients. The column extra is the increase in hours; group identifies the drug and ID identifies the patient. The manual explicitly states that the group name may be misleading: these are measurements on 10 persons, not separate groups. The data have 20 observations. The source citations are Cushny and Peebles (1905) and Student (1908). This packet transcribes the public R dataset and its documentation.",
+        "title": "R datasets documentation of the historical sleep study"
+      },
+      {
+        "id": "SL-OBS",
+        "source_id": "sleep",
+        "text": "ID,group,extra\n1,1,0.7\n2,1,-1.6\n3,1,-0.2\n4,1,-1.2\n5,1,-0.1\n6,1,3.4\n7,1,3.7\n8,1,0.8\n9,1,0\n10,1,2\n1,2,1.9\n2,2,0.8\n3,2,1.1\n4,2,0.1\n5,2,-0.1\n6,2,4.4\n7,2,5.5\n8,2,1.6\n9,2,4.6\n10,2,3.4\n",
+        "title": "Recorded sleep prolongation observations"
+      }
+    ],
+    "methodology": "Read the source description and recorded observations. Check any calculation using the stated units and experimental identifiers. Assess the precise target claim and explain its evidential basis.",
+    "public_id": "svb-fc666137259f",
+    "question": "Which epistemic status is justified for this precise claim by the supplied scientific record?"
+  },
+  {
+    "assumptions": [
+      "Compare Qn1 recorded uptake values directly, retaining source concentration codes."
+    ],
+    "claim": "For plant Qn1, the recorded uptake at concentration code 500 is 35.3, lower than 37.2 at code 350.",
+    "documents": [
+      {
+        "id": "CO-METHOD",
+        "source_id": "grass_co2",
+        "text": "R datasets CO2:84 observations from 12 grass plants (Echinochloa crus-galli), six from Quebec and six from Mississippi. Each plant was measured at seven recorded ambient concentration levels 95, 175, 250, 350, 500, 675, 1000. Half the plants of each origin were chilled overnight. Plant is the experimental-unit identifier; successive concentrations are repeated observations of that plant. Uptake is documented in micromol per square metre per second. The R manual labels ambient concentration mL/L; the numeric source scale is preserved in this table. Source Potvin, Lechowicz and Tardif (1990), curated R transcription, formerly nlme.",
+        "title": "R documentation of cold-tolerance experiment"
+      },
+      {
+        "id": "CO-DATA",
+        "source_id": "grass_co2",
+        "text": "Plant,Type,Treatment,conc,uptake\nQn1,Quebec,nonchilled,95,16\nQn1,Quebec,nonchilled,175,30.4\nQn1,Quebec,nonchilled,250,34.8\nQn1,Quebec,nonchilled,350,37.2\nQn1,Quebec,nonchilled,500,35.3\nQn1,Quebec,nonchilled,675,39.2\nQn1,Quebec,nonchilled,1000,39.7\nQn2,Quebec,nonchilled,95,13.6\nQn2,Quebec,nonchilled,175,27.3\nQn2,Quebec,nonchilled,250,37.1\nQn2,Quebec,nonchilled,350,41.8\nQn2,Quebec,nonchilled,500,40.6\nQn2,Quebec,nonchilled,675,41.4\nQn2,Quebec,nonchilled,1000,44.3\nQn3,Quebec,nonchilled,95,16.2\nQn3,Quebec,nonchilled,175,32.4\nQn3,Quebec,nonchilled,250,40.3\nQn3,Quebec,nonchilled,350,42.1\nQn3,Quebec,nonchilled,500,42.9\nQn3,Quebec,nonchilled,675,43.9\nQn3,Quebec,nonchilled,1000,45.5\nQc1,Quebec,chilled,95,14.2\nQc1,Quebec,chilled,175,24.1\nQc1,Quebec,chilled,250,30.3\nQc1,Quebec,chilled,350,34.6\nQc1,Quebec,chilled,500,32.5\nQc1,Quebec,chilled,675,35.4\nQc1,Quebec,chilled,1000,38.7\nQc2,Quebec,chilled,95,9.3\nQc2,Quebec,chilled,175,27.3\nQc2,Quebec,chilled,250,35\nQc2,Quebec,chilled,350,38.8\nQc2,Quebec,chilled,500,38.6\nQc2,Quebec,chilled,675,37.5\nQc2,Quebec,chilled,1000,42.4\nQc3,Quebec,chilled,95,15.1\nQc3,Quebec,chilled,175,21\nQc3,Quebec,chilled,250,38.1\nQc3,Quebec,chilled,350,34\nQc3,Quebec,chilled,500,38.9\nQc3,Quebec,chilled,675,39.6\nQc3,Quebec,chilled,1000,41.4\nMn1,Mississippi,nonchilled,95,10.6\nMn1,Mississippi,nonchilled,175,19.2\nMn1,Mississippi,nonchilled,250,26.2\nMn1,Mississippi,nonchilled,350,30\nMn1,Mississippi,nonchilled,500,30.9\nMn1,Mississippi,nonchilled,675,32.4\nMn1,Mississippi,nonchilled,1000,35.5\nMn2,Mississippi,nonchilled,95,12\nMn2,Mississippi,nonchilled,175,22\nMn2,Mississippi,nonchilled,250,30.6\nMn2,Mississippi,nonchilled,350,31.8\nMn2,Mississippi,nonchilled,500,32.4\nMn2,Mississippi,nonchilled,675,31.1\nMn2,Mississippi,nonchilled,1000,31.5\nMn3,Mississippi,nonchilled,95,11.3\nMn3,Mississippi,nonchilled,175,19.4\nMn3,Mississippi,nonchilled,250,25.8\nMn3,Mississippi,nonchilled,350,27.9\nMn3,Mississippi,nonchilled,500,28.5\nMn3,Mississippi,nonchilled,675,28.1\nMn3,Mississippi,nonchilled,1000,27.8\nMc1,Mississippi,chilled,95,10.5\nMc1,Mississippi,chilled,175,14.9\nMc1,Mississippi,chilled,250,18.1\nMc1,Mississippi,chilled,350,18.9\nMc1,Mississippi,chilled,500,19.5\nMc1,Mississippi,chilled,675,22.2\nMc1,Mississippi,chilled,1000,21.9\nMc2,Mississippi,chilled,95,7.7\nMc2,Mississippi,chilled,175,11.4\nMc2,Mississippi,chilled,250,12.3\nMc2,Mississippi,chilled,350,13\nMc2,Mississippi,chilled,500,12.5\nMc2,Mississippi,chilled,675,13.7\nMc2,Mississippi,chilled,1000,14.4\nMc3,Mississippi,chilled,95,10.6\nMc3,Mississippi,chilled,175,18\nMc3,Mississippi,chilled,250,17.9\nMc3,Mississippi,chilled,350,17.9\nMc3,Mississippi,chilled,500,17.9\nMc3,Mississippi,chilled,675,18.9\nMc3,Mississippi,chilled,1000,19.9\n",
+        "title": "Recorded grass-plant CO2 uptake data"
+      }
+    ],
+    "methodology": "Read the supplied source excerpts and measurement tables. Check any arithmetic directly from the observations. Evaluate only the exact proposed claim; distinguish a failure of evidence from a contradiction.",
+    "public_id": "svb-dd6bcec76ce1",
+    "question": "What epistemic status does the supplied evidence justify for this exact claim? Distinguish measured observations, calculations, assumptions, and stronger scientific interpretations."
+  },
+  {
+    "assumptions": [
+      "Describe only the records with identified sex and nonmissing body mass."
+    ],
+    "claim": "In these sex-identified Adélie observations, the male mean body mass exceeds the female mean body mass.",
+    "documents": [
+      {
+        "id": "PG-METHOD",
+        "source_id": "penguins",
+        "text": "Gorman, Williams and Fraser (2014), PLOS ONE 9:e 90081, DOI10.1371/journal.pone.0090081, and Palmer LTER dataset excerpts. Adult penguins were sampled at nests near Palmer Station during 2007–2009; raw Stage values are Adult, 1 Egg Stage. Body Mass (g), Species, Sex, Island and studyName are recorded fields. This is an observational breeding-season sample. Missing values are NA. The paper states body mass results are relevant to the egg-laying period and should not be considered representative of chick rearing or outside the breeding season.",
+        "title": "Palmer observational sampling and measurement context"
+      },
+      {
+        "id": "PG-SEX",
+        "source_id": "penguins",
+        "text": "studyName,Sex,Body Mass (g)\nPAL0708,MALE,3750\nPAL0708,FEMALE,3800\nPAL0708,FEMALE,3250\nPAL0708,FEMALE,3450\nPAL0708,MALE,3650\nPAL0708,FEMALE,3625\nPAL0708,MALE,4675\nPAL0708,FEMALE,3200\nPAL0708,MALE,3800\nPAL0708,MALE,4400\nPAL0708,FEMALE,3700\nPAL0708,FEMALE,3450\nPAL0708,MALE,4500\nPAL0708,FEMALE,3325\nPAL0708,MALE,4200\nPAL0708,FEMALE,3400\nPAL0708,MALE,3600\nPAL0708,FEMALE,3800\nPAL0708,MALE,3950\nPAL0708,MALE,3800\nPAL0708,FEMALE,3800\nPAL0708,MALE,3550\nPAL0708,FEMALE,3200\nPAL0708,FEMALE,3150\nPAL0708,MALE,3950\nPAL0708,FEMALE,3250\nPAL0708,MALE,3900\nPAL0708,FEMALE,3300\nPAL0708,MALE,3900\nPAL0708,FEMALE,3325\nPAL0708,MALE,4150\nPAL0708,MALE,3950\nPAL0708,FEMALE,3550\nPAL0708,FEMALE,3300\nPAL0708,MALE,4650\nPAL0708,FEMALE,3150\nPAL0708,MALE,3900\nPAL0708,FEMALE,3100\nPAL0708,MALE,4400\nPAL0708,FEMALE,3000\nPAL0708,MALE,4600\nPAL0708,MALE,3425\nPAL0708,FEMALE,3450\nPAL0708,MALE,4150\nPAL0809,FEMALE,3500\nPAL0809,MALE,4300\nPAL0809,FEMALE,3450\nPAL0809,MALE,4050\nPAL0809,FEMALE,2900\nPAL0809,MALE,3700\nPAL0809,FEMALE,3550\nPAL0809,MALE,3800\nPAL0809,FEMALE,2850\nPAL0809,MALE,3750\nPAL0809,FEMALE,3150\nPAL0809,MALE,4400\nPAL0809,FEMALE,3600\nPAL0809,MALE,4050\nPAL0809,FEMALE,2850\nPAL0809,MALE,3950\nPAL0809,FEMALE,3350\nPAL0809,MALE,4100\nPAL0809,FEMALE,3050\nPAL0809,MALE,4450\nPAL0809,FEMALE,3600\nPAL0809,MALE,3900\nPAL0809,FEMALE,3550\nPAL0809,MALE,4150\nPAL0809,FEMALE,3700\nPAL0809,MALE,4250\nPAL0809,FEMALE,3700\nPAL0809,MALE,3900\nPAL0809,FEMALE,3550\nPAL0809,MALE,4000\nPAL0809,FEMALE,3200\nPAL0809,MALE,4700\nPAL0809,FEMALE,3800\nPAL0809,MALE,4200\nPAL0809,FEMALE,3350\nPAL0809,MALE,3550\nPAL0809,MALE,3800\nPAL0809,FEMALE,3500\nPAL0809,MALE,3950\nPAL0809,FEMALE,3600\nPAL0809,FEMALE,3550\nPAL0809,MALE,4300\nPAL0809,FEMALE,3400\nPAL0809,MALE,4450\nPAL0809,FEMALE,3300\nPAL0809,MALE,4300\nPAL0809,FEMALE,3700\nPAL0809,MALE,4350\nPAL0809,FEMALE,2900\nPAL0809,MALE,4100\nPAL0910,FEMALE,3725\nPAL0910,MALE,4725\nPAL0910,FEMALE,3075\nPAL0910,MALE,4250\nPAL0910,FEMALE,2925\nPAL0910,MALE,3550\nPAL0910,FEMALE,3750\nPAL0910,MALE,3900\nPAL0910,FEMALE,3175\nPAL0910,MALE,4775\nPAL0910,FEMALE,3825\nPAL0910,MALE,4600\nPAL0910,FEMALE,3200\nPAL0910,MALE,4275\nPAL0910,FEMALE,3900\nPAL0910,MALE,4075\nPAL0910,FEMALE,2900\nPAL0910,MALE,3775\nPAL0910,FEMALE,3350\nPAL0910,MALE,3325\nPAL0910,FEMALE,3150\nPAL0910,MALE,3500\nPAL0910,FEMALE,3450\nPAL0910,MALE,3875\nPAL0910,FEMALE,3050\nPAL0910,MALE,4000\nPAL0910,FEMALE,3275\nPAL0910,MALE,4300\nPAL0910,FEMALE,3050\nPAL0910,MALE,4000\nPAL0910,FEMALE,3325\nPAL0910,MALE,3500\nPAL0910,FEMALE,3500\nPAL0910,MALE,4475\nPAL0910,FEMALE,3425\nPAL0910,MALE,3900\nPAL0910,FEMALE,3175\nPAL0910,MALE,3975\nPAL0910,FEMALE,3400\nPAL0910,MALE,4250\nPAL0910,FEMALE,3400\nPAL0910,MALE,3475\nPAL0910,FEMALE,3050\nPAL0910,MALE,3725\nPAL0910,FEMALE,3000\nPAL0910,MALE,3650\nPAL0910,MALE,4250\nPAL0910,FEMALE,3475\nPAL0910,FEMALE,3450\nPAL0910,MALE,3750\nPAL0910,FEMALE,3700\nPAL0910,MALE,4000\n",
+        "title": "Adélie records with identified sex"
+      }
+    ],
+    "methodology": "Read the supplied source excerpts and measurement tables. Check any arithmetic directly from the observations. Evaluate only the exact proposed claim; distinguish a failure of evidence from a contradiction.",
+    "public_id": "svb-83d78a283cbc",
+    "question": "What epistemic status does the supplied evidence justify for this exact claim? Distinguish measured observations, calculations, assumptions, and stronger scientific interpretations."
+  },
+  {
+    "assumptions": [
+      "Calculate the signed residual as GAFF calculated minus experimental value."
+    ],
+    "claim": "For the FreeSolv triethylphosphate record, the signed GAFF hydration residual is-2.75 kcal/mol (calculated minus experimental).",
+    "documents": [
+      {
+        "id": "FS-METHOD",
+        "source_id": "freesolv",
+        "text": "FreeSolv database.txt header labels experimental hydration free energy, experimental uncertainty, GAFF calculated hydration free energy and calculated uncertainty, all in kcal/mol. Hydration is transfer to water. Experimental_reference identifies the paper from which a value was taken; calculated_reference for these rows is10.1021/acs.jced.7b00104. Fields label different evidence types. The database notes mark some uncertainty values as assigned defaults when experimental uncertainty is unavailable.",
+        "title": "FreeSolv field definitions and provenance"
+      },
+      {
+        "id": "FS-DATA",
+        "source_id": "freesolv",
+        "text": "id,name,experimental_kcal_mol,experimental_uncertainty_kcal_mol,calculated_kcal_mol,calculated_uncertainty_kcal_mol,experimental_reference,calculated_reference,notes\nmobley_1261349,neopentane,2.51,0.60,2.51,0.02,10.1021/ct050097l,10.1021/acs.jced.7b00104,\"Experimental uncertainty not presently available, so assigned a default value.\"\nmobley_1323538,triethylphosphate,-7.50,0.20,-10.25,0.04,10.1039/P29900000291,10.1021/acs.jced.7b00104,Experimental uncertainty as suggested by 10.1039/P29900000291 -- 0.2 kcal/mol.\nmobley_1636752,methanol,-5.10,0.60,-3.49,0.02,10.1021/ct050097l,10.1021/acs.jced.7b00104,\"Experimental uncertainty not presently available, so assigned a default value.\"\nmobley_2310185,ethanol,-5.00,0.60,-3.39,0.02,10.1021/ct050097l,10.1021/acs.jced.7b00104,\"Experimental uncertainty not presently available, so assigned a default value.\"\nmobley_3053621,benzene,-0.90,0.20,-0.81,0.02,10.1039/P29900000291,10.1021/acs.jced.7b00104,Experimental uncertainty as suggested by 10.1039/P29900000291 -- 0.2 kcal/mol.\nmobley_9055303,methane,2.00,0.20,2.45,0.01,10.1039/P29900000291,10.1021/acs.jced.7b00104,Experimental uncertainty as suggested by 10.1039/P29900000291 -- 0.2 kcal/mol.\n",
+        "title": "FreeSolv selected thermodynamic records"
+      }
+    ],
+    "methodology": "Read the supplied source excerpts and measurement tables. Check any arithmetic directly from the observations. Evaluate only the exact proposed claim; distinguish a failure of evidence from a contradiction.",
+    "public_id": "svb-6feb378ca1c0",
+    "question": "What epistemic status does the supplied evidence justify for this exact claim? Distinguish measured observations, calculations, assumptions, and stronger scientific interpretations."
+  },
+  {
+    "assumptions": [
+      "Interpret experimental and calculated columns according to the source header; use only the named published-reference entries."
+    ],
+    "claim": "FreeSolv reports experimental hydration free energy-5.00 kcal/mol for ethanol and+2.00 kcal/mol for methane, so the reported ethanol value is more negative.",
+    "documents": [
+      {
+        "id": "FS-METHOD",
+        "source_id": "freesolv",
+        "text": "FreeSolv database.txt header labels experimental hydration free energy, experimental uncertainty, GAFF calculated hydration free energy and calculated uncertainty, all in kcal/mol. Hydration is transfer to water. Experimental_reference identifies the paper from which a value was taken; calculated_reference for these rows is10.1021/acs.jced.7b00104. Fields label different evidence types. The database notes mark some uncertainty values as assigned defaults when experimental uncertainty is unavailable.",
+        "title": "FreeSolv field definitions and provenance"
+      },
+      {
+        "id": "FS-DATA",
+        "source_id": "freesolv",
+        "text": "id,name,experimental_kcal_mol,experimental_uncertainty_kcal_mol,calculated_kcal_mol,calculated_uncertainty_kcal_mol,experimental_reference,calculated_reference,notes\nmobley_1261349,neopentane,2.51,0.60,2.51,0.02,10.1021/ct050097l,10.1021/acs.jced.7b00104,\"Experimental uncertainty not presently available, so assigned a default value.\"\nmobley_1323538,triethylphosphate,-7.50,0.20,-10.25,0.04,10.1039/P29900000291,10.1021/acs.jced.7b00104,Experimental uncertainty as suggested by 10.1039/P29900000291 -- 0.2 kcal/mol.\nmobley_1636752,methanol,-5.10,0.60,-3.49,0.02,10.1021/ct050097l,10.1021/acs.jced.7b00104,\"Experimental uncertainty not presently available, so assigned a default value.\"\nmobley_2310185,ethanol,-5.00,0.60,-3.39,0.02,10.1021/ct050097l,10.1021/acs.jced.7b00104,\"Experimental uncertainty not presently available, so assigned a default value.\"\nmobley_3053621,benzene,-0.90,0.20,-0.81,0.02,10.1039/P29900000291,10.1021/acs.jced.7b00104,Experimental uncertainty as suggested by 10.1039/P29900000291 -- 0.2 kcal/mol.\nmobley_9055303,methane,2.00,0.20,2.45,0.01,10.1039/P29900000291,10.1021/acs.jced.7b00104,Experimental uncertainty as suggested by 10.1039/P29900000291 -- 0.2 kcal/mol.\n",
+        "title": "FreeSolv selected thermodynamic records"
+      }
+    ],
+    "methodology": "Read the supplied source excerpts and measurement tables. Check any arithmetic directly from the observations. Evaluate only the exact proposed claim; distinguish a failure of evidence from a contradiction.",
+    "public_id": "svb-bc52f66b2e04",
+    "question": "What epistemic status does the supplied evidence justify for this exact claim? Distinguish measured observations, calculations, assumptions, and stronger scientific interpretations."
+  }
+]

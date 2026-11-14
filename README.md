@@ -4,6 +4,48 @@ An independent **research pilot** for evaluating what a scientific conclusion's 
 
 SVB separates mathematical validity, computation, numerical reliability, statistics, model adequacy, empirical support, provenance and evidence sufficiency. A correct computation does not automatically establish its physical interpretation.
 
+## Phase III (proposal/protocol 0.4.0)
+
+Phase III prepares external scientific review rather than adding scored cases or running more models. The [taxonomy analysis](docs/phase-iii/taxonomy.md) identifies overlapping evidence types and proposes separate evidence relation, justification, scope, computation, empirical support and uncertainty fields. The proposal has structural/logical checks; its scientific adequacy is **not validated**.
+
+A [12-case pilot](docs/phase-iii/pilot.md) reuses five study families, with separate answer-filtered reference/candidate packages and one shared source archive. A tested [human-review pipeline](docs/phase-iii/adjudication_pipeline.md) preserves multiple categories, uncertainty, rationales, disagreements, missing reviews and immutable rounds. **Zero human reviews or reviewer contacts have occurred.** Public masking does not establish blinding; no new model inference or paid resources were used.
+
+See the [Phase III report](docs/phase-iii/report.md), [external brief](docs/phase-iii/external_review_brief.md), [unsent outreach drafts](docs/phase-iii/outreach_drafts.md), [methodology audit](docs/phase-iii/methodology_audit.md), [future model-study design](docs/phase-iii/future_model_study.md), [PR reviewability audit](docs/phase-iii/release_reviewability.md), and [reproduction commands](docs/phase-iii/reproduce.md). All historical labels and scores are preserved. The existing PR remains draft and unmerged.
+
+## Phase IIb (protocol/data v0.3.0)
+
+Phase IIb separates **A: exact category only**, **B: prose justification/source attribution**, and **C: the preserved rich verification schema**. Unconstrained and category-constrained decoding are explicit separate interventions. Development qualification covered three pinned model sizes; none met every prespecified gate. The two original capacity levels are therefore measured as diagnostic behavior, not advertised as qualified scientific verifiers. No threshold was relaxed or model chosen using new-source outputs.
+
+There are12 new cases in six pairs from three additional studies: paired sleep observations, longitudinal chick growth, and biochemical oxygen demand. All are public curated sources, not hidden cases, original laboratory replications or guaranteed-unseen pretraining data. Old public items remain historical/development material, and frozen earlier results stay untouched. The source-complete external-review ZIP contains44 packets and132 blank forms; **zero human reviews have occurred**.
+
+Read the [executed Phase IIb report](docs/phase-iib/report.md), [specification](docs/phase-iib/specification.md), [manuscript continuation](docs/phase-iib/manuscript.md), and [reproduction commands](docs/phase-iib/reproduce.md). All120 final model calls completed; evidence-present minimal A admitted12/12 per model, exact2/12 (0.5B) and6/12 (1.5B), while rich C admitted0/6 each. These are provisional-reference diagnostics, not independently qualified scientific performance.
+
+See [methodology audit](docs/phase-iib/methodology_audit.md), [reference audit](docs/phase-iib/reference_adjudication_audit.md), [new sources](docs/phase-iib/new_sources.md), [model qualification](docs/phase-iib/model_qualification.md), [external review brief](docs/phase-iib/external_review_brief.md), and [bound utility study](docs/phase-iib/bound_utility.md). Dataset/protocol0.3 is additive; no Python-package release or prior PR merge is implied.
+
+```sh
+export PYTHONPATH="$PWD/src"
+export PYTHONDONTWRITEBYTECODE=1
+python3 -m svb.phase2b validate
+python3 -m svb.phase2b_references
+python3 -m unittest discover -s tests -v
+```
+
+## Phase II (v0.2.0 release candidate)
+
+Phase II adds32 naturalistic sourced cases in16 pairs, including11 provisional narrow empirical-support cases. Its8 development and24 evaluation items are separated by scientific source family. Model prompts receive only claim/question, documents, methodology and naturally disclosed assumptions—never the reference/checker/missing-evidence annotations. The original v0.1 benchmark, source manifest, labels and recorded results below remain preserved.
+
+Read [executed Phase II report](docs/phase-ii/report.md), [revised manuscript](docs/phase-ii/manuscript.md), [Phase II specification](docs/phase-ii/specification.md), [reference dossiers](docs/phase-ii/reference_dossiers.md), [human review protocol](docs/phase-ii/human_adjudication.md), [system evaluation](docs/phase-ii/system_evaluations.md), [related work](docs/phase-ii/related_work.md) and [reproduction commands](docs/phase-ii/reproduce.md). Phase II is still provisionally author-adjudicated, public rather than hidden, and not publication-ready. Actual human scientific review has not occurred.
+
+```sh
+export PYTHONPATH="$PWD/src"
+export PYTHONDONTWRITEBYTECODE=1
+python3 -m svb.phase2 validate
+python3 -m svb.phase2_references
+python3 -m svb.phase2 baselines --output results/local/phase2-baselines.json
+```
+
+Optional offline model inference uses public pinned weights and `requirements-models.txt`; the independent core/tests and recorded-response scoring require no model package. No paid API or private model credential is required. Results are versioned under `results/v0.2.0/`. New scientific outputs and exact test counts are described in the Phase II report rather than overwriting v0.1 records.
+
 ## Run the independent core
 
 Python 3.12.14 was used. From this repository root:
@@ -60,6 +102,6 @@ Core output reproduced byte-for-byte in the recorded Python environment. Optiona
 
 Code is Apache-2.0; UCI Iris is CC BY 4.0 and PDB archive data are CC0 (see source registry and attribution). Literature review retrieved metadata/abstracts, not a complete systematic full-paper review. The manuscript is an internal research draft, not publication-ready. No broad novelty claim is supported.
 
-A standalone GitHub Actions workflow is provided for explicit manual dispatch. No hosted CI run was started; local tests are the validation evidence. This avoids automatically consuming hosted compute on initial private-repository upload.
+A standalone GitHub Actions workflow uses explicit manual dispatch. The initial upload did not start hosted compute. Phase II subsequently ran hosted CI successfully for both the preserved v0.1 base and the additive implementation; run identities are recorded in `results/v0.2.0/release_audit.json`. Model inference is local and is not part of hosted CI.
 
 Repository: [Scientific-Verification-Benchmark-SVB-](https://github.com/Tommaso-R-Marena/Scientific-Verification-Benchmark-SVB-). The user supplied this public destination after the initial repository-creation permission failure. See [repository delivery notes](docs/publishing.md) for history and reproduction. The manuscript remains a research draft; repository availability does not imply peer review or scientific validation.

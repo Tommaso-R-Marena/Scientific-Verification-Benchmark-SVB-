@@ -1,0 +1,34 @@
+{
+  "allow_multiple_admissible_categories": true,
+  "human_reviews_completed": 0,
+  "labels": [
+    "computationally_established",
+    "disputed_or_unresolved",
+    "empirically_supported",
+    "formally_established",
+    "insufficient_evidence",
+    "refuted"
+  ],
+  "neutral_case_questions": [
+    "What exact target is asserted: transcription, arithmetic, observation, population, causal or mechanistic claim?",
+    "Which source or reproducible calculation supports, contradicts, or leaves that target unresolved?",
+    "What are the units, experimental units, repetitions, design and uncertainties?",
+    "Which assumptions bridge evidence to conclusion, and are they established at this scope?",
+    "Which categories are defensible, including multiple alternatives or ambiguity?",
+    "What narrower conclusion and additional evidence would be scientifically justified?"
+  ],
+  "never_sum_into_truth": true,
+  "rating_meanings": {
+    "0": "specific invalid step or unsupported assertion",
+    "1": "partly addressed or essential information unchecked",
+    "2": "justified within explicitly stated scope"
+  },
+  "rating_options": [
+    0,
+    1,
+    2,
+    "not_applicable",
+    "not_assessable"
+  ],
+  "scientific_disagreement": "Preserve independent first-round records; unresolved/ambiguous/unscored is permitted, not forced majority gold."
+}

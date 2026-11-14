@@ -1,0 +1,158 @@
+{
+  "configuration": {
+    "attention": "eager",
+    "dtype": "float32",
+    "greedy": true,
+    "max_a": 24,
+    "max_b": 128,
+    "max_c": 384,
+    "max_input_tokens": 4096,
+    "seed": 0,
+    "threads": 4
+  },
+  "constrained_intervention": "Acategorytoken-trie+EOS, sameprompts andweights; changeddecodingmaychangecategorychoice, not silentoutputrepair or reasoningproof",
+  "groups": {
+    "constrained": [
+      {
+        "condition": "evidence",
+        "ids": [
+          "svb-fc666137259f",
+          "svb-3aaf182f254f",
+          "svb-9027589da364",
+          "svb-9792d7ac8f17",
+          "svb-d48507e1d19e",
+          "svb-a7ca66d0e04f",
+          "svb-716f0a9027bd",
+          "svb-e3d611a0ffa3",
+          "svb-84e330a0728d",
+          "svb-162ce6f1d8cf",
+          "svb-db97426ec44e",
+          "svb-e0fba25d46f1"
+        ],
+        "task": "A"
+      },
+      {
+        "condition": "no_evidence",
+        "ids": [
+          "svb-fc666137259f",
+          "svb-3aaf182f254f",
+          "svb-9027589da364",
+          "svb-9792d7ac8f17",
+          "svb-d48507e1d19e",
+          "svb-a7ca66d0e04f",
+          "svb-716f0a9027bd",
+          "svb-e3d611a0ffa3",
+          "svb-84e330a0728d",
+          "svb-162ce6f1d8cf",
+          "svb-db97426ec44e",
+          "svb-e0fba25d46f1"
+        ],
+        "task": "A"
+      }
+    ],
+    "unconstrained": [
+      {
+        "condition": "evidence",
+        "ids": [
+          "svb-fc666137259f",
+          "svb-3aaf182f254f",
+          "svb-9027589da364",
+          "svb-9792d7ac8f17",
+          "svb-d48507e1d19e",
+          "svb-a7ca66d0e04f",
+          "svb-716f0a9027bd",
+          "svb-e3d611a0ffa3",
+          "svb-84e330a0728d",
+          "svb-162ce6f1d8cf",
+          "svb-db97426ec44e",
+          "svb-e0fba25d46f1"
+        ],
+        "task": "A"
+      },
+      {
+        "condition": "no_evidence",
+        "ids": [
+          "svb-fc666137259f",
+          "svb-3aaf182f254f",
+          "svb-9027589da364",
+          "svb-9792d7ac8f17",
+          "svb-d48507e1d19e",
+          "svb-a7ca66d0e04f",
+          "svb-716f0a9027bd",
+          "svb-e3d611a0ffa3",
+          "svb-84e330a0728d",
+          "svb-162ce6f1d8cf",
+          "svb-db97426ec44e",
+          "svb-e0fba25d46f1"
+        ],
+        "task": "A"
+      },
+      {
+        "condition": "evidence",
+        "ids": [
+          "svb-716f0a9027bd",
+          "svb-e3d611a0ffa3",
+          "svb-db97426ec44e",
+          "svb-e0fba25d46f1",
+          "svb-9027589da364",
+          "svb-9792d7ac8f17"
+        ],
+        "task": "B"
+      },
+      {
+        "condition": "evidence",
+        "ids": [
+          "svb-716f0a9027bd",
+          "svb-e3d611a0ffa3",
+          "svb-db97426ec44e",
+          "svb-e0fba25d46f1",
+          "svb-9027589da364",
+          "svb-9792d7ac8f17"
+        ],
+        "task": "C"
+      }
+    ]
+  },
+  "hidden_or_expert_validated": false,
+  "label_order": {
+    "method": "Rotation offsets0..5 shuffled once with seed0 across sorted pairs; both items in a pair use same definitions/list order. All six first-label positions appear twice; exact gold-position balance not claimed.",
+    "pair_offsets": {
+      "CW01": 4,
+      "CW02": 2,
+      "OD01": 1,
+      "OD02": 0,
+      "SL01": 5,
+      "SL02": 3
+    }
+  },
+  "matched_B_C_selection": "Last pair in each sorted source family,2cases/family,6total; compare A on same6cases, not pooled12vs6. C retains historical prompt definitions/order, so A-vs-C is descriptive instruction-bundle contrast, not isolated schema-effect estimate.",
+  "model_selection": "Both originally prechosen capacity levels retained diagnostically despite qualification gate failures; the capped third development candidate failed the unchanged A order gate too. No qualified-verifier claim; no new-source model outputs used for selection.",
+  "new_requests_per_model": 60,
+  "prompt_files": {
+    "constrained": {
+      "n": 24,
+      "path": "data/v0.3.0/prompts/evaluation_constrained.jsonl",
+      "sha256": "5b6cf2250ae264a203492a773e4ca9fe3b99d82f6169842dcf720f4cf37de4e6"
+    },
+    "unconstrained": {
+      "n": 36,
+      "path": "data/v0.3.0/prompts/evaluation_unconstrained.jsonl",
+      "sha256": "ea926f124b620c91d808573b459dc4f3476585ef4a173a210dd41cc6c1fe22d4"
+    }
+  },
+  "run_files": {
+    "qwen-0.5b": {
+      "constrained": "results/v0.3.0/evaluation/qwen-0.5b_constrained.jsonl",
+      "unconstrained": "results/v0.3.0/evaluation/qwen-0.5b_unconstrained.jsonl"
+    },
+    "qwen-1.5b": {
+      "constrained": "results/v0.3.0/evaluation/qwen-1.5b_constrained.jsonl",
+      "unconstrained": "results/v0.3.0/evaluation/qwen-1.5b_unconstrained.jsonl"
+    }
+  },
+  "selected_models": [
+    "qwen-0.5b",
+    "qwen-1.5b"
+  ],
+  "version": "0.3.0"
+}

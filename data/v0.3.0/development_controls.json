@@ -1,0 +1,259 @@
+[
+  {
+    "family": "instruction-development",
+    "id": "DQB1",
+    "packet": {
+      "assumptions": [],
+      "claim": "For all integers a and b, a+b=b+a.",
+      "documents": [
+        {
+          "id": "REC",
+          "source_id": "development-control",
+          "text": "Ordinary integer addition and its commutativity axiom are explicitly assumed. The claim is exactly that axiom.",
+          "title": "Supplied development record"
+        }
+      ],
+      "methodology": "Use only the supplied record. This is interface development, not an empirical scientific benchmark.",
+      "question": "Classify this development control under the stated category definitions."
+    },
+    "pair": {
+      "id": "DQ1",
+      "role": "control"
+    },
+    "reference": {
+      "kind": "exact",
+      "label": "formally_established",
+      "status": "author-defined instruction qualification control"
+    },
+    "split": "dev"
+  },
+  {
+    "family": "instruction-development",
+    "id": "DQB2",
+    "packet": {
+      "assumptions": [],
+      "claim": "The supplied CSV calculation has sum 6.",
+      "documents": [
+        {
+          "id": "REC",
+          "source_id": "development-control",
+          "text": "CSV column value contains 1,2,3. A specified sum reduction adds every row exactly once, without missing values.",
+          "title": "Supplied development record"
+        }
+      ],
+      "methodology": "Use only the supplied record. This is interface development, not an empirical scientific benchmark.",
+      "question": "Classify this development control under the stated category definitions."
+    },
+    "pair": {
+      "id": "DQ2",
+      "role": "control"
+    },
+    "reference": {
+      "kind": "exact",
+      "label": "computationally_established",
+      "status": "author-defined instruction qualification control"
+    },
+    "split": "dev"
+  },
+  {
+    "family": "instruction-development",
+    "id": "DQB3",
+    "packet": {
+      "assumptions": [],
+      "claim": "The supplied arithmetic equation 2+2=5 is correct.",
+      "documents": [
+        {
+          "id": "REC",
+          "source_id": "development-control",
+          "text": "Use ordinary integer arithmetic; 2+2=4 and 4 is different from 5.",
+          "title": "Supplied development record"
+        }
+      ],
+      "methodology": "Use only the supplied record. This is interface development, not an empirical scientific benchmark.",
+      "question": "Classify this development control under the stated category definitions."
+    },
+    "pair": {
+      "id": "DQ3",
+      "role": "control"
+    },
+    "reference": {
+      "kind": "exact",
+      "label": "refuted",
+      "status": "author-defined instruction qualification control"
+    },
+    "split": "dev"
+  },
+  {
+    "family": "penguins",
+    "id": "DQB4",
+    "packet": {
+      "assumptions": [
+        "Read the result as a reported held-out within-study classification result, not independently reproduced model performance."
+      ],
+      "claim": "The primary article reports 39 correct classifications out of 44 held-out Ad\u00e9lie individuals, approximately 88.64%, under its stated sex-classification procedure.",
+      "documents": [
+        {
+          "id": "PG-METHOD",
+          "source_id": "penguins",
+          "text": "Gorman, Williams and Fraser (2014), PLOS ONE 9:e 90081, DOI10.1371/journal.pone.0090081, and Palmer LTER dataset excerpts. Adult penguins were sampled at nests near Palmer Station during 2007\u20132009; raw Stage values are Adult, 1 Egg Stage. Body Mass (g), Species, Sex, Island and studyName are recorded fields. This is an observational breeding-season sample. Missing values are NA. The paper states body mass results are relevant to the egg-laying period and should not be considered representative of chick rearing or outside the breeding season.",
+          "title": "Palmer observational sampling and measurement context"
+        },
+        {
+          "id": "PG-HOLDOUT",
+          "source_id": "penguins_article",
+          "text": "Gorman etal.(2014) Results, Sex classification, states: \"all supported models accurately predicted sex for 39 out of 44 individuals (88.64%, Table 1)\" for Ad\u00e9lie penguins at probability threshold 0.50. Methods states that structural-size models were developed using a randomly chosen two-thirds subset and assessed on a one-third subset not included in developing the models. Reported denominators are 44 Ad\u00e9lie, 18 chinstrap and 38 gentoo; the outcome is classification of sex in the study population, not disease, survival or clinical efficacy. Excerpt numerals are normalized with spacing; see archived primary article for the exact typography.",
+          "title": "Primary article held-out classification result"
+        }
+      ],
+      "methodology": "Read the supplied source excerpts and measurement tables. Check any arithmetic directly from the observations. Evaluate only the exact proposed claim; distinguish a failure of evidence from a contradiction.",
+      "question": "What epistemic status does the supplied evidence justify for this exact claim? Distinguish measured observations, calculations, assumptions, and stronger scientific interpretations."
+    },
+    "pair": {
+      "id": "PG04",
+      "role": "narrow"
+    },
+    "reference": {
+      "condition_labels": {
+        "evidence": "empirically_supported",
+        "no_assumptions": "empirically_supported",
+        "no_evidence": "insufficient_evidence",
+        "paraphrase": "empirically_supported",
+        "verified_numbers": "empirically_supported"
+      },
+      "condition_scopes": {
+        "evidence": [
+          "computational",
+          "empirical"
+        ],
+        "no_assumptions": [
+          "computational",
+          "empirical"
+        ],
+        "no_evidence": [],
+        "paraphrase": [
+          "computational",
+          "empirical"
+        ],
+        "verified_numbers": [
+          "computational",
+          "empirical"
+        ]
+      },
+      "evidence_ids": [
+        "PG-METHOD",
+        "PG-HOLDOUT"
+      ],
+      "kind": "empirical_source_fact",
+      "label": "empirically_supported",
+      "numeric_check": {
+        "expected": {
+          "correct": 39,
+          "percent_2dp": "88.64",
+          "total": 44
+        },
+        "operation": "holdout_fraction"
+      },
+      "rationale": "The primary article directly reports the held-out result and 39/44 rounds to 88.64%. This supports the precise reporting claim, not an independently replicated predictor.",
+      "reasoning_requirements": [
+        "Identify39/44 and the within-study held-out procedure.",
+        "Preserve the task(population sex classification)and reported-result qualification."
+      ],
+      "scopes": [
+        "computational",
+        "empirical"
+      ],
+      "status": "provisional_author_adjudicated",
+      "uncertainty": "Field observations at the recorded breeding stage and sites; missingness, selection, year dependence and measurement errors are not resolved by an exact sample summary. Source record correctness is assumed; independent expert adjudication has not occurred."
+    },
+    "split": "dev"
+  },
+  {
+    "family": "penguins",
+    "id": "DQB5",
+    "packet": {
+      "assumptions": [
+        "Read the result as a reported held-out within-study classification result, not independently reproduced model performance."
+      ],
+      "claim": "The reported held-out accuracy establishes 88.64%classification accuracy for any future penguin population, species and seasonal stage.",
+      "documents": [
+        {
+          "id": "PG-METHOD",
+          "source_id": "penguins",
+          "text": "Gorman, Williams and Fraser (2014), PLOS ONE 9:e 90081, DOI10.1371/journal.pone.0090081, and Palmer LTER dataset excerpts. Adult penguins were sampled at nests near Palmer Station during 2007\u20132009; raw Stage values are Adult, 1 Egg Stage. Body Mass (g), Species, Sex, Island and studyName are recorded fields. This is an observational breeding-season sample. Missing values are NA. The paper states body mass results are relevant to the egg-laying period and should not be considered representative of chick rearing or outside the breeding season.",
+          "title": "Palmer observational sampling and measurement context"
+        },
+        {
+          "id": "PG-HOLDOUT",
+          "source_id": "penguins_article",
+          "text": "Gorman etal.(2014) Results, Sex classification, states: \"all supported models accurately predicted sex for 39 out of 44 individuals (88.64%, Table 1)\" for Ad\u00e9lie penguins at probability threshold 0.50. Methods states that structural-size models were developed using a randomly chosen two-thirds subset and assessed on a one-third subset not included in developing the models. Reported denominators are 44 Ad\u00e9lie, 18 chinstrap and 38 gentoo; the outcome is classification of sex in the study population, not disease, survival or clinical efficacy. Excerpt numerals are normalized with spacing; see archived primary article for the exact typography.",
+          "title": "Primary article held-out classification result"
+        }
+      ],
+      "methodology": "Read the supplied source excerpts and measurement tables. Check any arithmetic directly from the observations. Evaluate only the exact proposed claim; distinguish a failure of evidence from a contradiction.",
+      "question": "What epistemic status does the supplied evidence justify for this exact claim? Distinguish measured observations, calculations, assumptions, and stronger scientific interpretations."
+    },
+    "pair": {
+      "id": "PG04",
+      "role": "stronger"
+    },
+    "reference": {
+      "condition_labels": {
+        "evidence": "insufficient_evidence",
+        "no_assumptions": "insufficient_evidence",
+        "no_evidence": "insufficient_evidence",
+        "paraphrase": "insufficient_evidence",
+        "verified_numbers": "insufficient_evidence"
+      },
+      "condition_scopes": {
+        "evidence": [],
+        "no_assumptions": [],
+        "no_evidence": [],
+        "paraphrase": [],
+        "verified_numbers": []
+      },
+      "evidence_ids": [
+        "PG-METHOD",
+        "PG-HOLDOUT"
+      ],
+      "kind": "interpretation",
+      "label": "insufficient_evidence",
+      "rationale": "The admitted measurement and design do not supply the population, mechanism or applicability evidence required by this stronger claim.",
+      "reasoning_requirements": [
+        "Identify the exact scope extension.",
+        "Explain at least one compatible alternative or missing validation; do not assert the stronger claim is false."
+      ],
+      "scopes": [],
+      "status": "provisional_author_adjudicated",
+      "uncertainty": "Field observations at the recorded breeding stage and sites; missingness, selection, year dependence and measurement errors are not resolved by an exact sample summary. Source record correctness is assumed; independent expert adjudication has not occurred."
+    },
+    "split": "dev"
+  },
+  {
+    "family": "instruction-development",
+    "id": "DQB6",
+    "packet": {
+      "assumptions": [],
+      "claim": "Open research question: Is hypothesis H the correct mechanism in the fictional qualification record?",
+      "documents": [
+        {
+          "id": "REC",
+          "source_id": "development-control",
+          "text": "This fictional instruction-control record explicitly describes H as an unresolved research question: competing interpretations fit the observed data, the reviews disagree, and no decisive resolution is reported. It is not a real empirical discovery.",
+          "title": "Supplied development record"
+        }
+      ],
+      "methodology": "Use only the supplied record. This is interface development, not an empirical scientific benchmark.",
+      "question": "Classify this development control under the stated category definitions."
+    },
+    "pair": {
+      "id": "DQ6",
+      "role": "control"
+    },
+    "reference": {
+      "kind": "unresolved",
+      "label": "disputed_or_unresolved",
+      "status": "author-defined instruction qualification control"
+    },
+    "split": "dev"
+  }
+]

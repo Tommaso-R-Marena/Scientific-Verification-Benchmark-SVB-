@@ -1,0 +1,553 @@
+{
+  "format": "svb-phase2-targeted-literature-review-v1",
+  "review_date_utc": "2026-11-14",
+  "method": "Purposive follow-up to Phase I, chosen for task construct, attribution, expert review, exposure and uncertainty. Not a systematic review, no exhaustive search or novelty inference. Full text was retrieved and selected methods/evaluation/limitations sections inspected.",
+  "retrieval_security": "Inherited HTTP proxy and CA trust, default TLS verification; no credentials or paid APIs.",
+  "fulltext_retrievals_succeeded": 10,
+  "paper_contents_redistributed": false,
+  "source_hash_interpretation": "SHA256 values identify retrieved HTTP response bytes, not truth, authenticity, scientific validity, or absence of dataset contamination.",
+  "entries": [
+    {
+      "id": "scifact",
+      "abstract_url": "https://arxiv.org/abs/2004.14974",
+      "resolved_abstract_url": "https://arxiv.org/abs/2004.14974",
+      "title": "[2004.14974] Fact or Fiction: Verifying Scientific Claims",
+      "abstract_sha256": "59fa0969948dd11f55881a5d257caca71a981925f3196039f9f4812623f3aada",
+      "abstract_bytes": 44869,
+      "retrieved_utc": "2026-11-14T06:45:25.213071+00:00",
+      "abstract_status": 200,
+      "license_links": [],
+      "fulltext_url": "https://aclanthology.org/2020.emnlp-main.609.pdf",
+      "resolved_fulltext_url": "https://aclanthology.org/2020.emnlp-main.609.pdf",
+      "fulltext_status": 200,
+      "fulltext_sha256": "e51a1fab569f2dcb00f7806fe95094e25a34c027140709725d3d05b7a0af9ac7",
+      "fulltext_bytes": 4114861,
+      "content_type": "application/pdf",
+      "reference": "Wadden et al. (2020), Fact or Fiction: Verifying Scientific Claims",
+      "doi": "10.18653/v1/2020.emnlp-main.609",
+      "reviewed_sections": [
+        "2 Scientific claim verification",
+        "3 Dataset: 3.1-3.3",
+        "4 Task and rationale-aware scoring"
+      ],
+      "construct": "Claim-abstract SUPPORTS/REFUTES/NO INFO relations and pinpoint rationale sentences, not a global scientific truth adjudication.",
+      "expert_review": "Writers/verifiers include scientific NLP experts and life-science undergraduates/graduates; verifiers do not verify their own written claims. Independent reannotation of 232 pairs; reported label kappa 0.75 and rationale kappa 0.71.",
+      "exposure": "Citation-derived claims, expert-written negations, fixed abstract corpus. Do not treat a published benchmark split as inaccessible to later models.",
+      "license": "CC-BY-4.0 for the inspected ACL paper; article rights do not establish dataset rights.",
+      "license_evidence_url": "https://aclanthology.org/2020.emnlp-main.609/",
+      "authors_from_arxiv_metadata": [
+        "Wadden, David",
+        "Lin, Shanchuan",
+        "Lo, Kyle",
+        "Wang, Lucy Lu",
+        "van Zuylen, Madeleine",
+        "Cohan, Arman",
+        "Hajishirzi, Hannaneh"
+      ],
+      "review_status": "selected full-text methods/evaluation/limitations sections inspected; not line-by-line full-paper review",
+      "artifact_redistribution": "Full retrieved text is kept only in ignored .cache/phase2_literature; not committed or relicensed. Registry notes are SVB-authored paraphrases.",
+      "dataset_reuse": "No benchmark items, answer keys, or dataset files from these literature sources were imported by this review.",
+      "abstract_license_links": [
+        "http://creativecommons.org/licenses/by/4.0/"
+      ]
+    },
+    {
+      "id": "fever",
+      "abstract_url": "https://arxiv.org/abs/1803.05355",
+      "resolved_abstract_url": "https://arxiv.org/abs/1803.05355",
+      "title": "[1803.05355] FEVER: a large-scale dataset for Fact Extraction and VERification",
+      "abstract_sha256": "7c0073a82e785e09d171260e54f02ffca67c15460877d43803e8f9be5901c544",
+      "abstract_bytes": 41359,
+      "retrieved_utc": "2026-11-14T06:45:24.875273+00:00",
+      "abstract_status": 200,
+      "license_links": [
+        "http://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      ],
+      "fulltext_url": "https://aclanthology.org/N18-1074.pdf",
+      "resolved_fulltext_url": "https://aclanthology.org/N18-1074.pdf",
+      "fulltext_status": 200,
+      "fulltext_sha256": "5d328bad901f488c4cff1dd073b55e30653b29c9c21c48700b926421cb84c9f7",
+      "fulltext_bytes": 460896,
+      "content_type": "application/pdf",
+      "reference": "Thorne et al. (2018), FEVER: a large-scale dataset for Fact Extraction and VERification",
+      "doi": "10.18653/v1/N18-1074",
+      "reviewed_sections": [
+        "1 Introduction",
+        "3 Dataset construction: claim/evidence annotation and quality",
+        "4 Dataset partitioning and evaluation"
+      ],
+      "construct": "Wikipedia-based generated/mutated claims, support/refute/not-enough-info and sentence evidence retrieval.",
+      "expert_review": "Crowdworker-style annotation team, five-rater agreement sample and super-annotator/author audits. Not a panel of independent scientific domain reviewers.",
+      "exposure": "Synthetic mutation artifacts and public Wikipedia/claims are relevant. Label-only evaluation differs from evidence-required evaluation.",
+      "license": "CC-BY-4.0 for the inspected 2018 ACL paper; separate data rights must be checked.",
+      "license_evidence_url": "https://aclanthology.org/N18-1074/",
+      "authors_from_arxiv_metadata": [
+        "Thorne, James",
+        "Vlachos, Andreas",
+        "Christodoulopoulos, Christos",
+        "Mittal, Arpit"
+      ],
+      "review_status": "selected full-text methods/evaluation/limitations sections inspected; not line-by-line full-paper review",
+      "artifact_redistribution": "Full retrieved text is kept only in ignored .cache/phase2_literature; not committed or relicensed. Registry notes are SVB-authored paraphrases.",
+      "dataset_reuse": "No benchmark items, answer keys, or dataset files from these literature sources were imported by this review.",
+      "abstract_license_links": [
+        "http://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      ]
+    },
+    {
+      "id": "scibench",
+      "abstract_url": "https://arxiv.org/abs/2307.10635",
+      "resolved_abstract_url": "https://arxiv.org/abs/2307.10635",
+      "title": "[2307.10635] SciBench: Evaluating College-Level Scientific Problem-Solving Abilities of Large Language Models",
+      "abstract_sha256": "994e6026804fbe261a91445d5c04d4db16da8ca8702eb3ecc28065f80d83cfd2",
+      "abstract_bytes": 43664,
+      "retrieved_utc": "2026-11-14T06:45:24.876139+00:00",
+      "abstract_status": 200,
+      "license_links": [
+        "http://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      ],
+      "fulltext_url": "https://arxiv.org/pdf/2307.10635",
+      "resolved_fulltext_url": "https://arxiv.org/pdf/2307.10635",
+      "fulltext_status": 200,
+      "fulltext_sha256": "714c517e218ea19c375ae43013641b81691ba7a461954dbab54574c72fc20825",
+      "fulltext_bytes": 3299964,
+      "content_type": "application/pdf",
+      "reference": "Wang et al. (2024 arXiv v3), SciBench: Evaluating College-Level Scientific Problem-Solving Abilities of Large Language Models",
+      "reviewed_sections": [
+        "Dataset construction and numerical answer representation",
+        "Experimental setup",
+        "Ethical Statement and Appendix A context"
+      ],
+      "construct": "College textbook/course-exam scientific calculation, usually numeric free-response answers with units/solutions, not appraisal of a real empirical study.",
+      "expert_review": "Human extraction/verification of textbook/exam questions and instructor permission for exams. Does not establish external scientific adjudication of empirical conclusions.",
+      "exposure": "Textbooks are public; less-exposed closed exam set is a mitigation, not a proof of no training exposure. Manual PDF extraction alone cannot guarantee semantic nonmemorization.",
+      "license": "arXiv perpetual non-exclusive distribution license, not a permissive reuse license. Read local copy only; paper/textbook task contents not redistributed.",
+      "license_evidence_url": "https://arxiv.org/abs/2307.10635",
+      "authors_from_arxiv_metadata": [
+        "Wang, Xiaoxuan",
+        "Hu, Ziniu",
+        "Lu, Pan",
+        "Zhu, Yanqiao",
+        "Zhang, Jieyu",
+        "Subramaniam, Satyen",
+        "Loomba, Arjun R.",
+        "Zhang, Shichang",
+        "Sun, Yizhou",
+        "Wang, Wei"
+      ],
+      "review_status": "selected full-text methods/evaluation/limitations sections inspected; not line-by-line full-paper review",
+      "artifact_redistribution": "Full retrieved text is kept only in ignored .cache/phase2_literature; not committed or relicensed. Registry notes are SVB-authored paraphrases.",
+      "dataset_reuse": "No benchmark items, answer keys, or dataset files from these literature sources were imported by this review.",
+      "abstract_license_links": [
+        "http://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      ]
+    },
+    {
+      "id": "scienceagentbench",
+      "abstract_url": "https://arxiv.org/abs/2410.05080",
+      "resolved_abstract_url": "https://arxiv.org/abs/2410.05080",
+      "title": "[2410.05080] ScienceAgentBench: Toward Rigorous Assessment of Language Agents for Data-Driven Scientific Discovery",
+      "abstract_sha256": "efa5b42ddf050356e95b207bcc2c3d78153185064f8b875952bf7727b20ddd60",
+      "abstract_bytes": 46801,
+      "retrieved_utc": "2026-11-14T06:45:24.461424+00:00",
+      "abstract_status": 200,
+      "license_links": [
+        "http://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      ],
+      "fulltext_url": "https://arxiv.org/html/2410.05080",
+      "resolved_fulltext_url": "https://arxiv.org/html/2410.05080",
+      "fulltext_status": 200,
+      "fulltext_sha256": "a2eee5b671ade9046e6fc97ba5e302f505f86bf6929ef72e1d821aaf7b1eaa78",
+      "fulltext_bytes": 1729605,
+      "content_type": "text/html; charset=utf-8",
+      "reference": "Chen et al. (2025 arXiv v3), ScienceAgentBench: Toward Rigorous Assessment of Language Agents for Data-Driven Scientific Discovery",
+      "reviewed_sections": [
+        "2.1 Problem formulation",
+        "2.2 Collection, contamination, expert validation",
+        "2.3 Evaluation",
+        "4.2 Human evaluation",
+        "Appendix G.1 expert questionnaire"
+      ],
+      "construct": "Program generation/execution for 102 publication-derived tasks across four disciplines, with result checks and graded rubrics; not general scientific claim validity.",
+      "expert_review": "Nine subject-matter experts reviewed task authenticity/instructions/knowledge/rubrics; independent annotators reran tasks; two evaluators scored programs for human analysis. Authors disclose rubric/implementation equivalence limitations.",
+      "exposure": "Public source code/data; authors removed selected test points and replaced test labels after re-splitting where applicable. These deter memorized-loader/label shortcuts but do not establish access-controlled holdout.",
+      "license": "arXiv perpetual non-exclusive distribution license. Local full-text reading only; no article redistribution. Original source code/data licenses are separate.",
+      "license_evidence_url": "https://arxiv.org/abs/2410.05080",
+      "authors_from_arxiv_metadata": [
+        "Chen, Ziru",
+        "Chen, Shijie",
+        "Ning, Yuting",
+        "Zhang, Qianheng",
+        "Wang, Boshi",
+        "Yu, Botao",
+        "Li, Yifei",
+        "Liao, Zeyi",
+        "Wei, Chen",
+        "Lu, Zitong",
+        "Dey, Vishal",
+        "Xue, Mingyi",
+        "Baker, Frazier N.",
+        "Burns, Benjamin",
+        "Adu-Ampratwum, Daniel",
+        "Huang, Xuhui",
+        "Ning, Xia",
+        "Gao, Song",
+        "Su, Yu",
+        "Sun, Huan"
+      ],
+      "review_status": "selected full-text methods/evaluation/limitations sections inspected; not line-by-line full-paper review",
+      "artifact_redistribution": "Full retrieved text is kept only in ignored .cache/phase2_literature; not committed or relicensed. Registry notes are SVB-authored paraphrases.",
+      "dataset_reuse": "No benchmark items, answer keys, or dataset files from these literature sources were imported by this review.",
+      "abstract_license_links": [
+        "http://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      ]
+    },
+    {
+      "id": "sciriff",
+      "abstract_url": "https://arxiv.org/abs/2406.07835",
+      "resolved_abstract_url": "https://arxiv.org/abs/2406.07835",
+      "title": "[2406.07835] SciRIFF: A Resource to Enhance Language Model Instruction-Following over Scientific Literature",
+      "abstract_sha256": "0227a3f27eeaaecdfdfe83185cd2d285c9a8a980ed50ad99e0a6f88c74ca86b7",
+      "abstract_bytes": 43692,
+      "retrieved_utc": "2026-11-14T06:45:24.375255+00:00",
+      "abstract_status": 200,
+      "license_links": [],
+      "fulltext_url": "https://arxiv.org/html/2406.07835",
+      "resolved_fulltext_url": "https://arxiv.org/html/2406.07835",
+      "fulltext_status": 200,
+      "fulltext_sha256": "f2990722cf039df31d05bb6c6d6d861ec32ba8523cbcbfe3ffd91c738f49d1d4",
+      "fulltext_bytes": 407182,
+      "content_type": "text/html; charset=utf-8",
+      "reference": "Wadden et al. (2025 arXiv v4), SciRIFF: A Resource to Enhance Language Model Instruction-Following over Scientific Literature",
+      "reviewed_sections": [
+        "2.1 Dataset construction",
+        "3.1 Evaluation",
+        "3.2 Data sources and training contamination removal",
+        "Table 1 evaluation task definitions"
+      ],
+      "construct": "54 literature-understanding tasks, nine held-out task types; tasks include extraction, QA with attribution, entailment and structured JSON.",
+      "expert_review": "Paper authors with NLP expertise wrote templates/schemas over existing annotated resources. Task-level provenance varies; no assertion all scientific claims receive a new domain-scientist panel.",
+      "exposure": "Authors removed 7.5K overlapping scientific examples from Tulu V2 Mix; task-held-out evaluation is explicit. Unknown base-model pretraining and all-source-lineage disjointness are not thereby guaranteed.",
+      "license": "CC-BY-4.0 for the arXiv article. Underlying benchmark/task source licenses must be checked separately.",
+      "license_evidence_url": "https://arxiv.org/abs/2406.07835",
+      "authors_from_arxiv_metadata": [
+        "Wadden, David",
+        "Shi, Kejian",
+        "Morrison, Jacob",
+        "Li, Alan",
+        "Naik, Aakanksha",
+        "Singh, Shruti",
+        "Barzilay, Nitzan",
+        "Lo, Kyle",
+        "Hope, Tom",
+        "Soldaini, Luca",
+        "Shen, Shannon Zejiang",
+        "Downey, Doug",
+        "Hajishirzi, Hannaneh",
+        "Cohan, Arman"
+      ],
+      "review_status": "selected full-text methods/evaluation/limitations sections inspected; not line-by-line full-paper review",
+      "artifact_redistribution": "Full retrieved text is kept only in ignored .cache/phase2_literature; not committed or relicensed. Registry notes are SVB-authored paraphrases.",
+      "dataset_reuse": "No benchmark items, answer keys, or dataset files from these literature sources were imported by this review.",
+      "abstract_license_links": [
+        "http://creativecommons.org/licenses/by/4.0/"
+      ]
+    },
+    {
+      "id": "paperqa",
+      "abstract_url": "https://arxiv.org/abs/2409.13740",
+      "resolved_abstract_url": "https://arxiv.org/abs/2409.13740",
+      "title": "[2409.13740] Language agents achieve superhuman synthesis of scientific knowledge",
+      "abstract_sha256": "47c27f29e59259eb6b4dc97e4891f59282a12cb20b6d193b190072539ce2237b",
+      "abstract_bytes": 44136,
+      "retrieved_utc": "2026-11-14T06:45:24.497231+00:00",
+      "abstract_status": 200,
+      "license_links": [],
+      "fulltext_url": "https://arxiv.org/html/2409.13740",
+      "resolved_fulltext_url": "https://arxiv.org/html/2409.13740",
+      "fulltext_status": 200,
+      "fulltext_sha256": "a70be03fc29e52a0563fdf89b61751dec49be3116a8037c6d3de4bd08cb0bd50",
+      "fulltext_bytes": 296828,
+      "content_type": "text/html; charset=utf-8",
+      "reference": "Skarlinski et al. (2024 arXiv v2), Language agents achieve superhuman synthesis of scientific knowledge",
+      "reviewed_sections": [
+        "2 Answering scientific questions",
+        "3 PaperQA2 performance",
+        "8.2.1 Question construction and human evaluation",
+        "8.2.2 PaperQA measurement"
+      ],
+      "construct": "PaperQA2 literature search/synthesis and LitQA2 multiple-choice questions requiring main-text reasoning; includes insufficient-information option. ScholarQABench is not this benchmark.",
+      "expert_review": "Question authors/contracted experts and human evaluation described, including compensation and consent; authors report 266 human answers across 248 questions for comparison. These are the paper authors' reports, not independently reproduced SVB findings.",
+      "exposure": "Methods disclose LLM-aided question/distractor checks and Google indexing of initially public questions; affected later human comparison answers were excluded. This is a concrete public-answer exposure failure, not guaranteed contamination freedom.",
+      "license": "CC-BY-SA-4.0 for the arXiv article. Share-alike and attribution obligations apply to redistribution/adaptation; local cached paper is excluded from Git.",
+      "license_evidence_url": "https://arxiv.org/abs/2409.13740",
+      "authors_from_arxiv_metadata": [
+        "Skarlinski, Michael D.",
+        "Cox, Sam",
+        "Laurent, Jon M.",
+        "Braza, James D.",
+        "Hinks, Michaela",
+        "Hammerling, Michael J.",
+        "Ponnapati, Manvitha",
+        "Rodriques, Samuel G.",
+        "White, Andrew D."
+      ],
+      "review_status": "selected full-text methods/evaluation/limitations sections inspected; not line-by-line full-paper review",
+      "artifact_redistribution": "Full retrieved text is kept only in ignored .cache/phase2_literature; not committed or relicensed. Registry notes are SVB-authored paraphrases.",
+      "dataset_reuse": "No benchmark items, answer keys, or dataset files from these literature sources were imported by this review.",
+      "abstract_license_links": [
+        "http://creativecommons.org/licenses/by-sa/4.0/"
+      ]
+    },
+    {
+      "id": "openscholar",
+      "abstract_url": "https://arxiv.org/abs/2411.14199",
+      "resolved_abstract_url": "https://arxiv.org/abs/2411.14199",
+      "title": "[2411.14199] OpenScholar: Synthesizing Scientific Literature with Retrieval-augmented LMs",
+      "abstract_sha256": "a803683fb00740003df6cbf5768c7d1fe1ece8bdda96e89bb06da9d4699e4a4e",
+      "abstract_bytes": 45022,
+      "retrieved_utc": "2026-11-14T06:45:24.696461+00:00",
+      "abstract_status": 200,
+      "license_links": [],
+      "fulltext_url": "https://arxiv.org/html/2411.14199",
+      "resolved_fulltext_url": "https://arxiv.org/html/2411.14199",
+      "fulltext_status": 200,
+      "fulltext_sha256": "817392a93e5b634d71bed6ddcad94b212df0e48a2c841d2ed1f6467df9e8e85b",
+      "fulltext_bytes": 642039,
+      "content_type": "text/html; charset=utf-8",
+      "reference": "Asai et al. (2024 arXiv v1), OpenScholar: Synthesizing Scientific Literature with Retrieval-augmented LMs",
+      "reviewed_sections": [
+        "3 ScholarQABench and data curation",
+        "3.2 Multi-faceted evaluation",
+        "5 Expert evaluations",
+        "Limitations of human evaluation"
+      ],
+      "construct": "ScholarQABench combines adapted single-paper tasks with multi-paper literature questions, rubric/reference answers, citation and long-form evaluation.",
+      "expert_review": "PhD-level rubric writers and response assessors; described human panel of 16, one to three ratings per instance, task-author assignment separation. Limitations note usefulness preferences need not establish factual/citation accuracy.",
+      "exposure": "Public source tasks and large open-access datastore; source availability is necessary for retrieval but not a hidden-test guarantee. Adapted SciFact/PubMedQA subset drops uncertainty labels, so it differs from the original full verdict tasks.",
+      "license": "CC-BY-4.0 for the arXiv article. Corpus and dataset permissions are separate.",
+      "license_evidence_url": "https://arxiv.org/abs/2411.14199",
+      "authors_from_arxiv_metadata": [
+        "Asai, Akari",
+        "He, Jacqueline",
+        "Shao, Rulin",
+        "Shi, Weijia",
+        "Singh, Amanpreet",
+        "Chang, Joseph Chee",
+        "Lo, Kyle",
+        "Soldaini, Luca",
+        "Feldman, Sergey",
+        "D&#39;arcy, Mike",
+        "Wadden, David",
+        "Latzke, Matt",
+        "Tian, Minyang",
+        "Ji, Pan",
+        "Liu, Shengyan",
+        "Tong, Hao",
+        "Wu, Bohao",
+        "Xiong, Yanyu",
+        "Zettlemoyer, Luke",
+        "Neubig, Graham",
+        "Weld, Dan",
+        "Downey, Doug",
+        "Yih, Wen-tau",
+        "Koh, Pang Wei",
+        "Hajishirzi, Hannaneh"
+      ],
+      "review_status": "selected full-text methods/evaluation/limitations sections inspected; not line-by-line full-paper review",
+      "artifact_redistribution": "Full retrieved text is kept only in ignored .cache/phase2_literature; not committed or relicensed. Registry notes are SVB-authored paraphrases.",
+      "dataset_reuse": "No benchmark items, answer keys, or dataset files from these literature sources were imported by this review.",
+      "abstract_license_links": [
+        "http://creativecommons.org/licenses/by/4.0/"
+      ]
+    },
+    {
+      "id": "selective",
+      "abstract_url": "https://arxiv.org/abs/1705.08500",
+      "resolved_abstract_url": "https://arxiv.org/abs/1705.08500",
+      "title": "[1705.08500] Selective Classification for Deep Neural Networks",
+      "abstract_sha256": "8af4138386f323f9fa7b57c722911036d4c51b8e3faee8391916e32a46ae7d8c",
+      "abstract_bytes": 41254,
+      "retrieved_utc": "2026-11-14T06:45:24.744879+00:00",
+      "abstract_status": 200,
+      "license_links": [
+        "http://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      ],
+      "fulltext_url": "https://arxiv.org/pdf/1705.08500",
+      "resolved_fulltext_url": "https://arxiv.org/pdf/1705.08500",
+      "fulltext_status": 200,
+      "fulltext_sha256": "91899dfcbc41553f571f7a491839733e4d16f81d82e9274278e8f06ffc42022b",
+      "fulltext_bytes": 614365,
+      "content_type": "application/pdf",
+      "reference": "Geifman and El-Yaniv (2017 arXiv v2), Selective Classification for Deep Neural Networks",
+      "reviewed_sections": [
+        "2 Problem Setting",
+        "3 Selection with Guaranteed Risk Control"
+      ],
+      "construct": "Selection function defines abstention; selective risk is loss on selected probability mass divided by coverage. Risk-control theorem assumes iid samples from an underlying distribution.",
+      "expert_review": "Methodological image-classification study, not scientific evidence expert adjudication.",
+      "exposure": "Calibration/selection data and target distribution assumptions matter; guarantees cannot be imported to a purposive public pilot with unknown model exposure.",
+      "license": "arXiv perpetual non-exclusive distribution license. Local reading only; no redistribution.",
+      "license_evidence_url": "https://arxiv.org/abs/1705.08500",
+      "authors_from_arxiv_metadata": [
+        "Geifman, Yonatan",
+        "El-Yaniv, Ran"
+      ],
+      "review_status": "selected full-text methods/evaluation/limitations sections inspected; not line-by-line full-paper review",
+      "artifact_redistribution": "Full retrieved text is kept only in ignored .cache/phase2_literature; not committed or relicensed. Registry notes are SVB-authored paraphrases.",
+      "dataset_reuse": "No benchmark items, answer keys, or dataset files from these literature sources were imported by this review.",
+      "abstract_license_links": [
+        "http://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      ]
+    },
+    {
+      "id": "alce",
+      "abstract_url": "https://arxiv.org/abs/2305.14627",
+      "resolved_abstract_url": "https://arxiv.org/abs/2305.14627",
+      "title": "[2305.14627] Enabling Large Language Models to Generate Text with Citations",
+      "abstract_sha256": "d4b6faddc152c8a55cbfb9b497e90a7b0f62c48f6c09a8ffe2e74ff942bbde1c",
+      "abstract_bytes": 41505,
+      "retrieved_utc": "2026-11-14T06:45:25.167247+00:00",
+      "abstract_status": 200,
+      "license_links": [
+        "http://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      ],
+      "fulltext_url": "https://aclanthology.org/2023.emnlp-main.398.pdf",
+      "resolved_fulltext_url": "https://aclanthology.org/2023.emnlp-main.398.pdf",
+      "fulltext_status": 200,
+      "fulltext_sha256": "ae9868f07f0f7ffaae5346778f79b7827d9ec6b13b1e6aae4dff6b2ffc37a2e1",
+      "fulltext_bytes": 481920,
+      "content_type": "application/pdf",
+      "reference": "Gao et al. (2023), Enabling Large Language Models to Generate Text with Citations",
+      "doi": "10.18653/v1/2023.emnlp-main.398",
+      "reviewed_sections": [
+        "2 ALCE datasets and retrieval corpus",
+        "3.1-3.3 Fluency, correctness, citation quality",
+        "3.4 Shortcut cases"
+      ],
+      "construct": "Long-form answers over ASQA/QAMPARI/ELI5; evaluates answer correctness separately from citation precision/recall using passage entailment checks.",
+      "expert_review": "Paper investigates human correlation of automatic metrics; NLI scores remain fallible model measurements, not independent scientific truth.",
+      "exposure": "Public QA tasks/corpora; no training examples in benchmark release is different from absence of pretraining exposure. Passage-copying shortcuts can score high citation metrics while failing other dimensions.",
+      "license": "CC-BY-4.0 for inspected ACL article; separate underlying QA/corpus rights apply.",
+      "license_evidence_url": "https://aclanthology.org/2023.emnlp-main.398/",
+      "authors_from_arxiv_metadata": [
+        "Gao, Tianyu",
+        "Yen, Howard",
+        "Yu, Jiatong",
+        "Chen, Danqi"
+      ],
+      "review_status": "selected full-text methods/evaluation/limitations sections inspected; not line-by-line full-paper review",
+      "artifact_redistribution": "Full retrieved text is kept only in ignored .cache/phase2_literature; not committed or relicensed. Registry notes are SVB-authored paraphrases.",
+      "dataset_reuse": "No benchmark items, answer keys, or dataset files from these literature sources were imported by this review.",
+      "abstract_license_links": [
+        "http://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      ]
+    },
+    {
+      "id": "calibration",
+      "abstract_url": "https://arxiv.org/abs/1706.04599",
+      "resolved_abstract_url": "https://arxiv.org/abs/1706.04599",
+      "title": "[1706.04599] On Calibration of Modern Neural Networks",
+      "abstract_sha256": "c1f7e22dab2ab043200f8f45fc766452364d28fc4b76fe5784feda44db206e60",
+      "abstract_bytes": 42701,
+      "retrieved_utc": "2026-11-14T06:45:25.324054+00:00",
+      "abstract_status": 200,
+      "license_links": [
+        "http://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      ],
+      "fulltext_url": "https://proceedings.mlr.press/v70/guo17a/guo17a.pdf",
+      "resolved_fulltext_url": "https://proceedings.mlr.press/v70/guo17a/guo17a.pdf",
+      "fulltext_status": 200,
+      "fulltext_sha256": "df7c93f97204f8a3c2b10f6d5bf5265baac25f00c1ae3b473a3e1dbc102dacb2",
+      "fulltext_bytes": 828420,
+      "content_type": "application/pdf",
+      "reference": "Guo et al. (2017), On Calibration of Modern Neural Networks",
+      "reviewed_sections": [
+        "2 Calibration definitions and ECE",
+        "4 Calibration methods and held-out data assumptions"
+      ],
+      "construct": "Calibration of confidence versus accuracy; post-hoc temperature scaling fitted on held-out validation data under same-distribution assumptions.",
+      "expert_review": "Methodological vision/NLP experiment; not scientific evidence adjudication.",
+      "exposure": "Calibration data must be distinct from reported test assessment; ECE bin choices and sampling uncertainty do not establish scientific trustworthiness.",
+      "license": "Explicit permissive article reuse license not verified from retrieved PMLR page; read-only local cache, no redistribution. arXiv copy is non-exclusive.",
+      "license_evidence_url": "https://proceedings.mlr.press/v70/guo17a.html",
+      "authors_from_arxiv_metadata": [
+        "Guo, Chuan",
+        "Pleiss, Geoff",
+        "Sun, Yu",
+        "Weinberger, Kilian Q."
+      ],
+      "review_status": "selected full-text methods/evaluation/limitations sections inspected; not line-by-line full-paper review",
+      "artifact_redistribution": "Full retrieved text is kept only in ignored .cache/phase2_literature; not committed or relicensed. Registry notes are SVB-authored paraphrases.",
+      "dataset_reuse": "No benchmark items, answer keys, or dataset files from these literature sources were imported by this review.",
+      "abstract_license_links": [
+        "http://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      ]
+    }
+  ],
+  "license_supporting_retrievals": [
+    {
+      "id": "acl_scifact",
+      "url": "https://aclanthology.org/2020.emnlp-main.609/",
+      "sha256": "c600021b39c958fe267a2d9625ad57efbd9198891e983c149da3449225af4a47",
+      "http_status": 200,
+      "retrieved_utc": "2026-11-14T06:47:14.887496+00:00",
+      "license_links": [
+        "http://creativecommons.org/licenses/by/4.0/",
+        "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+        "https://creativecommons.org/licenses/by/4.0/"
+      ]
+    },
+    {
+      "id": "acl_fever",
+      "url": "https://aclanthology.org/N18-1074/",
+      "sha256": "407ade14fc7e1e2c4a32767ecee20521d3e979432aee5a5e336b803a9862feda",
+      "http_status": 200,
+      "retrieved_utc": "2026-11-14T06:47:15.063505+00:00",
+      "license_links": [
+        "http://creativecommons.org/licenses/by/4.0/",
+        "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+        "https://creativecommons.org/licenses/by/4.0/"
+      ]
+    },
+    {
+      "id": "acl_alce",
+      "url": "https://aclanthology.org/2023.emnlp-main.398/",
+      "sha256": "8242f69104c7f48a624cb46302588787425c8b6171e31b5f65c17509596fd668",
+      "http_status": 200,
+      "retrieved_utc": "2026-11-14T06:47:15.282465+00:00",
+      "license_links": [
+        "http://creativecommons.org/licenses/by/4.0/",
+        "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+        "https://creativecommons.org/licenses/by/4.0/"
+      ]
+    },
+    {
+      "id": "pmlr_calibration",
+      "url": "https://proceedings.mlr.press/v70/guo17a.html",
+      "sha256": "3b4d7ca0ab60cd88e263f0fe342e033947aed43c68988e91485f2a5318a30cf9",
+      "http_status": 200,
+      "retrieved_utc": "2026-11-14T06:47:15.524753+00:00",
+      "license_links": []
+    },
+    {
+      "id": "acl_licensing",
+      "url": "https://aclanthology.org/faq/",
+      "sha256": "71aa12d562377d6a296b72970a7557d28712725620ccf1d2a3e9687fe55bdbd1",
+      "http_status": 200,
+      "retrieved_utc": "2026-11-14T06:47:15.658025+00:00",
+      "license_links": [
+        "http://creativecommons.org/licenses/by/4.0/",
+        "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+        "https://creativecommons.org/licenses/by/4.0/"
+      ]
+    }
+  ],
+  "unreviewed_areas": [
+    "Formal assurance-case standards and evidence calculi",
+    "Recent scientific-agent benchmarks beyond this purposive selection",
+    "Conformal risk control and distribution-shift guarantees",
+    "Systematic causal inference/model validation literature",
+    "Field-specific empirical reference standards beyond selected benchmark reports"
+  ]
+}

@@ -1,2 +1,2 @@
-"""Scientific Verification Benchmark: independent pilot, version 0.1.0."""
-__version__ = "0.1.0"
+"""SVB: preserved v0.1 diagnostic pilot and v0.2 naturalistic evaluation."""
+__version__ = "0.2.0"

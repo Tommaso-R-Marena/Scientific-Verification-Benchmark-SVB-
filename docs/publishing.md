@@ -26,4 +26,4 @@ python3 -m svb.cli experiment --output results/local/my-run
 
 Python 3.12.14 was used for the retained measurements. The core requires no external Python package or subject checkout. Optional subject adapters require separately authorized checkouts and the existing compiled PCS authority. See the README and system evaluation report for their exact scope.
 
-The standalone GitHub Actions workflow is manual-dispatch only. An initial push does not request a hosted test run. Local tests and reproduction artifacts are the validation evidence; no hosted CI execution is claimed.
+The standalone GitHub Actions workflow is manual-dispatch only. An initial push does not request a hosted test run. Local tests and reproduction artifacts were the initial validation evidence. During Phase II, explicitly dispatched hosted runs passed for the preserved v0.1 base and the additive branch; exact run/commit identities are recorded under results/v0.2.0/. No automatic model inference is configured in hosted CI.

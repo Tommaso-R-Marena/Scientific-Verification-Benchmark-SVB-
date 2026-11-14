@@ -1,0 +1,618 @@
+[
+  {
+    "assumptions": [
+      "Analyze only Quebec plants and recorded concentration code 1000."
+    ],
+    "candidate_code": "candidate-495515ac6738",
+    "candidate_response": "{\n  \"label\": \"formally_established\",\n  \"scopes\": [\n    \"empirical\"\n  ],\n  \"confidence\": {\n    \"mathematical_conclusion\": 0.99,\n    \"observation\": 0.99,\n    \"experimental\": 0.01\n  },\n  \"evidence_ids\": [],\n  \"reasoning\": \"The evidence justifies formal establishment because it provides direct measurements of the observed parameters.\",\n  \"citations\": []\n}",
+    "claim": "At concentration code 1000, the observed mean uptake of the three Quebec nonchilled plants exceeds that of the three Quebec chilled plants.",
+    "documents": [
+      {
+        "id": "CO-METHOD",
+        "source_id": "grass_co2",
+        "text": "R datasets CO2:84 observations from 12 grass plants (Echinochloa crus-galli), six from Quebec and six from Mississippi. Each plant was measured at seven recorded ambient concentration levels 95, 175, 250, 350, 500, 675, 1000. Half the plants of each origin were chilled overnight. Plant is the experimental-unit identifier; successive concentrations are repeated observations of that plant. Uptake is documented in micromol per square metre per second. The R manual labels ambient concentration mL/L; the numeric source scale is preserved in this table. Source Potvin, Lechowicz and Tardif (1990), curated R transcription, formerly nlme.",
+        "title": "R documentation of cold-tolerance experiment"
+      },
+      {
+        "id": "CO-DATA",
+        "source_id": "grass_co2",
+        "text": "Plant,Type,Treatment,conc,uptake\nQn1,Quebec,nonchilled,95,16\nQn1,Quebec,nonchilled,175,30.4\nQn1,Quebec,nonchilled,250,34.8\nQn1,Quebec,nonchilled,350,37.2\nQn1,Quebec,nonchilled,500,35.3\nQn1,Quebec,nonchilled,675,39.2\nQn1,Quebec,nonchilled,1000,39.7\nQn2,Quebec,nonchilled,95,13.6\nQn2,Quebec,nonchilled,175,27.3\nQn2,Quebec,nonchilled,250,37.1\nQn2,Quebec,nonchilled,350,41.8\nQn2,Quebec,nonchilled,500,40.6\nQn2,Quebec,nonchilled,675,41.4\nQn2,Quebec,nonchilled,1000,44.3\nQn3,Quebec,nonchilled,95,16.2\nQn3,Quebec,nonchilled,175,32.4\nQn3,Quebec,nonchilled,250,40.3\nQn3,Quebec,nonchilled,350,42.1\nQn3,Quebec,nonchilled,500,42.9\nQn3,Quebec,nonchilled,675,43.9\nQn3,Quebec,nonchilled,1000,45.5\nQc1,Quebec,chilled,95,14.2\nQc1,Quebec,chilled,175,24.1\nQc1,Quebec,chilled,250,30.3\nQc1,Quebec,chilled,350,34.6\nQc1,Quebec,chilled,500,32.5\nQc1,Quebec,chilled,675,35.4\nQc1,Quebec,chilled,1000,38.7\nQc2,Quebec,chilled,95,9.3\nQc2,Quebec,chilled,175,27.3\nQc2,Quebec,chilled,250,35\nQc2,Quebec,chilled,350,38.8\nQc2,Quebec,chilled,500,38.6\nQc2,Quebec,chilled,675,37.5\nQc2,Quebec,chilled,1000,42.4\nQc3,Quebec,chilled,95,15.1\nQc3,Quebec,chilled,175,21\nQc3,Quebec,chilled,250,38.1\nQc3,Quebec,chilled,350,34\nQc3,Quebec,chilled,500,38.9\nQc3,Quebec,chilled,675,39.6\nQc3,Quebec,chilled,1000,41.4\nMn1,Mississippi,nonchilled,95,10.6\nMn1,Mississippi,nonchilled,175,19.2\nMn1,Mississippi,nonchilled,250,26.2\nMn1,Mississippi,nonchilled,350,30\nMn1,Mississippi,nonchilled,500,30.9\nMn1,Mississippi,nonchilled,675,32.4\nMn1,Mississippi,nonchilled,1000,35.5\nMn2,Mississippi,nonchilled,95,12\nMn2,Mississippi,nonchilled,175,22\nMn2,Mississippi,nonchilled,250,30.6\nMn2,Mississippi,nonchilled,350,31.8\nMn2,Mississippi,nonchilled,500,32.4\nMn2,Mississippi,nonchilled,675,31.1\nMn2,Mississippi,nonchilled,1000,31.5\nMn3,Mississippi,nonchilled,95,11.3\nMn3,Mississippi,nonchilled,175,19.4\nMn3,Mississippi,nonchilled,250,25.8\nMn3,Mississippi,nonchilled,350,27.9\nMn3,Mississippi,nonchilled,500,28.5\nMn3,Mississippi,nonchilled,675,28.1\nMn3,Mississippi,nonchilled,1000,27.8\nMc1,Mississippi,chilled,95,10.5\nMc1,Mississippi,chilled,175,14.9\nMc1,Mississippi,chilled,250,18.1\nMc1,Mississippi,chilled,350,18.9\nMc1,Mississippi,chilled,500,19.5\nMc1,Mississippi,chilled,675,22.2\nMc1,Mississippi,chilled,1000,21.9\nMc2,Mississippi,chilled,95,7.7\nMc2,Mississippi,chilled,175,11.4\nMc2,Mississippi,chilled,250,12.3\nMc2,Mississippi,chilled,350,13\nMc2,Mississippi,chilled,500,12.5\nMc2,Mississippi,chilled,675,13.7\nMc2,Mississippi,chilled,1000,14.4\nMc3,Mississippi,chilled,95,10.6\nMc3,Mississippi,chilled,175,18\nMc3,Mississippi,chilled,250,17.9\nMc3,Mississippi,chilled,350,17.9\nMc3,Mississippi,chilled,500,17.9\nMc3,Mississippi,chilled,675,18.9\nMc3,Mississippi,chilled,1000,19.9\n",
+        "title": "Recorded grass-plant CO2 uptake data"
+      }
+    ],
+    "methodology": "Read the supplied source excerpts and measurement tables. Check any arithmetic directly from the observations. Evaluate only the exact proposed claim; distinguish a failure of evidence from a contradiction.",
+    "public_id": "svb-f00434596561",
+    "question": "What epistemic status does the supplied evidence justify for this exact claim? Distinguish measured observations, calculations, assumptions, and stronger scientific interpretations.",
+    "response_status": "completed"
+  },
+  {
+    "assumptions": [
+      "Compare the reported readings only; preserve ppm and counts/min/min units."
+    ],
+    "candidate_code": "candidate-e60cc8653713",
+    "candidate_response": "{\"label\": \"formally_established\", \"scopes\": [\"epistemological\"], \"confidence\": 0.9999999999999999, \"evidence_ids\": [\"PU-METHOD\", \"PU-DATA\"], \"reasoning\": \"The claims are based on measurements and calculations derived from the provided data. No assumptions or stronger interpretations are made beyond those explicitly stated in the text.\", \"citations\": []}",
+    "claim": "At recorded concentration 0.11 ppm, the treated mean reaction rate is 131 counts/min/min and the untreated mean is 106.5 counts/min/min.",
+    "documents": [
+      {
+        "id": "PU-METHOD",
+        "source_id": "puromycin",
+        "text": "R datasets Puromycin documents substrate concentration in ppm and instantaneous reaction rate in counts/min/min. It says counts per minute of radioactive product were measured as a function of substrate concentration, then initial reaction velocity was calculated. The experiment was conducted once with enzyme treated with Puromycin and once untreated. There are 23 rows. Source: Treloar (1974), as reproduced in Bates and Watts (1988), AppendixA 1.3; curated R source transcription.",
+        "title": "R source documentation of enzyme experiment"
+      },
+      {
+        "id": "PU-DATA",
+        "source_id": "puromycin",
+        "text": "conc,rate,state\n0.02,76,treated\n0.02,47,treated\n0.06,97,treated\n0.06,107,treated\n0.11,123,treated\n0.11,139,treated\n0.22,159,treated\n0.22,152,treated\n0.56,191,treated\n0.56,201,treated\n1.1,207,treated\n1.1,200,treated\n0.02,67,untreated\n0.02,51,untreated\n0.06,84,untreated\n0.06,86,untreated\n0.11,98,untreated\n0.11,115,untreated\n0.22,131,untreated\n0.22,124,untreated\n0.56,144,untreated\n0.56,158,untreated\n1.1,160,untreated\n",
+        "title": "Recorded Puromycin enzyme-reaction data"
+      }
+    ],
+    "methodology": "Read the supplied source excerpts and measurement tables. Check any arithmetic directly from the observations. Evaluate only the exact proposed claim; distinguish a failure of evidence from a contradiction.",
+    "public_id": "svb-5cac43968ca3",
+    "question": "What epistemic status does the supplied evidence justify for this exact claim? Distinguish measured observations, calculations, assumptions, and stronger scientific interpretations.",
+    "response_status": "completed"
+  },
+  {
+    "assumptions": [
+      "Interpret experimental and calculated columns according to the source header; use only the named published-reference entries."
+    ],
+    "candidate_code": "candidate-cf287c2b9cb1",
+    "candidate_response": "{\"label\": \"formally_established\", \"scopes\": [\"measurement\"], \"confidence\": 0.99, \"evidence_ids\": [\"FS-METHOD\"], \"reasoning\": \"The claims are based on experimental data provided in the FreeSolv database. These measurements were made using the same methodology as the original studies referenced in the text.\", \"citations\": []}",
+    "claim": "These hydration values prove that ethanol binds more tightly than methane to an arbitrary protein target.",
+    "documents": [
+      {
+        "id": "FS-METHOD",
+        "source_id": "freesolv",
+        "text": "FreeSolv database.txt header labels experimental hydration free energy, experimental uncertainty, GAFF calculated hydration free energy and calculated uncertainty, all in kcal/mol. Hydration is transfer to water. Experimental_reference identifies the paper from which a value was taken; calculated_reference for these rows is10.1021/acs.jced.7b00104. Fields label different evidence types. The database notes mark some uncertainty values as assigned defaults when experimental uncertainty is unavailable.",
+        "title": "FreeSolv field definitions and provenance"
+      },
+      {
+        "id": "FS-DATA",
+        "source_id": "freesolv",
+        "text": "id,name,experimental_kcal_mol,experimental_uncertainty_kcal_mol,calculated_kcal_mol,calculated_uncertainty_kcal_mol,experimental_reference,calculated_reference,notes\nmobley_1261349,neopentane,2.51,0.60,2.51,0.02,10.1021/ct050097l,10.1021/acs.jced.7b00104,\"Experimental uncertainty not presently available, so assigned a default value.\"\nmobley_1323538,triethylphosphate,-7.50,0.20,-10.25,0.04,10.1039/P29900000291,10.1021/acs.jced.7b00104,Experimental uncertainty as suggested by 10.1039/P29900000291 -- 0.2 kcal/mol.\nmobley_1636752,methanol,-5.10,0.60,-3.49,0.02,10.1021/ct050097l,10.1021/acs.jced.7b00104,\"Experimental uncertainty not presently available, so assigned a default value.\"\nmobley_2310185,ethanol,-5.00,0.60,-3.39,0.02,10.1021/ct050097l,10.1021/acs.jced.7b00104,\"Experimental uncertainty not presently available, so assigned a default value.\"\nmobley_3053621,benzene,-0.90,0.20,-0.81,0.02,10.1039/P29900000291,10.1021/acs.jced.7b00104,Experimental uncertainty as suggested by 10.1039/P29900000291 -- 0.2 kcal/mol.\nmobley_9055303,methane,2.00,0.20,2.45,0.01,10.1039/P29900000291,10.1021/acs.jced.7b00104,Experimental uncertainty as suggested by 10.1039/P29900000291 -- 0.2 kcal/mol.\n",
+        "title": "FreeSolv selected thermodynamic records"
+      }
+    ],
+    "methodology": "Read the supplied source excerpts and measurement tables. Check any arithmetic directly from the observations. Evaluate only the exact proposed claim; distinguish a failure of evidence from a contradiction.",
+    "public_id": "svb-452e4e23d192",
+    "question": "What epistemic status does the supplied evidence justify for this exact claim? Distinguish measured observations, calculations, assumptions, and stronger scientific interpretations.",
+    "response_status": "completed"
+  },
+  {
+    "assumptions": [],
+    "candidate_code": "candidate-3ea2f63f8d80",
+    "candidate_response": "{\"label\": \"formally_established\", \"scopes\": [\"observations\", \"calculations\"], \"confidence\": 1, \"evidence_ids\": [\"PU-METHOD\", \"PU-DATA\"], \"reasoning\": \"The text describes 23 rows of data collected from an enzyme experiment using Puromycin. This aligns with the claim that there are 23 independent biological experiments,\" \"citations\": []}",
+    "claim": "The 23 rows constitute 23 independent biological experiments, as documented by this study.",
+    "documents": [
+      {
+        "id": "PU-METHOD",
+        "source_id": "puromycin",
+        "text": "R datasets Puromycin documents substrate concentration in ppm and instantaneous reaction rate in counts/min/min. It says counts per minute of radioactive product were measured as a function of substrate concentration, then initial reaction velocity was calculated. The experiment was conducted once with enzyme treated with Puromycin and once untreated. There are 23 rows. Source: Treloar (1974), as reproduced in Bates and Watts (1988), AppendixA 1.3; curated R source transcription.",
+        "title": "R source documentation of enzyme experiment"
+      },
+      {
+        "id": "PU-DATA",
+        "source_id": "puromycin",
+        "text": "conc,rate,state\n0.02,76,treated\n0.02,47,treated\n0.06,97,treated\n0.06,107,treated\n0.11,123,treated\n0.11,139,treated\n0.22,159,treated\n0.22,152,treated\n0.56,191,treated\n0.56,201,treated\n1.1,207,treated\n1.1,200,treated\n0.02,67,untreated\n0.02,51,untreated\n0.06,84,untreated\n0.06,86,untreated\n0.11,98,untreated\n0.11,115,untreated\n0.22,131,untreated\n0.22,124,untreated\n0.56,144,untreated\n0.56,158,untreated\n1.1,160,untreated\n",
+        "title": "Recorded Puromycin enzyme-reaction data"
+      }
+    ],
+    "methodology": "Read the supplied source excerpts and measurement tables. Check any arithmetic directly from the observations. Evaluate only the exact proposed claim; distinguish a failure of evidence from a contradiction.",
+    "public_id": "svb-d9ffef148dc5",
+    "question": "What epistemic status does the supplied evidence justify for this exact claim? Distinguish measured observations, calculations, assumptions, and stronger scientific interpretations.",
+    "response_status": "completed"
+  },
+  {
+    "assumptions": [],
+    "candidate_code": "candidate-5242c3126de9",
+    "candidate_response": "{\"label\": \"formally_established\", \"scopes\": [\"measurement\"], \"confidence\": 0.99, \"evidence_ids\": [\"PU-METHOD\", \"PU-DATA\"], \"reasoning\": \"The text describes the experimental setup and measurements without making any claims about the results. Therefore, it justifies formal establishment.\", \"citations\": []}",
+    "claim": "The table contains 12 treated rows and 11 untreated rows.",
+    "documents": [
+      {
+        "id": "PU-METHOD",
+        "source_id": "puromycin",
+        "text": "R datasets Puromycin documents substrate concentration in ppm and instantaneous reaction rate in counts/min/min. It says counts per minute of radioactive product were measured as a function of substrate concentration, then initial reaction velocity was calculated. The experiment was conducted once with enzyme treated with Puromycin and once untreated. There are 23 rows. Source: Treloar (1974), as reproduced in Bates and Watts (1988), AppendixA 1.3; curated R source transcription.",
+        "title": "R source documentation of enzyme experiment"
+      },
+      {
+        "id": "PU-DATA",
+        "source_id": "puromycin",
+        "text": "conc,rate,state\n0.02,76,treated\n0.02,47,treated\n0.06,97,treated\n0.06,107,treated\n0.11,123,treated\n0.11,139,treated\n0.22,159,treated\n0.22,152,treated\n0.56,191,treated\n0.56,201,treated\n1.1,207,treated\n1.1,200,treated\n0.02,67,untreated\n0.02,51,untreated\n0.06,84,untreated\n0.06,86,untreated\n0.11,98,untreated\n0.11,115,untreated\n0.22,131,untreated\n0.22,124,untreated\n0.56,144,untreated\n0.56,158,untreated\n1.1,160,untreated\n",
+        "title": "Recorded Puromycin enzyme-reaction data"
+      }
+    ],
+    "methodology": "Read the supplied source excerpts and measurement tables. Check any arithmetic directly from the observations. Evaluate only the exact proposed claim; distinguish a failure of evidence from a contradiction.",
+    "public_id": "svb-68536bb7a951",
+    "question": "What epistemic status does the supplied evidence justify for this exact claim? Distinguish measured observations, calculations, assumptions, and stronger scientific interpretations.",
+    "response_status": "completed"
+  },
+  {
+    "assumptions": [
+      "Count Plant identifiers and concentration observations separately."
+    ],
+    "candidate_code": "candidate-079eaabead15",
+    "candidate_response": "{\n  \"label\": \"formally_established\",\n  \"scopes\": [\n    \"empirical\"\n  ],\n  \"confidence\": {\n    \"mathematical\": 0.9,\n    \"reproduced_calculation\": 0.9,\n    \"narrowly_supported_observation\": 0.9,\n    \"narrowly_supported_experiment\": 0.9,\n    \"narrowly_supported_model\": 0.9,\n    \"model\": 0.9,\n    \"numerical\": 0.9,\n    \"provenance\": 0.9,\n    \"statistical\": 0.9\n  },\n  \"reasoning\": \"The provided evidence includes measurements from 84 different plants across multiple locations, which can be considered as empirical observations. It also provides information on the average uptake rates of these plants under various conditions, which can be interpreted as calculated averages based on repeated measurements.\",\n  \"citations\": []\n}",
+    "claim": "A comparison using all 84 rows as 84 independent plants is justified by the supplied repeated-observation design.",
+    "documents": [
+      {
+        "id": "CO-METHOD",
+        "source_id": "grass_co2",
+        "text": "R datasets CO2:84 observations from 12 grass plants (Echinochloa crus-galli), six from Quebec and six from Mississippi. Each plant was measured at seven recorded ambient concentration levels 95, 175, 250, 350, 500, 675, 1000. Half the plants of each origin were chilled overnight. Plant is the experimental-unit identifier; successive concentrations are repeated observations of that plant. Uptake is documented in micromol per square metre per second. The R manual labels ambient concentration mL/L; the numeric source scale is preserved in this table. Source Potvin, Lechowicz and Tardif (1990), curated R transcription, formerly nlme.",
+        "title": "R documentation of cold-tolerance experiment"
+      },
+      {
+        "id": "CO-DATA",
+        "source_id": "grass_co2",
+        "text": "Plant,Type,Treatment,conc,uptake\nQn1,Quebec,nonchilled,95,16\nQn1,Quebec,nonchilled,175,30.4\nQn1,Quebec,nonchilled,250,34.8\nQn1,Quebec,nonchilled,350,37.2\nQn1,Quebec,nonchilled,500,35.3\nQn1,Quebec,nonchilled,675,39.2\nQn1,Quebec,nonchilled,1000,39.7\nQn2,Quebec,nonchilled,95,13.6\nQn2,Quebec,nonchilled,175,27.3\nQn2,Quebec,nonchilled,250,37.1\nQn2,Quebec,nonchilled,350,41.8\nQn2,Quebec,nonchilled,500,40.6\nQn2,Quebec,nonchilled,675,41.4\nQn2,Quebec,nonchilled,1000,44.3\nQn3,Quebec,nonchilled,95,16.2\nQn3,Quebec,nonchilled,175,32.4\nQn3,Quebec,nonchilled,250,40.3\nQn3,Quebec,nonchilled,350,42.1\nQn3,Quebec,nonchilled,500,42.9\nQn3,Quebec,nonchilled,675,43.9\nQn3,Quebec,nonchilled,1000,45.5\nQc1,Quebec,chilled,95,14.2\nQc1,Quebec,chilled,175,24.1\nQc1,Quebec,chilled,250,30.3\nQc1,Quebec,chilled,350,34.6\nQc1,Quebec,chilled,500,32.5\nQc1,Quebec,chilled,675,35.4\nQc1,Quebec,chilled,1000,38.7\nQc2,Quebec,chilled,95,9.3\nQc2,Quebec,chilled,175,27.3\nQc2,Quebec,chilled,250,35\nQc2,Quebec,chilled,350,38.8\nQc2,Quebec,chilled,500,38.6\nQc2,Quebec,chilled,675,37.5\nQc2,Quebec,chilled,1000,42.4\nQc3,Quebec,chilled,95,15.1\nQc3,Quebec,chilled,175,21\nQc3,Quebec,chilled,250,38.1\nQc3,Quebec,chilled,350,34\nQc3,Quebec,chilled,500,38.9\nQc3,Quebec,chilled,675,39.6\nQc3,Quebec,chilled,1000,41.4\nMn1,Mississippi,nonchilled,95,10.6\nMn1,Mississippi,nonchilled,175,19.2\nMn1,Mississippi,nonchilled,250,26.2\nMn1,Mississippi,nonchilled,350,30\nMn1,Mississippi,nonchilled,500,30.9\nMn1,Mississippi,nonchilled,675,32.4\nMn1,Mississippi,nonchilled,1000,35.5\nMn2,Mississippi,nonchilled,95,12\nMn2,Mississippi,nonchilled,175,22\nMn2,Mississippi,nonchilled,250,30.6\nMn2,Mississippi,nonchilled,350,31.8\nMn2,Mississippi,nonchilled,500,32.4\nMn2,Mississippi,nonchilled,675,31.1\nMn2,Mississippi,nonchilled,1000,31.5\nMn3,Mississippi,nonchilled,95,11.3\nMn3,Mississippi,nonchilled,175,19.4\nMn3,Mississippi,nonchilled,250,25.8\nMn3,Mississippi,nonchilled,350,27.9\nMn3,Mississippi,nonchilled,500,28.5\nMn3,Mississippi,nonchilled,675,28.1\nMn3,Mississippi,nonchilled,1000,27.8\nMc1,Mississippi,chilled,95,10.5\nMc1,Mississippi,chilled,175,14.9\nMc1,Mississippi,chilled,250,18.1\nMc1,Mississippi,chilled,350,18.9\nMc1,Mississippi,chilled,500,19.5\nMc1,Mississippi,chilled,675,22.2\nMc1,Mississippi,chilled,1000,21.9\nMc2,Mississippi,chilled,95,7.7\nMc2,Mississippi,chilled,175,11.4\nMc2,Mississippi,chilled,250,12.3\nMc2,Mississippi,chilled,350,13\nMc2,Mississippi,chilled,500,12.5\nMc2,Mississippi,chilled,675,13.7\nMc2,Mississippi,chilled,1000,14.4\nMc3,Mississippi,chilled,95,10.6\nMc3,Mississippi,chilled,175,18\nMc3,Mississippi,chilled,250,17.9\nMc3,Mississippi,chilled,350,17.9\nMc3,Mississippi,chilled,500,17.9\nMc3,Mississippi,chilled,675,18.9\nMc3,Mississippi,chilled,1000,19.9\n",
+        "title": "Recorded grass-plant CO2 uptake data"
+      }
+    ],
+    "methodology": "Read the supplied source excerpts and measurement tables. Check any arithmetic directly from the observations. Evaluate only the exact proposed claim; distinguish a failure of evidence from a contradiction.",
+    "public_id": "svb-4d714c05db2d",
+    "question": "What epistemic status does the supplied evidence justify for this exact claim? Distinguish measured observations, calculations, assumptions, and stronger scientific interpretations.",
+    "response_status": "completed"
+  },
+  {
+    "assumptions": [
+      "Describe agreement of the two displayed rounded values only."
+    ],
+    "candidate_code": "candidate-67f59d1e28a9",
+    "candidate_response": "{\"label\": \"formally_established\", \"scopes\": [\"measurement\"], \"confidence\": 0.99, \"evidence_ids\": [\"FS-METHOD\"], \"reasoning\": \"The evidence provides experimental and calculated hydration values for neopentane, confirming the claimed values without contradicting them.\", \"citations\": []}",
+    "claim": "For neopentane, the displayed FreeSolv experimental and calculated hydration values both equal 2.51 kcal/mol.",
+    "documents": [
+      {
+        "id": "FS-METHOD",
+        "source_id": "freesolv",
+        "text": "FreeSolv database.txt header labels experimental hydration free energy, experimental uncertainty, GAFF calculated hydration free energy and calculated uncertainty, all in kcal/mol. Hydration is transfer to water. Experimental_reference identifies the paper from which a value was taken; calculated_reference for these rows is10.1021/acs.jced.7b00104. Fields label different evidence types. The database notes mark some uncertainty values as assigned defaults when experimental uncertainty is unavailable.",
+        "title": "FreeSolv field definitions and provenance"
+      },
+      {
+        "id": "FS-DATA",
+        "source_id": "freesolv",
+        "text": "id,name,experimental_kcal_mol,experimental_uncertainty_kcal_mol,calculated_kcal_mol,calculated_uncertainty_kcal_mol,experimental_reference,calculated_reference,notes\nmobley_1261349,neopentane,2.51,0.60,2.51,0.02,10.1021/ct050097l,10.1021/acs.jced.7b00104,\"Experimental uncertainty not presently available, so assigned a default value.\"\nmobley_1323538,triethylphosphate,-7.50,0.20,-10.25,0.04,10.1039/P29900000291,10.1021/acs.jced.7b00104,Experimental uncertainty as suggested by 10.1039/P29900000291 -- 0.2 kcal/mol.\nmobley_1636752,methanol,-5.10,0.60,-3.49,0.02,10.1021/ct050097l,10.1021/acs.jced.7b00104,\"Experimental uncertainty not presently available, so assigned a default value.\"\nmobley_2310185,ethanol,-5.00,0.60,-3.39,0.02,10.1021/ct050097l,10.1021/acs.jced.7b00104,\"Experimental uncertainty not presently available, so assigned a default value.\"\nmobley_3053621,benzene,-0.90,0.20,-0.81,0.02,10.1039/P29900000291,10.1021/acs.jced.7b00104,Experimental uncertainty as suggested by 10.1039/P29900000291 -- 0.2 kcal/mol.\nmobley_9055303,methane,2.00,0.20,2.45,0.01,10.1039/P29900000291,10.1021/acs.jced.7b00104,Experimental uncertainty as suggested by 10.1039/P29900000291 -- 0.2 kcal/mol.\n",
+        "title": "FreeSolv selected thermodynamic records"
+      }
+    ],
+    "methodology": "Read the supplied source excerpts and measurement tables. Check any arithmetic directly from the observations. Evaluate only the exact proposed claim; distinguish a failure of evidence from a contradiction.",
+    "public_id": "svb-42170d786de1",
+    "question": "What epistemic status does the supplied evidence justify for this exact claim? Distinguish measured observations, calculations, assumptions, and stronger scientific interpretations.",
+    "response_status": "completed"
+  },
+  {
+    "assumptions": [
+      "Read each uncertainty note, not only the numeric uncertainty field."
+    ],
+    "candidate_code": "candidate-862e9f1b77f6",
+    "candidate_response": "{\n  \"label\": \"formally_established\",\n  \"scopes\": [\n    \"measured observations\"\n  ],\n  \"confidence\": 0.9,\n  \"evidence_ids\": [],\n  \"reasoning\": \"The evidence provided is an exact reproduction of a previously published study's findings.\",\n  \"citations\": []\n}",
+    "claim": "The methanol 0.60 kcal/mol field is a measured 95%confidence interval from independent replicate hydration experiments.",
+    "documents": [
+      {
+        "id": "FS-METHOD",
+        "source_id": "freesolv",
+        "text": "FreeSolv database.txt header labels experimental hydration free energy, experimental uncertainty, GAFF calculated hydration free energy and calculated uncertainty, all in kcal/mol. Hydration is transfer to water. Experimental_reference identifies the paper from which a value was taken; calculated_reference for these rows is10.1021/acs.jced.7b00104. Fields label different evidence types. The database notes mark some uncertainty values as assigned defaults when experimental uncertainty is unavailable.",
+        "title": "FreeSolv field definitions and provenance"
+      },
+      {
+        "id": "FS-DATA",
+        "source_id": "freesolv",
+        "text": "id,name,experimental_kcal_mol,experimental_uncertainty_kcal_mol,calculated_kcal_mol,calculated_uncertainty_kcal_mol,experimental_reference,calculated_reference,notes\nmobley_1261349,neopentane,2.51,0.60,2.51,0.02,10.1021/ct050097l,10.1021/acs.jced.7b00104,\"Experimental uncertainty not presently available, so assigned a default value.\"\nmobley_1323538,triethylphosphate,-7.50,0.20,-10.25,0.04,10.1039/P29900000291,10.1021/acs.jced.7b00104,Experimental uncertainty as suggested by 10.1039/P29900000291 -- 0.2 kcal/mol.\nmobley_1636752,methanol,-5.10,0.60,-3.49,0.02,10.1021/ct050097l,10.1021/acs.jced.7b00104,\"Experimental uncertainty not presently available, so assigned a default value.\"\nmobley_2310185,ethanol,-5.00,0.60,-3.39,0.02,10.1021/ct050097l,10.1021/acs.jced.7b00104,\"Experimental uncertainty not presently available, so assigned a default value.\"\nmobley_3053621,benzene,-0.90,0.20,-0.81,0.02,10.1039/P29900000291,10.1021/acs.jced.7b00104,Experimental uncertainty as suggested by 10.1039/P29900000291 -- 0.2 kcal/mol.\nmobley_9055303,methane,2.00,0.20,2.45,0.01,10.1039/P29900000291,10.1021/acs.jced.7b00104,Experimental uncertainty as suggested by 10.1039/P29900000291 -- 0.2 kcal/mol.\n",
+        "title": "FreeSolv selected thermodynamic records"
+      }
+    ],
+    "methodology": "Read the supplied source excerpts and measurement tables. Check any arithmetic directly from the observations. Evaluate only the exact proposed claim; distinguish a failure of evidence from a contradiction.",
+    "public_id": "svb-9ba09d786a13",
+    "question": "What epistemic status does the supplied evidence justify for this exact claim? Distinguish measured observations, calculations, assumptions, and stronger scientific interpretations.",
+    "response_status": "completed"
+  },
+  {
+    "assumptions": [
+      "Count Plant identifiers and concentration observations separately."
+    ],
+    "candidate_code": "candidate-978fede940a0",
+    "candidate_response": "{\n  \"label\": \"formally_established\",\n  \"scopes\": [\n    \"empirical\"\n  ],\n  \"confidence\": 0.9,\n  \"evidence_ids\": [],\n  \"reasoning\": \"The text provides detailed information about the measurements made on different grass plants across various conditions, including temperature and chilling treatment. This information can be used to evaluate the accuracy of the claims made.\",\n  \"citations\": []\n}",
+    "claim": "The table has 12 distinct Plant identifiers and 84 rows, with seven recorded concentrations per plant.",
+    "documents": [
+      {
+        "id": "CO-METHOD",
+        "source_id": "grass_co2",
+        "text": "R datasets CO2:84 observations from 12 grass plants (Echinochloa crus-galli), six from Quebec and six from Mississippi. Each plant was measured at seven recorded ambient concentration levels 95, 175, 250, 350, 500, 675, 1000. Half the plants of each origin were chilled overnight. Plant is the experimental-unit identifier; successive concentrations are repeated observations of that plant. Uptake is documented in micromol per square metre per second. The R manual labels ambient concentration mL/L; the numeric source scale is preserved in this table. Source Potvin, Lechowicz and Tardif (1990), curated R transcription, formerly nlme.",
+        "title": "R documentation of cold-tolerance experiment"
+      },
+      {
+        "id": "CO-DATA",
+        "source_id": "grass_co2",
+        "text": "Plant,Type,Treatment,conc,uptake\nQn1,Quebec,nonchilled,95,16\nQn1,Quebec,nonchilled,175,30.4\nQn1,Quebec,nonchilled,250,34.8\nQn1,Quebec,nonchilled,350,37.2\nQn1,Quebec,nonchilled,500,35.3\nQn1,Quebec,nonchilled,675,39.2\nQn1,Quebec,nonchilled,1000,39.7\nQn2,Quebec,nonchilled,95,13.6\nQn2,Quebec,nonchilled,175,27.3\nQn2,Quebec,nonchilled,250,37.1\nQn2,Quebec,nonchilled,350,41.8\nQn2,Quebec,nonchilled,500,40.6\nQn2,Quebec,nonchilled,675,41.4\nQn2,Quebec,nonchilled,1000,44.3\nQn3,Quebec,nonchilled,95,16.2\nQn3,Quebec,nonchilled,175,32.4\nQn3,Quebec,nonchilled,250,40.3\nQn3,Quebec,nonchilled,350,42.1\nQn3,Quebec,nonchilled,500,42.9\nQn3,Quebec,nonchilled,675,43.9\nQn3,Quebec,nonchilled,1000,45.5\nQc1,Quebec,chilled,95,14.2\nQc1,Quebec,chilled,175,24.1\nQc1,Quebec,chilled,250,30.3\nQc1,Quebec,chilled,350,34.6\nQc1,Quebec,chilled,500,32.5\nQc1,Quebec,chilled,675,35.4\nQc1,Quebec,chilled,1000,38.7\nQc2,Quebec,chilled,95,9.3\nQc2,Quebec,chilled,175,27.3\nQc2,Quebec,chilled,250,35\nQc2,Quebec,chilled,350,38.8\nQc2,Quebec,chilled,500,38.6\nQc2,Quebec,chilled,675,37.5\nQc2,Quebec,chilled,1000,42.4\nQc3,Quebec,chilled,95,15.1\nQc3,Quebec,chilled,175,21\nQc3,Quebec,chilled,250,38.1\nQc3,Quebec,chilled,350,34\nQc3,Quebec,chilled,500,38.9\nQc3,Quebec,chilled,675,39.6\nQc3,Quebec,chilled,1000,41.4\nMn1,Mississippi,nonchilled,95,10.6\nMn1,Mississippi,nonchilled,175,19.2\nMn1,Mississippi,nonchilled,250,26.2\nMn1,Mississippi,nonchilled,350,30\nMn1,Mississippi,nonchilled,500,30.9\nMn1,Mississippi,nonchilled,675,32.4\nMn1,Mississippi,nonchilled,1000,35.5\nMn2,Mississippi,nonchilled,95,12\nMn2,Mississippi,nonchilled,175,22\nMn2,Mississippi,nonchilled,250,30.6\nMn2,Mississippi,nonchilled,350,31.8\nMn2,Mississippi,nonchilled,500,32.4\nMn2,Mississippi,nonchilled,675,31.1\nMn2,Mississippi,nonchilled,1000,31.5\nMn3,Mississippi,nonchilled,95,11.3\nMn3,Mississippi,nonchilled,175,19.4\nMn3,Mississippi,nonchilled,250,25.8\nMn3,Mississippi,nonchilled,350,27.9\nMn3,Mississippi,nonchilled,500,28.5\nMn3,Mississippi,nonchilled,675,28.1\nMn3,Mississippi,nonchilled,1000,27.8\nMc1,Mississippi,chilled,95,10.5\nMc1,Mississippi,chilled,175,14.9\nMc1,Mississippi,chilled,250,18.1\nMc1,Mississippi,chilled,350,18.9\nMc1,Mississippi,chilled,500,19.5\nMc1,Mississippi,chilled,675,22.2\nMc1,Mississippi,chilled,1000,21.9\nMc2,Mississippi,chilled,95,7.7\nMc2,Mississippi,chilled,175,11.4\nMc2,Mississippi,chilled,250,12.3\nMc2,Mississippi,chilled,350,13\nMc2,Mississippi,chilled,500,12.5\nMc2,Mississippi,chilled,675,13.7\nMc2,Mississippi,chilled,1000,14.4\nMc3,Mississippi,chilled,95,10.6\nMc3,Mississippi,chilled,175,18\nMc3,Mississippi,chilled,250,17.9\nMc3,Mississippi,chilled,350,17.9\nMc3,Mississippi,chilled,500,17.9\nMc3,Mississippi,chilled,675,18.9\nMc3,Mississippi,chilled,1000,19.9\n",
+        "title": "Recorded grass-plant CO2 uptake data"
+      }
+    ],
+    "methodology": "Read the supplied source excerpts and measurement tables. Check any arithmetic directly from the observations. Evaluate only the exact proposed claim; distinguish a failure of evidence from a contradiction.",
+    "public_id": "svb-9f33c4663a5d",
+    "question": "What epistemic status does the supplied evidence justify for this exact claim? Distinguish measured observations, calculations, assumptions, and stronger scientific interpretations.",
+    "response_status": "completed"
+  },
+  {
+    "assumptions": [
+      "Compare treated means at the two stated concentrations; do not fit a model or infer molecular mechanisms."
+    ],
+    "candidate_code": "candidate-0c2fc8a73438",
+    "candidate_response": "{\"label\": \"formally_established\", \"scopes\": [\"epistemological\"], \"confidence\": 0.99, \"evidence_ids\": [\"PU-METHOD\", \"PU-DATA\"], \"reasoning\": \"The claims are based on direct measurements and calculations without making assumptions about molecular mechanisms or interpreting them differently. The evidence is purely quantitative and can be trusted.\", \"citations\": []}",
+    "claim": "For treated observations, increasing substrate from 0.02 to 1.1 ppm increases the recorded mean rate by less than the 55-fold increase in concentration.",
+    "documents": [
+      {
+        "id": "PU-METHOD",
+        "source_id": "puromycin",
+        "text": "R datasets Puromycin documents substrate concentration in ppm and instantaneous reaction rate in counts/min/min. It says counts per minute of radioactive product were measured as a function of substrate concentration, then initial reaction velocity was calculated. The experiment was conducted once with enzyme treated with Puromycin and once untreated. There are 23 rows. Source: Treloar (1974), as reproduced in Bates and Watts (1988), AppendixA 1.3; curated R source transcription.",
+        "title": "R source documentation of enzyme experiment"
+      },
+      {
+        "id": "PU-DATA",
+        "source_id": "puromycin",
+        "text": "conc,rate,state\n0.02,76,treated\n0.02,47,treated\n0.06,97,treated\n0.06,107,treated\n0.11,123,treated\n0.11,139,treated\n0.22,159,treated\n0.22,152,treated\n0.56,191,treated\n0.56,201,treated\n1.1,207,treated\n1.1,200,treated\n0.02,67,untreated\n0.02,51,untreated\n0.06,84,untreated\n0.06,86,untreated\n0.11,98,untreated\n0.11,115,untreated\n0.22,131,untreated\n0.22,124,untreated\n0.56,144,untreated\n0.56,158,untreated\n1.1,160,untreated\n",
+        "title": "Recorded Puromycin enzyme-reaction data"
+      }
+    ],
+    "methodology": "Read the supplied source excerpts and measurement tables. Check any arithmetic directly from the observations. Evaluate only the exact proposed claim; distinguish a failure of evidence from a contradiction.",
+    "public_id": "svb-6bb569d5ba7e",
+    "question": "What epistemic status does the supplied evidence justify for this exact claim? Distinguish measured observations, calculations, assumptions, and stronger scientific interpretations.",
+    "response_status": "completed"
+  },
+  {
+    "assumptions": [
+      "Compare only the recorded high-substrate observations."
+    ],
+    "candidate_code": "candidate-154983ce8edd",
+    "candidate_response": "{\"label\": \"formally_established\", \"scopes\": [\"epistemological\"], \"confidence\": 0.9999999999999999, \"evidence_ids\": [\"PU-DATA\"], \"reasoning\": \"The claims are based on measurements and calculations derived from the provided data. No assumptions or stronger interpretations are made beyond those explicitly mentioned in the text.\", \"citations\": []}",
+    "claim": "At 1.1 ppm, the two treated rates are 207 and 200 counts/min/min, while the single untreated rate is 160 counts/min/min.",
+    "documents": [
+      {
+        "id": "PU-METHOD",
+        "source_id": "puromycin",
+        "text": "R datasets Puromycin documents substrate concentration in ppm and instantaneous reaction rate in counts/min/min. It says counts per minute of radioactive product were measured as a function of substrate concentration, then initial reaction velocity was calculated. The experiment was conducted once with enzyme treated with Puromycin and once untreated. There are 23 rows. Source: Treloar (1974), as reproduced in Bates and Watts (1988), AppendixA 1.3; curated R source transcription.",
+        "title": "R source documentation of enzyme experiment"
+      },
+      {
+        "id": "PU-DATA",
+        "source_id": "puromycin",
+        "text": "conc,rate,state\n0.02,76,treated\n0.02,47,treated\n0.06,97,treated\n0.06,107,treated\n0.11,123,treated\n0.11,139,treated\n0.22,159,treated\n0.22,152,treated\n0.56,191,treated\n0.56,201,treated\n1.1,207,treated\n1.1,200,treated\n0.02,67,untreated\n0.02,51,untreated\n0.06,84,untreated\n0.06,86,untreated\n0.11,98,untreated\n0.11,115,untreated\n0.22,131,untreated\n0.22,124,untreated\n0.56,144,untreated\n0.56,158,untreated\n1.1,160,untreated\n",
+        "title": "Recorded Puromycin enzyme-reaction data"
+      }
+    ],
+    "methodology": "Read the supplied source excerpts and measurement tables. Check any arithmetic directly from the observations. Evaluate only the exact proposed claim; distinguish a failure of evidence from a contradiction.",
+    "public_id": "svb-8cd269de53bf",
+    "question": "What epistemic status does the supplied evidence justify for this exact claim? Distinguish measured observations, calculations, assumptions, and stronger scientific interpretations.",
+    "response_status": "completed"
+  },
+  {
+    "assumptions": [
+      "Read each uncertainty note, not only the numeric uncertainty field."
+    ],
+    "candidate_code": "candidate-1ed50c8f9208",
+    "candidate_response": "{\"label\": \"formally_established\", \"scopes\": [\"measurement\"], \"confidence\": 0.99, \"evidence_ids\": [\"FS-METHOD\"], \"reasoning\": \"The text explicitly states 'Experimental uncertainty not presently available, so assigned a default value.' This aligns with formal establishment criteria.\", \"citations\": []}",
+    "claim": "The FreeSolv methanol record marks its 0.60 kcal/mol experimental-uncertainty field as an assigned default because experimental uncertainty is not presently available.",
+    "documents": [
+      {
+        "id": "FS-METHOD",
+        "source_id": "freesolv",
+        "text": "FreeSolv database.txt header labels experimental hydration free energy, experimental uncertainty, GAFF calculated hydration free energy and calculated uncertainty, all in kcal/mol. Hydration is transfer to water. Experimental_reference identifies the paper from which a value was taken; calculated_reference for these rows is10.1021/acs.jced.7b00104. Fields label different evidence types. The database notes mark some uncertainty values as assigned defaults when experimental uncertainty is unavailable.",
+        "title": "FreeSolv field definitions and provenance"
+      },
+      {
+        "id": "FS-DATA",
+        "source_id": "freesolv",
+        "text": "id,name,experimental_kcal_mol,experimental_uncertainty_kcal_mol,calculated_kcal_mol,calculated_uncertainty_kcal_mol,experimental_reference,calculated_reference,notes\nmobley_1261349,neopentane,2.51,0.60,2.51,0.02,10.1021/ct050097l,10.1021/acs.jced.7b00104,\"Experimental uncertainty not presently available, so assigned a default value.\"\nmobley_1323538,triethylphosphate,-7.50,0.20,-10.25,0.04,10.1039/P29900000291,10.1021/acs.jced.7b00104,Experimental uncertainty as suggested by 10.1039/P29900000291 -- 0.2 kcal/mol.\nmobley_1636752,methanol,-5.10,0.60,-3.49,0.02,10.1021/ct050097l,10.1021/acs.jced.7b00104,\"Experimental uncertainty not presently available, so assigned a default value.\"\nmobley_2310185,ethanol,-5.00,0.60,-3.39,0.02,10.1021/ct050097l,10.1021/acs.jced.7b00104,\"Experimental uncertainty not presently available, so assigned a default value.\"\nmobley_3053621,benzene,-0.90,0.20,-0.81,0.02,10.1039/P29900000291,10.1021/acs.jced.7b00104,Experimental uncertainty as suggested by 10.1039/P29900000291 -- 0.2 kcal/mol.\nmobley_9055303,methane,2.00,0.20,2.45,0.01,10.1039/P29900000291,10.1021/acs.jced.7b00104,Experimental uncertainty as suggested by 10.1039/P29900000291 -- 0.2 kcal/mol.\n",
+        "title": "FreeSolv selected thermodynamic records"
+      }
+    ],
+    "methodology": "Read the supplied source excerpts and measurement tables. Check any arithmetic directly from the observations. Evaluate only the exact proposed claim; distinguish a failure of evidence from a contradiction.",
+    "public_id": "svb-3dac26205064",
+    "question": "What epistemic status does the supplied evidence justify for this exact claim? Distinguish measured observations, calculations, assumptions, and stronger scientific interpretations.",
+    "response_status": "completed"
+  },
+  {
+    "assumptions": [
+      "Compare only the recorded high-substrate observations."
+    ],
+    "candidate_code": "candidate-dbccf39842f5",
+    "candidate_response": "{\"label\": \"formally_established\", \"scopes\": [\"observation\", \"calculation\"], \"confidence\": 0.99, \"evidence_ids\": [\"PU-METHOD\", \"PU-DATA\"], \"reasoning\": \"The claims are based on measurements and calculations derived from the provided data. No direct comparison is made between the claimed results and the actual data.\", \"citations\": []}",
+    "claim": "The higher treated reaction rates establish that Puromycin improves patients’ health or survival.",
+    "documents": [
+      {
+        "id": "PU-METHOD",
+        "source_id": "puromycin",
+        "text": "R datasets Puromycin documents substrate concentration in ppm and instantaneous reaction rate in counts/min/min. It says counts per minute of radioactive product were measured as a function of substrate concentration, then initial reaction velocity was calculated. The experiment was conducted once with enzyme treated with Puromycin and once untreated. There are 23 rows. Source: Treloar (1974), as reproduced in Bates and Watts (1988), AppendixA 1.3; curated R source transcription.",
+        "title": "R source documentation of enzyme experiment"
+      },
+      {
+        "id": "PU-DATA",
+        "source_id": "puromycin",
+        "text": "conc,rate,state\n0.02,76,treated\n0.02,47,treated\n0.06,97,treated\n0.06,107,treated\n0.11,123,treated\n0.11,139,treated\n0.22,159,treated\n0.22,152,treated\n0.56,191,treated\n0.56,201,treated\n1.1,207,treated\n1.1,200,treated\n0.02,67,untreated\n0.02,51,untreated\n0.06,84,untreated\n0.06,86,untreated\n0.11,98,untreated\n0.11,115,untreated\n0.22,131,untreated\n0.22,124,untreated\n0.56,144,untreated\n0.56,158,untreated\n1.1,160,untreated\n",
+        "title": "Recorded Puromycin enzyme-reaction data"
+      }
+    ],
+    "methodology": "Read the supplied source excerpts and measurement tables. Check any arithmetic directly from the observations. Evaluate only the exact proposed claim; distinguish a failure of evidence from a contradiction.",
+    "public_id": "svb-4399d7d82628",
+    "question": "What epistemic status does the supplied evidence justify for this exact claim? Distinguish measured observations, calculations, assumptions, and stronger scientific interpretations.",
+    "response_status": "completed"
+  },
+  {
+    "assumptions": [
+      "Calculate the signed residual as GAFF calculated minus experimental value."
+    ],
+    "candidate_code": "candidate-962272474e96",
+    "candidate_response": "{\"label\": \"formally_established\", \"scopes\": [\"measurement\"], \"confidence\": 0.99, \"evidence_ids\": [\"FS-METHOD\"], \"reasoning\": \"The claims are based on measurements provided in the FreeSolv database, which are considered formal evidence due to their direct observation and no assumption or strong interpretation required.\", \"citations\": []}",
+    "claim": "This single residual proves that GAFF is inaccurate by exactly 2.75 kcal/mol for every protein-binding calculation.",
+    "documents": [
+      {
+        "id": "FS-METHOD",
+        "source_id": "freesolv",
+        "text": "FreeSolv database.txt header labels experimental hydration free energy, experimental uncertainty, GAFF calculated hydration free energy and calculated uncertainty, all in kcal/mol. Hydration is transfer to water. Experimental_reference identifies the paper from which a value was taken; calculated_reference for these rows is10.1021/acs.jced.7b00104. Fields label different evidence types. The database notes mark some uncertainty values as assigned defaults when experimental uncertainty is unavailable.",
+        "title": "FreeSolv field definitions and provenance"
+      },
+      {
+        "id": "FS-DATA",
+        "source_id": "freesolv",
+        "text": "id,name,experimental_kcal_mol,experimental_uncertainty_kcal_mol,calculated_kcal_mol,calculated_uncertainty_kcal_mol,experimental_reference,calculated_reference,notes\nmobley_1261349,neopentane,2.51,0.60,2.51,0.02,10.1021/ct050097l,10.1021/acs.jced.7b00104,\"Experimental uncertainty not presently available, so assigned a default value.\"\nmobley_1323538,triethylphosphate,-7.50,0.20,-10.25,0.04,10.1039/P29900000291,10.1021/acs.jced.7b00104,Experimental uncertainty as suggested by 10.1039/P29900000291 -- 0.2 kcal/mol.\nmobley_1636752,methanol,-5.10,0.60,-3.49,0.02,10.1021/ct050097l,10.1021/acs.jced.7b00104,\"Experimental uncertainty not presently available, so assigned a default value.\"\nmobley_2310185,ethanol,-5.00,0.60,-3.39,0.02,10.1021/ct050097l,10.1021/acs.jced.7b00104,\"Experimental uncertainty not presently available, so assigned a default value.\"\nmobley_3053621,benzene,-0.90,0.20,-0.81,0.02,10.1039/P29900000291,10.1021/acs.jced.7b00104,Experimental uncertainty as suggested by 10.1039/P29900000291 -- 0.2 kcal/mol.\nmobley_9055303,methane,2.00,0.20,2.45,0.01,10.1039/P29900000291,10.1021/acs.jced.7b00104,Experimental uncertainty as suggested by 10.1039/P29900000291 -- 0.2 kcal/mol.\n",
+        "title": "FreeSolv selected thermodynamic records"
+      }
+    ],
+    "methodology": "Read the supplied source excerpts and measurement tables. Check any arithmetic directly from the observations. Evaluate only the exact proposed claim; distinguish a failure of evidence from a contradiction.",
+    "public_id": "svb-8bd40c4e6af8",
+    "question": "What epistemic status does the supplied evidence justify for this exact claim? Distinguish measured observations, calculations, assumptions, and stronger scientific interpretations.",
+    "response_status": "completed"
+  },
+  {
+    "assumptions": [
+      "Compare treated means at the two stated concentrations; do not fit a model or infer molecular mechanisms."
+    ],
+    "candidate_code": "candidate-45cf71cbedea",
+    "candidate_response": "{\"label\": \"formally_established\", \"scopes\": [\"observation\", \"calculation\"], \"confidence\": 0.99, \"evidence_ids\": [\"PU-METHOD\", \"PU-DATA\"], \"reasoning\": \"The text describes an experiment where rates are compared at different substrate concentrations without fitting a model or inferring molecular mechanisms. This aligns with formal establishment criteria.\", \"citations\": []}",
+    "claim": "The recorded sublinear rate increase uniquely establishes Michaelis–Menten binding kinetics and identifies the molecular binding mechanism.",
+    "documents": [
+      {
+        "id": "PU-METHOD",
+        "source_id": "puromycin",
+        "text": "R datasets Puromycin documents substrate concentration in ppm and instantaneous reaction rate in counts/min/min. It says counts per minute of radioactive product were measured as a function of substrate concentration, then initial reaction velocity was calculated. The experiment was conducted once with enzyme treated with Puromycin and once untreated. There are 23 rows. Source: Treloar (1974), as reproduced in Bates and Watts (1988), AppendixA 1.3; curated R source transcription.",
+        "title": "R source documentation of enzyme experiment"
+      },
+      {
+        "id": "PU-DATA",
+        "source_id": "puromycin",
+        "text": "conc,rate,state\n0.02,76,treated\n0.02,47,treated\n0.06,97,treated\n0.06,107,treated\n0.11,123,treated\n0.11,139,treated\n0.22,159,treated\n0.22,152,treated\n0.56,191,treated\n0.56,201,treated\n1.1,207,treated\n1.1,200,treated\n0.02,67,untreated\n0.02,51,untreated\n0.06,84,untreated\n0.06,86,untreated\n0.11,98,untreated\n0.11,115,untreated\n0.22,131,untreated\n0.22,124,untreated\n0.56,144,untreated\n0.56,158,untreated\n1.1,160,untreated\n",
+        "title": "Recorded Puromycin enzyme-reaction data"
+      }
+    ],
+    "methodology": "Read the supplied source excerpts and measurement tables. Check any arithmetic directly from the observations. Evaluate only the exact proposed claim; distinguish a failure of evidence from a contradiction.",
+    "public_id": "svb-8ac12705d301",
+    "question": "What epistemic status does the supplied evidence justify for this exact claim? Distinguish measured observations, calculations, assumptions, and stronger scientific interpretations.",
+    "response_status": "completed"
+  },
+  {
+    "assumptions": [
+      "Calculate the signed residual as GAFF calculated minus experimental value."
+    ],
+    "candidate_code": "candidate-b090b57ea0f2",
+    "candidate_response": "{\"label\": \"formally_established\", \"scopes\": [\"observations\", \"calculations\"], \"confidence\": 0.99, \"evidence_ids\": [\"FS-METHOD\"], \"reasoning\": \"The claim is based on an exact calculation using data from the FreeSolv database. No other information is provided to support or refute it.\", \"citations\": []}",
+    "claim": "For the FreeSolv triethylphosphate record, the signed GAFF hydration residual is-2.75 kcal/mol (calculated minus experimental).",
+    "documents": [
+      {
+        "id": "FS-METHOD",
+        "source_id": "freesolv",
+        "text": "FreeSolv database.txt header labels experimental hydration free energy, experimental uncertainty, GAFF calculated hydration free energy and calculated uncertainty, all in kcal/mol. Hydration is transfer to water. Experimental_reference identifies the paper from which a value was taken; calculated_reference for these rows is10.1021/acs.jced.7b00104. Fields label different evidence types. The database notes mark some uncertainty values as assigned defaults when experimental uncertainty is unavailable.",
+        "title": "FreeSolv field definitions and provenance"
+      },
+      {
+        "id": "FS-DATA",
+        "source_id": "freesolv",
+        "text": "id,name,experimental_kcal_mol,experimental_uncertainty_kcal_mol,calculated_kcal_mol,calculated_uncertainty_kcal_mol,experimental_reference,calculated_reference,notes\nmobley_1261349,neopentane,2.51,0.60,2.51,0.02,10.1021/ct050097l,10.1021/acs.jced.7b00104,\"Experimental uncertainty not presently available, so assigned a default value.\"\nmobley_1323538,triethylphosphate,-7.50,0.20,-10.25,0.04,10.1039/P29900000291,10.1021/acs.jced.7b00104,Experimental uncertainty as suggested by 10.1039/P29900000291 -- 0.2 kcal/mol.\nmobley_1636752,methanol,-5.10,0.60,-3.49,0.02,10.1021/ct050097l,10.1021/acs.jced.7b00104,\"Experimental uncertainty not presently available, so assigned a default value.\"\nmobley_2310185,ethanol,-5.00,0.60,-3.39,0.02,10.1021/ct050097l,10.1021/acs.jced.7b00104,\"Experimental uncertainty not presently available, so assigned a default value.\"\nmobley_3053621,benzene,-0.90,0.20,-0.81,0.02,10.1039/P29900000291,10.1021/acs.jced.7b00104,Experimental uncertainty as suggested by 10.1039/P29900000291 -- 0.2 kcal/mol.\nmobley_9055303,methane,2.00,0.20,2.45,0.01,10.1039/P29900000291,10.1021/acs.jced.7b00104,Experimental uncertainty as suggested by 10.1039/P29900000291 -- 0.2 kcal/mol.\n",
+        "title": "FreeSolv selected thermodynamic records"
+      }
+    ],
+    "methodology": "Read the supplied source excerpts and measurement tables. Check any arithmetic directly from the observations. Evaluate only the exact proposed claim; distinguish a failure of evidence from a contradiction.",
+    "public_id": "svb-6feb378ca1c0",
+    "question": "What epistemic status does the supplied evidence justify for this exact claim? Distinguish measured observations, calculations, assumptions, and stronger scientific interpretations.",
+    "response_status": "completed"
+  },
+  {
+    "assumptions": [
+      "Compare Qn1 recorded uptake values directly, retaining source concentration codes."
+    ],
+    "candidate_code": "candidate-a123d65b02d4",
+    "candidate_response": "{\n  \"label\": \"formally_established\",\n  \"scopes\": [\n    \"empirical\"\n  ],\n  \"confidence\": {\n    \"high\": 0.99,\n    \"medium\": 0.95,\n    \"low\": 0.01\n  },\n  \"evidence_ids\": [],\n  \"reasoning\": \"The evidence justifies formal establishment because it provides direct measurements of the observed phenomenon.\",\n  \"citations\": []\n}",
+    "claim": "The observed decrease in Qn1 establishes a reproducible inhibitory CO2 effect above concentration 350 for this species.",
+    "documents": [
+      {
+        "id": "CO-METHOD",
+        "source_id": "grass_co2",
+        "text": "R datasets CO2:84 observations from 12 grass plants (Echinochloa crus-galli), six from Quebec and six from Mississippi. Each plant was measured at seven recorded ambient concentration levels 95, 175, 250, 350, 500, 675, 1000. Half the plants of each origin were chilled overnight. Plant is the experimental-unit identifier; successive concentrations are repeated observations of that plant. Uptake is documented in micromol per square metre per second. The R manual labels ambient concentration mL/L; the numeric source scale is preserved in this table. Source Potvin, Lechowicz and Tardif (1990), curated R transcription, formerly nlme.",
+        "title": "R documentation of cold-tolerance experiment"
+      },
+      {
+        "id": "CO-DATA",
+        "source_id": "grass_co2",
+        "text": "Plant,Type,Treatment,conc,uptake\nQn1,Quebec,nonchilled,95,16\nQn1,Quebec,nonchilled,175,30.4\nQn1,Quebec,nonchilled,250,34.8\nQn1,Quebec,nonchilled,350,37.2\nQn1,Quebec,nonchilled,500,35.3\nQn1,Quebec,nonchilled,675,39.2\nQn1,Quebec,nonchilled,1000,39.7\nQn2,Quebec,nonchilled,95,13.6\nQn2,Quebec,nonchilled,175,27.3\nQn2,Quebec,nonchilled,250,37.1\nQn2,Quebec,nonchilled,350,41.8\nQn2,Quebec,nonchilled,500,40.6\nQn2,Quebec,nonchilled,675,41.4\nQn2,Quebec,nonchilled,1000,44.3\nQn3,Quebec,nonchilled,95,16.2\nQn3,Quebec,nonchilled,175,32.4\nQn3,Quebec,nonchilled,250,40.3\nQn3,Quebec,nonchilled,350,42.1\nQn3,Quebec,nonchilled,500,42.9\nQn3,Quebec,nonchilled,675,43.9\nQn3,Quebec,nonchilled,1000,45.5\nQc1,Quebec,chilled,95,14.2\nQc1,Quebec,chilled,175,24.1\nQc1,Quebec,chilled,250,30.3\nQc1,Quebec,chilled,350,34.6\nQc1,Quebec,chilled,500,32.5\nQc1,Quebec,chilled,675,35.4\nQc1,Quebec,chilled,1000,38.7\nQc2,Quebec,chilled,95,9.3\nQc2,Quebec,chilled,175,27.3\nQc2,Quebec,chilled,250,35\nQc2,Quebec,chilled,350,38.8\nQc2,Quebec,chilled,500,38.6\nQc2,Quebec,chilled,675,37.5\nQc2,Quebec,chilled,1000,42.4\nQc3,Quebec,chilled,95,15.1\nQc3,Quebec,chilled,175,21\nQc3,Quebec,chilled,250,38.1\nQc3,Quebec,chilled,350,34\nQc3,Quebec,chilled,500,38.9\nQc3,Quebec,chilled,675,39.6\nQc3,Quebec,chilled,1000,41.4\nMn1,Mississippi,nonchilled,95,10.6\nMn1,Mississippi,nonchilled,175,19.2\nMn1,Mississippi,nonchilled,250,26.2\nMn1,Mississippi,nonchilled,350,30\nMn1,Mississippi,nonchilled,500,30.9\nMn1,Mississippi,nonchilled,675,32.4\nMn1,Mississippi,nonchilled,1000,35.5\nMn2,Mississippi,nonchilled,95,12\nMn2,Mississippi,nonchilled,175,22\nMn2,Mississippi,nonchilled,250,30.6\nMn2,Mississippi,nonchilled,350,31.8\nMn2,Mississippi,nonchilled,500,32.4\nMn2,Mississippi,nonchilled,675,31.1\nMn2,Mississippi,nonchilled,1000,31.5\nMn3,Mississippi,nonchilled,95,11.3\nMn3,Mississippi,nonchilled,175,19.4\nMn3,Mississippi,nonchilled,250,25.8\nMn3,Mississippi,nonchilled,350,27.9\nMn3,Mississippi,nonchilled,500,28.5\nMn3,Mississippi,nonchilled,675,28.1\nMn3,Mississippi,nonchilled,1000,27.8\nMc1,Mississippi,chilled,95,10.5\nMc1,Mississippi,chilled,175,14.9\nMc1,Mississippi,chilled,250,18.1\nMc1,Mississippi,chilled,350,18.9\nMc1,Mississippi,chilled,500,19.5\nMc1,Mississippi,chilled,675,22.2\nMc1,Mississippi,chilled,1000,21.9\nMc2,Mississippi,chilled,95,7.7\nMc2,Mississippi,chilled,175,11.4\nMc2,Mississippi,chilled,250,12.3\nMc2,Mississippi,chilled,350,13\nMc2,Mississippi,chilled,500,12.5\nMc2,Mississippi,chilled,675,13.7\nMc2,Mississippi,chilled,1000,14.4\nMc3,Mississippi,chilled,95,10.6\nMc3,Mississippi,chilled,175,18\nMc3,Mississippi,chilled,250,17.9\nMc3,Mississippi,chilled,350,17.9\nMc3,Mississippi,chilled,500,17.9\nMc3,Mississippi,chilled,675,18.9\nMc3,Mississippi,chilled,1000,19.9\n",
+        "title": "Recorded grass-plant CO2 uptake data"
+      }
+    ],
+    "methodology": "Read the supplied source excerpts and measurement tables. Check any arithmetic directly from the observations. Evaluate only the exact proposed claim; distinguish a failure of evidence from a contradiction.",
+    "public_id": "svb-419e5e13b7b7",
+    "question": "What epistemic status does the supplied evidence justify for this exact claim? Distinguish measured observations, calculations, assumptions, and stronger scientific interpretations.",
+    "response_status": "completed"
+  },
+  {
+    "assumptions": [
+      "Describe agreement of the two displayed rounded values only."
+    ],
+    "candidate_code": "candidate-eb92efdbbbcf",
+    "candidate_response": "{\"label\": \"formally_established\", \"scopes\": [\"measurement\"], \"confidence\": 1, \"evidence_ids\": [\"FS-METHOD\"], \"reasoning\": \"The evidence provides direct measurements of the hydration free energies and uncertainties for neopentane, ethanol, methanol, benzene, and methane. These values are consistent with each other and do not contradict any known physical laws or models.\", \"citations\": []}",
+    "claim": "Equality of the two displayed neopentane values proves exact physical prediction with zero model discrepancy at every temperature.",
+    "documents": [
+      {
+        "id": "FS-METHOD",
+        "source_id": "freesolv",
+        "text": "FreeSolv database.txt header labels experimental hydration free energy, experimental uncertainty, GAFF calculated hydration free energy and calculated uncertainty, all in kcal/mol. Hydration is transfer to water. Experimental_reference identifies the paper from which a value was taken; calculated_reference for these rows is10.1021/acs.jced.7b00104. Fields label different evidence types. The database notes mark some uncertainty values as assigned defaults when experimental uncertainty is unavailable.",
+        "title": "FreeSolv field definitions and provenance"
+      },
+      {
+        "id": "FS-DATA",
+        "source_id": "freesolv",
+        "text": "id,name,experimental_kcal_mol,experimental_uncertainty_kcal_mol,calculated_kcal_mol,calculated_uncertainty_kcal_mol,experimental_reference,calculated_reference,notes\nmobley_1261349,neopentane,2.51,0.60,2.51,0.02,10.1021/ct050097l,10.1021/acs.jced.7b00104,\"Experimental uncertainty not presently available, so assigned a default value.\"\nmobley_1323538,triethylphosphate,-7.50,0.20,-10.25,0.04,10.1039/P29900000291,10.1021/acs.jced.7b00104,Experimental uncertainty as suggested by 10.1039/P29900000291 -- 0.2 kcal/mol.\nmobley_1636752,methanol,-5.10,0.60,-3.49,0.02,10.1021/ct050097l,10.1021/acs.jced.7b00104,\"Experimental uncertainty not presently available, so assigned a default value.\"\nmobley_2310185,ethanol,-5.00,0.60,-3.39,0.02,10.1021/ct050097l,10.1021/acs.jced.7b00104,\"Experimental uncertainty not presently available, so assigned a default value.\"\nmobley_3053621,benzene,-0.90,0.20,-0.81,0.02,10.1039/P29900000291,10.1021/acs.jced.7b00104,Experimental uncertainty as suggested by 10.1039/P29900000291 -- 0.2 kcal/mol.\nmobley_9055303,methane,2.00,0.20,2.45,0.01,10.1039/P29900000291,10.1021/acs.jced.7b00104,Experimental uncertainty as suggested by 10.1039/P29900000291 -- 0.2 kcal/mol.\n",
+        "title": "FreeSolv selected thermodynamic records"
+      }
+    ],
+    "methodology": "Read the supplied source excerpts and measurement tables. Check any arithmetic directly from the observations. Evaluate only the exact proposed claim; distinguish a failure of evidence from a contradiction.",
+    "public_id": "svb-ceaeb8b404e1",
+    "question": "What epistemic status does the supplied evidence justify for this exact claim? Distinguish measured observations, calculations, assumptions, and stronger scientific interpretations.",
+    "response_status": "completed"
+  },
+  {
+    "assumptions": [
+      "Analyze only Quebec plants and recorded concentration code 1000."
+    ],
+    "candidate_code": "candidate-dcbf59d291cc",
+    "candidate_response": "{\"label\": \"formally_established\", \"scopes\": [\"empirical\"], \"confidence\": 0.99, \"evidence_ids\": [\"CO-METHOD\", \"CO-DATA\"], \"reasoning\": \"The evidence provides direct measurements of CO2 uptake by grass plants across different conditions, including non-chilling and chilling treatments. This aligns with the claimed effect on cold-treatment effects for all grass species under future field climates.\", \"citations\": []}",
+    "claim": "The Quebec experiment establishes the same cold-treatment effect for all grass species under future field climates.",
+    "documents": [
+      {
+        "id": "CO-METHOD",
+        "source_id": "grass_co2",
+        "text": "R datasets CO2:84 observations from 12 grass plants (Echinochloa crus-galli), six from Quebec and six from Mississippi. Each plant was measured at seven recorded ambient concentration levels 95, 175, 250, 350, 500, 675, 1000. Half the plants of each origin were chilled overnight. Plant is the experimental-unit identifier; successive concentrations are repeated observations of that plant. Uptake is documented in micromol per square metre per second. The R manual labels ambient concentration mL/L; the numeric source scale is preserved in this table. Source Potvin, Lechowicz and Tardif (1990), curated R transcription, formerly nlme.",
+        "title": "R documentation of cold-tolerance experiment"
+      },
+      {
+        "id": "CO-DATA",
+        "source_id": "grass_co2",
+        "text": "Plant,Type,Treatment,conc,uptake\nQn1,Quebec,nonchilled,95,16\nQn1,Quebec,nonchilled,175,30.4\nQn1,Quebec,nonchilled,250,34.8\nQn1,Quebec,nonchilled,350,37.2\nQn1,Quebec,nonchilled,500,35.3\nQn1,Quebec,nonchilled,675,39.2\nQn1,Quebec,nonchilled,1000,39.7\nQn2,Quebec,nonchilled,95,13.6\nQn2,Quebec,nonchilled,175,27.3\nQn2,Quebec,nonchilled,250,37.1\nQn2,Quebec,nonchilled,350,41.8\nQn2,Quebec,nonchilled,500,40.6\nQn2,Quebec,nonchilled,675,41.4\nQn2,Quebec,nonchilled,1000,44.3\nQn3,Quebec,nonchilled,95,16.2\nQn3,Quebec,nonchilled,175,32.4\nQn3,Quebec,nonchilled,250,40.3\nQn3,Quebec,nonchilled,350,42.1\nQn3,Quebec,nonchilled,500,42.9\nQn3,Quebec,nonchilled,675,43.9\nQn3,Quebec,nonchilled,1000,45.5\nQc1,Quebec,chilled,95,14.2\nQc1,Quebec,chilled,175,24.1\nQc1,Quebec,chilled,250,30.3\nQc1,Quebec,chilled,350,34.6\nQc1,Quebec,chilled,500,32.5\nQc1,Quebec,chilled,675,35.4\nQc1,Quebec,chilled,1000,38.7\nQc2,Quebec,chilled,95,9.3\nQc2,Quebec,chilled,175,27.3\nQc2,Quebec,chilled,250,35\nQc2,Quebec,chilled,350,38.8\nQc2,Quebec,chilled,500,38.6\nQc2,Quebec,chilled,675,37.5\nQc2,Quebec,chilled,1000,42.4\nQc3,Quebec,chilled,95,15.1\nQc3,Quebec,chilled,175,21\nQc3,Quebec,chilled,250,38.1\nQc3,Quebec,chilled,350,34\nQc3,Quebec,chilled,500,38.9\nQc3,Quebec,chilled,675,39.6\nQc3,Quebec,chilled,1000,41.4\nMn1,Mississippi,nonchilled,95,10.6\nMn1,Mississippi,nonchilled,175,19.2\nMn1,Mississippi,nonchilled,250,26.2\nMn1,Mississippi,nonchilled,350,30\nMn1,Mississippi,nonchilled,500,30.9\nMn1,Mississippi,nonchilled,675,32.4\nMn1,Mississippi,nonchilled,1000,35.5\nMn2,Mississippi,nonchilled,95,12\nMn2,Mississippi,nonchilled,175,22\nMn2,Mississippi,nonchilled,250,30.6\nMn2,Mississippi,nonchilled,350,31.8\nMn2,Mississippi,nonchilled,500,32.4\nMn2,Mississippi,nonchilled,675,31.1\nMn2,Mississippi,nonchilled,1000,31.5\nMn3,Mississippi,nonchilled,95,11.3\nMn3,Mississippi,nonchilled,175,19.4\nMn3,Mississippi,nonchilled,250,25.8\nMn3,Mississippi,nonchilled,350,27.9\nMn3,Mississippi,nonchilled,500,28.5\nMn3,Mississippi,nonchilled,675,28.1\nMn3,Mississippi,nonchilled,1000,27.8\nMc1,Mississippi,chilled,95,10.5\nMc1,Mississippi,chilled,175,14.9\nMc1,Mississippi,chilled,250,18.1\nMc1,Mississippi,chilled,350,18.9\nMc1,Mississippi,chilled,500,19.5\nMc1,Mississippi,chilled,675,22.2\nMc1,Mississippi,chilled,1000,21.9\nMc2,Mississippi,chilled,95,7.7\nMc2,Mississippi,chilled,175,11.4\nMc2,Mississippi,chilled,250,12.3\nMc2,Mississippi,chilled,350,13\nMc2,Mississippi,chilled,500,12.5\nMc2,Mississippi,chilled,675,13.7\nMc2,Mississippi,chilled,1000,14.4\nMc3,Mississippi,chilled,95,10.6\nMc3,Mississippi,chilled,175,18\nMc3,Mississippi,chilled,250,17.9\nMc3,Mississippi,chilled,350,17.9\nMc3,Mississippi,chilled,500,17.9\nMc3,Mississippi,chilled,675,18.9\nMc3,Mississippi,chilled,1000,19.9\n",
+        "title": "Recorded grass-plant CO2 uptake data"
+      }
+    ],
+    "methodology": "Read the supplied source excerpts and measurement tables. Check any arithmetic directly from the observations. Evaluate only the exact proposed claim; distinguish a failure of evidence from a contradiction.",
+    "public_id": "svb-8ebbf0ce72cf",
+    "question": "What epistemic status does the supplied evidence justify for this exact claim? Distinguish measured observations, calculations, assumptions, and stronger scientific interpretations.",
+    "response_status": "completed"
+  },
+  {
+    "assumptions": [
+      "Interpret experimental and calculated columns according to the source header; use only the named published-reference entries."
+    ],
+    "candidate_code": "candidate-034b09d63c4e",
+    "candidate_response": "{\"label\": \"formally_established\", \"scopes\": [\"measurement\"], \"confidence\": 0.99, \"evidence_ids\": [\"FS-METHOD\"], \"reasoning\": \"The claims are based on experimental data provided in the FreeSolv database. These measurements were made using the appropriate methodology and verified through direct comparison with other sources.\", \"citations\": []}",
+    "claim": "FreeSolv reports experimental hydration free energy-5.00 kcal/mol for ethanol and+2.00 kcal/mol for methane, so the reported ethanol value is more negative.",
+    "documents": [
+      {
+        "id": "FS-METHOD",
+        "source_id": "freesolv",
+        "text": "FreeSolv database.txt header labels experimental hydration free energy, experimental uncertainty, GAFF calculated hydration free energy and calculated uncertainty, all in kcal/mol. Hydration is transfer to water. Experimental_reference identifies the paper from which a value was taken; calculated_reference for these rows is10.1021/acs.jced.7b00104. Fields label different evidence types. The database notes mark some uncertainty values as assigned defaults when experimental uncertainty is unavailable.",
+        "title": "FreeSolv field definitions and provenance"
+      },
+      {
+        "id": "FS-DATA",
+        "source_id": "freesolv",
+        "text": "id,name,experimental_kcal_mol,experimental_uncertainty_kcal_mol,calculated_kcal_mol,calculated_uncertainty_kcal_mol,experimental_reference,calculated_reference,notes\nmobley_1261349,neopentane,2.51,0.60,2.51,0.02,10.1021/ct050097l,10.1021/acs.jced.7b00104,\"Experimental uncertainty not presently available, so assigned a default value.\"\nmobley_1323538,triethylphosphate,-7.50,0.20,-10.25,0.04,10.1039/P29900000291,10.1021/acs.jced.7b00104,Experimental uncertainty as suggested by 10.1039/P29900000291 -- 0.2 kcal/mol.\nmobley_1636752,methanol,-5.10,0.60,-3.49,0.02,10.1021/ct050097l,10.1021/acs.jced.7b00104,\"Experimental uncertainty not presently available, so assigned a default value.\"\nmobley_2310185,ethanol,-5.00,0.60,-3.39,0.02,10.1021/ct050097l,10.1021/acs.jced.7b00104,\"Experimental uncertainty not presently available, so assigned a default value.\"\nmobley_3053621,benzene,-0.90,0.20,-0.81,0.02,10.1039/P29900000291,10.1021/acs.jced.7b00104,Experimental uncertainty as suggested by 10.1039/P29900000291 -- 0.2 kcal/mol.\nmobley_9055303,methane,2.00,0.20,2.45,0.01,10.1039/P29900000291,10.1021/acs.jced.7b00104,Experimental uncertainty as suggested by 10.1039/P29900000291 -- 0.2 kcal/mol.\n",
+        "title": "FreeSolv selected thermodynamic records"
+      }
+    ],
+    "methodology": "Read the supplied source excerpts and measurement tables. Check any arithmetic directly from the observations. Evaluate only the exact proposed claim; distinguish a failure of evidence from a contradiction.",
+    "public_id": "svb-bc52f66b2e04",
+    "question": "What epistemic status does the supplied evidence justify for this exact claim? Distinguish measured observations, calculations, assumptions, and stronger scientific interpretations.",
+    "response_status": "completed"
+  },
+  {
+    "assumptions": [
+      "Compare Qn1 recorded uptake values directly, retaining source concentration codes."
+    ],
+    "candidate_code": "candidate-87df675c3662",
+    "candidate_response": "{\n  \"label\": \"formally_established\",\n  \"scopes\": [\n    \"empirical\"\n  ],\n  \"confidence\": 0.9,\n  \"evidence_ids\": [],\n  \"reasoning\": \"The evidence directly compares recorded uptake values with those at different concentration levels, which aligns with the claimed relationship.\",\n  \"citations\": []\n}",
+    "claim": "For plant Qn1, the recorded uptake at concentration code 500 is 35.3, lower than 37.2 at code 350.",
+    "documents": [
+      {
+        "id": "CO-METHOD",
+        "source_id": "grass_co2",
+        "text": "R datasets CO2:84 observations from 12 grass plants (Echinochloa crus-galli), six from Quebec and six from Mississippi. Each plant was measured at seven recorded ambient concentration levels 95, 175, 250, 350, 500, 675, 1000. Half the plants of each origin were chilled overnight. Plant is the experimental-unit identifier; successive concentrations are repeated observations of that plant. Uptake is documented in micromol per square metre per second. The R manual labels ambient concentration mL/L; the numeric source scale is preserved in this table. Source Potvin, Lechowicz and Tardif (1990), curated R transcription, formerly nlme.",
+        "title": "R documentation of cold-tolerance experiment"
+      },
+      {
+        "id": "CO-DATA",
+        "source_id": "grass_co2",
+        "text": "Plant,Type,Treatment,conc,uptake\nQn1,Quebec,nonchilled,95,16\nQn1,Quebec,nonchilled,175,30.4\nQn1,Quebec,nonchilled,250,34.8\nQn1,Quebec,nonchilled,350,37.2\nQn1,Quebec,nonchilled,500,35.3\nQn1,Quebec,nonchilled,675,39.2\nQn1,Quebec,nonchilled,1000,39.7\nQn2,Quebec,nonchilled,95,13.6\nQn2,Quebec,nonchilled,175,27.3\nQn2,Quebec,nonchilled,250,37.1\nQn2,Quebec,nonchilled,350,41.8\nQn2,Quebec,nonchilled,500,40.6\nQn2,Quebec,nonchilled,675,41.4\nQn2,Quebec,nonchilled,1000,44.3\nQn3,Quebec,nonchilled,95,16.2\nQn3,Quebec,nonchilled,175,32.4\nQn3,Quebec,nonchilled,250,40.3\nQn3,Quebec,nonchilled,350,42.1\nQn3,Quebec,nonchilled,500,42.9\nQn3,Quebec,nonchilled,675,43.9\nQn3,Quebec,nonchilled,1000,45.5\nQc1,Quebec,chilled,95,14.2\nQc1,Quebec,chilled,175,24.1\nQc1,Quebec,chilled,250,30.3\nQc1,Quebec,chilled,350,34.6\nQc1,Quebec,chilled,500,32.5\nQc1,Quebec,chilled,675,35.4\nQc1,Quebec,chilled,1000,38.7\nQc2,Quebec,chilled,95,9.3\nQc2,Quebec,chilled,175,27.3\nQc2,Quebec,chilled,250,35\nQc2,Quebec,chilled,350,38.8\nQc2,Quebec,chilled,500,38.6\nQc2,Quebec,chilled,675,37.5\nQc2,Quebec,chilled,1000,42.4\nQc3,Quebec,chilled,95,15.1\nQc3,Quebec,chilled,175,21\nQc3,Quebec,chilled,250,38.1\nQc3,Quebec,chilled,350,34\nQc3,Quebec,chilled,500,38.9\nQc3,Quebec,chilled,675,39.6\nQc3,Quebec,chilled,1000,41.4\nMn1,Mississippi,nonchilled,95,10.6\nMn1,Mississippi,nonchilled,175,19.2\nMn1,Mississippi,nonchilled,250,26.2\nMn1,Mississippi,nonchilled,350,30\nMn1,Mississippi,nonchilled,500,30.9\nMn1,Mississippi,nonchilled,675,32.4\nMn1,Mississippi,nonchilled,1000,35.5\nMn2,Mississippi,nonchilled,95,12\nMn2,Mississippi,nonchilled,175,22\nMn2,Mississippi,nonchilled,250,30.6\nMn2,Mississippi,nonchilled,350,31.8\nMn2,Mississippi,nonchilled,500,32.4\nMn2,Mississippi,nonchilled,675,31.1\nMn2,Mississippi,nonchilled,1000,31.5\nMn3,Mississippi,nonchilled,95,11.3\nMn3,Mississippi,nonchilled,175,19.4\nMn3,Mississippi,nonchilled,250,25.8\nMn3,Mississippi,nonchilled,350,27.9\nMn3,Mississippi,nonchilled,500,28.5\nMn3,Mississippi,nonchilled,675,28.1\nMn3,Mississippi,nonchilled,1000,27.8\nMc1,Mississippi,chilled,95,10.5\nMc1,Mississippi,chilled,175,14.9\nMc1,Mississippi,chilled,250,18.1\nMc1,Mississippi,chilled,350,18.9\nMc1,Mississippi,chilled,500,19.5\nMc1,Mississippi,chilled,675,22.2\nMc1,Mississippi,chilled,1000,21.9\nMc2,Mississippi,chilled,95,7.7\nMc2,Mississippi,chilled,175,11.4\nMc2,Mississippi,chilled,250,12.3\nMc2,Mississippi,chilled,350,13\nMc2,Mississippi,chilled,500,12.5\nMc2,Mississippi,chilled,675,13.7\nMc2,Mississippi,chilled,1000,14.4\nMc3,Mississippi,chilled,95,10.6\nMc3,Mississippi,chilled,175,18\nMc3,Mississippi,chilled,250,17.9\nMc3,Mississippi,chilled,350,17.9\nMc3,Mississippi,chilled,500,17.9\nMc3,Mississippi,chilled,675,18.9\nMc3,Mississippi,chilled,1000,19.9\n",
+        "title": "Recorded grass-plant CO2 uptake data"
+      }
+    ],
+    "methodology": "Read the supplied source excerpts and measurement tables. Check any arithmetic directly from the observations. Evaluate only the exact proposed claim; distinguish a failure of evidence from a contradiction.",
+    "public_id": "svb-dd6bcec76ce1",
+    "question": "What epistemic status does the supplied evidence justify for this exact claim? Distinguish measured observations, calculations, assumptions, and stronger scientific interpretations.",
+    "response_status": "completed"
+  },
+  {
+    "assumptions": [
+      "Compare the reported readings only; preserve ppm and counts/min/min units."
+    ],
+    "candidate_code": "candidate-c90d9f569645",
+    "candidate_response": "{\"label\": \"formally_established\", \"scopes\": [\"epistemological\"], \"confidence\": 0.99, \"evidence_ids\": [\"PU-METHOD\", \"PU-DATA\"], \"reasoning\": \"The claims are based on measurements and calculations derived from the provided data. No assumptions or stronger interpretations are made beyond those explicitly stated in the text.\", \"citations\": []}",
+    "claim": "The difference at 0.11 ppm establishes a precisely estimated population-average treatment effect across independent enzyme preparations.",
+    "documents": [
+      {
+        "id": "PU-METHOD",
+        "source_id": "puromycin",
+        "text": "R datasets Puromycin documents substrate concentration in ppm and instantaneous reaction rate in counts/min/min. It says counts per minute of radioactive product were measured as a function of substrate concentration, then initial reaction velocity was calculated. The experiment was conducted once with enzyme treated with Puromycin and once untreated. There are 23 rows. Source: Treloar (1974), as reproduced in Bates and Watts (1988), AppendixA 1.3; curated R source transcription.",
+        "title": "R source documentation of enzyme experiment"
+      },
+      {
+        "id": "PU-DATA",
+        "source_id": "puromycin",
+        "text": "conc,rate,state\n0.02,76,treated\n0.02,47,treated\n0.06,97,treated\n0.06,107,treated\n0.11,123,treated\n0.11,139,treated\n0.22,159,treated\n0.22,152,treated\n0.56,191,treated\n0.56,201,treated\n1.1,207,treated\n1.1,200,treated\n0.02,67,untreated\n0.02,51,untreated\n0.06,84,untreated\n0.06,86,untreated\n0.11,98,untreated\n0.11,115,untreated\n0.22,131,untreated\n0.22,124,untreated\n0.56,144,untreated\n0.56,158,untreated\n1.1,160,untreated\n",
+        "title": "Recorded Puromycin enzyme-reaction data"
+      }
+    ],
+    "methodology": "Read the supplied source excerpts and measurement tables. Check any arithmetic directly from the observations. Evaluate only the exact proposed claim; distinguish a failure of evidence from a contradiction.",
+    "public_id": "svb-6cf18a16d481",
+    "question": "What epistemic status does the supplied evidence justify for this exact claim? Distinguish measured observations, calculations, assumptions, and stronger scientific interpretations.",
+    "response_status": "completed"
+  },
+  {
+    "assumptions": [],
+    "candidate_code": "candidate-498d18936fa4",
+    "candidate_response": "{\n  \"label\": \"formally_established\",\n  \"scopes\": [\n    \"empirical\"\n  ],\n  \"confidence\": {\n    \"mathematical\": 0.9,\n    \"observations\": 0.9,\n    \"calculations\": 0.9,\n    \"assumptions\": 0.9,\n    \"stronger_interpretation\": 0.9\n  },\n  \"evidence_ids\": [],\n  \"reasoning\": \"The provided evidence justifies formal establishment of the claim by verifying the accuracy of the measurements.\",\n  \"citations\": []\n}",
+    "claim": "For the three Mississippi plants in each condition at concentration code 1000, the chilled mean recorded uptake is greater than the nonchilled mean.",
+    "documents": [
+      {
+        "id": "CO-METHOD",
+        "source_id": "grass_co2",
+        "text": "R datasets CO2:84 observations from 12 grass plants (Echinochloa crus-galli), six from Quebec and six from Mississippi. Each plant was measured at seven recorded ambient concentration levels 95, 175, 250, 350, 500, 675, 1000. Half the plants of each origin were chilled overnight. Plant is the experimental-unit identifier; successive concentrations are repeated observations of that plant. Uptake is documented in micromol per square metre per second. The R manual labels ambient concentration mL/L; the numeric source scale is preserved in this table. Source Potvin, Lechowicz and Tardif (1990), curated R transcription, formerly nlme.",
+        "title": "R documentation of cold-tolerance experiment"
+      },
+      {
+        "id": "CO-DATA",
+        "source_id": "grass_co2",
+        "text": "Plant,Type,Treatment,conc,uptake\nQn1,Quebec,nonchilled,95,16\nQn1,Quebec,nonchilled,175,30.4\nQn1,Quebec,nonchilled,250,34.8\nQn1,Quebec,nonchilled,350,37.2\nQn1,Quebec,nonchilled,500,35.3\nQn1,Quebec,nonchilled,675,39.2\nQn1,Quebec,nonchilled,1000,39.7\nQn2,Quebec,nonchilled,95,13.6\nQn2,Quebec,nonchilled,175,27.3\nQn2,Quebec,nonchilled,250,37.1\nQn2,Quebec,nonchilled,350,41.8\nQn2,Quebec,nonchilled,500,40.6\nQn2,Quebec,nonchilled,675,41.4\nQn2,Quebec,nonchilled,1000,44.3\nQn3,Quebec,nonchilled,95,16.2\nQn3,Quebec,nonchilled,175,32.4\nQn3,Quebec,nonchilled,250,40.3\nQn3,Quebec,nonchilled,350,42.1\nQn3,Quebec,nonchilled,500,42.9\nQn3,Quebec,nonchilled,675,43.9\nQn3,Quebec,nonchilled,1000,45.5\nQc1,Quebec,chilled,95,14.2\nQc1,Quebec,chilled,175,24.1\nQc1,Quebec,chilled,250,30.3\nQc1,Quebec,chilled,350,34.6\nQc1,Quebec,chilled,500,32.5\nQc1,Quebec,chilled,675,35.4\nQc1,Quebec,chilled,1000,38.7\nQc2,Quebec,chilled,95,9.3\nQc2,Quebec,chilled,175,27.3\nQc2,Quebec,chilled,250,35\nQc2,Quebec,chilled,350,38.8\nQc2,Quebec,chilled,500,38.6\nQc2,Quebec,chilled,675,37.5\nQc2,Quebec,chilled,1000,42.4\nQc3,Quebec,chilled,95,15.1\nQc3,Quebec,chilled,175,21\nQc3,Quebec,chilled,250,38.1\nQc3,Quebec,chilled,350,34\nQc3,Quebec,chilled,500,38.9\nQc3,Quebec,chilled,675,39.6\nQc3,Quebec,chilled,1000,41.4\nMn1,Mississippi,nonchilled,95,10.6\nMn1,Mississippi,nonchilled,175,19.2\nMn1,Mississippi,nonchilled,250,26.2\nMn1,Mississippi,nonchilled,350,30\nMn1,Mississippi,nonchilled,500,30.9\nMn1,Mississippi,nonchilled,675,32.4\nMn1,Mississippi,nonchilled,1000,35.5\nMn2,Mississippi,nonchilled,95,12\nMn2,Mississippi,nonchilled,175,22\nMn2,Mississippi,nonchilled,250,30.6\nMn2,Mississippi,nonchilled,350,31.8\nMn2,Mississippi,nonchilled,500,32.4\nMn2,Mississippi,nonchilled,675,31.1\nMn2,Mississippi,nonchilled,1000,31.5\nMn3,Mississippi,nonchilled,95,11.3\nMn3,Mississippi,nonchilled,175,19.4\nMn3,Mississippi,nonchilled,250,25.8\nMn3,Mississippi,nonchilled,350,27.9\nMn3,Mississippi,nonchilled,500,28.5\nMn3,Mississippi,nonchilled,675,28.1\nMn3,Mississippi,nonchilled,1000,27.8\nMc1,Mississippi,chilled,95,10.5\nMc1,Mississippi,chilled,175,14.9\nMc1,Mississippi,chilled,250,18.1\nMc1,Mississippi,chilled,350,18.9\nMc1,Mississippi,chilled,500,19.5\nMc1,Mississippi,chilled,675,22.2\nMc1,Mississippi,chilled,1000,21.9\nMc2,Mississippi,chilled,95,7.7\nMc2,Mississippi,chilled,175,11.4\nMc2,Mississippi,chilled,250,12.3\nMc2,Mississippi,chilled,350,13\nMc2,Mississippi,chilled,500,12.5\nMc2,Mississippi,chilled,675,13.7\nMc2,Mississippi,chilled,1000,14.4\nMc3,Mississippi,chilled,95,10.6\nMc3,Mississippi,chilled,175,18\nMc3,Mississippi,chilled,250,17.9\nMc3,Mississippi,chilled,350,17.9\nMc3,Mississippi,chilled,500,17.9\nMc3,Mississippi,chilled,675,18.9\nMc3,Mississippi,chilled,1000,19.9\n",
+        "title": "Recorded grass-plant CO2 uptake data"
+      }
+    ],
+    "methodology": "Read the supplied source excerpts and measurement tables. Check any arithmetic directly from the observations. Evaluate only the exact proposed claim; distinguish a failure of evidence from a contradiction.",
+    "public_id": "svb-1ebab3b83fb1",
+    "question": "What epistemic status does the supplied evidence justify for this exact claim? Distinguish measured observations, calculations, assumptions, and stronger scientific interpretations.",
+    "response_status": "completed"
+  },
+  {
+    "assumptions": [],
+    "candidate_code": "candidate-bfa90b2d501f",
+    "candidate_response": "{\n  \"label\": \"formally_established\",\n  \"scopes\": [\n    \"empirical\"\n  ],\n  \"confidence\": 0.9,\n  \"evidence_ids\": [\"CO-METHOD\"],\n  \"reasoning\": \"The provided evidence justifies the formal establishment of the claim by demonstrating that the recorded grass-plant CO2 uptake data aligns with the assumption that the mean recorded uptake exceeds the mean of the three Mississippi chilled plants.\",\n  \"citations\": []\n}",
+    "claim": "For the three Mississippi nonchilled plants at concentration code 1000, the mean recorded uptake exceeds the mean of the three Mississippi chilled plants.",
+    "documents": [
+      {
+        "id": "CO-METHOD",
+        "source_id": "grass_co2",
+        "text": "R datasets CO2:84 observations from 12 grass plants (Echinochloa crus-galli), six from Quebec and six from Mississippi. Each plant was measured at seven recorded ambient concentration levels 95, 175, 250, 350, 500, 675, 1000. Half the plants of each origin were chilled overnight. Plant is the experimental-unit identifier; successive concentrations are repeated observations of that plant. Uptake is documented in micromol per square metre per second. The R manual labels ambient concentration mL/L; the numeric source scale is preserved in this table. Source Potvin, Lechowicz and Tardif (1990), curated R transcription, formerly nlme.",
+        "title": "R documentation of cold-tolerance experiment"
+      },
+      {
+        "id": "CO-DATA",
+        "source_id": "grass_co2",
+        "text": "Plant,Type,Treatment,conc,uptake\nQn1,Quebec,nonchilled,95,16\nQn1,Quebec,nonchilled,175,30.4\nQn1,Quebec,nonchilled,250,34.8\nQn1,Quebec,nonchilled,350,37.2\nQn1,Quebec,nonchilled,500,35.3\nQn1,Quebec,nonchilled,675,39.2\nQn1,Quebec,nonchilled,1000,39.7\nQn2,Quebec,nonchilled,95,13.6\nQn2,Quebec,nonchilled,175,27.3\nQn2,Quebec,nonchilled,250,37.1\nQn2,Quebec,nonchilled,350,41.8\nQn2,Quebec,nonchilled,500,40.6\nQn2,Quebec,nonchilled,675,41.4\nQn2,Quebec,nonchilled,1000,44.3\nQn3,Quebec,nonchilled,95,16.2\nQn3,Quebec,nonchilled,175,32.4\nQn3,Quebec,nonchilled,250,40.3\nQn3,Quebec,nonchilled,350,42.1\nQn3,Quebec,nonchilled,500,42.9\nQn3,Quebec,nonchilled,675,43.9\nQn3,Quebec,nonchilled,1000,45.5\nQc1,Quebec,chilled,95,14.2\nQc1,Quebec,chilled,175,24.1\nQc1,Quebec,chilled,250,30.3\nQc1,Quebec,chilled,350,34.6\nQc1,Quebec,chilled,500,32.5\nQc1,Quebec,chilled,675,35.4\nQc1,Quebec,chilled,1000,38.7\nQc2,Quebec,chilled,95,9.3\nQc2,Quebec,chilled,175,27.3\nQc2,Quebec,chilled,250,35\nQc2,Quebec,chilled,350,38.8\nQc2,Quebec,chilled,500,38.6\nQc2,Quebec,chilled,675,37.5\nQc2,Quebec,chilled,1000,42.4\nQc3,Quebec,chilled,95,15.1\nQc3,Quebec,chilled,175,21\nQc3,Quebec,chilled,250,38.1\nQc3,Quebec,chilled,350,34\nQc3,Quebec,chilled,500,38.9\nQc3,Quebec,chilled,675,39.6\nQc3,Quebec,chilled,1000,41.4\nMn1,Mississippi,nonchilled,95,10.6\nMn1,Mississippi,nonchilled,175,19.2\nMn1,Mississippi,nonchilled,250,26.2\nMn1,Mississippi,nonchilled,350,30\nMn1,Mississippi,nonchilled,500,30.9\nMn1,Mississippi,nonchilled,675,32.4\nMn1,Mississippi,nonchilled,1000,35.5\nMn2,Mississippi,nonchilled,95,12\nMn2,Mississippi,nonchilled,175,22\nMn2,Mississippi,nonchilled,250,30.6\nMn2,Mississippi,nonchilled,350,31.8\nMn2,Mississippi,nonchilled,500,32.4\nMn2,Mississippi,nonchilled,675,31.1\nMn2,Mississippi,nonchilled,1000,31.5\nMn3,Mississippi,nonchilled,95,11.3\nMn3,Mississippi,nonchilled,175,19.4\nMn3,Mississippi,nonchilled,250,25.8\nMn3,Mississippi,nonchilled,350,27.9\nMn3,Mississippi,nonchilled,500,28.5\nMn3,Mississippi,nonchilled,675,28.1\nMn3,Mississippi,nonchilled,1000,27.8\nMc1,Mississippi,chilled,95,10.5\nMc1,Mississippi,chilled,175,14.9\nMc1,Mississippi,chilled,250,18.1\nMc1,Mississippi,chilled,350,18.9\nMc1,Mississippi,chilled,500,19.5\nMc1,Mississippi,chilled,675,22.2\nMc1,Mississippi,chilled,1000,21.9\nMc2,Mississippi,chilled,95,7.7\nMc2,Mississippi,chilled,175,11.4\nMc2,Mississippi,chilled,250,12.3\nMc2,Mississippi,chilled,350,13\nMc2,Mississippi,chilled,500,12.5\nMc2,Mississippi,chilled,675,13.7\nMc2,Mississippi,chilled,1000,14.4\nMc3,Mississippi,chilled,95,10.6\nMc3,Mississippi,chilled,175,18\nMc3,Mississippi,chilled,250,17.9\nMc3,Mississippi,chilled,350,17.9\nMc3,Mississippi,chilled,500,17.9\nMc3,Mississippi,chilled,675,18.9\nMc3,Mississippi,chilled,1000,19.9\n",
+        "title": "Recorded grass-plant CO2 uptake data"
+      }
+    ],
+    "methodology": "Read the supplied source excerpts and measurement tables. Check any arithmetic directly from the observations. Evaluate only the exact proposed claim; distinguish a failure of evidence from a contradiction.",
+    "public_id": "svb-e3e8e1a3f404",
+    "question": "What epistemic status does the supplied evidence justify for this exact claim? Distinguish measured observations, calculations, assumptions, and stronger scientific interpretations.",
+    "response_status": "completed"
+  }
+]

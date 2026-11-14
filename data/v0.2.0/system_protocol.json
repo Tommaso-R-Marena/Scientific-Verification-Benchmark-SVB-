@@ -1,0 +1,229 @@
+{
+  "format": "svb-system-protocol-v0.2.0",
+  "frozen_before_scored_runs": true,
+  "created_utc": "2026-11-14T06:45:37.404981+00:00",
+  "interpretation": "Capability-specific local experiments, no pooled leaderboard, no hidden-label or broad biological performance claim.",
+  "foldbounds": {
+    "families": [
+      {
+        "id": "scale8",
+        "sequence": "HHHHHHHH",
+        "q": "2",
+        "threshold": 2
+      },
+      {
+        "id": "scale9",
+        "sequence": "HHHHHHHHH",
+        "q": "2",
+        "threshold": 2
+      },
+      {
+        "id": "scale10",
+        "sequence": "HHHHHHHHHH",
+        "q": "2",
+        "threshold": 2
+      },
+      {
+        "id": "mixed10",
+        "sequence": "HPHPHHPHPH",
+        "q": "3/2",
+        "threshold": 1
+      },
+      {
+        "id": "mixed9",
+        "sequence": "HHPHPHPHH",
+        "q": "5/4",
+        "threshold": 2
+      },
+      {
+        "id": "high_threshold8",
+        "sequence": "HHHHHHHH",
+        "q": "3",
+        "threshold": 3
+      }
+    ],
+    "depths": [
+      2,
+      4,
+      6,
+      "N"
+    ],
+    "features": [
+      {
+        "id": "lookahead_matching",
+        "family": "scale10",
+        "depth": 4,
+        "args": [
+          "--enhanced-lookahead",
+          "0",
+          "--matching"
+        ]
+      },
+      {
+        "id": "lookahead2_matching",
+        "family": "scale10",
+        "depth": 4,
+        "args": [
+          "--enhanced-lookahead",
+          "2",
+          "--matching"
+        ]
+      },
+      {
+        "id": "transfer4_terminal",
+        "family": "scale10",
+        "depth": 4,
+        "args": [
+          "--enhanced-lookahead",
+          "0",
+          "--matching",
+          "--transfer",
+          "--transfer-memory",
+          "4",
+          "--terminal-box"
+        ]
+      }
+    ],
+    "criteria": [
+      "exact reference enclosed in partition and probability bounds",
+      "baseline depth refinement nested",
+      "full-depth equality",
+      "enhanced bounds width reported and enclosure verified; no a priori superiority between different enhanced methods"
+    ],
+    "known_anchored_walk_counts": {
+      "8": 543,
+      "9": 1479,
+      "10": 4067
+    }
+  },
+  "pcs": {
+    "reactions": [
+      {
+        "id": "methane",
+        "reactants": [
+          [
+            "CH4",
+            1
+          ],
+          [
+            "O2",
+            2
+          ]
+        ],
+        "products": [
+          [
+            "CO2",
+            1
+          ],
+          [
+            "H2O",
+            2
+          ]
+        ],
+        "unbalanced_products": [
+          [
+            "CO2",
+            1
+          ],
+          [
+            "H2O",
+            1
+          ]
+        ]
+      },
+      {
+        "id": "ammonia",
+        "reactants": [
+          [
+            "N2",
+            1
+          ],
+          [
+            "H2",
+            3
+          ]
+        ],
+        "products": [
+          [
+            "NH3",
+            2
+          ]
+        ],
+        "unbalanced_products": [
+          [
+            "NH3",
+            1
+          ]
+        ]
+      },
+      {
+        "id": "ethanol",
+        "reactants": [
+          [
+            "C2H6O",
+            1
+          ],
+          [
+            "O2",
+            3
+          ]
+        ],
+        "products": [
+          [
+            "CO2",
+            2
+          ],
+          [
+            "H2O",
+            3
+          ]
+        ],
+        "unbalanced_products": [
+          [
+            "CO2",
+            1
+          ],
+          [
+            "H2O",
+            3
+          ]
+        ]
+      }
+    ],
+    "criteria": "Fresh properly signed package over independently atom-balanced reactions ACCEPT; fresh properly signed forged-PASS package over atom-unbalanced reaction REJECT at replay. Producer errors remain execution/construction errors, not correct rejections.",
+    "unsupported": [
+      "empirical_safety_of_real_biological_system",
+      "free_form_statement_truth"
+    ],
+    "known_public_test_signing_seed": "SVB-v0.2.0-public-test-signing-key-not-a-secret"
+  },
+  "site": {
+    "viewports": [
+      390,
+      1280
+    ],
+    "cases": [
+      "valid_overlap_scope",
+      "disjoint_scope",
+      "malformed_csv_clears_result",
+      "forged_imported_receipt_needs_fresh_check"
+    ],
+    "criteria": "Actual browser DOM reports exact overlaps, explicitly leaves scientific meaning unknown, invalidates failed inputs and does not promote a forged imported local receipt to fresh confirmation.",
+    "csv_overlap": [
+      "id,value\na,1\nb,2\n",
+      "id,value\nb,3\nc,4\n"
+    ],
+    "csv_disjoint": [
+      "id\na\nb\n",
+      "id\nx\ny\n"
+    ],
+    "malformed_csv": "id\n\"unclosed\n"
+  },
+  "limits": {
+    "timeout_seconds": 90,
+    "max_sequence_length": 10,
+    "output_limit_bytes": 2097152,
+    "browser_network": "only ephemeral loopback server; abort other origins and all non-GET/HEAD"
+  },
+  "independence": "SAW enumeration and atom tables are own implementations, not subject outputs. Subject packaging APIs are untrusted producers; atom-conservation expected verdicts are established before subject execution."
+}

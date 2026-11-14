@@ -1,0 +1,8 @@
+Sliding Window Attention is enabled but not implemented for `eager`; unexpected results may be encountered.
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:02<00:02,  2.45s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:04<00:00,  2.44s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:04<00:00,  2.45s/it]
+{"index": 1, "selected": 6, "id": "svb-fdb98c815923", "task": "A", "condition": "dev_standard", "status": "completed", "tokens": 6, "seconds": 9.342860192002263}
+{"index": 2, "selected": 6, "id": "svb-e7f149994481", "task": "A", "condition": "dev_standard", "status": "completed", "tokens": 5, "seconds": 9.10809384300228}
+{"index": 3, "selected": 6, "id": "svb-5f377d39e94f", "task": "A", "condition": "dev_standard", "status": "completed", "tokens": 3, "seconds": 7.994841077001183}
+{"index": 4, "selected": 6, "id": "svb-5b0444dab3f1", "task": "A", "condition": "dev_standard", "status": "completed", "tokens": 5, "seconds": 18.86493910599893}
+{"index": 5, "selected": 6, "id": "svb-41d488eab4fd", "task": "A", "condition": "dev_standard", "status": "completed", "tokens": 5, "seconds": 18.104279118000704}
+{"index": 6, "selected": 6, "id": "svb-849e1285da6c", "task": "A", "condition": "dev_standard", "status": "completed", "tokens": 6, "seconds": 9.331526006000786}

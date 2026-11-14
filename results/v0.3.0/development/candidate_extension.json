@@ -1,0 +1,45 @@
+{
+  "additional_candidate": "Qwen/Qwen2.5-3B-Instruct",
+  "format": "svb-development-candidate-extension-v1",
+  "maximum_candidate_count": 3,
+  "model_license": "Qwen RESEARCH LICENSE AGREEMENT 2024-09-19: noncommercial research/evaluation only; no weights redistribution",
+  "no_additional_candidates_after_this": true,
+  "original_gate_results": {
+    "qwen-0.5b": {
+      "order_consistent": 3,
+      "order_n": 6,
+      "qualified": false,
+      "standard_correct": 0,
+      "standard_n": 6
+    },
+    "qwen-1.5b": {
+      "order_consistent": 3,
+      "order_n": 6,
+      "qualified": false,
+      "standard_correct": 4,
+      "standard_n": 6
+    }
+  },
+  "original_models": [
+    "qwen-0.5b",
+    "qwen-1.5b"
+  ],
+  "original_protocol_sha256": "88cad0fa9bbf6e52885d4dbfab9ed27297f821d515849ba0831a5f2025f1264f",
+  "original_runner_sha256": "c5254e0cc2afb18582011a399975aaa94f8c82a8d929c85c7de4f1f5489bcd7e",
+  "original_runner_snapshot": "results/v0.3.0/development/runner_two_candidate_snapshot.py",
+  "reason": "Both original candidates failed the prespecified enumeration-consistency gate; parent explicitly authorized one larger development candidate, not winner-seeking on scientific evaluation results.",
+  "recorded_utc": "2026-11-14T17:23:46.183988+00:00",
+  "runner_change": "Only additional pinned identity and sharded-safetensors identity verification; original two-candidate code snapshot retained. No prompt, label or decoding change.",
+  "scientific_cases_or_outputs_used_for_selection": false,
+  "stage": "development only; before any fresh-source final scientific inference",
+  "status": "public download authorized; qualification not yet run",
+  "unchanged": [
+    "six-category labels",
+    "qualification controls and expected labels",
+    "19 unconstrained plus six constrained requests",
+    "A24/B128/C384 token caps",
+    "4threads,float32,eager,greedy,seed0",
+    "4096 input cap",
+    "qualification thresholds"
+  ]
+}

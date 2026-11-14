@@ -1,0 +1,70 @@
+{
+  "qwen-0.5b": {
+    "constrained": {
+      "A_evidence": {
+        "admitted": 12,
+        "exact_correct": 1,
+        "false_accepts": 1,
+        "n": 12,
+        "nonaccept_reference_n": 6
+      },
+      "A_no_evidence": {
+        "admitted": 12,
+        "exact_correct": 0,
+        "false_accepts": 2,
+        "n": 12,
+        "nonaccept_reference_n": 12
+      }
+    },
+    "unconstrained": {
+      "A_evidence": {
+        "admitted": 12,
+        "exact_correct": 2,
+        "false_accepts": 1,
+        "n": 12,
+        "nonaccept_reference_n": 6
+      },
+      "A_no_evidence": {
+        "admitted": 9,
+        "exact_correct": 0,
+        "false_accepts": 2,
+        "n": 12,
+        "nonaccept_reference_n": 12
+      }
+    }
+  },
+  "qwen-1.5b": {
+    "constrained": {
+      "A_evidence": {
+        "admitted": 12,
+        "exact_correct": 5,
+        "false_accepts": 2,
+        "n": 12,
+        "nonaccept_reference_n": 6
+      },
+      "A_no_evidence": {
+        "admitted": 12,
+        "exact_correct": 7,
+        "false_accepts": 3,
+        "n": 12,
+        "nonaccept_reference_n": 12
+      }
+    },
+    "unconstrained": {
+      "A_evidence": {
+        "admitted": 12,
+        "exact_correct": 6,
+        "false_accepts": 2,
+        "n": 12,
+        "nonaccept_reference_n": 6
+      },
+      "A_no_evidence": {
+        "admitted": 12,
+        "exact_correct": 7,
+        "false_accepts": 3,
+        "n": 12,
+        "nonaccept_reference_n": 12
+      }
+    }
+  }
+}

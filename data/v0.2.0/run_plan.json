@@ -1,0 +1,256 @@
+{
+  "access_control": "Public reproducible alternative; no protected independent holdout; runner receives only prompt JSONL",
+  "configuration": {
+    "do_sample": false,
+    "max_input_tokens": 4096,
+    "max_new_tokens": 384,
+    "seed": 0,
+    "threads": 4
+  },
+  "exposure": "Datasets public before pretrained model release; contamination unknown. No benchmark references passed to runner or model. Generic arithmetic smoke only during development.",
+  "prompts_sha256": "0949cedac5127dd62bc83da1c7ffc9c593434bdbb76f34d40153a93b3dd4d010",
+  "rows": [
+    {
+      "condition": "evidence",
+      "id": "svb-5cac43968ca3"
+    },
+    {
+      "condition": "evidence",
+      "id": "svb-6cf18a16d481"
+    },
+    {
+      "condition": "evidence",
+      "id": "svb-8cd269de53bf"
+    },
+    {
+      "condition": "evidence",
+      "id": "svb-4399d7d82628"
+    },
+    {
+      "condition": "evidence",
+      "id": "svb-6bb569d5ba7e"
+    },
+    {
+      "condition": "evidence",
+      "id": "svb-8ac12705d301"
+    },
+    {
+      "condition": "evidence",
+      "id": "svb-68536bb7a951"
+    },
+    {
+      "condition": "evidence",
+      "id": "svb-d9ffef148dc5"
+    },
+    {
+      "condition": "evidence",
+      "id": "svb-dd6bcec76ce1"
+    },
+    {
+      "condition": "evidence",
+      "id": "svb-419e5e13b7b7"
+    },
+    {
+      "condition": "evidence",
+      "id": "svb-9f33c4663a5d"
+    },
+    {
+      "condition": "evidence",
+      "id": "svb-4d714c05db2d"
+    },
+    {
+      "condition": "evidence",
+      "id": "svb-e3e8e1a3f404"
+    },
+    {
+      "condition": "evidence",
+      "id": "svb-1ebab3b83fb1"
+    },
+    {
+      "condition": "evidence",
+      "id": "svb-f00434596561"
+    },
+    {
+      "condition": "evidence",
+      "id": "svb-8ebbf0ce72cf"
+    },
+    {
+      "condition": "evidence",
+      "id": "svb-bc52f66b2e04"
+    },
+    {
+      "condition": "evidence",
+      "id": "svb-452e4e23d192"
+    },
+    {
+      "condition": "evidence",
+      "id": "svb-6feb378ca1c0"
+    },
+    {
+      "condition": "evidence",
+      "id": "svb-8bd40c4e6af8"
+    },
+    {
+      "condition": "evidence",
+      "id": "svb-3dac26205064"
+    },
+    {
+      "condition": "evidence",
+      "id": "svb-9ba09d786a13"
+    },
+    {
+      "condition": "evidence",
+      "id": "svb-42170d786de1"
+    },
+    {
+      "condition": "evidence",
+      "id": "svb-ceaeb8b404e1"
+    },
+    {
+      "condition": "no_evidence",
+      "id": "svb-5cac43968ca3"
+    },
+    {
+      "condition": "no_evidence",
+      "id": "svb-6cf18a16d481"
+    },
+    {
+      "condition": "no_evidence",
+      "id": "svb-8cd269de53bf"
+    },
+    {
+      "condition": "no_evidence",
+      "id": "svb-4399d7d82628"
+    },
+    {
+      "condition": "no_evidence",
+      "id": "svb-6bb569d5ba7e"
+    },
+    {
+      "condition": "no_evidence",
+      "id": "svb-8ac12705d301"
+    },
+    {
+      "condition": "no_evidence",
+      "id": "svb-68536bb7a951"
+    },
+    {
+      "condition": "no_evidence",
+      "id": "svb-d9ffef148dc5"
+    },
+    {
+      "condition": "no_evidence",
+      "id": "svb-dd6bcec76ce1"
+    },
+    {
+      "condition": "no_evidence",
+      "id": "svb-419e5e13b7b7"
+    },
+    {
+      "condition": "no_evidence",
+      "id": "svb-9f33c4663a5d"
+    },
+    {
+      "condition": "no_evidence",
+      "id": "svb-4d714c05db2d"
+    },
+    {
+      "condition": "no_evidence",
+      "id": "svb-e3e8e1a3f404"
+    },
+    {
+      "condition": "no_evidence",
+      "id": "svb-1ebab3b83fb1"
+    },
+    {
+      "condition": "no_evidence",
+      "id": "svb-f00434596561"
+    },
+    {
+      "condition": "no_evidence",
+      "id": "svb-8ebbf0ce72cf"
+    },
+    {
+      "condition": "no_evidence",
+      "id": "svb-bc52f66b2e04"
+    },
+    {
+      "condition": "no_evidence",
+      "id": "svb-452e4e23d192"
+    },
+    {
+      "condition": "no_evidence",
+      "id": "svb-6feb378ca1c0"
+    },
+    {
+      "condition": "no_evidence",
+      "id": "svb-8bd40c4e6af8"
+    },
+    {
+      "condition": "no_evidence",
+      "id": "svb-3dac26205064"
+    },
+    {
+      "condition": "no_evidence",
+      "id": "svb-9ba09d786a13"
+    },
+    {
+      "condition": "no_evidence",
+      "id": "svb-42170d786de1"
+    },
+    {
+      "condition": "no_evidence",
+      "id": "svb-ceaeb8b404e1"
+    },
+    {
+      "condition": "verified_numbers",
+      "id": "svb-5cac43968ca3"
+    },
+    {
+      "condition": "verified_numbers",
+      "id": "svb-6cf18a16d481"
+    },
+    {
+      "condition": "verified_numbers",
+      "id": "svb-8cd269de53bf"
+    },
+    {
+      "condition": "verified_numbers",
+      "id": "svb-4399d7d82628"
+    },
+    {
+      "condition": "no_assumptions",
+      "id": "svb-5cac43968ca3"
+    },
+    {
+      "condition": "no_assumptions",
+      "id": "svb-6cf18a16d481"
+    },
+    {
+      "condition": "no_assumptions",
+      "id": "svb-8cd269de53bf"
+    },
+    {
+      "condition": "no_assumptions",
+      "id": "svb-4399d7d82628"
+    },
+    {
+      "condition": "paraphrase",
+      "id": "svb-5cac43968ca3"
+    },
+    {
+      "condition": "paraphrase",
+      "id": "svb-6cf18a16d481"
+    },
+    {
+      "condition": "paraphrase",
+      "id": "svb-8cd269de53bf"
+    },
+    {
+      "condition": "paraphrase",
+      "id": "svb-4399d7d82628"
+    }
+  ],
+  "selected_records": 60,
+  "version": "0.2.0"
+}

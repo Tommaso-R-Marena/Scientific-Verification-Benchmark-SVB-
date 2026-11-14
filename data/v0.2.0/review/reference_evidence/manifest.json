@@ -1,0 +1,15 @@
+{
+  "blinding_status": "metadata_filtered; coordinator identity-cue and exposure audit required",
+  "case_file_sha256": "2bb53a8c932014f3778ef917a6fe7c94df0edd1bec7afae8f8a62461d5c62a3e",
+  "condition": "evidence",
+  "format": "svb-human-review-preparation-v1",
+  "limitation": "Shared public workspace; opaque IDs and omitted references do not guarantee blindness or secrecy.",
+  "ordering_seed": 0,
+  "packet_count": 32,
+  "packet_sha256": "6cec6021677c14f8c8802fcca9b534fe2d9afa688885d279ebe2b5b95c308f6a",
+  "protected_holdout": false,
+  "review_status": "not_reviewed_by_external_humans",
+  "secret_labels_committed": false,
+  "source_identity": "intentionally retained for evidence/provenance assessment",
+  "stage": "reference_qualification"
+}

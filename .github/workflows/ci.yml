@@ -7,9 +7,22 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
       - run: PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=src python -m unittest discover -s tests -v
       - run: PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=src python -m svb.cli validate
       - run: PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=src python -m svb.cli experiment --output results/local/ci
+      - run: PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=src python -m svb.phase2 validate
+      - run: PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=src python -m svb.phase2_references
+      - run: PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=src python -m svb.phase2 baselines --output results/local/phase2-ci.json
+      - run: PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=src python -m svb.phase2b validate
+      - run: PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=src python -m svb.phase2b_references
+      - run: PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=src python scripts/verify_phase2b_runs.py
+      - run: PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=src python scripts/analyze_phase2b.py --output results/local/phase2b-ci.json
+      - run: cmp results/local/phase2b-ci.json results/v0.3.0/results.json
+      - run: PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=src python -m svb.phase3 validate
+      - run: PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=src python scripts/audit_phase3.py
+      - run: git diff --exit-code -- results/v0.4.0/numerical_audit.json results/v0.4.0/false_acceptance_audit.json results/v0.4.0/development_construct_audit.json results/v0.4.0/release_audit.json

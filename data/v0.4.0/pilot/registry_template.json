@@ -1,0 +1,18 @@
+{
+  "coordinator_attestation": null,
+  "pilot_id": "svb-phase3-pilot-1",
+  "reference_round1_locked": false,
+  "reviewers": [
+    {
+      "candidate_assignments": [],
+      "consent_to_process": null,
+      "credentials_checked": null,
+      "human_origin_attested": null,
+      "independence_checked": null,
+      "reference_assignments": [],
+      "reviewer_code": null,
+      "role": null
+    }
+  ],
+  "schema_version": "0.4.0-proposal"
+}

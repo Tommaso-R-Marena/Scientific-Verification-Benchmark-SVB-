@@ -1,0 +1,722 @@
+{
+  "artifacts_sha256": {
+    "data/manifest.json": "02416396351f789f671b5ab678af98843d56c4f999544b0da4af701e497f99cb",
+    "data/v0.2.0/manifest.json": "93e52594f1c333670a14946592091c19205ef38f622a6318f568dce818b784da",
+    "data/v0.3.0/evaluation_plan.json": "a2eeb31ad63dd983fed3aa0ab5e6deed702944115708b4851de705e552d93972",
+    "data/v0.3.0/manifest.json": "d87f519ccfe72490737779059fc73f5402fac5780a55d06f8adbd7f50d7119d5",
+    "data/v0.3.0/protocol.json": "f64f219b3e92a4830643e2170291107c6313c15ae596cfe1d0a0c4ac5da20a9c",
+    "data/v0.3.0/review/candidate_05b_v1/reviewer_package.zip": "754b9f3336d1bc898ea36df2df1ebe4fe0a7e9cb9def1c22e852a99bd98d3fe2",
+    "data/v0.3.0/review/candidate_15b_v1/reviewer_package.zip": "14e5c9d7115ffcb1a85d3341604e153bc3d7654e8d7c1f38c4ce9e6aa66345cd",
+    "data/v0.3.0/review/prepared_v1/reviewer_package.zip": "b5f1a13e05eaea64e91ea03c961645909fd546a8548eaaa3f5d45e430a8c9c5f",
+    "docs/phase-iib/manuscript.md": "0815418c9d18c823f68547c5cc90ed5ba2d7042f620c7c648ca754d64454eab9",
+    "docs/phase-iib/output_audit.md": "fd7baf25dbd33eaeb97d30bfabf1b7e43591e07997e103d9a8416cdb02df1efb",
+    "docs/phase-iib/report.md": "cdd25590d40a6fa446fc86d11de5ee9febf10c8648fa501a34cde2604b55b866",
+    "docs/phase-iib/reproduce.md": "d77120ef42ae1213d3ea0949546f86845372e0bd6883c59e180830b8536480e1",
+    "docs/phase-iib/specification.md": "88e1c630341c50e884e1f711e1f926651adc88fade57a41a0aa3502a09b50706",
+    "results/v0.3.0/bound_utility.json": "3309644122b08ac7ab38e82865eb5db8289c40d6afca4e97db8ff6db8d1e55c5",
+    "results/v0.3.0/clean_tree_reproduction.log": "e62d490446e742bea1bebfb1dd59e8d519c0ebc63872761f88aaa186434e85d8",
+    "results/v0.3.0/history_preservation.json": "802b2d45a94c1a94f5213263c7f371d8f31a494128c9abe02170ad3a5a99ff19",
+    "results/v0.3.0/reference_checks.json": "58f335cbeb1fd86c3f4a674b302c99cd2df0a3d6c91d43acd6cf0ebc2ae2f3b7",
+    "results/v0.3.0/results.json": "82a7aa37db7e749e800e8a5eea9113d80b009a7c03841e1da2bab0ff7fce2dd6",
+    "results/v0.3.0/run_integrity.json": "aab85db0752ce82f2de508def4e060fde9ebdf5cda9a35baa5edab5cc784d01c",
+    "results/v0.3.0/tests_delivery.log": "a88b44e737be9ffd1985d5d567a883e997f83b2c3824cd0082879623a1a4cea8",
+    "scripts/verify_phase2b_runs.py": "9729deb5565216e2881b109b57ea14c39d3e8644477cd1313f4d7606bbde6f92"
+  },
+  "base_commit": "9757e4b2f82e9023a17b5173ca0d1495ad445b2d",
+  "bound_utility": {
+    "actual_CLI_calls": 32,
+    "enriched_definite": 34,
+    "full_definite": 36,
+    "moderate_definite": 0,
+    "nontrivial_interior_decisions_per_configuration": 36,
+    "physical_validity_established": false,
+    "related_threshold_observations": 248,
+    "shallow_definite": 0,
+    "valid_probability_and_partition_enclosures": 32,
+    "wrong_definite_decisions": 0
+  },
+  "branch": "phase-ii/scientific-validation",
+  "claims_not_established": [
+    "General scientific-model ranking or scientific verifier qualification",
+    "Broad H1/H2/H3/H4 confirmation",
+    "External expert scientific reference validity",
+    "Protected hidden or genuinely blinded generalization",
+    "Benefit of verification tools or dependency interventions on scientific reasoning",
+    "Faithfulness of public explanations to internal model reasoning",
+    "Model physical adequacy or new biochemical discoveries",
+    "Benchmark superiority or mathematical novelty"
+  ],
+  "environment": {
+    "core_third_party_dependencies": [],
+    "inference": {
+      "dependencies": "requirements-models.txt unchanged",
+      "device": "cpu",
+      "dtype": "float32",
+      "python": "3.12.14",
+      "threads": 4,
+      "torch": "2.7.1+cpu",
+      "transformers": "4.51.3"
+    },
+    "optional_inference_dependencies": "requirements-models.txt",
+    "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+    "python": "3.12.14"
+  },
+  "executed_counts": {
+    "development": 75,
+    "evaluation": 120,
+    "evaluation_A": 96,
+    "evaluation_B": 12,
+    "evaluation_C": 12,
+    "evaluation_generation_completed": 120,
+    "evaluation_input_truncations": 0,
+    "evaluation_output_cap_hits": 1,
+    "external_human_reviews": 0,
+    "reviewers_contacted": 0
+  },
+  "executions": [
+    {
+      "constrained_a": true,
+      "generation_seconds": 11.255197989003136,
+      "generation_statuses": {
+        "completed": 6
+      },
+      "input_tokens": 2618,
+      "metadata": "results/v0.3.0/development/qwen-0.5b_constrained.run.json",
+      "model": "qwen-0.5b",
+      "output_cap_hits": 0,
+      "output_tokens": 27,
+      "prompt_file_sha256": "976401d8cda877a3f6f4e8b6cddebc4e0ff0a47d7bb0ec862a50fb570fdfd4fd",
+      "raw_sha256": "f8a740dd971d337f779f41951746db53322163182dda46912225549064c069e1",
+      "records": 6,
+      "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+      "runner_sha256": "c5254e0cc2afb18582011a399975aaa94f8c82a8d929c85c7de4f1f5489bcd7e",
+      "runner_wall_seconds": 17.4518404006958,
+      "stage": "development"
+    },
+    {
+      "constrained_a": false,
+      "generation_seconds": 55.88024364200464,
+      "generation_statuses": {
+        "completed": 19
+      },
+      "input_tokens": 7461,
+      "metadata": "results/v0.3.0/development/qwen-0.5b_unconstrained.run.json",
+      "model": "qwen-0.5b",
+      "output_cap_hits": 0,
+      "output_tokens": 310,
+      "prompt_file_sha256": "3c6022393a35ba8e0a368913d5b9d4d71d6d7cbdfe52456d20947618a72f2313",
+      "raw_sha256": "b15e2003c082bc9562ad3fc47b935734336d1d37266c1654ebf240d7f3fdc42d",
+      "records": 19,
+      "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+      "runner_sha256": "c5254e0cc2afb18582011a399975aaa94f8c82a8d929c85c7de4f1f5489bcd7e",
+      "runner_wall_seconds": 61.95970392227173,
+      "stage": "development"
+    },
+    {
+      "constrained_a": true,
+      "generation_seconds": 36.6062971750016,
+      "generation_statuses": {
+        "completed": 6
+      },
+      "input_tokens": 2618,
+      "metadata": "results/v0.3.0/development/qwen-1.5b_constrained.run.json",
+      "model": "qwen-1.5b",
+      "output_cap_hits": 0,
+      "output_tokens": 30,
+      "prompt_file_sha256": "976401d8cda877a3f6f4e8b6cddebc4e0ff0a47d7bb0ec862a50fb570fdfd4fd",
+      "raw_sha256": "525e9dc7a343fc1f880b46db91053a56575cffc46b76a2344ce87c5232ab49f3",
+      "records": 6,
+      "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+      "runner_sha256": "c5254e0cc2afb18582011a399975aaa94f8c82a8d929c85c7de4f1f5489bcd7e",
+      "runner_wall_seconds": 44.74921774864197,
+      "stage": "development"
+    },
+    {
+      "constrained_a": false,
+      "generation_seconds": 210.9887049029985,
+      "generation_statuses": {
+        "completed": 19
+      },
+      "input_tokens": 7461,
+      "metadata": "results/v0.3.0/development/qwen-1.5b_unconstrained.run.json",
+      "model": "qwen-1.5b",
+      "output_cap_hits": 0,
+      "output_tokens": 482,
+      "prompt_file_sha256": "3c6022393a35ba8e0a368913d5b9d4d71d6d7cbdfe52456d20947618a72f2313",
+      "raw_sha256": "2dd393e280069ab811d008159bd7986d117d4d5b2e86734a63a9198bfde3a964",
+      "records": 19,
+      "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+      "runner_sha256": "c5254e0cc2afb18582011a399975aaa94f8c82a8d929c85c7de4f1f5489bcd7e",
+      "runner_wall_seconds": 219.6025629043579,
+      "stage": "development"
+    },
+    {
+      "constrained_a": true,
+      "generation_seconds": 72.74653934200614,
+      "generation_statuses": {
+        "completed": 6
+      },
+      "input_tokens": 2618,
+      "metadata": "results/v0.3.0/development/qwen-3b_constrained.run.json",
+      "model": "qwen-3b",
+      "output_cap_hits": 0,
+      "output_tokens": 30,
+      "prompt_file_sha256": "976401d8cda877a3f6f4e8b6cddebc4e0ff0a47d7bb0ec862a50fb570fdfd4fd",
+      "raw_sha256": "851614269830c280c7c2728964e5fc2a39fdc1d63264577d18efa60def6bb452",
+      "records": 6,
+      "revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+      "runner_sha256": "8a9990ac8bc134294bbd9cb2fca7693bf994934a3fa9279c91f0d1f39a1c7415",
+      "runner_wall_seconds": 83.53291845321655,
+      "stage": "development"
+    },
+    {
+      "constrained_a": false,
+      "generation_seconds": 415.0763358550066,
+      "generation_statuses": {
+        "completed": 19
+      },
+      "input_tokens": 7461,
+      "metadata": "results/v0.3.0/development/qwen-3b_unconstrained.run.json",
+      "model": "qwen-3b",
+      "output_cap_hits": 0,
+      "output_tokens": 547,
+      "prompt_file_sha256": "3c6022393a35ba8e0a368913d5b9d4d71d6d7cbdfe52456d20947618a72f2313",
+      "raw_sha256": "d745dc9a14f6e25515b122cef6fe9a32ba3792632060597599602bb7150b01cb",
+      "records": 19,
+      "revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+      "runner_sha256": "8a9990ac8bc134294bbd9cb2fca7693bf994934a3fa9279c91f0d1f39a1c7415",
+      "runner_wall_seconds": 445.58803939819336,
+      "stage": "development"
+    },
+    {
+      "constrained_a": true,
+      "generation_seconds": 50.58890472398707,
+      "generation_statuses": {
+        "completed": 24
+      },
+      "input_tokens": 11422,
+      "metadata": "results/v0.3.0/evaluation/qwen-0.5b_constrained.run.json",
+      "model": "qwen-0.5b",
+      "output_cap_hits": 0,
+      "output_tokens": 125,
+      "prompt_file_sha256": "5b6cf2250ae264a203492a773e4ca9fe3b99d82f6169842dcf720f4cf37de4e6",
+      "raw_sha256": "1a550eb1ae7dcd1e7e822ddb668f8877cef8144974a7791d394364afa5126c7f",
+      "records": 24,
+      "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+      "runner_sha256": "8a9990ac8bc134294bbd9cb2fca7693bf994934a3fa9279c91f0d1f39a1c7415",
+      "runner_wall_seconds": 56.1735315322876,
+      "stage": "evaluation"
+    },
+    {
+      "constrained_a": false,
+      "generation_seconds": 167.24762451801507,
+      "generation_statuses": {
+        "completed": 36
+      },
+      "input_tokens": 19154,
+      "metadata": "results/v0.3.0/evaluation/qwen-0.5b_unconstrained.run.json",
+      "model": "qwen-0.5b",
+      "output_cap_hits": 0,
+      "output_tokens": 1042,
+      "prompt_file_sha256": "ea926f124b620c91d808573b459dc4f3476585ef4a173a210dd41cc6c1fe22d4",
+      "raw_sha256": "b942a7407f3aa40ca080a41176b253a459a38e126d2c4905ac61882ff9575d28",
+      "records": 36,
+      "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+      "runner_sha256": "8a9990ac8bc134294bbd9cb2fca7693bf994934a3fa9279c91f0d1f39a1c7415",
+      "runner_wall_seconds": 172.57455706596375,
+      "stage": "evaluation"
+    },
+    {
+      "constrained_a": true,
+      "generation_seconds": 144.56757178399857,
+      "generation_statuses": {
+        "completed": 24
+      },
+      "input_tokens": 11422,
+      "metadata": "results/v0.3.0/evaluation/qwen-1.5b_constrained.run.json",
+      "model": "qwen-1.5b",
+      "output_cap_hits": 0,
+      "output_tokens": 117,
+      "prompt_file_sha256": "5b6cf2250ae264a203492a773e4ca9fe3b99d82f6169842dcf720f4cf37de4e6",
+      "raw_sha256": "9fa80e1738df3a721b3bdac6019e14599d3ae7e93f8472d86ac138f748604b98",
+      "records": 24,
+      "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+      "runner_sha256": "8a9990ac8bc134294bbd9cb2fca7693bf994934a3fa9279c91f0d1f39a1c7415",
+      "runner_wall_seconds": 151.82291460037231,
+      "stage": "evaluation"
+    },
+    {
+      "constrained_a": false,
+      "generation_seconds": 630.8429519359925,
+      "generation_statuses": {
+        "completed": 36
+      },
+      "input_tokens": 19154,
+      "metadata": "results/v0.3.0/evaluation/qwen-1.5b_unconstrained.run.json",
+      "model": "qwen-1.5b",
+      "output_cap_hits": 1,
+      "output_tokens": 1742,
+      "prompt_file_sha256": "ea926f124b620c91d808573b459dc4f3476585ef4a173a210dd41cc6c1fe22d4",
+      "raw_sha256": "e145cfcd1c3f0e8e706f5d6035fce0ecb7d7bf2439d9688392cdd63b37f67ce1",
+      "records": 36,
+      "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+      "runner_sha256": "8a9990ac8bc134294bbd9cb2fca7693bf994934a3fa9279c91f0d1f39a1c7415",
+      "runner_wall_seconds": 638.0619804859161,
+      "stage": "evaluation"
+    }
+  ],
+  "foundation_commit": "e7bd1d8d197897428ca846f1f3fcdc3b8835c619",
+  "identity_and_licenses": {
+    "development_only": "qwen-3b",
+    "model_access": "results/v0.3.0/model_access.json",
+    "model_weights_redistributed": false,
+    "paid_api_calls": 0,
+    "private_model_credentials_used": false,
+    "selected_models": [
+      "qwen-0.5b",
+      "qwen-1.5b"
+    ]
+  },
+  "keep_draft": true,
+  "model_results": {
+    "qwen-0.5b": {
+      "A": {
+        "constrained": {
+          "A_evidence": {
+            "accept_reference_n": 6,
+            "admitted": 12,
+            "coarse_correct": 2,
+            "committed_decisions": 5,
+            "confusion": {
+              "computationally_established -> disputed_or_unresolved": 1,
+              "computationally_established -> empirically_supported": 1,
+              "computationally_established -> refuted": 1,
+              "empirically_supported -> disputed_or_unresolved": 2,
+              "empirically_supported -> refuted": 1,
+              "insufficient_evidence -> disputed_or_unresolved": 3,
+              "refuted -> disputed_or_unresolved": 1,
+              "refuted -> empirically_supported": 1,
+              "refuted -> refuted": 1
+            },
+            "correct_insufficiency": 0,
+            "coverage": 1.0,
+            "exact_accuracy_all": 0.08333333333333333,
+            "exact_correct": 1,
+            "false_accept_rate": 0.16666666666666666,
+            "false_accepts": 1,
+            "false_rejects": 2,
+            "n": 12,
+            "nonaccept_reference_n": 6,
+            "prediction_counts": {
+              "disputed_or_unresolved": 7,
+              "empirically_supported": 2,
+              "refuted": 3
+            },
+            "statuses": {
+              "admitted": 12
+            },
+            "uncertain_judgments": 7
+          },
+          "A_no_evidence": {
+            "accept_reference_n": 0,
+            "admitted": 12,
+            "coarse_correct": 0,
+            "committed_decisions": 4,
+            "confusion": {
+              "insufficient_evidence -> disputed_or_unresolved": 8,
+              "insufficient_evidence -> empirically_supported": 2,
+              "insufficient_evidence -> refuted": 2
+            },
+            "correct_insufficiency": 0,
+            "coverage": 1.0,
+            "exact_accuracy_all": 0.0,
+            "exact_correct": 0,
+            "false_accept_rate": 0.16666666666666666,
+            "false_accepts": 2,
+            "false_rejects": 0,
+            "n": 12,
+            "nonaccept_reference_n": 12,
+            "prediction_counts": {
+              "disputed_or_unresolved": 8,
+              "empirically_supported": 2,
+              "refuted": 2
+            },
+            "statuses": {
+              "admitted": 12
+            },
+            "uncertain_judgments": 8
+          }
+        },
+        "unconstrained": {
+          "A_evidence": {
+            "accept_reference_n": 6,
+            "admitted": 12,
+            "coarse_correct": 2,
+            "committed_decisions": 5,
+            "confusion": {
+              "computationally_established -> computationally_established": 1,
+              "computationally_established -> disputed_or_unresolved": 1,
+              "computationally_established -> refuted": 1,
+              "empirically_supported -> disputed_or_unresolved": 2,
+              "empirically_supported -> refuted": 1,
+              "insufficient_evidence -> disputed_or_unresolved": 3,
+              "refuted -> computationally_established": 1,
+              "refuted -> disputed_or_unresolved": 1,
+              "refuted -> refuted": 1
+            },
+            "correct_insufficiency": 0,
+            "coverage": 1.0,
+            "exact_accuracy_all": 0.16666666666666666,
+            "exact_correct": 2,
+            "false_accept_rate": 0.16666666666666666,
+            "false_accepts": 1,
+            "false_rejects": 2,
+            "n": 12,
+            "nonaccept_reference_n": 6,
+            "prediction_counts": {
+              "computationally_established": 2,
+              "disputed_or_unresolved": 7,
+              "refuted": 3
+            },
+            "statuses": {
+              "admitted": 12
+            },
+            "uncertain_judgments": 7
+          },
+          "A_no_evidence": {
+            "accept_reference_n": 0,
+            "admitted": 9,
+            "coarse_correct": 0,
+            "committed_decisions": 4,
+            "confusion": {
+              "insufficient_evidence -> disputed_or_unresolved": 5,
+              "insufficient_evidence -> empirically_supported": 2,
+              "insufficient_evidence -> malformed": 3,
+              "insufficient_evidence -> refuted": 2
+            },
+            "correct_insufficiency": 0,
+            "coverage": 0.75,
+            "exact_accuracy_all": 0.0,
+            "exact_correct": 0,
+            "false_accept_rate": 0.16666666666666666,
+            "false_accepts": 2,
+            "false_rejects": 0,
+            "n": 12,
+            "nonaccept_reference_n": 12,
+            "prediction_counts": {
+              "disputed_or_unresolved": 5,
+              "empirically_supported": 2,
+              "refuted": 2
+            },
+            "statuses": {
+              "admitted": 9,
+              "malformed": 3
+            },
+            "uncertain_judgments": 5
+          }
+        }
+      },
+      "B": {
+        "condition": "evidence",
+        "human_reviewed": 0,
+        "n": 6,
+        "no_bracket_attribution_n": 6,
+        "nonsupplied_id_cases": 0,
+        "scientific_reasoning_accuracy": null,
+        "statuses": {
+          "nonempty_text_completed": 6
+        },
+        "task": "B"
+      },
+      "C_strict": {
+        "admitted": 0,
+        "malformed": 6,
+        "scheduled": 6
+      },
+      "coarse_evidence_withdrawal_shifts": {
+        "constrained": {
+          "correct_coarse_shifts": 0,
+          "support_reference_n": 6
+        },
+        "unconstrained": {
+          "correct_coarse_shifts": 0,
+          "support_reference_n": 6
+        }
+      },
+      "matched_A_C": {
+        "A_admitted": 6,
+        "A_exact_correct": 0,
+        "C_admitted": 0,
+        "C_exact_correct": 0,
+        "n": 6,
+        "not_identified_causal_schema_effect": true,
+        "reason": "Same source cases but historical rich instructions/order/length differ from rotated minimal A; do not attribute difference solely to schema."
+      }
+    },
+    "qwen-1.5b": {
+      "A": {
+        "constrained": {
+          "A_evidence": {
+            "accept_reference_n": 6,
+            "admitted": 12,
+            "coarse_correct": 6,
+            "committed_decisions": 7,
+            "confusion": {
+              "computationally_established -> formally_established": 1,
+              "computationally_established -> insufficient_evidence": 1,
+              "computationally_established -> refuted": 1,
+              "empirically_supported -> empirically_supported": 2,
+              "empirically_supported -> insufficient_evidence": 1,
+              "insufficient_evidence -> empirically_supported": 1,
+              "insufficient_evidence -> insufficient_evidence": 2,
+              "refuted -> formally_established": 1,
+              "refuted -> insufficient_evidence": 1,
+              "refuted -> refuted": 1
+            },
+            "correct_insufficiency": 2,
+            "coverage": 1.0,
+            "exact_accuracy_all": 0.4166666666666667,
+            "exact_correct": 5,
+            "false_accept_rate": 0.3333333333333333,
+            "false_accepts": 2,
+            "false_rejects": 1,
+            "n": 12,
+            "nonaccept_reference_n": 6,
+            "prediction_counts": {
+              "empirically_supported": 3,
+              "formally_established": 2,
+              "insufficient_evidence": 5,
+              "refuted": 2
+            },
+            "statuses": {
+              "admitted": 12
+            },
+            "uncertain_judgments": 5
+          },
+          "A_no_evidence": {
+            "accept_reference_n": 0,
+            "admitted": 12,
+            "coarse_correct": 7,
+            "committed_decisions": 5,
+            "confusion": {
+              "insufficient_evidence -> formally_established": 3,
+              "insufficient_evidence -> insufficient_evidence": 7,
+              "insufficient_evidence -> refuted": 2
+            },
+            "correct_insufficiency": 7,
+            "coverage": 1.0,
+            "exact_accuracy_all": 0.5833333333333334,
+            "exact_correct": 7,
+            "false_accept_rate": 0.25,
+            "false_accepts": 3,
+            "false_rejects": 0,
+            "n": 12,
+            "nonaccept_reference_n": 12,
+            "prediction_counts": {
+              "formally_established": 3,
+              "insufficient_evidence": 7,
+              "refuted": 2
+            },
+            "statuses": {
+              "admitted": 12
+            },
+            "uncertain_judgments": 7
+          }
+        },
+        "unconstrained": {
+          "A_evidence": {
+            "accept_reference_n": 6,
+            "admitted": 12,
+            "coarse_correct": 6,
+            "committed_decisions": 7,
+            "confusion": {
+              "computationally_established -> computationally_established": 1,
+              "computationally_established -> insufficient_evidence": 1,
+              "computationally_established -> refuted": 1,
+              "empirically_supported -> empirically_supported": 2,
+              "empirically_supported -> insufficient_evidence": 1,
+              "insufficient_evidence -> empirically_supported": 1,
+              "insufficient_evidence -> insufficient_evidence": 2,
+              "refuted -> computationally_established": 1,
+              "refuted -> insufficient_evidence": 1,
+              "refuted -> refuted": 1
+            },
+            "correct_insufficiency": 2,
+            "coverage": 1.0,
+            "exact_accuracy_all": 0.5,
+            "exact_correct": 6,
+            "false_accept_rate": 0.3333333333333333,
+            "false_accepts": 2,
+            "false_rejects": 1,
+            "n": 12,
+            "nonaccept_reference_n": 6,
+            "prediction_counts": {
+              "computationally_established": 2,
+              "empirically_supported": 3,
+              "insufficient_evidence": 5,
+              "refuted": 2
+            },
+            "statuses": {
+              "admitted": 12
+            },
+            "uncertain_judgments": 5
+          },
+          "A_no_evidence": {
+            "accept_reference_n": 0,
+            "admitted": 12,
+            "coarse_correct": 7,
+            "committed_decisions": 5,
+            "confusion": {
+              "insufficient_evidence -> computationally_established": 2,
+              "insufficient_evidence -> formally_established": 1,
+              "insufficient_evidence -> insufficient_evidence": 7,
+              "insufficient_evidence -> refuted": 2
+            },
+            "correct_insufficiency": 7,
+            "coverage": 1.0,
+            "exact_accuracy_all": 0.5833333333333334,
+            "exact_correct": 7,
+            "false_accept_rate": 0.25,
+            "false_accepts": 3,
+            "false_rejects": 0,
+            "n": 12,
+            "nonaccept_reference_n": 12,
+            "prediction_counts": {
+              "computationally_established": 2,
+              "formally_established": 1,
+              "insufficient_evidence": 7,
+              "refuted": 2
+            },
+            "statuses": {
+              "admitted": 12
+            },
+            "uncertain_judgments": 7
+          }
+        }
+      },
+      "B": {
+        "condition": "evidence",
+        "human_reviewed": 0,
+        "n": 6,
+        "no_bracket_attribution_n": 6,
+        "nonsupplied_id_cases": 0,
+        "scientific_reasoning_accuracy": null,
+        "statuses": {
+          "nonempty_text_completed": 6
+        },
+        "task": "B"
+      },
+      "C_strict": {
+        "admitted": 0,
+        "malformed": 6,
+        "scheduled": 6
+      },
+      "coarse_evidence_withdrawal_shifts": {
+        "constrained": {
+          "correct_coarse_shifts": 1,
+          "support_reference_n": 6
+        },
+        "unconstrained": {
+          "correct_coarse_shifts": 1,
+          "support_reference_n": 6
+        }
+      },
+      "matched_A_C": {
+        "A_admitted": 6,
+        "A_exact_correct": 4,
+        "C_admitted": 0,
+        "C_exact_correct": 0,
+        "n": 6,
+        "not_identified_causal_schema_effect": true,
+        "reason": "Same source cases but historical rich instructions/order/length differ from rotated minimal A; do not attribute difference solely to schema."
+      }
+    }
+  },
+  "negative_and_unresolved_findings": [
+    "All three candidates fail unchanged development gate",
+    "Three malformed unconstrained no-evidence A outputs retained",
+    "Twelve malformed rich C outputs; generator completion distinct from historical scorer execution_error status",
+    "One B output hits cap; five 1.5B B responses exceed word budget",
+    "Neither model supplies bracketed IDs on any B output",
+    "No human reasoning accuracy or source-entailment aggregate",
+    "Original numerical baseline unsupported on all new packet forms",
+    "Source-fact empirical/computational categories overlap; historical labels preserved",
+    "New studies use common secondary R curation, not primary laboratory replication",
+    "Public labels, unknown pretraining exposure, no independent custody or actual blinding",
+    "C and A instruction bundles differ beyond schema",
+    "Related items/families and thresholds are not independent samples",
+    "Historical PCS reference error and all Phase II failures preserved"
+  ],
+  "new_cases": {
+    "curation_channels": 1,
+    "empirical_source_fact_positives": 3,
+    "independently_preregistered": false,
+    "items": 12,
+    "numeric_witnesses": 9,
+    "original_lab_experiments_replicated": false,
+    "pairs": 6,
+    "pretraining_exposure_unknown": true,
+    "protected_holdout": false,
+    "provisional_author_adjudicated": true,
+    "study_families": 3
+  },
+  "pull_request": "https://github.com/Tommaso-R-Marena/Scientific-Verification-Benchmark-SVB-/pull/1",
+  "qualification": {
+    "qwen-0.5b": {
+      "all_gates_met": false,
+      "order_consistent": 3,
+      "order_pairs": 6,
+      "standard_exact": 0,
+      "standard_syntax": 6
+    },
+    "qwen-1.5b": {
+      "all_gates_met": false,
+      "order_consistent": 3,
+      "order_pairs": 6,
+      "standard_exact": 4,
+      "standard_syntax": 6
+    },
+    "qwen-3b": {
+      "all_gates_met": false,
+      "order_consistent": 2,
+      "order_pairs": 6,
+      "standard_exact": 4,
+      "standard_syntax": 6
+    }
+  },
+  "review_package": {
+    "actual_B_candidates_per_package": 6,
+    "actual_blinding_established": false,
+    "blank_role_forms": 132,
+    "candidate_B_packages": 2,
+    "external_reference_and_rationale_adjudication_completed": false,
+    "internal_maps_in_ZIPs": false,
+    "missing_candidates_per_package": 38,
+    "source_complete_with_recorded_primary_methods_gaps": true,
+    "source_only_packets": 44
+  },
+  "status": "Executed public-source diagnostic continuation, not expert-qualified benchmark or merged release",
+  "verification": {
+    "all_subject_HEADs_tracked_bytes_status_unchanged": true,
+    "all_three_manifests_validate": true,
+    "clean_staged_tree_157_tests_passed": true,
+    "clean_staged_tree_all_three_protocols_and_references_passed": true,
+    "clean_staged_tree_v01_json_csv_and_v02_v03_baseline_score_replays_byte_identical": true,
+    "clean_tree_log": "results/v0.3.0/clean_tree_reproduction.log",
+    "delivery_head_CI": "Inspect exact head/run linked from PR; no future hosted success preclaimed in this static artifact.",
+    "foundation_CI": {
+      "commit": "e7bd1d8d197897428ca846f1f3fcdc3b8835c619",
+      "conclusion": "success",
+      "run": 43647095131
+    },
+    "local_tests_failed": 0,
+    "local_tests_passed": 157,
+    "main_unchanged": "30f842e241b0a37ab5d24ef6537113d6bbbb4103",
+    "model_run_identity_prompt_hash_checks_passed": true,
+    "new_numerical_references_recomputed": true,
+    "protected_prior_files_unchanged": 111,
+    "recorded_scoring_byte_identical_repeat": true,
+    "test_log": "results/v0.3.0/tests_delivery.log"
+  },
+  "version": "0.3.0"
+}

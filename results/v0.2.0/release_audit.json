@@ -1,0 +1,25 @@
+{
+  "all_protected_v01_bytes_unchanged": true,
+  "base_commit": "30f842e241b0a37ab5d24ef6537113d6bbbb4103",
+  "ci_phase2": {
+    "commit": "7222c65c0937542897bcad375073a5d7ff5869f8",
+    "conclusion": "success",
+    "run": 43569029081
+  },
+  "ci_v01": {
+    "conclusion": "success",
+    "run": 43567831890
+  },
+  "core_reproducibility": "fresh committed checkout103tests passed and new baseline JSON reproduced exactly",
+  "isolated_stdlib_tests": {
+    "flags": "-I -S; project src inserted explicitly; PYTHONPATH supplied for existing CLI child test",
+    "initial_harness_failure": "One CLI child could not import svb without documented PYTHONPATH; initial log preserved, corrected invocation passed without source changes",
+    "initial_log": "results/local/phase2-isolated-stdlib-tests.initial-failure.log",
+    "pass_log": "results/local/phase2-isolated-stdlib-tests.log",
+    "passed": 103
+  },
+  "protected_v01_files": 35,
+  "site_packages_disabled_test": "see results/local/phase2-isolated-stdlib-tests.log",
+  "source_subject_integrity": "Original before/after verifier passed; tracked bytes/HEAD/Git status unchanged",
+  "version": "0.2.0"
+}

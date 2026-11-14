@@ -1,0 +1,38 @@
+{
+  "all_output_limit_hits": [
+    {
+      "condition": "no_evidence",
+      "id": "svb-1ebab3b83fb1",
+      "output_tokens": 384
+    }
+  ],
+  "conditions": {
+    "evidence": 24,
+    "no_assumptions": 4,
+    "no_evidence": 24,
+    "paraphrase": 4,
+    "verified_numbers": 4
+  },
+  "durable_records": 60,
+  "format": "svb-combined-model-run-v1",
+  "generation_seconds_is_lower_bound_due_to_interruption": true,
+  "generation_statuses": {
+    "completed": 60
+  },
+  "input_truncations": 0,
+  "interruption_ledger": "results/v0.2.0/models/qwen_scientific_interruption.json",
+  "model_id": "Qwen/Qwen2.5-0.5B-Instruct",
+  "observed_durable_generation_seconds": 935.5094679599439,
+  "original_output_limit_hits": 1,
+  "original_partial_records": 46,
+  "output_sha256": "611be1e93470b66feab9fffcd2fb9510f49301ca5a773b5f6c91af3fa88b51c4",
+  "prompt_bundle_sha256": "0949cedac5127dd62bc83da1c7ffc9c593434bdbb76f34d40153a93b3dd4d010",
+  "requested": 60,
+  "response_repair_or_generation_retries": false,
+  "resumed_output_limit_hits": 0,
+  "resumed_records": 14,
+  "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+  "runner_sha256": "06d251c053058cb90cd94bf66a473eb3fd0da1a8385cc4d7b524630f3c2b939b",
+  "scoring_performed_by_runner": false,
+  "weights_sha256": "fdf756fa7fcbe7404d5c60e26bff1a0c8b8aa1f72ced49e7dd0210fe288fb7fe"
+}

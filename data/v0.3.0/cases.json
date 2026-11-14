@@ -1,0 +1,890 @@
+[
+  {
+    "family": "sleep",
+    "id": "SL01P",
+    "packet": {
+      "assumptions": [
+        "For arithmetic, treat the displayed stored values as exact numerical inputs; this does not make the physical measurements exact."
+      ],
+      "claim": "Using patient ID to pair the recorded observations, the mean of drug 2 minus drug 1 sleep prolongation is 1.58 hours.",
+      "documents": [
+        {
+          "id": "SL-METHOD",
+          "source_id": "sleep",
+          "text": "The R datasets manual describes the sleep data as the effect of two soporific drugs: increase in hours of sleep compared with control on 10 patients. The column extra is the increase in hours; group identifies the drug and ID identifies the patient. The manual explicitly states that the group name may be misleading: these are measurements on 10 persons, not separate groups. The data have 20 observations. The source citations are Cushny and Peebles (1905) and Student (1908). This packet transcribes the public R dataset and its documentation.",
+          "title": "R datasets documentation of the historical sleep study"
+        },
+        {
+          "id": "SL-OBS",
+          "source_id": "sleep",
+          "text": "ID,group,extra\n1,1,0.7\n2,1,-1.6\n3,1,-0.2\n4,1,-1.2\n5,1,-0.1\n6,1,3.4\n7,1,3.7\n8,1,0.8\n9,1,0\n10,1,2\n1,2,1.9\n2,2,0.8\n3,2,1.1\n4,2,0.1\n5,2,-0.1\n6,2,4.4\n7,2,5.5\n8,2,1.6\n9,2,4.6\n10,2,3.4\n",
+          "title": "Recorded sleep prolongation observations"
+        }
+      ],
+      "methodology": "Read the source description and recorded observations. Check any calculation using the stated units and experimental identifiers. Assess the precise target claim and explain its evidential basis.",
+      "question": "Which epistemic status is justified for this precise claim by the supplied scientific record?"
+    },
+    "pair": {
+      "id": "SL01",
+      "role": "positive"
+    },
+    "reference": {
+      "condition_labels": {
+        "evidence": "computationally_established",
+        "no_assumptions": "computationally_established",
+        "no_evidence": "insufficient_evidence",
+        "paraphrase": "computationally_established",
+        "verified_numbers": "computationally_established"
+      },
+      "condition_scopes": {
+        "evidence": [
+          "computational"
+        ],
+        "no_assumptions": [
+          "computational"
+        ],
+        "no_evidence": [],
+        "paraphrase": [
+          "computational"
+        ],
+        "verified_numbers": [
+          "computational"
+        ]
+      },
+      "evidence_ids": [
+        "SL-METHOD",
+        "SL-OBS"
+      ],
+      "kind": "exact",
+      "label": "computationally_established",
+      "numeric_check": {
+        "expected": {
+          "mean_difference_hours": "79/50",
+          "pairs": 10,
+          "sum_difference_hours": "79/5"
+        },
+        "operation": "sleep_paired_mean"
+      },
+      "rationale": "Ten within-ID differences sum to 15.8 hours, giving an arithmetic mean of 1.58 hours.",
+      "reasoning_requirements": [
+        "Pair records by patient ID rather than treating group labels as different persons.",
+        "Compute the mean within-patient difference with hours as the unit."
+      ],
+      "scopes": [
+        "computational"
+      ],
+      "status": "provisional_author_adjudicated",
+      "uncertainty": "Curated historical R transcription, not an independent replication of the original experiment. Full primary protocols, treatment ordering, washout, measurement error and population sampling were not independently reconstructed. Exact calculations establish properties of recorded observations only."
+    },
+    "split": "evaluation"
+  },
+  {
+    "family": "sleep",
+    "id": "SL01X",
+    "packet": {
+      "assumptions": [
+        "For arithmetic, treat the displayed stored values as exact numerical inputs; this does not make the physical measurements exact."
+      ],
+      "claim": "Using patient ID to pair the recorded observations, the mean of drug 2 minus drug 1 sleep prolongation is 3.16 hours.",
+      "documents": [
+        {
+          "id": "SL-METHOD",
+          "source_id": "sleep",
+          "text": "The R datasets manual describes the sleep data as the effect of two soporific drugs: increase in hours of sleep compared with control on 10 patients. The column extra is the increase in hours; group identifies the drug and ID identifies the patient. The manual explicitly states that the group name may be misleading: these are measurements on 10 persons, not separate groups. The data have 20 observations. The source citations are Cushny and Peebles (1905) and Student (1908). This packet transcribes the public R dataset and its documentation.",
+          "title": "R datasets documentation of the historical sleep study"
+        },
+        {
+          "id": "SL-OBS",
+          "source_id": "sleep",
+          "text": "ID,group,extra\n1,1,0.7\n2,1,-1.6\n3,1,-0.2\n4,1,-1.2\n5,1,-0.1\n6,1,3.4\n7,1,3.7\n8,1,0.8\n9,1,0\n10,1,2\n1,2,1.9\n2,2,0.8\n3,2,1.1\n4,2,0.1\n5,2,-0.1\n6,2,4.4\n7,2,5.5\n8,2,1.6\n9,2,4.6\n10,2,3.4\n",
+          "title": "Recorded sleep prolongation observations"
+        }
+      ],
+      "methodology": "Read the source description and recorded observations. Check any calculation using the stated units and experimental identifiers. Assess the precise target claim and explain its evidential basis.",
+      "question": "Which epistemic status is justified for this precise claim by the supplied scientific record?"
+    },
+    "pair": {
+      "id": "SL01",
+      "role": "negative"
+    },
+    "reference": {
+      "condition_labels": {
+        "evidence": "refuted",
+        "no_assumptions": "refuted",
+        "no_evidence": "insufficient_evidence",
+        "paraphrase": "refuted",
+        "verified_numbers": "refuted"
+      },
+      "condition_scopes": {
+        "evidence": [],
+        "no_assumptions": [],
+        "no_evidence": [],
+        "paraphrase": [],
+        "verified_numbers": []
+      },
+      "evidence_ids": [
+        "SL-METHOD",
+        "SL-OBS"
+      ],
+      "kind": "exact",
+      "label": "refuted",
+      "numeric_check": {
+        "expected": {
+          "mean_difference_hours": "79/50",
+          "pairs": 10,
+          "sum_difference_hours": "79/5"
+        },
+        "operation": "sleep_paired_mean"
+      },
+      "rationale": "The recorded paired differences have mean 79/50 = 1.58 hours, contradicting the proposed 3.16-hour mean.",
+      "reasoning_requirements": [
+        "Compute the paired mean rather than accepting a plausible supplied number.",
+        "Identify the numerical contradiction without making a population-level treatment claim."
+      ],
+      "scopes": [],
+      "status": "provisional_author_adjudicated",
+      "uncertainty": "Curated historical R transcription, not an independent replication of the original experiment. Full primary protocols, treatment ordering, washout, measurement error and population sampling were not independently reconstructed. Exact calculations establish properties of recorded observations only."
+    },
+    "split": "evaluation"
+  },
+  {
+    "family": "sleep",
+    "id": "SL02N",
+    "packet": {
+      "assumptions": [
+        "For arithmetic, treat the displayed stored values as exact numerical inputs; this does not make the physical measurements exact."
+      ],
+      "claim": "In every recorded patient pair, the sleep prolongation under drug 2 is at least as large as under drug 1.",
+      "documents": [
+        {
+          "id": "SL-METHOD",
+          "source_id": "sleep",
+          "text": "The R datasets manual describes the sleep data as the effect of two soporific drugs: increase in hours of sleep compared with control on 10 patients. The column extra is the increase in hours; group identifies the drug and ID identifies the patient. The manual explicitly states that the group name may be misleading: these are measurements on 10 persons, not separate groups. The data have 20 observations. The source citations are Cushny and Peebles (1905) and Student (1908). This packet transcribes the public R dataset and its documentation.",
+          "title": "R datasets documentation of the historical sleep study"
+        },
+        {
+          "id": "SL-OBS",
+          "source_id": "sleep",
+          "text": "ID,group,extra\n1,1,0.7\n2,1,-1.6\n3,1,-0.2\n4,1,-1.2\n5,1,-0.1\n6,1,3.4\n7,1,3.7\n8,1,0.8\n9,1,0\n10,1,2\n1,2,1.9\n2,2,0.8\n3,2,1.1\n4,2,0.1\n5,2,-0.1\n6,2,4.4\n7,2,5.5\n8,2,1.6\n9,2,4.6\n10,2,3.4\n",
+          "title": "Recorded sleep prolongation observations"
+        }
+      ],
+      "methodology": "Read the source description and recorded observations. Check any calculation using the stated units and experimental identifiers. Assess the precise target claim and explain its evidential basis.",
+      "question": "Which epistemic status is justified for this precise claim by the supplied scientific record?"
+    },
+    "pair": {
+      "id": "SL02",
+      "role": "narrow"
+    },
+    "reference": {
+      "condition_labels": {
+        "evidence": "empirically_supported",
+        "no_assumptions": "empirically_supported",
+        "no_evidence": "insufficient_evidence",
+        "paraphrase": "empirically_supported",
+        "verified_numbers": "empirically_supported"
+      },
+      "condition_scopes": {
+        "evidence": [
+          "empirical",
+          "computational"
+        ],
+        "no_assumptions": [
+          "empirical",
+          "computational"
+        ],
+        "no_evidence": [],
+        "paraphrase": [
+          "empirical",
+          "computational"
+        ],
+        "verified_numbers": [
+          "empirical",
+          "computational"
+        ]
+      },
+      "evidence_ids": [
+        "SL-METHOD",
+        "SL-OBS"
+      ],
+      "kind": "empirical_source_fact",
+      "label": "empirically_supported",
+      "numeric_check": {
+        "expected": {
+          "equal": 1,
+          "greater": 9,
+          "less": 0,
+          "pairs": 10
+        },
+        "operation": "sleep_signs"
+      },
+      "rationale": "Nine recorded paired differences are positive and one is zero. No recorded patient has a negative drug-2-minus-drug-1 difference.",
+      "reasoning_requirements": [
+        "Check all 10 patient pairs.",
+        "Preserve the non-strict comparison and scope to recorded patients."
+      ],
+      "scopes": [
+        "empirical",
+        "computational"
+      ],
+      "status": "provisional_author_adjudicated",
+      "uncertainty": "Curated historical R transcription, not an independent replication of the original experiment. Full primary protocols, treatment ordering, washout, measurement error and population sampling were not independently reconstructed. Exact calculations establish properties of recorded observations only."
+    },
+    "split": "evaluation"
+  },
+  {
+    "family": "sleep",
+    "id": "SL02S",
+    "packet": {
+      "assumptions": [
+        "For arithmetic, treat the displayed stored values as exact numerical inputs; this does not make the physical measurements exact."
+      ],
+      "claim": "The recorded patient comparisons establish that drug 2 will increase sleep more than drug 1 for every future patient.",
+      "documents": [
+        {
+          "id": "SL-METHOD",
+          "source_id": "sleep",
+          "text": "The R datasets manual describes the sleep data as the effect of two soporific drugs: increase in hours of sleep compared with control on 10 patients. The column extra is the increase in hours; group identifies the drug and ID identifies the patient. The manual explicitly states that the group name may be misleading: these are measurements on 10 persons, not separate groups. The data have 20 observations. The source citations are Cushny and Peebles (1905) and Student (1908). This packet transcribes the public R dataset and its documentation.",
+          "title": "R datasets documentation of the historical sleep study"
+        },
+        {
+          "id": "SL-OBS",
+          "source_id": "sleep",
+          "text": "ID,group,extra\n1,1,0.7\n2,1,-1.6\n3,1,-0.2\n4,1,-1.2\n5,1,-0.1\n6,1,3.4\n7,1,3.7\n8,1,0.8\n9,1,0\n10,1,2\n1,2,1.9\n2,2,0.8\n3,2,1.1\n4,2,0.1\n5,2,-0.1\n6,2,4.4\n7,2,5.5\n8,2,1.6\n9,2,4.6\n10,2,3.4\n",
+          "title": "Recorded sleep prolongation observations"
+        }
+      ],
+      "methodology": "Read the source description and recorded observations. Check any calculation using the stated units and experimental identifiers. Assess the precise target claim and explain its evidential basis.",
+      "question": "Which epistemic status is justified for this precise claim by the supplied scientific record?"
+    },
+    "pair": {
+      "id": "SL02",
+      "role": "stronger"
+    },
+    "reference": {
+      "condition_labels": {
+        "evidence": "insufficient_evidence",
+        "no_assumptions": "insufficient_evidence",
+        "no_evidence": "insufficient_evidence",
+        "paraphrase": "insufficient_evidence",
+        "verified_numbers": "insufficient_evidence"
+      },
+      "condition_scopes": {
+        "evidence": [],
+        "no_assumptions": [],
+        "no_evidence": [],
+        "paraphrase": [],
+        "verified_numbers": []
+      },
+      "evidence_ids": [
+        "SL-METHOD",
+        "SL-OBS"
+      ],
+      "kind": "interpretation",
+      "label": "insufficient_evidence",
+      "rationale": "A finite historical sample does not establish a strict benefit for every future patient; sampling, heterogeneity and applicability remain unestablished. One observed tie also prevents describing all recorded differences as strict increases, but it does not refute the separate universal future-patient target.",
+      "reasoning_requirements": [
+        "Identify the shift from a finite recorded sample to every future patient.",
+        "Explain why finite favorable observations do not establish a universal individual treatment response; do not claim the future outcome has been observed false."
+      ],
+      "scopes": [],
+      "status": "provisional_author_adjudicated",
+      "uncertainty": "Curated historical R transcription, not an independent replication of the original experiment. Full primary protocols, treatment ordering, washout, measurement error and population sampling were not independently reconstructed. Exact calculations establish properties of recorded observations only."
+    },
+    "split": "evaluation"
+  },
+  {
+    "family": "chick_growth",
+    "id": "CW01P",
+    "packet": {
+      "assumptions": [
+        "For arithmetic, treat the displayed stored values as exact numerical inputs; this does not make the physical measurements exact."
+      ],
+      "claim": "Among the supplied day-21 observations, the arithmetic mean weight for diet 4 exceeds that for diet 1 by exactly 2189/36 grams.",
+      "documents": [
+        {
+          "id": "CW-METHOD",
+          "source_id": "chick_growth",
+          "text": "The R ChickWeight dataset describes an experiment on early growth under four protein diets. Body weight is recorded in grams; Time is days since birth; Chick is a unique chick identifier; Diet identifies the experimental diet. Weights were measured at birth and every second day until day 20, and also at day 21. The complete curated table has 578 observations. The R source cites Crowder and Hand (1990), Example 5.3, pages 74–78, and Hand and Crowder (1996), Table A.2, page 172. Ordered factor labels identify chicks; factor ordering groups diets and orders final weights.",
+          "title": "R documentation of early chick growth observations"
+        },
+        {
+          "id": "CW-DAY21",
+          "source_id": "chick_growth",
+          "text": "Chick,Diet,Time,weight\n1,1,21,205\n2,1,21,215\n3,1,21,202\n4,1,21,157\n5,1,21,223\n6,1,21,157\n7,1,21,305\n9,1,21,98\n10,1,21,124\n11,1,21,175\n12,1,21,205\n13,1,21,96\n14,1,21,266\n17,1,21,142\n19,1,21,157\n20,1,21,117\n41,4,21,204\n42,4,21,281\n43,4,21,200\n45,4,21,196\n46,4,21,238\n47,4,21,205\n48,4,21,322\n49,4,21,237\n50,4,21,264\n",
+          "title": "Recorded day-21 weights for diets 1 and 4"
+        }
+      ],
+      "methodology": "Read the source description and recorded observations. Check any calculation using the stated units and experimental identifiers. Assess the precise target claim and explain its evidential basis.",
+      "question": "Which epistemic status is justified for this precise claim by the supplied scientific record?"
+    },
+    "pair": {
+      "id": "CW01",
+      "role": "positive"
+    },
+    "reference": {
+      "condition_labels": {
+        "evidence": "computationally_established",
+        "no_assumptions": "computationally_established",
+        "no_evidence": "insufficient_evidence",
+        "paraphrase": "computationally_established",
+        "verified_numbers": "computationally_established"
+      },
+      "condition_scopes": {
+        "evidence": [
+          "computational"
+        ],
+        "no_assumptions": [
+          "computational"
+        ],
+        "no_evidence": [],
+        "paraphrase": [
+          "computational"
+        ],
+        "verified_numbers": [
+          "computational"
+        ]
+      },
+      "evidence_ids": [
+        "CW-METHOD",
+        "CW-DAY21"
+      ],
+      "kind": "exact",
+      "label": "computationally_established",
+      "numeric_check": {
+        "expected": {
+          "diet1_mean_g": "711/4",
+          "diet1_n": 16,
+          "diet4_mean_g": "2147/9",
+          "diet4_minus_diet1_g": "2189/36",
+          "diet4_n": 9
+        },
+        "operation": "chick_day21"
+      },
+      "rationale": "The 16 observed diet-1 weights have mean 711/4 g; the 9 observed diet-4 weights have mean 2147/9 g. Their difference is 2189/36 g.",
+      "reasoning_requirements": [
+        "Use only supplied day-21 observations and their unequal denominators.",
+        "Subtract the diet-1 mean from the diet-4 mean without treating arithmetic exactness as physical precision."
+      ],
+      "scopes": [
+        "computational"
+      ],
+      "status": "provisional_author_adjudicated",
+      "uncertainty": "Curated textbook/R observations rather than verified original laboratory records. Missing follow-up and selection are not resolved by a complete-case sample mean. Full diet composition, assignment, husbandry, original uncertainty and laboratory protocol were not independently obtained. No population-level causal effect is established by the stored-number arithmetic."
+    },
+    "split": "evaluation"
+  },
+  {
+    "family": "chick_growth",
+    "id": "CW01X",
+    "packet": {
+      "assumptions": [
+        "For arithmetic, treat the displayed stored values as exact numerical inputs; this does not make the physical measurements exact."
+      ],
+      "claim": "Among the supplied day-21 observations, the arithmetic mean weight for diet 4 is lower than that for diet 1.",
+      "documents": [
+        {
+          "id": "CW-METHOD",
+          "source_id": "chick_growth",
+          "text": "The R ChickWeight dataset describes an experiment on early growth under four protein diets. Body weight is recorded in grams; Time is days since birth; Chick is a unique chick identifier; Diet identifies the experimental diet. Weights were measured at birth and every second day until day 20, and also at day 21. The complete curated table has 578 observations. The R source cites Crowder and Hand (1990), Example 5.3, pages 74–78, and Hand and Crowder (1996), Table A.2, page 172. Ordered factor labels identify chicks; factor ordering groups diets and orders final weights.",
+          "title": "R documentation of early chick growth observations"
+        },
+        {
+          "id": "CW-DAY21",
+          "source_id": "chick_growth",
+          "text": "Chick,Diet,Time,weight\n1,1,21,205\n2,1,21,215\n3,1,21,202\n4,1,21,157\n5,1,21,223\n6,1,21,157\n7,1,21,305\n9,1,21,98\n10,1,21,124\n11,1,21,175\n12,1,21,205\n13,1,21,96\n14,1,21,266\n17,1,21,142\n19,1,21,157\n20,1,21,117\n41,4,21,204\n42,4,21,281\n43,4,21,200\n45,4,21,196\n46,4,21,238\n47,4,21,205\n48,4,21,322\n49,4,21,237\n50,4,21,264\n",
+          "title": "Recorded day-21 weights for diets 1 and 4"
+        }
+      ],
+      "methodology": "Read the source description and recorded observations. Check any calculation using the stated units and experimental identifiers. Assess the precise target claim and explain its evidential basis.",
+      "question": "Which epistemic status is justified for this precise claim by the supplied scientific record?"
+    },
+    "pair": {
+      "id": "CW01",
+      "role": "negative"
+    },
+    "reference": {
+      "condition_labels": {
+        "evidence": "refuted",
+        "no_assumptions": "refuted",
+        "no_evidence": "insufficient_evidence",
+        "paraphrase": "refuted",
+        "verified_numbers": "refuted"
+      },
+      "condition_scopes": {
+        "evidence": [],
+        "no_assumptions": [],
+        "no_evidence": [],
+        "paraphrase": [],
+        "verified_numbers": []
+      },
+      "evidence_ids": [
+        "CW-METHOD",
+        "CW-DAY21"
+      ],
+      "kind": "exact",
+      "label": "refuted",
+      "numeric_check": {
+        "expected": {
+          "diet1_mean_g": "711/4",
+          "diet1_n": 16,
+          "diet4_mean_g": "2147/9",
+          "diet4_minus_diet1_g": "2189/36",
+          "diet4_n": 9
+        },
+        "operation": "chick_day21"
+      },
+      "rationale": "The recorded means are 2147/9 g for diet 4 and 711/4 g for diet 1; diet 4 is higher, so the target reverses the sample comparison.",
+      "reasoning_requirements": [
+        "Compute the two sample means with correct denominators.",
+        "Identify the reversed inequality, retaining the observed-sample scope."
+      ],
+      "scopes": [],
+      "status": "provisional_author_adjudicated",
+      "uncertainty": "Curated textbook/R observations rather than verified original laboratory records. Missing follow-up and selection are not resolved by a complete-case sample mean. Full diet composition, assignment, husbandry, original uncertainty and laboratory protocol were not independently obtained. No population-level causal effect is established by the stored-number arithmetic."
+    },
+    "split": "evaluation"
+  },
+  {
+    "family": "chick_growth",
+    "id": "CW02N",
+    "packet": {
+      "assumptions": [
+        "For arithmetic, treat the displayed stored values as exact numerical inputs; this does not make the physical measurements exact."
+      ],
+      "claim": "The recorded body weight of chick 1 increased from 42 grams at birth to 205 grams on day 21 while it received diet 1.",
+      "documents": [
+        {
+          "id": "CW-METHOD",
+          "source_id": "chick_growth",
+          "text": "The R ChickWeight dataset describes an experiment on early growth under four protein diets. Body weight is recorded in grams; Time is days since birth; Chick is a unique chick identifier; Diet identifies the experimental diet. Weights were measured at birth and every second day until day 20, and also at day 21. The complete curated table has 578 observations. The R source cites Crowder and Hand (1990), Example 5.3, pages 74–78, and Hand and Crowder (1996), Table A.2, page 172. Ordered factor labels identify chicks; factor ordering groups diets and orders final weights.",
+          "title": "R documentation of early chick growth observations"
+        },
+        {
+          "id": "CW-CHICK1",
+          "source_id": "chick_growth",
+          "text": "Chick,Diet,Time,weight\n1,1,0,42\n1,1,2,51\n1,1,4,59\n1,1,6,64\n1,1,8,76\n1,1,10,93\n1,1,12,106\n1,1,14,125\n1,1,16,149\n1,1,18,171\n1,1,20,199\n1,1,21,205\n",
+          "title": "Recorded growth series for chick 1"
+        }
+      ],
+      "methodology": "Read the source description and recorded observations. Check any calculation using the stated units and experimental identifiers. Assess the precise target claim and explain its evidential basis.",
+      "question": "Which epistemic status is justified for this precise claim by the supplied scientific record?"
+    },
+    "pair": {
+      "id": "CW02",
+      "role": "narrow"
+    },
+    "reference": {
+      "condition_labels": {
+        "evidence": "empirically_supported",
+        "no_assumptions": "empirically_supported",
+        "no_evidence": "insufficient_evidence",
+        "paraphrase": "empirically_supported",
+        "verified_numbers": "empirically_supported"
+      },
+      "condition_scopes": {
+        "evidence": [
+          "empirical",
+          "computational"
+        ],
+        "no_assumptions": [
+          "empirical",
+          "computational"
+        ],
+        "no_evidence": [],
+        "paraphrase": [
+          "empirical",
+          "computational"
+        ],
+        "verified_numbers": [
+          "empirical",
+          "computational"
+        ]
+      },
+      "evidence_ids": [
+        "CW-METHOD",
+        "CW-CHICK1"
+      ],
+      "kind": "empirical_source_fact",
+      "label": "empirically_supported",
+      "numeric_check": {
+        "expected": {
+          "birth_g": "42",
+          "chick": "1",
+          "day21_g": "205",
+          "observed_gain_g": "163"
+        },
+        "operation": "chick_one_growth"
+      },
+      "rationale": "The supplied series records 42 g at Time 0 and 205 g at Time 21 for chick 1, whose Diet value is 1. This describes a within-chick observed change.",
+      "reasoning_requirements": [
+        "Match the same chick ID and the two measurement times.",
+        "Describe observed growth under diet 1 without assigning all growth causally to that diet."
+      ],
+      "scopes": [
+        "empirical",
+        "computational"
+      ],
+      "status": "provisional_author_adjudicated",
+      "uncertainty": "Curated textbook/R observations rather than verified original laboratory records. Missing follow-up and selection are not resolved by a complete-case sample mean. Full diet composition, assignment, husbandry, original uncertainty and laboratory protocol were not independently obtained. No population-level causal effect is established by the stored-number arithmetic."
+    },
+    "split": "evaluation"
+  },
+  {
+    "family": "chick_growth",
+    "id": "CW02S",
+    "packet": {
+      "assumptions": [
+        "For arithmetic, treat the displayed stored values as exact numerical inputs; this does not make the physical measurements exact."
+      ],
+      "claim": "The growth series of chick 1 establishes that diet 1 caused exactly 163 grams of additional body weight compared with what this chick would have weighed without diet 1.",
+      "documents": [
+        {
+          "id": "CW-METHOD",
+          "source_id": "chick_growth",
+          "text": "The R ChickWeight dataset describes an experiment on early growth under four protein diets. Body weight is recorded in grams; Time is days since birth; Chick is a unique chick identifier; Diet identifies the experimental diet. Weights were measured at birth and every second day until day 20, and also at day 21. The complete curated table has 578 observations. The R source cites Crowder and Hand (1990), Example 5.3, pages 74–78, and Hand and Crowder (1996), Table A.2, page 172. Ordered factor labels identify chicks; factor ordering groups diets and orders final weights.",
+          "title": "R documentation of early chick growth observations"
+        },
+        {
+          "id": "CW-CHICK1",
+          "source_id": "chick_growth",
+          "text": "Chick,Diet,Time,weight\n1,1,0,42\n1,1,2,51\n1,1,4,59\n1,1,6,64\n1,1,8,76\n1,1,10,93\n1,1,12,106\n1,1,14,125\n1,1,16,149\n1,1,18,171\n1,1,20,199\n1,1,21,205\n",
+          "title": "Recorded growth series for chick 1"
+        }
+      ],
+      "methodology": "Read the source description and recorded observations. Check any calculation using the stated units and experimental identifiers. Assess the precise target claim and explain its evidential basis.",
+      "question": "Which epistemic status is justified for this precise claim by the supplied scientific record?"
+    },
+    "pair": {
+      "id": "CW02",
+      "role": "stronger"
+    },
+    "reference": {
+      "condition_labels": {
+        "evidence": "insufficient_evidence",
+        "no_assumptions": "insufficient_evidence",
+        "no_evidence": "insufficient_evidence",
+        "paraphrase": "insufficient_evidence",
+        "verified_numbers": "insufficient_evidence"
+      },
+      "condition_scopes": {
+        "evidence": [],
+        "no_assumptions": [],
+        "no_evidence": [],
+        "paraphrase": [],
+        "verified_numbers": []
+      },
+      "evidence_ids": [
+        "CW-METHOD",
+        "CW-CHICK1"
+      ],
+      "kind": "interpretation",
+      "label": "insufficient_evidence",
+      "rationale": "An observed within-chick change is not an observed counterfactual diet effect. Development with age and other husbandry conditions can accompany the same series; the unobserved alternative weight is not identified.",
+      "reasoning_requirements": [
+        "Distinguish a temporal gain of 163 g from a counterfactual causal contrast.",
+        "Identify the unobserved alternative-diet outcome or adequate causal design that would be needed, without asserting the treatment effect is zero."
+      ],
+      "scopes": [],
+      "status": "provisional_author_adjudicated",
+      "uncertainty": "Curated textbook/R observations rather than verified original laboratory records. Missing follow-up and selection are not resolved by a complete-case sample mean. Full diet composition, assignment, husbandry, original uncertainty and laboratory protocol were not independently obtained. No population-level causal effect is established by the stored-number arithmetic."
+    },
+    "split": "evaluation"
+  },
+  {
+    "family": "oxygen_demand",
+    "id": "OD01P",
+    "packet": {
+      "assumptions": [
+        "For arithmetic, treat the displayed stored values as exact numerical inputs; this does not make the physical measurements exact."
+      ],
+      "claim": "The recorded demand on day 7 minus the recorded demand on day 1 equals 0.0115 grams per litre.",
+      "documents": [
+        {
+          "id": "OD-METHOD",
+          "source_id": "oxygen_demand",
+          "text": "The R BOD dataset contains six observations of biochemical oxygen demand versus time in an evaluation of water quality. Time is the measurement time in days; demand is biochemical oxygen demand in mg/l. The R source attributes the data to Marske (1967), reproduced in Bates and Watts (1988), Appendix A1.4, page 270. The documentation illustrates fitting an asymptotic first-order curve to the recorded values.",
+          "title": "R documentation of biochemical oxygen demand observations"
+        },
+        {
+          "id": "OD-OBS",
+          "source_id": "oxygen_demand",
+          "text": "Time,demand\n1,8.3\n2,10.3\n3,19\n4,16\n5,15.6\n7,19.8\n",
+          "title": "Recorded biochemical oxygen demand table"
+        }
+      ],
+      "methodology": "Read the source description and recorded observations. Check any calculation using the stated units and experimental identifiers. Assess the precise target claim and explain its evidential basis.",
+      "question": "Which epistemic status is justified for this precise claim by the supplied scientific record?"
+    },
+    "pair": {
+      "id": "OD01",
+      "role": "positive"
+    },
+    "reference": {
+      "condition_labels": {
+        "evidence": "computationally_established",
+        "no_assumptions": "computationally_established",
+        "no_evidence": "insufficient_evidence",
+        "paraphrase": "computationally_established",
+        "verified_numbers": "computationally_established"
+      },
+      "condition_scopes": {
+        "evidence": [
+          "computational"
+        ],
+        "no_assumptions": [
+          "computational"
+        ],
+        "no_evidence": [],
+        "paraphrase": [
+          "computational"
+        ],
+        "verified_numbers": [
+          "computational"
+        ]
+      },
+      "evidence_ids": [
+        "OD-METHOD",
+        "OD-OBS"
+      ],
+      "kind": "exact",
+      "label": "computationally_established",
+      "numeric_check": {
+        "expected": {
+          "day1_mg_per_L": "83/10",
+          "day7_mg_per_L": "99/5",
+          "difference_g_per_L": "23/2000",
+          "difference_mg_per_L": "23/2"
+        },
+        "operation": "oxygen_change"
+      },
+      "rationale": "The stored difference is 19.8 - 8.3 = 11.5 mg/L. Dividing by 1000 gives 0.0115 g/L.",
+      "reasoning_requirements": [
+        "Subtract the two recorded values.",
+        "Convert milligrams to grams using 1000 mg = 1 g while retaining the per-litre denominator."
+      ],
+      "scopes": [
+        "computational"
+      ],
+      "status": "provisional_author_adjudicated",
+      "uncertainty": "The small table is a curated historical transcription, not independently verified raw water-sample or laboratory records. No replicate structure, organism identification, experimental error model or physical mechanism is independently established here. Recorded nonmonotonicity alone need not be nonmonotonicity of an underlying latent process."
+    },
+    "split": "evaluation"
+  },
+  {
+    "family": "oxygen_demand",
+    "id": "OD01X",
+    "packet": {
+      "assumptions": [
+        "For arithmetic, treat the displayed stored values as exact numerical inputs; this does not make the physical measurements exact."
+      ],
+      "claim": "The recorded demand on day 7 minus the recorded demand on day 1 equals 11.5 grams per litre.",
+      "documents": [
+        {
+          "id": "OD-METHOD",
+          "source_id": "oxygen_demand",
+          "text": "The R BOD dataset contains six observations of biochemical oxygen demand versus time in an evaluation of water quality. Time is the measurement time in days; demand is biochemical oxygen demand in mg/l. The R source attributes the data to Marske (1967), reproduced in Bates and Watts (1988), Appendix A1.4, page 270. The documentation illustrates fitting an asymptotic first-order curve to the recorded values.",
+          "title": "R documentation of biochemical oxygen demand observations"
+        },
+        {
+          "id": "OD-OBS",
+          "source_id": "oxygen_demand",
+          "text": "Time,demand\n1,8.3\n2,10.3\n3,19\n4,16\n5,15.6\n7,19.8\n",
+          "title": "Recorded biochemical oxygen demand table"
+        }
+      ],
+      "methodology": "Read the source description and recorded observations. Check any calculation using the stated units and experimental identifiers. Assess the precise target claim and explain its evidential basis.",
+      "question": "Which epistemic status is justified for this precise claim by the supplied scientific record?"
+    },
+    "pair": {
+      "id": "OD01",
+      "role": "negative"
+    },
+    "reference": {
+      "condition_labels": {
+        "evidence": "refuted",
+        "no_assumptions": "refuted",
+        "no_evidence": "insufficient_evidence",
+        "paraphrase": "refuted",
+        "verified_numbers": "refuted"
+      },
+      "condition_scopes": {
+        "evidence": [],
+        "no_assumptions": [],
+        "no_evidence": [],
+        "paraphrase": [],
+        "verified_numbers": []
+      },
+      "evidence_ids": [
+        "OD-METHOD",
+        "OD-OBS"
+      ],
+      "kind": "exact",
+      "label": "refuted",
+      "numeric_check": {
+        "expected": {
+          "day1_mg_per_L": "83/10",
+          "day7_mg_per_L": "99/5",
+          "difference_g_per_L": "23/2000",
+          "difference_mg_per_L": "23/2"
+        },
+        "operation": "oxygen_change"
+      },
+      "rationale": "The difference is 11.5 mg/L, not 11.5 g/L. The target is 1000 times the stored difference expressed in g/L.",
+      "reasoning_requirements": [
+        "Check the original mg/L unit.",
+        "Identify the factor-1000 conversion error, not merely the subtraction."
+      ],
+      "scopes": [],
+      "status": "provisional_author_adjudicated",
+      "uncertainty": "The small table is a curated historical transcription, not independently verified raw water-sample or laboratory records. No replicate structure, organism identification, experimental error model or physical mechanism is independently established here. Recorded nonmonotonicity alone need not be nonmonotonicity of an underlying latent process."
+    },
+    "split": "evaluation"
+  },
+  {
+    "family": "oxygen_demand",
+    "id": "OD02N",
+    "packet": {
+      "assumptions": [
+        "For arithmetic, treat the displayed stored values as exact numerical inputs; this does not make the physical measurements exact."
+      ],
+      "claim": "The recorded oxygen-demand values decrease between day 3 and day 4.",
+      "documents": [
+        {
+          "id": "OD-METHOD",
+          "source_id": "oxygen_demand",
+          "text": "The R BOD dataset contains six observations of biochemical oxygen demand versus time in an evaluation of water quality. Time is the measurement time in days; demand is biochemical oxygen demand in mg/l. The R source attributes the data to Marske (1967), reproduced in Bates and Watts (1988), Appendix A1.4, page 270. The documentation illustrates fitting an asymptotic first-order curve to the recorded values.",
+          "title": "R documentation of biochemical oxygen demand observations"
+        },
+        {
+          "id": "OD-OBS",
+          "source_id": "oxygen_demand",
+          "text": "Time,demand\n1,8.3\n2,10.3\n3,19\n4,16\n5,15.6\n7,19.8\n",
+          "title": "Recorded biochemical oxygen demand table"
+        }
+      ],
+      "methodology": "Read the source description and recorded observations. Check any calculation using the stated units and experimental identifiers. Assess the precise target claim and explain its evidential basis.",
+      "question": "Which epistemic status is justified for this precise claim by the supplied scientific record?"
+    },
+    "pair": {
+      "id": "OD02",
+      "role": "narrow"
+    },
+    "reference": {
+      "condition_labels": {
+        "evidence": "empirically_supported",
+        "no_assumptions": "empirically_supported",
+        "no_evidence": "insufficient_evidence",
+        "paraphrase": "empirically_supported",
+        "verified_numbers": "empirically_supported"
+      },
+      "condition_scopes": {
+        "evidence": [
+          "empirical",
+          "computational"
+        ],
+        "no_assumptions": [
+          "empirical",
+          "computational"
+        ],
+        "no_evidence": [],
+        "paraphrase": [
+          "empirical",
+          "computational"
+        ],
+        "verified_numbers": [
+          "empirical",
+          "computational"
+        ]
+      },
+      "evidence_ids": [
+        "OD-METHOD",
+        "OD-OBS"
+      ],
+      "kind": "empirical_source_fact",
+      "label": "empirically_supported",
+      "numeric_check": {
+        "expected": {
+          "day3_mg_per_L": "19",
+          "day4_mg_per_L": "16",
+          "drop_mg_per_L": "3",
+          "nonmonotone": true
+        },
+        "operation": "oxygen_nonmonotone"
+      },
+      "rationale": "The table records 19 mg/L at day 3 and 16 mg/L at day 4, a decline in these observations.",
+      "reasoning_requirements": [
+        "Locate the two specified observations.",
+        "Limit the statement to the recorded data rather than a noiseless latent process or mechanism."
+      ],
+      "scopes": [
+        "empirical",
+        "computational"
+      ],
+      "status": "provisional_author_adjudicated",
+      "uncertainty": "The small table is a curated historical transcription, not independently verified raw water-sample or laboratory records. No replicate structure, organism identification, experimental error model or physical mechanism is independently established here. Recorded nonmonotonicity alone need not be nonmonotonicity of an underlying latent process."
+    },
+    "split": "evaluation"
+  },
+  {
+    "family": "oxygen_demand",
+    "id": "OD02S",
+    "packet": {
+      "assumptions": [
+        "For arithmetic, treat the displayed stored values as exact numerical inputs; this does not make the physical measurements exact."
+      ],
+      "claim": "The observed day-3 to day-4 decline uniquely establishes that the microorganisms in the water stopped aerobic respiration during that interval.",
+      "documents": [
+        {
+          "id": "OD-METHOD",
+          "source_id": "oxygen_demand",
+          "text": "The R BOD dataset contains six observations of biochemical oxygen demand versus time in an evaluation of water quality. Time is the measurement time in days; demand is biochemical oxygen demand in mg/l. The R source attributes the data to Marske (1967), reproduced in Bates and Watts (1988), Appendix A1.4, page 270. The documentation illustrates fitting an asymptotic first-order curve to the recorded values.",
+          "title": "R documentation of biochemical oxygen demand observations"
+        },
+        {
+          "id": "OD-OBS",
+          "source_id": "oxygen_demand",
+          "text": "Time,demand\n1,8.3\n2,10.3\n3,19\n4,16\n5,15.6\n7,19.8\n",
+          "title": "Recorded biochemical oxygen demand table"
+        }
+      ],
+      "methodology": "Read the source description and recorded observations. Check any calculation using the stated units and experimental identifiers. Assess the precise target claim and explain its evidential basis.",
+      "question": "Which epistemic status is justified for this precise claim by the supplied scientific record?"
+    },
+    "pair": {
+      "id": "OD02",
+      "role": "stronger"
+    },
+    "reference": {
+      "condition_labels": {
+        "evidence": "insufficient_evidence",
+        "no_assumptions": "insufficient_evidence",
+        "no_evidence": "insufficient_evidence",
+        "paraphrase": "insufficient_evidence",
+        "verified_numbers": "insufficient_evidence"
+      },
+      "condition_scopes": {
+        "evidence": [],
+        "no_assumptions": [],
+        "no_evidence": [],
+        "paraphrase": [],
+        "verified_numbers": []
+      },
+      "evidence_ids": [
+        "OD-METHOD",
+        "OD-OBS"
+      ],
+      "kind": "interpretation",
+      "label": "insufficient_evidence",
+      "rationale": "A pair of demand readings does not uniquely identify microbial respiration or its cessation. Measurement variation, sampling and alternative processes remain compatible with the same recorded decline.",
+      "reasoning_requirements": [
+        "Distinguish a measured decrease from a unique biological mechanism.",
+        "Give at least one compatible alternative and avoid asserting that respiration actually ceased or certainly did not cease."
+      ],
+      "scopes": [],
+      "status": "provisional_author_adjudicated",
+      "uncertainty": "The small table is a curated historical transcription, not independently verified raw water-sample or laboratory records. No replicate structure, organism identification, experimental error model or physical mechanism is independently established here. Recorded nonmonotonicity alone need not be nonmonotonicity of an underlying latent process."
+    },
+    "split": "evaluation"
+  }
+]

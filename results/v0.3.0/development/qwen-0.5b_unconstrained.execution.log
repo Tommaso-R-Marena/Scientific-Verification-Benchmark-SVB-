@@ -1,0 +1,20 @@
+Sliding Window Attention is enabled but not implemented for `eager`; unexpected results may be encountered.
+{"index": 1, "selected": 19, "id": "svb-fdb98c815923", "task": "A", "condition": "dev_standard", "status": "completed", "tokens": 6, "seconds": 1.6183709609995276}
+{"index": 2, "selected": 19, "id": "svb-fdb98c815923", "task": "A", "condition": "dev_reverse", "status": "completed", "tokens": 6, "seconds": 1.3486875260005036}
+{"index": 3, "selected": 19, "id": "svb-e7f149994481", "task": "A", "condition": "dev_standard", "status": "completed", "tokens": 6, "seconds": 1.3565556079993257}
+{"index": 4, "selected": 19, "id": "svb-e7f149994481", "task": "A", "condition": "dev_reverse", "status": "completed", "tokens": 6, "seconds": 1.3496137940001063}
+{"index": 5, "selected": 19, "id": "svb-5f377d39e94f", "task": "A", "condition": "dev_standard", "status": "completed", "tokens": 6, "seconds": 1.3576540239992028}
+{"index": 6, "selected": 19, "id": "svb-5f377d39e94f", "task": "A", "condition": "dev_reverse", "status": "completed", "tokens": 6, "seconds": 1.3392950220004423}
+{"index": 7, "selected": 19, "id": "svb-5b0444dab3f1", "task": "A", "condition": "dev_standard", "status": "completed", "tokens": 3, "seconds": 2.7288797219989647}
+{"index": 8, "selected": 19, "id": "svb-5b0444dab3f1", "task": "A", "condition": "dev_reverse", "status": "completed", "tokens": 3, "seconds": 2.7510853209987545}
+{"index": 9, "selected": 19, "id": "svb-41d488eab4fd", "task": "A", "condition": "dev_standard", "status": "completed", "tokens": 3, "seconds": 2.9070632479997585}
+{"index": 10, "selected": 19, "id": "svb-41d488eab4fd", "task": "A", "condition": "dev_reverse", "status": "completed", "tokens": 5, "seconds": 3.120890155001689}
+{"index": 11, "selected": 19, "id": "svb-849e1285da6c", "task": "A", "condition": "dev_standard", "status": "completed", "tokens": 3, "seconds": 1.3195581090003543}
+{"index": 12, "selected": 19, "id": "svb-849e1285da6c", "task": "A", "condition": "dev_reverse", "status": "completed", "tokens": 6, "seconds": 1.586746041000879}
+{"index": 13, "selected": 19, "id": "svb-fdb98c815923", "task": "A", "condition": "dev_alternative", "status": "completed", "tokens": 6, "seconds": 1.4416298720007035}
+{"index": 14, "selected": 19, "id": "svb-e7f149994481", "task": "A", "condition": "dev_alternative", "status": "completed", "tokens": 3, "seconds": 1.1102746320011647}
+{"index": 15, "selected": 19, "id": "svb-5f377d39e94f", "task": "A", "condition": "dev_alternative", "status": "completed", "tokens": 6, "seconds": 1.4083072080011334}
+{"index": 16, "selected": 19, "id": "svb-fdb98c815923", "task": "B", "condition": "dev_standard", "status": "completed", "tokens": 58, "seconds": 6.464065900001515}
+{"index": 17, "selected": 19, "id": "svb-e7f149994481", "task": "B", "condition": "dev_standard", "status": "completed", "tokens": 57, "seconds": 6.8865612170011445}
+{"index": 18, "selected": 19, "id": "svb-fdb98c815923", "task": "C", "condition": "dev_standard", "status": "completed", "tokens": 57, "seconds": 8.453466481998476}
+{"index": 19, "selected": 19, "id": "svb-e7f149994481", "task": "C", "condition": "dev_standard", "status": "completed", "tokens": 64, "seconds": 7.331538800000999}

@@ -1,0 +1,113 @@
+{
+  "checks": [
+    {
+      "id": "SL01P",
+      "operation": "sleep_paired_mean",
+      "result": {
+        "mean_difference_hours": "79/50",
+        "pairs": 10,
+        "sum_difference_hours": "79/5"
+      }
+    },
+    {
+      "id": "SL01X",
+      "operation": "sleep_paired_mean",
+      "result": {
+        "mean_difference_hours": "79/50",
+        "pairs": 10,
+        "sum_difference_hours": "79/5"
+      }
+    },
+    {
+      "id": "SL02N",
+      "operation": "sleep_signs",
+      "result": {
+        "equal": 1,
+        "greater": 9,
+        "less": 0,
+        "pairs": 10
+      }
+    },
+    {
+      "id": "CW01P",
+      "operation": "chick_day21",
+      "result": {
+        "diet1_mean_g": "711/4",
+        "diet1_n": 16,
+        "diet4_mean_g": "2147/9",
+        "diet4_minus_diet1_g": "2189/36",
+        "diet4_n": 9
+      }
+    },
+    {
+      "id": "CW01X",
+      "operation": "chick_day21",
+      "result": {
+        "diet1_mean_g": "711/4",
+        "diet1_n": 16,
+        "diet4_mean_g": "2147/9",
+        "diet4_minus_diet1_g": "2189/36",
+        "diet4_n": 9
+      }
+    },
+    {
+      "id": "CW02N",
+      "operation": "chick_one_growth",
+      "result": {
+        "birth_g": "42",
+        "chick": "1",
+        "day21_g": "205",
+        "observed_gain_g": "163"
+      }
+    },
+    {
+      "id": "OD01P",
+      "operation": "oxygen_change",
+      "result": {
+        "day1_mg_per_L": "83/10",
+        "day7_mg_per_L": "99/5",
+        "difference_g_per_L": "23/2000",
+        "difference_mg_per_L": "23/2"
+      }
+    },
+    {
+      "id": "OD01X",
+      "operation": "oxygen_change",
+      "result": {
+        "day1_mg_per_L": "83/10",
+        "day7_mg_per_L": "99/5",
+        "difference_g_per_L": "23/2000",
+        "difference_mg_per_L": "23/2"
+      }
+    },
+    {
+      "id": "OD02N",
+      "operation": "oxygen_nonmonotone",
+      "result": {
+        "day3_mg_per_L": "19",
+        "day4_mg_per_L": "16",
+        "drop_mg_per_L": "3",
+        "nonmonotone": true
+      }
+    }
+  ],
+  "external_human_adjudication": false,
+  "numeric_witnesses_checked": 9,
+  "original_laboratory_execution_verified": false,
+  "source_hashes_valid": true,
+  "transformations": {
+    "chick_growth": {
+      "cells": 2312,
+      "rows": 578
+    },
+    "oxygen_demand": {
+      "cells": 12,
+      "rows": 6
+    },
+    "sleep": {
+      "cells": 60,
+      "rows": 20
+    }
+  },
+  "version": "0.3.0"
+}

@@ -1,0 +1,164 @@
+{
+  "author_reference_fields_exported": false,
+  "blank_first_round_forms": 132,
+  "files": {
+    "README.md": {
+      "bytes": 2442,
+      "sha256": "979d999935bc7a32d109fe29e63d54bbed4a3f0caf43098118d7d73d55eb7b25"
+    },
+    "blank_forms.json": {
+      "bytes": 212083,
+      "sha256": "2b7f9187a6744ab26703f0459df933e2666c0bbb597163aace11423034777eeb"
+    },
+    "conflict_exposure_declaration.json": {
+      "bytes": 583,
+      "sha256": "64760e05d0203a76d79b82f7c45dbb073dbb517b5ed47609ce8c0e3f9fc972dd"
+    },
+    "packets.json": {
+      "bytes": 154198,
+      "sha256": "25a84888cd195603cf41b19a04a6604d4b035d47c00bc5d33f67251ec4148aaa"
+    },
+    "rubric.json": {
+      "bytes": 1354,
+      "sha256": "22fa0160d09a32b72bc84345d8e1be7749df66fdfc3aa9a521469882cdc1ae65"
+    },
+    "source_registry.json": {
+      "bytes": 15513,
+      "sha256": "5bf4e8aea4da20619642205521ce85babec631cbd568a871fda9ba0abe631026"
+    },
+    "sources/data/v0.2.0/sources/CO2.Rd": {
+      "bytes": 2441,
+      "sha256": "e9c4aabfe571f77e33fc03cc289c6913ad8f2a1e294fde40c3fa3122720e0545"
+    },
+    "sources/data/v0.2.0/sources/CO2.rda": {
+      "bytes": 993,
+      "sha256": "ed7a9018ffb3e9e0a1a90e700589ba35ab21b990705ff57e6c8c8e46d5ba2aa3"
+    },
+    "sources/data/v0.2.0/sources/CO2_plants_extracted.csv": {
+      "bytes": 2701,
+      "sha256": "5da1577391fa7e477a87d347ff6fd32697fe8582772c8f5ffee272b5ad16d78b"
+    },
+    "sources/data/v0.2.0/sources/Puromycin.R": {
+      "bytes": 735,
+      "sha256": "87a14de98652c3f861d4477752d3293c7943045d6492b59c1d5c0939932feab8"
+    },
+    "sources/data/v0.2.0/sources/Puromycin.Rd": {
+      "bytes": 2776,
+      "sha256": "40359bad37dfcbb1750c3a527b539558b1ccd2cde9faccbde0209996e908e482"
+    },
+    "sources/data/v0.2.0/sources/Puromycin_extracted.csv": {
+      "bytes": 418,
+      "sha256": "8525dff6499558f67ddd8ec101ad26e6ae4412b95547144aabf500730faa5b7b"
+    },
+    "sources/data/v0.2.0/sources/R_COPYING": {
+      "bytes": 18011,
+      "sha256": "e6d6a009505e345fe949e1310334fcb0747f28dae2856759de102ab66b722cb4"
+    },
+    "sources/data/v0.2.0/sources/R_revision.json": {
+      "bytes": 91,
+      "sha256": "9b0330e37c59904c7d6d0b878256adff566ed8d05d3ed73799a85d33d1333b13"
+    },
+    "sources/data/v0.2.0/sources/freesolv_LICENSE": {
+      "bytes": 18652,
+      "sha256": "cce5d01fa4a83b794271bd2c28cffdf99afd43c803e6ddefddae39b591ea7448"
+    },
+    "sources/data/v0.2.0/sources/freesolv_README.md": {
+      "bytes": 26421,
+      "sha256": "ec5c1cb5f47391ac9ddfc81f0e981d526992ed2e20937e9cfdab7394b80bc1b2"
+    },
+    "sources/data/v0.2.0/sources/freesolv_database.txt": {
+      "bytes": 144897,
+      "sha256": "2d13f095713bc39b85f85dd7b4e5483fbb12fc694bf253bb1d92a4c4d484f260"
+    },
+    "sources/data/v0.2.0/sources/freesolv_revision.json": {
+      "bytes": 97,
+      "sha256": "692232e32a45b724c06c136227a674e7c1e6f6a9f175d71eeb056309fd9b93dc"
+    },
+    "sources/data/v0.2.0/sources/freesolv_selected.csv": {
+      "bytes": 1246,
+      "sha256": "b2a050569c4f2ae2efb27524c5f3467ee2b5978bc2df5b9e88cc275f3ae8ca8a"
+    },
+    "sources/data/v0.2.0/sources/penguins_LICENSE.md": {
+      "bytes": 6966,
+      "sha256": "8e2c443dd9aea6fcd6c293dbf66935bd5ef502fc0ca9b466c773cf9316d5e04c"
+    },
+    "sources/data/v0.2.0/sources/penguins_README.md": {
+      "bytes": 9675,
+      "sha256": "30248c3c8c97d7b2f3a4bc361f9209c64ad9c53f47169eb9fbb5c2d00fe5db92"
+    },
+    "sources/data/v0.2.0/sources/penguins_article.html": {
+      "bytes": 274771,
+      "sha256": "7adbf958f20c9106fa666a828fe8551c6b4e2e7b80cc2a88cbf137930e321d2f"
+    },
+    "sources/data/v0.2.0/sources/penguins_primary.pdf": {
+      "bytes": 921086,
+      "sha256": "cc2e8e08db55a110d5e849db35f7665e9c18c0c06cd7fce49dd3007846f3820f"
+    },
+    "sources/data/v0.2.0/sources/penguins_raw.csv": {
+      "bytes": 53098,
+      "sha256": "144f623143c9360fd77322a4f86acb06dc198814dbd2669724c63e6457b907bd"
+    },
+    "sources/data/v0.2.0/sources/penguins_revision.json": {
+      "bytes": 106,
+      "sha256": "5a39aca59e4faa4a04f24bc3b3c3bbd2a050a820e49e62ddf966b8cea8eaf1ca"
+    },
+    "sources/data/v0.2.0/sources/r_datasets_DESCRIPTION.in": {
+      "bytes": 319,
+      "sha256": "e58b793cb90e167d9f4c9a23b7b63a2344bbdab6b7d36049fd9fd84190daf99d"
+    },
+    "sources/data/v0.3.0/sources/BOD.R": {
+      "bytes": 192,
+      "sha256": "b632054641c1058875af819260a60f08d2d8e2e6fe80aa1bfd48964d1f7aa1a3"
+    },
+    "sources/data/v0.3.0/sources/BOD.Rd": {
+      "bytes": 1444,
+      "sha256": "390786d44dc604c677017037e3c0307eef2b626f3a53342c82ef25c52f9e848a"
+    },
+    "sources/data/v0.3.0/sources/ChickWeight.R": {
+      "bytes": 10332,
+      "sha256": "f36e6df387aa39e0dfeae3a91b99bb45db187d2b8ddef1756b90a0ba19ae2b3d"
+    },
+    "sources/data/v0.3.0/sources/ChickWeight.Rd": {
+      "bytes": 2137,
+      "sha256": "c3cd8c5d3dda3507c8d2266ab527f80ac2e70c998afba480d3bb108c98f8c904"
+    },
+    "sources/data/v0.3.0/sources/R_COPYING": {
+      "bytes": 18011,
+      "sha256": "e6d6a009505e345fe949e1310334fcb0747f28dae2856759de102ab66b722cb4"
+    },
+    "sources/data/v0.3.0/sources/R_revision.json": {
+      "bytes": 119,
+      "sha256": "fa1d081ce7aca2cdd6ea525deabc9bdd2fd3378744036e107e5f8927615b86b4"
+    },
+    "sources/data/v0.3.0/sources/chick_growth_extracted.csv": {
+      "bytes": 6331,
+      "sha256": "51766c4fd46a559d94e9676b1fd8ffe468c5ed6c677b0fc59fbffb22e5f781d1"
+    },
+    "sources/data/v0.3.0/sources/oxygen_demand_extracted.csv": {
+      "bytes": 49,
+      "sha256": "3581297cbd37a2e24318893e2938a90f2e568fd95b6e41032466d9c1ebfee012"
+    },
+    "sources/data/v0.3.0/sources/r_datasets_DESCRIPTION.in": {
+      "bytes": 319,
+      "sha256": "e58b793cb90e167d9f4c9a23b7b63a2344bbdab6b7d36049fd9fd84190daf99d"
+    },
+    "sources/data/v0.3.0/sources/sleep.R": {
+      "bytes": 183,
+      "sha256": "998f363abb36342a6e5cd1d508d2ac2d044146832b617b18649b5b8ce21ab7f2"
+    },
+    "sources/data/v0.3.0/sources/sleep.Rd": {
+      "bytes": 1461,
+      "sha256": "f17781ff555f1c5791ae1c8c07bb2ca990aef04d0df461770605dca85e8d3975"
+    },
+    "sources/data/v0.3.0/sources/sleep_extracted.csv": {
+      "bytes": 178,
+      "sha256": "5123e155301a42f57e2684e5f7a53523d903be7c4ca3ac05105ced8b54d6dd8c"
+    }
+  },
+  "format": "svb-phase2b-reviewer-distribution-v1",
+  "human_reviews_completed": 0,
+  "identity_and_exposure_audit": "required_before_distribution",
+  "model_envelope_metadata_exported": false,
+  "packets": 44,
+  "protected_holdout": false
+}

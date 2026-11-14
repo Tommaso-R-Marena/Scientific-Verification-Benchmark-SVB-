@@ -1,0 +1,391 @@
+{
+  "PR_binary_entries": 7,
+  "PR_changed_files": 265,
+  "PR_text_additions": 85060,
+  "PR_text_deletions": 5,
+  "audited_commit": "d832b6431c37871674d20ceb534e9b5fac797909",
+  "base_main": "30f842e241b0a37ab5d24ef6537113d6bbbb4103",
+  "bytes_by_top_directory": {
+    ".gitattributes": 432,
+    ".github": 1291,
+    ".gitignore": 399,
+    ".python-version": 8,
+    "LICENSE": 11357,
+    "NOTICE": 1778,
+    "README.md": 10111,
+    "data": 6806123,
+    "docs": 402805,
+    "pyproject.toml": 394,
+    "references": 94924,
+    "requirements-adapters.txt": 125,
+    "requirements-build.txt": 100,
+    "requirements-models.txt": 626,
+    "requirements.txt": 73,
+    "results": 2207412,
+    "schemas": 5111,
+    "scripts": 149105,
+    "src": 150182,
+    "tests": 80098,
+    "theory": 1269
+  },
+  "core_dependencies": [],
+  "duplicate_excess_bytes": 1544586,
+  "exact_duplicate_groups": [
+    {
+      "bytes_per_copy": 2441,
+      "copies": 2,
+      "paths": [
+        "data/v0.2.0/sources/CO2.Rd",
+        "data/v0.3.0/review/prepared_v1/reviewer_package/sources/data/v0.2.0/sources/CO2.Rd"
+      ],
+      "sha256": "e9c4aabfe571f77e33fc03cc289c6913ad8f2a1e294fde40c3fa3122720e0545"
+    },
+    {
+      "bytes_per_copy": 993,
+      "copies": 2,
+      "paths": [
+        "data/v0.2.0/sources/CO2.rda",
+        "data/v0.3.0/review/prepared_v1/reviewer_package/sources/data/v0.2.0/sources/CO2.rda"
+      ],
+      "sha256": "ed7a9018ffb3e9e0a1a90e700589ba35ab21b990705ff57e6c8c8e46d5ba2aa3"
+    },
+    {
+      "bytes_per_copy": 2701,
+      "copies": 2,
+      "paths": [
+        "data/v0.2.0/sources/CO2_plants_extracted.csv",
+        "data/v0.3.0/review/prepared_v1/reviewer_package/sources/data/v0.2.0/sources/CO2_plants_extracted.csv"
+      ],
+      "sha256": "5da1577391fa7e477a87d347ff6fd32697fe8582772c8f5ffee272b5ad16d78b"
+    },
+    {
+      "bytes_per_copy": 735,
+      "copies": 2,
+      "paths": [
+        "data/v0.2.0/sources/Puromycin.R",
+        "data/v0.3.0/review/prepared_v1/reviewer_package/sources/data/v0.2.0/sources/Puromycin.R"
+      ],
+      "sha256": "87a14de98652c3f861d4477752d3293c7943045d6492b59c1d5c0939932feab8"
+    },
+    {
+      "bytes_per_copy": 2776,
+      "copies": 2,
+      "paths": [
+        "data/v0.2.0/sources/Puromycin.Rd",
+        "data/v0.3.0/review/prepared_v1/reviewer_package/sources/data/v0.2.0/sources/Puromycin.Rd"
+      ],
+      "sha256": "40359bad37dfcbb1750c3a527b539558b1ccd2cde9faccbde0209996e908e482"
+    },
+    {
+      "bytes_per_copy": 418,
+      "copies": 2,
+      "paths": [
+        "data/v0.2.0/sources/Puromycin_extracted.csv",
+        "data/v0.3.0/review/prepared_v1/reviewer_package/sources/data/v0.2.0/sources/Puromycin_extracted.csv"
+      ],
+      "sha256": "8525dff6499558f67ddd8ec101ad26e6ae4412b95547144aabf500730faa5b7b"
+    },
+    {
+      "bytes_per_copy": 18011,
+      "copies": 4,
+      "paths": [
+        "data/v0.2.0/sources/R_COPYING",
+        "data/v0.3.0/review/prepared_v1/reviewer_package/sources/data/v0.2.0/sources/R_COPYING",
+        "data/v0.3.0/review/prepared_v1/reviewer_package/sources/data/v0.3.0/sources/R_COPYING",
+        "data/v0.3.0/sources/R_COPYING"
+      ],
+      "sha256": "e6d6a009505e345fe949e1310334fcb0747f28dae2856759de102ab66b722cb4"
+    },
+    {
+      "bytes_per_copy": 91,
+      "copies": 2,
+      "paths": [
+        "data/v0.2.0/sources/R_revision.json",
+        "data/v0.3.0/review/prepared_v1/reviewer_package/sources/data/v0.2.0/sources/R_revision.json"
+      ],
+      "sha256": "9b0330e37c59904c7d6d0b878256adff566ed8d05d3ed73799a85d33d1333b13"
+    },
+    {
+      "bytes_per_copy": 18652,
+      "copies": 2,
+      "paths": [
+        "data/v0.2.0/sources/freesolv_LICENSE",
+        "data/v0.3.0/review/prepared_v1/reviewer_package/sources/data/v0.2.0/sources/freesolv_LICENSE"
+      ],
+      "sha256": "cce5d01fa4a83b794271bd2c28cffdf99afd43c803e6ddefddae39b591ea7448"
+    },
+    {
+      "bytes_per_copy": 26421,
+      "copies": 2,
+      "paths": [
+        "data/v0.2.0/sources/freesolv_README.md",
+        "data/v0.3.0/review/prepared_v1/reviewer_package/sources/data/v0.2.0/sources/freesolv_README.md"
+      ],
+      "sha256": "ec5c1cb5f47391ac9ddfc81f0e981d526992ed2e20937e9cfdab7394b80bc1b2"
+    },
+    {
+      "bytes_per_copy": 144897,
+      "copies": 2,
+      "paths": [
+        "data/v0.2.0/sources/freesolv_database.txt",
+        "data/v0.3.0/review/prepared_v1/reviewer_package/sources/data/v0.2.0/sources/freesolv_database.txt"
+      ],
+      "sha256": "2d13f095713bc39b85f85dd7b4e5483fbb12fc694bf253bb1d92a4c4d484f260"
+    },
+    {
+      "bytes_per_copy": 97,
+      "copies": 2,
+      "paths": [
+        "data/v0.2.0/sources/freesolv_revision.json",
+        "data/v0.3.0/review/prepared_v1/reviewer_package/sources/data/v0.2.0/sources/freesolv_revision.json"
+      ],
+      "sha256": "692232e32a45b724c06c136227a674e7c1e6f6a9f175d71eeb056309fd9b93dc"
+    },
+    {
+      "bytes_per_copy": 1246,
+      "copies": 2,
+      "paths": [
+        "data/v0.2.0/sources/freesolv_selected.csv",
+        "data/v0.3.0/review/prepared_v1/reviewer_package/sources/data/v0.2.0/sources/freesolv_selected.csv"
+      ],
+      "sha256": "b2a050569c4f2ae2efb27524c5f3467ee2b5978bc2df5b9e88cc275f3ae8ca8a"
+    },
+    {
+      "bytes_per_copy": 6966,
+      "copies": 2,
+      "paths": [
+        "data/v0.2.0/sources/penguins_LICENSE.md",
+        "data/v0.3.0/review/prepared_v1/reviewer_package/sources/data/v0.2.0/sources/penguins_LICENSE.md"
+      ],
+      "sha256": "8e2c443dd9aea6fcd6c293dbf66935bd5ef502fc0ca9b466c773cf9316d5e04c"
+    },
+    {
+      "bytes_per_copy": 9675,
+      "copies": 2,
+      "paths": [
+        "data/v0.2.0/sources/penguins_README.md",
+        "data/v0.3.0/review/prepared_v1/reviewer_package/sources/data/v0.2.0/sources/penguins_README.md"
+      ],
+      "sha256": "30248c3c8c97d7b2f3a4bc361f9209c64ad9c53f47169eb9fbb5c2d00fe5db92"
+    },
+    {
+      "bytes_per_copy": 274771,
+      "copies": 2,
+      "paths": [
+        "data/v0.2.0/sources/penguins_article.html",
+        "data/v0.3.0/review/prepared_v1/reviewer_package/sources/data/v0.2.0/sources/penguins_article.html"
+      ],
+      "sha256": "7adbf958f20c9106fa666a828fe8551c6b4e2e7b80cc2a88cbf137930e321d2f"
+    },
+    {
+      "bytes_per_copy": 921086,
+      "copies": 2,
+      "paths": [
+        "data/v0.2.0/sources/penguins_primary.pdf",
+        "data/v0.3.0/review/prepared_v1/reviewer_package/sources/data/v0.2.0/sources/penguins_primary.pdf"
+      ],
+      "sha256": "cc2e8e08db55a110d5e849db35f7665e9c18c0c06cd7fce49dd3007846f3820f"
+    },
+    {
+      "bytes_per_copy": 53098,
+      "copies": 2,
+      "paths": [
+        "data/v0.2.0/sources/penguins_raw.csv",
+        "data/v0.3.0/review/prepared_v1/reviewer_package/sources/data/v0.2.0/sources/penguins_raw.csv"
+      ],
+      "sha256": "144f623143c9360fd77322a4f86acb06dc198814dbd2669724c63e6457b907bd"
+    },
+    {
+      "bytes_per_copy": 106,
+      "copies": 2,
+      "paths": [
+        "data/v0.2.0/sources/penguins_revision.json",
+        "data/v0.3.0/review/prepared_v1/reviewer_package/sources/data/v0.2.0/sources/penguins_revision.json"
+      ],
+      "sha256": "5a39aca59e4faa4a04f24bc3b3c3bbd2a050a820e49e62ddf966b8cea8eaf1ca"
+    },
+    {
+      "bytes_per_copy": 319,
+      "copies": 4,
+      "paths": [
+        "data/v0.2.0/sources/r_datasets_DESCRIPTION.in",
+        "data/v0.3.0/review/prepared_v1/reviewer_package/sources/data/v0.2.0/sources/r_datasets_DESCRIPTION.in",
+        "data/v0.3.0/review/prepared_v1/reviewer_package/sources/data/v0.3.0/sources/r_datasets_DESCRIPTION.in",
+        "data/v0.3.0/sources/r_datasets_DESCRIPTION.in"
+      ],
+      "sha256": "e58b793cb90e167d9f4c9a23b7b63a2344bbdab6b7d36049fd9fd84190daf99d"
+    },
+    {
+      "bytes_per_copy": 192,
+      "copies": 2,
+      "paths": [
+        "data/v0.3.0/review/prepared_v1/reviewer_package/sources/data/v0.3.0/sources/BOD.R",
+        "data/v0.3.0/sources/BOD.R"
+      ],
+      "sha256": "b632054641c1058875af819260a60f08d2d8e2e6fe80aa1bfd48964d1f7aa1a3"
+    },
+    {
+      "bytes_per_copy": 1444,
+      "copies": 2,
+      "paths": [
+        "data/v0.3.0/review/prepared_v1/reviewer_package/sources/data/v0.3.0/sources/BOD.Rd",
+        "data/v0.3.0/sources/BOD.Rd"
+      ],
+      "sha256": "390786d44dc604c677017037e3c0307eef2b626f3a53342c82ef25c52f9e848a"
+    },
+    {
+      "bytes_per_copy": 10332,
+      "copies": 2,
+      "paths": [
+        "data/v0.3.0/review/prepared_v1/reviewer_package/sources/data/v0.3.0/sources/ChickWeight.R",
+        "data/v0.3.0/sources/ChickWeight.R"
+      ],
+      "sha256": "f36e6df387aa39e0dfeae3a91b99bb45db187d2b8ddef1756b90a0ba19ae2b3d"
+    },
+    {
+      "bytes_per_copy": 2137,
+      "copies": 2,
+      "paths": [
+        "data/v0.3.0/review/prepared_v1/reviewer_package/sources/data/v0.3.0/sources/ChickWeight.Rd",
+        "data/v0.3.0/sources/ChickWeight.Rd"
+      ],
+      "sha256": "c3cd8c5d3dda3507c8d2266ab527f80ac2e70c998afba480d3bb108c98f8c904"
+    },
+    {
+      "bytes_per_copy": 119,
+      "copies": 2,
+      "paths": [
+        "data/v0.3.0/review/prepared_v1/reviewer_package/sources/data/v0.3.0/sources/R_revision.json",
+        "data/v0.3.0/sources/R_revision.json"
+      ],
+      "sha256": "fa1d081ce7aca2cdd6ea525deabc9bdd2fd3378744036e107e5f8927615b86b4"
+    },
+    {
+      "bytes_per_copy": 6331,
+      "copies": 2,
+      "paths": [
+        "data/v0.3.0/review/prepared_v1/reviewer_package/sources/data/v0.3.0/sources/chick_growth_extracted.csv",
+        "data/v0.3.0/sources/chick_growth_extracted.csv"
+      ],
+      "sha256": "51766c4fd46a559d94e9676b1fd8ffe468c5ed6c677b0fc59fbffb22e5f781d1"
+    },
+    {
+      "bytes_per_copy": 49,
+      "copies": 2,
+      "paths": [
+        "data/v0.3.0/review/prepared_v1/reviewer_package/sources/data/v0.3.0/sources/oxygen_demand_extracted.csv",
+        "data/v0.3.0/sources/oxygen_demand_extracted.csv"
+      ],
+      "sha256": "3581297cbd37a2e24318893e2938a90f2e568fd95b6e41032466d9c1ebfee012"
+    },
+    {
+      "bytes_per_copy": 183,
+      "copies": 2,
+      "paths": [
+        "data/v0.3.0/review/prepared_v1/reviewer_package/sources/data/v0.3.0/sources/sleep.R",
+        "data/v0.3.0/sources/sleep.R"
+      ],
+      "sha256": "998f363abb36342a6e5cd1d508d2ac2d044146832b617b18649b5b8ce21ab7f2"
+    },
+    {
+      "bytes_per_copy": 1461,
+      "copies": 2,
+      "paths": [
+        "data/v0.3.0/review/prepared_v1/reviewer_package/sources/data/v0.3.0/sources/sleep.Rd",
+        "data/v0.3.0/sources/sleep.Rd"
+      ],
+      "sha256": "f17781ff555f1c5791ae1c8c07bb2ca990aef04d0df461770605dca85e8d3975"
+    },
+    {
+      "bytes_per_copy": 178,
+      "copies": 2,
+      "paths": [
+        "data/v0.3.0/review/prepared_v1/reviewer_package/sources/data/v0.3.0/sources/sleep_extracted.csv",
+        "data/v0.3.0/sources/sleep_extracted.csv"
+      ],
+      "sha256": "5123e155301a42f57e2684e5f7a53523d903be7c4ca3ac05105ced8b54d6dd8c"
+    }
+  ],
+  "largest_files": [
+    {
+      "bytes": 921086,
+      "path": "data/v0.2.0/sources/penguins_primary.pdf",
+      "sha256": "cc2e8e08db55a110d5e849db35f7665e9c18c0c06cd7fce49dd3007846f3820f"
+    },
+    {
+      "bytes": 921086,
+      "path": "data/v0.3.0/review/prepared_v1/reviewer_package/sources/data/v0.2.0/sources/penguins_primary.pdf",
+      "sha256": "cc2e8e08db55a110d5e849db35f7665e9c18c0c06cd7fce49dd3007846f3820f"
+    },
+    {
+      "bytes": 750957,
+      "path": "data/v0.3.0/review/candidate_15b_v1/reviewer_package.zip",
+      "sha256": "14e5c9d7115ffcb1a85d3341604e153bc3d7654e8d7c1f38c4ce9e6aa66345cd"
+    },
+    {
+      "bytes": 750476,
+      "path": "data/v0.3.0/review/candidate_05b_v1/reviewer_package.zip",
+      "sha256": "754b9f3336d1bc898ea36df2df1ebe4fe0a7e9cb9def1c22e852a99bd98d3fe2"
+    },
+    {
+      "bytes": 731253,
+      "path": "data/v0.3.0/review/prepared_v1/reviewer_package.zip",
+      "sha256": "b5f1a13e05eaea64e91ea03c961645909fd546a8548eaaa3f5d45e430a8c9c5f"
+    },
+    {
+      "bytes": 288671,
+      "path": "results/v0.3.0/results.json",
+      "sha256": "82a7aa37db7e749e800e8a5eea9113d80b009a7c03841e1da2bab0ff7fce2dd6"
+    },
+    {
+      "bytes": 284509,
+      "path": "results/v0.3.0/partial_results_A_complete.json",
+      "sha256": "40c09349b97f5ab714561974dc85e550c5b9bcbf07f53158710c1c5ec3e0d379"
+    },
+    {
+      "bytes": 274771,
+      "path": "data/v0.2.0/sources/penguins_article.html",
+      "sha256": "7adbf958f20c9106fa666a828fe8551c6b4e2e7b80cc2a88cbf137930e321d2f"
+    },
+    {
+      "bytes": 274771,
+      "path": "data/v0.3.0/review/prepared_v1/reviewer_package/sources/data/v0.2.0/sources/penguins_article.html",
+      "sha256": "7adbf958f20c9106fa666a828fe8551c6b4e2e7b80cc2a88cbf137930e321d2f"
+    },
+    {
+      "bytes": 228510,
+      "path": "data/v0.2.0/prompts/scientific_run.jsonl",
+      "sha256": "0949cedac5127dd62bc83da1c7ffc9c593434bdbb76f34d40153a93b3dd4d010"
+    },
+    {
+      "bytes": 212083,
+      "path": "data/v0.3.0/review/prepared_v1/reviewer_package/blank_forms.json",
+      "sha256": "2b7f9187a6744ab26703f0459df933e2666c0bbb597163aace11423034777eeb"
+    },
+    {
+      "bytes": 191309,
+      "path": "data/v0.2.0/cases.json",
+      "sha256": "2bb53a8c932014f3778ef917a6fe7c94df0edd1bec7afae8f8a62461d5c62a3e"
+    },
+    {
+      "bytes": 163531,
+      "path": "results/v0.3.0/bound_utility.json",
+      "sha256": "3309644122b08ac7ab38e82865eb5db8289c40d6afca4e97db8ff6db8d1e55c5"
+    },
+    {
+      "bytes": 154198,
+      "path": "data/v0.3.0/review/prepared_v1/reviewer_package/packets.json",
+      "sha256": "25a84888cd195603cf41b19a04a6604d4b035d47c00bc5d33f67251ec4148aaa"
+    },
+    {
+      "bytes": 144897,
+      "path": "data/v0.2.0/sources/freesolv_database.txt",
+      "sha256": "2d13f095713bc39b85f85dd7b4e5483fbb12fc694bf253bb1d92a4c4d484f260"
+    }
+  ],
+  "licenses_rechecked_by_notice_and_registry_only_not_legal_opinion": true,
+  "recommendation": "Keep PR1 draft as provenance umbrella; request review in immutable phase/concern ranges or future stacked PRs using existing commits, without rewriting history or deleting frozen artifacts. New pilot uses a shared source ZIP rather than duplicating archives per stage.",
+  "tracked_bytes": 9923723,
+  "tracked_files": 326,
+  "zip_bytes_not_expanded_in_duplicate_totals": true
+}

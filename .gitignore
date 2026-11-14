@@ -6,3 +6,10 @@ build/
 dist/
 .cache/
 results/local/
+
+# Coordinator maps omitted from uploads; this does not create protected labels.
+data/v0.3.0/review/*/internal/
+
+# Candidate source copies are distributed inside their hashed source-complete ZIP.
+# Local unpacked exports can be regenerated; they contain no protected holdout.
+data/v0.3.0/review/candidate_*/reviewer_package/

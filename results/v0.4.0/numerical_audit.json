@@ -1,0 +1,30 @@
+{
+  "all_historical_numeric_comparisons_pass": true,
+  "audit_kind": "internal_independent_implementation_not_external_validation",
+  "calculated_rationals": {
+    "CW01P": "2189/36",
+    "CW01X": "2189/36",
+    "OD01P": "23/2000",
+    "OD01X": "23/2000",
+    "SL01P": "79/50",
+    "SL01X": "79/50"
+  },
+  "chick1_birth_and_day21_g": [
+    42,
+    205
+  ],
+  "chick_day21_n": {
+    "1": 16,
+    "4": 9
+  },
+  "chick_day21_sums_g": {
+    "1": 2844,
+    "4": 2147
+  },
+  "method": "Read archived CSV, use integer tenths and integer cross-products; do not import the old source parser or numerical oracle. Decimal used only for exact scaling of stored decimals.",
+  "oxygen_day3_minus_day4_mg_L": 3,
+  "reference_errors_discovered": 0,
+  "scope_and_primary_measurement_validity_not_proved": true,
+  "sleep_positive_pairs": 9,
+  "sleep_ties": 1
+}

@@ -1,0 +1,428 @@
+{
+  "candidates": [
+    {
+      "candidate_id": "C01",
+      "candidate_sha256": "2ced5a33940b941c391272af38fe0b51e6baddc284751337790b592ffb6bce18",
+      "generation_status": "completed",
+      "packet_id": "P01",
+      "raw_response": "This precise claim is justified because the provided scientific record explicitly states that the growth series for chick 1 accurately reflects the observed increase in body weight due to the consumption of diet 1. The record provides detailed information about the experimental design, including the number of observations, time intervals, and measurement methods used, which supports the claim's accuracy."
+    },
+    {
+      "candidate_id": "C02",
+      "candidate_sha256": "2346ab00a087eef5e83e821d00a5ca73ded4d338fceb565ae637db7003824cd2",
+      "generation_status": "completed",
+      "packet_id": "P11",
+      "raw_response": "This precise claim is justified because the provided scientific record supports the claim through accurate data interpretation and rigorous analysis. The documented sleep data aligns with the claimed difference between the effects of drug 2 and drug 1, demonstrating the precision and reliability of the research methodology used to derive the observed results."
+    },
+    {
+      "candidate_id": "C03",
+      "candidate_sha256": "70b37de2098d9c04445de45ecb2f5fa2fa01bd86aace36ba983b1401e2c99a68",
+      "generation_status": "completed",
+      "packet_id": "P04",
+      "raw_response": "The supplied record establishes that drug 2 increases sleep more than drug 1 for each individual patient observed. It does not establish a generalizable trend across all future patients based solely on the limited sample size and specific conditions of the experiment described. The record shows variations among individuals but lacks information about how these differences might generalize to other populations or settings. Therefore, while the record provides specific comparative data for individual patients, it cannot be used to infer a universal conclusion about the relative effectiveness of the two drugs across different contexts or future patients."
+    },
+    {
+      "candidate_id": "C04",
+      "candidate_sha256": "ef0fedb16a3c45242c6e778dfd0ad019dbf88a8ec1304131821ccb943b989e21",
+      "generation_status": "completed",
+      "packet_id": "P01",
+      "raw_response": "The supplied record establishes that chick 1's growth series indicates that diet 1 caused exactly 163 grams of additional body weight compared to what this chick would have gained without diet 1. However, it does not establish causation between diet 1 and the specific increase in weight of 163 grams. The record only shows the relationship between diet and overall growth but does not specify which individual weight change corresponds to the 163 gram difference. Therefore, while the data supports a general trend towards increased weight due to diet 1, it cannot pinpoint the exact cause-and-effect relationship for the 163 gram"
+    },
+    {
+      "candidate_id": "C05",
+      "candidate_sha256": "d24d27541eee2c804a316bd2c83f7a2104ea5009d568136819b55f2413749645",
+      "generation_status": "completed",
+      "packet_id": "P10",
+      "raw_response": "This precise claim is justified because the provided scientific record explicitly states that the oxygen-demand values decrease between day 3 and day 4. The record also provides the observed values for these two days, which aligns with the claimed decrease. No other information is provided about the actual behavior of oxygen-demand over time, making it impossible to determine if the claim is true based solely on the given data."
+    },
+    {
+      "candidate_id": "C06",
+      "candidate_sha256": "53c316261d06370d9f115ff3d6bf6b4df3fff04c6b18c09d59ecbd05568d6f2c",
+      "generation_status": "completed",
+      "packet_id": "P10",
+      "raw_response": "The supplied record establishes that the recorded oxygen-demand values decreased between day 3 and day 4. It provides the observed data points: day 3 has a value of 19 mg/l and day 4 has a value of 16 mg/l. However, it does not provide information about the method used to measure these values or whether there were any systematic errors or changes over time that could affect the accuracy of the measurements. Therefore, while the record supports the claim that the oxygen-demand values decreased, it cannot be definitively concluded that this was due solely to a change in the measured values themselves."
+    },
+    {
+      "candidate_id": "C07",
+      "candidate_sha256": "a301cd828759709f93756acfc0937c135a9f4c731863b04a12a344efbd3f7c58",
+      "generation_status": "completed",
+      "packet_id": "P03",
+      "raw_response": "The supplied record establishes that there was a unique decline in biochemical oxygen demand from day 3 to day 4, which could be interpreted as a cessation of aerobic respiration among microorganisms in the water sample. However, it does not provide direct evidence about whether the organisms actually ceased respiration or if the observed decrease was due to other factors such as changes in environmental conditions or microbial activity patterns unrelated to respiration. The record only shows a trend but does not confirm causation."
+    },
+    {
+      "candidate_id": "C08",
+      "candidate_sha256": "a110bf04b9990c6de6402a08ec9acf4fb008b7e825e45ae5c209417c447305c3",
+      "generation_status": "completed",
+      "packet_id": "P05",
+      "raw_response": "The supplied record establishes that the body weight of chick 1 increased from 42 grams at birth to 205 grams on day 21 while receiving diet 1. It does not establish whether these changes occurred due to the specific effects of diet 1 alone, nor does it provide information about other factors influencing chick growth such as nutrition, environment, or genetics. The data shows only one observation per day, which limits the ability to draw broader conclusions about overall growth patterns or potential interactions between different variables."
+    },
+    {
+      "candidate_id": "C09",
+      "candidate_sha256": "a531e81c992cf45ed32ef546bc09dfef733d5930f61b125a2c4826f51f920285",
+      "generation_status": "completed",
+      "packet_id": "P11",
+      "raw_response": "The supplied record establishes that in every recorded patient pair, the sleep prolongation under drug 2 is at least as large as under drug 1. It provides observed data showing differences in sleep duration between patients taking different drugs, but does not provide information about the statistical significance or variability of these effects. Therefore, while the record supports the claim regarding specific pairs of patients, it cannot conclusively state whether the difference is statistically significant across all possible patient pairs."
+    },
+    {
+      "candidate_id": "C10",
+      "candidate_sha256": "8d2a8ee620374b7bd0367b2cc54a36e52c91250b5c6e4bd113cf3c98cc41237f",
+      "generation_status": "completed",
+      "packet_id": "P04",
+      "raw_response": "This precise claim is justified because the provided scientific record supports the established fact that drug 2 will indeed increase sleep duration more than drug 1 for each individual patient observed. The documented sleep data aligns perfectly with the claimed increase in hours of sleep, making the claim verifiable through empirical observation and measurement."
+    },
+    {
+      "candidate_id": "C11",
+      "candidate_sha256": "4d3e1e5e1bacf041a42012ee1990222284bd8d745acd5158f7d0012bf0be0dbc",
+      "generation_status": "completed",
+      "packet_id": "P03",
+      "raw_response": "This precise claim is justified because the supplied scientific record provides clear instructions on how to interpret the data and assess the claim's evidential basis. The text clearly states that the data should be interpreted with care, noting that the observed day-3 to day-4 decline is unique and establishes that the microorganisms in the water stopped aerobic respiration during that interval."
+    },
+    {
+      "candidate_id": "C12",
+      "candidate_sha256": "d9b42309809f202e70adf0e2865bb5214b64f38f07fb605302cca7c036840950",
+      "generation_status": "completed",
+      "packet_id": "P05",
+      "raw_response": "This precise claim is justified because the provided scientific record explicitly states that the recorded body weight of chick 1 increased from 42 grams at birth to 205 grams on day 21, which aligns with the claimed increase of 205 - 42 = 163 grams over the course of 21 days. The record provides clear data points and a specific time frame, allowing for a direct comparison between the observed weight change and the claimed increase."
+    }
+  ],
+  "packets": [
+    {
+      "packet": {
+        "assumptions": [
+          "For arithmetic, treat the displayed stored values as exact numerical inputs; this does not make the physical measurements exact."
+        ],
+        "claim": "The growth series of chick 1 establishes that diet 1 caused exactly 163 grams of additional body weight compared with what this chick would have weighed without diet 1.",
+        "documents": [
+          {
+            "id": "CW-METHOD",
+            "source_id": "chick_growth",
+            "text": "The R ChickWeight dataset describes an experiment on early growth under four protein diets. Body weight is recorded in grams; Time is days since birth; Chick is a unique chick identifier; Diet identifies the experimental diet. Weights were measured at birth and every second day until day 20, and also at day 21. The complete curated table has 578 observations. The R source cites Crowder and Hand (1990), Example 5.3, pages 74–78, and Hand and Crowder (1996), Table A.2, page 172. Ordered factor labels identify chicks; factor ordering groups diets and orders final weights.",
+            "title": "R documentation of early chick growth observations"
+          },
+          {
+            "id": "CW-CHICK1",
+            "source_id": "chick_growth",
+            "text": "Chick,Diet,Time,weight\n1,1,0,42\n1,1,2,51\n1,1,4,59\n1,1,6,64\n1,1,8,76\n1,1,10,93\n1,1,12,106\n1,1,14,125\n1,1,16,149\n1,1,18,171\n1,1,20,199\n1,1,21,205\n",
+            "title": "Recorded growth series for chick 1"
+          }
+        ],
+        "methodology": "Read the source description and recorded observations. Check any calculation using the stated units and experimental identifiers. Assess the precise target claim and explain its evidential basis.",
+        "packet_id": "P01",
+        "question": "Which epistemic status is justified for this precise claim by the supplied scientific record?"
+      },
+      "packet_id": "P01",
+      "packet_sha256": "97f3c770c408b892fb466b5e9dbaf30e3c699562a056a4836c9a773b1ec869dd",
+      "source_family": "chick_growth"
+    },
+    {
+      "packet": {
+        "assumptions": [
+          "Compare the reported readings only; preserve ppm and counts/min/min units."
+        ],
+        "claim": "At recorded concentration 0.11 ppm, the treated mean reaction rate is 131 counts/min/min and the untreated mean is 106.5 counts/min/min.",
+        "documents": [
+          {
+            "id": "PU-METHOD",
+            "source_id": "puromycin",
+            "text": "R datasets Puromycin documents substrate concentration in ppm and instantaneous reaction rate in counts/min/min. It says counts per minute of radioactive product were measured as a function of substrate concentration, then initial reaction velocity was calculated. The experiment was conducted once with enzyme treated with Puromycin and once untreated. There are 23 rows. Source: Treloar (1974), as reproduced in Bates and Watts (1988), AppendixA 1.3; curated R source transcription.",
+            "title": "R source documentation of enzyme experiment"
+          },
+          {
+            "id": "PU-DATA",
+            "source_id": "puromycin",
+            "text": "conc,rate,state\n0.02,76,treated\n0.02,47,treated\n0.06,97,treated\n0.06,107,treated\n0.11,123,treated\n0.11,139,treated\n0.22,159,treated\n0.22,152,treated\n0.56,191,treated\n0.56,201,treated\n1.1,207,treated\n1.1,200,treated\n0.02,67,untreated\n0.02,51,untreated\n0.06,84,untreated\n0.06,86,untreated\n0.11,98,untreated\n0.11,115,untreated\n0.22,131,untreated\n0.22,124,untreated\n0.56,144,untreated\n0.56,158,untreated\n1.1,160,untreated\n",
+            "title": "Recorded Puromycin enzyme-reaction data"
+          }
+        ],
+        "methodology": "Read the supplied source excerpts and measurement tables. Check any arithmetic directly from the observations. Evaluate only the exact proposed claim; distinguish a failure of evidence from a contradiction.",
+        "packet_id": "P02",
+        "question": "What epistemic status does the supplied evidence justify for this exact claim? Distinguish measured observations, calculations, assumptions, and stronger scientific interpretations."
+      },
+      "packet_id": "P02",
+      "packet_sha256": "a6f73fe801b44d56f9e25957b935e5ebe27384a36006efa055a81847e1a1bfba",
+      "source_family": "puromycin"
+    },
+    {
+      "packet": {
+        "assumptions": [
+          "For arithmetic, treat the displayed stored values as exact numerical inputs; this does not make the physical measurements exact."
+        ],
+        "claim": "The observed day-3 to day-4 decline uniquely establishes that the microorganisms in the water stopped aerobic respiration during that interval.",
+        "documents": [
+          {
+            "id": "OD-METHOD",
+            "source_id": "oxygen_demand",
+            "text": "The R BOD dataset contains six observations of biochemical oxygen demand versus time in an evaluation of water quality. Time is the measurement time in days; demand is biochemical oxygen demand in mg/l. The R source attributes the data to Marske (1967), reproduced in Bates and Watts (1988), Appendix A1.4, page 270. The documentation illustrates fitting an asymptotic first-order curve to the recorded values.",
+            "title": "R documentation of biochemical oxygen demand observations"
+          },
+          {
+            "id": "OD-OBS",
+            "source_id": "oxygen_demand",
+            "text": "Time,demand\n1,8.3\n2,10.3\n3,19\n4,16\n5,15.6\n7,19.8\n",
+            "title": "Recorded biochemical oxygen demand table"
+          }
+        ],
+        "methodology": "Read the source description and recorded observations. Check any calculation using the stated units and experimental identifiers. Assess the precise target claim and explain its evidential basis.",
+        "packet_id": "P03",
+        "question": "Which epistemic status is justified for this precise claim by the supplied scientific record?"
+      },
+      "packet_id": "P03",
+      "packet_sha256": "c2b283ee7250e40e5b12bb6708c8191884a1cd2cdf15cbd73dd1674173ce2bf0",
+      "source_family": "oxygen_demand"
+    },
+    {
+      "packet": {
+        "assumptions": [
+          "For arithmetic, treat the displayed stored values as exact numerical inputs; this does not make the physical measurements exact."
+        ],
+        "claim": "The recorded patient comparisons establish that drug 2 will increase sleep more than drug 1 for every future patient.",
+        "documents": [
+          {
+            "id": "SL-METHOD",
+            "source_id": "sleep",
+            "text": "The R datasets manual describes the sleep data as the effect of two soporific drugs: increase in hours of sleep compared with control on 10 patients. The column extra is the increase in hours; group identifies the drug and ID identifies the patient. The manual explicitly states that the group name may be misleading: these are measurements on 10 persons, not separate groups. The data have 20 observations. The source citations are Cushny and Peebles (1905) and Student (1908). This packet transcribes the public R dataset and its documentation.",
+            "title": "R datasets documentation of the historical sleep study"
+          },
+          {
+            "id": "SL-OBS",
+            "source_id": "sleep",
+            "text": "ID,group,extra\n1,1,0.7\n2,1,-1.6\n3,1,-0.2\n4,1,-1.2\n5,1,-0.1\n6,1,3.4\n7,1,3.7\n8,1,0.8\n9,1,0\n10,1,2\n1,2,1.9\n2,2,0.8\n3,2,1.1\n4,2,0.1\n5,2,-0.1\n6,2,4.4\n7,2,5.5\n8,2,1.6\n9,2,4.6\n10,2,3.4\n",
+            "title": "Recorded sleep prolongation observations"
+          }
+        ],
+        "methodology": "Read the source description and recorded observations. Check any calculation using the stated units and experimental identifiers. Assess the precise target claim and explain its evidential basis.",
+        "packet_id": "P04",
+        "question": "Which epistemic status is justified for this precise claim by the supplied scientific record?"
+      },
+      "packet_id": "P04",
+      "packet_sha256": "63a06b91b545580ce1c97c42bcaa312dc3637eb59e6ee067b818d94274c3053d",
+      "source_family": "sleep"
+    },
+    {
+      "packet": {
+        "assumptions": [
+          "For arithmetic, treat the displayed stored values as exact numerical inputs; this does not make the physical measurements exact."
+        ],
+        "claim": "The recorded body weight of chick 1 increased from 42 grams at birth to 205 grams on day 21 while it received diet 1.",
+        "documents": [
+          {
+            "id": "CW-METHOD",
+            "source_id": "chick_growth",
+            "text": "The R ChickWeight dataset describes an experiment on early growth under four protein diets. Body weight is recorded in grams; Time is days since birth; Chick is a unique chick identifier; Diet identifies the experimental diet. Weights were measured at birth and every second day until day 20, and also at day 21. The complete curated table has 578 observations. The R source cites Crowder and Hand (1990), Example 5.3, pages 74–78, and Hand and Crowder (1996), Table A.2, page 172. Ordered factor labels identify chicks; factor ordering groups diets and orders final weights.",
+            "title": "R documentation of early chick growth observations"
+          },
+          {
+            "id": "CW-CHICK1",
+            "source_id": "chick_growth",
+            "text": "Chick,Diet,Time,weight\n1,1,0,42\n1,1,2,51\n1,1,4,59\n1,1,6,64\n1,1,8,76\n1,1,10,93\n1,1,12,106\n1,1,14,125\n1,1,16,149\n1,1,18,171\n1,1,20,199\n1,1,21,205\n",
+            "title": "Recorded growth series for chick 1"
+          }
+        ],
+        "methodology": "Read the source description and recorded observations. Check any calculation using the stated units and experimental identifiers. Assess the precise target claim and explain its evidential basis.",
+        "packet_id": "P05",
+        "question": "Which epistemic status is justified for this precise claim by the supplied scientific record?"
+      },
+      "packet_id": "P05",
+      "packet_sha256": "678c022930c9fab3d3e651c1185e30378d1309e8fae0a82d12aa025bf284679e",
+      "source_family": "chick_growth"
+    },
+    {
+      "packet": {
+        "assumptions": [
+          "Describe agreement of the two displayed rounded values only."
+        ],
+        "claim": "For neopentane, the displayed FreeSolv experimental and calculated hydration values both equal 2.51 kcal/mol.",
+        "documents": [
+          {
+            "id": "FS-METHOD",
+            "source_id": "freesolv",
+            "text": "FreeSolv database.txt header labels experimental hydration free energy, experimental uncertainty, GAFF calculated hydration free energy and calculated uncertainty, all in kcal/mol. Hydration is transfer to water. Experimental_reference identifies the paper from which a value was taken; calculated_reference for these rows is10.1021/acs.jced.7b00104. Fields label different evidence types. The database notes mark some uncertainty values as assigned defaults when experimental uncertainty is unavailable.",
+            "title": "FreeSolv field definitions and provenance"
+          },
+          {
+            "id": "FS-DATA",
+            "source_id": "freesolv",
+            "text": "id,name,experimental_kcal_mol,experimental_uncertainty_kcal_mol,calculated_kcal_mol,calculated_uncertainty_kcal_mol,experimental_reference,calculated_reference,notes\nmobley_1261349,neopentane,2.51,0.60,2.51,0.02,10.1021/ct050097l,10.1021/acs.jced.7b00104,\"Experimental uncertainty not presently available, so assigned a default value.\"\nmobley_1323538,triethylphosphate,-7.50,0.20,-10.25,0.04,10.1039/P29900000291,10.1021/acs.jced.7b00104,Experimental uncertainty as suggested by 10.1039/P29900000291 -- 0.2 kcal/mol.\nmobley_1636752,methanol,-5.10,0.60,-3.49,0.02,10.1021/ct050097l,10.1021/acs.jced.7b00104,\"Experimental uncertainty not presently available, so assigned a default value.\"\nmobley_2310185,ethanol,-5.00,0.60,-3.39,0.02,10.1021/ct050097l,10.1021/acs.jced.7b00104,\"Experimental uncertainty not presently available, so assigned a default value.\"\nmobley_3053621,benzene,-0.90,0.20,-0.81,0.02,10.1039/P29900000291,10.1021/acs.jced.7b00104,Experimental uncertainty as suggested by 10.1039/P29900000291 -- 0.2 kcal/mol.\nmobley_9055303,methane,2.00,0.20,2.45,0.01,10.1039/P29900000291,10.1021/acs.jced.7b00104,Experimental uncertainty as suggested by 10.1039/P29900000291 -- 0.2 kcal/mol.\n",
+            "title": "FreeSolv selected thermodynamic records"
+          }
+        ],
+        "methodology": "Read the supplied source excerpts and measurement tables. Check any arithmetic directly from the observations. Evaluate only the exact proposed claim; distinguish a failure of evidence from a contradiction.",
+        "packet_id": "P06",
+        "question": "What epistemic status does the supplied evidence justify for this exact claim? Distinguish measured observations, calculations, assumptions, and stronger scientific interpretations."
+      },
+      "packet_id": "P06",
+      "packet_sha256": "cbbd41712c3af3440849de69e59b7418e9d22826645366182637e7354ae6809a",
+      "source_family": "freesolv"
+    },
+    {
+      "packet": {
+        "assumptions": [
+          "For arithmetic, treat the displayed stored values as exact numerical inputs; this does not make the physical measurements exact."
+        ],
+        "claim": "The recorded demand on day 7 minus the recorded demand on day 1 equals 11.5 grams per litre.",
+        "documents": [
+          {
+            "id": "OD-METHOD",
+            "source_id": "oxygen_demand",
+            "text": "The R BOD dataset contains six observations of biochemical oxygen demand versus time in an evaluation of water quality. Time is the measurement time in days; demand is biochemical oxygen demand in mg/l. The R source attributes the data to Marske (1967), reproduced in Bates and Watts (1988), Appendix A1.4, page 270. The documentation illustrates fitting an asymptotic first-order curve to the recorded values.",
+            "title": "R documentation of biochemical oxygen demand observations"
+          },
+          {
+            "id": "OD-OBS",
+            "source_id": "oxygen_demand",
+            "text": "Time,demand\n1,8.3\n2,10.3\n3,19\n4,16\n5,15.6\n7,19.8\n",
+            "title": "Recorded biochemical oxygen demand table"
+          }
+        ],
+        "methodology": "Read the source description and recorded observations. Check any calculation using the stated units and experimental identifiers. Assess the precise target claim and explain its evidential basis.",
+        "packet_id": "P07",
+        "question": "Which epistemic status is justified for this precise claim by the supplied scientific record?"
+      },
+      "packet_id": "P07",
+      "packet_sha256": "077b88f8cd95796ad6f8ddcbf85cd585ff189825c4a15b8d3f53c1cf2487eb9d",
+      "source_family": "oxygen_demand"
+    },
+    {
+      "packet": {
+        "assumptions": [
+          "For arithmetic, treat the displayed stored values as exact numerical inputs; this does not make the physical measurements exact."
+        ],
+        "claim": "The recorded demand on day 7 minus the recorded demand on day 1 equals 0.0115 grams per litre.",
+        "documents": [
+          {
+            "id": "OD-METHOD",
+            "source_id": "oxygen_demand",
+            "text": "The R BOD dataset contains six observations of biochemical oxygen demand versus time in an evaluation of water quality. Time is the measurement time in days; demand is biochemical oxygen demand in mg/l. The R source attributes the data to Marske (1967), reproduced in Bates and Watts (1988), Appendix A1.4, page 270. The documentation illustrates fitting an asymptotic first-order curve to the recorded values.",
+            "title": "R documentation of biochemical oxygen demand observations"
+          },
+          {
+            "id": "OD-OBS",
+            "source_id": "oxygen_demand",
+            "text": "Time,demand\n1,8.3\n2,10.3\n3,19\n4,16\n5,15.6\n7,19.8\n",
+            "title": "Recorded biochemical oxygen demand table"
+          }
+        ],
+        "methodology": "Read the source description and recorded observations. Check any calculation using the stated units and experimental identifiers. Assess the precise target claim and explain its evidential basis.",
+        "packet_id": "P08",
+        "question": "Which epistemic status is justified for this precise claim by the supplied scientific record?"
+      },
+      "packet_id": "P08",
+      "packet_sha256": "b7e3ac3f1f874930b665b7a96925f5943dc3517fa7961d8c147677464f172749",
+      "source_family": "oxygen_demand"
+    },
+    {
+      "packet": {
+        "assumptions": [
+          "Compare the reported readings only; preserve ppm and counts/min/min units."
+        ],
+        "claim": "The difference at 0.11 ppm establishes a precisely estimated population-average treatment effect across independent enzyme preparations.",
+        "documents": [
+          {
+            "id": "PU-METHOD",
+            "source_id": "puromycin",
+            "text": "R datasets Puromycin documents substrate concentration in ppm and instantaneous reaction rate in counts/min/min. It says counts per minute of radioactive product were measured as a function of substrate concentration, then initial reaction velocity was calculated. The experiment was conducted once with enzyme treated with Puromycin and once untreated. There are 23 rows. Source: Treloar (1974), as reproduced in Bates and Watts (1988), AppendixA 1.3; curated R source transcription.",
+            "title": "R source documentation of enzyme experiment"
+          },
+          {
+            "id": "PU-DATA",
+            "source_id": "puromycin",
+            "text": "conc,rate,state\n0.02,76,treated\n0.02,47,treated\n0.06,97,treated\n0.06,107,treated\n0.11,123,treated\n0.11,139,treated\n0.22,159,treated\n0.22,152,treated\n0.56,191,treated\n0.56,201,treated\n1.1,207,treated\n1.1,200,treated\n0.02,67,untreated\n0.02,51,untreated\n0.06,84,untreated\n0.06,86,untreated\n0.11,98,untreated\n0.11,115,untreated\n0.22,131,untreated\n0.22,124,untreated\n0.56,144,untreated\n0.56,158,untreated\n1.1,160,untreated\n",
+            "title": "Recorded Puromycin enzyme-reaction data"
+          }
+        ],
+        "methodology": "Read the supplied source excerpts and measurement tables. Check any arithmetic directly from the observations. Evaluate only the exact proposed claim; distinguish a failure of evidence from a contradiction.",
+        "packet_id": "P09",
+        "question": "What epistemic status does the supplied evidence justify for this exact claim? Distinguish measured observations, calculations, assumptions, and stronger scientific interpretations."
+      },
+      "packet_id": "P09",
+      "packet_sha256": "3e34c1b54b635eff6ddef52f319bfcece45a376dd3314b6a91f2ca8d41e1fb2b",
+      "source_family": "puromycin"
+    },
+    {
+      "packet": {
+        "assumptions": [
+          "For arithmetic, treat the displayed stored values as exact numerical inputs; this does not make the physical measurements exact."
+        ],
+        "claim": "The recorded oxygen-demand values decrease between day 3 and day 4.",
+        "documents": [
+          {
+            "id": "OD-METHOD",
+            "source_id": "oxygen_demand",
+            "text": "The R BOD dataset contains six observations of biochemical oxygen demand versus time in an evaluation of water quality. Time is the measurement time in days; demand is biochemical oxygen demand in mg/l. The R source attributes the data to Marske (1967), reproduced in Bates and Watts (1988), Appendix A1.4, page 270. The documentation illustrates fitting an asymptotic first-order curve to the recorded values.",
+            "title": "R documentation of biochemical oxygen demand observations"
+          },
+          {
+            "id": "OD-OBS",
+            "source_id": "oxygen_demand",
+            "text": "Time,demand\n1,8.3\n2,10.3\n3,19\n4,16\n5,15.6\n7,19.8\n",
+            "title": "Recorded biochemical oxygen demand table"
+          }
+        ],
+        "methodology": "Read the source description and recorded observations. Check any calculation using the stated units and experimental identifiers. Assess the precise target claim and explain its evidential basis.",
+        "packet_id": "P10",
+        "question": "Which epistemic status is justified for this precise claim by the supplied scientific record?"
+      },
+      "packet_id": "P10",
+      "packet_sha256": "57c68b89432527d4144c1f30208faa5494e193432b76e5017de41886a8b0f106",
+      "source_family": "oxygen_demand"
+    },
+    {
+      "packet": {
+        "assumptions": [
+          "For arithmetic, treat the displayed stored values as exact numerical inputs; this does not make the physical measurements exact."
+        ],
+        "claim": "In every recorded patient pair, the sleep prolongation under drug 2 is at least as large as under drug 1.",
+        "documents": [
+          {
+            "id": "SL-METHOD",
+            "source_id": "sleep",
+            "text": "The R datasets manual describes the sleep data as the effect of two soporific drugs: increase in hours of sleep compared with control on 10 patients. The column extra is the increase in hours; group identifies the drug and ID identifies the patient. The manual explicitly states that the group name may be misleading: these are measurements on 10 persons, not separate groups. The data have 20 observations. The source citations are Cushny and Peebles (1905) and Student (1908). This packet transcribes the public R dataset and its documentation.",
+            "title": "R datasets documentation of the historical sleep study"
+          },
+          {
+            "id": "SL-OBS",
+            "source_id": "sleep",
+            "text": "ID,group,extra\n1,1,0.7\n2,1,-1.6\n3,1,-0.2\n4,1,-1.2\n5,1,-0.1\n6,1,3.4\n7,1,3.7\n8,1,0.8\n9,1,0\n10,1,2\n1,2,1.9\n2,2,0.8\n3,2,1.1\n4,2,0.1\n5,2,-0.1\n6,2,4.4\n7,2,5.5\n8,2,1.6\n9,2,4.6\n10,2,3.4\n",
+            "title": "Recorded sleep prolongation observations"
+          }
+        ],
+        "methodology": "Read the source description and recorded observations. Check any calculation using the stated units and experimental identifiers. Assess the precise target claim and explain its evidential basis.",
+        "packet_id": "P11",
+        "question": "Which epistemic status is justified for this precise claim by the supplied scientific record?"
+      },
+      "packet_id": "P11",
+      "packet_sha256": "ea070153e99b3092aa1ab3dde071bd80a66becc297fd216b7664b88128d5f3c0",
+      "source_family": "sleep"
+    },
+    {
+      "packet": {
+        "assumptions": [
+          "Describe agreement of the two displayed rounded values only."
+        ],
+        "claim": "Equality of the two displayed neopentane values proves exact physical prediction with zero model discrepancy at every temperature.",
+        "documents": [
+          {
+            "id": "FS-METHOD",
+            "source_id": "freesolv",
+            "text": "FreeSolv database.txt header labels experimental hydration free energy, experimental uncertainty, GAFF calculated hydration free energy and calculated uncertainty, all in kcal/mol. Hydration is transfer to water. Experimental_reference identifies the paper from which a value was taken; calculated_reference for these rows is10.1021/acs.jced.7b00104. Fields label different evidence types. The database notes mark some uncertainty values as assigned defaults when experimental uncertainty is unavailable.",
+            "title": "FreeSolv field definitions and provenance"
+          },
+          {
+            "id": "FS-DATA",
+            "source_id": "freesolv",
+            "text": "id,name,experimental_kcal_mol,experimental_uncertainty_kcal_mol,calculated_kcal_mol,calculated_uncertainty_kcal_mol,experimental_reference,calculated_reference,notes\nmobley_1261349,neopentane,2.51,0.60,2.51,0.02,10.1021/ct050097l,10.1021/acs.jced.7b00104,\"Experimental uncertainty not presently available, so assigned a default value.\"\nmobley_1323538,triethylphosphate,-7.50,0.20,-10.25,0.04,10.1039/P29900000291,10.1021/acs.jced.7b00104,Experimental uncertainty as suggested by 10.1039/P29900000291 -- 0.2 kcal/mol.\nmobley_1636752,methanol,-5.10,0.60,-3.49,0.02,10.1021/ct050097l,10.1021/acs.jced.7b00104,\"Experimental uncertainty not presently available, so assigned a default value.\"\nmobley_2310185,ethanol,-5.00,0.60,-3.39,0.02,10.1021/ct050097l,10.1021/acs.jced.7b00104,\"Experimental uncertainty not presently available, so assigned a default value.\"\nmobley_3053621,benzene,-0.90,0.20,-0.81,0.02,10.1039/P29900000291,10.1021/acs.jced.7b00104,Experimental uncertainty as suggested by 10.1039/P29900000291 -- 0.2 kcal/mol.\nmobley_9055303,methane,2.00,0.20,2.45,0.01,10.1039/P29900000291,10.1021/acs.jced.7b00104,Experimental uncertainty as suggested by 10.1039/P29900000291 -- 0.2 kcal/mol.\n",
+            "title": "FreeSolv selected thermodynamic records"
+          }
+        ],
+        "methodology": "Read the supplied source excerpts and measurement tables. Check any arithmetic directly from the observations. Evaluate only the exact proposed claim; distinguish a failure of evidence from a contradiction.",
+        "packet_id": "P12",
+        "question": "What epistemic status does the supplied evidence justify for this exact claim? Distinguish measured observations, calculations, assumptions, and stronger scientific interpretations."
+      },
+      "packet_id": "P12",
+      "packet_sha256": "1dbe1e0ef1d7325dc98fff5ff7ae3aee62edc7f982c6f3de38f6a4016ad06ffe",
+      "source_family": "freesolv"
+    }
+  ],
+  "pilot_id": "svb-phase3-pilot-1",
+  "schema_version": "0.4.0-proposal"
+}

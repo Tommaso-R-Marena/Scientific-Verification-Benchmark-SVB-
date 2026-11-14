@@ -1,0 +1,39 @@
+{
+  "attention_implementation": "eager",
+  "attention_warning_analysis": "Transformers warns because config.sliding_window=32768 is nonnull; official config.use_sliding_window=false. Recorded input/output caps remain below that window. No config or weights altered.",
+  "bundle_records": 1,
+  "credential_use": false,
+  "device": "cpu",
+  "do_sample": false,
+  "dtype": "float32",
+  "elapsed_seconds": 17.088902711868286,
+  "max_input_tokens": 4096,
+  "max_new_tokens": 384,
+  "model_id": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_load_seconds": 7.8744587898254395,
+  "output_sha256": "53e7716178669302dcd2603078ba3f32440872210089d54828ed6dd5c8914701",
+  "paid_api_calls": 0,
+  "prompt_file_sha256": "f380873faae902f183b481a6f6bf461815e9ca3c5c730d3ffd7fdc881fd7cec0",
+  "prompt_truncation": false,
+  "python": "3.12.14",
+  "records": [
+    {
+      "condition": "evidence",
+      "id": "access-only-structured-arithmetic",
+      "input_tokens": 410,
+      "output_reached_token_limit": false,
+      "output_tokens": 65,
+      "seconds": 9.213547311999719,
+      "status": "completed"
+    }
+  ],
+  "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+  "runner_sha256": "06d251c053058cb90cd94bf66a473eb3fd0da1a8385cc4d7b524630f3c2b939b",
+  "scoring_performed": false,
+  "seed": 0,
+  "selected_records": 1,
+  "threads": 4,
+  "torch": "2.7.1+cpu",
+  "transformers": "4.51.3",
+  "weights_sha256": "fdf756fa7fcbe7404d5c60e26bff1a0c8b8aa1f72ced49e7dd0210fe288fb7fe"
+}

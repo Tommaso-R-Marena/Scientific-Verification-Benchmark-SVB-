@@ -1,0 +1,15 @@
+Sliding Window Attention is enabled but not implemented for `eager`; unexpected results may be encountered.
+{"index": 1, "selected": 14, "id": "svb-42170d786de1", "condition": "no_evidence", "status": "completed", "seconds": 10.684081827, "tokens": 100}
+{"index": 2, "selected": 14, "id": "svb-ceaeb8b404e1", "condition": "no_evidence", "status": "completed", "seconds": 8.414685469000005, "tokens": 74}
+{"index": 3, "selected": 14, "id": "svb-5cac43968ca3", "condition": "verified_numbers", "status": "completed", "seconds": 12.782553937999978, "tokens": 85}
+{"index": 4, "selected": 14, "id": "svb-6cf18a16d481", "condition": "verified_numbers", "status": "completed", "seconds": 13.520356609000032, "tokens": 87}
+{"index": 5, "selected": 14, "id": "svb-8cd269de53bf", "condition": "verified_numbers", "status": "completed", "seconds": 11.310143976999939, "tokens": 70}
+{"index": 6, "selected": 14, "id": "svb-4399d7d82628", "condition": "verified_numbers", "status": "completed", "seconds": 12.426545029000067, "tokens": 85}
+{"index": 7, "selected": 14, "id": "svb-5cac43968ca3", "condition": "no_assumptions", "status": "completed", "seconds": 12.497066926999992, "tokens": 93}
+{"index": 8, "selected": 14, "id": "svb-6cf18a16d481", "condition": "no_assumptions", "status": "completed", "seconds": 12.555898334999938, "tokens": 93}
+{"index": 9, "selected": 14, "id": "svb-8cd269de53bf", "condition": "no_assumptions", "status": "completed", "seconds": 12.079144780999968, "tokens": 82}
+{"index": 10, "selected": 14, "id": "svb-4399d7d82628", "condition": "no_assumptions", "status": "completed", "seconds": 12.689959842999997, "tokens": 90}
+{"index": 11, "selected": 14, "id": "svb-5cac43968ca3", "condition": "paraphrase", "status": "completed", "seconds": 10.769290245999855, "tokens": 69}
+{"index": 12, "selected": 14, "id": "svb-6cf18a16d481", "condition": "paraphrase", "status": "completed", "seconds": 14.698397586999818, "tokens": 110}
+{"index": 13, "selected": 14, "id": "svb-8cd269de53bf", "condition": "paraphrase", "status": "completed", "seconds": 14.316278121000096, "tokens": 108}
+{"index": 14, "selected": 14, "id": "svb-4399d7d82628", "condition": "paraphrase", "status": "completed", "seconds": 10.49820256199996, "tokens": 68}

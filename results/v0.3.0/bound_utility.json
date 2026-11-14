@@ -1,0 +1,5598 @@
+{
+  "format": "svb-bound-utility-v0.3.0",
+  "protocol_sha256": "edc6ecc4fb8149e27927e4d6f627ce76ee98025a41fca5a2a961d62af8a5341c",
+  "subject": {
+    "path": "/workspace/FoldBounds",
+    "commit": "e373a422eb785f5cb69163b0e114343b150abf08"
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "platform": "Linux-6.18.57-x86_64-with-glibc2.41"
+  },
+  "reference_method": "independent SVB N<=10 anchored self-avoiding-walk enumeration and exact Fraction weights",
+  "references": {
+    "low_q8": {
+      "paths": 543,
+      "spectrum": {
+        "0": 235,
+        "1": 184,
+        "2": 86,
+        "3": 38
+      },
+      "partition": "543",
+      "probability": "124/543",
+      "reference_seconds": 0.0021609830000670627
+    },
+    "rational_q9": {
+      "paths": 1479,
+      "spectrum": {
+        "0": 561,
+        "1": 508,
+        "2": 268,
+        "3": 132,
+        "4": 10
+      },
+      "partition": "19377/8",
+      "probability": "977/2153",
+      "reference_seconds": 0.0066380130001562065
+    },
+    "scale10": {
+      "paths": 4067,
+      "spectrum": {
+        "0": 1331,
+        "1": 1344,
+        "2": 850,
+        "3": 346,
+        "4": 196
+      },
+      "partition": "13323",
+      "probability": "9304/13323",
+      "reference_seconds": 0.023167948999798682
+    },
+    "high_threshold8": {
+      "paths": 543,
+      "spectrum": {
+        "0": 235,
+        "1": 184,
+        "2": 86,
+        "3": 38
+      },
+      "partition": "2587",
+      "probability": "1026/2587",
+      "reference_seconds": 0.001994317000026058
+    },
+    "mixed9": {
+      "paths": 1479,
+      "spectrum": {
+        "0": 897,
+        "1": 444,
+        "2": 122,
+        "3": 12,
+        "4": 4
+      },
+      "partition": "107253/64",
+      "probability": "16615/35751",
+      "reference_seconds": 0.0059525930000745575
+    },
+    "mixed10": {
+      "paths": 4067,
+      "spectrum": {
+        "0": 2707,
+        "1": 966,
+        "2": 304,
+        "3": 80,
+        "4": 10
+      },
+      "partition": "69301/8",
+      "probability": "47645/69301",
+      "reference_seconds": 0.017754576999323035
+    },
+    "impossible_event": {
+      "paths": 543,
+      "spectrum": {
+        "0": 543
+      },
+      "partition": "543",
+      "probability": "0",
+      "reference_seconds": 0.001356869999654009
+    },
+    "certain_event": {
+      "paths": 1479,
+      "spectrum": {
+        "0": 897,
+        "1": 444,
+        "2": 122,
+        "3": 12,
+        "4": 4
+      },
+      "partition": "7593/4",
+      "probability": "1",
+      "reference_seconds": 0.005404817000453477
+    }
+  },
+  "rows": [
+    {
+      "family": "low_q8",
+      "role": "nontrivial",
+      "configuration": "shallow",
+      "depth": 2,
+      "decisions": [
+        {
+          "threshold": "0",
+          "decision": "yes",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": true
+        },
+        {
+          "threshold": "1/100",
+          "decision": "undecided",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "124/543",
+          "decision": "undecided",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": true,
+          "is_boundary": false
+        },
+        {
+          "threshold": "1/4",
+          "decision": "undecided",
+          "oracle_classification": "no",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "1/2",
+          "decision": "undecided",
+          "oracle_classification": "no",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "3/4",
+          "decision": "undecided",
+          "oracle_classification": "no",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "99/100",
+          "decision": "undecided",
+          "oracle_classification": "no",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "1",
+          "decision": "undecided",
+          "oracle_classification": "no",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": true
+        }
+      ],
+      "elapsed_seconds": 0.06448852899939084,
+      "audit": {
+        "enclosed": true,
+        "probability_width": "1",
+        "decisions": [
+          {
+            "threshold": "0",
+            "decision": "yes",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": true
+          },
+          {
+            "threshold": "1/100",
+            "decision": "undecided",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "124/543",
+            "decision": "undecided",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": true,
+            "is_boundary": false
+          },
+          {
+            "threshold": "1/4",
+            "decision": "undecided",
+            "oracle_classification": "no",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "1/2",
+            "decision": "undecided",
+            "oracle_classification": "no",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "3/4",
+            "decision": "undecided",
+            "oracle_classification": "no",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "99/100",
+            "decision": "undecided",
+            "oracle_classification": "no",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "1",
+            "decision": "undecided",
+            "oracle_classification": "no",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": true
+          }
+        ],
+        "wrong_definite_decisions": 0,
+        "valid": true
+      },
+      "partition_enclosed": true,
+      "relative_partition_width": "243/181",
+      "observed": {
+        "probability_interval": [
+          "0",
+          "1"
+        ],
+        "partition_interval": [
+          "0",
+          "729"
+        ],
+        "exact_paths": 0,
+        "bounded_subtrees": 1
+      },
+      "full_depth_exact": true,
+      "outcome": "valid"
+    },
+    {
+      "family": "low_q8",
+      "role": "nontrivial",
+      "configuration": "moderate",
+      "depth": 6,
+      "decisions": [
+        {
+          "threshold": "0",
+          "decision": "yes",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": true
+        },
+        {
+          "threshold": "1/100",
+          "decision": "undecided",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "124/543",
+          "decision": "undecided",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": true,
+          "is_boundary": false
+        },
+        {
+          "threshold": "1/4",
+          "decision": "undecided",
+          "oracle_classification": "no",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "1/2",
+          "decision": "undecided",
+          "oracle_classification": "no",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "3/4",
+          "decision": "undecided",
+          "oracle_classification": "no",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "99/100",
+          "decision": "undecided",
+          "oracle_classification": "no",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "1",
+          "decision": "undecided",
+          "oracle_classification": "no",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": true
+        }
+      ],
+      "elapsed_seconds": 0.06017321700073808,
+      "audit": {
+        "enclosed": true,
+        "probability_width": "1",
+        "decisions": [
+          {
+            "threshold": "0",
+            "decision": "yes",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": true
+          },
+          {
+            "threshold": "1/100",
+            "decision": "undecided",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "124/543",
+            "decision": "undecided",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": true,
+            "is_boundary": false
+          },
+          {
+            "threshold": "1/4",
+            "decision": "undecided",
+            "oracle_classification": "no",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "1/2",
+            "decision": "undecided",
+            "oracle_classification": "no",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "3/4",
+            "decision": "undecided",
+            "oracle_classification": "no",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "99/100",
+            "decision": "undecided",
+            "oracle_classification": "no",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "1",
+            "decision": "undecided",
+            "oracle_classification": "no",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": true
+          }
+        ],
+        "wrong_definite_decisions": 0,
+        "valid": true
+      },
+      "partition_enclosed": true,
+      "relative_partition_width": "213/181",
+      "observed": {
+        "probability_interval": [
+          "0",
+          "1"
+        ],
+        "partition_interval": [
+          "0",
+          "639"
+        ],
+        "exact_paths": 0,
+        "bounded_subtrees": 71
+      },
+      "full_depth_exact": true,
+      "outcome": "valid"
+    },
+    {
+      "family": "low_q8",
+      "role": "nontrivial",
+      "configuration": "enriched",
+      "depth": 4,
+      "decisions": [
+        {
+          "threshold": "0",
+          "decision": "yes",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": true
+        },
+        {
+          "threshold": "1/100",
+          "decision": "yes",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "124/543",
+          "decision": "yes",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": true,
+          "is_boundary": false
+        },
+        {
+          "threshold": "1/4",
+          "decision": "no",
+          "oracle_classification": "no",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "1/2",
+          "decision": "no",
+          "oracle_classification": "no",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "3/4",
+          "decision": "no",
+          "oracle_classification": "no",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "99/100",
+          "decision": "no",
+          "oracle_classification": "no",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "1",
+          "decision": "no",
+          "oracle_classification": "no",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": true
+        }
+      ],
+      "elapsed_seconds": 0.13598956199984968,
+      "audit": {
+        "enclosed": true,
+        "probability_width": "0",
+        "decisions": [
+          {
+            "threshold": "0",
+            "decision": "yes",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": true
+          },
+          {
+            "threshold": "1/100",
+            "decision": "yes",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "124/543",
+            "decision": "yes",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": true,
+            "is_boundary": false
+          },
+          {
+            "threshold": "1/4",
+            "decision": "no",
+            "oracle_classification": "no",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "1/2",
+            "decision": "no",
+            "oracle_classification": "no",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "3/4",
+            "decision": "no",
+            "oracle_classification": "no",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "99/100",
+            "decision": "no",
+            "oracle_classification": "no",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "1",
+            "decision": "no",
+            "oracle_classification": "no",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": true
+          }
+        ],
+        "wrong_definite_decisions": 0,
+        "valid": true
+      },
+      "partition_enclosed": true,
+      "relative_partition_width": "0",
+      "observed": {
+        "probability_interval": [
+          "124/543",
+          "124/543"
+        ],
+        "partition_interval": [
+          "543",
+          "543"
+        ],
+        "exact_paths": 0,
+        "bounded_subtrees": 9
+      },
+      "full_depth_exact": true,
+      "outcome": "valid"
+    },
+    {
+      "family": "low_q8",
+      "role": "nontrivial",
+      "configuration": "full",
+      "depth": 8,
+      "decisions": [
+        {
+          "threshold": "0",
+          "decision": "yes",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": true
+        },
+        {
+          "threshold": "1/100",
+          "decision": "yes",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "124/543",
+          "decision": "yes",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": true,
+          "is_boundary": false
+        },
+        {
+          "threshold": "1/4",
+          "decision": "no",
+          "oracle_classification": "no",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "1/2",
+          "decision": "no",
+          "oracle_classification": "no",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "3/4",
+          "decision": "no",
+          "oracle_classification": "no",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "99/100",
+          "decision": "no",
+          "oracle_classification": "no",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "1",
+          "decision": "no",
+          "oracle_classification": "no",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": true
+        }
+      ],
+      "elapsed_seconds": 0.07274252099978185,
+      "audit": {
+        "enclosed": true,
+        "probability_width": "0",
+        "decisions": [
+          {
+            "threshold": "0",
+            "decision": "yes",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": true
+          },
+          {
+            "threshold": "1/100",
+            "decision": "yes",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "124/543",
+            "decision": "yes",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": true,
+            "is_boundary": false
+          },
+          {
+            "threshold": "1/4",
+            "decision": "no",
+            "oracle_classification": "no",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "1/2",
+            "decision": "no",
+            "oracle_classification": "no",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "3/4",
+            "decision": "no",
+            "oracle_classification": "no",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "99/100",
+            "decision": "no",
+            "oracle_classification": "no",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "1",
+            "decision": "no",
+            "oracle_classification": "no",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": true
+          }
+        ],
+        "wrong_definite_decisions": 0,
+        "valid": true
+      },
+      "partition_enclosed": true,
+      "relative_partition_width": "0",
+      "observed": {
+        "probability_interval": [
+          "124/543",
+          "124/543"
+        ],
+        "partition_interval": [
+          "543",
+          "543"
+        ],
+        "exact_paths": 543,
+        "bounded_subtrees": 0
+      },
+      "full_depth_exact": true,
+      "outcome": "valid"
+    },
+    {
+      "family": "rational_q9",
+      "role": "nontrivial",
+      "configuration": "shallow",
+      "depth": 2,
+      "decisions": [
+        {
+          "threshold": "0",
+          "decision": "yes",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": true
+        },
+        {
+          "threshold": "1/100",
+          "decision": "undecided",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "1/4",
+          "decision": "undecided",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "977/2153",
+          "decision": "undecided",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": true,
+          "is_boundary": false
+        },
+        {
+          "threshold": "1/2",
+          "decision": "undecided",
+          "oracle_classification": "no",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "3/4",
+          "decision": "undecided",
+          "oracle_classification": "no",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "99/100",
+          "decision": "undecided",
+          "oracle_classification": "no",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "1",
+          "decision": "undecided",
+          "oracle_classification": "no",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": true
+        }
+      ],
+      "elapsed_seconds": 0.07454965299984906,
+      "audit": {
+        "enclosed": true,
+        "probability_width": "1",
+        "decisions": [
+          {
+            "threshold": "0",
+            "decision": "yes",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": true
+          },
+          {
+            "threshold": "1/100",
+            "decision": "undecided",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "1/4",
+            "decision": "undecided",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "977/2153",
+            "decision": "undecided",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": true,
+            "is_boundary": false
+          },
+          {
+            "threshold": "1/2",
+            "decision": "undecided",
+            "oracle_classification": "no",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "3/4",
+            "decision": "undecided",
+            "oracle_classification": "no",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "99/100",
+            "decision": "undecided",
+            "oracle_classification": "no",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "1",
+            "decision": "undecided",
+            "oracle_classification": "no",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": true
+          }
+        ],
+        "wrong_definite_decisions": 0,
+        "valid": true
+      },
+      "partition_enclosed": true,
+      "relative_partition_width": "129140163/1102336",
+      "observed": {
+        "probability_interval": [
+          "0",
+          "1"
+        ],
+        "partition_interval": [
+          "0",
+          "1162261467/4096"
+        ],
+        "exact_paths": 0,
+        "bounded_subtrees": 1
+      },
+      "full_depth_exact": true,
+      "outcome": "valid"
+    },
+    {
+      "family": "rational_q9",
+      "role": "nontrivial",
+      "configuration": "moderate",
+      "depth": 6,
+      "decisions": [
+        {
+          "threshold": "0",
+          "decision": "yes",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": true
+        },
+        {
+          "threshold": "1/100",
+          "decision": "undecided",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "1/4",
+          "decision": "undecided",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "977/2153",
+          "decision": "undecided",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": true,
+          "is_boundary": false
+        },
+        {
+          "threshold": "1/2",
+          "decision": "undecided",
+          "oracle_classification": "no",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "3/4",
+          "decision": "undecided",
+          "oracle_classification": "no",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "99/100",
+          "decision": "undecided",
+          "oracle_classification": "no",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "1",
+          "decision": "undecided",
+          "oracle_classification": "no",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": true
+        }
+      ],
+      "elapsed_seconds": 0.05458288999943761,
+      "audit": {
+        "enclosed": true,
+        "probability_width": "1",
+        "decisions": [
+          {
+            "threshold": "0",
+            "decision": "yes",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": true
+          },
+          {
+            "threshold": "1/100",
+            "decision": "undecided",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "1/4",
+            "decision": "undecided",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "977/2153",
+            "decision": "undecided",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": true,
+            "is_boundary": false
+          },
+          {
+            "threshold": "1/2",
+            "decision": "undecided",
+            "oracle_classification": "no",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "3/4",
+            "decision": "undecided",
+            "oracle_classification": "no",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "99/100",
+            "decision": "undecided",
+            "oracle_classification": "no",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "1",
+            "decision": "undecided",
+            "oracle_classification": "no",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": true
+          }
+        ],
+        "wrong_definite_decisions": 0,
+        "valid": true
+      },
+      "partition_enclosed": true,
+      "relative_partition_width": "452709/17224",
+      "observed": {
+        "probability_interval": [
+          "0",
+          "1"
+        ],
+        "partition_interval": [
+          "0",
+          "4074381/64"
+        ],
+        "exact_paths": 0,
+        "bounded_subtrees": 71
+      },
+      "full_depth_exact": true,
+      "outcome": "valid"
+    },
+    {
+      "family": "rational_q9",
+      "role": "nontrivial",
+      "configuration": "enriched",
+      "depth": 4,
+      "decisions": [
+        {
+          "threshold": "0",
+          "decision": "yes",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": true
+        },
+        {
+          "threshold": "1/100",
+          "decision": "yes",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "1/4",
+          "decision": "yes",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "977/2153",
+          "decision": "yes",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": true,
+          "is_boundary": false
+        },
+        {
+          "threshold": "1/2",
+          "decision": "no",
+          "oracle_classification": "no",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "3/4",
+          "decision": "no",
+          "oracle_classification": "no",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "99/100",
+          "decision": "no",
+          "oracle_classification": "no",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "1",
+          "decision": "no",
+          "oracle_classification": "no",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": true
+        }
+      ],
+      "elapsed_seconds": 0.19029333400067117,
+      "audit": {
+        "enclosed": true,
+        "probability_width": "0",
+        "decisions": [
+          {
+            "threshold": "0",
+            "decision": "yes",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": true
+          },
+          {
+            "threshold": "1/100",
+            "decision": "yes",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "1/4",
+            "decision": "yes",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "977/2153",
+            "decision": "yes",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": true,
+            "is_boundary": false
+          },
+          {
+            "threshold": "1/2",
+            "decision": "no",
+            "oracle_classification": "no",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "3/4",
+            "decision": "no",
+            "oracle_classification": "no",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "99/100",
+            "decision": "no",
+            "oracle_classification": "no",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "1",
+            "decision": "no",
+            "oracle_classification": "no",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": true
+          }
+        ],
+        "wrong_definite_decisions": 0,
+        "valid": true
+      },
+      "partition_enclosed": true,
+      "relative_partition_width": "0",
+      "observed": {
+        "probability_interval": [
+          "977/2153",
+          "977/2153"
+        ],
+        "partition_interval": [
+          "19377/8",
+          "19377/8"
+        ],
+        "exact_paths": 0,
+        "bounded_subtrees": 9
+      },
+      "full_depth_exact": true,
+      "outcome": "valid"
+    },
+    {
+      "family": "rational_q9",
+      "role": "nontrivial",
+      "configuration": "full",
+      "depth": 9,
+      "decisions": [
+        {
+          "threshold": "0",
+          "decision": "yes",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": true
+        },
+        {
+          "threshold": "1/100",
+          "decision": "yes",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "1/4",
+          "decision": "yes",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "977/2153",
+          "decision": "yes",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": true,
+          "is_boundary": false
+        },
+        {
+          "threshold": "1/2",
+          "decision": "no",
+          "oracle_classification": "no",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "3/4",
+          "decision": "no",
+          "oracle_classification": "no",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "99/100",
+          "decision": "no",
+          "oracle_classification": "no",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "1",
+          "decision": "no",
+          "oracle_classification": "no",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": true
+        }
+      ],
+      "elapsed_seconds": 0.078950810000606,
+      "audit": {
+        "enclosed": true,
+        "probability_width": "0",
+        "decisions": [
+          {
+            "threshold": "0",
+            "decision": "yes",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": true
+          },
+          {
+            "threshold": "1/100",
+            "decision": "yes",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "1/4",
+            "decision": "yes",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "977/2153",
+            "decision": "yes",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": true,
+            "is_boundary": false
+          },
+          {
+            "threshold": "1/2",
+            "decision": "no",
+            "oracle_classification": "no",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "3/4",
+            "decision": "no",
+            "oracle_classification": "no",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "99/100",
+            "decision": "no",
+            "oracle_classification": "no",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "1",
+            "decision": "no",
+            "oracle_classification": "no",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": true
+          }
+        ],
+        "wrong_definite_decisions": 0,
+        "valid": true
+      },
+      "partition_enclosed": true,
+      "relative_partition_width": "0",
+      "observed": {
+        "probability_interval": [
+          "977/2153",
+          "977/2153"
+        ],
+        "partition_interval": [
+          "19377/8",
+          "19377/8"
+        ],
+        "exact_paths": 1479,
+        "bounded_subtrees": 0
+      },
+      "full_depth_exact": true,
+      "outcome": "valid"
+    },
+    {
+      "family": "scale10",
+      "role": "nontrivial",
+      "configuration": "shallow",
+      "depth": 2,
+      "decisions": [
+        {
+          "threshold": "0",
+          "decision": "yes",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": true
+        },
+        {
+          "threshold": "1/100",
+          "decision": "undecided",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "1/4",
+          "decision": "undecided",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "1/2",
+          "decision": "undecided",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "9304/13323",
+          "decision": "undecided",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": true,
+          "is_boundary": false
+        },
+        {
+          "threshold": "3/4",
+          "decision": "undecided",
+          "oracle_classification": "no",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "99/100",
+          "decision": "undecided",
+          "oracle_classification": "no",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "1",
+          "decision": "undecided",
+          "oracle_classification": "no",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": true
+        }
+      ],
+      "elapsed_seconds": 0.07047630600027333,
+      "audit": {
+        "enclosed": true,
+        "probability_width": "1",
+        "decisions": [
+          {
+            "threshold": "0",
+            "decision": "yes",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": true
+          },
+          {
+            "threshold": "1/100",
+            "decision": "undecided",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "1/4",
+            "decision": "undecided",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "1/2",
+            "decision": "undecided",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "9304/13323",
+            "decision": "undecided",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": true,
+            "is_boundary": false
+          },
+          {
+            "threshold": "3/4",
+            "decision": "undecided",
+            "oracle_classification": "no",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "99/100",
+            "decision": "undecided",
+            "oracle_classification": "no",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "1",
+            "decision": "undecided",
+            "oracle_classification": "no",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": true
+          }
+        ],
+        "wrong_definite_decisions": 0,
+        "valid": true
+      },
+      "partition_enclosed": true,
+      "relative_partition_width": "143327232/4441",
+      "observed": {
+        "probability_interval": [
+          "0",
+          "1"
+        ],
+        "partition_interval": [
+          "0",
+          "429981696"
+        ],
+        "exact_paths": 0,
+        "bounded_subtrees": 1
+      },
+      "full_depth_exact": true,
+      "outcome": "valid"
+    },
+    {
+      "family": "scale10",
+      "role": "nontrivial",
+      "configuration": "moderate",
+      "depth": 6,
+      "decisions": [
+        {
+          "threshold": "0",
+          "decision": "yes",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": true
+        },
+        {
+          "threshold": "1/100",
+          "decision": "undecided",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "1/4",
+          "decision": "undecided",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "1/2",
+          "decision": "undecided",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "9304/13323",
+          "decision": "undecided",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": true,
+          "is_boundary": false
+        },
+        {
+          "threshold": "3/4",
+          "decision": "undecided",
+          "oracle_classification": "no",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "99/100",
+          "decision": "undecided",
+          "oracle_classification": "no",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "1",
+          "decision": "undecided",
+          "oracle_classification": "no",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": true
+        }
+      ],
+      "elapsed_seconds": 0.06232964700029697,
+      "audit": {
+        "enclosed": true,
+        "probability_width": "1",
+        "decisions": [
+          {
+            "threshold": "0",
+            "decision": "yes",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": true
+          },
+          {
+            "threshold": "1/100",
+            "decision": "undecided",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "1/4",
+            "decision": "undecided",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "1/2",
+            "decision": "undecided",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "9304/13323",
+            "decision": "undecided",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": true,
+            "is_boundary": false
+          },
+          {
+            "threshold": "3/4",
+            "decision": "undecided",
+            "oracle_classification": "no",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "99/100",
+            "decision": "undecided",
+            "oracle_classification": "no",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "1",
+            "decision": "undecided",
+            "oracle_classification": "no",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": true
+          }
+        ],
+        "wrong_definite_decisions": 0,
+        "valid": true
+      },
+      "partition_enclosed": true,
+      "relative_partition_width": "12939264/4441",
+      "observed": {
+        "probability_interval": [
+          "0",
+          "1"
+        ],
+        "partition_interval": [
+          "0",
+          "38817792"
+        ],
+        "exact_paths": 0,
+        "bounded_subtrees": 71
+      },
+      "full_depth_exact": true,
+      "outcome": "valid"
+    },
+    {
+      "family": "scale10",
+      "role": "nontrivial",
+      "configuration": "enriched",
+      "depth": 4,
+      "decisions": [
+        {
+          "threshold": "0",
+          "decision": "yes",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": true
+        },
+        {
+          "threshold": "1/100",
+          "decision": "yes",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "1/4",
+          "decision": "yes",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "1/2",
+          "decision": "yes",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "9304/13323",
+          "decision": "undecided",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": true,
+          "is_boundary": false
+        },
+        {
+          "threshold": "3/4",
+          "decision": "undecided",
+          "oracle_classification": "no",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "99/100",
+          "decision": "no",
+          "oracle_classification": "no",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "1",
+          "decision": "no",
+          "oracle_classification": "no",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": true
+        }
+      ],
+      "elapsed_seconds": 0.29950014400037617,
+      "audit": {
+        "enclosed": true,
+        "probability_width": "54362760/288614249",
+        "decisions": [
+          {
+            "threshold": "0",
+            "decision": "yes",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": true
+          },
+          {
+            "threshold": "1/100",
+            "decision": "yes",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "1/4",
+            "decision": "yes",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "1/2",
+            "decision": "yes",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "9304/13323",
+            "decision": "undecided",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": true,
+            "is_boundary": false
+          },
+          {
+            "threshold": "3/4",
+            "decision": "undecided",
+            "oracle_classification": "no",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "99/100",
+            "decision": "no",
+            "oracle_classification": "no",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "1",
+            "decision": "no",
+            "oracle_classification": "no",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": true
+          }
+        ],
+        "wrong_definite_decisions": 0,
+        "valid": true
+      },
+      "partition_enclosed": true,
+      "relative_partition_width": "4360/13323",
+      "observed": {
+        "probability_interval": [
+          "9304/15683",
+          "14384/18403"
+        ],
+        "partition_interval": [
+          "13323",
+          "17683"
+        ],
+        "exact_paths": 0,
+        "bounded_subtrees": 9
+      },
+      "full_depth_exact": true,
+      "outcome": "valid"
+    },
+    {
+      "family": "scale10",
+      "role": "nontrivial",
+      "configuration": "full",
+      "depth": 10,
+      "decisions": [
+        {
+          "threshold": "0",
+          "decision": "yes",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": true
+        },
+        {
+          "threshold": "1/100",
+          "decision": "yes",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "1/4",
+          "decision": "yes",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "1/2",
+          "decision": "yes",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "9304/13323",
+          "decision": "yes",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": true,
+          "is_boundary": false
+        },
+        {
+          "threshold": "3/4",
+          "decision": "no",
+          "oracle_classification": "no",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "99/100",
+          "decision": "no",
+          "oracle_classification": "no",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "1",
+          "decision": "no",
+          "oracle_classification": "no",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": true
+        }
+      ],
+      "elapsed_seconds": 0.18365914800051542,
+      "audit": {
+        "enclosed": true,
+        "probability_width": "0",
+        "decisions": [
+          {
+            "threshold": "0",
+            "decision": "yes",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": true
+          },
+          {
+            "threshold": "1/100",
+            "decision": "yes",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "1/4",
+            "decision": "yes",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "1/2",
+            "decision": "yes",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "9304/13323",
+            "decision": "yes",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": true,
+            "is_boundary": false
+          },
+          {
+            "threshold": "3/4",
+            "decision": "no",
+            "oracle_classification": "no",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "99/100",
+            "decision": "no",
+            "oracle_classification": "no",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "1",
+            "decision": "no",
+            "oracle_classification": "no",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": true
+          }
+        ],
+        "wrong_definite_decisions": 0,
+        "valid": true
+      },
+      "partition_enclosed": true,
+      "relative_partition_width": "0",
+      "observed": {
+        "probability_interval": [
+          "9304/13323",
+          "9304/13323"
+        ],
+        "partition_interval": [
+          "13323",
+          "13323"
+        ],
+        "exact_paths": 4067,
+        "bounded_subtrees": 0
+      },
+      "full_depth_exact": true,
+      "outcome": "valid"
+    },
+    {
+      "family": "high_threshold8",
+      "role": "nontrivial",
+      "configuration": "shallow",
+      "depth": 2,
+      "decisions": [
+        {
+          "threshold": "0",
+          "decision": "yes",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": true
+        },
+        {
+          "threshold": "1/100",
+          "decision": "undecided",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "1/4",
+          "decision": "undecided",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "1026/2587",
+          "decision": "undecided",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": true,
+          "is_boundary": false
+        },
+        {
+          "threshold": "1/2",
+          "decision": "undecided",
+          "oracle_classification": "no",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "3/4",
+          "decision": "undecided",
+          "oracle_classification": "no",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "99/100",
+          "decision": "undecided",
+          "oracle_classification": "no",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "1",
+          "decision": "undecided",
+          "oracle_classification": "no",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": true
+        }
+      ],
+      "elapsed_seconds": 0.07707993400072155,
+      "audit": {
+        "enclosed": true,
+        "probability_width": "1",
+        "decisions": [
+          {
+            "threshold": "0",
+            "decision": "yes",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": true
+          },
+          {
+            "threshold": "1/100",
+            "decision": "undecided",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "1/4",
+            "decision": "undecided",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "1026/2587",
+            "decision": "undecided",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": true,
+            "is_boundary": false
+          },
+          {
+            "threshold": "1/2",
+            "decision": "undecided",
+            "oracle_classification": "no",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "3/4",
+            "decision": "undecided",
+            "oracle_classification": "no",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "99/100",
+            "decision": "undecided",
+            "oracle_classification": "no",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "1",
+            "decision": "undecided",
+            "oracle_classification": "no",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": true
+          }
+        ],
+        "wrong_definite_decisions": 0,
+        "valid": true
+      },
+      "partition_enclosed": true,
+      "relative_partition_width": "14348907/2587",
+      "observed": {
+        "probability_interval": [
+          "0",
+          "1"
+        ],
+        "partition_interval": [
+          "0",
+          "14348907"
+        ],
+        "exact_paths": 0,
+        "bounded_subtrees": 1
+      },
+      "full_depth_exact": true,
+      "outcome": "valid"
+    },
+    {
+      "family": "high_threshold8",
+      "role": "nontrivial",
+      "configuration": "moderate",
+      "depth": 6,
+      "decisions": [
+        {
+          "threshold": "0",
+          "decision": "yes",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": true
+        },
+        {
+          "threshold": "1/100",
+          "decision": "undecided",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "1/4",
+          "decision": "undecided",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "1026/2587",
+          "decision": "undecided",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": true,
+          "is_boundary": false
+        },
+        {
+          "threshold": "1/2",
+          "decision": "undecided",
+          "oracle_classification": "no",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "3/4",
+          "decision": "undecided",
+          "oracle_classification": "no",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "99/100",
+          "decision": "undecided",
+          "oracle_classification": "no",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "1",
+          "decision": "undecided",
+          "oracle_classification": "no",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": true
+        }
+      ],
+      "elapsed_seconds": 0.054117115999360976,
+      "audit": {
+        "enclosed": true,
+        "probability_width": "1",
+        "decisions": [
+          {
+            "threshold": "0",
+            "decision": "yes",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": true
+          },
+          {
+            "threshold": "1/100",
+            "decision": "undecided",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "1/4",
+            "decision": "undecided",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "1026/2587",
+            "decision": "undecided",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": true,
+            "is_boundary": false
+          },
+          {
+            "threshold": "1/2",
+            "decision": "undecided",
+            "oracle_classification": "no",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "3/4",
+            "decision": "undecided",
+            "oracle_classification": "no",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "99/100",
+            "decision": "undecided",
+            "oracle_classification": "no",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "1",
+            "decision": "undecided",
+            "oracle_classification": "no",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": true
+          }
+        ],
+        "wrong_definite_decisions": 0,
+        "valid": true
+      },
+      "partition_enclosed": true,
+      "relative_partition_width": "391473/2587",
+      "observed": {
+        "probability_interval": [
+          "0",
+          "1"
+        ],
+        "partition_interval": [
+          "0",
+          "391473"
+        ],
+        "exact_paths": 0,
+        "bounded_subtrees": 71
+      },
+      "full_depth_exact": true,
+      "outcome": "valid"
+    },
+    {
+      "family": "high_threshold8",
+      "role": "nontrivial",
+      "configuration": "enriched",
+      "depth": 4,
+      "decisions": [
+        {
+          "threshold": "0",
+          "decision": "yes",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": true
+        },
+        {
+          "threshold": "1/100",
+          "decision": "yes",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "1/4",
+          "decision": "yes",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "1026/2587",
+          "decision": "yes",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": true,
+          "is_boundary": false
+        },
+        {
+          "threshold": "1/2",
+          "decision": "no",
+          "oracle_classification": "no",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "3/4",
+          "decision": "no",
+          "oracle_classification": "no",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "99/100",
+          "decision": "no",
+          "oracle_classification": "no",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "1",
+          "decision": "no",
+          "oracle_classification": "no",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": true
+        }
+      ],
+      "elapsed_seconds": 0.13223798799936048,
+      "audit": {
+        "enclosed": true,
+        "probability_width": "0",
+        "decisions": [
+          {
+            "threshold": "0",
+            "decision": "yes",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": true
+          },
+          {
+            "threshold": "1/100",
+            "decision": "yes",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "1/4",
+            "decision": "yes",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "1026/2587",
+            "decision": "yes",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": true,
+            "is_boundary": false
+          },
+          {
+            "threshold": "1/2",
+            "decision": "no",
+            "oracle_classification": "no",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "3/4",
+            "decision": "no",
+            "oracle_classification": "no",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "99/100",
+            "decision": "no",
+            "oracle_classification": "no",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "1",
+            "decision": "no",
+            "oracle_classification": "no",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": true
+          }
+        ],
+        "wrong_definite_decisions": 0,
+        "valid": true
+      },
+      "partition_enclosed": true,
+      "relative_partition_width": "0",
+      "observed": {
+        "probability_interval": [
+          "1026/2587",
+          "1026/2587"
+        ],
+        "partition_interval": [
+          "2587",
+          "2587"
+        ],
+        "exact_paths": 0,
+        "bounded_subtrees": 9
+      },
+      "full_depth_exact": true,
+      "outcome": "valid"
+    },
+    {
+      "family": "high_threshold8",
+      "role": "nontrivial",
+      "configuration": "full",
+      "depth": 8,
+      "decisions": [
+        {
+          "threshold": "0",
+          "decision": "yes",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": true
+        },
+        {
+          "threshold": "1/100",
+          "decision": "yes",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "1/4",
+          "decision": "yes",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "1026/2587",
+          "decision": "yes",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": true,
+          "is_boundary": false
+        },
+        {
+          "threshold": "1/2",
+          "decision": "no",
+          "oracle_classification": "no",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "3/4",
+          "decision": "no",
+          "oracle_classification": "no",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "99/100",
+          "decision": "no",
+          "oracle_classification": "no",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "1",
+          "decision": "no",
+          "oracle_classification": "no",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": true
+        }
+      ],
+      "elapsed_seconds": 0.06719354799952271,
+      "audit": {
+        "enclosed": true,
+        "probability_width": "0",
+        "decisions": [
+          {
+            "threshold": "0",
+            "decision": "yes",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": true
+          },
+          {
+            "threshold": "1/100",
+            "decision": "yes",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "1/4",
+            "decision": "yes",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "1026/2587",
+            "decision": "yes",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": true,
+            "is_boundary": false
+          },
+          {
+            "threshold": "1/2",
+            "decision": "no",
+            "oracle_classification": "no",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "3/4",
+            "decision": "no",
+            "oracle_classification": "no",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "99/100",
+            "decision": "no",
+            "oracle_classification": "no",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "1",
+            "decision": "no",
+            "oracle_classification": "no",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": true
+          }
+        ],
+        "wrong_definite_decisions": 0,
+        "valid": true
+      },
+      "partition_enclosed": true,
+      "relative_partition_width": "0",
+      "observed": {
+        "probability_interval": [
+          "1026/2587",
+          "1026/2587"
+        ],
+        "partition_interval": [
+          "2587",
+          "2587"
+        ],
+        "exact_paths": 543,
+        "bounded_subtrees": 0
+      },
+      "full_depth_exact": true,
+      "outcome": "valid"
+    },
+    {
+      "family": "mixed9",
+      "role": "nontrivial",
+      "configuration": "shallow",
+      "depth": 2,
+      "decisions": [
+        {
+          "threshold": "0",
+          "decision": "yes",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": true
+        },
+        {
+          "threshold": "1/100",
+          "decision": "undecided",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "1/4",
+          "decision": "undecided",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "16615/35751",
+          "decision": "undecided",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": true,
+          "is_boundary": false
+        },
+        {
+          "threshold": "1/2",
+          "decision": "undecided",
+          "oracle_classification": "no",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "3/4",
+          "decision": "undecided",
+          "oracle_classification": "no",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "99/100",
+          "decision": "undecided",
+          "oracle_classification": "no",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "1",
+          "decision": "undecided",
+          "oracle_classification": "no",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": true
+        }
+      ],
+      "elapsed_seconds": 0.0620224109998162,
+      "audit": {
+        "enclosed": true,
+        "probability_width": "1",
+        "decisions": [
+          {
+            "threshold": "0",
+            "decision": "yes",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": true
+          },
+          {
+            "threshold": "1/100",
+            "decision": "undecided",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "1/4",
+            "decision": "undecided",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "16615/35751",
+            "decision": "undecided",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": true,
+            "is_boundary": false
+          },
+          {
+            "threshold": "1/2",
+            "decision": "undecided",
+            "oracle_classification": "no",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "3/4",
+            "decision": "undecided",
+            "oracle_classification": "no",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "99/100",
+            "decision": "undecided",
+            "oracle_classification": "no",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "1",
+            "decision": "undecided",
+            "oracle_classification": "no",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": true
+          }
+        ],
+        "wrong_definite_decisions": 0,
+        "valid": true
+      },
+      "partition_enclosed": true,
+      "relative_partition_width": "3796875/762688",
+      "observed": {
+        "probability_interval": [
+          "0",
+          "1"
+        ],
+        "partition_interval": [
+          "0",
+          "34171875/4096"
+        ],
+        "exact_paths": 0,
+        "bounded_subtrees": 1
+      },
+      "full_depth_exact": true,
+      "outcome": "valid"
+    },
+    {
+      "family": "mixed9",
+      "role": "nontrivial",
+      "configuration": "moderate",
+      "depth": 6,
+      "decisions": [
+        {
+          "threshold": "0",
+          "decision": "yes",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": true
+        },
+        {
+          "threshold": "1/100",
+          "decision": "undecided",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "1/4",
+          "decision": "undecided",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "16615/35751",
+          "decision": "undecided",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": true,
+          "is_boundary": false
+        },
+        {
+          "threshold": "1/2",
+          "decision": "undecided",
+          "oracle_classification": "no",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "3/4",
+          "decision": "undecided",
+          "oracle_classification": "no",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "99/100",
+          "decision": "undecided",
+          "oracle_classification": "no",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "1",
+          "decision": "undecided",
+          "oracle_classification": "no",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": true
+        }
+      ],
+      "elapsed_seconds": 0.059454619999996794,
+      "audit": {
+        "enclosed": true,
+        "probability_width": "1",
+        "decisions": [
+          {
+            "threshold": "0",
+            "decision": "yes",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": true
+          },
+          {
+            "threshold": "1/100",
+            "decision": "undecided",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "1/4",
+            "decision": "undecided",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "16615/35751",
+            "decision": "undecided",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": true,
+            "is_boundary": false
+          },
+          {
+            "threshold": "1/2",
+            "decision": "undecided",
+            "oracle_classification": "no",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "3/4",
+            "decision": "undecided",
+            "oracle_classification": "no",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "99/100",
+            "decision": "undecided",
+            "oracle_classification": "no",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "1",
+            "decision": "undecided",
+            "oracle_classification": "no",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": true
+          }
+        ],
+        "wrong_definite_decisions": 0,
+        "valid": true
+      },
+      "partition_enclosed": true,
+      "relative_partition_width": "1134375/381344",
+      "observed": {
+        "probability_interval": [
+          "0",
+          "1"
+        ],
+        "partition_interval": [
+          "0",
+          "10209375/2048"
+        ],
+        "exact_paths": 0,
+        "bounded_subtrees": 71
+      },
+      "full_depth_exact": true,
+      "outcome": "valid"
+    },
+    {
+      "family": "mixed9",
+      "role": "nontrivial",
+      "configuration": "enriched",
+      "depth": 4,
+      "decisions": [
+        {
+          "threshold": "0",
+          "decision": "yes",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": true
+        },
+        {
+          "threshold": "1/100",
+          "decision": "yes",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "1/4",
+          "decision": "yes",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "16615/35751",
+          "decision": "yes",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": true,
+          "is_boundary": false
+        },
+        {
+          "threshold": "1/2",
+          "decision": "no",
+          "oracle_classification": "no",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "3/4",
+          "decision": "no",
+          "oracle_classification": "no",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "99/100",
+          "decision": "no",
+          "oracle_classification": "no",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "1",
+          "decision": "no",
+          "oracle_classification": "no",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": true
+        }
+      ],
+      "elapsed_seconds": 0.17222802600008436,
+      "audit": {
+        "enclosed": true,
+        "probability_width": "0",
+        "decisions": [
+          {
+            "threshold": "0",
+            "decision": "yes",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": true
+          },
+          {
+            "threshold": "1/100",
+            "decision": "yes",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "1/4",
+            "decision": "yes",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "16615/35751",
+            "decision": "yes",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": true,
+            "is_boundary": false
+          },
+          {
+            "threshold": "1/2",
+            "decision": "no",
+            "oracle_classification": "no",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "3/4",
+            "decision": "no",
+            "oracle_classification": "no",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "99/100",
+            "decision": "no",
+            "oracle_classification": "no",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "1",
+            "decision": "no",
+            "oracle_classification": "no",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": true
+          }
+        ],
+        "wrong_definite_decisions": 0,
+        "valid": true
+      },
+      "partition_enclosed": true,
+      "relative_partition_width": "0",
+      "observed": {
+        "probability_interval": [
+          "16615/35751",
+          "16615/35751"
+        ],
+        "partition_interval": [
+          "107253/64",
+          "107253/64"
+        ],
+        "exact_paths": 0,
+        "bounded_subtrees": 9
+      },
+      "full_depth_exact": true,
+      "outcome": "valid"
+    },
+    {
+      "family": "mixed9",
+      "role": "nontrivial",
+      "configuration": "full",
+      "depth": 9,
+      "decisions": [
+        {
+          "threshold": "0",
+          "decision": "yes",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": true
+        },
+        {
+          "threshold": "1/100",
+          "decision": "yes",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "1/4",
+          "decision": "yes",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "16615/35751",
+          "decision": "yes",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": true,
+          "is_boundary": false
+        },
+        {
+          "threshold": "1/2",
+          "decision": "no",
+          "oracle_classification": "no",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "3/4",
+          "decision": "no",
+          "oracle_classification": "no",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "99/100",
+          "decision": "no",
+          "oracle_classification": "no",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "1",
+          "decision": "no",
+          "oracle_classification": "no",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": true
+        }
+      ],
+      "elapsed_seconds": 0.07892344599986245,
+      "audit": {
+        "enclosed": true,
+        "probability_width": "0",
+        "decisions": [
+          {
+            "threshold": "0",
+            "decision": "yes",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": true
+          },
+          {
+            "threshold": "1/100",
+            "decision": "yes",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "1/4",
+            "decision": "yes",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "16615/35751",
+            "decision": "yes",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": true,
+            "is_boundary": false
+          },
+          {
+            "threshold": "1/2",
+            "decision": "no",
+            "oracle_classification": "no",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "3/4",
+            "decision": "no",
+            "oracle_classification": "no",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "99/100",
+            "decision": "no",
+            "oracle_classification": "no",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "1",
+            "decision": "no",
+            "oracle_classification": "no",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": true
+          }
+        ],
+        "wrong_definite_decisions": 0,
+        "valid": true
+      },
+      "partition_enclosed": true,
+      "relative_partition_width": "0",
+      "observed": {
+        "probability_interval": [
+          "16615/35751",
+          "16615/35751"
+        ],
+        "partition_interval": [
+          "107253/64",
+          "107253/64"
+        ],
+        "exact_paths": 1479,
+        "bounded_subtrees": 0
+      },
+      "full_depth_exact": true,
+      "outcome": "valid"
+    },
+    {
+      "family": "mixed10",
+      "role": "nontrivial",
+      "configuration": "shallow",
+      "depth": 2,
+      "decisions": [
+        {
+          "threshold": "0",
+          "decision": "yes",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": true
+        },
+        {
+          "threshold": "1/100",
+          "decision": "undecided",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "1/4",
+          "decision": "undecided",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "1/2",
+          "decision": "undecided",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "47645/69301",
+          "decision": "undecided",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": true,
+          "is_boundary": false
+        },
+        {
+          "threshold": "3/4",
+          "decision": "undecided",
+          "oracle_classification": "no",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "99/100",
+          "decision": "undecided",
+          "oracle_classification": "no",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "1",
+          "decision": "undecided",
+          "oracle_classification": "no",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": true
+        }
+      ],
+      "elapsed_seconds": 0.06508752799982176,
+      "audit": {
+        "enclosed": true,
+        "probability_width": "1",
+        "decisions": [
+          {
+            "threshold": "0",
+            "decision": "yes",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": true
+          },
+          {
+            "threshold": "1/100",
+            "decision": "undecided",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "1/4",
+            "decision": "undecided",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "1/2",
+            "decision": "undecided",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "47645/69301",
+            "decision": "undecided",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": true,
+            "is_boundary": false
+          },
+          {
+            "threshold": "3/4",
+            "decision": "undecided",
+            "oracle_classification": "no",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "99/100",
+            "decision": "undecided",
+            "oracle_classification": "no",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "1",
+            "decision": "undecided",
+            "oracle_classification": "no",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": true
+          }
+        ],
+        "wrong_definite_decisions": 0,
+        "valid": true
+      },
+      "partition_enclosed": true,
+      "relative_partition_width": "2562890625/2217632",
+      "observed": {
+        "probability_interval": [
+          "0",
+          "1"
+        ],
+        "partition_interval": [
+          "0",
+          "2562890625/256"
+        ],
+        "exact_paths": 0,
+        "bounded_subtrees": 1
+      },
+      "full_depth_exact": true,
+      "outcome": "valid"
+    },
+    {
+      "family": "mixed10",
+      "role": "nontrivial",
+      "configuration": "moderate",
+      "depth": 6,
+      "decisions": [
+        {
+          "threshold": "0",
+          "decision": "yes",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": true
+        },
+        {
+          "threshold": "1/100",
+          "decision": "undecided",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "1/4",
+          "decision": "undecided",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "1/2",
+          "decision": "undecided",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "47645/69301",
+          "decision": "undecided",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": true,
+          "is_boundary": false
+        },
+        {
+          "threshold": "3/4",
+          "decision": "undecided",
+          "oracle_classification": "no",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "99/100",
+          "decision": "undecided",
+          "oracle_classification": "no",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "1",
+          "decision": "undecided",
+          "oracle_classification": "no",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": true
+        }
+      ],
+      "elapsed_seconds": 0.06012961199940037,
+      "audit": {
+        "enclosed": true,
+        "probability_width": "1",
+        "decisions": [
+          {
+            "threshold": "0",
+            "decision": "yes",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": true
+          },
+          {
+            "threshold": "1/100",
+            "decision": "undecided",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "1/4",
+            "decision": "undecided",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "1/2",
+            "decision": "undecided",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "47645/69301",
+            "decision": "undecided",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": true,
+            "is_boundary": false
+          },
+          {
+            "threshold": "3/4",
+            "decision": "undecided",
+            "oracle_classification": "no",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "99/100",
+            "decision": "undecided",
+            "oracle_classification": "no",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "1",
+            "decision": "undecided",
+            "oracle_classification": "no",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": true
+          }
+        ],
+        "wrong_definite_decisions": 0,
+        "valid": true
+      },
+      "partition_enclosed": true,
+      "relative_partition_width": "259453125/1108816",
+      "observed": {
+        "probability_interval": [
+          "0",
+          "1"
+        ],
+        "partition_interval": [
+          "0",
+          "259453125/128"
+        ],
+        "exact_paths": 0,
+        "bounded_subtrees": 71
+      },
+      "full_depth_exact": true,
+      "outcome": "valid"
+    },
+    {
+      "family": "mixed10",
+      "role": "nontrivial",
+      "configuration": "enriched",
+      "depth": 4,
+      "decisions": [
+        {
+          "threshold": "0",
+          "decision": "yes",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": true
+        },
+        {
+          "threshold": "1/100",
+          "decision": "yes",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "1/4",
+          "decision": "yes",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "1/2",
+          "decision": "yes",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "47645/69301",
+          "decision": "yes",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": true,
+          "is_boundary": false
+        },
+        {
+          "threshold": "3/4",
+          "decision": "no",
+          "oracle_classification": "no",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "99/100",
+          "decision": "no",
+          "oracle_classification": "no",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "1",
+          "decision": "no",
+          "oracle_classification": "no",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": true
+        }
+      ],
+      "elapsed_seconds": 0.2496904829995401,
+      "audit": {
+        "enclosed": true,
+        "probability_width": "0",
+        "decisions": [
+          {
+            "threshold": "0",
+            "decision": "yes",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": true
+          },
+          {
+            "threshold": "1/100",
+            "decision": "yes",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "1/4",
+            "decision": "yes",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "1/2",
+            "decision": "yes",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "47645/69301",
+            "decision": "yes",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": true,
+            "is_boundary": false
+          },
+          {
+            "threshold": "3/4",
+            "decision": "no",
+            "oracle_classification": "no",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "99/100",
+            "decision": "no",
+            "oracle_classification": "no",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "1",
+            "decision": "no",
+            "oracle_classification": "no",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": true
+          }
+        ],
+        "wrong_definite_decisions": 0,
+        "valid": true
+      },
+      "partition_enclosed": true,
+      "relative_partition_width": "0",
+      "observed": {
+        "probability_interval": [
+          "47645/69301",
+          "47645/69301"
+        ],
+        "partition_interval": [
+          "69301/8",
+          "69301/8"
+        ],
+        "exact_paths": 0,
+        "bounded_subtrees": 9
+      },
+      "full_depth_exact": true,
+      "outcome": "valid"
+    },
+    {
+      "family": "mixed10",
+      "role": "nontrivial",
+      "configuration": "full",
+      "depth": 10,
+      "decisions": [
+        {
+          "threshold": "0",
+          "decision": "yes",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": true
+        },
+        {
+          "threshold": "1/100",
+          "decision": "yes",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "1/4",
+          "decision": "yes",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "1/2",
+          "decision": "yes",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "47645/69301",
+          "decision": "yes",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": true,
+          "is_boundary": false
+        },
+        {
+          "threshold": "3/4",
+          "decision": "no",
+          "oracle_classification": "no",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "99/100",
+          "decision": "no",
+          "oracle_classification": "no",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "1",
+          "decision": "no",
+          "oracle_classification": "no",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": true
+        }
+      ],
+      "elapsed_seconds": 0.1194722569998703,
+      "audit": {
+        "enclosed": true,
+        "probability_width": "0",
+        "decisions": [
+          {
+            "threshold": "0",
+            "decision": "yes",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": true
+          },
+          {
+            "threshold": "1/100",
+            "decision": "yes",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "1/4",
+            "decision": "yes",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "1/2",
+            "decision": "yes",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "47645/69301",
+            "decision": "yes",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": true,
+            "is_boundary": false
+          },
+          {
+            "threshold": "3/4",
+            "decision": "no",
+            "oracle_classification": "no",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "99/100",
+            "decision": "no",
+            "oracle_classification": "no",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "1",
+            "decision": "no",
+            "oracle_classification": "no",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": true
+          }
+        ],
+        "wrong_definite_decisions": 0,
+        "valid": true
+      },
+      "partition_enclosed": true,
+      "relative_partition_width": "0",
+      "observed": {
+        "probability_interval": [
+          "47645/69301",
+          "47645/69301"
+        ],
+        "partition_interval": [
+          "69301/8",
+          "69301/8"
+        ],
+        "exact_paths": 4067,
+        "bounded_subtrees": 0
+      },
+      "full_depth_exact": true,
+      "outcome": "valid"
+    },
+    {
+      "family": "impossible_event",
+      "role": "negative_control",
+      "configuration": "shallow",
+      "depth": 2,
+      "decisions": [
+        {
+          "threshold": "0",
+          "decision": "yes",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": true,
+          "is_boundary": true
+        },
+        {
+          "threshold": "1/100",
+          "decision": "no",
+          "oracle_classification": "no",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "1/4",
+          "decision": "no",
+          "oracle_classification": "no",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "1/2",
+          "decision": "no",
+          "oracle_classification": "no",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "3/4",
+          "decision": "no",
+          "oracle_classification": "no",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "99/100",
+          "decision": "no",
+          "oracle_classification": "no",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "1",
+          "decision": "no",
+          "oracle_classification": "no",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": true
+        }
+      ],
+      "elapsed_seconds": 0.06297717899997224,
+      "audit": {
+        "enclosed": true,
+        "probability_width": "0",
+        "decisions": [
+          {
+            "threshold": "0",
+            "decision": "yes",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": true,
+            "is_boundary": true
+          },
+          {
+            "threshold": "1/100",
+            "decision": "no",
+            "oracle_classification": "no",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "1/4",
+            "decision": "no",
+            "oracle_classification": "no",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "1/2",
+            "decision": "no",
+            "oracle_classification": "no",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "3/4",
+            "decision": "no",
+            "oracle_classification": "no",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "99/100",
+            "decision": "no",
+            "oracle_classification": "no",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "1",
+            "decision": "no",
+            "oracle_classification": "no",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": true
+          }
+        ],
+        "wrong_definite_decisions": 0,
+        "valid": true
+      },
+      "partition_enclosed": true,
+      "relative_partition_width": "243/181",
+      "observed": {
+        "probability_interval": [
+          "0",
+          "0"
+        ],
+        "partition_interval": [
+          "0",
+          "729"
+        ],
+        "exact_paths": 0,
+        "bounded_subtrees": 1
+      },
+      "full_depth_exact": true,
+      "outcome": "valid"
+    },
+    {
+      "family": "impossible_event",
+      "role": "negative_control",
+      "configuration": "moderate",
+      "depth": 6,
+      "decisions": [
+        {
+          "threshold": "0",
+          "decision": "yes",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": true,
+          "is_boundary": true
+        },
+        {
+          "threshold": "1/100",
+          "decision": "no",
+          "oracle_classification": "no",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "1/4",
+          "decision": "no",
+          "oracle_classification": "no",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "1/2",
+          "decision": "no",
+          "oracle_classification": "no",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "3/4",
+          "decision": "no",
+          "oracle_classification": "no",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "99/100",
+          "decision": "no",
+          "oracle_classification": "no",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "1",
+          "decision": "no",
+          "oracle_classification": "no",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": true
+        }
+      ],
+      "elapsed_seconds": 0.054670819000421034,
+      "audit": {
+        "enclosed": true,
+        "probability_width": "0",
+        "decisions": [
+          {
+            "threshold": "0",
+            "decision": "yes",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": true,
+            "is_boundary": true
+          },
+          {
+            "threshold": "1/100",
+            "decision": "no",
+            "oracle_classification": "no",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "1/4",
+            "decision": "no",
+            "oracle_classification": "no",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "1/2",
+            "decision": "no",
+            "oracle_classification": "no",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "3/4",
+            "decision": "no",
+            "oracle_classification": "no",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "99/100",
+            "decision": "no",
+            "oracle_classification": "no",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "1",
+            "decision": "no",
+            "oracle_classification": "no",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": true
+          }
+        ],
+        "wrong_definite_decisions": 0,
+        "valid": true
+      },
+      "partition_enclosed": true,
+      "relative_partition_width": "213/181",
+      "observed": {
+        "probability_interval": [
+          "0",
+          "0"
+        ],
+        "partition_interval": [
+          "0",
+          "639"
+        ],
+        "exact_paths": 0,
+        "bounded_subtrees": 71
+      },
+      "full_depth_exact": true,
+      "outcome": "valid"
+    },
+    {
+      "family": "impossible_event",
+      "role": "negative_control",
+      "configuration": "enriched",
+      "depth": 4,
+      "decisions": [
+        {
+          "threshold": "0",
+          "decision": "yes",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": true,
+          "is_boundary": true
+        },
+        {
+          "threshold": "1/100",
+          "decision": "no",
+          "oracle_classification": "no",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "1/4",
+          "decision": "no",
+          "oracle_classification": "no",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "1/2",
+          "decision": "no",
+          "oracle_classification": "no",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "3/4",
+          "decision": "no",
+          "oracle_classification": "no",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "99/100",
+          "decision": "no",
+          "oracle_classification": "no",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "1",
+          "decision": "no",
+          "oracle_classification": "no",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": true
+        }
+      ],
+      "elapsed_seconds": 0.1018934209996587,
+      "audit": {
+        "enclosed": true,
+        "probability_width": "0",
+        "decisions": [
+          {
+            "threshold": "0",
+            "decision": "yes",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": true,
+            "is_boundary": true
+          },
+          {
+            "threshold": "1/100",
+            "decision": "no",
+            "oracle_classification": "no",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "1/4",
+            "decision": "no",
+            "oracle_classification": "no",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "1/2",
+            "decision": "no",
+            "oracle_classification": "no",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "3/4",
+            "decision": "no",
+            "oracle_classification": "no",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "99/100",
+            "decision": "no",
+            "oracle_classification": "no",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "1",
+            "decision": "no",
+            "oracle_classification": "no",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": true
+          }
+        ],
+        "wrong_definite_decisions": 0,
+        "valid": true
+      },
+      "partition_enclosed": true,
+      "relative_partition_width": "0",
+      "observed": {
+        "probability_interval": [
+          "0",
+          "0"
+        ],
+        "partition_interval": [
+          "543",
+          "543"
+        ],
+        "exact_paths": 0,
+        "bounded_subtrees": 9
+      },
+      "full_depth_exact": true,
+      "outcome": "valid"
+    },
+    {
+      "family": "impossible_event",
+      "role": "negative_control",
+      "configuration": "full",
+      "depth": 8,
+      "decisions": [
+        {
+          "threshold": "0",
+          "decision": "yes",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": true,
+          "is_boundary": true
+        },
+        {
+          "threshold": "1/100",
+          "decision": "no",
+          "oracle_classification": "no",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "1/4",
+          "decision": "no",
+          "oracle_classification": "no",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "1/2",
+          "decision": "no",
+          "oracle_classification": "no",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "3/4",
+          "decision": "no",
+          "oracle_classification": "no",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "99/100",
+          "decision": "no",
+          "oracle_classification": "no",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "1",
+          "decision": "no",
+          "oracle_classification": "no",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": true
+        }
+      ],
+      "elapsed_seconds": 0.05972379899958469,
+      "audit": {
+        "enclosed": true,
+        "probability_width": "0",
+        "decisions": [
+          {
+            "threshold": "0",
+            "decision": "yes",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": true,
+            "is_boundary": true
+          },
+          {
+            "threshold": "1/100",
+            "decision": "no",
+            "oracle_classification": "no",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "1/4",
+            "decision": "no",
+            "oracle_classification": "no",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "1/2",
+            "decision": "no",
+            "oracle_classification": "no",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "3/4",
+            "decision": "no",
+            "oracle_classification": "no",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "99/100",
+            "decision": "no",
+            "oracle_classification": "no",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "1",
+            "decision": "no",
+            "oracle_classification": "no",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": true
+          }
+        ],
+        "wrong_definite_decisions": 0,
+        "valid": true
+      },
+      "partition_enclosed": true,
+      "relative_partition_width": "0",
+      "observed": {
+        "probability_interval": [
+          "0",
+          "0"
+        ],
+        "partition_interval": [
+          "543",
+          "543"
+        ],
+        "exact_paths": 543,
+        "bounded_subtrees": 0
+      },
+      "full_depth_exact": true,
+      "outcome": "valid"
+    },
+    {
+      "family": "certain_event",
+      "role": "positive_control",
+      "configuration": "shallow",
+      "depth": 2,
+      "decisions": [
+        {
+          "threshold": "0",
+          "decision": "yes",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": true
+        },
+        {
+          "threshold": "1/100",
+          "decision": "undecided",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "1/4",
+          "decision": "undecided",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "1/2",
+          "decision": "undecided",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "3/4",
+          "decision": "undecided",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "99/100",
+          "decision": "undecided",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "1",
+          "decision": "undecided",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": true,
+          "is_boundary": true
+        }
+      ],
+      "elapsed_seconds": 0.0677046099999643,
+      "audit": {
+        "enclosed": true,
+        "probability_width": "1",
+        "decisions": [
+          {
+            "threshold": "0",
+            "decision": "yes",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": true
+          },
+          {
+            "threshold": "1/100",
+            "decision": "undecided",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "1/4",
+            "decision": "undecided",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "1/2",
+            "decision": "undecided",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "3/4",
+            "decision": "undecided",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "99/100",
+            "decision": "undecided",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "1",
+            "decision": "undecided",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": true,
+            "is_boundary": true
+          }
+        ],
+        "wrong_definite_decisions": 0,
+        "valid": true
+      },
+      "partition_enclosed": true,
+      "relative_partition_width": "531441/40496",
+      "observed": {
+        "probability_interval": [
+          "0",
+          "1"
+        ],
+        "partition_interval": [
+          "0",
+          "1594323/64"
+        ],
+        "exact_paths": 0,
+        "bounded_subtrees": 1
+      },
+      "full_depth_exact": true,
+      "outcome": "valid"
+    },
+    {
+      "family": "certain_event",
+      "role": "positive_control",
+      "configuration": "moderate",
+      "depth": 6,
+      "decisions": [
+        {
+          "threshold": "0",
+          "decision": "yes",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": true
+        },
+        {
+          "threshold": "1/100",
+          "decision": "undecided",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "1/4",
+          "decision": "undecided",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "1/2",
+          "decision": "undecided",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "3/4",
+          "decision": "undecided",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "99/100",
+          "decision": "undecided",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "1",
+          "decision": "undecided",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": true,
+          "is_boundary": true
+        }
+      ],
+      "elapsed_seconds": 0.05459655100003147,
+      "audit": {
+        "enclosed": true,
+        "probability_width": "1",
+        "decisions": [
+          {
+            "threshold": "0",
+            "decision": "yes",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": true
+          },
+          {
+            "threshold": "1/100",
+            "decision": "undecided",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "1/4",
+            "decision": "undecided",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "1/2",
+            "decision": "undecided",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "3/4",
+            "decision": "undecided",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "99/100",
+            "decision": "undecided",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "1",
+            "decision": "undecided",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": true,
+            "is_boundary": true
+          }
+        ],
+        "wrong_definite_decisions": 0,
+        "valid": true
+      },
+      "partition_enclosed": true,
+      "relative_partition_width": "117369/20248",
+      "observed": {
+        "probability_interval": [
+          "0",
+          "1"
+        ],
+        "partition_interval": [
+          "0",
+          "352107/32"
+        ],
+        "exact_paths": 0,
+        "bounded_subtrees": 71
+      },
+      "full_depth_exact": true,
+      "outcome": "valid"
+    },
+    {
+      "family": "certain_event",
+      "role": "positive_control",
+      "configuration": "enriched",
+      "depth": 4,
+      "decisions": [
+        {
+          "threshold": "0",
+          "decision": "yes",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": true
+        },
+        {
+          "threshold": "1/100",
+          "decision": "yes",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "1/4",
+          "decision": "yes",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "1/2",
+          "decision": "yes",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "3/4",
+          "decision": "yes",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "99/100",
+          "decision": "yes",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "1",
+          "decision": "yes",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": true,
+          "is_boundary": true
+        }
+      ],
+      "elapsed_seconds": 0.15894473699972878,
+      "audit": {
+        "enclosed": true,
+        "probability_width": "0",
+        "decisions": [
+          {
+            "threshold": "0",
+            "decision": "yes",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": true
+          },
+          {
+            "threshold": "1/100",
+            "decision": "yes",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "1/4",
+            "decision": "yes",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "1/2",
+            "decision": "yes",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "3/4",
+            "decision": "yes",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "99/100",
+            "decision": "yes",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "1",
+            "decision": "yes",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": true,
+            "is_boundary": true
+          }
+        ],
+        "wrong_definite_decisions": 0,
+        "valid": true
+      },
+      "partition_enclosed": true,
+      "relative_partition_width": "0",
+      "observed": {
+        "probability_interval": [
+          "1",
+          "1"
+        ],
+        "partition_interval": [
+          "7593/4",
+          "7593/4"
+        ],
+        "exact_paths": 0,
+        "bounded_subtrees": 9
+      },
+      "full_depth_exact": true,
+      "outcome": "valid"
+    },
+    {
+      "family": "certain_event",
+      "role": "positive_control",
+      "configuration": "full",
+      "depth": 9,
+      "decisions": [
+        {
+          "threshold": "0",
+          "decision": "yes",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": true
+        },
+        {
+          "threshold": "1/100",
+          "decision": "yes",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "1/4",
+          "decision": "yes",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "1/2",
+          "decision": "yes",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "3/4",
+          "decision": "yes",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "99/100",
+          "decision": "yes",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": false,
+          "is_boundary": false
+        },
+        {
+          "threshold": "1",
+          "decision": "yes",
+          "oracle_classification": "yes",
+          "wrong_definite_decision": false,
+          "is_reference_equality": true,
+          "is_boundary": true
+        }
+      ],
+      "elapsed_seconds": 0.07869695299996238,
+      "audit": {
+        "enclosed": true,
+        "probability_width": "0",
+        "decisions": [
+          {
+            "threshold": "0",
+            "decision": "yes",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": true
+          },
+          {
+            "threshold": "1/100",
+            "decision": "yes",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "1/4",
+            "decision": "yes",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "1/2",
+            "decision": "yes",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "3/4",
+            "decision": "yes",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "99/100",
+            "decision": "yes",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": false,
+            "is_boundary": false
+          },
+          {
+            "threshold": "1",
+            "decision": "yes",
+            "oracle_classification": "yes",
+            "wrong_definite_decision": false,
+            "is_reference_equality": true,
+            "is_boundary": true
+          }
+        ],
+        "wrong_definite_decisions": 0,
+        "valid": true
+      },
+      "partition_enclosed": true,
+      "relative_partition_width": "0",
+      "observed": {
+        "probability_interval": [
+          "1",
+          "1"
+        ],
+        "partition_interval": [
+          "7593/4",
+          "7593/4"
+        ],
+        "exact_paths": 1479,
+        "bounded_subtrees": 0
+      },
+      "full_depth_exact": true,
+      "outcome": "valid"
+    }
+  ],
+  "summaries": [
+    {
+      "configuration": "shallow",
+      "role": "all",
+      "expected_calls": 8,
+      "parsed_calls": 8,
+      "valid_enclosures": 8,
+      "outcomes": {
+        "valid": 8
+      },
+      "expected_decisions": 62,
+      "decision_counts": {
+        "no": 6,
+        "undecided": 48,
+        "yes": 8
+      },
+      "decided": 14,
+      "decision_coverage": 0.22580645161290322,
+      "nonboundary_decision_denominator": 46,
+      "nonboundary_decided": 5,
+      "nonboundary_decision_coverage": 0.10869565217391304,
+      "wrong_definite_decisions": 0,
+      "reference_equality_decisions": {
+        "undecided": 7,
+        "yes": 1
+      },
+      "mean_probability_width": "7/8",
+      "median_wall_seconds": 0.06639606899989303,
+      "minimum_wall_seconds": 0.0620224109998162,
+      "maximum_wall_seconds": 0.07707993400072155
+    },
+    {
+      "configuration": "shallow",
+      "role": "nontrivial",
+      "expected_calls": 6,
+      "parsed_calls": 6,
+      "valid_enclosures": 6,
+      "outcomes": {
+        "valid": 6
+      },
+      "expected_decisions": 48,
+      "decision_counts": {
+        "undecided": 42,
+        "yes": 6
+      },
+      "decided": 6,
+      "decision_coverage": 0.125,
+      "nonboundary_decision_denominator": 36,
+      "nonboundary_decided": 0,
+      "nonboundary_decision_coverage": 0.0,
+      "wrong_definite_decisions": 0,
+      "reference_equality_decisions": {
+        "undecided": 6
+      },
+      "mean_probability_width": "1",
+      "median_wall_seconds": 0.06778191700004754,
+      "minimum_wall_seconds": 0.0620224109998162,
+      "maximum_wall_seconds": 0.07707993400072155
+    },
+    {
+      "configuration": "shallow",
+      "role": "positive_control",
+      "expected_calls": 1,
+      "parsed_calls": 1,
+      "valid_enclosures": 1,
+      "outcomes": {
+        "valid": 1
+      },
+      "expected_decisions": 7,
+      "decision_counts": {
+        "undecided": 6,
+        "yes": 1
+      },
+      "decided": 1,
+      "decision_coverage": 0.14285714285714285,
+      "nonboundary_decision_denominator": 5,
+      "nonboundary_decided": 0,
+      "nonboundary_decision_coverage": 0.0,
+      "wrong_definite_decisions": 0,
+      "reference_equality_decisions": {
+        "undecided": 1
+      },
+      "mean_probability_width": "1",
+      "median_wall_seconds": 0.0677046099999643,
+      "minimum_wall_seconds": 0.0677046099999643,
+      "maximum_wall_seconds": 0.0677046099999643
+    },
+    {
+      "configuration": "shallow",
+      "role": "negative_control",
+      "expected_calls": 1,
+      "parsed_calls": 1,
+      "valid_enclosures": 1,
+      "outcomes": {
+        "valid": 1
+      },
+      "expected_decisions": 7,
+      "decision_counts": {
+        "no": 6,
+        "yes": 1
+      },
+      "decided": 7,
+      "decision_coverage": 1.0,
+      "nonboundary_decision_denominator": 5,
+      "nonboundary_decided": 5,
+      "nonboundary_decision_coverage": 1.0,
+      "wrong_definite_decisions": 0,
+      "reference_equality_decisions": {
+        "yes": 1
+      },
+      "mean_probability_width": "0",
+      "median_wall_seconds": 0.06297717899997224,
+      "minimum_wall_seconds": 0.06297717899997224,
+      "maximum_wall_seconds": 0.06297717899997224
+    },
+    {
+      "configuration": "moderate",
+      "role": "all",
+      "expected_calls": 8,
+      "parsed_calls": 8,
+      "valid_enclosures": 8,
+      "outcomes": {
+        "valid": 8
+      },
+      "expected_decisions": 62,
+      "decision_counts": {
+        "no": 6,
+        "undecided": 48,
+        "yes": 8
+      },
+      "decided": 14,
+      "decision_coverage": 0.22580645161290322,
+      "nonboundary_decision_denominator": 46,
+      "nonboundary_decided": 5,
+      "nonboundary_decision_coverage": 0.10869565217391304,
+      "wrong_definite_decisions": 0,
+      "reference_equality_decisions": {
+        "undecided": 7,
+        "yes": 1
+      },
+      "mean_probability_width": "7/8",
+      "median_wall_seconds": 0.057062719500208914,
+      "minimum_wall_seconds": 0.054117115999360976,
+      "maximum_wall_seconds": 0.06232964700029697
+    },
+    {
+      "configuration": "moderate",
+      "role": "nontrivial",
+      "expected_calls": 6,
+      "parsed_calls": 6,
+      "valid_enclosures": 6,
+      "outcomes": {
+        "valid": 6
+      },
+      "expected_decisions": 48,
+      "decision_counts": {
+        "undecided": 42,
+        "yes": 6
+      },
+      "decided": 6,
+      "decision_coverage": 0.125,
+      "nonboundary_decision_denominator": 36,
+      "nonboundary_decided": 0,
+      "nonboundary_decision_coverage": 0.0,
+      "wrong_definite_decisions": 0,
+      "reference_equality_decisions": {
+        "undecided": 6
+      },
+      "mean_probability_width": "1",
+      "median_wall_seconds": 0.05979211599969858,
+      "minimum_wall_seconds": 0.054117115999360976,
+      "maximum_wall_seconds": 0.06232964700029697
+    },
+    {
+      "configuration": "moderate",
+      "role": "positive_control",
+      "expected_calls": 1,
+      "parsed_calls": 1,
+      "valid_enclosures": 1,
+      "outcomes": {
+        "valid": 1
+      },
+      "expected_decisions": 7,
+      "decision_counts": {
+        "undecided": 6,
+        "yes": 1
+      },
+      "decided": 1,
+      "decision_coverage": 0.14285714285714285,
+      "nonboundary_decision_denominator": 5,
+      "nonboundary_decided": 0,
+      "nonboundary_decision_coverage": 0.0,
+      "wrong_definite_decisions": 0,
+      "reference_equality_decisions": {
+        "undecided": 1
+      },
+      "mean_probability_width": "1",
+      "median_wall_seconds": 0.05459655100003147,
+      "minimum_wall_seconds": 0.05459655100003147,
+      "maximum_wall_seconds": 0.05459655100003147
+    },
+    {
+      "configuration": "moderate",
+      "role": "negative_control",
+      "expected_calls": 1,
+      "parsed_calls": 1,
+      "valid_enclosures": 1,
+      "outcomes": {
+        "valid": 1
+      },
+      "expected_decisions": 7,
+      "decision_counts": {
+        "no": 6,
+        "yes": 1
+      },
+      "decided": 7,
+      "decision_coverage": 1.0,
+      "nonboundary_decision_denominator": 5,
+      "nonboundary_decided": 5,
+      "nonboundary_decision_coverage": 1.0,
+      "wrong_definite_decisions": 0,
+      "reference_equality_decisions": {
+        "yes": 1
+      },
+      "mean_probability_width": "0",
+      "median_wall_seconds": 0.054670819000421034,
+      "minimum_wall_seconds": 0.054670819000421034,
+      "maximum_wall_seconds": 0.054670819000421034
+    },
+    {
+      "configuration": "enriched",
+      "role": "all",
+      "expected_calls": 8,
+      "parsed_calls": 8,
+      "valid_enclosures": 8,
+      "outcomes": {
+        "valid": 8
+      },
+      "expected_decisions": 62,
+      "decision_counts": {
+        "no": 28,
+        "undecided": 2,
+        "yes": 32
+      },
+      "decided": 60,
+      "decision_coverage": 0.967741935483871,
+      "nonboundary_decision_denominator": 46,
+      "nonboundary_decided": 44,
+      "nonboundary_decision_coverage": 0.9565217391304348,
+      "wrong_definite_decisions": 0,
+      "reference_equality_decisions": {
+        "undecided": 1,
+        "yes": 7
+      },
+      "mean_probability_width": "6795345/288614249",
+      "median_wall_seconds": 0.16558638149990657,
+      "minimum_wall_seconds": 0.1018934209996587,
+      "maximum_wall_seconds": 0.29950014400037617
+    },
+    {
+      "configuration": "enriched",
+      "role": "nontrivial",
+      "expected_calls": 6,
+      "parsed_calls": 6,
+      "valid_enclosures": 6,
+      "outcomes": {
+        "valid": 6
+      },
+      "expected_decisions": 48,
+      "decision_counts": {
+        "no": 22,
+        "undecided": 2,
+        "yes": 24
+      },
+      "decided": 46,
+      "decision_coverage": 0.9583333333333334,
+      "nonboundary_decision_denominator": 36,
+      "nonboundary_decided": 34,
+      "nonboundary_decision_coverage": 0.9444444444444444,
+      "wrong_definite_decisions": 0,
+      "reference_equality_decisions": {
+        "undecided": 1,
+        "yes": 5
+      },
+      "mean_probability_width": "9060460/288614249",
+      "median_wall_seconds": 0.18126068000037776,
+      "minimum_wall_seconds": 0.13223798799936048,
+      "maximum_wall_seconds": 0.29950014400037617
+    },
+    {
+      "configuration": "enriched",
+      "role": "positive_control",
+      "expected_calls": 1,
+      "parsed_calls": 1,
+      "valid_enclosures": 1,
+      "outcomes": {
+        "valid": 1
+      },
+      "expected_decisions": 7,
+      "decision_counts": {
+        "yes": 7
+      },
+      "decided": 7,
+      "decision_coverage": 1.0,
+      "nonboundary_decision_denominator": 5,
+      "nonboundary_decided": 5,
+      "nonboundary_decision_coverage": 1.0,
+      "wrong_definite_decisions": 0,
+      "reference_equality_decisions": {
+        "yes": 1
+      },
+      "mean_probability_width": "0",
+      "median_wall_seconds": 0.15894473699972878,
+      "minimum_wall_seconds": 0.15894473699972878,
+      "maximum_wall_seconds": 0.15894473699972878
+    },
+    {
+      "configuration": "enriched",
+      "role": "negative_control",
+      "expected_calls": 1,
+      "parsed_calls": 1,
+      "valid_enclosures": 1,
+      "outcomes": {
+        "valid": 1
+      },
+      "expected_decisions": 7,
+      "decision_counts": {
+        "no": 6,
+        "yes": 1
+      },
+      "decided": 7,
+      "decision_coverage": 1.0,
+      "nonboundary_decision_denominator": 5,
+      "nonboundary_decided": 5,
+      "nonboundary_decision_coverage": 1.0,
+      "wrong_definite_decisions": 0,
+      "reference_equality_decisions": {
+        "yes": 1
+      },
+      "mean_probability_width": "0",
+      "median_wall_seconds": 0.1018934209996587,
+      "minimum_wall_seconds": 0.1018934209996587,
+      "maximum_wall_seconds": 0.1018934209996587
+    },
+    {
+      "configuration": "full",
+      "role": "all",
+      "expected_calls": 8,
+      "parsed_calls": 8,
+      "valid_enclosures": 8,
+      "outcomes": {
+        "valid": 8
+      },
+      "expected_decisions": 62,
+      "decision_counts": {
+        "no": 29,
+        "yes": 33
+      },
+      "decided": 62,
+      "decision_coverage": 1.0,
+      "nonboundary_decision_denominator": 46,
+      "nonboundary_decided": 46,
+      "nonboundary_decision_coverage": 1.0,
+      "wrong_definite_decisions": 0,
+      "reference_equality_decisions": {
+        "yes": 8
+      },
+      "mean_probability_width": "0",
+      "median_wall_seconds": 0.07881019949991241,
+      "minimum_wall_seconds": 0.05972379899958469,
+      "maximum_wall_seconds": 0.18365914800051542
+    },
+    {
+      "configuration": "full",
+      "role": "nontrivial",
+      "expected_calls": 6,
+      "parsed_calls": 6,
+      "valid_enclosures": 6,
+      "outcomes": {
+        "valid": 6
+      },
+      "expected_decisions": 48,
+      "decision_counts": {
+        "no": 23,
+        "yes": 25
+      },
+      "decided": 48,
+      "decision_coverage": 1.0,
+      "nonboundary_decision_denominator": 36,
+      "nonboundary_decided": 36,
+      "nonboundary_decision_coverage": 1.0,
+      "wrong_definite_decisions": 0,
+      "reference_equality_decisions": {
+        "yes": 6
+      },
+      "mean_probability_width": "0",
+      "median_wall_seconds": 0.07893712800023422,
+      "minimum_wall_seconds": 0.06719354799952271,
+      "maximum_wall_seconds": 0.18365914800051542
+    },
+    {
+      "configuration": "full",
+      "role": "positive_control",
+      "expected_calls": 1,
+      "parsed_calls": 1,
+      "valid_enclosures": 1,
+      "outcomes": {
+        "valid": 1
+      },
+      "expected_decisions": 7,
+      "decision_counts": {
+        "yes": 7
+      },
+      "decided": 7,
+      "decision_coverage": 1.0,
+      "nonboundary_decision_denominator": 5,
+      "nonboundary_decided": 5,
+      "nonboundary_decision_coverage": 1.0,
+      "wrong_definite_decisions": 0,
+      "reference_equality_decisions": {
+        "yes": 1
+      },
+      "mean_probability_width": "0",
+      "median_wall_seconds": 0.07869695299996238,
+      "minimum_wall_seconds": 0.07869695299996238,
+      "maximum_wall_seconds": 0.07869695299996238
+    },
+    {
+      "configuration": "full",
+      "role": "negative_control",
+      "expected_calls": 1,
+      "parsed_calls": 1,
+      "valid_enclosures": 1,
+      "outcomes": {
+        "valid": 1
+      },
+      "expected_decisions": 7,
+      "decision_counts": {
+        "no": 6,
+        "yes": 1
+      },
+      "decided": 7,
+      "decision_coverage": 1.0,
+      "nonboundary_decision_denominator": 5,
+      "nonboundary_decided": 5,
+      "nonboundary_decision_coverage": 1.0,
+      "wrong_definite_decisions": 0,
+      "reference_equality_decisions": {
+        "yes": 1
+      },
+      "mean_probability_width": "0",
+      "median_wall_seconds": 0.05972379899958469,
+      "minimum_wall_seconds": 0.05972379899958469,
+      "maximum_wall_seconds": 0.05972379899958469
+    }
+  ],
+  "expected_cli_calls": 32,
+  "actual_cli_calls": 32,
+  "interpretation": "Finite synthetic model decision support, no empirical proteins or biological validity. No pooled system ranking, independent-sample assumption, significance test, calibrated risk or asymptotic runtime claim."
+}
