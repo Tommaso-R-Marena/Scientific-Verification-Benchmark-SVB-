@@ -8,7 +8,7 @@ SVB separates mathematical validity, computation, numerical reliability, statist
 
 Phase II adds32 naturalistic sourced cases in16 pairs, including11 provisional narrow empirical-support cases. Its8 development and24 evaluation items are separated by scientific source family. Model prompts receive only claim/question, documents, methodology and naturally disclosed assumptions—never the reference/checker/missing-evidence annotations. The original v0.1 benchmark, source manifest, labels and recorded results below remain preserved.
 
-Read [Phase II specification](docs/phase-ii/specification.md), [reference dossiers](docs/phase-ii/reference_dossiers.md), [human review protocol](docs/phase-ii/human_adjudication.md), [system evaluation](docs/phase-ii/system_evaluations.md), [related work](docs/phase-ii/related_work.md) and [reproduction commands](docs/phase-ii/reproduce.md). Phase II is still provisionally author-adjudicated, public rather than hidden, and not publication-ready. Actual human scientific review has not occurred.
+Read [executed Phase II report](docs/phase-ii/report.md), [revised manuscript](docs/phase-ii/manuscript.md), [Phase II specification](docs/phase-ii/specification.md), [reference dossiers](docs/phase-ii/reference_dossiers.md), [human review protocol](docs/phase-ii/human_adjudication.md), [system evaluation](docs/phase-ii/system_evaluations.md), [related work](docs/phase-ii/related_work.md) and [reproduction commands](docs/phase-ii/reproduce.md). Phase II is still provisionally author-adjudicated, public rather than hidden, and not publication-ready. Actual human scientific review has not occurred.
 
 ```sh
 export PYTHONPATH="$PWD/src"
@@ -76,6 +76,6 @@ Core output reproduced byte-for-byte in the recorded Python environment. Optiona
 
 Code is Apache-2.0; UCI Iris is CC BY 4.0 and PDB archive data are CC0 (see source registry and attribution). Literature review retrieved metadata/abstracts, not a complete systematic full-paper review. The manuscript is an internal research draft, not publication-ready. No broad novelty claim is supported.
 
-A standalone GitHub Actions workflow is provided for explicit manual dispatch. No hosted CI run was started; local tests are the validation evidence. This avoids automatically consuming hosted compute on initial private-repository upload.
+A standalone GitHub Actions workflow uses explicit manual dispatch. The initial upload did not start hosted compute. Phase II subsequently ran hosted CI successfully for both the preserved v0.1 base and the additive implementation; run identities are recorded in `results/v0.2.0/release_audit.json`. Model inference is local and is not part of hosted CI.
 
 Repository: [Scientific-Verification-Benchmark-SVB-](https://github.com/Tommaso-R-Marena/Scientific-Verification-Benchmark-SVB-). The user supplied this public destination after the initial repository-creation permission failure. See [repository delivery notes](docs/publishing.md) for history and reproduction. The manuscript remains a research draft; repository availability does not imply peer review or scientific validation.

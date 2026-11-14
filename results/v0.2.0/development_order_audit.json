@@ -1,0 +1,53 @@
+{
+  "development_cases": 2,
+  "experiment": "Post-hoc development-only label-enumeration-order diagnostic; not part of primary frozen60-call experiment",
+  "interpretation": "Both devpair labels changed from formally_established to refuted after reversing allowed-label enumeration, with source evidence unchanged. This demonstrates presentation sensitivity on these two calls. It neither establishes generalization nor a first-listed-label mechanism (the reversed first label is disputed_or_unresolved). All4remain schema-invalid. Definitions retained original order; no full counterbalancing or significance claim.",
+  "label_changes": 2,
+  "n": 4,
+  "pairs": [
+    {
+      "id": "svb-32373c3aa3a1",
+      "label_changed": true,
+      "original": "formally_established",
+      "reversed": "refuted"
+    },
+    {
+      "id": "svb-83e39caa2f7a",
+      "label_changed": true,
+      "original": "formally_established",
+      "reversed": "refuted"
+    }
+  ],
+  "raw_sha256": "f3e481fddd7a91050ecde45f4f75b278676a3c7d4b74054c61bf1d80e8cf1a17",
+  "rows": [
+    {
+      "condition": "posthoc_dev_order_original",
+      "generation_completed": true,
+      "id": "svb-83e39caa2f7a",
+      "label": "formally_established",
+      "primary_schema_valid": false
+    },
+    {
+      "condition": "posthoc_dev_order_original",
+      "generation_completed": true,
+      "id": "svb-32373c3aa3a1",
+      "label": "formally_established",
+      "primary_schema_valid": false
+    },
+    {
+      "condition": "posthoc_dev_order_reversed",
+      "generation_completed": true,
+      "id": "svb-83e39caa2f7a",
+      "label": "refuted",
+      "primary_schema_valid": false
+    },
+    {
+      "condition": "posthoc_dev_order_reversed",
+      "generation_completed": true,
+      "id": "svb-32373c3aa3a1",
+      "label": "refuted",
+      "primary_schema_valid": false
+    }
+  ],
+  "schema_valid_n": 0
+}

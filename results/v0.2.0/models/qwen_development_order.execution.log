@@ -1,0 +1,5 @@
+Sliding Window Attention is enabled but not implemented for `eager`; unexpected results may be encountered.
+{"index": 1, "selected": 4, "id": "svb-83e39caa2f7a", "condition": "posthoc_dev_order_original", "status": "completed", "seconds": 10.035561696000059, "tokens": 66}
+{"index": 2, "selected": 4, "id": "svb-32373c3aa3a1", "condition": "posthoc_dev_order_original", "status": "completed", "seconds": 9.615964162999944, "tokens": 69}
+{"index": 3, "selected": 4, "id": "svb-83e39caa2f7a", "condition": "posthoc_dev_order_reversed", "status": "completed", "seconds": 19.961981870000045, "tokens": 178}
+{"index": 4, "selected": 4, "id": "svb-32373c3aa3a1", "condition": "posthoc_dev_order_reversed", "status": "completed", "seconds": 13.43743791299994, "tokens": 108}

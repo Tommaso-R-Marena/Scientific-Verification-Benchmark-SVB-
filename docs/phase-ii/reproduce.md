@@ -19,7 +19,7 @@ Compare the new baseline output with results/v0.2.0/baselines.json. The old v0.1
 No model download is required to score the retained raw response file:
 
 ```sh
-python3 scripts/analyze_phase2.py results/v0.2.0/models/qwen_scientific.jsonl --output results/local/phase2-model-scores.json
+python3 scripts/analyze_phase2.py results/v0.2.0/models/qwen_scientific_complete.jsonl --output results/local/phase2-model-scores.json
 ```
 
 This reproduces scoring, not fresh model inference. For new offline CPU inference, follow model_access.md and install the pinned optional requirements-models.txt in an SVB-local ignored virtual environment. Model weights are public Apache2.0 and pinned by revision/hash; they are not committed. Expect significant CPU runtime for60 requests. Do not use paid model credentials or APIs.
@@ -44,7 +44,7 @@ This invokes real local FoldBounds/PCS/Chromium interfaces without changing the 
 
 ```sh
 python3 scripts/build_human_review.py --output results/local/new-human-reference-packets
-python3 scripts/build_human_review.py --split evaluation --responses results/v0.2.0/models/qwen_scientific.jsonl --output results/local/new-human-response-packets
+python3 scripts/build_human_review.py --split evaluation --responses results/v0.2.0/models/qwen_scientific_complete.jsonl --output results/local/new-human-response-packets
 ```
 
 These exports omit gold/model metadata but do not create protected access controls. A human coordinator must audit identity cues before distributing to actually independent reviewers. Do not claim blinding, expert validation or hidden testing from field omission alone.

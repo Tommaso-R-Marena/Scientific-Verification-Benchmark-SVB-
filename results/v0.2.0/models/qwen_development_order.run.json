@@ -1,0 +1,66 @@
+{
+  "attention_implementation": "eager",
+  "attention_warning_analysis": "Transformers warns because config.sliding_window=32768 is nonnull; official config.use_sliding_window=false. Recorded input/output caps remain below that window. No config or weights altered.",
+  "bundle_records": 4,
+  "credential_use": false,
+  "device": "cpu",
+  "do_sample": false,
+  "dtype": "float32",
+  "elapsed_seconds": 58.38531517982483,
+  "max_input_tokens": 4096,
+  "max_new_tokens": 384,
+  "model_id": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_load_seconds": 5.330262660980225,
+  "output_sha256": "f3e481fddd7a91050ecde45f4f75b278676a3c7d4b74054c61bf1d80e8cf1a17",
+  "paid_api_calls": 0,
+  "prompt_file_sha256": "7d2adf085c4b544f2f6e5e04f187e10bc7e8c3a1549fd16de27d9a8806140d2a",
+  "prompt_truncation": false,
+  "python": "3.12.14",
+  "records": [
+    {
+      "condition": "posthoc_dev_order_original",
+      "id": "svb-83e39caa2f7a",
+      "input_tokens": 852,
+      "output_reached_token_limit": false,
+      "output_tokens": 66,
+      "seconds": 10.035561696000059,
+      "status": "completed"
+    },
+    {
+      "condition": "posthoc_dev_order_original",
+      "id": "svb-32373c3aa3a1",
+      "input_tokens": 842,
+      "output_reached_token_limit": false,
+      "output_tokens": 69,
+      "seconds": 9.615964162999944,
+      "status": "completed"
+    },
+    {
+      "condition": "posthoc_dev_order_reversed",
+      "id": "svb-83e39caa2f7a",
+      "input_tokens": 852,
+      "output_reached_token_limit": false,
+      "output_tokens": 178,
+      "seconds": 19.961981870000045,
+      "status": "completed"
+    },
+    {
+      "condition": "posthoc_dev_order_reversed",
+      "id": "svb-32373c3aa3a1",
+      "input_tokens": 842,
+      "output_reached_token_limit": false,
+      "output_tokens": 108,
+      "seconds": 13.43743791299994,
+      "status": "completed"
+    }
+  ],
+  "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+  "runner_sha256": "06d251c053058cb90cd94bf66a473eb3fd0da1a8385cc4d7b524630f3c2b939b",
+  "scoring_performed": false,
+  "seed": 0,
+  "selected_records": 4,
+  "threads": 4,
+  "torch": "2.7.1+cpu",
+  "transformers": "4.51.3",
+  "weights_sha256": "fdf756fa7fcbe7404d5c60e26bff1a0c8b8aa1f72ced49e7dd0210fe288fb7fe"
+}

@@ -1,0 +1,1 @@
+{"id": "smoke-arithmetic", "condition": "smoke", "messages": [{"role": "user", "content": "What is 2+2? Answer only as a JSON object with one key named answer."}]}

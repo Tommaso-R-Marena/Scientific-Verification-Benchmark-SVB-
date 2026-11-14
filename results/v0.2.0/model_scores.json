@@ -1,0 +1,4258 @@
+{
+  "conditions": {
+    "evidence": {
+      "adjudication": "provisional_author_adjudicated",
+      "by_difficulty": {
+        "naturalistic": {
+          "accept_reference_n": 12,
+          "accepted_n": 0,
+          "accepted_risk": null,
+          "accuracy_all": 0.0,
+          "accuracy_answered": null,
+          "accuracy_wilson95_descriptive": [
+            1.3877787807814457e-17,
+            0.13797620467498017
+          ],
+          "confusion": {
+            "computationally_established -> execution_error": 4,
+            "empirically_supported -> execution_error": 8,
+            "insufficient_evidence -> execution_error": 8,
+            "refuted -> execution_error": 4
+          },
+          "correct": 0,
+          "correct_insufficient": 0,
+          "coverage": 0.0,
+          "false_accept_count": 0,
+          "false_accept_rate": 0.0,
+          "false_reject_count": 0,
+          "mean_brier_answered": null,
+          "n": 24,
+          "nonaccept_reference_n": 12,
+          "scope_overclaims": 0,
+          "statuses": {
+            "execution_error": 24
+          }
+        }
+      },
+      "by_domain": {
+        "science": {
+          "accept_reference_n": 12,
+          "accepted_n": 0,
+          "accepted_risk": null,
+          "accuracy_all": 0.0,
+          "accuracy_answered": null,
+          "accuracy_wilson95_descriptive": [
+            1.3877787807814457e-17,
+            0.13797620467498017
+          ],
+          "confusion": {
+            "computationally_established -> execution_error": 4,
+            "empirically_supported -> execution_error": 8,
+            "insufficient_evidence -> execution_error": 8,
+            "refuted -> execution_error": 4
+          },
+          "correct": 0,
+          "correct_insufficient": 0,
+          "coverage": 0.0,
+          "false_accept_count": 0,
+          "false_accept_rate": 0.0,
+          "false_reject_count": 0,
+          "mean_brier_answered": null,
+          "n": 24,
+          "nonaccept_reference_n": 12,
+          "scope_overclaims": 0,
+          "statuses": {
+            "execution_error": 24
+          }
+        }
+      },
+      "by_severity": {
+        "high": {
+          "accept_reference_n": 0,
+          "accepted_n": 0,
+          "accepted_risk": null,
+          "accuracy_all": 0.0,
+          "accuracy_answered": null,
+          "accuracy_wilson95_descriptive": [
+            0.0,
+            0.2775327998628892
+          ],
+          "confusion": {
+            "insufficient_evidence -> execution_error": 8,
+            "refuted -> execution_error": 2
+          },
+          "correct": 0,
+          "correct_insufficient": 0,
+          "coverage": 0.0,
+          "false_accept_count": 0,
+          "false_accept_rate": 0.0,
+          "false_reject_count": 0,
+          "mean_brier_answered": null,
+          "n": 10,
+          "nonaccept_reference_n": 10,
+          "scope_overclaims": 0,
+          "statuses": {
+            "execution_error": 10
+          }
+        },
+        "ordinary": {
+          "accept_reference_n": 12,
+          "accepted_n": 0,
+          "accepted_risk": null,
+          "accuracy_all": 0.0,
+          "accuracy_answered": null,
+          "accuracy_wilson95_descriptive": [
+            1.3877787807814457e-17,
+            0.2153108027376358
+          ],
+          "confusion": {
+            "computationally_established -> execution_error": 4,
+            "empirically_supported -> execution_error": 8,
+            "refuted -> execution_error": 2
+          },
+          "correct": 0,
+          "correct_insufficient": 0,
+          "coverage": 0.0,
+          "false_accept_count": 0,
+          "false_accept_rate": 0.0,
+          "false_reject_count": 0,
+          "mean_brier_answered": null,
+          "n": 14,
+          "nonaccept_reference_n": 2,
+          "scope_overclaims": 0,
+          "statuses": {
+            "execution_error": 14
+          }
+        }
+      },
+      "condition": "evidence",
+      "excluded_unresolved_n": 0,
+      "paired": {
+        "both_correct": 0,
+        "n": 12,
+        "rows": [
+          {
+            "both_answered": false,
+            "both_correct": false,
+            "cases": [
+              "svb-5cac43968ca3",
+              "svb-6cf18a16d481"
+            ],
+            "pair_id": "PU01",
+            "same_label": false
+          },
+          {
+            "both_answered": false,
+            "both_correct": false,
+            "cases": [
+              "svb-8cd269de53bf",
+              "svb-4399d7d82628"
+            ],
+            "pair_id": "PU02",
+            "same_label": false
+          },
+          {
+            "both_answered": false,
+            "both_correct": false,
+            "cases": [
+              "svb-6bb569d5ba7e",
+              "svb-8ac12705d301"
+            ],
+            "pair_id": "PU03",
+            "same_label": false
+          },
+          {
+            "both_answered": false,
+            "both_correct": false,
+            "cases": [
+              "svb-68536bb7a951",
+              "svb-d9ffef148dc5"
+            ],
+            "pair_id": "PU04",
+            "same_label": false
+          },
+          {
+            "both_answered": false,
+            "both_correct": false,
+            "cases": [
+              "svb-dd6bcec76ce1",
+              "svb-419e5e13b7b7"
+            ],
+            "pair_id": "CO01",
+            "same_label": false
+          },
+          {
+            "both_answered": false,
+            "both_correct": false,
+            "cases": [
+              "svb-9f33c4663a5d",
+              "svb-4d714c05db2d"
+            ],
+            "pair_id": "CO02",
+            "same_label": false
+          },
+          {
+            "both_answered": false,
+            "both_correct": false,
+            "cases": [
+              "svb-e3e8e1a3f404",
+              "svb-1ebab3b83fb1"
+            ],
+            "pair_id": "CO03",
+            "same_label": false
+          },
+          {
+            "both_answered": false,
+            "both_correct": false,
+            "cases": [
+              "svb-f00434596561",
+              "svb-8ebbf0ce72cf"
+            ],
+            "pair_id": "CO04",
+            "same_label": false
+          },
+          {
+            "both_answered": false,
+            "both_correct": false,
+            "cases": [
+              "svb-bc52f66b2e04",
+              "svb-452e4e23d192"
+            ],
+            "pair_id": "FS01",
+            "same_label": false
+          },
+          {
+            "both_answered": false,
+            "both_correct": false,
+            "cases": [
+              "svb-6feb378ca1c0",
+              "svb-8bd40c4e6af8"
+            ],
+            "pair_id": "FS02",
+            "same_label": false
+          },
+          {
+            "both_answered": false,
+            "both_correct": false,
+            "cases": [
+              "svb-3dac26205064",
+              "svb-9ba09d786a13"
+            ],
+            "pair_id": "FS03",
+            "same_label": false
+          },
+          {
+            "both_answered": false,
+            "both_correct": false,
+            "cases": [
+              "svb-42170d786de1",
+              "svb-ceaeb8b404e1"
+            ],
+            "pair_id": "FS04",
+            "same_label": false
+          }
+        ]
+      },
+      "raw_rows": [
+        {
+          "case_id": "PU01N",
+          "error": "invalid scopes",
+          "fabricated_source_ids": [],
+          "family": "puromycin",
+          "id": "svb-5cac43968ca3",
+          "invalid_quotes": [],
+          "label_correct": false,
+          "label_only_secondary": "formally_established",
+          "max_confidence": null,
+          "output_reached_token_limit": false,
+          "pair": {
+            "id": "PU01",
+            "role": "narrow"
+          },
+          "predicted": null,
+          "reasoning_validity": "not_human_adjudicated",
+          "reference": "empirically_supported",
+          "scope_overclaim": false,
+          "seconds": 15.431639233996975,
+          "status": "malformed",
+          "tokens": {
+            "input": 913,
+            "output": 97
+          }
+        },
+        {
+          "case_id": "PU01S",
+          "error": "invalid scopes",
+          "fabricated_source_ids": [],
+          "family": "puromycin",
+          "id": "svb-6cf18a16d481",
+          "invalid_quotes": [],
+          "label_correct": false,
+          "label_only_secondary": "formally_established",
+          "max_confidence": null,
+          "output_reached_token_limit": false,
+          "pair": {
+            "id": "PU01",
+            "role": "stronger"
+          },
+          "predicted": null,
+          "reasoning_validity": "not_human_adjudicated",
+          "reference": "insufficient_evidence",
+          "scope_overclaim": false,
+          "seconds": 13.775666261994047,
+          "status": "malformed",
+          "tokens": {
+            "input": 897,
+            "output": 83
+          }
+        },
+        {
+          "case_id": "PU02N",
+          "error": "invalid scopes",
+          "fabricated_source_ids": [],
+          "family": "puromycin",
+          "id": "svb-8cd269de53bf",
+          "invalid_quotes": [],
+          "label_correct": false,
+          "label_only_secondary": "formally_established",
+          "max_confidence": null,
+          "output_reached_token_limit": false,
+          "pair": {
+            "id": "PU02",
+            "role": "narrow"
+          },
+          "predicted": null,
+          "reasoning_validity": "not_human_adjudicated",
+          "reference": "empirically_supported",
+          "scope_overclaim": false,
+          "seconds": 15.182159557007253,
+          "status": "malformed",
+          "tokens": {
+            "input": 909,
+            "output": 92
+          }
+        },
+        {
+          "case_id": "PU02S",
+          "error": "invalid scopes",
+          "fabricated_source_ids": [],
+          "family": "puromycin",
+          "id": "svb-4399d7d82628",
+          "invalid_quotes": [],
+          "label_correct": false,
+          "label_only_secondary": "formally_established",
+          "max_confidence": null,
+          "output_reached_token_limit": false,
+          "pair": {
+            "id": "PU02",
+            "role": "stronger"
+          },
+          "predicted": null,
+          "reasoning_validity": "not_human_adjudicated",
+          "reference": "insufficient_evidence",
+          "scope_overclaim": false,
+          "seconds": 14.108967327003484,
+          "status": "malformed",
+          "tokens": {
+            "input": 887,
+            "output": 84
+          }
+        },
+        {
+          "case_id": "PU03N",
+          "error": "invalid scopes",
+          "fabricated_source_ids": [],
+          "family": "puromycin",
+          "id": "svb-6bb569d5ba7e",
+          "invalid_quotes": [],
+          "label_correct": false,
+          "label_only_secondary": "formally_established",
+          "max_confidence": null,
+          "output_reached_token_limit": false,
+          "pair": {
+            "id": "PU03",
+            "role": "narrow"
+          },
+          "predicted": null,
+          "reasoning_validity": "not_human_adjudicated",
+          "reference": "empirically_supported",
+          "scope_overclaim": false,
+          "seconds": 14.095256643995526,
+          "status": "malformed",
+          "tokens": {
+            "input": 915,
+            "output": 84
+          }
+        },
+        {
+          "case_id": "PU03S",
+          "error": "invalid scopes",
+          "fabricated_source_ids": [],
+          "family": "puromycin",
+          "id": "svb-8ac12705d301",
+          "invalid_quotes": [],
+          "label_correct": false,
+          "label_only_secondary": "formally_established",
+          "max_confidence": null,
+          "output_reached_token_limit": false,
+          "pair": {
+            "id": "PU03",
+            "role": "stronger"
+          },
+          "predicted": null,
+          "reasoning_validity": "not_human_adjudicated",
+          "reference": "insufficient_evidence",
+          "scope_overclaim": false,
+          "seconds": 13.902862540999195,
+          "status": "malformed",
+          "tokens": {
+            "input": 903,
+            "output": 87
+          }
+        },
+        {
+          "case_id": "PU04P",
+          "error": "invalid scopes",
+          "fabricated_source_ids": [],
+          "family": "puromycin",
+          "id": "svb-68536bb7a951",
+          "invalid_quotes": [],
+          "label_correct": false,
+          "label_only_secondary": "formally_established",
+          "max_confidence": null,
+          "output_reached_token_limit": false,
+          "pair": {
+            "id": "PU04",
+            "role": "positive"
+          },
+          "predicted": null,
+          "reasoning_validity": "not_human_adjudicated",
+          "reference": "computationally_established",
+          "scope_overclaim": false,
+          "seconds": 12.689592656999594,
+          "status": "malformed",
+          "tokens": {
+            "input": 875,
+            "output": 76
+          }
+        },
+        {
+          "case_id": "PU04X",
+          "error": "Expecting ',' delimiter: line 1 column 322 (char 321)",
+          "fabricated_source_ids": [],
+          "family": "puromycin",
+          "id": "svb-d9ffef148dc5",
+          "invalid_quotes": [],
+          "label_correct": false,
+          "label_only_secondary": "formally_established",
+          "max_confidence": null,
+          "output_reached_token_limit": false,
+          "pair": {
+            "id": "PU04",
+            "role": "negative"
+          },
+          "predicted": null,
+          "reasoning_validity": "not_human_adjudicated",
+          "reference": "refuted",
+          "scope_overclaim": false,
+          "seconds": 14.990004799008602,
+          "status": "malformed",
+          "tokens": {
+            "input": 879,
+            "output": 88
+          }
+        },
+        {
+          "case_id": "CO01N",
+          "error": "full probability vector required",
+          "fabricated_source_ids": [],
+          "family": "grass_co2",
+          "id": "svb-dd6bcec76ce1",
+          "invalid_quotes": [],
+          "label_correct": false,
+          "label_only_secondary": "formally_established",
+          "max_confidence": null,
+          "output_reached_token_limit": false,
+          "pair": {
+            "id": "CO01",
+            "role": "narrow"
+          },
+          "predicted": null,
+          "reasoning_validity": "not_human_adjudicated",
+          "reference": "empirically_supported",
+          "scope_overclaim": false,
+          "seconds": 28.29524933200446,
+          "status": "malformed",
+          "tokens": {
+            "input": 2284,
+            "output": 76
+          }
+        },
+        {
+          "case_id": "CO01S",
+          "error": "full probability vector required",
+          "fabricated_source_ids": [],
+          "family": "grass_co2",
+          "id": "svb-419e5e13b7b7",
+          "invalid_quotes": [],
+          "label_correct": false,
+          "label_only_secondary": "formally_established",
+          "max_confidence": null,
+          "output_reached_token_limit": false,
+          "pair": {
+            "id": "CO01",
+            "role": "stronger"
+          },
+          "predicted": null,
+          "reasoning_validity": "not_human_adjudicated",
+          "reference": "insufficient_evidence",
+          "scope_overclaim": false,
+          "seconds": 30.793577786986134,
+          "status": "malformed",
+          "tokens": {
+            "input": 2273,
+            "output": 98
+          }
+        },
+        {
+          "case_id": "CO02N",
+          "error": "full probability vector required",
+          "fabricated_source_ids": [],
+          "family": "grass_co2",
+          "id": "svb-9f33c4663a5d",
+          "invalid_quotes": [],
+          "label_correct": false,
+          "label_only_secondary": "formally_established",
+          "max_confidence": null,
+          "output_reached_token_limit": false,
+          "pair": {
+            "id": "CO02",
+            "role": "narrow"
+          },
+          "predicted": null,
+          "reasoning_validity": "not_human_adjudicated",
+          "reference": "computationally_established",
+          "scope_overclaim": false,
+          "seconds": 30.281470625006477,
+          "status": "malformed",
+          "tokens": {
+            "input": 2263,
+            "output": 91
+          }
+        },
+        {
+          "case_id": "CO02S",
+          "error": "model response fields do not match schema",
+          "fabricated_source_ids": [],
+          "family": "grass_co2",
+          "id": "svb-4d714c05db2d",
+          "invalid_quotes": [],
+          "label_correct": false,
+          "label_only_secondary": "formally_established",
+          "max_confidence": null,
+          "output_reached_token_limit": false,
+          "pair": {
+            "id": "CO02",
+            "role": "stronger"
+          },
+          "predicted": null,
+          "reasoning_validity": "not_human_adjudicated",
+          "reference": "refuted",
+          "scope_overclaim": false,
+          "seconds": 45.6273920500098,
+          "status": "malformed",
+          "tokens": {
+            "input": 2265,
+            "output": 200
+          }
+        },
+        {
+          "case_id": "CO03P",
+          "error": "full probability vector required",
+          "fabricated_source_ids": [],
+          "family": "grass_co2",
+          "id": "svb-e3e8e1a3f404",
+          "invalid_quotes": [],
+          "label_correct": false,
+          "label_only_secondary": "formally_established",
+          "max_confidence": null,
+          "output_reached_token_limit": false,
+          "pair": {
+            "id": "CO03",
+            "role": "positive"
+          },
+          "predicted": null,
+          "reasoning_validity": "not_human_adjudicated",
+          "reference": "empirically_supported",
+          "scope_overclaim": false,
+          "seconds": 31.264745623993804,
+          "status": "malformed",
+          "tokens": {
+            "input": 2263,
+            "output": 101
+          }
+        },
+        {
+          "case_id": "CO03X",
+          "error": "full probability vector required",
+          "fabricated_source_ids": [],
+          "family": "grass_co2",
+          "id": "svb-1ebab3b83fb1",
+          "invalid_quotes": [],
+          "label_correct": false,
+          "label_only_secondary": "formally_established",
+          "max_confidence": null,
+          "output_reached_token_limit": false,
+          "pair": {
+            "id": "CO03",
+            "role": "negative"
+          },
+          "predicted": null,
+          "reasoning_validity": "not_human_adjudicated",
+          "reference": "refuted",
+          "scope_overclaim": false,
+          "seconds": 34.93229466400226,
+          "status": "malformed",
+          "tokens": {
+            "input": 2263,
+            "output": 124
+          }
+        },
+        {
+          "case_id": "CO04N",
+          "error": "full probability vector required",
+          "fabricated_source_ids": [],
+          "family": "grass_co2",
+          "id": "svb-f00434596561",
+          "invalid_quotes": [],
+          "label_correct": false,
+          "label_only_secondary": "formally_established",
+          "max_confidence": null,
+          "output_reached_token_limit": false,
+          "pair": {
+            "id": "CO04",
+            "role": "narrow"
+          },
+          "predicted": null,
+          "reasoning_validity": "not_human_adjudicated",
+          "reference": "empirically_supported",
+          "scope_overclaim": false,
+          "seconds": 33.25850697599526,
+          "status": "malformed",
+          "tokens": {
+            "input": 2278,
+            "output": 102
+          }
+        },
+        {
+          "case_id": "CO04S",
+          "error": "full probability vector required",
+          "fabricated_source_ids": [],
+          "family": "grass_co2",
+          "id": "svb-8ebbf0ce72cf",
+          "invalid_quotes": [],
+          "label_correct": false,
+          "label_only_secondary": "formally_established",
+          "max_confidence": null,
+          "output_reached_token_limit": false,
+          "pair": {
+            "id": "CO04",
+            "role": "stronger"
+          },
+          "predicted": null,
+          "reasoning_validity": "not_human_adjudicated",
+          "reference": "insufficient_evidence",
+          "scope_overclaim": false,
+          "seconds": 30.58926663499733,
+          "status": "malformed",
+          "tokens": {
+            "input": 2267,
+            "output": 98
+          }
+        },
+        {
+          "case_id": "FS01N",
+          "error": "invalid scopes",
+          "fabricated_source_ids": [],
+          "family": "freesolv",
+          "id": "svb-bc52f66b2e04",
+          "invalid_quotes": [],
+          "label_correct": false,
+          "label_only_secondary": "formally_established",
+          "max_confidence": null,
+          "output_reached_token_limit": false,
+          "pair": {
+            "id": "FS01",
+            "role": "narrow"
+          },
+          "predicted": null,
+          "reasoning_validity": "not_human_adjudicated",
+          "reference": "empirically_supported",
+          "scope_overclaim": false,
+          "seconds": 16.275241998999263,
+          "status": "malformed",
+          "tokens": {
+            "input": 1283,
+            "output": 79
+          }
+        },
+        {
+          "case_id": "FS01S",
+          "error": "invalid scopes",
+          "fabricated_source_ids": [],
+          "family": "freesolv",
+          "id": "svb-452e4e23d192",
+          "invalid_quotes": [],
+          "label_correct": false,
+          "label_only_secondary": "formally_established",
+          "max_confidence": null,
+          "output_reached_token_limit": false,
+          "pair": {
+            "id": "FS01",
+            "role": "stronger"
+          },
+          "predicted": null,
+          "reasoning_validity": "not_human_adjudicated",
+          "reference": "insufficient_evidence",
+          "scope_overclaim": false,
+          "seconds": 18.034483729992644,
+          "status": "malformed",
+          "tokens": {
+            "input": 1263,
+            "output": 79
+          }
+        },
+        {
+          "case_id": "FS02N",
+          "error": "invalid scopes",
+          "fabricated_source_ids": [],
+          "family": "freesolv",
+          "id": "svb-6feb378ca1c0",
+          "invalid_quotes": [],
+          "label_correct": false,
+          "label_only_secondary": "formally_established",
+          "max_confidence": null,
+          "output_reached_token_limit": false,
+          "pair": {
+            "id": "FS02",
+            "role": "narrow"
+          },
+          "predicted": null,
+          "reasoning_validity": "not_human_adjudicated",
+          "reference": "computationally_established",
+          "scope_overclaim": false,
+          "seconds": 18.578325780006708,
+          "status": "malformed",
+          "tokens": {
+            "input": 1270,
+            "output": 79
+          }
+        },
+        {
+          "case_id": "FS02S",
+          "error": "invalid scopes",
+          "fabricated_source_ids": [],
+          "family": "freesolv",
+          "id": "svb-8bd40c4e6af8",
+          "invalid_quotes": [],
+          "label_correct": false,
+          "label_only_secondary": "formally_established",
+          "max_confidence": null,
+          "output_reached_token_limit": false,
+          "pair": {
+            "id": "FS02",
+            "role": "stronger"
+          },
+          "predicted": null,
+          "reasoning_validity": "not_human_adjudicated",
+          "reference": "insufficient_evidence",
+          "scope_overclaim": false,
+          "seconds": 16.061608593998244,
+          "status": "malformed",
+          "tokens": {
+            "input": 1262,
+            "output": 79
+          }
+        },
+        {
+          "case_id": "FS03N",
+          "error": "invalid scopes",
+          "fabricated_source_ids": [],
+          "family": "freesolv",
+          "id": "svb-3dac26205064",
+          "invalid_quotes": [],
+          "label_correct": false,
+          "label_only_secondary": "formally_established",
+          "max_confidence": null,
+          "output_reached_token_limit": false,
+          "pair": {
+            "id": "FS03",
+            "role": "narrow"
+          },
+          "predicted": null,
+          "reasoning_validity": "not_human_adjudicated",
+          "reference": "computationally_established",
+          "scope_overclaim": false,
+          "seconds": 15.800798823998775,
+          "status": "malformed",
+          "tokens": {
+            "input": 1271,
+            "output": 72
+          }
+        },
+        {
+          "case_id": "FS03S",
+          "error": "invalid scopes",
+          "fabricated_source_ids": [],
+          "family": "freesolv",
+          "id": "svb-9ba09d786a13",
+          "invalid_quotes": [],
+          "label_correct": false,
+          "label_only_secondary": "formally_established",
+          "max_confidence": null,
+          "output_reached_token_limit": false,
+          "pair": {
+            "id": "FS03",
+            "role": "stronger"
+          },
+          "predicted": null,
+          "reasoning_validity": "not_human_adjudicated",
+          "reference": "refuted",
+          "scope_overclaim": false,
+          "seconds": 15.218101009988459,
+          "status": "malformed",
+          "tokens": {
+            "input": 1264,
+            "output": 70
+          }
+        },
+        {
+          "case_id": "FS04N",
+          "error": "invalid scopes",
+          "fabricated_source_ids": [],
+          "family": "freesolv",
+          "id": "svb-42170d786de1",
+          "invalid_quotes": [],
+          "label_correct": false,
+          "label_only_secondary": "formally_established",
+          "max_confidence": null,
+          "output_reached_token_limit": false,
+          "pair": {
+            "id": "FS04",
+            "role": "narrow"
+          },
+          "predicted": null,
+          "reasoning_validity": "not_human_adjudicated",
+          "reference": "empirically_supported",
+          "scope_overclaim": false,
+          "seconds": 15.610570118995383,
+          "status": "malformed",
+          "tokens": {
+            "input": 1262,
+            "output": 70
+          }
+        },
+        {
+          "case_id": "FS04S",
+          "error": "invalid scopes",
+          "fabricated_source_ids": [],
+          "family": "freesolv",
+          "id": "svb-ceaeb8b404e1",
+          "invalid_quotes": [],
+          "label_correct": false,
+          "label_only_secondary": "formally_established",
+          "max_confidence": null,
+          "output_reached_token_limit": false,
+          "pair": {
+            "id": "FS04",
+            "role": "stronger"
+          },
+          "predicted": null,
+          "reasoning_validity": "not_human_adjudicated",
+          "reference": "insufficient_evidence",
+          "scope_overclaim": false,
+          "seconds": 19.670189085009042,
+          "status": "malformed",
+          "tokens": {
+            "input": 1258,
+            "output": 91
+          }
+        }
+      ],
+      "reasoning_limit": "ID/quote consistency checked; scientific reasoning/entailment validity awaits blinded human rubric review. No automatic reasoning-quality score is claimed.",
+      "rows": [
+        {
+          "brier": null,
+          "correct": false,
+          "difficulty": "naturalistic",
+          "domain": "science",
+          "false_accept": false,
+          "id": "svb-5cac43968ca3",
+          "predicted": null,
+          "reference": "empirically_supported",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "ordinary",
+          "status": "execution_error"
+        },
+        {
+          "brier": null,
+          "correct": false,
+          "difficulty": "naturalistic",
+          "domain": "science",
+          "false_accept": false,
+          "id": "svb-6cf18a16d481",
+          "predicted": null,
+          "reference": "insufficient_evidence",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "high",
+          "status": "execution_error"
+        },
+        {
+          "brier": null,
+          "correct": false,
+          "difficulty": "naturalistic",
+          "domain": "science",
+          "false_accept": false,
+          "id": "svb-8cd269de53bf",
+          "predicted": null,
+          "reference": "empirically_supported",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "ordinary",
+          "status": "execution_error"
+        },
+        {
+          "brier": null,
+          "correct": false,
+          "difficulty": "naturalistic",
+          "domain": "science",
+          "false_accept": false,
+          "id": "svb-4399d7d82628",
+          "predicted": null,
+          "reference": "insufficient_evidence",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "high",
+          "status": "execution_error"
+        },
+        {
+          "brier": null,
+          "correct": false,
+          "difficulty": "naturalistic",
+          "domain": "science",
+          "false_accept": false,
+          "id": "svb-6bb569d5ba7e",
+          "predicted": null,
+          "reference": "empirically_supported",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "ordinary",
+          "status": "execution_error"
+        },
+        {
+          "brier": null,
+          "correct": false,
+          "difficulty": "naturalistic",
+          "domain": "science",
+          "false_accept": false,
+          "id": "svb-8ac12705d301",
+          "predicted": null,
+          "reference": "insufficient_evidence",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "high",
+          "status": "execution_error"
+        },
+        {
+          "brier": null,
+          "correct": false,
+          "difficulty": "naturalistic",
+          "domain": "science",
+          "false_accept": false,
+          "id": "svb-68536bb7a951",
+          "predicted": null,
+          "reference": "computationally_established",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "ordinary",
+          "status": "execution_error"
+        },
+        {
+          "brier": null,
+          "correct": false,
+          "difficulty": "naturalistic",
+          "domain": "science",
+          "false_accept": false,
+          "id": "svb-d9ffef148dc5",
+          "predicted": null,
+          "reference": "refuted",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "ordinary",
+          "status": "execution_error"
+        },
+        {
+          "brier": null,
+          "correct": false,
+          "difficulty": "naturalistic",
+          "domain": "science",
+          "false_accept": false,
+          "id": "svb-dd6bcec76ce1",
+          "predicted": null,
+          "reference": "empirically_supported",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "ordinary",
+          "status": "execution_error"
+        },
+        {
+          "brier": null,
+          "correct": false,
+          "difficulty": "naturalistic",
+          "domain": "science",
+          "false_accept": false,
+          "id": "svb-419e5e13b7b7",
+          "predicted": null,
+          "reference": "insufficient_evidence",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "high",
+          "status": "execution_error"
+        },
+        {
+          "brier": null,
+          "correct": false,
+          "difficulty": "naturalistic",
+          "domain": "science",
+          "false_accept": false,
+          "id": "svb-9f33c4663a5d",
+          "predicted": null,
+          "reference": "computationally_established",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "ordinary",
+          "status": "execution_error"
+        },
+        {
+          "brier": null,
+          "correct": false,
+          "difficulty": "naturalistic",
+          "domain": "science",
+          "false_accept": false,
+          "id": "svb-4d714c05db2d",
+          "predicted": null,
+          "reference": "refuted",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "high",
+          "status": "execution_error"
+        },
+        {
+          "brier": null,
+          "correct": false,
+          "difficulty": "naturalistic",
+          "domain": "science",
+          "false_accept": false,
+          "id": "svb-e3e8e1a3f404",
+          "predicted": null,
+          "reference": "empirically_supported",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "ordinary",
+          "status": "execution_error"
+        },
+        {
+          "brier": null,
+          "correct": false,
+          "difficulty": "naturalistic",
+          "domain": "science",
+          "false_accept": false,
+          "id": "svb-1ebab3b83fb1",
+          "predicted": null,
+          "reference": "refuted",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "ordinary",
+          "status": "execution_error"
+        },
+        {
+          "brier": null,
+          "correct": false,
+          "difficulty": "naturalistic",
+          "domain": "science",
+          "false_accept": false,
+          "id": "svb-f00434596561",
+          "predicted": null,
+          "reference": "empirically_supported",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "ordinary",
+          "status": "execution_error"
+        },
+        {
+          "brier": null,
+          "correct": false,
+          "difficulty": "naturalistic",
+          "domain": "science",
+          "false_accept": false,
+          "id": "svb-8ebbf0ce72cf",
+          "predicted": null,
+          "reference": "insufficient_evidence",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "high",
+          "status": "execution_error"
+        },
+        {
+          "brier": null,
+          "correct": false,
+          "difficulty": "naturalistic",
+          "domain": "science",
+          "false_accept": false,
+          "id": "svb-bc52f66b2e04",
+          "predicted": null,
+          "reference": "empirically_supported",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "ordinary",
+          "status": "execution_error"
+        },
+        {
+          "brier": null,
+          "correct": false,
+          "difficulty": "naturalistic",
+          "domain": "science",
+          "false_accept": false,
+          "id": "svb-452e4e23d192",
+          "predicted": null,
+          "reference": "insufficient_evidence",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "high",
+          "status": "execution_error"
+        },
+        {
+          "brier": null,
+          "correct": false,
+          "difficulty": "naturalistic",
+          "domain": "science",
+          "false_accept": false,
+          "id": "svb-6feb378ca1c0",
+          "predicted": null,
+          "reference": "computationally_established",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "ordinary",
+          "status": "execution_error"
+        },
+        {
+          "brier": null,
+          "correct": false,
+          "difficulty": "naturalistic",
+          "domain": "science",
+          "false_accept": false,
+          "id": "svb-8bd40c4e6af8",
+          "predicted": null,
+          "reference": "insufficient_evidence",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "high",
+          "status": "execution_error"
+        },
+        {
+          "brier": null,
+          "correct": false,
+          "difficulty": "naturalistic",
+          "domain": "science",
+          "false_accept": false,
+          "id": "svb-3dac26205064",
+          "predicted": null,
+          "reference": "computationally_established",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "ordinary",
+          "status": "execution_error"
+        },
+        {
+          "brier": null,
+          "correct": false,
+          "difficulty": "naturalistic",
+          "domain": "science",
+          "false_accept": false,
+          "id": "svb-9ba09d786a13",
+          "predicted": null,
+          "reference": "refuted",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "high",
+          "status": "execution_error"
+        },
+        {
+          "brier": null,
+          "correct": false,
+          "difficulty": "naturalistic",
+          "domain": "science",
+          "false_accept": false,
+          "id": "svb-42170d786de1",
+          "predicted": null,
+          "reference": "empirically_supported",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "ordinary",
+          "status": "execution_error"
+        },
+        {
+          "brier": null,
+          "correct": false,
+          "difficulty": "naturalistic",
+          "domain": "science",
+          "false_accept": false,
+          "id": "svb-ceaeb8b404e1",
+          "predicted": null,
+          "reference": "insufficient_evidence",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "high",
+          "status": "execution_error"
+        }
+      ],
+      "selective_risk": [
+        {
+          "categorical_risk": null,
+          "confidence_threshold": 0.0,
+          "coverage": 0.0,
+          "n": 0,
+          "total_n": 24
+        },
+        {
+          "categorical_risk": null,
+          "confidence_threshold": 0.25,
+          "coverage": 0.0,
+          "n": 0,
+          "total_n": 24
+        },
+        {
+          "categorical_risk": null,
+          "confidence_threshold": 0.5,
+          "coverage": 0.0,
+          "n": 0,
+          "total_n": 24
+        },
+        {
+          "categorical_risk": null,
+          "confidence_threshold": 0.75,
+          "coverage": 0.0,
+          "n": 0,
+          "total_n": 24
+        },
+        {
+          "categorical_risk": null,
+          "confidence_threshold": 0.9,
+          "coverage": 0.0,
+          "n": 0,
+          "total_n": 24
+        },
+        {
+          "categorical_risk": null,
+          "confidence_threshold": 1.0,
+          "coverage": 0.0,
+          "n": 0,
+          "total_n": 24
+        }
+      ],
+      "summary": {
+        "accept_reference_n": 12,
+        "accepted_n": 0,
+        "accepted_risk": null,
+        "accepted_scope_note": "Scope escalation evaluated only for accepted conclusions; scopes on abstention/refutation are not interpreted as acceptance.",
+        "accuracy_all": 0.0,
+        "accuracy_answered": null,
+        "accuracy_wilson95_descriptive": [
+          1.3877787807814457e-17,
+          0.13797620467498017
+        ],
+        "confusion": {
+          "computationally_established -> execution_error": 4,
+          "empirically_supported -> execution_error": 8,
+          "insufficient_evidence -> execution_error": 8,
+          "refuted -> execution_error": 4
+        },
+        "correct": 0,
+        "correct_insufficient": 0,
+        "coverage": 0.0,
+        "elapsed_generation_seconds": 514.4679718549887,
+        "epistemic_decision_correct": 0,
+        "evidence_integrity_accepted_errors": 0,
+        "evidence_integrity_accepted_n": 0,
+        "fabricated_source_cases": 0,
+        "false_accept_count": 0,
+        "false_accept_rate": 0.0,
+        "false_reject_count": 0,
+        "input_output_tokens": 37667,
+        "invalid_quote_cases": 0,
+        "mean_brier_answered": null,
+        "n": 24,
+        "nonaccept_reference_n": 12,
+        "paid_api_cost_usd": 0,
+        "raw_statuses": {
+          "malformed": 24
+        },
+        "reasoning_accuracy": null,
+        "reasoning_adjudicated_n": 0,
+        "scope_overclaims": 0,
+        "secondary_label_agreement_correct": 0,
+        "secondary_label_extracted_n": 24,
+        "secondary_label_note": "Format-only diagnostic; does not rescue primary malformed outputs or validate reasoning.",
+        "statuses": {
+          "execution_error": 24
+        },
+        "supported_false_rejection_rate": 0.0
+      }
+    },
+    "no_assumptions": {
+      "adjudication": "provisional_author_adjudicated",
+      "by_difficulty": {
+        "naturalistic": {
+          "accept_reference_n": 2,
+          "accepted_n": 0,
+          "accepted_risk": null,
+          "accuracy_all": 0.0,
+          "accuracy_answered": null,
+          "accuracy_wilson95_descriptive": [
+            0.0,
+            0.4898908364545973
+          ],
+          "confusion": {
+            "empirically_supported -> execution_error": 2,
+            "insufficient_evidence -> execution_error": 2
+          },
+          "correct": 0,
+          "correct_insufficient": 0,
+          "coverage": 0.0,
+          "false_accept_count": 0,
+          "false_accept_rate": 0.0,
+          "false_reject_count": 0,
+          "mean_brier_answered": null,
+          "n": 4,
+          "nonaccept_reference_n": 2,
+          "scope_overclaims": 0,
+          "statuses": {
+            "execution_error": 4
+          }
+        }
+      },
+      "by_domain": {
+        "science": {
+          "accept_reference_n": 2,
+          "accepted_n": 0,
+          "accepted_risk": null,
+          "accuracy_all": 0.0,
+          "accuracy_answered": null,
+          "accuracy_wilson95_descriptive": [
+            0.0,
+            0.4898908364545973
+          ],
+          "confusion": {
+            "empirically_supported -> execution_error": 2,
+            "insufficient_evidence -> execution_error": 2
+          },
+          "correct": 0,
+          "correct_insufficient": 0,
+          "coverage": 0.0,
+          "false_accept_count": 0,
+          "false_accept_rate": 0.0,
+          "false_reject_count": 0,
+          "mean_brier_answered": null,
+          "n": 4,
+          "nonaccept_reference_n": 2,
+          "scope_overclaims": 0,
+          "statuses": {
+            "execution_error": 4
+          }
+        }
+      },
+      "by_severity": {
+        "high": {
+          "accept_reference_n": 0,
+          "accepted_n": 0,
+          "accepted_risk": null,
+          "accuracy_all": 0.0,
+          "accuracy_answered": null,
+          "accuracy_wilson95_descriptive": [
+            0.0,
+            0.6576197724933469
+          ],
+          "confusion": {
+            "insufficient_evidence -> execution_error": 2
+          },
+          "correct": 0,
+          "correct_insufficient": 0,
+          "coverage": 0.0,
+          "false_accept_count": 0,
+          "false_accept_rate": 0.0,
+          "false_reject_count": 0,
+          "mean_brier_answered": null,
+          "n": 2,
+          "nonaccept_reference_n": 2,
+          "scope_overclaims": 0,
+          "statuses": {
+            "execution_error": 2
+          }
+        },
+        "ordinary": {
+          "accept_reference_n": 2,
+          "accepted_n": 0,
+          "accepted_risk": null,
+          "accuracy_all": 0.0,
+          "accuracy_answered": null,
+          "accuracy_wilson95_descriptive": [
+            0.0,
+            0.6576197724933469
+          ],
+          "confusion": {
+            "empirically_supported -> execution_error": 2
+          },
+          "correct": 0,
+          "correct_insufficient": 0,
+          "coverage": 0.0,
+          "false_accept_count": 0,
+          "false_accept_rate": null,
+          "false_reject_count": 0,
+          "mean_brier_answered": null,
+          "n": 2,
+          "nonaccept_reference_n": 0,
+          "scope_overclaims": 0,
+          "statuses": {
+            "execution_error": 2
+          }
+        }
+      },
+      "condition": "no_assumptions",
+      "excluded_unresolved_n": 0,
+      "paired": {
+        "both_correct": 0,
+        "n": 2,
+        "rows": [
+          {
+            "both_answered": false,
+            "both_correct": false,
+            "cases": [
+              "svb-5cac43968ca3",
+              "svb-6cf18a16d481"
+            ],
+            "pair_id": "PU01",
+            "same_label": false
+          },
+          {
+            "both_answered": false,
+            "both_correct": false,
+            "cases": [
+              "svb-8cd269de53bf",
+              "svb-4399d7d82628"
+            ],
+            "pair_id": "PU02",
+            "same_label": false
+          }
+        ]
+      },
+      "raw_rows": [
+        {
+          "case_id": "PU01N",
+          "error": "invalid scopes",
+          "fabricated_source_ids": [],
+          "family": "puromycin",
+          "id": "svb-5cac43968ca3",
+          "invalid_quotes": [],
+          "label_correct": false,
+          "label_only_secondary": "formally_established",
+          "max_confidence": null,
+          "output_reached_token_limit": false,
+          "pair": {
+            "id": "PU01",
+            "role": "narrow"
+          },
+          "predicted": null,
+          "reasoning_validity": "not_human_adjudicated",
+          "reference": "empirically_supported",
+          "scope_overclaim": false,
+          "seconds": 12.497066926999992,
+          "status": "malformed",
+          "tokens": {
+            "input": 898,
+            "output": 93
+          }
+        },
+        {
+          "case_id": "PU01S",
+          "error": "invalid scopes",
+          "fabricated_source_ids": [],
+          "family": "puromycin",
+          "id": "svb-6cf18a16d481",
+          "invalid_quotes": [],
+          "label_correct": false,
+          "label_only_secondary": "formally_established",
+          "max_confidence": null,
+          "output_reached_token_limit": false,
+          "pair": {
+            "id": "PU01",
+            "role": "stronger"
+          },
+          "predicted": null,
+          "reasoning_validity": "not_human_adjudicated",
+          "reference": "insufficient_evidence",
+          "scope_overclaim": false,
+          "seconds": 12.555898334999938,
+          "status": "malformed",
+          "tokens": {
+            "input": 882,
+            "output": 93
+          }
+        },
+        {
+          "case_id": "PU02N",
+          "error": "invalid scopes",
+          "fabricated_source_ids": [],
+          "family": "puromycin",
+          "id": "svb-8cd269de53bf",
+          "invalid_quotes": [],
+          "label_correct": false,
+          "label_only_secondary": "formally_established",
+          "max_confidence": null,
+          "output_reached_token_limit": false,
+          "pair": {
+            "id": "PU02",
+            "role": "narrow"
+          },
+          "predicted": null,
+          "reasoning_validity": "not_human_adjudicated",
+          "reference": "empirically_supported",
+          "scope_overclaim": false,
+          "seconds": 12.079144780999968,
+          "status": "malformed",
+          "tokens": {
+            "input": 899,
+            "output": 82
+          }
+        },
+        {
+          "case_id": "PU02S",
+          "error": "invalid scopes",
+          "fabricated_source_ids": [],
+          "family": "puromycin",
+          "id": "svb-4399d7d82628",
+          "invalid_quotes": [],
+          "label_correct": false,
+          "label_only_secondary": "formally_established",
+          "max_confidence": null,
+          "output_reached_token_limit": false,
+          "pair": {
+            "id": "PU02",
+            "role": "stronger"
+          },
+          "predicted": null,
+          "reasoning_validity": "not_human_adjudicated",
+          "reference": "insufficient_evidence",
+          "scope_overclaim": false,
+          "seconds": 12.689959842999997,
+          "status": "malformed",
+          "tokens": {
+            "input": 877,
+            "output": 90
+          }
+        }
+      ],
+      "reasoning_limit": "ID/quote consistency checked; scientific reasoning/entailment validity awaits blinded human rubric review. No automatic reasoning-quality score is claimed.",
+      "rows": [
+        {
+          "brier": null,
+          "correct": false,
+          "difficulty": "naturalistic",
+          "domain": "science",
+          "false_accept": false,
+          "id": "svb-5cac43968ca3",
+          "predicted": null,
+          "reference": "empirically_supported",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "ordinary",
+          "status": "execution_error"
+        },
+        {
+          "brier": null,
+          "correct": false,
+          "difficulty": "naturalistic",
+          "domain": "science",
+          "false_accept": false,
+          "id": "svb-6cf18a16d481",
+          "predicted": null,
+          "reference": "insufficient_evidence",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "high",
+          "status": "execution_error"
+        },
+        {
+          "brier": null,
+          "correct": false,
+          "difficulty": "naturalistic",
+          "domain": "science",
+          "false_accept": false,
+          "id": "svb-8cd269de53bf",
+          "predicted": null,
+          "reference": "empirically_supported",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "ordinary",
+          "status": "execution_error"
+        },
+        {
+          "brier": null,
+          "correct": false,
+          "difficulty": "naturalistic",
+          "domain": "science",
+          "false_accept": false,
+          "id": "svb-4399d7d82628",
+          "predicted": null,
+          "reference": "insufficient_evidence",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "high",
+          "status": "execution_error"
+        }
+      ],
+      "selective_risk": [
+        {
+          "categorical_risk": null,
+          "confidence_threshold": 0.0,
+          "coverage": 0.0,
+          "n": 0,
+          "total_n": 4
+        },
+        {
+          "categorical_risk": null,
+          "confidence_threshold": 0.25,
+          "coverage": 0.0,
+          "n": 0,
+          "total_n": 4
+        },
+        {
+          "categorical_risk": null,
+          "confidence_threshold": 0.5,
+          "coverage": 0.0,
+          "n": 0,
+          "total_n": 4
+        },
+        {
+          "categorical_risk": null,
+          "confidence_threshold": 0.75,
+          "coverage": 0.0,
+          "n": 0,
+          "total_n": 4
+        },
+        {
+          "categorical_risk": null,
+          "confidence_threshold": 0.9,
+          "coverage": 0.0,
+          "n": 0,
+          "total_n": 4
+        },
+        {
+          "categorical_risk": null,
+          "confidence_threshold": 1.0,
+          "coverage": 0.0,
+          "n": 0,
+          "total_n": 4
+        }
+      ],
+      "summary": {
+        "accept_reference_n": 2,
+        "accepted_n": 0,
+        "accepted_risk": null,
+        "accepted_scope_note": "Scope escalation evaluated only for accepted conclusions; scopes on abstention/refutation are not interpreted as acceptance.",
+        "accuracy_all": 0.0,
+        "accuracy_answered": null,
+        "accuracy_wilson95_descriptive": [
+          0.0,
+          0.4898908364545973
+        ],
+        "confusion": {
+          "empirically_supported -> execution_error": 2,
+          "insufficient_evidence -> execution_error": 2
+        },
+        "correct": 0,
+        "correct_insufficient": 0,
+        "coverage": 0.0,
+        "elapsed_generation_seconds": 49.822069885999895,
+        "epistemic_decision_correct": 0,
+        "evidence_integrity_accepted_errors": 0,
+        "evidence_integrity_accepted_n": 0,
+        "fabricated_source_cases": 0,
+        "false_accept_count": 0,
+        "false_accept_rate": 0.0,
+        "false_reject_count": 0,
+        "input_output_tokens": 3914,
+        "invalid_quote_cases": 0,
+        "mean_brier_answered": null,
+        "n": 4,
+        "nonaccept_reference_n": 2,
+        "paid_api_cost_usd": 0,
+        "raw_statuses": {
+          "malformed": 4
+        },
+        "reasoning_accuracy": null,
+        "reasoning_adjudicated_n": 0,
+        "scope_overclaims": 0,
+        "secondary_label_agreement_correct": 0,
+        "secondary_label_extracted_n": 4,
+        "secondary_label_note": "Format-only diagnostic; does not rescue primary malformed outputs or validate reasoning.",
+        "statuses": {
+          "execution_error": 4
+        },
+        "supported_false_rejection_rate": 0.0
+      }
+    },
+    "no_evidence": {
+      "adjudication": "provisional_author_adjudicated",
+      "by_difficulty": {
+        "naturalistic": {
+          "accept_reference_n": 0,
+          "accepted_n": 0,
+          "accepted_risk": null,
+          "accuracy_all": 0.0,
+          "accuracy_answered": null,
+          "accuracy_wilson95_descriptive": [
+            1.3877787807814457e-17,
+            0.13797620467498017
+          ],
+          "confusion": {
+            "insufficient_evidence -> execution_error": 24
+          },
+          "correct": 0,
+          "correct_insufficient": 0,
+          "coverage": 0.0,
+          "false_accept_count": 0,
+          "false_accept_rate": 0.0,
+          "false_reject_count": 0,
+          "mean_brier_answered": null,
+          "n": 24,
+          "nonaccept_reference_n": 24,
+          "scope_overclaims": 0,
+          "statuses": {
+            "execution_error": 24
+          }
+        }
+      },
+      "by_domain": {
+        "science": {
+          "accept_reference_n": 0,
+          "accepted_n": 0,
+          "accepted_risk": null,
+          "accuracy_all": 0.0,
+          "accuracy_answered": null,
+          "accuracy_wilson95_descriptive": [
+            1.3877787807814457e-17,
+            0.13797620467498017
+          ],
+          "confusion": {
+            "insufficient_evidence -> execution_error": 24
+          },
+          "correct": 0,
+          "correct_insufficient": 0,
+          "coverage": 0.0,
+          "false_accept_count": 0,
+          "false_accept_rate": 0.0,
+          "false_reject_count": 0,
+          "mean_brier_answered": null,
+          "n": 24,
+          "nonaccept_reference_n": 24,
+          "scope_overclaims": 0,
+          "statuses": {
+            "execution_error": 24
+          }
+        }
+      },
+      "by_severity": {
+        "high": {
+          "accept_reference_n": 0,
+          "accepted_n": 0,
+          "accepted_risk": null,
+          "accuracy_all": 0.0,
+          "accuracy_answered": null,
+          "accuracy_wilson95_descriptive": [
+            0.0,
+            0.2775327998628892
+          ],
+          "confusion": {
+            "insufficient_evidence -> execution_error": 10
+          },
+          "correct": 0,
+          "correct_insufficient": 0,
+          "coverage": 0.0,
+          "false_accept_count": 0,
+          "false_accept_rate": 0.0,
+          "false_reject_count": 0,
+          "mean_brier_answered": null,
+          "n": 10,
+          "nonaccept_reference_n": 10,
+          "scope_overclaims": 0,
+          "statuses": {
+            "execution_error": 10
+          }
+        },
+        "ordinary": {
+          "accept_reference_n": 0,
+          "accepted_n": 0,
+          "accepted_risk": null,
+          "accuracy_all": 0.0,
+          "accuracy_answered": null,
+          "accuracy_wilson95_descriptive": [
+            1.3877787807814457e-17,
+            0.2153108027376358
+          ],
+          "confusion": {
+            "insufficient_evidence -> execution_error": 14
+          },
+          "correct": 0,
+          "correct_insufficient": 0,
+          "coverage": 0.0,
+          "false_accept_count": 0,
+          "false_accept_rate": 0.0,
+          "false_reject_count": 0,
+          "mean_brier_answered": null,
+          "n": 14,
+          "nonaccept_reference_n": 14,
+          "scope_overclaims": 0,
+          "statuses": {
+            "execution_error": 14
+          }
+        }
+      },
+      "condition": "no_evidence",
+      "excluded_unresolved_n": 0,
+      "paired": {
+        "both_correct": 0,
+        "n": 12,
+        "rows": [
+          {
+            "both_answered": false,
+            "both_correct": false,
+            "cases": [
+              "svb-5cac43968ca3",
+              "svb-6cf18a16d481"
+            ],
+            "pair_id": "PU01",
+            "same_label": false
+          },
+          {
+            "both_answered": false,
+            "both_correct": false,
+            "cases": [
+              "svb-8cd269de53bf",
+              "svb-4399d7d82628"
+            ],
+            "pair_id": "PU02",
+            "same_label": false
+          },
+          {
+            "both_answered": false,
+            "both_correct": false,
+            "cases": [
+              "svb-6bb569d5ba7e",
+              "svb-8ac12705d301"
+            ],
+            "pair_id": "PU03",
+            "same_label": false
+          },
+          {
+            "both_answered": false,
+            "both_correct": false,
+            "cases": [
+              "svb-68536bb7a951",
+              "svb-d9ffef148dc5"
+            ],
+            "pair_id": "PU04",
+            "same_label": false
+          },
+          {
+            "both_answered": false,
+            "both_correct": false,
+            "cases": [
+              "svb-dd6bcec76ce1",
+              "svb-419e5e13b7b7"
+            ],
+            "pair_id": "CO01",
+            "same_label": false
+          },
+          {
+            "both_answered": false,
+            "both_correct": false,
+            "cases": [
+              "svb-9f33c4663a5d",
+              "svb-4d714c05db2d"
+            ],
+            "pair_id": "CO02",
+            "same_label": false
+          },
+          {
+            "both_answered": false,
+            "both_correct": false,
+            "cases": [
+              "svb-e3e8e1a3f404",
+              "svb-1ebab3b83fb1"
+            ],
+            "pair_id": "CO03",
+            "same_label": false
+          },
+          {
+            "both_answered": false,
+            "both_correct": false,
+            "cases": [
+              "svb-f00434596561",
+              "svb-8ebbf0ce72cf"
+            ],
+            "pair_id": "CO04",
+            "same_label": false
+          },
+          {
+            "both_answered": false,
+            "both_correct": false,
+            "cases": [
+              "svb-bc52f66b2e04",
+              "svb-452e4e23d192"
+            ],
+            "pair_id": "FS01",
+            "same_label": false
+          },
+          {
+            "both_answered": false,
+            "both_correct": false,
+            "cases": [
+              "svb-6feb378ca1c0",
+              "svb-8bd40c4e6af8"
+            ],
+            "pair_id": "FS02",
+            "same_label": false
+          },
+          {
+            "both_answered": false,
+            "both_correct": false,
+            "cases": [
+              "svb-3dac26205064",
+              "svb-9ba09d786a13"
+            ],
+            "pair_id": "FS03",
+            "same_label": false
+          },
+          {
+            "both_answered": false,
+            "both_correct": false,
+            "cases": [
+              "svb-42170d786de1",
+              "svb-ceaeb8b404e1"
+            ],
+            "pair_id": "FS04",
+            "same_label": false
+          }
+        ]
+      },
+      "raw_rows": [
+        {
+          "case_id": "PU01N",
+          "error": "invalid scopes",
+          "fabricated_source_ids": [],
+          "family": "puromycin",
+          "id": "svb-5cac43968ca3",
+          "invalid_quotes": [],
+          "label_correct": false,
+          "label_only_secondary": "formally_established",
+          "max_confidence": null,
+          "output_reached_token_limit": false,
+          "pair": {
+            "id": "PU01",
+            "role": "narrow"
+          },
+          "predicted": null,
+          "reasoning_validity": "not_human_adjudicated",
+          "reference": "insufficient_evidence",
+          "scope_overclaim": false,
+          "seconds": 9.39330756299023,
+          "status": "malformed",
+          "tokens": {
+            "input": 486,
+            "output": 75
+          }
+        },
+        {
+          "case_id": "PU01S",
+          "error": "invalid scopes",
+          "fabricated_source_ids": [],
+          "family": "puromycin",
+          "id": "svb-6cf18a16d481",
+          "invalid_quotes": [],
+          "label_correct": false,
+          "label_only_secondary": "formally_established",
+          "max_confidence": null,
+          "output_reached_token_limit": false,
+          "pair": {
+            "id": "PU01",
+            "role": "stronger"
+          },
+          "predicted": null,
+          "reasoning_validity": "not_human_adjudicated",
+          "reference": "insufficient_evidence",
+          "scope_overclaim": false,
+          "seconds": 11.840915067994501,
+          "status": "malformed",
+          "tokens": {
+            "input": 470,
+            "output": 104
+          }
+        },
+        {
+          "case_id": "PU02N",
+          "error": "invalid scopes",
+          "fabricated_source_ids": [],
+          "family": "puromycin",
+          "id": "svb-8cd269de53bf",
+          "invalid_quotes": [],
+          "label_correct": false,
+          "label_only_secondary": "formally_established",
+          "max_confidence": null,
+          "output_reached_token_limit": false,
+          "pair": {
+            "id": "PU02",
+            "role": "narrow"
+          },
+          "predicted": null,
+          "reasoning_validity": "not_human_adjudicated",
+          "reference": "insufficient_evidence",
+          "scope_overclaim": false,
+          "seconds": 9.10170916900097,
+          "status": "malformed",
+          "tokens": {
+            "input": 482,
+            "output": 72
+          }
+        },
+        {
+          "case_id": "PU02S",
+          "error": "invalid scopes",
+          "fabricated_source_ids": [],
+          "family": "puromycin",
+          "id": "svb-4399d7d82628",
+          "invalid_quotes": [],
+          "label_correct": false,
+          "label_only_secondary": "formally_established",
+          "max_confidence": null,
+          "output_reached_token_limit": false,
+          "pair": {
+            "id": "PU02",
+            "role": "stronger"
+          },
+          "predicted": null,
+          "reasoning_validity": "not_human_adjudicated",
+          "reference": "insufficient_evidence",
+          "scope_overclaim": false,
+          "seconds": 9.359590236999793,
+          "status": "malformed",
+          "tokens": {
+            "input": 460,
+            "output": 72
+          }
+        },
+        {
+          "case_id": "PU03N",
+          "error": "invalid scopes",
+          "fabricated_source_ids": [],
+          "family": "puromycin",
+          "id": "svb-6bb569d5ba7e",
+          "invalid_quotes": [],
+          "label_correct": false,
+          "label_only_secondary": "formally_established",
+          "max_confidence": null,
+          "output_reached_token_limit": false,
+          "pair": {
+            "id": "PU03",
+            "role": "narrow"
+          },
+          "predicted": null,
+          "reasoning_validity": "not_human_adjudicated",
+          "reference": "insufficient_evidence",
+          "scope_overclaim": false,
+          "seconds": 10.472572571001365,
+          "status": "malformed",
+          "tokens": {
+            "input": 488,
+            "output": 79
+          }
+        },
+        {
+          "case_id": "PU03S",
+          "error": "invalid scopes",
+          "fabricated_source_ids": [],
+          "family": "puromycin",
+          "id": "svb-8ac12705d301",
+          "invalid_quotes": [],
+          "label_correct": false,
+          "label_only_secondary": "formally_established",
+          "max_confidence": null,
+          "output_reached_token_limit": false,
+          "pair": {
+            "id": "PU03",
+            "role": "stronger"
+          },
+          "predicted": null,
+          "reasoning_validity": "not_human_adjudicated",
+          "reference": "insufficient_evidence",
+          "scope_overclaim": false,
+          "seconds": 9.987984281993704,
+          "status": "malformed",
+          "tokens": {
+            "input": 476,
+            "output": 82
+          }
+        },
+        {
+          "case_id": "PU04P",
+          "error": "invalid scopes",
+          "fabricated_source_ids": [],
+          "family": "puromycin",
+          "id": "svb-68536bb7a951",
+          "invalid_quotes": [],
+          "label_correct": false,
+          "label_only_secondary": "formally_established",
+          "max_confidence": null,
+          "output_reached_token_limit": false,
+          "pair": {
+            "id": "PU04",
+            "role": "positive"
+          },
+          "predicted": null,
+          "reasoning_validity": "not_human_adjudicated",
+          "reference": "insufficient_evidence",
+          "scope_overclaim": false,
+          "seconds": 7.328727019994403,
+          "status": "malformed",
+          "tokens": {
+            "input": 448,
+            "output": 53
+          }
+        },
+        {
+          "case_id": "PU04X",
+          "error": "invalid scopes",
+          "fabricated_source_ids": [],
+          "family": "puromycin",
+          "id": "svb-d9ffef148dc5",
+          "invalid_quotes": [],
+          "label_correct": false,
+          "label_only_secondary": "formally_established",
+          "max_confidence": null,
+          "output_reached_token_limit": false,
+          "pair": {
+            "id": "PU04",
+            "role": "negative"
+          },
+          "predicted": null,
+          "reasoning_validity": "not_human_adjudicated",
+          "reference": "insufficient_evidence",
+          "scope_overclaim": false,
+          "seconds": 9.25300820999837,
+          "status": "malformed",
+          "tokens": {
+            "input": 452,
+            "output": 66
+          }
+        },
+        {
+          "case_id": "CO01N",
+          "error": "invalid scopes",
+          "fabricated_source_ids": [],
+          "family": "grass_co2",
+          "id": "svb-dd6bcec76ce1",
+          "invalid_quotes": [],
+          "label_correct": false,
+          "label_only_secondary": "formally_established",
+          "max_confidence": null,
+          "output_reached_token_limit": false,
+          "pair": {
+            "id": "CO01",
+            "role": "narrow"
+          },
+          "predicted": null,
+          "reasoning_validity": "not_human_adjudicated",
+          "reference": "insufficient_evidence",
+          "scope_overclaim": false,
+          "seconds": 10.949254122999264,
+          "status": "malformed",
+          "tokens": {
+            "input": 485,
+            "output": 79
+          }
+        },
+        {
+          "case_id": "CO01S",
+          "error": "invalid scopes",
+          "fabricated_source_ids": [],
+          "family": "grass_co2",
+          "id": "svb-419e5e13b7b7",
+          "invalid_quotes": [],
+          "label_correct": false,
+          "label_only_secondary": "formally_established",
+          "max_confidence": null,
+          "output_reached_token_limit": false,
+          "pair": {
+            "id": "CO01",
+            "role": "stronger"
+          },
+          "predicted": null,
+          "reasoning_validity": "not_human_adjudicated",
+          "reference": "insufficient_evidence",
+          "scope_overclaim": false,
+          "seconds": 11.811380422004731,
+          "status": "malformed",
+          "tokens": {
+            "input": 474,
+            "output": 97
+          }
+        },
+        {
+          "case_id": "CO02N",
+          "error": "invalid scopes",
+          "fabricated_source_ids": [],
+          "family": "grass_co2",
+          "id": "svb-9f33c4663a5d",
+          "invalid_quotes": [],
+          "label_correct": false,
+          "label_only_secondary": "formally_established",
+          "max_confidence": null,
+          "output_reached_token_limit": false,
+          "pair": {
+            "id": "CO02",
+            "role": "narrow"
+          },
+          "predicted": null,
+          "reasoning_validity": "not_human_adjudicated",
+          "reference": "insufficient_evidence",
+          "scope_overclaim": false,
+          "seconds": 10.230699106992688,
+          "status": "malformed",
+          "tokens": {
+            "input": 464,
+            "output": 82
+          }
+        },
+        {
+          "case_id": "CO02S",
+          "error": "invalid scopes",
+          "fabricated_source_ids": [],
+          "family": "grass_co2",
+          "id": "svb-4d714c05db2d",
+          "invalid_quotes": [],
+          "label_correct": false,
+          "label_only_secondary": "formally_established",
+          "max_confidence": null,
+          "output_reached_token_limit": false,
+          "pair": {
+            "id": "CO02",
+            "role": "stronger"
+          },
+          "predicted": null,
+          "reasoning_validity": "not_human_adjudicated",
+          "reference": "insufficient_evidence",
+          "scope_overclaim": false,
+          "seconds": 11.575378730005468,
+          "status": "malformed",
+          "tokens": {
+            "input": 466,
+            "output": 95
+          }
+        },
+        {
+          "case_id": "CO03P",
+          "error": "invalid scopes",
+          "fabricated_source_ids": [],
+          "family": "grass_co2",
+          "id": "svb-e3e8e1a3f404",
+          "invalid_quotes": [],
+          "label_correct": false,
+          "label_only_secondary": "formally_established",
+          "max_confidence": null,
+          "output_reached_token_limit": false,
+          "pair": {
+            "id": "CO03",
+            "role": "positive"
+          },
+          "predicted": null,
+          "reasoning_validity": "not_human_adjudicated",
+          "reference": "insufficient_evidence",
+          "scope_overclaim": false,
+          "seconds": 9.110462999000447,
+          "status": "malformed",
+          "tokens": {
+            "input": 464,
+            "output": 73
+          }
+        },
+        {
+          "case_id": "CO03X",
+          "error": "Unterminated string starting at: line 1 column 99 (char 98)",
+          "fabricated_source_ids": [],
+          "family": "grass_co2",
+          "id": "svb-1ebab3b83fb1",
+          "invalid_quotes": [],
+          "label_correct": false,
+          "label_only_secondary": "formally_established",
+          "max_confidence": null,
+          "output_reached_token_limit": true,
+          "pair": {
+            "id": "CO03",
+            "role": "negative"
+          },
+          "predicted": null,
+          "reasoning_validity": "not_human_adjudicated",
+          "reference": "insufficient_evidence",
+          "scope_overclaim": false,
+          "seconds": 42.876416919985786,
+          "status": "malformed",
+          "tokens": {
+            "input": 464,
+            "output": 384
+          }
+        },
+        {
+          "case_id": "CO04N",
+          "error": "invalid scopes",
+          "fabricated_source_ids": [],
+          "family": "grass_co2",
+          "id": "svb-f00434596561",
+          "invalid_quotes": [],
+          "label_correct": false,
+          "label_only_secondary": "formally_established",
+          "max_confidence": null,
+          "output_reached_token_limit": false,
+          "pair": {
+            "id": "CO04",
+            "role": "narrow"
+          },
+          "predicted": null,
+          "reasoning_validity": "not_human_adjudicated",
+          "reference": "insufficient_evidence",
+          "scope_overclaim": false,
+          "seconds": 11.432322398002725,
+          "status": "malformed",
+          "tokens": {
+            "input": 479,
+            "output": 94
+          }
+        },
+        {
+          "case_id": "CO04S",
+          "error": "invalid scopes",
+          "fabricated_source_ids": [],
+          "family": "grass_co2",
+          "id": "svb-8ebbf0ce72cf",
+          "invalid_quotes": [],
+          "label_correct": false,
+          "label_only_secondary": "formally_established",
+          "max_confidence": null,
+          "output_reached_token_limit": false,
+          "pair": {
+            "id": "CO04",
+            "role": "stronger"
+          },
+          "predicted": null,
+          "reasoning_validity": "not_human_adjudicated",
+          "reference": "insufficient_evidence",
+          "scope_overclaim": false,
+          "seconds": 11.79613197800063,
+          "status": "malformed",
+          "tokens": {
+            "input": 468,
+            "output": 96
+          }
+        },
+        {
+          "case_id": "FS01N",
+          "error": "invalid scopes",
+          "fabricated_source_ids": [],
+          "family": "freesolv",
+          "id": "svb-bc52f66b2e04",
+          "invalid_quotes": [],
+          "label_correct": false,
+          "label_only_secondary": "formally_established",
+          "max_confidence": null,
+          "output_reached_token_limit": false,
+          "pair": {
+            "id": "FS01",
+            "role": "narrow"
+          },
+          "predicted": null,
+          "reasoning_validity": "not_human_adjudicated",
+          "reference": "insufficient_evidence",
+          "scope_overclaim": false,
+          "seconds": 9.192678270992474,
+          "status": "malformed",
+          "tokens": {
+            "input": 491,
+            "output": 69
+          }
+        },
+        {
+          "case_id": "FS01S",
+          "error": "invalid scopes",
+          "fabricated_source_ids": [],
+          "family": "freesolv",
+          "id": "svb-452e4e23d192",
+          "invalid_quotes": [],
+          "label_correct": false,
+          "label_only_secondary": "formally_established",
+          "max_confidence": null,
+          "output_reached_token_limit": false,
+          "pair": {
+            "id": "FS01",
+            "role": "stronger"
+          },
+          "predicted": null,
+          "reasoning_validity": "not_human_adjudicated",
+          "reference": "insufficient_evidence",
+          "scope_overclaim": false,
+          "seconds": 8.7959271610016,
+          "status": "malformed",
+          "tokens": {
+            "input": 471,
+            "output": 67
+          }
+        },
+        {
+          "case_id": "FS02N",
+          "error": "invalid scopes",
+          "fabricated_source_ids": [],
+          "family": "freesolv",
+          "id": "svb-6feb378ca1c0",
+          "invalid_quotes": [],
+          "label_correct": false,
+          "label_only_secondary": "formally_established",
+          "max_confidence": null,
+          "output_reached_token_limit": false,
+          "pair": {
+            "id": "FS02",
+            "role": "narrow"
+          },
+          "predicted": null,
+          "reasoning_validity": "not_human_adjudicated",
+          "reference": "insufficient_evidence",
+          "scope_overclaim": false,
+          "seconds": 9.007209556992166,
+          "status": "malformed",
+          "tokens": {
+            "input": 478,
+            "output": 73
+          }
+        },
+        {
+          "case_id": "FS02S",
+          "error": "invalid scopes",
+          "fabricated_source_ids": [],
+          "family": "freesolv",
+          "id": "svb-8bd40c4e6af8",
+          "invalid_quotes": [],
+          "label_correct": false,
+          "label_only_secondary": "formally_established",
+          "max_confidence": null,
+          "output_reached_token_limit": false,
+          "pair": {
+            "id": "FS02",
+            "role": "stronger"
+          },
+          "predicted": null,
+          "reasoning_validity": "not_human_adjudicated",
+          "reference": "insufficient_evidence",
+          "scope_overclaim": false,
+          "seconds": 10.47485889600648,
+          "status": "malformed",
+          "tokens": {
+            "input": 470,
+            "output": 86
+          }
+        },
+        {
+          "case_id": "FS03N",
+          "error": "invalid scopes",
+          "fabricated_source_ids": [],
+          "family": "freesolv",
+          "id": "svb-3dac26205064",
+          "invalid_quotes": [],
+          "label_correct": false,
+          "label_only_secondary": "formally_established",
+          "max_confidence": null,
+          "output_reached_token_limit": false,
+          "pair": {
+            "id": "FS03",
+            "role": "narrow"
+          },
+          "predicted": null,
+          "reasoning_validity": "not_human_adjudicated",
+          "reference": "insufficient_evidence",
+          "scope_overclaim": false,
+          "seconds": 8.81435980500828,
+          "status": "malformed",
+          "tokens": {
+            "input": 479,
+            "output": 68
+          }
+        },
+        {
+          "case_id": "FS03S",
+          "error": "invalid scopes",
+          "fabricated_source_ids": [],
+          "family": "freesolv",
+          "id": "svb-9ba09d786a13",
+          "invalid_quotes": [],
+          "label_correct": false,
+          "label_only_secondary": "formally_established",
+          "max_confidence": null,
+          "output_reached_token_limit": false,
+          "pair": {
+            "id": "FS03",
+            "role": "stronger"
+          },
+          "predicted": null,
+          "reasoning_validity": "not_human_adjudicated",
+          "reference": "insufficient_evidence",
+          "scope_overclaim": false,
+          "seconds": 8.99399636698945,
+          "status": "malformed",
+          "tokens": {
+            "input": 472,
+            "output": 69
+          }
+        },
+        {
+          "case_id": "FS04N",
+          "error": "invalid scopes",
+          "fabricated_source_ids": [],
+          "family": "freesolv",
+          "id": "svb-42170d786de1",
+          "invalid_quotes": [],
+          "label_correct": false,
+          "label_only_secondary": "formally_established",
+          "max_confidence": null,
+          "output_reached_token_limit": false,
+          "pair": {
+            "id": "FS04",
+            "role": "narrow"
+          },
+          "predicted": null,
+          "reasoning_validity": "not_human_adjudicated",
+          "reference": "insufficient_evidence",
+          "scope_overclaim": false,
+          "seconds": 10.684081827,
+          "status": "malformed",
+          "tokens": {
+            "input": 470,
+            "output": 100
+          }
+        },
+        {
+          "case_id": "FS04S",
+          "error": "invalid scopes",
+          "fabricated_source_ids": [],
+          "family": "freesolv",
+          "id": "svb-ceaeb8b404e1",
+          "invalid_quotes": [],
+          "label_correct": false,
+          "label_only_secondary": "formally_established",
+          "max_confidence": null,
+          "output_reached_token_limit": false,
+          "pair": {
+            "id": "FS04",
+            "role": "stronger"
+          },
+          "predicted": null,
+          "reasoning_validity": "not_human_adjudicated",
+          "reference": "insufficient_evidence",
+          "scope_overclaim": false,
+          "seconds": 8.414685469000005,
+          "status": "malformed",
+          "tokens": {
+            "input": 466,
+            "output": 74
+          }
+        }
+      ],
+      "reasoning_limit": "ID/quote consistency checked; scientific reasoning/entailment validity awaits blinded human rubric review. No automatic reasoning-quality score is claimed.",
+      "rows": [
+        {
+          "brier": null,
+          "correct": false,
+          "difficulty": "naturalistic",
+          "domain": "science",
+          "false_accept": false,
+          "id": "svb-5cac43968ca3",
+          "predicted": null,
+          "reference": "insufficient_evidence",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "ordinary",
+          "status": "execution_error"
+        },
+        {
+          "brier": null,
+          "correct": false,
+          "difficulty": "naturalistic",
+          "domain": "science",
+          "false_accept": false,
+          "id": "svb-6cf18a16d481",
+          "predicted": null,
+          "reference": "insufficient_evidence",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "high",
+          "status": "execution_error"
+        },
+        {
+          "brier": null,
+          "correct": false,
+          "difficulty": "naturalistic",
+          "domain": "science",
+          "false_accept": false,
+          "id": "svb-8cd269de53bf",
+          "predicted": null,
+          "reference": "insufficient_evidence",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "ordinary",
+          "status": "execution_error"
+        },
+        {
+          "brier": null,
+          "correct": false,
+          "difficulty": "naturalistic",
+          "domain": "science",
+          "false_accept": false,
+          "id": "svb-4399d7d82628",
+          "predicted": null,
+          "reference": "insufficient_evidence",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "high",
+          "status": "execution_error"
+        },
+        {
+          "brier": null,
+          "correct": false,
+          "difficulty": "naturalistic",
+          "domain": "science",
+          "false_accept": false,
+          "id": "svb-6bb569d5ba7e",
+          "predicted": null,
+          "reference": "insufficient_evidence",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "ordinary",
+          "status": "execution_error"
+        },
+        {
+          "brier": null,
+          "correct": false,
+          "difficulty": "naturalistic",
+          "domain": "science",
+          "false_accept": false,
+          "id": "svb-8ac12705d301",
+          "predicted": null,
+          "reference": "insufficient_evidence",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "high",
+          "status": "execution_error"
+        },
+        {
+          "brier": null,
+          "correct": false,
+          "difficulty": "naturalistic",
+          "domain": "science",
+          "false_accept": false,
+          "id": "svb-68536bb7a951",
+          "predicted": null,
+          "reference": "insufficient_evidence",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "ordinary",
+          "status": "execution_error"
+        },
+        {
+          "brier": null,
+          "correct": false,
+          "difficulty": "naturalistic",
+          "domain": "science",
+          "false_accept": false,
+          "id": "svb-d9ffef148dc5",
+          "predicted": null,
+          "reference": "insufficient_evidence",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "ordinary",
+          "status": "execution_error"
+        },
+        {
+          "brier": null,
+          "correct": false,
+          "difficulty": "naturalistic",
+          "domain": "science",
+          "false_accept": false,
+          "id": "svb-dd6bcec76ce1",
+          "predicted": null,
+          "reference": "insufficient_evidence",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "ordinary",
+          "status": "execution_error"
+        },
+        {
+          "brier": null,
+          "correct": false,
+          "difficulty": "naturalistic",
+          "domain": "science",
+          "false_accept": false,
+          "id": "svb-419e5e13b7b7",
+          "predicted": null,
+          "reference": "insufficient_evidence",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "high",
+          "status": "execution_error"
+        },
+        {
+          "brier": null,
+          "correct": false,
+          "difficulty": "naturalistic",
+          "domain": "science",
+          "false_accept": false,
+          "id": "svb-9f33c4663a5d",
+          "predicted": null,
+          "reference": "insufficient_evidence",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "ordinary",
+          "status": "execution_error"
+        },
+        {
+          "brier": null,
+          "correct": false,
+          "difficulty": "naturalistic",
+          "domain": "science",
+          "false_accept": false,
+          "id": "svb-4d714c05db2d",
+          "predicted": null,
+          "reference": "insufficient_evidence",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "high",
+          "status": "execution_error"
+        },
+        {
+          "brier": null,
+          "correct": false,
+          "difficulty": "naturalistic",
+          "domain": "science",
+          "false_accept": false,
+          "id": "svb-e3e8e1a3f404",
+          "predicted": null,
+          "reference": "insufficient_evidence",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "ordinary",
+          "status": "execution_error"
+        },
+        {
+          "brier": null,
+          "correct": false,
+          "difficulty": "naturalistic",
+          "domain": "science",
+          "false_accept": false,
+          "id": "svb-1ebab3b83fb1",
+          "predicted": null,
+          "reference": "insufficient_evidence",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "ordinary",
+          "status": "execution_error"
+        },
+        {
+          "brier": null,
+          "correct": false,
+          "difficulty": "naturalistic",
+          "domain": "science",
+          "false_accept": false,
+          "id": "svb-f00434596561",
+          "predicted": null,
+          "reference": "insufficient_evidence",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "ordinary",
+          "status": "execution_error"
+        },
+        {
+          "brier": null,
+          "correct": false,
+          "difficulty": "naturalistic",
+          "domain": "science",
+          "false_accept": false,
+          "id": "svb-8ebbf0ce72cf",
+          "predicted": null,
+          "reference": "insufficient_evidence",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "high",
+          "status": "execution_error"
+        },
+        {
+          "brier": null,
+          "correct": false,
+          "difficulty": "naturalistic",
+          "domain": "science",
+          "false_accept": false,
+          "id": "svb-bc52f66b2e04",
+          "predicted": null,
+          "reference": "insufficient_evidence",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "ordinary",
+          "status": "execution_error"
+        },
+        {
+          "brier": null,
+          "correct": false,
+          "difficulty": "naturalistic",
+          "domain": "science",
+          "false_accept": false,
+          "id": "svb-452e4e23d192",
+          "predicted": null,
+          "reference": "insufficient_evidence",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "high",
+          "status": "execution_error"
+        },
+        {
+          "brier": null,
+          "correct": false,
+          "difficulty": "naturalistic",
+          "domain": "science",
+          "false_accept": false,
+          "id": "svb-6feb378ca1c0",
+          "predicted": null,
+          "reference": "insufficient_evidence",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "ordinary",
+          "status": "execution_error"
+        },
+        {
+          "brier": null,
+          "correct": false,
+          "difficulty": "naturalistic",
+          "domain": "science",
+          "false_accept": false,
+          "id": "svb-8bd40c4e6af8",
+          "predicted": null,
+          "reference": "insufficient_evidence",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "high",
+          "status": "execution_error"
+        },
+        {
+          "brier": null,
+          "correct": false,
+          "difficulty": "naturalistic",
+          "domain": "science",
+          "false_accept": false,
+          "id": "svb-3dac26205064",
+          "predicted": null,
+          "reference": "insufficient_evidence",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "ordinary",
+          "status": "execution_error"
+        },
+        {
+          "brier": null,
+          "correct": false,
+          "difficulty": "naturalistic",
+          "domain": "science",
+          "false_accept": false,
+          "id": "svb-9ba09d786a13",
+          "predicted": null,
+          "reference": "insufficient_evidence",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "high",
+          "status": "execution_error"
+        },
+        {
+          "brier": null,
+          "correct": false,
+          "difficulty": "naturalistic",
+          "domain": "science",
+          "false_accept": false,
+          "id": "svb-42170d786de1",
+          "predicted": null,
+          "reference": "insufficient_evidence",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "ordinary",
+          "status": "execution_error"
+        },
+        {
+          "brier": null,
+          "correct": false,
+          "difficulty": "naturalistic",
+          "domain": "science",
+          "false_accept": false,
+          "id": "svb-ceaeb8b404e1",
+          "predicted": null,
+          "reference": "insufficient_evidence",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "high",
+          "status": "execution_error"
+        }
+      ],
+      "selective_risk": [
+        {
+          "categorical_risk": null,
+          "confidence_threshold": 0.0,
+          "coverage": 0.0,
+          "n": 0,
+          "total_n": 24
+        },
+        {
+          "categorical_risk": null,
+          "confidence_threshold": 0.25,
+          "coverage": 0.0,
+          "n": 0,
+          "total_n": 24
+        },
+        {
+          "categorical_risk": null,
+          "confidence_threshold": 0.5,
+          "coverage": 0.0,
+          "n": 0,
+          "total_n": 24
+        },
+        {
+          "categorical_risk": null,
+          "confidence_threshold": 0.75,
+          "coverage": 0.0,
+          "n": 0,
+          "total_n": 24
+        },
+        {
+          "categorical_risk": null,
+          "confidence_threshold": 0.9,
+          "coverage": 0.0,
+          "n": 0,
+          "total_n": 24
+        },
+        {
+          "categorical_risk": null,
+          "confidence_threshold": 1.0,
+          "coverage": 0.0,
+          "n": 0,
+          "total_n": 24
+        }
+      ],
+      "summary": {
+        "accept_reference_n": 0,
+        "accepted_n": 0,
+        "accepted_risk": null,
+        "accepted_scope_note": "Scope escalation evaluated only for accepted conclusions; scopes on abstention/refutation are not interpreted as acceptance.",
+        "accuracy_all": 0.0,
+        "accuracy_answered": null,
+        "accuracy_wilson95_descriptive": [
+          1.3877787807814457e-17,
+          0.13797620467498017
+        ],
+        "confusion": {
+          "insufficient_evidence -> execution_error": 24
+        },
+        "correct": 0,
+        "correct_insufficient": 0,
+        "coverage": 0.0,
+        "elapsed_generation_seconds": 270.89765814995553,
+        "epistemic_decision_correct": 0,
+        "evidence_integrity_accepted_errors": 0,
+        "evidence_integrity_accepted_n": 0,
+        "fabricated_source_cases": 0,
+        "false_accept_count": 0,
+        "false_accept_rate": 0.0,
+        "false_reject_count": 0,
+        "input_output_tokens": 13532,
+        "invalid_quote_cases": 0,
+        "mean_brier_answered": null,
+        "n": 24,
+        "nonaccept_reference_n": 24,
+        "paid_api_cost_usd": 0,
+        "raw_statuses": {
+          "malformed": 24
+        },
+        "reasoning_accuracy": null,
+        "reasoning_adjudicated_n": 0,
+        "scope_overclaims": 0,
+        "secondary_label_agreement_correct": 0,
+        "secondary_label_extracted_n": 24,
+        "secondary_label_note": "Format-only diagnostic; does not rescue primary malformed outputs or validate reasoning.",
+        "statuses": {
+          "execution_error": 24
+        },
+        "supported_false_rejection_rate": null
+      }
+    },
+    "paraphrase": {
+      "adjudication": "provisional_author_adjudicated",
+      "by_difficulty": {
+        "naturalistic": {
+          "accept_reference_n": 2,
+          "accepted_n": 0,
+          "accepted_risk": null,
+          "accuracy_all": 0.0,
+          "accuracy_answered": null,
+          "accuracy_wilson95_descriptive": [
+            0.0,
+            0.4898908364545973
+          ],
+          "confusion": {
+            "empirically_supported -> execution_error": 2,
+            "insufficient_evidence -> execution_error": 2
+          },
+          "correct": 0,
+          "correct_insufficient": 0,
+          "coverage": 0.0,
+          "false_accept_count": 0,
+          "false_accept_rate": 0.0,
+          "false_reject_count": 0,
+          "mean_brier_answered": null,
+          "n": 4,
+          "nonaccept_reference_n": 2,
+          "scope_overclaims": 0,
+          "statuses": {
+            "execution_error": 4
+          }
+        }
+      },
+      "by_domain": {
+        "science": {
+          "accept_reference_n": 2,
+          "accepted_n": 0,
+          "accepted_risk": null,
+          "accuracy_all": 0.0,
+          "accuracy_answered": null,
+          "accuracy_wilson95_descriptive": [
+            0.0,
+            0.4898908364545973
+          ],
+          "confusion": {
+            "empirically_supported -> execution_error": 2,
+            "insufficient_evidence -> execution_error": 2
+          },
+          "correct": 0,
+          "correct_insufficient": 0,
+          "coverage": 0.0,
+          "false_accept_count": 0,
+          "false_accept_rate": 0.0,
+          "false_reject_count": 0,
+          "mean_brier_answered": null,
+          "n": 4,
+          "nonaccept_reference_n": 2,
+          "scope_overclaims": 0,
+          "statuses": {
+            "execution_error": 4
+          }
+        }
+      },
+      "by_severity": {
+        "high": {
+          "accept_reference_n": 0,
+          "accepted_n": 0,
+          "accepted_risk": null,
+          "accuracy_all": 0.0,
+          "accuracy_answered": null,
+          "accuracy_wilson95_descriptive": [
+            0.0,
+            0.6576197724933469
+          ],
+          "confusion": {
+            "insufficient_evidence -> execution_error": 2
+          },
+          "correct": 0,
+          "correct_insufficient": 0,
+          "coverage": 0.0,
+          "false_accept_count": 0,
+          "false_accept_rate": 0.0,
+          "false_reject_count": 0,
+          "mean_brier_answered": null,
+          "n": 2,
+          "nonaccept_reference_n": 2,
+          "scope_overclaims": 0,
+          "statuses": {
+            "execution_error": 2
+          }
+        },
+        "ordinary": {
+          "accept_reference_n": 2,
+          "accepted_n": 0,
+          "accepted_risk": null,
+          "accuracy_all": 0.0,
+          "accuracy_answered": null,
+          "accuracy_wilson95_descriptive": [
+            0.0,
+            0.6576197724933469
+          ],
+          "confusion": {
+            "empirically_supported -> execution_error": 2
+          },
+          "correct": 0,
+          "correct_insufficient": 0,
+          "coverage": 0.0,
+          "false_accept_count": 0,
+          "false_accept_rate": null,
+          "false_reject_count": 0,
+          "mean_brier_answered": null,
+          "n": 2,
+          "nonaccept_reference_n": 0,
+          "scope_overclaims": 0,
+          "statuses": {
+            "execution_error": 2
+          }
+        }
+      },
+      "condition": "paraphrase",
+      "excluded_unresolved_n": 0,
+      "paired": {
+        "both_correct": 0,
+        "n": 2,
+        "rows": [
+          {
+            "both_answered": false,
+            "both_correct": false,
+            "cases": [
+              "svb-5cac43968ca3",
+              "svb-6cf18a16d481"
+            ],
+            "pair_id": "PU01",
+            "same_label": false
+          },
+          {
+            "both_answered": false,
+            "both_correct": false,
+            "cases": [
+              "svb-8cd269de53bf",
+              "svb-4399d7d82628"
+            ],
+            "pair_id": "PU02",
+            "same_label": false
+          }
+        ]
+      },
+      "raw_rows": [
+        {
+          "case_id": "PU01N",
+          "error": "full probability vector required",
+          "fabricated_source_ids": [],
+          "family": "puromycin",
+          "id": "svb-5cac43968ca3",
+          "invalid_quotes": [],
+          "label_correct": false,
+          "label_only_secondary": "formally_established",
+          "max_confidence": null,
+          "output_reached_token_limit": false,
+          "pair": {
+            "id": "PU01",
+            "role": "narrow"
+          },
+          "predicted": null,
+          "reasoning_validity": "not_human_adjudicated",
+          "reference": "empirically_supported",
+          "scope_overclaim": false,
+          "seconds": 10.769290245999855,
+          "status": "malformed",
+          "tokens": {
+            "input": 904,
+            "output": 69
+          }
+        },
+        {
+          "case_id": "PU01S",
+          "error": "full probability vector required",
+          "fabricated_source_ids": [],
+          "family": "puromycin",
+          "id": "svb-6cf18a16d481",
+          "invalid_quotes": [],
+          "label_correct": false,
+          "label_only_secondary": "formally_established",
+          "max_confidence": null,
+          "output_reached_token_limit": false,
+          "pair": {
+            "id": "PU01",
+            "role": "stronger"
+          },
+          "predicted": null,
+          "reasoning_validity": "not_human_adjudicated",
+          "reference": "insufficient_evidence",
+          "scope_overclaim": false,
+          "seconds": 14.698397586999818,
+          "status": "malformed",
+          "tokens": {
+            "input": 888,
+            "output": 110
+          }
+        },
+        {
+          "case_id": "PU02N",
+          "error": "full probability vector required",
+          "fabricated_source_ids": [],
+          "family": "puromycin",
+          "id": "svb-8cd269de53bf",
+          "invalid_quotes": [],
+          "label_correct": false,
+          "label_only_secondary": "formally_established",
+          "max_confidence": null,
+          "output_reached_token_limit": false,
+          "pair": {
+            "id": "PU02",
+            "role": "narrow"
+          },
+          "predicted": null,
+          "reasoning_validity": "not_human_adjudicated",
+          "reference": "empirically_supported",
+          "scope_overclaim": false,
+          "seconds": 14.316278121000096,
+          "status": "malformed",
+          "tokens": {
+            "input": 900,
+            "output": 108
+          }
+        },
+        {
+          "case_id": "PU02S",
+          "error": "full probability vector required",
+          "fabricated_source_ids": [],
+          "family": "puromycin",
+          "id": "svb-4399d7d82628",
+          "invalid_quotes": [],
+          "label_correct": false,
+          "label_only_secondary": "formally_established",
+          "max_confidence": null,
+          "output_reached_token_limit": false,
+          "pair": {
+            "id": "PU02",
+            "role": "stronger"
+          },
+          "predicted": null,
+          "reasoning_validity": "not_human_adjudicated",
+          "reference": "insufficient_evidence",
+          "scope_overclaim": false,
+          "seconds": 10.49820256199996,
+          "status": "malformed",
+          "tokens": {
+            "input": 878,
+            "output": 68
+          }
+        }
+      ],
+      "reasoning_limit": "ID/quote consistency checked; scientific reasoning/entailment validity awaits blinded human rubric review. No automatic reasoning-quality score is claimed.",
+      "rows": [
+        {
+          "brier": null,
+          "correct": false,
+          "difficulty": "naturalistic",
+          "domain": "science",
+          "false_accept": false,
+          "id": "svb-5cac43968ca3",
+          "predicted": null,
+          "reference": "empirically_supported",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "ordinary",
+          "status": "execution_error"
+        },
+        {
+          "brier": null,
+          "correct": false,
+          "difficulty": "naturalistic",
+          "domain": "science",
+          "false_accept": false,
+          "id": "svb-6cf18a16d481",
+          "predicted": null,
+          "reference": "insufficient_evidence",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "high",
+          "status": "execution_error"
+        },
+        {
+          "brier": null,
+          "correct": false,
+          "difficulty": "naturalistic",
+          "domain": "science",
+          "false_accept": false,
+          "id": "svb-8cd269de53bf",
+          "predicted": null,
+          "reference": "empirically_supported",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "ordinary",
+          "status": "execution_error"
+        },
+        {
+          "brier": null,
+          "correct": false,
+          "difficulty": "naturalistic",
+          "domain": "science",
+          "false_accept": false,
+          "id": "svb-4399d7d82628",
+          "predicted": null,
+          "reference": "insufficient_evidence",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "high",
+          "status": "execution_error"
+        }
+      ],
+      "selective_risk": [
+        {
+          "categorical_risk": null,
+          "confidence_threshold": 0.0,
+          "coverage": 0.0,
+          "n": 0,
+          "total_n": 4
+        },
+        {
+          "categorical_risk": null,
+          "confidence_threshold": 0.25,
+          "coverage": 0.0,
+          "n": 0,
+          "total_n": 4
+        },
+        {
+          "categorical_risk": null,
+          "confidence_threshold": 0.5,
+          "coverage": 0.0,
+          "n": 0,
+          "total_n": 4
+        },
+        {
+          "categorical_risk": null,
+          "confidence_threshold": 0.75,
+          "coverage": 0.0,
+          "n": 0,
+          "total_n": 4
+        },
+        {
+          "categorical_risk": null,
+          "confidence_threshold": 0.9,
+          "coverage": 0.0,
+          "n": 0,
+          "total_n": 4
+        },
+        {
+          "categorical_risk": null,
+          "confidence_threshold": 1.0,
+          "coverage": 0.0,
+          "n": 0,
+          "total_n": 4
+        }
+      ],
+      "summary": {
+        "accept_reference_n": 2,
+        "accepted_n": 0,
+        "accepted_risk": null,
+        "accepted_scope_note": "Scope escalation evaluated only for accepted conclusions; scopes on abstention/refutation are not interpreted as acceptance.",
+        "accuracy_all": 0.0,
+        "accuracy_answered": null,
+        "accuracy_wilson95_descriptive": [
+          0.0,
+          0.4898908364545973
+        ],
+        "confusion": {
+          "empirically_supported -> execution_error": 2,
+          "insufficient_evidence -> execution_error": 2
+        },
+        "correct": 0,
+        "correct_insufficient": 0,
+        "coverage": 0.0,
+        "elapsed_generation_seconds": 50.28216851599973,
+        "epistemic_decision_correct": 0,
+        "evidence_integrity_accepted_errors": 0,
+        "evidence_integrity_accepted_n": 0,
+        "fabricated_source_cases": 0,
+        "false_accept_count": 0,
+        "false_accept_rate": 0.0,
+        "false_reject_count": 0,
+        "input_output_tokens": 3925,
+        "invalid_quote_cases": 0,
+        "mean_brier_answered": null,
+        "n": 4,
+        "nonaccept_reference_n": 2,
+        "paid_api_cost_usd": 0,
+        "raw_statuses": {
+          "malformed": 4
+        },
+        "reasoning_accuracy": null,
+        "reasoning_adjudicated_n": 0,
+        "scope_overclaims": 0,
+        "secondary_label_agreement_correct": 0,
+        "secondary_label_extracted_n": 4,
+        "secondary_label_note": "Format-only diagnostic; does not rescue primary malformed outputs or validate reasoning.",
+        "statuses": {
+          "execution_error": 4
+        },
+        "supported_false_rejection_rate": 0.0
+      }
+    },
+    "verified_numbers": {
+      "adjudication": "provisional_author_adjudicated",
+      "by_difficulty": {
+        "naturalistic": {
+          "accept_reference_n": 2,
+          "accepted_n": 0,
+          "accepted_risk": null,
+          "accuracy_all": 0.0,
+          "accuracy_answered": null,
+          "accuracy_wilson95_descriptive": [
+            0.0,
+            0.4898908364545973
+          ],
+          "confusion": {
+            "empirically_supported -> execution_error": 2,
+            "insufficient_evidence -> execution_error": 2
+          },
+          "correct": 0,
+          "correct_insufficient": 0,
+          "coverage": 0.0,
+          "false_accept_count": 0,
+          "false_accept_rate": 0.0,
+          "false_reject_count": 0,
+          "mean_brier_answered": null,
+          "n": 4,
+          "nonaccept_reference_n": 2,
+          "scope_overclaims": 0,
+          "statuses": {
+            "execution_error": 4
+          }
+        }
+      },
+      "by_domain": {
+        "science": {
+          "accept_reference_n": 2,
+          "accepted_n": 0,
+          "accepted_risk": null,
+          "accuracy_all": 0.0,
+          "accuracy_answered": null,
+          "accuracy_wilson95_descriptive": [
+            0.0,
+            0.4898908364545973
+          ],
+          "confusion": {
+            "empirically_supported -> execution_error": 2,
+            "insufficient_evidence -> execution_error": 2
+          },
+          "correct": 0,
+          "correct_insufficient": 0,
+          "coverage": 0.0,
+          "false_accept_count": 0,
+          "false_accept_rate": 0.0,
+          "false_reject_count": 0,
+          "mean_brier_answered": null,
+          "n": 4,
+          "nonaccept_reference_n": 2,
+          "scope_overclaims": 0,
+          "statuses": {
+            "execution_error": 4
+          }
+        }
+      },
+      "by_severity": {
+        "high": {
+          "accept_reference_n": 0,
+          "accepted_n": 0,
+          "accepted_risk": null,
+          "accuracy_all": 0.0,
+          "accuracy_answered": null,
+          "accuracy_wilson95_descriptive": [
+            0.0,
+            0.6576197724933469
+          ],
+          "confusion": {
+            "insufficient_evidence -> execution_error": 2
+          },
+          "correct": 0,
+          "correct_insufficient": 0,
+          "coverage": 0.0,
+          "false_accept_count": 0,
+          "false_accept_rate": 0.0,
+          "false_reject_count": 0,
+          "mean_brier_answered": null,
+          "n": 2,
+          "nonaccept_reference_n": 2,
+          "scope_overclaims": 0,
+          "statuses": {
+            "execution_error": 2
+          }
+        },
+        "ordinary": {
+          "accept_reference_n": 2,
+          "accepted_n": 0,
+          "accepted_risk": null,
+          "accuracy_all": 0.0,
+          "accuracy_answered": null,
+          "accuracy_wilson95_descriptive": [
+            0.0,
+            0.6576197724933469
+          ],
+          "confusion": {
+            "empirically_supported -> execution_error": 2
+          },
+          "correct": 0,
+          "correct_insufficient": 0,
+          "coverage": 0.0,
+          "false_accept_count": 0,
+          "false_accept_rate": null,
+          "false_reject_count": 0,
+          "mean_brier_answered": null,
+          "n": 2,
+          "nonaccept_reference_n": 0,
+          "scope_overclaims": 0,
+          "statuses": {
+            "execution_error": 2
+          }
+        }
+      },
+      "condition": "verified_numbers",
+      "excluded_unresolved_n": 0,
+      "paired": {
+        "both_correct": 0,
+        "n": 2,
+        "rows": [
+          {
+            "both_answered": false,
+            "both_correct": false,
+            "cases": [
+              "svb-5cac43968ca3",
+              "svb-6cf18a16d481"
+            ],
+            "pair_id": "PU01",
+            "same_label": false
+          },
+          {
+            "both_answered": false,
+            "both_correct": false,
+            "cases": [
+              "svb-8cd269de53bf",
+              "svb-4399d7d82628"
+            ],
+            "pair_id": "PU02",
+            "same_label": false
+          }
+        ]
+      },
+      "raw_rows": [
+        {
+          "case_id": "PU01N",
+          "error": "invalid scopes",
+          "fabricated_source_ids": [],
+          "family": "puromycin",
+          "id": "svb-5cac43968ca3",
+          "invalid_quotes": [],
+          "label_correct": false,
+          "label_only_secondary": "formally_established",
+          "max_confidence": null,
+          "output_reached_token_limit": false,
+          "pair": {
+            "id": "PU01",
+            "role": "narrow"
+          },
+          "predicted": null,
+          "reasoning_validity": "not_human_adjudicated",
+          "reference": "empirically_supported",
+          "scope_overclaim": false,
+          "seconds": 12.782553937999978,
+          "status": "malformed",
+          "tokens": {
+            "input": 1015,
+            "output": 85
+          }
+        },
+        {
+          "case_id": "PU01S",
+          "error": "invalid scopes",
+          "fabricated_source_ids": [],
+          "family": "puromycin",
+          "id": "svb-6cf18a16d481",
+          "invalid_quotes": [],
+          "label_correct": false,
+          "label_only_secondary": "formally_established",
+          "max_confidence": null,
+          "output_reached_token_limit": false,
+          "pair": {
+            "id": "PU01",
+            "role": "stronger"
+          },
+          "predicted": null,
+          "reasoning_validity": "not_human_adjudicated",
+          "reference": "insufficient_evidence",
+          "scope_overclaim": false,
+          "seconds": 13.520356609000032,
+          "status": "malformed",
+          "tokens": {
+            "input": 999,
+            "output": 87
+          }
+        },
+        {
+          "case_id": "PU02N",
+          "error": "invalid scopes",
+          "fabricated_source_ids": [],
+          "family": "puromycin",
+          "id": "svb-8cd269de53bf",
+          "invalid_quotes": [],
+          "label_correct": false,
+          "label_only_secondary": "formally_established",
+          "max_confidence": null,
+          "output_reached_token_limit": false,
+          "pair": {
+            "id": "PU02",
+            "role": "narrow"
+          },
+          "predicted": null,
+          "reasoning_validity": "not_human_adjudicated",
+          "reference": "empirically_supported",
+          "scope_overclaim": false,
+          "seconds": 11.310143976999939,
+          "status": "malformed",
+          "tokens": {
+            "input": 971,
+            "output": 70
+          }
+        },
+        {
+          "case_id": "PU02S",
+          "error": "invalid scopes",
+          "fabricated_source_ids": [],
+          "family": "puromycin",
+          "id": "svb-4399d7d82628",
+          "invalid_quotes": [],
+          "label_correct": false,
+          "label_only_secondary": "formally_established",
+          "max_confidence": null,
+          "output_reached_token_limit": false,
+          "pair": {
+            "id": "PU02",
+            "role": "stronger"
+          },
+          "predicted": null,
+          "reasoning_validity": "not_human_adjudicated",
+          "reference": "insufficient_evidence",
+          "scope_overclaim": false,
+          "seconds": 12.426545029000067,
+          "status": "malformed",
+          "tokens": {
+            "input": 949,
+            "output": 85
+          }
+        }
+      ],
+      "reasoning_limit": "ID/quote consistency checked; scientific reasoning/entailment validity awaits blinded human rubric review. No automatic reasoning-quality score is claimed.",
+      "rows": [
+        {
+          "brier": null,
+          "correct": false,
+          "difficulty": "naturalistic",
+          "domain": "science",
+          "false_accept": false,
+          "id": "svb-5cac43968ca3",
+          "predicted": null,
+          "reference": "empirically_supported",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "ordinary",
+          "status": "execution_error"
+        },
+        {
+          "brier": null,
+          "correct": false,
+          "difficulty": "naturalistic",
+          "domain": "science",
+          "false_accept": false,
+          "id": "svb-6cf18a16d481",
+          "predicted": null,
+          "reference": "insufficient_evidence",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "high",
+          "status": "execution_error"
+        },
+        {
+          "brier": null,
+          "correct": false,
+          "difficulty": "naturalistic",
+          "domain": "science",
+          "false_accept": false,
+          "id": "svb-8cd269de53bf",
+          "predicted": null,
+          "reference": "empirically_supported",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "ordinary",
+          "status": "execution_error"
+        },
+        {
+          "brier": null,
+          "correct": false,
+          "difficulty": "naturalistic",
+          "domain": "science",
+          "false_accept": false,
+          "id": "svb-4399d7d82628",
+          "predicted": null,
+          "reference": "insufficient_evidence",
+          "scope_overclaim": false,
+          "scored": true,
+          "severity": "high",
+          "status": "execution_error"
+        }
+      ],
+      "selective_risk": [
+        {
+          "categorical_risk": null,
+          "confidence_threshold": 0.0,
+          "coverage": 0.0,
+          "n": 0,
+          "total_n": 4
+        },
+        {
+          "categorical_risk": null,
+          "confidence_threshold": 0.25,
+          "coverage": 0.0,
+          "n": 0,
+          "total_n": 4
+        },
+        {
+          "categorical_risk": null,
+          "confidence_threshold": 0.5,
+          "coverage": 0.0,
+          "n": 0,
+          "total_n": 4
+        },
+        {
+          "categorical_risk": null,
+          "confidence_threshold": 0.75,
+          "coverage": 0.0,
+          "n": 0,
+          "total_n": 4
+        },
+        {
+          "categorical_risk": null,
+          "confidence_threshold": 0.9,
+          "coverage": 0.0,
+          "n": 0,
+          "total_n": 4
+        },
+        {
+          "categorical_risk": null,
+          "confidence_threshold": 1.0,
+          "coverage": 0.0,
+          "n": 0,
+          "total_n": 4
+        }
+      ],
+      "summary": {
+        "accept_reference_n": 2,
+        "accepted_n": 0,
+        "accepted_risk": null,
+        "accepted_scope_note": "Scope escalation evaluated only for accepted conclusions; scopes on abstention/refutation are not interpreted as acceptance.",
+        "accuracy_all": 0.0,
+        "accuracy_answered": null,
+        "accuracy_wilson95_descriptive": [
+          0.0,
+          0.4898908364545973
+        ],
+        "confusion": {
+          "empirically_supported -> execution_error": 2,
+          "insufficient_evidence -> execution_error": 2
+        },
+        "correct": 0,
+        "correct_insufficient": 0,
+        "coverage": 0.0,
+        "elapsed_generation_seconds": 50.039599553000016,
+        "epistemic_decision_correct": 0,
+        "evidence_integrity_accepted_errors": 0,
+        "evidence_integrity_accepted_n": 0,
+        "fabricated_source_cases": 0,
+        "false_accept_count": 0,
+        "false_accept_rate": 0.0,
+        "false_reject_count": 0,
+        "input_output_tokens": 4261,
+        "invalid_quote_cases": 0,
+        "mean_brier_answered": null,
+        "n": 4,
+        "nonaccept_reference_n": 2,
+        "paid_api_cost_usd": 0,
+        "raw_statuses": {
+          "malformed": 4
+        },
+        "reasoning_accuracy": null,
+        "reasoning_adjudicated_n": 0,
+        "scope_overclaims": 0,
+        "secondary_label_agreement_correct": 0,
+        "secondary_label_extracted_n": 4,
+        "secondary_label_note": "Format-only diagnostic; does not rescue primary malformed outputs or validate reasoning.",
+        "statuses": {
+          "execution_error": 4
+        },
+        "supported_false_rejection_rate": 0.0
+      }
+    }
+  },
+  "limitations": [
+    "Public\u2014not hidden evaluation",
+    "Single small public instruct model; no general AI claim",
+    "Reasoning validity not independently human reviewed",
+    "Condition-specific labels; withholding docs changes proper answer",
+    "Four-case assistance/assumption/paraphrase subsets not powered comparisons"
+  ],
+  "reference_status": "provisional_author_adjudicated",
+  "source_breakdowns": {
+    "evidence": {
+      "freesolv": {
+        "accept_reference_n": 4,
+        "accepted_n": 0,
+        "accepted_risk": null,
+        "accepted_scope_note": "Scope escalation evaluated only for accepted conclusions; scopes on abstention/refutation are not interpreted as acceptance.",
+        "accuracy_all": 0.0,
+        "accuracy_answered": null,
+        "accuracy_wilson95_descriptive": [
+          0.0,
+          0.32440756488388023
+        ],
+        "confusion": {
+          "computationally_established -> execution_error": 2,
+          "empirically_supported -> execution_error": 2,
+          "insufficient_evidence -> execution_error": 3,
+          "refuted -> execution_error": 1
+        },
+        "correct": 0,
+        "correct_insufficient": 0,
+        "coverage": 0.0,
+        "elapsed_generation_seconds": 135.24931914098852,
+        "epistemic_decision_correct": 0,
+        "evidence_integrity_accepted_errors": 0,
+        "evidence_integrity_accepted_n": 0,
+        "fabricated_source_cases": 0,
+        "false_accept_count": 0,
+        "false_accept_rate": 0.0,
+        "false_reject_count": 0,
+        "input_output_tokens": 10752,
+        "invalid_quote_cases": 0,
+        "mean_brier_answered": null,
+        "n": 8,
+        "nonaccept_reference_n": 4,
+        "paid_api_cost_usd": 0,
+        "raw_statuses": {
+          "malformed": 8
+        },
+        "reasoning_accuracy": null,
+        "reasoning_adjudicated_n": 0,
+        "scope_overclaims": 0,
+        "secondary_label_agreement_correct": 0,
+        "secondary_label_extracted_n": 8,
+        "secondary_label_note": "Format-only diagnostic; does not rescue primary malformed outputs or validate reasoning.",
+        "statuses": {
+          "execution_error": 8
+        },
+        "supported_false_rejection_rate": 0.0
+      },
+      "grass_co2": {
+        "accept_reference_n": 4,
+        "accepted_n": 0,
+        "accepted_risk": null,
+        "accepted_scope_note": "Scope escalation evaluated only for accepted conclusions; scopes on abstention/refutation are not interpreted as acceptance.",
+        "accuracy_all": 0.0,
+        "accuracy_answered": null,
+        "accuracy_wilson95_descriptive": [
+          0.0,
+          0.32440756488388023
+        ],
+        "confusion": {
+          "computationally_established -> execution_error": 1,
+          "empirically_supported -> execution_error": 3,
+          "insufficient_evidence -> execution_error": 2,
+          "refuted -> execution_error": 2
+        },
+        "correct": 0,
+        "correct_insufficient": 0,
+        "coverage": 0.0,
+        "elapsed_generation_seconds": 265.0425036929955,
+        "epistemic_decision_correct": 0,
+        "evidence_integrity_accepted_errors": 0,
+        "evidence_integrity_accepted_n": 0,
+        "fabricated_source_cases": 0,
+        "false_accept_count": 0,
+        "false_accept_rate": 0.0,
+        "false_reject_count": 0,
+        "input_output_tokens": 19046,
+        "invalid_quote_cases": 0,
+        "mean_brier_answered": null,
+        "n": 8,
+        "nonaccept_reference_n": 4,
+        "paid_api_cost_usd": 0,
+        "raw_statuses": {
+          "malformed": 8
+        },
+        "reasoning_accuracy": null,
+        "reasoning_adjudicated_n": 0,
+        "scope_overclaims": 0,
+        "secondary_label_agreement_correct": 0,
+        "secondary_label_extracted_n": 8,
+        "secondary_label_note": "Format-only diagnostic; does not rescue primary malformed outputs or validate reasoning.",
+        "statuses": {
+          "execution_error": 8
+        },
+        "supported_false_rejection_rate": 0.0
+      },
+      "puromycin": {
+        "accept_reference_n": 4,
+        "accepted_n": 0,
+        "accepted_risk": null,
+        "accepted_scope_note": "Scope escalation evaluated only for accepted conclusions; scopes on abstention/refutation are not interpreted as acceptance.",
+        "accuracy_all": 0.0,
+        "accuracy_answered": null,
+        "accuracy_wilson95_descriptive": [
+          0.0,
+          0.32440756488388023
+        ],
+        "confusion": {
+          "computationally_established -> execution_error": 1,
+          "empirically_supported -> execution_error": 3,
+          "insufficient_evidence -> execution_error": 3,
+          "refuted -> execution_error": 1
+        },
+        "correct": 0,
+        "correct_insufficient": 0,
+        "coverage": 0.0,
+        "elapsed_generation_seconds": 114.17614902100468,
+        "epistemic_decision_correct": 0,
+        "evidence_integrity_accepted_errors": 0,
+        "evidence_integrity_accepted_n": 0,
+        "fabricated_source_cases": 0,
+        "false_accept_count": 0,
+        "false_accept_rate": 0.0,
+        "false_reject_count": 0,
+        "input_output_tokens": 7869,
+        "invalid_quote_cases": 0,
+        "mean_brier_answered": null,
+        "n": 8,
+        "nonaccept_reference_n": 4,
+        "paid_api_cost_usd": 0,
+        "raw_statuses": {
+          "malformed": 8
+        },
+        "reasoning_accuracy": null,
+        "reasoning_adjudicated_n": 0,
+        "scope_overclaims": 0,
+        "secondary_label_agreement_correct": 0,
+        "secondary_label_extracted_n": 8,
+        "secondary_label_note": "Format-only diagnostic; does not rescue primary malformed outputs or validate reasoning.",
+        "statuses": {
+          "execution_error": 8
+        },
+        "supported_false_rejection_rate": 0.0
+      }
+    },
+    "no_assumptions": {
+      "puromycin": {
+        "accept_reference_n": 2,
+        "accepted_n": 0,
+        "accepted_risk": null,
+        "accepted_scope_note": "Scope escalation evaluated only for accepted conclusions; scopes on abstention/refutation are not interpreted as acceptance.",
+        "accuracy_all": 0.0,
+        "accuracy_answered": null,
+        "accuracy_wilson95_descriptive": [
+          0.0,
+          0.4898908364545973
+        ],
+        "confusion": {
+          "empirically_supported -> execution_error": 2,
+          "insufficient_evidence -> execution_error": 2
+        },
+        "correct": 0,
+        "correct_insufficient": 0,
+        "coverage": 0.0,
+        "elapsed_generation_seconds": 49.822069885999895,
+        "epistemic_decision_correct": 0,
+        "evidence_integrity_accepted_errors": 0,
+        "evidence_integrity_accepted_n": 0,
+        "fabricated_source_cases": 0,
+        "false_accept_count": 0,
+        "false_accept_rate": 0.0,
+        "false_reject_count": 0,
+        "input_output_tokens": 3914,
+        "invalid_quote_cases": 0,
+        "mean_brier_answered": null,
+        "n": 4,
+        "nonaccept_reference_n": 2,
+        "paid_api_cost_usd": 0,
+        "raw_statuses": {
+          "malformed": 4
+        },
+        "reasoning_accuracy": null,
+        "reasoning_adjudicated_n": 0,
+        "scope_overclaims": 0,
+        "secondary_label_agreement_correct": 0,
+        "secondary_label_extracted_n": 4,
+        "secondary_label_note": "Format-only diagnostic; does not rescue primary malformed outputs or validate reasoning.",
+        "statuses": {
+          "execution_error": 4
+        },
+        "supported_false_rejection_rate": 0.0
+      }
+    },
+    "no_evidence": {
+      "freesolv": {
+        "accept_reference_n": 0,
+        "accepted_n": 0,
+        "accepted_risk": null,
+        "accepted_scope_note": "Scope escalation evaluated only for accepted conclusions; scopes on abstention/refutation are not interpreted as acceptance.",
+        "accuracy_all": 0.0,
+        "accuracy_answered": null,
+        "accuracy_wilson95_descriptive": [
+          0.0,
+          0.32440756488388023
+        ],
+        "confusion": {
+          "insufficient_evidence -> execution_error": 8
+        },
+        "correct": 0,
+        "correct_insufficient": 0,
+        "coverage": 0.0,
+        "elapsed_generation_seconds": 74.37779735299046,
+        "epistemic_decision_correct": 0,
+        "evidence_integrity_accepted_errors": 0,
+        "evidence_integrity_accepted_n": 0,
+        "fabricated_source_cases": 0,
+        "false_accept_count": 0,
+        "false_accept_rate": 0.0,
+        "false_reject_count": 0,
+        "input_output_tokens": 4403,
+        "invalid_quote_cases": 0,
+        "mean_brier_answered": null,
+        "n": 8,
+        "nonaccept_reference_n": 8,
+        "paid_api_cost_usd": 0,
+        "raw_statuses": {
+          "malformed": 8
+        },
+        "reasoning_accuracy": null,
+        "reasoning_adjudicated_n": 0,
+        "scope_overclaims": 0,
+        "secondary_label_agreement_correct": 0,
+        "secondary_label_extracted_n": 8,
+        "secondary_label_note": "Format-only diagnostic; does not rescue primary malformed outputs or validate reasoning.",
+        "statuses": {
+          "execution_error": 8
+        },
+        "supported_false_rejection_rate": null
+      },
+      "grass_co2": {
+        "accept_reference_n": 0,
+        "accepted_n": 0,
+        "accepted_risk": null,
+        "accepted_scope_note": "Scope escalation evaluated only for accepted conclusions; scopes on abstention/refutation are not interpreted as acceptance.",
+        "accuracy_all": 0.0,
+        "accuracy_answered": null,
+        "accuracy_wilson95_descriptive": [
+          0.0,
+          0.32440756488388023
+        ],
+        "confusion": {
+          "insufficient_evidence -> execution_error": 8
+        },
+        "correct": 0,
+        "correct_insufficient": 0,
+        "coverage": 0.0,
+        "elapsed_generation_seconds": 119.78204667699174,
+        "epistemic_decision_correct": 0,
+        "evidence_integrity_accepted_errors": 0,
+        "evidence_integrity_accepted_n": 0,
+        "fabricated_source_cases": 0,
+        "false_accept_count": 0,
+        "false_accept_rate": 0.0,
+        "false_reject_count": 0,
+        "input_output_tokens": 4764,
+        "invalid_quote_cases": 0,
+        "mean_brier_answered": null,
+        "n": 8,
+        "nonaccept_reference_n": 8,
+        "paid_api_cost_usd": 0,
+        "raw_statuses": {
+          "malformed": 8
+        },
+        "reasoning_accuracy": null,
+        "reasoning_adjudicated_n": 0,
+        "scope_overclaims": 0,
+        "secondary_label_agreement_correct": 0,
+        "secondary_label_extracted_n": 8,
+        "secondary_label_note": "Format-only diagnostic; does not rescue primary malformed outputs or validate reasoning.",
+        "statuses": {
+          "execution_error": 8
+        },
+        "supported_false_rejection_rate": null
+      },
+      "puromycin": {
+        "accept_reference_n": 0,
+        "accepted_n": 0,
+        "accepted_risk": null,
+        "accepted_scope_note": "Scope escalation evaluated only for accepted conclusions; scopes on abstention/refutation are not interpreted as acceptance.",
+        "accuracy_all": 0.0,
+        "accuracy_answered": null,
+        "accuracy_wilson95_descriptive": [
+          0.0,
+          0.32440756488388023
+        ],
+        "confusion": {
+          "insufficient_evidence -> execution_error": 8
+        },
+        "correct": 0,
+        "correct_insufficient": 0,
+        "coverage": 0.0,
+        "elapsed_generation_seconds": 76.73781411997334,
+        "epistemic_decision_correct": 0,
+        "evidence_integrity_accepted_errors": 0,
+        "evidence_integrity_accepted_n": 0,
+        "fabricated_source_cases": 0,
+        "false_accept_count": 0,
+        "false_accept_rate": 0.0,
+        "false_reject_count": 0,
+        "input_output_tokens": 4365,
+        "invalid_quote_cases": 0,
+        "mean_brier_answered": null,
+        "n": 8,
+        "nonaccept_reference_n": 8,
+        "paid_api_cost_usd": 0,
+        "raw_statuses": {
+          "malformed": 8
+        },
+        "reasoning_accuracy": null,
+        "reasoning_adjudicated_n": 0,
+        "scope_overclaims": 0,
+        "secondary_label_agreement_correct": 0,
+        "secondary_label_extracted_n": 8,
+        "secondary_label_note": "Format-only diagnostic; does not rescue primary malformed outputs or validate reasoning.",
+        "statuses": {
+          "execution_error": 8
+        },
+        "supported_false_rejection_rate": null
+      }
+    },
+    "paraphrase": {
+      "puromycin": {
+        "accept_reference_n": 2,
+        "accepted_n": 0,
+        "accepted_risk": null,
+        "accepted_scope_note": "Scope escalation evaluated only for accepted conclusions; scopes on abstention/refutation are not interpreted as acceptance.",
+        "accuracy_all": 0.0,
+        "accuracy_answered": null,
+        "accuracy_wilson95_descriptive": [
+          0.0,
+          0.4898908364545973
+        ],
+        "confusion": {
+          "empirically_supported -> execution_error": 2,
+          "insufficient_evidence -> execution_error": 2
+        },
+        "correct": 0,
+        "correct_insufficient": 0,
+        "coverage": 0.0,
+        "elapsed_generation_seconds": 50.28216851599973,
+        "epistemic_decision_correct": 0,
+        "evidence_integrity_accepted_errors": 0,
+        "evidence_integrity_accepted_n": 0,
+        "fabricated_source_cases": 0,
+        "false_accept_count": 0,
+        "false_accept_rate": 0.0,
+        "false_reject_count": 0,
+        "input_output_tokens": 3925,
+        "invalid_quote_cases": 0,
+        "mean_brier_answered": null,
+        "n": 4,
+        "nonaccept_reference_n": 2,
+        "paid_api_cost_usd": 0,
+        "raw_statuses": {
+          "malformed": 4
+        },
+        "reasoning_accuracy": null,
+        "reasoning_adjudicated_n": 0,
+        "scope_overclaims": 0,
+        "secondary_label_agreement_correct": 0,
+        "secondary_label_extracted_n": 4,
+        "secondary_label_note": "Format-only diagnostic; does not rescue primary malformed outputs or validate reasoning.",
+        "statuses": {
+          "execution_error": 4
+        },
+        "supported_false_rejection_rate": 0.0
+      }
+    },
+    "verified_numbers": {
+      "puromycin": {
+        "accept_reference_n": 2,
+        "accepted_n": 0,
+        "accepted_risk": null,
+        "accepted_scope_note": "Scope escalation evaluated only for accepted conclusions; scopes on abstention/refutation are not interpreted as acceptance.",
+        "accuracy_all": 0.0,
+        "accuracy_answered": null,
+        "accuracy_wilson95_descriptive": [
+          0.0,
+          0.4898908364545973
+        ],
+        "confusion": {
+          "empirically_supported -> execution_error": 2,
+          "insufficient_evidence -> execution_error": 2
+        },
+        "correct": 0,
+        "correct_insufficient": 0,
+        "coverage": 0.0,
+        "elapsed_generation_seconds": 50.039599553000016,
+        "epistemic_decision_correct": 0,
+        "evidence_integrity_accepted_errors": 0,
+        "evidence_integrity_accepted_n": 0,
+        "fabricated_source_cases": 0,
+        "false_accept_count": 0,
+        "false_accept_rate": 0.0,
+        "false_reject_count": 0,
+        "input_output_tokens": 4261,
+        "invalid_quote_cases": 0,
+        "mean_brier_answered": null,
+        "n": 4,
+        "nonaccept_reference_n": 2,
+        "paid_api_cost_usd": 0,
+        "raw_statuses": {
+          "malformed": 4
+        },
+        "reasoning_accuracy": null,
+        "reasoning_adjudicated_n": 0,
+        "scope_overclaims": 0,
+        "secondary_label_agreement_correct": 0,
+        "secondary_label_extracted_n": 4,
+        "secondary_label_note": "Format-only diagnostic; does not rescue primary malformed outputs or validate reasoning.",
+        "statuses": {
+          "execution_error": 4
+        },
+        "supported_false_rejection_rate": 0.0
+      }
+    }
+  },
+  "version": "0.2.0"
+}

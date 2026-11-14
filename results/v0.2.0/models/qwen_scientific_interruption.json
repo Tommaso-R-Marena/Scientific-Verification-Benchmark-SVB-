@@ -1,0 +1,107 @@
+{
+  "combined_file": "results/v0.2.0/models/qwen_scientific_complete.jsonl",
+  "combined_output_sha256": "611be1e93470b66feab9fffcd2fb9510f49301ca5a773b5f6c91af3fa88b51c4",
+  "combined_records": 60,
+  "configuration": {
+    "attention_implementation": "eager",
+    "do_sample": false,
+    "dtype": "float32",
+    "max_input_tokens": 4096,
+    "max_new_tokens": 384,
+    "seed": 0,
+    "threads": 4
+  },
+  "cost_interpretation": "Sum of durable-record elapsed times is observed generation cost only; original interrupted in-progress work and transition time are unknown, so total compute/wall cost is not fully measured.",
+  "duplicate_id_condition_pairs": 0,
+  "event": "Environment transition interrupted the original scientific inference process; parent and worker found no active inference process and incomplete final metadata. Exact termination time/exit code unavailable.",
+  "format": "svb-model-run-interruption-v1",
+  "frozen_manifest_modified": false,
+  "original_attempted_requests_unknown": true,
+  "original_completed_conditions": {
+    "evidence": 24,
+    "no_evidence": 22
+  },
+  "original_durable_completed": 46,
+  "original_execution_log_sha256": "c68014fff26e9445f41d773a3b51e83fc4b9aca0ed596d4b7139b251560bdeff",
+  "original_final_metadata_absent": [
+    "output_sha256",
+    "elapsed_seconds"
+  ],
+  "original_lost_in_progress_computation_unknown": true,
+  "original_metadata_sha256": "de1542fc6cd925a3763f9f1256f9dd009487ea1284665da725bd810994424bb6",
+  "original_missing_after_interruption": 14,
+  "original_output": "results/v0.2.0/models/qwen_scientific.jsonl",
+  "original_output_sha256": "9f810b5462eeb8cc3762cdfd3d7a9ccb68a771133bb29cd987d64aedbf94a0bc",
+  "original_prompt_bundle": "data/v0.2.0/prompts/scientific_run.jsonl",
+  "original_prompt_sha256": "0949cedac5127dd62bc83da1c7ffc9c593434bdbb76f34d40153a93b3dd4d010",
+  "original_records_rerun": false,
+  "original_requested": 60,
+  "recorded_utc": "2026-11-14T15:10:38.451306+00:00",
+  "remainder_completed": 14,
+  "remainder_metadata_sha256": "c72e959f59941ab3480faedc31773ae8ef065b738ba812ef16cae5816c176c3c",
+  "remainder_output_sha256": "c8f8067e624500fd1587af2f6aff6d540a6191f8832638d2abade6b967b9c8ef",
+  "remainder_prompt_file": "results/v0.2.0/models/qwen_scientific_remainder.prompts.jsonl",
+  "remainder_prompt_sha256": "b5bcc1efef429b6cb04eec6c9a51c27eeaa1d39d6a0fd5e56cfd2f0e0c2c59b6",
+  "remaining_requests": [
+    {
+      "condition": "no_evidence",
+      "id": "svb-42170d786de1"
+    },
+    {
+      "condition": "no_evidence",
+      "id": "svb-ceaeb8b404e1"
+    },
+    {
+      "condition": "verified_numbers",
+      "id": "svb-5cac43968ca3"
+    },
+    {
+      "condition": "verified_numbers",
+      "id": "svb-6cf18a16d481"
+    },
+    {
+      "condition": "verified_numbers",
+      "id": "svb-8cd269de53bf"
+    },
+    {
+      "condition": "verified_numbers",
+      "id": "svb-4399d7d82628"
+    },
+    {
+      "condition": "no_assumptions",
+      "id": "svb-5cac43968ca3"
+    },
+    {
+      "condition": "no_assumptions",
+      "id": "svb-6cf18a16d481"
+    },
+    {
+      "condition": "no_assumptions",
+      "id": "svb-8cd269de53bf"
+    },
+    {
+      "condition": "no_assumptions",
+      "id": "svb-4399d7d82628"
+    },
+    {
+      "condition": "paraphrase",
+      "id": "svb-5cac43968ca3"
+    },
+    {
+      "condition": "paraphrase",
+      "id": "svb-6cf18a16d481"
+    },
+    {
+      "condition": "paraphrase",
+      "id": "svb-8cd269de53bf"
+    },
+    {
+      "condition": "paraphrase",
+      "id": "svb-4399d7d82628"
+    }
+  ],
+  "resume_policy": "Only missing id/condition requests; original messages unchanged, same frozen runner/model/settings; new files; no completed response rerun or repair. Parent inspected completed outputs but made no tuning changes.",
+  "runner_sha256": "06d251c053058cb90cd94bf66a473eb3fd0da1a8385cc4d7b524630f3c2b939b",
+  "same_runtime_and_model_settings_verified": true,
+  "status": "resume_completed"
+}

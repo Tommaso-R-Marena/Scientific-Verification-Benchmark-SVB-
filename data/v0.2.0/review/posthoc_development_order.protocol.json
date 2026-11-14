@@ -1,0 +1,13 @@
+{
+  "case_selection": "PG04N/PG04S development pair, two orders,4requests. Selected for bounded packet length; no claim of random/protected generalization",
+  "external_or_hidden": false,
+  "intervention": "Reverse only the list enumerating allowed categorical labels in the common system message. All definitions,scientific claim,evidence,schema,weights,generation settings unchanged",
+  "limits": "Definitions remain in their original order; this is not full order-counterbalancing or a test separating all formatting/instruction/ability confounds",
+  "max_input_tokens": 4096,
+  "max_new_tokens": 384,
+  "model_revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+  "no_retries_or_repair": true,
+  "prompts_sha256": "7d2adf085c4b544f2f6e5e04f187e10bc7e8c3a1549fd16de27d9a8806140d2a",
+  "purpose": "Post-hoc development-only enumeration-order diagnostic after seeing category collapse in the interrupted main run; no primary scientific outputs, references or metrics altered",
+  "threads": 4
+}
