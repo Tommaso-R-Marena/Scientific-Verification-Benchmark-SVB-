@@ -9,3 +9,10 @@ https://files.rcsb.org/download/1CRN.pdb on 2026-11-13. PDB archive data are CC0
 Coordinate arithmetic describes the deposited model, not physical exactness.
 Bibliographic metadata and links are attributed in references/literature_registry.json.
 No PCS, FoldBounds or website source is bundled as a benchmark dependency.
+
+Phase II sources retain separate terms recorded in data/v0.2.0/registry.json.
+Palmer penguin measurements: CC0; Gorman et al.2014 primary article CC-BY.
+R datasets source/documentation: GPL-2.0-or-later, with R_COPYING retained.
+FreeSolv data: CC-BY-4.0 to the extent upstream can license the derived data;
+upstream original-source caveats and experimental references are retained.
+These source-data terms do not relicense the independent Apache-2.0 SVB code.

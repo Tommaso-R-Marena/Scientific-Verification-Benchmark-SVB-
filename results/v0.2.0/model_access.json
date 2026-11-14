@@ -1,0 +1,75 @@
+{
+  "access": "actual public model downloaded; no private/paid inference API used",
+  "accessed_utc": "2026-11-14T06:47:21.758088+00:00",
+  "credentials": {
+    "private_credentials_used": false,
+    "relevant_variable_presence": {
+      "ANTHROPIC_API_KEY": false,
+      "HF_TOKEN": false,
+      "HUGGING_FACE_HUB_TOKEN": false,
+      "OPENAI_API_KEY": false
+    },
+    "values_inspected": false
+  },
+  "executed_smoke_checks": [
+    {
+      "attention": "sdpa",
+      "outcome": "completed; generated JSON string answer4",
+      "output": "results/v0.2.0/models/smoke.outputs.jsonl",
+      "prompt": "results/v0.2.0/models/smoke.prompts.jsonl",
+      "scope": "Unrelated arithmetic access only"
+    },
+    {
+      "attention": "eager",
+      "outcome": "completed; same generated raw text",
+      "output": "results/v0.2.0/models/smoke.eager.outputs.jsonl",
+      "prompt": "results/v0.2.0/models/smoke.prompts.jsonl",
+      "scope": "Unrelated arithmetic access only"
+    },
+    {
+      "attention": "eager",
+      "outcome": "completed; confidence scalar instead of required vector and inappropriate empirical scope; not repaired",
+      "output": "results/v0.2.0/models/structured_smoke.outputs.jsonl",
+      "prompt": "results/v0.2.0/models/structured_smoke.prompts.jsonl",
+      "scope": "Generic structured arithmetic development check, not dataset case"
+    }
+  ],
+  "format": "svb-phase2-model-access-v1",
+  "limitations": [
+    "Small pretrained instruct model; scientific capability not presumed",
+    "Public model pretraining data unknown; public-source exposure cannot be excluded",
+    "No protected evaluation or independent human scientific review established",
+    "Weights remain ignored local cache and are not committed",
+    "Basic SVB tests never require model dependencies"
+  ],
+  "model": {
+    "files_sha256": {
+      "LICENSE": "832dd9e00a68dd83b3c3fb9f5588dad7dcf337a0db50f7d9483f310cd292e92e",
+      "README.md": "b19c806a904db6dc878a0462e70b551f6b7ac78dfbb88c2eb966ca2b9109ae15",
+      "config.json": "18e18afcaccafade98daf13a54092927904649e1dd4eba8299ab717d5d94ff45",
+      "generation_config.json": "e558847a8b4402616f1273797b015104dc266fe4b520056fca88823ba8f8ebe6",
+      "merges.txt": "599bab54075088774b1733fde865d5bd747cbcc7a547c5bc12610e874e26f5e3",
+      "model.safetensors": "fdf756fa7fcbe7404d5c60e26bff1a0c8b8aa1f72ced49e7dd0210fe288fb7fe",
+      "tokenizer.json": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539",
+      "tokenizer_config.json": "5b5d4f65d0acd3b2d56a35b56d374a36cbc1c8fa5cf3b3febbbfabf22f359583",
+      "vocab.json": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+    },
+    "gated": false,
+    "id": "Qwen/Qwen2.5-0.5B-Instruct",
+    "license": "Apache-2.0",
+    "license_url": "https://huggingface.co/Qwen/Qwen2.5-0.5B-Instruct/blob/7ae557604adf67be50417f59c2c2f167def9a775/LICENSE",
+    "metadata_url": "https://huggingface.co/api/models/Qwen/Qwen2.5-0.5B-Instruct/revision/7ae557604adf67be50417f59c2c2f167def9a775?blobs=true",
+    "model_card_url": "https://huggingface.co/Qwen/Qwen2.5-0.5B-Instruct/blob/7ae557604adf67be50417f59c2c2f167def9a775/README.md",
+    "private": false,
+    "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+    "weight_bytes": 988097824,
+    "weight_sha256_matches_huggingface_lfs_metadata": true
+  },
+  "runtime": {
+    "available_cpu_count": 5,
+    "device": "cpu",
+    "python": "3.12.14",
+    "torch": "2.7.1+cpu",
+    "transformers": "4.51.3"
+  }
+}

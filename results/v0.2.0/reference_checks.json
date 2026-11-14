@@ -1,0 +1,173 @@
+{
+  "checks": [
+    {
+      "id": "PG01N",
+      "operation": "penguin_species_mass",
+      "result": {
+        "Adelie_n": 151,
+        "Adelie_sum_g": "558800",
+        "Gentoo_n": 123,
+        "Gentoo_sum_g": "624350",
+        "gentoo_gt_adelie": true
+      }
+    },
+    {
+      "id": "PG02N",
+      "operation": "penguin_sex_mass",
+      "result": {
+        "FEMALE_n": 73,
+        "FEMALE_sum_g": "245925",
+        "MALE_n": 73,
+        "MALE_sum_g": "295175"
+      }
+    },
+    {
+      "id": "PG03N",
+      "operation": "penguin_ids",
+      "result": {
+        "rows": 344,
+        "unique_id": 190,
+        "unique_study_id": 344
+      }
+    },
+    {
+      "id": "PG04N",
+      "operation": "holdout_fraction",
+      "result": {
+        "correct": 39,
+        "percent_2dp": "88.64",
+        "total": 44
+      }
+    },
+    {
+      "id": "PU01N",
+      "operation": "puromycin_mean_011",
+      "result": {
+        "difference": "49/2",
+        "treated": "131",
+        "untreated": "213/2"
+      }
+    },
+    {
+      "id": "PU02N",
+      "operation": "puromycin_high",
+      "result": {
+        "treated": [
+          "207",
+          "200"
+        ],
+        "untreated": [
+          "160"
+        ]
+      }
+    },
+    {
+      "id": "PU03N",
+      "operation": "puromycin_ratio",
+      "result": {
+        "concentration_ratio": "55",
+        "high": "407/2",
+        "low": "123/2",
+        "rate_ratio": "407/123"
+      }
+    },
+    {
+      "id": "PU04P",
+      "operation": "puromycin_counts",
+      "result": {
+        "treated": 12,
+        "untreated": 11
+      }
+    },
+    {
+      "id": "CO01N",
+      "operation": "grass_qn1",
+      "result": {
+        "350": "186/5",
+        "500": "353/10",
+        "difference": "-19/10"
+      }
+    },
+    {
+      "id": "CO02N",
+      "operation": "grass_counts",
+      "result": {
+        "per_plant": 7,
+        "plants": 12,
+        "rows": 84
+      }
+    },
+    {
+      "id": "CO03P",
+      "operation": "grass_mississippi_1000",
+      "result": {
+        "chilled": "281/15",
+        "nonchilled": "158/5"
+      }
+    },
+    {
+      "id": "CO03X",
+      "operation": "grass_mississippi_1000",
+      "result": {
+        "chilled": "281/15",
+        "nonchilled": "158/5"
+      }
+    },
+    {
+      "id": "CO04N",
+      "operation": "grass_quebec_1000",
+      "result": {
+        "chilled": "245/6",
+        "nonchilled": "259/6"
+      }
+    },
+    {
+      "id": "FS01N",
+      "operation": "freesolv_values",
+      "result": {
+        "difference": "-7",
+        "ethanol": "-5",
+        "methane": "2"
+      }
+    },
+    {
+      "id": "FS02N",
+      "operation": "freesolv_residual",
+      "result": {
+        "calculated": "-41/4",
+        "compound": "triethylphosphate",
+        "experimental": "-15/2",
+        "residual": "-11/4"
+      }
+    },
+    {
+      "id": "FS03N",
+      "operation": "freesolv_default",
+      "result": {
+        "compound": "methanol",
+        "default_note": true,
+        "uncertainty": "3/5"
+      }
+    },
+    {
+      "id": "FS04N",
+      "operation": "freesolv_equal",
+      "result": {
+        "calculated": "251/100",
+        "calculated_uncertainty": "1/50",
+        "compound": "neopentane",
+        "experimental": "251/100",
+        "experimental_uncertainty": "3/5"
+      }
+    }
+  ],
+  "empirical_adequacy_mechanically_validated": false,
+  "external_human_adjudication": false,
+  "numeric_witnesses_checked": 17,
+  "source_hashes_valid": true,
+  "transformations": {
+    "CO2_numeric_cells": 168,
+    "FreeSolv_rows": 6,
+    "Puromycin_cells": 69
+  }
+}

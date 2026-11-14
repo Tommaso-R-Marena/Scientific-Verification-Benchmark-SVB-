@@ -1,0 +1,204 @@
+{
+  "adjudication": "provisional_author_adjudicated",
+  "source_split_policy": "All packets derived from one source family stay together;penguin primary article and field data both dev;all3other scientific source families evaluation. No hidden set or external human validation claimed.",
+  "sources": {
+    "freesolv": {
+      "accessed": "2026-11-14",
+      "artifacts": [
+        {
+          "bytes": 144897,
+          "path": "data/v0.2.0/sources/freesolv_database.txt",
+          "sha256": "2d13f095713bc39b85f85dd7b4e5483fbb12fc694bf253bb1d92a4c4d484f260"
+        },
+        {
+          "bytes": 1246,
+          "path": "data/v0.2.0/sources/freesolv_selected.csv",
+          "sha256": "b2a050569c4f2ae2efb27524c5f3467ee2b5978bc2df5b9e88cc275f3ae8ca8a"
+        },
+        {
+          "bytes": 18652,
+          "path": "data/v0.2.0/sources/freesolv_LICENSE",
+          "sha256": "cce5d01fa4a83b794271bd2c28cffdf99afd43c803e6ddefddae39b591ea7448"
+        },
+        {
+          "bytes": 26421,
+          "path": "data/v0.2.0/sources/freesolv_README.md",
+          "sha256": "ec5c1cb5f47391ac9ddfc81f0e981d526992ed2e20937e9cfdab7394b80bc1b2"
+        },
+        {
+          "bytes": 97,
+          "path": "data/v0.2.0/sources/freesolv_revision.json",
+          "sha256": "692232e32a45b724c06c136227a674e7c1e6f6a9f175d71eeb056309fd9b93dc"
+        }
+      ],
+      "dataset_doi": "10.5281/zenodo.1161245",
+      "license": "CC-BY-4.0",
+      "license_evidence": [
+        "freesolv_LICENSE",
+        "freesolv_README.md"
+      ],
+      "limitations": "Upstream README explicitly states CC-BY4only to extent authors can license data; original restrictions may apply. Selected entries cite published sources only; no unpublished-reference entry used. Original laboratory methods and standard-state corrections not independently verified. Assigned default uncertainties retain notes.",
+      "paper_doi": "10.1021/acs.jced.7b00104",
+      "source_type": "curated_thermodynamic_database",
+      "split": "evaluation",
+      "title": "FreeSolv v0.52 experimental and calculated hydration free energy records",
+      "url": "https://raw.githubusercontent.com/MobleyLab/FreeSolv/master/database.txt"
+    },
+    "grass_co2": {
+      "accessed": "2026-11-14",
+      "artifacts": [
+        {
+          "bytes": 993,
+          "path": "data/v0.2.0/sources/CO2.rda",
+          "sha256": "ed7a9018ffb3e9e0a1a90e700589ba35ab21b990705ff57e6c8c8e46d5ba2aa3"
+        },
+        {
+          "bytes": 2441,
+          "path": "data/v0.2.0/sources/CO2.Rd",
+          "sha256": "e9c4aabfe571f77e33fc03cc289c6913ad8f2a1e294fde40c3fa3122720e0545"
+        },
+        {
+          "bytes": 2701,
+          "path": "data/v0.2.0/sources/CO2_plants_extracted.csv",
+          "sha256": "5da1577391fa7e477a87d347ff6fd32697fe8582772c8f5ffee272b5ad16d78b"
+        },
+        {
+          "bytes": 18011,
+          "path": "data/v0.2.0/sources/R_COPYING",
+          "sha256": "e6d6a009505e345fe949e1310334fcb0747f28dae2856759de102ab66b722cb4"
+        },
+        {
+          "bytes": 319,
+          "path": "data/v0.2.0/sources/r_datasets_DESCRIPTION.in",
+          "sha256": "e58b793cb90e167d9f4c9a23b7b63a2344bbdab6b7d36049fd9fd84190daf99d"
+        },
+        {
+          "bytes": 91,
+          "path": "data/v0.2.0/sources/R_revision.json",
+          "sha256": "9b0330e37c59904c7d6d0b878256adff566ed8d05d3ed73799a85d33d1333b13"
+        }
+      ],
+      "license": "GPL-2.0-or-later",
+      "license_evidence": [
+        "CO2.Rd",
+        "R_COPYING",
+        "r_datasets_DESCRIPTION.in"
+      ],
+      "limitations": "Original primary paper not obtained;12plants repeatedly measured7times. Preserve source numeric concentration scale; unit transcription not independently resolved. Extraction parses bounded vector records without executing R.",
+      "original_source": "Potvin,Lechowicz and Tardif1990,The statistical analysis of ecophysiological response curves obtained from experiments involving repeated measures,Ecology71:1389–1400",
+      "source_type": "curated_experimental_transcription",
+      "split": "evaluation",
+      "title": "R datasets CO2:grass cold-tolerance experiment",
+      "url": "https://raw.githubusercontent.com/wch/r-source/trunk/src/library/datasets/data/CO2.rda"
+    },
+    "penguins": {
+      "accessed": "2026-11-14",
+      "artifacts": [
+        {
+          "bytes": 53098,
+          "path": "data/v0.2.0/sources/penguins_raw.csv",
+          "sha256": "144f623143c9360fd77322a4f86acb06dc198814dbd2669724c63e6457b907bd"
+        },
+        {
+          "bytes": 6966,
+          "path": "data/v0.2.0/sources/penguins_LICENSE.md",
+          "sha256": "8e2c443dd9aea6fcd6c293dbf66935bd5ef502fc0ca9b466c773cf9316d5e04c"
+        },
+        {
+          "bytes": 9675,
+          "path": "data/v0.2.0/sources/penguins_README.md",
+          "sha256": "30248c3c8c97d7b2f3a4bc361f9209c64ad9c53f47169eb9fbb5c2d00fe5db92"
+        },
+        {
+          "bytes": 106,
+          "path": "data/v0.2.0/sources/penguins_revision.json",
+          "sha256": "5a39aca59e4faa4a04f24bc3b3c3bbd2a050a820e49e62ddf966b8cea8eaf1ca"
+        }
+      ],
+      "license": "CC0-1.0",
+      "license_evidence": [
+        "penguins_LICENSE.md",
+        "penguins_README.md"
+      ],
+      "limitations": "Species-specific EDI data citations are in README.344records are not documented344unique animals across studies. License recommends investigator contact for publication; no publication undertaken.",
+      "primary_doi": "10.1371/journal.pone.0090081",
+      "source_type": "observational_field_measurements",
+      "split": "dev",
+      "title": "Palmer LTER penguin field measurements,raw palmerpenguins distribution",
+      "url": "https://raw.githubusercontent.com/allisonhorst/palmerpenguins/main/inst/extdata/penguins_raw.csv"
+    },
+    "penguins_article": {
+      "accessed": "2026-11-14",
+      "artifacts": [
+        {
+          "bytes": 274771,
+          "path": "data/v0.2.0/sources/penguins_article.html",
+          "sha256": "7adbf958f20c9106fa666a828fe8551c6b4e2e7b80cc2a88cbf137930e321d2f"
+        },
+        {
+          "bytes": 921086,
+          "path": "data/v0.2.0/sources/penguins_primary.pdf",
+          "sha256": "cc2e8e08db55a110d5e849db35f7665e9c18c0c06cd7fce49dd3007846f3820f"
+        }
+      ],
+      "license": "CC-BY-4.0",
+      "license_evidence": [
+        "penguins_article.html"
+      ],
+      "limitations": "Source-reported results; independent reconstruction of original classification not performed.",
+      "primary_doi": "10.1371/journal.pone.0090081",
+      "source_type": "primary_article",
+      "split": "dev",
+      "title": "Gorman,Williams and Fraser2014 PLOS ONE primary article",
+      "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0090081"
+    },
+    "puromycin": {
+      "accessed": "2026-11-14",
+      "artifacts": [
+        {
+          "bytes": 735,
+          "path": "data/v0.2.0/sources/Puromycin.R",
+          "sha256": "87a14de98652c3f861d4477752d3293c7943045d6492b59c1d5c0939932feab8"
+        },
+        {
+          "bytes": 2776,
+          "path": "data/v0.2.0/sources/Puromycin.Rd",
+          "sha256": "40359bad37dfcbb1750c3a527b539558b1ccd2cde9faccbde0209996e908e482"
+        },
+        {
+          "bytes": 418,
+          "path": "data/v0.2.0/sources/Puromycin_extracted.csv",
+          "sha256": "8525dff6499558f67ddd8ec101ad26e6ae4412b95547144aabf500730faa5b7b"
+        },
+        {
+          "bytes": 18011,
+          "path": "data/v0.2.0/sources/R_COPYING",
+          "sha256": "e6d6a009505e345fe949e1310334fcb0747f28dae2856759de102ab66b722cb4"
+        },
+        {
+          "bytes": 319,
+          "path": "data/v0.2.0/sources/r_datasets_DESCRIPTION.in",
+          "sha256": "e58b793cb90e167d9f4c9a23b7b63a2344bbdab6b7d36049fd9fd84190daf99d"
+        },
+        {
+          "bytes": 91,
+          "path": "data/v0.2.0/sources/R_revision.json",
+          "sha256": "9b0330e37c59904c7d6d0b878256adff566ed8d05d3ed73799a85d33d1333b13"
+        }
+      ],
+      "license": "GPL-2.0-or-later",
+      "license_evidence": [
+        "Puromycin.Rd",
+        "R_COPYING",
+        "r_datasets_DESCRIPTION.in"
+      ],
+      "limitations": "Original thesis and full methods not obtained. Data source file preserves GPL distribution and source attribution; source code/license texts remain GPL rather than SVB Apache.23readings are not23independent biological experiments.",
+      "original_source": "Treloar1974 experimental thesis via Bates and Watts1988,AppendixA1.3,p269",
+      "source_type": "curated_experimental_transcription",
+      "split": "evaluation",
+      "title": "R datasets Puromycin:enzyme reaction velocity curated historical observations",
+      "url": "https://raw.githubusercontent.com/wch/r-source/trunk/src/library/datasets/data/Puromycin.R"
+    }
+  },
+  "version": "0.2.0"
+}

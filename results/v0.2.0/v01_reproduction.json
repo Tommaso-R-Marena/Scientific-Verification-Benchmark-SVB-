@@ -1,0 +1,22 @@
+{
+  "base_commit": "30f842e241b0a37ab5d24ef6537113d6bbbb4103",
+  "clean_checkout": "results/local/phase2-v01-clean",
+  "core_baselines_byte_identical": true,
+  "frozen_manifest_valid": true,
+  "historical_artifacts_overwritten": false,
+  "hosted_ci": {
+    "commit": "30f842e241b0a37ab5d24ef6537113d6bbbb4103",
+    "conclusion": "success",
+    "ref": "main",
+    "run_id": 43567831890,
+    "url": "https://github.com/Tommaso-R-Marena/Scientific-Verification-Benchmark-SVB-/actions/runs/43567831890"
+  },
+  "numerical_references": "all old independent checks rerun with39test suite",
+  "subject_adapters": {
+    "foldbounds": "18/18",
+    "pcs": "3/3eligible;1reference_error preserved",
+    "site": "6/6"
+  },
+  "subjects_unchanged": true,
+  "tests_passed": 39
+}

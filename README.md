@@ -4,6 +4,22 @@ An independent **research pilot** for evaluating what a scientific conclusion's 
 
 SVB separates mathematical validity, computation, numerical reliability, statistics, model adequacy, empirical support, provenance and evidence sufficiency. A correct computation does not automatically establish its physical interpretation.
 
+## Phase II (v0.2.0 release candidate)
+
+Phase II adds32 naturalistic sourced cases in16 pairs, including11 provisional narrow empirical-support cases. Its8 development and24 evaluation items are separated by scientific source family. Model prompts receive only claim/question, documents, methodology and naturally disclosed assumptions—never the reference/checker/missing-evidence annotations. The original v0.1 benchmark, source manifest, labels and recorded results below remain preserved.
+
+Read [Phase II specification](docs/phase-ii/specification.md), [reference dossiers](docs/phase-ii/reference_dossiers.md), [human review protocol](docs/phase-ii/human_adjudication.md), [system evaluation](docs/phase-ii/system_evaluations.md), [related work](docs/phase-ii/related_work.md) and [reproduction commands](docs/phase-ii/reproduce.md). Phase II is still provisionally author-adjudicated, public rather than hidden, and not publication-ready. Actual human scientific review has not occurred.
+
+```sh
+export PYTHONPATH="$PWD/src"
+export PYTHONDONTWRITEBYTECODE=1
+python3 -m svb.phase2 validate
+python3 -m svb.phase2_references
+python3 -m svb.phase2 baselines --output results/local/phase2-baselines.json
+```
+
+Optional offline model inference uses public pinned weights and `requirements-models.txt`; the independent core/tests and recorded-response scoring require no model package. No paid API or private model credential is required. Results are versioned under `results/v0.2.0/`. New scientific outputs and exact test counts are described in the Phase II report rather than overwriting v0.1 records.
+
 ## Run the independent core
 
 Python 3.12.14 was used. From this repository root:
