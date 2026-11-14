@@ -1,0 +1,19 @@
+{
+  "actual_human_submissions": 0,
+  "checks": [
+    {
+      "expected_refusal": true,
+      "output_created": false,
+      "output_path": "results/local/phase3-blank-ingestion-must-not-exist.json",
+      "reason": "matching coordinator-attested registry required",
+      "returncode": 2
+    },
+    {
+      "expected_refusal": true,
+      "output_created": false,
+      "output_path": "results/v0.4.0/ratings-must-not-be-published.json",
+      "reason": "actual review output inside repository must remain in ignored results/local",
+      "returncode": 2
+    }
+  ]
+}

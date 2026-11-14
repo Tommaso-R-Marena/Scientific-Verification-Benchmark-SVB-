@@ -1,0 +1,202 @@
+[
+  {
+    "assessment": {
+      "computational_check": {
+        "does_not_establish": [
+          "Physical exactness, universal validity or a causal effect."
+        ],
+        "establishes": [
+          "The two displayed decimals both equal 2.51 kcal/mol."
+        ],
+        "machine_checked": true,
+        "method": "Exact arithmetic/source comparison described in the historical numerical reference; no new execution or human qualification claimed.",
+        "status": "passed"
+      },
+      "empirical_support": {
+        "design_and_limitations": "Public curated experimental/calculated thermodynamic records,not original laboratory raw measurements. Individual primary experimental papers and full transfer standard-state corrections are not independently replayed. Default uncertainties are not measured error bars. No protein-binding or temperature-series validation is supplied.",
+        "status": "record_only"
+      },
+      "evidence": {
+        "assumptions": [
+          "Describe agreement of the two displayed rounded values only."
+        ],
+        "document_ids": [
+          "FS-METHOD",
+          "FS-DATA"
+        ]
+      },
+      "evidence_strength": {
+        "rationale": "No domain-qualified evidence-strength scale has been applied.",
+        "rubric": null,
+        "value": null
+      },
+      "justification_types": [
+        "computational",
+        "observational",
+        "provenance"
+      ],
+      "missing_assumptions": [],
+      "rationale": "The source reports both values as 2.51 with experimental uncertainty 0.60(default) and calculated uncertainty 0.02. Displayed agreement is not zero uncertainty or validation over temperature.",
+      "relation": {
+        "assessed": true,
+        "opposition": false,
+        "support": true
+      },
+      "research_dispute": {
+        "documentation_ids": [],
+        "status": "not_documented"
+      },
+      "schema_version": "0.4.0-proposal",
+      "target": {
+        "claim": "For neopentane, the displayed FreeSolv experimental and calculated hydration values both equal 2.51 kcal/mol.",
+        "scope": {
+          "conditions": "As recorded in the packet; primary laboratory methods not independently reconstructed.",
+          "population_or_system": "Archived supplied source records only; stronger targets retain their stated population/physical quantifier.",
+          "quantifier": "Exact target wording, not an unstated universal generalization."
+        }
+      },
+      "uncertainty": {
+        "measurement": "Source measurement uncertainty is not eliminated by exact input arithmetic.",
+        "model": "Scientific adequacy and external scope require separate justification.",
+        "reviewer": "Provisional internal author example; zero external adjudication.",
+        "statistical": "No sampling-model or population interval inferred from these finite records."
+      }
+    },
+    "historical_case": "FS04N",
+    "status": "author_schema_illustration_not_new_gold_or_human_rating"
+  },
+  {
+    "assessment": {
+      "computational_check": {
+        "does_not_establish": [
+          "Physical exactness, universal validity or a causal effect."
+        ],
+        "establishes": [
+          "Recorded within-chick growth is 205-42=163 g."
+        ],
+        "machine_checked": true,
+        "method": "Exact arithmetic/source comparison described in the historical numerical reference; no new execution or human qualification claimed.",
+        "status": "passed"
+      },
+      "empirical_support": {
+        "design_and_limitations": "Curated textbook/R observations rather than verified original laboratory records. Missing follow-up and selection are not resolved by a complete-case sample mean. Full diet composition, assignment, husbandry, original uncertainty and laboratory protocol were not independently obtained. No population-level causal effect is established by the stored-number arithmetic.",
+        "status": "record_only"
+      },
+      "evidence": {
+        "assumptions": [
+          "For arithmetic, treat the displayed stored values as exact numerical inputs; this does not make the physical measurements exact."
+        ],
+        "document_ids": [
+          "CW-METHOD",
+          "CW-CHICK1"
+        ]
+      },
+      "evidence_strength": {
+        "rationale": "No domain-qualified evidence-strength scale has been applied.",
+        "rubric": null,
+        "value": null
+      },
+      "justification_types": [
+        "computational",
+        "observational",
+        "provenance"
+      ],
+      "missing_assumptions": [
+        "Identification of the unobserved same-chick no-diet counterfactual; observed growth alone does not provide it."
+      ],
+      "rationale": "An observed within-chick change is not an observed counterfactual diet effect. Development with age and other husbandry conditions can accompany the same series; the unobserved alternative weight is not identified.",
+      "relation": {
+        "assessed": true,
+        "opposition": false,
+        "support": false
+      },
+      "research_dispute": {
+        "documentation_ids": [],
+        "status": "not_documented"
+      },
+      "schema_version": "0.4.0-proposal",
+      "target": {
+        "claim": "The growth series of chick 1 establishes that diet 1 caused exactly 163 grams of additional body weight compared with what this chick would have weighed without diet 1.",
+        "scope": {
+          "conditions": "As recorded in the packet; primary laboratory methods not independently reconstructed.",
+          "population_or_system": "Archived supplied source records only; stronger targets retain their stated population/physical quantifier.",
+          "quantifier": "Exact target wording, not an unstated universal generalization."
+        }
+      },
+      "uncertainty": {
+        "measurement": "Source measurement uncertainty is not eliminated by exact input arithmetic.",
+        "model": "Scientific adequacy and external scope require separate justification.",
+        "reviewer": "Provisional internal author example; zero external adjudication.",
+        "statistical": "No sampling-model or population interval inferred from these finite records."
+      }
+    },
+    "historical_case": "CW02S",
+    "status": "author_schema_illustration_not_new_gold_or_human_rating"
+  },
+  {
+    "assessment": {
+      "computational_check": {
+        "does_not_establish": [
+          "Physical exactness, universal validity or a causal effect."
+        ],
+        "establishes": [
+          "19.8-8.3=11.5 mg/L=0.0115 g/L, contradicting the exact stored-input 11.5 g/L target."
+        ],
+        "machine_checked": true,
+        "method": "Exact arithmetic/source comparison described in the historical numerical reference; no new execution or human qualification claimed.",
+        "status": "passed"
+      },
+      "empirical_support": {
+        "design_and_limitations": "The small table is a curated historical transcription, not independently verified raw water-sample or laboratory records. No replicate structure, organism identification, experimental error model or physical mechanism is independently established here. Recorded nonmonotonicity alone need not be nonmonotonicity of an underlying latent process.",
+        "status": "record_only"
+      },
+      "evidence": {
+        "assumptions": [
+          "For arithmetic, treat the displayed stored values as exact numerical inputs; this does not make the physical measurements exact."
+        ],
+        "document_ids": [
+          "OD-METHOD",
+          "OD-OBS"
+        ]
+      },
+      "evidence_strength": {
+        "rationale": "No domain-qualified evidence-strength scale has been applied.",
+        "rubric": null,
+        "value": null
+      },
+      "justification_types": [
+        "computational",
+        "observational",
+        "provenance"
+      ],
+      "missing_assumptions": [],
+      "rationale": "The difference is 11.5 mg/L, not 11.5 g/L. The target is 1000 times the stored difference expressed in g/L.",
+      "relation": {
+        "assessed": true,
+        "opposition": true,
+        "support": false
+      },
+      "research_dispute": {
+        "documentation_ids": [],
+        "status": "not_documented"
+      },
+      "schema_version": "0.4.0-proposal",
+      "target": {
+        "claim": "The recorded demand on day 7 minus the recorded demand on day 1 equals 11.5 grams per litre.",
+        "scope": {
+          "conditions": "As recorded in the packet; primary laboratory methods not independently reconstructed.",
+          "population_or_system": "Archived supplied source records only; stronger targets retain their stated population/physical quantifier.",
+          "quantifier": "Exact target wording, not an unstated universal generalization."
+        }
+      },
+      "uncertainty": {
+        "measurement": "Source measurement uncertainty is not eliminated by exact input arithmetic.",
+        "model": "Scientific adequacy and external scope require separate justification.",
+        "reviewer": "Provisional internal author example; zero external adjudication.",
+        "statistical": "No sampling-model or population interval inferred from these finite records."
+      }
+    },
+    "historical_case": "OD01X",
+    "status": "author_schema_illustration_not_new_gold_or_human_rating"
+  }
+]

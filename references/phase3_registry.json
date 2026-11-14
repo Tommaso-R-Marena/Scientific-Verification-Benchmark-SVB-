@@ -1,0 +1,95 @@
+{
+  "entries": [
+    {
+      "bytes": 18043,
+      "content_type": "text/html; charset=utf-8",
+      "id": "eco",
+      "relevance": "ECO distinguishes evidence types and assertion methods. It does not supply a universal six-way scientific truth classifier.",
+      "resolved_url": "https://www.evidenceontology.org/",
+      "retrieved_utc": "2026-11-14T22:45:21.949758+00:00",
+      "review_scope": "Targeted section inspection, not systematic literature review or external expert endorsement.",
+      "sections_inspected": "Overview: evidence and assertion methods; biocuration provenance",
+      "sha256": "d08a74b5af097e874a404dd28ea73ca64b0b58ad0e34a88909af0f6248ad2f68",
+      "status": 200,
+      "url": "https://www.evidenceontology.org/"
+    },
+    {
+      "bytes": 271572,
+      "content_type": "text/html; charset=utf-8",
+      "id": "prov",
+      "relevance": "Provenance relations support auditing origins; they do not entail scientific correctness. Primary-source status is relational.",
+      "resolved_url": "https://www.w3.org/TR/prov-dm/",
+      "retrieved_utc": "2026-11-14T22:45:21.801152+00:00",
+      "review_scope": "Targeted section inspection, not systematic literature review or external expert endorsement.",
+      "sections_inspected": "Abstract; 2.1 entities/activities/agents; 5.2.3 primary-source relation",
+      "sha256": "5c925c21bc96c285b25017c3b90d82cf74251d07713b71fcb81ca60f873c9e88",
+      "status": 200,
+      "url": "https://www.w3.org/TR/prov-dm/"
+    },
+    {
+      "bytes": 3675385,
+      "content_type": "application/pdf",
+      "id": "ipcc",
+      "relevance": "Separates evidence/agreement-based confidence from probabilistic uncertainty and warns about framing, anchoring and group convergence.",
+      "resolved_url": "https://www.ipcc.ch/site/assets/uploads/2018/05/uncertainty-guidance-note.pdf",
+      "retrieved_utc": "2026-11-14T22:45:22.041970+00:00",
+      "review_scope": "Targeted section inspection, not systematic literature review or external expert endorsement.",
+      "sections_inspected": "Introduction two metrics; Guidance 2-6; evidence/agreement and confidence versus probabilistic uncertainty",
+      "sha256": "d500397e8275cc0c9acea8a4335515b9440df9c4c4cf976e4e342bbacba7d532",
+      "status": 200,
+      "url": "https://www.ipcc.ch/site/assets/uploads/2018/05/uncertainty-guidance-note.pdf"
+    },
+    {
+      "bytes": 566499,
+      "content_type": "text/html; charset=utf-8",
+      "id": "grade",
+      "relevance": "Separates confidence in effect estimates from recommendation strength; grades bodies of evidence for specified outcomes, not arbitrary scientific propositions.",
+      "resolved_url": "https://gdt.gradepro.org/app/handbook/handbook.html",
+      "retrieved_utc": "2026-11-14T22:45:22.989337+00:00",
+      "review_scope": "Targeted section inspection, not systematic literature review or external expert endorsement.",
+      "sections_inspected": "1.2; 5 quality of evidence; outcome-specific body-of-evidence grading",
+      "sha256": "2fb19241ae0c365ef62e7bac16978d48cb6ad75e1b4465fb915912aaa919a606",
+      "status": 200,
+      "url": "https://gdt.gradepro.org/app/handbook/handbook.html"
+    },
+    {
+      "bytes": 290718,
+      "content_type": "text/html",
+      "id": "manyvalued",
+      "relevance": "Established four-valued semantics motivates preserving support/opposition separately; SVB does not implement the full Belnap-Dunn calculus or claim novelty.",
+      "resolved_url": "https://plato.stanford.edu/entries/logic-manyvalued/",
+      "retrieved_utc": "2026-11-14T22:45:22.138829+00:00",
+      "review_scope": "Targeted section inspection, not systematic literature review or external expert endorsement.",
+      "sections_inspected": "2.3 True, False, Neither, and Both; Belnap-Dunn discussion",
+      "sha256": "5a549597b7c78fe2d5d3252f0bc4bcf0e1e48afeff6314e1f05a9dd505773169",
+      "status": 200,
+      "url": "https://plato.stanford.edu/entries/logic-manyvalued/"
+    },
+    {
+      "bytes": 123130,
+      "content_type": "text/html",
+      "id": "scientific_method",
+      "relevance": "Scientific practice includes deductive and inductive methods; methodological/evidential categories do not provide universal mutually exclusive truth statuses.",
+      "resolved_url": "https://plato.stanford.edu/entries/scientific-method/",
+      "retrieved_utc": "2026-11-14T22:45:21.984058+00:00",
+      "review_scope": "Targeted section inspection, not systematic literature review or external expert endorsement.",
+      "sections_inspected": "Introduction; reasoning/induction and method plurality discussion",
+      "sha256": "9bb6874d8acbc843dddb58c318a30730db7d6941caf147cbd70f5dd8495128fe",
+      "status": 200,
+      "url": "https://plato.stanford.edu/entries/scientific-method/"
+    },
+    {
+      "bytes": 1631243,
+      "id": "lean",
+      "relevance": "Proof checking and computation are related but distinct; successful proof checking depends on the exact proposition, axioms and trusted implementation, and does not certify empirical adequacy.",
+      "resolved_url": "https://lean-lang.org/theorem_proving_in_lean4/Axioms-and-Computation/",
+      "retrieved_utc": "2026-11-14T22:56:25.458420+00:00",
+      "review_scope": "Targeted section inspection, not systematic literature review or external expert endorsement.",
+      "sections_inspected": "Axioms and Computation: trusted kernel, axioms and computational behavior",
+      "sha256": "2822ce82923aa4abe91674b705981c41f9a7e826ff5034138bb4ac8cfc3e9812",
+      "status": 200,
+      "url": "https://lean-lang.org/theorem_proving_in_lean4/axioms_and_computation.html"
+    }
+  ],
+  "method": "Targeted official framework/source inspection, not a systematic review; retrieved bytes retained locally only. No full texts redistributed. Hashes identify retrievals, not scientific truth."
+}

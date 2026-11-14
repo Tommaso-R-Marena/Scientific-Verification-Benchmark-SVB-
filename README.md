@@ -4,6 +4,14 @@ An independent **research pilot** for evaluating what a scientific conclusion's 
 
 SVB separates mathematical validity, computation, numerical reliability, statistics, model adequacy, empirical support, provenance and evidence sufficiency. A correct computation does not automatically establish its physical interpretation.
 
+## Phase III (proposal/protocol 0.4.0)
+
+Phase III prepares external scientific review rather than adding scored cases or running more models. The [taxonomy analysis](docs/phase-iii/taxonomy.md) identifies overlapping evidence types and proposes separate evidence relation, justification, scope, computation, empirical support and uncertainty fields. The proposal has structural/logical checks; its scientific adequacy is **not validated**.
+
+A [12-case pilot](docs/phase-iii/pilot.md) reuses five study families, with separate answer-filtered reference/candidate packages and one shared source archive. A tested [human-review pipeline](docs/phase-iii/adjudication_pipeline.md) preserves multiple categories, uncertainty, rationales, disagreements, missing reviews and immutable rounds. **Zero human reviews or reviewer contacts have occurred.** Public masking does not establish blinding; no new model inference or paid resources were used.
+
+See the [Phase III report](docs/phase-iii/report.md), [external brief](docs/phase-iii/external_review_brief.md), [unsent outreach drafts](docs/phase-iii/outreach_drafts.md), [methodology audit](docs/phase-iii/methodology_audit.md), [future model-study design](docs/phase-iii/future_model_study.md), [PR reviewability audit](docs/phase-iii/release_reviewability.md), and [reproduction commands](docs/phase-iii/reproduce.md). All historical labels and scores are preserved. The existing PR remains draft and unmerged.
+
 ## Phase IIb (protocol/data v0.3.0)
 
 Phase IIb separates **A: exact category only**, **B: prose justification/source attribution**, and **C: the preserved rich verification schema**. Unconstrained and category-constrained decoding are explicit separate interventions. Development qualification covered three pinned model sizes; none met every prespecified gate. The two original capacity levels are therefore measured as diagnostic behavior, not advertised as qualified scientific verifiers. No threshold was relaxed or model chosen using new-source outputs.

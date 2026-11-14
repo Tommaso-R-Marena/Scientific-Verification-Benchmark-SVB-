@@ -1,0 +1,28 @@
+{
+  "historical_gate_unchanged": true,
+  "interpretation": "Exact order consistency mixes verdict stability and evidence-type selection; coarse stability can conceal wrong evidence types. Neither metric retrospectively replaces the gate.",
+  "kind": "post_hoc_development_diagnostic_not_requalification",
+  "rows": [
+    {
+      "changed_within_accepting_group": 0,
+      "exact_same_category": 3,
+      "model": "qwen-0.5b",
+      "n": 6,
+      "same_coarse_decision": 3
+    },
+    {
+      "changed_within_accepting_group": 3,
+      "exact_same_category": 3,
+      "model": "qwen-1.5b",
+      "n": 6,
+      "same_coarse_decision": 6
+    },
+    {
+      "changed_within_accepting_group": 1,
+      "exact_same_category": 2,
+      "model": "qwen-3b",
+      "n": 6,
+      "same_coarse_decision": 3
+    }
+  ]
+}

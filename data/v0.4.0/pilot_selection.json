@@ -1,0 +1,23 @@
+{
+  "version": "0.4.0-proposal",
+  "pilot_id": "svb-phase3-pilot-1",
+  "selection_timing": "After Phase IIb model results; before any actual human judgment. Retrospective purposive selection, not prospective model testing.",
+  "selection_criteria": [
+    "Reuse archived cases; no new scored scientific items.",
+    "Cover enzyme assay, hydration thermodynamics, paired patient observations, longitudinal growth, and environmental measurement.",
+    "Keep complete narrow/stronger or correct/incorrect pairs with fixed source envelopes.",
+    "Include numeric contradiction, positive recorded fact, unsupported inference, and known evidence-type ambiguity.",
+    "Include unit conversion, experimental units, rounding/uncertainty, individual causal counterfactual, future-population generalization, and mechanism identification.",
+    "Select twelve cases to retain both the oxygen unit pair and mechanism pair and all six existing Phase IIb B response cases.",
+    "Do not select by predicted reviewer agreement or model success. All prior results were already known; no claim of model-outcome-blind selection."
+  ],
+  "case_ids": ["PU01N", "PU01S", "FS04N", "FS04S", "SL02N", "SL02S", "CW02N", "CW02S", "OD01P", "OD01X", "OD02N", "OD02S"],
+  "packet_order_seed": 314159,
+  "reference_review_plan": "Two appropriately assigned domain reviewers and one statistical/methods reviewer per case; partial assignments permitted and reported. Supplement formal/numerical expertise where needed.",
+  "candidate_review_plan": "Separate package contains twelve existing raw B responses: six cases times two models, neutral candidate codes. Review only after locking independent reference judgments; no model identity in package.",
+  "source_families": 5,
+  "human_reviews_completed_at_freeze": 0,
+  "reviewers_contacted": 0,
+  "actual_blinding_established": false,
+  "protected_holdout": false
+}

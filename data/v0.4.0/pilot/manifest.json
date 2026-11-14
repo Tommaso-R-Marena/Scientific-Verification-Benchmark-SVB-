@@ -1,0 +1,15 @@
+{
+  "candidate_responses": 12,
+  "files": {
+    "candidate_review.zip": "81a721fc3885b7a4f067e11fe06c8c3cf25339852abf7924c6dbaeb0cc132dab",
+    "coordinator_context.json": "739abeaf987124c7fb76385f92019975346773278c8b5fd8bbd5a3eb69ae3059",
+    "preparation_record.json": "08c23c14592bf4bccd453c7488eb0c939351241512c2e96b6b08edd6b0c54845",
+    "reference_review.zip": "052efa69a797719ad63433fe8e10955a4af8a1e73658422ccfdbb34efd47e255",
+    "registry_template.json": "9066b80ce0b0766f9a0fb759c48a18ebda008a3d15acf753fcb58e56583f0b94",
+    "source_materials.zip": "c344f838e7b7c22e84d6102b5b80d9db99b4ec376181351b534eedeb81d02c6e"
+  },
+  "human_reviews_completed": 0,
+  "reference_packets": 12,
+  "reviewers_contacted": 0,
+  "schema_version": "0.4.0-proposal"
+}
