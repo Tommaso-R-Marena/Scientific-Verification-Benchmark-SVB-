@@ -1,28 +1,29 @@
-# Private repository publication steps
+# Repository delivery and reproduction
 
-The project is fully implemented and committed locally on main. The available GitHub integration authenticated successfully for reads but rejected `createRepository` with `Resource not accessible by integration`. No remote repository was created or pushed. This is an integration permission limitation, not missing local work. Do not grant broader access or send credentials in chat to work around it.
+The user supplied and authorized uploading this project to:
 
-To publish privately using your own authorized GitHub session:
+https://github.com/Tommaso-R-Marena/Scientific-Verification-Benchmark-SVB-
 
-1. Create an **empty private** `Tommaso-R-Marena/scientific-verification-benchmark` repository in GitHub. Do not initialize a README/license or grant collaborators access yet.
-2. From the existing independent checkout, run:
+The destination is public. Its existing initial Apache-2.0 license commit is preserved through a merge with the independent project's history; no force push or history replacement is needed. The destination's original LICENSE file is retained. The draft manuscript and reports retain their pilot limitations, reference-error disclosure and lack of external expert qualification. Repository availability is not publication of a peer-reviewed scientific result or evidence of general AI reliability.
 
-```sh
-cd /workspace/scientific-verification-benchmark
-git status --short
-git remote add origin https://github.com/Tommaso-R-Marena/scientific-verification-benchmark.git
-git push -u origin main
-```
+## Delivery history
 
-Alternatively, in a separately authenticated GitHub CLI session with permission to create private repositories:
+The initial attempt to create a private repository through the integration failed with `Resource not accessible by integration` for `createRepository`. All work was committed locally. The user subsequently created the destination above and explicitly requested uploading the project there. The earlier creation failure recorded in the historical evidence ledger describes that initial attempt, not the current delivery destination.
+
+Only committed project artifacts are uploaded. `results/local/` remains excluded: it contains raw adapter logs, temporary reproduction checkouts and local subject fingerprints. No credentials, private subject source code, signed subject-fixture copies or private datasets are included. The capability assessment references inspected subject paths and commits, and the retained system results contain sanitized measurements and source identities. The three subject repositories are not edited or pushed.
+
+## Reproduce from GitHub
 
 ```sh
-cd /workspace/scientific-verification-benchmark
-gh repo create Tommaso-R-Marena/scientific-verification-benchmark --private --source . --remote origin --push
+git clone https://github.com/Tommaso-R-Marena/Scientific-Verification-Benchmark-SVB-.git
+cd Scientific-Verification-Benchmark-SVB-
+export PYTHONPATH="$PWD/src"
+export PYTHONDONTWRITEBYTECODE=1
+python3 -m svb.cli validate
+python3 -m unittest discover -s tests -v
+python3 -m svb.cli experiment --output results/local/my-run
 ```
 
-Choose one route; preserve any already-created remote rather than overwriting it. Do not run these commands against any of the three subject repositories. The standalone CI workflow is manual-dispatch only; a push does not automatically consume hosted build minutes. Local test results are evidence; a hosted CI execution is not claimed.
+Python 3.12.14 was used for the retained measurements. The core requires no external Python package or subject checkout. Optional subject adapters require separately authorized checkouts and the existing compiled PCS authority. See the README and system evaluation report for their exact scope.
 
-Before any future **public** release, arrange external adjudication, review subject capability-assessment confidentiality, verify dataset attribution and complete a scientific claims review. The manuscript is a draft, and this session does not authorize publishing a paper or public scientific claim on the user's behalf.
-
-`results/local/` is intentionally excluded: it contains raw adapter logs and local subject fingerprints. All files necessary for the dependency-free independent core and its recorded numerical results are tracked. Optional subject adapters require separately authorized checkouts and do not bundle private subject code.
+The standalone GitHub Actions workflow is manual-dispatch only. An initial push does not request a hosted test run. Local tests and reproduction artifacts are the validation evidence; no hosted CI execution is claimed.

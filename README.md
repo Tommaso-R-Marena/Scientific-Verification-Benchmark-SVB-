@@ -62,4 +62,4 @@ Code is Apache-2.0; UCI Iris is CC BY 4.0 and PDB archive data are CC0 (see sour
 
 A standalone GitHub Actions workflow is provided for explicit manual dispatch. No hosted CI run was started; local tests are the validation evidence. This avoids automatically consuming hosted compute on initial private-repository upload.
 
-GitHub's integration denied repository creation (`createRepository`); the complete local project is committed. See [private repository publishing steps](docs/publishing.md) for the exact commands to use with an authorized account. No remote/public release was made.
+Repository: [Scientific-Verification-Benchmark-SVB-](https://github.com/Tommaso-R-Marena/Scientific-Verification-Benchmark-SVB-). The user supplied this public destination after the initial repository-creation permission failure. See [repository delivery notes](docs/publishing.md) for history and reproduction. The manuscript remains a research draft; repository availability does not imply peer review or scientific validation.
