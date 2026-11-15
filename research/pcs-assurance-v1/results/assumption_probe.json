@@ -1,0 +1,682 @@
+{
+  "execution": {
+    "command": [
+      "bwrap",
+      "--unshare-all",
+      "--die-with-parent",
+      "--new-session",
+      "--clearenv",
+      "--ro-bind",
+      "/usr",
+      "/usr",
+      "--ro-bind",
+      "/lib",
+      "/lib",
+      "--ro-bind",
+      "/lib64",
+      "/lib64",
+      "--proc",
+      "/proc",
+      "--dev",
+      "/dev",
+      "--tmpfs",
+      "/tmp",
+      "--ro-bind",
+      "/workspace/scientific-verification-benchmark/results/local/pcs-assurance/subject",
+      "/subject",
+      "--ro-bind",
+      "/workspace/.setup/toolchains/pcs-lean-428.WjGUMg/lean-4.28.0-linux",
+      "/lean",
+      "--ro-bind",
+      "/workspace/scientific-verification-benchmark/research/pcs-assurance-v1/worker.py",
+      "/worker.py",
+      "--bind",
+      "/workspace/scientific-verification-benchmark/results/local/pcs-assurance/supplemental/S02c",
+      "/work",
+      "--chdir",
+      "/work",
+      "--setenv",
+      "PATH",
+      "/lean/bin:/usr/local/bin:/usr/bin",
+      "--setenv",
+      "HOME",
+      "/tmp",
+      "--setenv",
+      "LANG",
+      "C.UTF-8",
+      "--setenv",
+      "PYTHONDONTWRITEBYTECODE",
+      "1",
+      "--setenv",
+      "PYTHONPATH",
+      "/subject",
+      "--setenv",
+      "PCS_CLAIMCHECK_LEAN",
+      "/lean/bin/lean",
+      "--setenv",
+      "LEAN_NUM_THREADS",
+      "1",
+      "/usr/bin/python3",
+      "/worker.py"
+    ],
+    "returncode": 0,
+    "seconds": 1.8438705319999826,
+    "stderr": "",
+    "stdout": "{\"records\": 3, \"primary\": \"DISCREPANCY_FOR_REVIEW\"}\n",
+    "timed_out": false
+  },
+  "input": {
+    "csv": "mass\n101.25\n102.25\n106.25\n107.25\n",
+    "id": "S02c",
+    "manifest": {
+      "columns": {
+        "mass": {
+          "aliases": [
+            "mass"
+          ],
+          "unit": "g"
+        }
+      },
+      "na_tokens": [
+        "",
+        "NA"
+      ],
+      "out_of_scope_terms": [],
+      "sd_convention": "n-1",
+      "sha256": "48a1b05084a7941a8e8e70eb7437654d493b48ed462d87b114de5781863cfb51",
+      "values": {}
+    },
+    "proposal": {
+      "quote": "The mean mass was 105.25 g (sample SD 2.94 g, n = 4).",
+      "spec": {
+        "column": "mass",
+        "reported": "105.25",
+        "reported_unit": "g",
+        "stat": "mean"
+      }
+    },
+    "source": "The mean mass was 105.25 g (sample SD 2.94 g, n = 4)."
+  },
+  "kind": "post_hoc_meaningful_assumption_change_not_primary",
+  "records": [
+    {
+      "authority": "RESEARCH_ONLY_NOT_PCS_V06_AUTHORITY",
+      "auxiliary": false,
+      "claim_id": "S02c",
+      "mathematical": {
+        "assumptions": [
+          "Rounding: the printed value 105.25 stands for any exact value within \u00b11/200 of it (rounding to the last printed digit, ties accepted either way).",
+          "Missing values: cells equal to one of ['', 'NA'] are excluded; the count of excluded rows is part of the proof.",
+          "Every other cell in the columns used is read as an exact decimal number; no rows are added, removed or reweighted."
+        ],
+        "data_sha256": "48a1b05084a7941a8e8e70eb7437654d493b48ed462d87b114de5781863cfb51",
+        "kernel_accepted_every_theorem": true,
+        "kernel_run": {
+          "checker_sha256": "35c83b283b18f50c3fa9d1bb3f42ec0beca1d6a7458d14ebf7180d9927b9edf9",
+          "finished_utc": "2026-11-15T19:18:57Z",
+          "fresh": true,
+          "host": "Linux-6.18.57-x86_64-with-glibc2.41",
+          "lean": [
+            "Lean (version 4.28.0, x86_64-unknown-linux-gnu, commit 7e01a1bf5c70fc6167d49c345d3bf80596e9a79b, Release)"
+          ],
+          "note": "The kernel ran in this invocation. A copy of this record is not a new run.",
+          "started_utc": "2026-11-15T19:18:56Z"
+        },
+        "meaning": "Proved by the Lean kernel: the typed statement below is FALSE of the exact bytes of this file.",
+        "scope": "Only the typed statement and the exact bytes named by the SHA-256 below. Not the sentence, not the paper.",
+        "statement": "The arithmetic mean of mass over all rows equals 105.25 g when rounded to the printed precision.",
+        "status": "MISMATCH_PROVED",
+        "theorems": [
+          {
+            "assumption": null,
+            "axioms": [
+              "Classical.choice",
+              "Quot.sound",
+              "propext"
+            ],
+            "checker_sha256": "35c83b283b18f50c3fa9d1bb3f42ec0beca1d6a7458d14ebf7180d9927b9edf9",
+            "obligation_file": "batch-001.lean",
+            "obligation_sha256": "5de966de5307b05981d8d5e8540d6a22ad875ec74526014b1111dad8216d0d9b",
+            "outcome": {
+              "approximate_in_reported_units": 104.25,
+              "approximation_note": "floating-point rendering for display only; the verdict uses the exact value",
+              "defined": true,
+              "exact": {
+                "denominator": "4",
+                "numerator": "417"
+              },
+              "rows_skipped_as_missing": 0,
+              "rows_used": 4,
+              "value_kind": "rational",
+              "verdict": "inconsistent"
+            },
+            "statistic": "mean",
+            "status": "REFUTED",
+            "theorem": "pcs_claim_0",
+            "toolchain": "Lean (version 4.28.0, x86_64-unknown-linux-gnu, commit 7e01a1bf5c70fc6167d49c345d3bf80596e9a79b, Release)"
+          }
+        ]
+      },
+      "outward": {
+        "never_means": "that the paper is right or wrong, that this is the data the authors analysed, or that any conclusion follows",
+        "reasons": [],
+        "statement": "Under the stated reading, this file does not give the printed number, and another number in the same sentence is reproduced from the same column and rows, which supports the reading. This is a discrepancy for a person to look at. It does not show that the paper is wrong: the authors may have analysed other rows, another version of the file, or a statistic this tool does not compute.",
+        "verdict": "DISCREPANCY_FOR_REVIEW"
+      },
+      "record_sha256": "5eff47982c561e82d2cdc10515a3dee1249c601ee2745a31b2293d40e871658e",
+      "schema": "pcs-claimcheck-record-v1.1",
+      "scientific": {
+        "interpretive_wording_in_sentence": [],
+        "open_questions": [
+          "Whether this file is the data the authors actually analysed (custody and completeness).",
+          "Whether sampling, measurement and exclusions make the statistic meaningful for the question asked.",
+          "Whether any comparison, trend or causal reading drawn from the number is justified.",
+          "Whether the deposited file is the version, subset and transformation of the data that the printed number was computed from.",
+          "Whether the statistic, as defined here (missing values, rounding, denominator), is the one the authors computed."
+        ],
+        "status": "NOT_ASSESSED"
+      },
+      "source_reading": {
+        "corroborated_by": [
+          {
+            "kernel_checked": true,
+            "printed": "2.94",
+            "reading": {
+              "column": "mass",
+              "filter": [],
+              "reported": "2.94",
+              "reported_unit": null,
+              "stat": "sd_sample",
+              "sub_filter": [],
+              "x_column": null
+            },
+            "receipt_sha256": "99c4321bbbb52e04adaf47d123fa3f74f20257aca0a7c606835b0a9057c74117"
+          },
+          {
+            "kernel_checked": true,
+            "printed": "2.94",
+            "reading": {
+              "column": "mass",
+              "filter": [],
+              "reported": "2.94",
+              "reported_unit": "g",
+              "stat": "sd_sample",
+              "sub_filter": [],
+              "x_column": null
+            },
+            "receipt_sha256": "1a4ba2806e37183417a00ff16509909e0dc813e25c98958db763f6253607037c"
+          }
+        ],
+        "findings": [
+          {
+            "detail": "The statistic is not a count.",
+            "passed": true,
+            "rule": "not_a_count"
+          },
+          {
+            "detail": "No unit printed after the number conflicts with this reading.",
+            "passed": true,
+            "rule": "unit_fits_the_quantity"
+          },
+          {
+            "detail": "The printed token is a plain number.",
+            "passed": true,
+            "rule": "plain_number"
+          },
+          {
+            "detail": "At most 2 row conditions, each a group label named in the sentence.",
+            "passed": true,
+            "rule": "eligible_reading"
+          },
+          {
+            "detail": "The wording attached to the number fits this statistic (\u201cmean mass was\u201d).",
+            "passed": true,
+            "rule": "number_worded_as_this_statistic"
+          },
+          {
+            "detail": "7 eligible readings of this sentence were examined.",
+            "passed": true,
+            "rule": "bounded_reading_space"
+          },
+          {
+            "alternatives": [],
+            "detail": "No eligible reading of this sentence reproduces the printed number.",
+            "passed": true,
+            "rule": "no_eligible_reading_reproduces_the_number"
+          },
+          {
+            "detail": "The difference exceeds one unit in the last printed digit.",
+            "passed": true,
+            "rule": "beyond_rounding_convention"
+          },
+          {
+            "detail": "No wording for unsupported statistics or transformations was found in the sentence.",
+            "passed": true,
+            "rule": "no_out_of_grammar_wording"
+          },
+          {
+            "detail": "The printed sample size 4 equals the rows this reading uses.",
+            "passed": true,
+            "rule": "printed_sample_size_agrees"
+          },
+          {
+            "detail": "Another number in this sentence (2.94) is reproduced from the same column and the same rows, which supports the reading.",
+            "passed": true,
+            "rule": "supported_by_another_number_in_the_sentence"
+          }
+        ],
+        "human_review_note": null,
+        "human_review_on_record": null,
+        "lexical_checks": {
+          "binding_anchored": true,
+          "binding_anchors": [
+            {
+              "anchored_by": "mass",
+              "binds": "column mass"
+            }
+          ],
+          "quote_in_source": true,
+          "quote_occurrences": 1,
+          "reported_value_in_quote": true,
+          "reported_value_occurrences_in_quote": 1,
+          "sentence_within_table_scope": true,
+          "statistic_named_in_sentence": "mean",
+          "unit_consistent_with_source": true
+        },
+        "lexical_failures": [],
+        "policy": {
+          "decoys": 100,
+          "id": "pcs-claimcheck-semantic-policy-v1.1",
+          "max_decoy_coincidence_rate": "1/50",
+          "max_row_conditions": 2,
+          "min_decoys": 49,
+          "note": "Fixed before the prospective evaluation. The rules can only withhold an outward verdict."
+        },
+        "printed_number": {
+          "end": 24,
+          "literal_checked": "105.25",
+          "printed": "105.25",
+          "start": 18,
+          "unit_printed_after": "g"
+        },
+        "reviewed_by_a_person": false,
+        "selection": {
+          "proposed_by": "SVB diagnostic author",
+          "saw_the_data": "yes"
+        },
+        "selection_note": "The policy assumes the reading may have been chosen after looking at the data, whoever proposed it.",
+        "sentence": {
+          "end": 53,
+          "start": 0,
+          "text": "The mean mass was 105.25 g (sample SD 2.94 g, n = 4)."
+        },
+        "status": "SUPPORTED_BY_AUTOMATIC_CHECKS"
+      },
+      "v1_receipt_sha256": "211c9838ba6a31b92fb9161469ecf58c27480b42ef8fdce48dd58f609e42d2fe",
+      "v1_result": "REFUTED",
+      "version": "pcs-claimcheck-v1.1"
+    },
+    {
+      "authority": "RESEARCH_ONLY_NOT_PCS_V06_AUTHORITY",
+      "auxiliary": true,
+      "claim_id": "s001",
+      "mathematical": {
+        "assumptions": [
+          "Rounding: the printed value 2.94 stands for any exact value within \u00b11/200 of it (rounding to the last printed digit, ties accepted either way).",
+          "Missing values: cells equal to one of ['', 'NA'] are excluded; the count of excluded rows is part of the proof.",
+          "Every other cell in the columns used is read as an exact decimal number; no rows are added, removed or reweighted.",
+          "Standard deviation uses denominator n \u2212 1 (declared by the submitter in the manifest, not checked against the paper)."
+        ],
+        "data_sha256": "48a1b05084a7941a8e8e70eb7437654d493b48ed462d87b114de5781863cfb51",
+        "kernel_accepted_every_theorem": true,
+        "kernel_run": {
+          "checker_sha256": "35c83b283b18f50c3fa9d1bb3f42ec0beca1d6a7458d14ebf7180d9927b9edf9",
+          "finished_utc": "2026-11-15T19:18:57Z",
+          "fresh": true,
+          "host": "Linux-6.18.57-x86_64-with-glibc2.41",
+          "lean": [
+            "Lean (version 4.28.0, x86_64-unknown-linux-gnu, commit 7e01a1bf5c70fc6167d49c345d3bf80596e9a79b, Release)"
+          ],
+          "note": "The kernel ran in this invocation. A copy of this record is not a new run.",
+          "started_utc": "2026-11-15T19:18:56Z"
+        },
+        "meaning": "Proved by the Lean kernel: the typed statement below is TRUE of the exact bytes of this file.",
+        "scope": "Only the typed statement and the exact bytes named by the SHA-256 below. Not the sentence, not the paper.",
+        "statement": "The standard deviation (denominator n \u2212 1) of mass over all rows equals 2.94 when rounded to the printed precision.",
+        "status": "MATCH_PROVED",
+        "theorems": [
+          {
+            "assumption": "standard deviation uses denominator n \u2212 1 (declared by the submitter in the manifest, not checked against the paper)",
+            "axioms": [
+              "Classical.choice",
+              "Quot.sound",
+              "propext"
+            ],
+            "checker_sha256": "35c83b283b18f50c3fa9d1bb3f42ec0beca1d6a7458d14ebf7180d9927b9edf9",
+            "obligation_file": "batch-001.lean",
+            "obligation_sha256": "5de966de5307b05981d8d5e8540d6a22ad875ec74526014b1111dad8216d0d9b",
+            "outcome": {
+              "approximate_in_reported_units": 2.943920288775949,
+              "approximation_note": "floating-point rendering for display only; the verdict uses the exact value",
+              "defined": true,
+              "exact": {
+                "denominator": "3",
+                "numerator": "26"
+              },
+              "exact_note": "value = sign \u00d7 \u221a(numerator/denominator)",
+              "rows_skipped_as_missing": 0,
+              "rows_used": 4,
+              "sign": 1,
+              "value_kind": "signed_square_root",
+              "verdict": "consistent"
+            },
+            "statistic": "sd_sample",
+            "status": "PROVED",
+            "theorem": "pcs_claim_1",
+            "toolchain": "Lean (version 4.28.0, x86_64-unknown-linux-gnu, commit 7e01a1bf5c70fc6167d49c345d3bf80596e9a79b, Release)"
+          }
+        ]
+      },
+      "outward": {
+        "never_means": "that the paper is right or wrong, that this is the data the authors analysed, or that any conclusion follows",
+        "reasons": [],
+        "statement": "The printed number is reproduced from this file under the stated reading. The wording attached to the number fits the statistic, no other statistic or column named in the sentence reproduces it, and a chance match is unlikely even for someone who chose the reading after seeing the data. No person has reviewed the reading.",
+        "verdict": "CONFIRMATION"
+      },
+      "record_sha256": "78ab0c8e37a16b5843caa0d5f74a4fc7168542d931f1e2a784297745c0ab3f1a",
+      "schema": "pcs-claimcheck-record-v1.1",
+      "scientific": {
+        "interpretive_wording_in_sentence": [],
+        "open_questions": [
+          "Whether this file is the data the authors actually analysed (custody and completeness).",
+          "Whether sampling, measurement and exclusions make the statistic meaningful for the question asked.",
+          "Whether any comparison, trend or causal reading drawn from the number is justified.",
+          "Whether the deposited file is the version, subset and transformation of the data that the printed number was computed from.",
+          "Whether the statistic, as defined here (missing values, rounding, denominator), is the one the authors computed."
+        ],
+        "status": "NOT_ASSESSED"
+      },
+      "source_reading": {
+        "corroborated_by": [],
+        "findings": [
+          {
+            "detail": "No unit printed after the number conflicts with this reading.",
+            "passed": true,
+            "rule": "unit_fits_the_quantity"
+          },
+          {
+            "detail": "The printed token is a plain number.",
+            "passed": true,
+            "rule": "plain_number"
+          },
+          {
+            "detail": "At most 2 row conditions, each a group label named in the sentence.",
+            "passed": true,
+            "rule": "eligible_reading"
+          },
+          {
+            "detail": "The wording attached to the number fits this statistic (\u201cSD\u201d).",
+            "passed": true,
+            "rule": "number_worded_as_this_statistic",
+            "wording": "SD"
+          },
+          {
+            "detail": "4 readings that this sentence's wording attaches to the number were examined.",
+            "passed": true,
+            "rule": "bounded_reading_space"
+          },
+          {
+            "competing_readings": [],
+            "detail": "No other statistic or column named in the sentence reproduces the printed number.",
+            "equivalent_row_selections": [],
+            "passed": true,
+            "rule": "no_competing_reading_reproduces_the_number"
+          },
+          {
+            "decoys": 100,
+            "decoys_reproduced": 1,
+            "detail": "2 of 101 comparable numbers (same decimals, same number of digits; the printed one included) are reproduced by some reading the sentence's wording attaches to this number (limit 2%).",
+            "examples": [
+              {
+                "offset_in_last_digit_units": -39,
+                "reading": "sd_pop of mass"
+              }
+            ],
+            "passed": true,
+            "rule": "low_chance_of_coincidence"
+          }
+        ],
+        "human_review_note": null,
+        "human_review_on_record": null,
+        "lexical_checks": {
+          "binding_anchored": true,
+          "binding_anchors": [
+            {
+              "anchored_by": "mass",
+              "binds": "column mass"
+            }
+          ],
+          "quote_in_source": true,
+          "quote_occurrences": 1,
+          "reported_value_in_quote": true,
+          "reported_value_occurrences_in_quote": 1,
+          "sentence_within_table_scope": true,
+          "statistic_named_in_sentence": "SD",
+          "unit_consistent_with_source": true
+        },
+        "lexical_failures": [],
+        "policy": {
+          "decoys": 100,
+          "id": "pcs-claimcheck-semantic-policy-v1.1",
+          "max_decoy_coincidence_rate": "1/50",
+          "max_row_conditions": 2,
+          "min_decoys": 49,
+          "note": "Fixed before the prospective evaluation. The rules can only withhold an outward verdict."
+        },
+        "printed_number": {
+          "end": 42,
+          "literal_checked": "2.94",
+          "printed": "2.94",
+          "start": 38,
+          "unit_printed_after": "g"
+        },
+        "reviewed_by_a_person": false,
+        "selection": {
+          "proposed_by": "claimcheck-v1.1 automatic sibling search (has seen the data; untrusted)",
+          "saw_the_data": "yes"
+        },
+        "selection_note": "The policy assumes the reading may have been chosen after looking at the data, whoever proposed it.",
+        "sentence": {
+          "end": 53,
+          "start": 0,
+          "text": "The mean mass was 105.25 g (sample SD 2.94 g, n = 4)."
+        },
+        "status": "SUPPORTED_BY_AUTOMATIC_CHECKS"
+      },
+      "v1_receipt_sha256": "99c4321bbbb52e04adaf47d123fa3f74f20257aca0a7c606835b0a9057c74117",
+      "v1_result": "PROVED",
+      "version": "pcs-claimcheck-v1.1"
+    },
+    {
+      "authority": "RESEARCH_ONLY_NOT_PCS_V06_AUTHORITY",
+      "auxiliary": true,
+      "claim_id": "s002",
+      "mathematical": {
+        "assumptions": [
+          "Rounding: the printed value 2.94 stands for any exact value within \u00b11/200 of it (rounding to the last printed digit, ties accepted either way).",
+          "Missing values: cells equal to one of ['', 'NA'] are excluded; the count of excluded rows is part of the proof.",
+          "Every other cell in the columns used is read as an exact decimal number; no rows are added, removed or reweighted.",
+          "Standard deviation uses denominator n \u2212 1 (declared by the submitter in the manifest, not checked against the paper)."
+        ],
+        "data_sha256": "48a1b05084a7941a8e8e70eb7437654d493b48ed462d87b114de5781863cfb51",
+        "kernel_accepted_every_theorem": true,
+        "kernel_run": {
+          "checker_sha256": "35c83b283b18f50c3fa9d1bb3f42ec0beca1d6a7458d14ebf7180d9927b9edf9",
+          "finished_utc": "2026-11-15T19:18:57Z",
+          "fresh": true,
+          "host": "Linux-6.18.57-x86_64-with-glibc2.41",
+          "lean": [
+            "Lean (version 4.28.0, x86_64-unknown-linux-gnu, commit 7e01a1bf5c70fc6167d49c345d3bf80596e9a79b, Release)"
+          ],
+          "note": "The kernel ran in this invocation. A copy of this record is not a new run.",
+          "started_utc": "2026-11-15T19:18:56Z"
+        },
+        "meaning": "Proved by the Lean kernel: the typed statement below is TRUE of the exact bytes of this file.",
+        "scope": "Only the typed statement and the exact bytes named by the SHA-256 below. Not the sentence, not the paper.",
+        "statement": "The standard deviation (denominator n \u2212 1) of mass over all rows equals 2.94 g when rounded to the printed precision.",
+        "status": "MATCH_PROVED",
+        "theorems": [
+          {
+            "assumption": "standard deviation uses denominator n \u2212 1 (declared by the submitter in the manifest, not checked against the paper)",
+            "axioms": [
+              "Classical.choice",
+              "Quot.sound",
+              "propext"
+            ],
+            "checker_sha256": "35c83b283b18f50c3fa9d1bb3f42ec0beca1d6a7458d14ebf7180d9927b9edf9",
+            "obligation_file": "batch-001.lean",
+            "obligation_sha256": "5de966de5307b05981d8d5e8540d6a22ad875ec74526014b1111dad8216d0d9b",
+            "outcome": {
+              "approximate_in_reported_units": 2.943920288775949,
+              "approximation_note": "floating-point rendering for display only; the verdict uses the exact value",
+              "defined": true,
+              "exact": {
+                "denominator": "3",
+                "numerator": "26"
+              },
+              "exact_note": "value = sign \u00d7 \u221a(numerator/denominator)",
+              "rows_skipped_as_missing": 0,
+              "rows_used": 4,
+              "sign": 1,
+              "value_kind": "signed_square_root",
+              "verdict": "consistent"
+            },
+            "statistic": "sd_sample",
+            "status": "PROVED",
+            "theorem": "pcs_claim_2",
+            "toolchain": "Lean (version 4.28.0, x86_64-unknown-linux-gnu, commit 7e01a1bf5c70fc6167d49c345d3bf80596e9a79b, Release)"
+          }
+        ]
+      },
+      "outward": {
+        "never_means": "that the paper is right or wrong, that this is the data the authors analysed, or that any conclusion follows",
+        "reasons": [],
+        "statement": "The printed number is reproduced from this file under the stated reading. The wording attached to the number fits the statistic, no other statistic or column named in the sentence reproduces it, and a chance match is unlikely even for someone who chose the reading after seeing the data. No person has reviewed the reading.",
+        "verdict": "CONFIRMATION"
+      },
+      "record_sha256": "3e10ad7ea4b6e83efc23f97eb85c6df0eb4e58bb2e1b3fa092c8881c11b03317",
+      "schema": "pcs-claimcheck-record-v1.1",
+      "scientific": {
+        "interpretive_wording_in_sentence": [],
+        "open_questions": [
+          "Whether this file is the data the authors actually analysed (custody and completeness).",
+          "Whether sampling, measurement and exclusions make the statistic meaningful for the question asked.",
+          "Whether any comparison, trend or causal reading drawn from the number is justified.",
+          "Whether the deposited file is the version, subset and transformation of the data that the printed number was computed from.",
+          "Whether the statistic, as defined here (missing values, rounding, denominator), is the one the authors computed."
+        ],
+        "status": "NOT_ASSESSED"
+      },
+      "source_reading": {
+        "corroborated_by": [],
+        "findings": [
+          {
+            "detail": "No unit printed after the number conflicts with this reading.",
+            "passed": true,
+            "rule": "unit_fits_the_quantity"
+          },
+          {
+            "detail": "The printed token is a plain number.",
+            "passed": true,
+            "rule": "plain_number"
+          },
+          {
+            "detail": "At most 2 row conditions, each a group label named in the sentence.",
+            "passed": true,
+            "rule": "eligible_reading"
+          },
+          {
+            "detail": "The wording attached to the number fits this statistic (\u201cSD\u201d).",
+            "passed": true,
+            "rule": "number_worded_as_this_statistic",
+            "wording": "SD"
+          },
+          {
+            "detail": "4 readings that this sentence's wording attaches to the number were examined.",
+            "passed": true,
+            "rule": "bounded_reading_space"
+          },
+          {
+            "competing_readings": [],
+            "detail": "No other statistic or column named in the sentence reproduces the printed number.",
+            "equivalent_row_selections": [],
+            "passed": true,
+            "rule": "no_competing_reading_reproduces_the_number"
+          },
+          {
+            "decoys": 100,
+            "decoys_reproduced": 1,
+            "detail": "2 of 101 comparable numbers (same decimals, same number of digits; the printed one included) are reproduced by some reading the sentence's wording attaches to this number (limit 2%).",
+            "examples": [
+              {
+                "offset_in_last_digit_units": -39,
+                "reading": "sd_pop of mass"
+              }
+            ],
+            "passed": true,
+            "rule": "low_chance_of_coincidence"
+          }
+        ],
+        "human_review_note": null,
+        "human_review_on_record": null,
+        "lexical_checks": {
+          "binding_anchored": true,
+          "binding_anchors": [
+            {
+              "anchored_by": "mass",
+              "binds": "column mass"
+            }
+          ],
+          "quote_in_source": true,
+          "quote_occurrences": 1,
+          "reported_value_in_quote": true,
+          "reported_value_occurrences_in_quote": 1,
+          "sentence_within_table_scope": true,
+          "statistic_named_in_sentence": "SD",
+          "unit_consistent_with_source": true
+        },
+        "lexical_failures": [],
+        "policy": {
+          "decoys": 100,
+          "id": "pcs-claimcheck-semantic-policy-v1.1",
+          "max_decoy_coincidence_rate": "1/50",
+          "max_row_conditions": 2,
+          "min_decoys": 49,
+          "note": "Fixed before the prospective evaluation. The rules can only withhold an outward verdict."
+        },
+        "printed_number": {
+          "end": 42,
+          "literal_checked": "2.94",
+          "printed": "2.94",
+          "start": 38,
+          "unit_printed_after": "g"
+        },
+        "reviewed_by_a_person": false,
+        "selection": {
+          "proposed_by": "claimcheck-v1.1 automatic sibling search (has seen the data; untrusted)",
+          "saw_the_data": "yes"
+        },
+        "selection_note": "The policy assumes the reading may have been chosen after looking at the data, whoever proposed it.",
+        "sentence": {
+          "end": 53,
+          "start": 0,
+          "text": "The mean mass was 105.25 g (sample SD 2.94 g, n = 4)."
+        },
+        "status": "SUPPORTED_BY_AUTOMATIC_CHECKS"
+      },
+      "v1_receipt_sha256": "1a4ba2806e37183417a00ff16509909e0dc813e25c98958db763f6253607037c",
+      "v1_result": "PROVED",
+      "version": "pcs-claimcheck-v1.1"
+    }
+  ]
+}

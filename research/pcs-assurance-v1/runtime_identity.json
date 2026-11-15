@@ -1,0 +1,25 @@
+{
+  "credential_environment": "cleared; only explicit PATH/HOME/LANG/PYTHONPATH/compiler values",
+  "files": {
+    "/usr/bin/bwrap": {
+      "bytes": 80248,
+      "sha256": "573236e5328ac2ebb08f59ae3a9805b4f8d12bdef14be8af4450d5463294985f"
+    },
+    "/usr/bin/python3": {
+      "bytes": 6832784,
+      "sha256": "889c603f0d17cb54060951bcf4c4f9b8c9ebd9e52b392c70209bbb9755d797d9"
+    },
+    "/workspace/.setup/toolchains/pcs-lean-428.WjGUMg/lean-4.28.0-linux/bin/lean": {
+      "bytes": 9024,
+      "sha256": "3e0d0d3d801675359f2d4cf9815bfdb417b20b92fdd9d48b3b14c95bbae28bbf"
+    },
+    "/workspace/.setup/toolchains/pcs-lean-428.WjGUMg/lean-4.28.0-linux/lib/lean/libleanshared.so": {
+      "bytes": 216347368,
+      "sha256": "cbfea1d1a2681923a714b5fcd36183b4ffecb8b06d398c833f095548f00fa62b"
+    }
+  },
+  "general_untrusted_program_sandbox_qualification": false,
+  "lean_release": "4.28.0 / commit7e01a1bf5c70fc6167d49c345d3bf80596e9a79b",
+  "network_namespace_probe": "connect failed; host workspace absent",
+  "trusted_olean_dependency_tree_not_individually_hashed": true
+}

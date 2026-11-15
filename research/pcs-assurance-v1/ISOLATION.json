@@ -1,0 +1,30 @@
+{
+  "FoldBounds": {
+    "all_baseline_bytes_unchanged": true,
+    "baseline_tracked_files": 84,
+    "current_head": "e373a422eb785f5cb69163b0e114343b150abf08",
+    "initial_head": "e373a422eb785f5cb69163b0e114343b150abf08",
+    "original_status_unchanged": true
+  },
+  "proof-carrying-science": {
+    "all_baseline_bytes_unchanged": true,
+    "baseline_tracked_files": 8047,
+    "current_head": "bc78660b5fac857fce3873eb6cda0445d1903da1",
+    "initial_head": "bc78660b5fac857fce3873eb6cda0445d1903da1",
+    "original_status_unchanged": true
+  },
+  "proof-carrying-science-site": {
+    "all_baseline_bytes_unchanged": true,
+    "baseline_tracked_files": 3814,
+    "current_head": "e8136625c463b271364b36b2b8ae76f8777f1967",
+    "initial_head": "e8136625c463b271364b36b2b8ae76f8777f1967",
+    "original_status_unchanged": true
+  },
+  "scientific-verification-benchmark": {
+    "all_baseline_bytes_unchanged": true,
+    "baseline_tracked_files": 373,
+    "current_head": "e8dd9702ffd4717d12b19bfca727c638612bfea4",
+    "initial_head": "e8dd9702ffd4717d12b19bfca727c638612bfea4",
+    "original_status_unchanged": null
+  }
+}

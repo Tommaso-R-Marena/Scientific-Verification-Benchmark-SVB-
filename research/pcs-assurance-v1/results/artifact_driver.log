@@ -1,0 +1,6 @@
+original_v11 genuine 0 True
+original_v11 forged 1 False
+original_v11 corrupt 1 False
+existing_candidate_v2 genuine 0 True
+existing_candidate_v2 forged 1 False
+existing_candidate_v2 corrupt 1 False

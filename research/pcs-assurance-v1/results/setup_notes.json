@@ -1,0 +1,10 @@
+{
+  "no_correctness_retries_of_primary_cases": true,
+  "post_freeze_primary_reference_defect": "S02 preserved; no primary inputs/outputs repaired",
+  "pre_freeze_setup_failures": [
+    "First smoke used unavailable /usr/local/bin/python3; preserved; switched wrapper invocation to installed /usr/bin/python3",
+    "Case builder initially used lowercase Puromycin file path; corrected before freeze",
+    "First driver launch had absent log directory; failed before any case executed; directory then created"
+  ],
+  "successful_smoke_is_not_a_primary_case": true
+}
