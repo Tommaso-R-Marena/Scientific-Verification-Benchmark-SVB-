@@ -1,0 +1,12 @@
+{
+  "hosted_CI_registration": "New workflow cannot be dispatched while absent from default branch. Use already-registered independent-svb on the stacked research ref; no default-branch or old workflow change.",
+  "no_correctness_retries_of_primary_cases": true,
+  "packaging_correction": "Initial commit aff2d7e inherited forced text normalization for research ZIP; added capsule-local binary attributes and recommitted original ZIP bytes without rewriting history. No scientific input/output changed.",
+  "post_freeze_primary_reference_defect": "S02 preserved; no primary inputs/outputs repaired",
+  "pre_freeze_setup_failures": [
+    "First smoke used unavailable /usr/local/bin/python3; preserved; switched wrapper invocation to installed /usr/bin/python3",
+    "Case builder initially used lowercase Puromycin file path; corrected before freeze",
+    "First driver launch had absent log directory; failed before any case executed; directory then created"
+  ],
+  "successful_smoke_is_not_a_primary_case": true
+}

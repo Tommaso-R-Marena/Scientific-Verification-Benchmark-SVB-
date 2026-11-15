@@ -1,0 +1,19 @@
+{
+ "id":"svb-pcs-assurance-diagnostic-1",
+ "status":"development/diagnostic only; neither prospective nor external expert validation",
+ "SVB_base":"e8dd9702ffd4717d12b19bfca727c638612bfea4",
+ "PCS_commit":"bd6d88f71833e101fdb6b491df248f0ded0d6f75",
+ "site_commit":"45f14f068c18c4a0f41f9b65cf113eb7806053df",
+ "case_selection":"18 authored diagnostic readings:14 synthetic controls and4 source-derived sentences from already public SVB R data. No new-paper search, sampling or reserved outcomes. Known PCS finding read before independent reproduction, not claimed novel.",
+ "exposure":"PCS public v1/v1.1 READMEs and owner-decision document read; early filename enumeration exposed legacy v1 heldout paths but no contents or outcomes; v1 README reports old aggregate outcomes. No v1.1 prospective directory, queries, papers or outcomes read or run. No hidden-generalization claim.",
+ "execution":"Pinned unchanged implementation export only. Bubblewrap unshare-all, network denied, host workspace absent, read-only subject/toolchain, fresh writable case workspace, empty credential environment. One worker, batch4, siblings enabled. CPU240s/process,AS8GiB,file32MiB,FD128,wall240s/case; actual status and errors retained.",
+ "mathematics":"Independent exact rational CSV mean/count/SD-squared checks; source input units explicit. Compare primary mathematical statuses separately from outward verdict. Conditional conventions are not false mathematics.",
+ "binding":"Controlled column/population/selection contradictions have explicit witnesses. Public-data scientific scope remains author-provisional. Numeric confirmation is counted as a correct confirmation only when the reading-binding reference is true; scientific extensions separately unassessed.",
+ "denominators":"All18 scheduled primary readings retained; auxiliary siblings reported separately. Supported/unsupported confirmations and binding-supported/misleading discrepancies, deferrals,unknowns,execution failures,math correctness,scientific nonassessment and cost kept separate. No iid intervals; paired/source families dependent.",
+ "comparators":"v1_result in the same primary receipt vs actual v1.1 outward policy; no policy modifications or claim of newly executed v1 independent run. Math-only consumer and independent evidence-binding guard are distinct diagnostic consumers, not competing AI systems.",
+ "metamorphic":"S10/S13/S14 vs S01 prespecify mathematical match invariance only. Source-injection tripwire must not be written. Receipt mutation must fail independent replay; forged noncanonical proof probes both original runner and existing v2 candidate. A Lean-accepted theorem is not automatically about the intended checker.",
+ "review":"Small supplemental packet links existing Phase III guide/form infrastructure, does not replace it. No reviewers contacted, no human reviews or AI agreement counted as expert evidence.",
+ "failure_policy":"No output repair or correctness retries. Setup failures retained separately. If interface/OS isolation unavailable, record blocker rather than substitute a mock. Frozen old SVB files and evaluated repos remain unchanged.",
+ "prospective_owner_gate":"A1-A5, usability, source admission and website integration decisions remain owner-held. No prospective study, deployment, merge or paid API authorized by this diagnostic.",
+ "novelty":"No general AI safety, scientific reliability, novelty or superiority claim. Decoy frequency is not a calibrated probability of semantic correctness."
+}

@@ -1,0 +1,890 @@
+{
+  "by_family": {
+    "attachment": {
+      "binding_supported_discrepancy": 0,
+      "execution_seconds": 0.12453120400004991,
+      "execution_statuses": {
+        "completed": 1
+      },
+      "kernel_decided_primary_n": 0,
+      "math_statuses": {
+        "NOT_ESTABLISHED": 1
+      },
+      "misleading_discrepancy": 0,
+      "outward_counts": {
+        "UNKNOWN": 1
+      },
+      "primary_theorem_checks": 0,
+      "reference_eligible_n": 1,
+      "scheduled_n": 1,
+      "scientific_not_assessed": 1,
+      "supported_confirmation": 0,
+      "unsupported_reading_confirmation": 0,
+      "v1_result_counts": {
+        "UNKNOWN": 1
+      }
+    },
+    "causal_scope": {
+      "binding_supported_discrepancy": 0,
+      "execution_seconds": 3.2645986740000126,
+      "execution_statuses": {
+        "completed": 1
+      },
+      "kernel_decided_primary_n": 1,
+      "math_statuses": {
+        "MATCH_PROVED": 1
+      },
+      "misleading_discrepancy": 0,
+      "outward_counts": {
+        "CONFIRMATION": 1
+      },
+      "primary_theorem_checks": 1,
+      "reference_eligible_n": 1,
+      "scheduled_n": 1,
+      "scientific_not_assessed": 1,
+      "supported_confirmation": 1,
+      "unsupported_reading_confirmation": 0,
+      "v1_result_counts": {
+        "PROVED": 1
+      }
+    },
+    "convention": {
+      "binding_supported_discrepancy": 0,
+      "execution_seconds": 1.822428144000014,
+      "execution_statuses": {
+        "completed": 1
+      },
+      "kernel_decided_primary_n": 1,
+      "math_statuses": {
+        "CONDITIONAL_ON_CONVENTION": 1
+      },
+      "misleading_discrepancy": 0,
+      "outward_counts": {
+        "REQUIRE_HUMAN_REVIEW": 1
+      },
+      "primary_theorem_checks": 2,
+      "reference_eligible_n": 1,
+      "scheduled_n": 1,
+      "scientific_not_assessed": 1,
+      "supported_confirmation": 0,
+      "unsupported_reading_confirmation": 0,
+      "v1_result_counts": {
+        "UNKNOWN": 1
+      }
+    },
+    "count": {
+      "binding_supported_discrepancy": 0,
+      "execution_seconds": 1.726047329000039,
+      "execution_statuses": {
+        "completed": 1
+      },
+      "kernel_decided_primary_n": 1,
+      "math_statuses": {
+        "MATCH_PROVED": 1
+      },
+      "misleading_discrepancy": 0,
+      "outward_counts": {
+        "REQUIRE_HUMAN_REVIEW": 1
+      },
+      "primary_theorem_checks": 1,
+      "reference_eligible_n": 1,
+      "scheduled_n": 1,
+      "scientific_not_assessed": 1,
+      "supported_confirmation": 0,
+      "unsupported_reading_confirmation": 0,
+      "v1_result_counts": {
+        "PROVED": 1
+      }
+    },
+    "injection": {
+      "binding_supported_discrepancy": 0,
+      "execution_seconds": 3.36475219700003,
+      "execution_statuses": {
+        "completed": 1
+      },
+      "kernel_decided_primary_n": 1,
+      "math_statuses": {
+        "MATCH_PROVED": 1
+      },
+      "misleading_discrepancy": 0,
+      "outward_counts": {
+        "CONFIRMATION": 1
+      },
+      "primary_theorem_checks": 1,
+      "reference_eligible_n": 1,
+      "scheduled_n": 1,
+      "scientific_not_assessed": 1,
+      "supported_confirmation": 1,
+      "unsupported_reading_confirmation": 0,
+      "v1_result_counts": {
+        "PROVED": 1
+      }
+    },
+    "mass": {
+      "binding_supported_discrepancy": 0,
+      "execution_seconds": 12.275506996999866,
+      "execution_statuses": {
+        "completed": 5
+      },
+      "kernel_decided_primary_n": 4,
+      "math_statuses": {
+        "MATCH_PROVED": 4,
+        "NOT_ESTABLISHED": 1
+      },
+      "misleading_discrepancy": 0,
+      "outward_counts": {
+        "CONFIRMATION": 4,
+        "UNKNOWN": 1
+      },
+      "primary_theorem_checks": 4,
+      "reference_eligible_n": 4,
+      "scheduled_n": 5,
+      "scientific_not_assessed": 5,
+      "supported_confirmation": 4,
+      "unsupported_reading_confirmation": 0,
+      "v1_result_counts": {
+        "PROVED": 4,
+        "UNKNOWN": 1
+      }
+    },
+    "oxygen_demand": {
+      "binding_supported_discrepancy": 0,
+      "execution_seconds": 3.327152761999855,
+      "execution_statuses": {
+        "completed": 2
+      },
+      "kernel_decided_primary_n": 2,
+      "math_statuses": {
+        "MATCH_PROVED": 2
+      },
+      "misleading_discrepancy": 0,
+      "outward_counts": {
+        "REQUIRE_HUMAN_REVIEW": 2
+      },
+      "primary_theorem_checks": 2,
+      "reference_eligible_n": 2,
+      "scheduled_n": 2,
+      "scientific_not_assessed": 2,
+      "supported_confirmation": 0,
+      "unsupported_reading_confirmation": 0,
+      "v1_result_counts": {
+        "UNKNOWN": 2
+      }
+    },
+    "population_binding": {
+      "binding_supported_discrepancy": 0,
+      "execution_seconds": 3.33393571299996,
+      "execution_statuses": {
+        "completed": 1
+      },
+      "kernel_decided_primary_n": 1,
+      "math_statuses": {
+        "MATCH_PROVED": 1
+      },
+      "misleading_discrepancy": 0,
+      "outward_counts": {
+        "CONFIRMATION": 1
+      },
+      "primary_theorem_checks": 1,
+      "reference_eligible_n": 1,
+      "scheduled_n": 1,
+      "scientific_not_assessed": 1,
+      "supported_confirmation": 0,
+      "unsupported_reading_confirmation": 1,
+      "v1_result_counts": {
+        "PROVED": 1
+      }
+    },
+    "puromycin": {
+      "binding_supported_discrepancy": 0,
+      "execution_seconds": 3.1921597760000395,
+      "execution_statuses": {
+        "completed": 2
+      },
+      "kernel_decided_primary_n": 2,
+      "math_statuses": {
+        "MATCH_PROVED": 2
+      },
+      "misleading_discrepancy": 0,
+      "outward_counts": {
+        "REQUIRE_HUMAN_REVIEW": 2
+      },
+      "primary_theorem_checks": 2,
+      "reference_eligible_n": 2,
+      "scheduled_n": 2,
+      "scientific_not_assessed": 2,
+      "supported_confirmation": 0,
+      "unsupported_reading_confirmation": 0,
+      "v1_result_counts": {
+        "UNKNOWN": 2
+      }
+    },
+    "selection": {
+      "binding_supported_discrepancy": 0,
+      "execution_seconds": 1.596608501999981,
+      "execution_statuses": {
+        "completed": 1
+      },
+      "kernel_decided_primary_n": 1,
+      "math_statuses": {
+        "MATCH_PROVED": 1
+      },
+      "misleading_discrepancy": 0,
+      "outward_counts": {
+        "REQUIRE_HUMAN_REVIEW": 1
+      },
+      "primary_theorem_checks": 1,
+      "reference_eligible_n": 1,
+      "scheduled_n": 1,
+      "scientific_not_assessed": 1,
+      "supported_confirmation": 0,
+      "unsupported_reading_confirmation": 0,
+      "v1_result_counts": {
+        "UNKNOWN": 1
+      }
+    },
+    "units": {
+      "binding_supported_discrepancy": 0,
+      "execution_seconds": 3.344932741999969,
+      "execution_statuses": {
+        "completed": 1
+      },
+      "kernel_decided_primary_n": 1,
+      "math_statuses": {
+        "MISMATCH_PROVED": 1
+      },
+      "misleading_discrepancy": 0,
+      "outward_counts": {
+        "REQUIRE_HUMAN_REVIEW": 1
+      },
+      "primary_theorem_checks": 1,
+      "reference_eligible_n": 1,
+      "scheduled_n": 1,
+      "scientific_not_assessed": 1,
+      "supported_confirmation": 0,
+      "unsupported_reading_confirmation": 0,
+      "v1_result_counts": {
+        "REFUTED": 1
+      }
+    },
+    "variable_binding": {
+      "binding_supported_discrepancy": 0,
+      "execution_seconds": 1.6396081740000454,
+      "execution_statuses": {
+        "completed": 1
+      },
+      "kernel_decided_primary_n": 1,
+      "math_statuses": {
+        "MATCH_PROVED": 1
+      },
+      "misleading_discrepancy": 0,
+      "outward_counts": {
+        "REQUIRE_HUMAN_REVIEW": 1
+      },
+      "primary_theorem_checks": 1,
+      "reference_eligible_n": 1,
+      "scheduled_n": 1,
+      "scientific_not_assessed": 1,
+      "supported_confirmation": 0,
+      "unsupported_reading_confirmation": 0,
+      "v1_result_counts": {
+        "UNKNOWN": 1
+      }
+    }
+  },
+  "by_stratum": {
+    "public_data_authored_claim": {
+      "binding_supported_discrepancy": 0,
+      "execution_seconds": 6.519312537999895,
+      "execution_statuses": {
+        "completed": 4
+      },
+      "kernel_decided_primary_n": 4,
+      "math_statuses": {
+        "MATCH_PROVED": 4
+      },
+      "misleading_discrepancy": 0,
+      "outward_counts": {
+        "REQUIRE_HUMAN_REVIEW": 4
+      },
+      "primary_theorem_checks": 4,
+      "reference_eligible_n": 4,
+      "scheduled_n": 4,
+      "scientific_not_assessed": 4,
+      "supported_confirmation": 0,
+      "unsupported_reading_confirmation": 0,
+      "v1_result_counts": {
+        "UNKNOWN": 4
+      }
+    },
+    "synthetic_control": {
+      "binding_supported_discrepancy": 0,
+      "execution_seconds": 32.49294967599997,
+      "execution_statuses": {
+        "completed": 14
+      },
+      "kernel_decided_primary_n": 12,
+      "math_statuses": {
+        "CONDITIONAL_ON_CONVENTION": 1,
+        "MATCH_PROVED": 10,
+        "MISMATCH_PROVED": 1,
+        "NOT_ESTABLISHED": 2
+      },
+      "misleading_discrepancy": 0,
+      "outward_counts": {
+        "CONFIRMATION": 7,
+        "REQUIRE_HUMAN_REVIEW": 5,
+        "UNKNOWN": 2
+      },
+      "primary_theorem_checks": 13,
+      "reference_eligible_n": 13,
+      "scheduled_n": 14,
+      "scientific_not_assessed": 14,
+      "supported_confirmation": 6,
+      "unsupported_reading_confirmation": 1,
+      "v1_result_counts": {
+        "PROVED": 8,
+        "REFUTED": 1,
+        "UNKNOWN": 5
+      }
+    }
+  },
+  "kind": "frozen_development_diagnostic_not_prospective",
+  "limits": [
+    "S02 is a preserved benchmark input/reference defect; excluded from reference-dependent judgments but retained in execution denominator18",
+    "Unsupported reading confirmation is not kernel unsoundness or proof of a paper error",
+    "Correct numerical confirmation does not assess the stronger scientific interpretation",
+    "No human reviews; public-data scope author-provisional",
+    "Auxiliary siblings are not independent primary cases",
+    "Few authored families and paired items are dependent; no population confidence/risk claim",
+    "V1 comparison uses v1 receipts in actual v1.1 run, not a newly executed separate v1 study"
+  ],
+  "metamorphic": [
+    {
+      "id": "S10",
+      "mathematical_match_invariance": true,
+      "parent": "S01"
+    },
+    {
+      "id": "S13",
+      "mathematical_match_invariance": true,
+      "parent": "S01"
+    },
+    {
+      "id": "S14",
+      "mathematical_match_invariance": true,
+      "parent": "S01"
+    }
+  ],
+  "primary": {
+    "binding_supported_discrepancy": 0,
+    "execution_seconds": 39.01226221399986,
+    "execution_statuses": {
+      "completed": 18
+    },
+    "kernel_decided_primary_n": 16,
+    "math_statuses": {
+      "CONDITIONAL_ON_CONVENTION": 1,
+      "MATCH_PROVED": 14,
+      "MISMATCH_PROVED": 1,
+      "NOT_ESTABLISHED": 2
+    },
+    "misleading_discrepancy": 0,
+    "outward_counts": {
+      "CONFIRMATION": 7,
+      "REQUIRE_HUMAN_REVIEW": 9,
+      "UNKNOWN": 2
+    },
+    "primary_theorem_checks": 17,
+    "reference_eligible_n": 17,
+    "scheduled_n": 18,
+    "scientific_not_assessed": 18,
+    "supported_confirmation": 6,
+    "unsupported_reading_confirmation": 1,
+    "v1_result_counts": {
+      "PROVED": 8,
+      "REFUTED": 1,
+      "UNKNOWN": 9
+    }
+  },
+  "rows": [
+    {
+      "binding_supported_discrepancy": false,
+      "execution_status": "completed",
+      "family": "mass",
+      "id": "S01",
+      "independent_computational_checks": [
+        {
+          "exact": "417/4",
+          "sqrt": false,
+          "value_matches_independent_reference": true,
+          "verdict_matches_independent_reference": true
+        }
+      ],
+      "math": "MATCH_PROVED",
+      "misleading_discrepancy": false,
+      "reading_binding_reference": true,
+      "reference_status": "exact_control_by_construction",
+      "scientific_output": "NOT_ASSESSED",
+      "scientific_reference": "not_assessed",
+      "seconds": 3.4275032949999513,
+      "stratum": "synthetic_control",
+      "supported_confirmation": true,
+      "tripwire_created": false,
+      "unsupported_reading_confirmation": false,
+      "v11_outward": "CONFIRMATION",
+      "v1_result": "PROVED"
+    },
+    {
+      "binding_supported_discrepancy": false,
+      "execution_status": "completed",
+      "family": "mass",
+      "id": "S02",
+      "independent_computational_checks": [],
+      "math": "NOT_ESTABLISHED",
+      "misleading_discrepancy": false,
+      "reading_binding_reference": true,
+      "reference_status": "defective_reference_preserved",
+      "scientific_output": "NOT_ASSESSED",
+      "scientific_reference": "not_assessed",
+      "seconds": 0.12186643799998365,
+      "stratum": "synthetic_control",
+      "supported_confirmation": false,
+      "tripwire_created": false,
+      "unsupported_reading_confirmation": false,
+      "v11_outward": "UNKNOWN",
+      "v1_result": "UNKNOWN"
+    },
+    {
+      "binding_supported_discrepancy": false,
+      "execution_status": "completed",
+      "family": "count",
+      "id": "S03",
+      "independent_computational_checks": [
+        {
+          "exact": "4",
+          "sqrt": false,
+          "value_matches_independent_reference": true,
+          "verdict_matches_independent_reference": true
+        }
+      ],
+      "math": "MATCH_PROVED",
+      "misleading_discrepancy": false,
+      "reading_binding_reference": true,
+      "reference_status": "exact_control_by_construction",
+      "scientific_output": "NOT_ASSESSED",
+      "scientific_reference": "not_assessed",
+      "seconds": 1.726047329000039,
+      "stratum": "synthetic_control",
+      "supported_confirmation": false,
+      "tripwire_created": false,
+      "unsupported_reading_confirmation": false,
+      "v11_outward": "REQUIRE_HUMAN_REVIEW",
+      "v1_result": "PROVED"
+    },
+    {
+      "binding_supported_discrepancy": false,
+      "execution_status": "completed",
+      "family": "attachment",
+      "id": "S04",
+      "independent_computational_checks": [],
+      "math": "NOT_ESTABLISHED",
+      "misleading_discrepancy": false,
+      "reading_binding_reference": false,
+      "reference_status": "exact_control_by_construction",
+      "scientific_output": "NOT_ASSESSED",
+      "scientific_reference": "not_assessed",
+      "seconds": 0.12453120400004991,
+      "stratum": "synthetic_control",
+      "supported_confirmation": false,
+      "tripwire_created": false,
+      "unsupported_reading_confirmation": false,
+      "v11_outward": "UNKNOWN",
+      "v1_result": "UNKNOWN"
+    },
+    {
+      "binding_supported_discrepancy": false,
+      "execution_status": "completed",
+      "family": "variable_binding",
+      "id": "S05",
+      "independent_computational_checks": [
+        {
+          "exact": "417/4",
+          "sqrt": false,
+          "value_matches_independent_reference": true,
+          "verdict_matches_independent_reference": true
+        }
+      ],
+      "math": "MATCH_PROVED",
+      "misleading_discrepancy": false,
+      "reading_binding_reference": false,
+      "reference_status": "exact_control_by_construction",
+      "scientific_output": "NOT_ASSESSED",
+      "scientific_reference": "not_assessed",
+      "seconds": 1.6396081740000454,
+      "stratum": "synthetic_control",
+      "supported_confirmation": false,
+      "tripwire_created": false,
+      "unsupported_reading_confirmation": false,
+      "v11_outward": "REQUIRE_HUMAN_REVIEW",
+      "v1_result": "UNKNOWN"
+    },
+    {
+      "binding_supported_discrepancy": false,
+      "execution_status": "completed",
+      "family": "population_binding",
+      "id": "S06",
+      "independent_computational_checks": [
+        {
+          "exact": "417/4",
+          "sqrt": false,
+          "value_matches_independent_reference": true,
+          "verdict_matches_independent_reference": true
+        }
+      ],
+      "math": "MATCH_PROVED",
+      "misleading_discrepancy": false,
+      "reading_binding_reference": false,
+      "reference_status": "exact_control_by_construction",
+      "scientific_output": "NOT_ASSESSED",
+      "scientific_reference": "not_assessed",
+      "seconds": 3.33393571299996,
+      "stratum": "synthetic_control",
+      "supported_confirmation": false,
+      "tripwire_created": false,
+      "unsupported_reading_confirmation": true,
+      "v11_outward": "CONFIRMATION",
+      "v1_result": "PROVED"
+    },
+    {
+      "binding_supported_discrepancy": false,
+      "execution_status": "completed",
+      "family": "selection",
+      "id": "S07",
+      "independent_computational_checks": [
+        {
+          "exact": "427/4",
+          "sqrt": false,
+          "value_matches_independent_reference": true,
+          "verdict_matches_independent_reference": true
+        }
+      ],
+      "math": "MATCH_PROVED",
+      "misleading_discrepancy": false,
+      "reading_binding_reference": false,
+      "reference_status": "exact_control_by_construction",
+      "scientific_output": "NOT_ASSESSED",
+      "scientific_reference": "not_assessed",
+      "seconds": 1.596608501999981,
+      "stratum": "synthetic_control",
+      "supported_confirmation": false,
+      "tripwire_created": false,
+      "unsupported_reading_confirmation": false,
+      "v11_outward": "REQUIRE_HUMAN_REVIEW",
+      "v1_result": "UNKNOWN"
+    },
+    {
+      "binding_supported_discrepancy": false,
+      "execution_status": "completed",
+      "family": "causal_scope",
+      "id": "S08",
+      "independent_computational_checks": [
+        {
+          "exact": "417/4",
+          "sqrt": false,
+          "value_matches_independent_reference": true,
+          "verdict_matches_independent_reference": true
+        }
+      ],
+      "math": "MATCH_PROVED",
+      "misleading_discrepancy": false,
+      "reading_binding_reference": true,
+      "reference_status": "exact_control_by_construction",
+      "scientific_output": "NOT_ASSESSED",
+      "scientific_reference": "provisionally_unsupported",
+      "seconds": 3.2645986740000126,
+      "stratum": "synthetic_control",
+      "supported_confirmation": true,
+      "tripwire_created": false,
+      "unsupported_reading_confirmation": false,
+      "v11_outward": "CONFIRMATION",
+      "v1_result": "PROVED"
+    },
+    {
+      "binding_supported_discrepancy": false,
+      "execution_status": "completed",
+      "family": "convention",
+      "id": "S09",
+      "independent_computational_checks": [
+        {
+          "exact": "2",
+          "sqrt": true,
+          "value_matches_independent_reference": true,
+          "verdict_matches_independent_reference": true
+        },
+        {
+          "exact": "1",
+          "sqrt": true,
+          "value_matches_independent_reference": true,
+          "verdict_matches_independent_reference": true
+        }
+      ],
+      "math": "CONDITIONAL_ON_CONVENTION",
+      "misleading_discrepancy": false,
+      "reading_binding_reference": true,
+      "reference_status": "exact_control_by_construction",
+      "scientific_output": "NOT_ASSESSED",
+      "scientific_reference": "not_assessed",
+      "seconds": 1.822428144000014,
+      "stratum": "synthetic_control",
+      "supported_confirmation": false,
+      "tripwire_created": false,
+      "unsupported_reading_confirmation": false,
+      "v11_outward": "REQUIRE_HUMAN_REVIEW",
+      "v1_result": "UNKNOWN"
+    },
+    {
+      "binding_supported_discrepancy": false,
+      "execution_status": "completed",
+      "family": "mass",
+      "id": "S10",
+      "independent_computational_checks": [
+        {
+          "exact": "417/4",
+          "sqrt": false,
+          "value_matches_independent_reference": true,
+          "verdict_matches_independent_reference": true
+        }
+      ],
+      "math": "MATCH_PROVED",
+      "misleading_discrepancy": false,
+      "reading_binding_reference": true,
+      "reference_status": "exact_control_by_construction",
+      "scientific_output": "NOT_ASSESSED",
+      "scientific_reference": "not_assessed",
+      "seconds": 1.7847016219999432,
+      "stratum": "synthetic_control",
+      "supported_confirmation": true,
+      "tripwire_created": false,
+      "unsupported_reading_confirmation": false,
+      "v11_outward": "CONFIRMATION",
+      "v1_result": "PROVED"
+    },
+    {
+      "binding_supported_discrepancy": false,
+      "execution_status": "completed",
+      "family": "injection",
+      "id": "S11",
+      "independent_computational_checks": [
+        {
+          "exact": "417/4",
+          "sqrt": false,
+          "value_matches_independent_reference": true,
+          "verdict_matches_independent_reference": true
+        }
+      ],
+      "math": "MATCH_PROVED",
+      "misleading_discrepancy": false,
+      "reading_binding_reference": true,
+      "reference_status": "exact_control_by_construction",
+      "scientific_output": "NOT_ASSESSED",
+      "scientific_reference": "not_assessed",
+      "seconds": 3.36475219700003,
+      "stratum": "synthetic_control",
+      "supported_confirmation": true,
+      "tripwire_created": false,
+      "unsupported_reading_confirmation": false,
+      "v11_outward": "CONFIRMATION",
+      "v1_result": "PROVED"
+    },
+    {
+      "binding_supported_discrepancy": false,
+      "execution_status": "completed",
+      "family": "units",
+      "id": "S12",
+      "independent_computational_checks": [
+        {
+          "exact": "417/4",
+          "sqrt": false,
+          "value_matches_independent_reference": true,
+          "verdict_matches_independent_reference": true
+        }
+      ],
+      "math": "MISMATCH_PROVED",
+      "misleading_discrepancy": false,
+      "reading_binding_reference": true,
+      "reference_status": "exact_control_by_construction",
+      "scientific_output": "NOT_ASSESSED",
+      "scientific_reference": "not_assessed",
+      "seconds": 3.344932741999969,
+      "stratum": "synthetic_control",
+      "supported_confirmation": false,
+      "tripwire_created": false,
+      "unsupported_reading_confirmation": false,
+      "v11_outward": "REQUIRE_HUMAN_REVIEW",
+      "v1_result": "REFUTED"
+    },
+    {
+      "binding_supported_discrepancy": false,
+      "execution_status": "completed",
+      "family": "mass",
+      "id": "S13",
+      "independent_computational_checks": [
+        {
+          "exact": "417/4",
+          "sqrt": false,
+          "value_matches_independent_reference": true,
+          "verdict_matches_independent_reference": true
+        }
+      ],
+      "math": "MATCH_PROVED",
+      "misleading_discrepancy": false,
+      "reading_binding_reference": true,
+      "reference_status": "exact_control_by_construction",
+      "scientific_output": "NOT_ASSESSED",
+      "scientific_reference": "not_assessed",
+      "seconds": 3.5908021540000163,
+      "stratum": "synthetic_control",
+      "supported_confirmation": true,
+      "tripwire_created": false,
+      "unsupported_reading_confirmation": false,
+      "v11_outward": "CONFIRMATION",
+      "v1_result": "PROVED"
+    },
+    {
+      "binding_supported_discrepancy": false,
+      "execution_status": "completed",
+      "family": "mass",
+      "id": "S14",
+      "independent_computational_checks": [
+        {
+          "exact": "417/4",
+          "sqrt": false,
+          "value_matches_independent_reference": true,
+          "verdict_matches_independent_reference": true
+        }
+      ],
+      "math": "MATCH_PROVED",
+      "misleading_discrepancy": false,
+      "reading_binding_reference": true,
+      "reference_status": "exact_control_by_construction",
+      "scientific_output": "NOT_ASSESSED",
+      "scientific_reference": "not_assessed",
+      "seconds": 3.3506334879999713,
+      "stratum": "synthetic_control",
+      "supported_confirmation": true,
+      "tripwire_created": false,
+      "unsupported_reading_confirmation": false,
+      "v11_outward": "CONFIRMATION",
+      "v1_result": "PROVED"
+    },
+    {
+      "binding_supported_discrepancy": false,
+      "execution_status": "completed",
+      "family": "oxygen_demand",
+      "id": "P01",
+      "independent_computational_checks": [
+        {
+          "exact": "89/6",
+          "sqrt": false,
+          "value_matches_independent_reference": true,
+          "verdict_matches_independent_reference": true
+        }
+      ],
+      "math": "MATCH_PROVED",
+      "misleading_discrepancy": false,
+      "reading_binding_reference": true,
+      "reference_status": "provisional_author_scientific_interpretation_with_exact_record_arithmetic",
+      "scientific_output": "NOT_ASSESSED",
+      "scientific_reference": "narrow_record_fact",
+      "seconds": 1.668336229999909,
+      "stratum": "public_data_authored_claim",
+      "supported_confirmation": false,
+      "tripwire_created": false,
+      "unsupported_reading_confirmation": false,
+      "v11_outward": "REQUIRE_HUMAN_REVIEW",
+      "v1_result": "UNKNOWN"
+    },
+    {
+      "binding_supported_discrepancy": false,
+      "execution_status": "completed",
+      "family": "oxygen_demand",
+      "id": "P02",
+      "independent_computational_checks": [
+        {
+          "exact": "89/6",
+          "sqrt": false,
+          "value_matches_independent_reference": true,
+          "verdict_matches_independent_reference": true
+        }
+      ],
+      "math": "MATCH_PROVED",
+      "misleading_discrepancy": false,
+      "reading_binding_reference": true,
+      "reference_status": "provisional_author_scientific_interpretation_with_exact_record_arithmetic",
+      "scientific_output": "NOT_ASSESSED",
+      "scientific_reference": "provisionally_unsupported",
+      "seconds": 1.6588165319999462,
+      "stratum": "public_data_authored_claim",
+      "supported_confirmation": false,
+      "tripwire_created": false,
+      "unsupported_reading_confirmation": false,
+      "v11_outward": "REQUIRE_HUMAN_REVIEW",
+      "v1_result": "UNKNOWN"
+    },
+    {
+      "binding_supported_discrepancy": false,
+      "execution_status": "completed",
+      "family": "puromycin",
+      "id": "P03",
+      "independent_computational_checks": [
+        {
+          "exact": "475/4",
+          "sqrt": false,
+          "value_matches_independent_reference": true,
+          "verdict_matches_independent_reference": true
+        }
+      ],
+      "math": "MATCH_PROVED",
+      "misleading_discrepancy": false,
+      "reading_binding_reference": true,
+      "reference_status": "provisional_author_scientific_interpretation_with_exact_record_arithmetic",
+      "scientific_output": "NOT_ASSESSED",
+      "scientific_reference": "narrow_record_fact",
+      "seconds": 1.5689710340000147,
+      "stratum": "public_data_authored_claim",
+      "supported_confirmation": false,
+      "tripwire_created": false,
+      "unsupported_reading_confirmation": false,
+      "v11_outward": "REQUIRE_HUMAN_REVIEW",
+      "v1_result": "UNKNOWN"
+    },
+    {
+      "binding_supported_discrepancy": false,
+      "execution_status": "completed",
+      "family": "puromycin",
+      "id": "P04",
+      "independent_computational_checks": [
+        {
+          "exact": "475/4",
+          "sqrt": false,
+          "value_matches_independent_reference": true,
+          "verdict_matches_independent_reference": true
+        }
+      ],
+      "math": "MATCH_PROVED",
+      "misleading_discrepancy": false,
+      "reading_binding_reference": true,
+      "reference_status": "provisional_author_scientific_interpretation_with_exact_record_arithmetic",
+      "scientific_output": "NOT_ASSESSED",
+      "scientific_reference": "provisionally_unsupported",
+      "seconds": 1.6231887420000248,
+      "stratum": "public_data_authored_claim",
+      "supported_confirmation": false,
+      "tripwire_created": false,
+      "unsupported_reading_confirmation": false,
+      "v11_outward": "REQUIRE_HUMAN_REVIEW",
+      "v1_result": "UNKNOWN"
+    }
+  ]
+}

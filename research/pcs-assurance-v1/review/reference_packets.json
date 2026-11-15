@@ -1,0 +1,182 @@
+[
+  {
+    "assumptions": [
+      "Displayed decimals are exact computational inputs, not physically exact measurements."
+    ],
+    "claim": "The mean mass was 104.25 g (SD 2.94 g, n = 4).",
+    "documents": [
+      {
+        "id": "SENTENCE",
+        "source_id": "S01",
+        "text": "The mean mass was 104.25 g (SD 2.94 g, n = 4).",
+        "title": "Authored diagnostic source sentence, not a paper quotation"
+      },
+      {
+        "id": "TABLE",
+        "source_id": "S01",
+        "text": "mass\n101.25\n102.25\n106.25\n107.25\n",
+        "title": "Exact supplied CSV bytes"
+      },
+      {
+        "id": "MANIFEST",
+        "source_id": "S01",
+        "text": "{\"columns\": {\"mass\": {\"aliases\": [\"mass\"], \"unit\": \"g\"}}, \"na_tokens\": [\"\", \"NA\"], \"out_of_scope_terms\": [], \"sha256\": \"48a1b05084a7941a8e8e70eb7437654d493b48ed462d87b114de5781863cfb51\", \"values\": {}}",
+        "title": "Submitter-supplied vocabulary and byte pin; not an independent scientific authority"
+      }
+    ],
+    "methodology": "Separate finite arithmetic, literal source association, custody and empirical inference. Public-data sentences are SVB authored, not alleged errors in publications.",
+    "packet_id": "PCS01",
+    "question": "What do the exact computation, reading and scientific interpretation respectively establish? Challenge any unsupported target or category."
+  },
+  {
+    "assumptions": [
+      "Displayed decimals are exact computational inputs, not physically exact measurements."
+    ],
+    "claim": "The mean wet mass was 104.25 g (SD 2.94 g, n = 4).",
+    "documents": [
+      {
+        "id": "SENTENCE",
+        "source_id": "S05b",
+        "text": "The mean wet mass was 104.25 g (SD 2.94 g, n = 4).",
+        "title": "Authored diagnostic source sentence, not a paper quotation"
+      },
+      {
+        "id": "TABLE",
+        "source_id": "S05b",
+        "text": "dry_mass,wet_mass\n101.25,201.25\n102.25,202.25\n106.25,206.25\n107.25,207.25\n",
+        "title": "Exact supplied CSV bytes"
+      },
+      {
+        "id": "MANIFEST",
+        "source_id": "S05b",
+        "text": "{\"columns\": {\"dry_mass\": {\"aliases\": [\"wet mass\"], \"unit\": \"g\"}, \"wet_mass\": {\"aliases\": [\"fresh mass\"], \"unit\": \"g\"}}, \"na_tokens\": [\"\", \"NA\"], \"out_of_scope_terms\": [], \"sha256\": \"7a04bb64791b92c31ef3d3bbdb340e828b38be882d71a1801c8a9e9fc3aee392\", \"values\": {}}",
+        "title": "Submitter-supplied vocabulary and byte pin; not an independent scientific authority"
+      }
+    ],
+    "methodology": "Separate finite arithmetic, literal source association, custody and empirical inference. Public-data sentences are SVB authored, not alleged errors in publications.",
+    "packet_id": "PCS02",
+    "question": "What do the exact computation, reading and scientific interpretation respectively establish? Challenge any unsupported target or category."
+  },
+  {
+    "assumptions": [
+      "Displayed decimals are exact computational inputs, not physically exact measurements."
+    ],
+    "claim": "The mean adult mass was 104.25 g (SD 2.94 g, n = 4).",
+    "documents": [
+      {
+        "id": "SENTENCE",
+        "source_id": "S06",
+        "text": "The mean adult mass was 104.25 g (SD 2.94 g, n = 4).",
+        "title": "Authored diagnostic source sentence, not a paper quotation"
+      },
+      {
+        "id": "TABLE",
+        "source_id": "S06",
+        "text": "mass\n101.25\n102.25\n106.25\n107.25\n",
+        "title": "Exact supplied CSV bytes"
+      },
+      {
+        "id": "MANIFEST",
+        "source_id": "S06",
+        "text": "{\"columns\": {\"mass\": {\"aliases\": [\"mass\"], \"unit\": \"g\"}}, \"na_tokens\": [\"\", \"NA\"], \"out_of_scope_terms\": [], \"sha256\": \"48a1b05084a7941a8e8e70eb7437654d493b48ed462d87b114de5781863cfb51\", \"values\": {}}",
+        "title": "Submitter-supplied vocabulary and byte pin; not an independent scientific authority"
+      },
+      {
+        "id": "CUSTODY",
+        "source_id": "S06",
+        "text": "The supplied rows are juveniles. The sentence targets adults. This extra custody fact was not supplied to PCS and is not established by its receipt.",
+        "title": "Synthetic construction provenance"
+      }
+    ],
+    "methodology": "Separate finite arithmetic, literal source association, custody and empirical inference. Public-data sentences are SVB authored, not alleged errors in publications.",
+    "packet_id": "PCS03",
+    "question": "What do the exact computation, reading and scientific interpretation respectively establish? Challenge any unsupported target or category."
+  },
+  {
+    "assumptions": [
+      "Displayed decimals are exact computational inputs, not physically exact measurements."
+    ],
+    "claim": "The mean mass was 104.25 g (SD 2.94 g, n = 4), proving the treatment caused the increase.",
+    "documents": [
+      {
+        "id": "SENTENCE",
+        "source_id": "S08",
+        "text": "The mean mass was 104.25 g (SD 2.94 g, n = 4), proving the treatment caused the increase.",
+        "title": "Authored diagnostic source sentence, not a paper quotation"
+      },
+      {
+        "id": "TABLE",
+        "source_id": "S08",
+        "text": "mass\n101.25\n102.25\n106.25\n107.25\n",
+        "title": "Exact supplied CSV bytes"
+      },
+      {
+        "id": "MANIFEST",
+        "source_id": "S08",
+        "text": "{\"columns\": {\"mass\": {\"aliases\": [\"mass\"], \"unit\": \"g\"}}, \"na_tokens\": [\"\", \"NA\"], \"out_of_scope_terms\": [], \"sha256\": \"48a1b05084a7941a8e8e70eb7437654d493b48ed462d87b114de5781863cfb51\", \"values\": {}}",
+        "title": "Submitter-supplied vocabulary and byte pin; not an independent scientific authority"
+      }
+    ],
+    "methodology": "Separate finite arithmetic, literal source association, custody and empirical inference. Public-data sentences are SVB authored, not alleged errors in publications.",
+    "packet_id": "PCS04",
+    "question": "What do the exact computation, reading and scientific interpretation respectively establish? Challenge any unsupported target or category."
+  },
+  {
+    "assumptions": [
+      "Displayed decimals are exact computational inputs, not physically exact measurements."
+    ],
+    "claim": "The mean recorded oxygen demand was 14.83 mg/L (n = 6).",
+    "documents": [
+      {
+        "id": "SENTENCE",
+        "source_id": "P01",
+        "text": "The mean recorded oxygen demand was 14.83 mg/L (n = 6).",
+        "title": "Authored diagnostic source sentence, not a paper quotation"
+      },
+      {
+        "id": "TABLE",
+        "source_id": "P01",
+        "text": "demand\n8.3\n10.3\n19\n16\n15.6\n19.8\n",
+        "title": "Exact supplied CSV bytes"
+      },
+      {
+        "id": "MANIFEST",
+        "source_id": "P01",
+        "text": "{\"columns\": {\"demand\": {\"aliases\": [\"oxygen demand\", \"demand\"], \"unit\": \"mg/L\"}}, \"na_tokens\": [\"\", \"NA\"], \"out_of_scope_terms\": [], \"sha256\": \"15fa8845ff88388d6b4abc2dd6edc11abf6e645ae47a55c4efa893ac855d2dc6\", \"values\": {}}",
+        "title": "Submitter-supplied vocabulary and byte pin; not an independent scientific authority"
+      }
+    ],
+    "methodology": "Separate finite arithmetic, literal source association, custody and empirical inference. Public-data sentences are SVB authored, not alleged errors in publications.",
+    "packet_id": "PCS05",
+    "question": "What do the exact computation, reading and scientific interpretation respectively establish? Challenge any unsupported target or category."
+  },
+  {
+    "assumptions": [
+      "Displayed decimals are exact computational inputs, not physically exact measurements."
+    ],
+    "claim": "The mean recorded oxygen demand was 14.83 mg/L (n = 6), proving every microorganism stopped aerobic respiration.",
+    "documents": [
+      {
+        "id": "SENTENCE",
+        "source_id": "P02",
+        "text": "The mean recorded oxygen demand was 14.83 mg/L (n = 6), proving every microorganism stopped aerobic respiration.",
+        "title": "Authored diagnostic source sentence, not a paper quotation"
+      },
+      {
+        "id": "TABLE",
+        "source_id": "P02",
+        "text": "demand\n8.3\n10.3\n19\n16\n15.6\n19.8\n",
+        "title": "Exact supplied CSV bytes"
+      },
+      {
+        "id": "MANIFEST",
+        "source_id": "P02",
+        "text": "{\"columns\": {\"demand\": {\"aliases\": [\"oxygen demand\", \"demand\"], \"unit\": \"mg/L\"}}, \"na_tokens\": [\"\", \"NA\"], \"out_of_scope_terms\": [], \"sha256\": \"15fa8845ff88388d6b4abc2dd6edc11abf6e645ae47a55c4efa893ac855d2dc6\", \"values\": {}}",
+        "title": "Submitter-supplied vocabulary and byte pin; not an independent scientific authority"
+      }
+    ],
+    "methodology": "Separate finite arithmetic, literal source association, custody and empirical inference. Public-data sentences are SVB authored, not alleged errors in publications.",
+    "packet_id": "PCS06",
+    "question": "What do the exact computation, reading and scientific interpretation respectively establish? Challenge any unsupported target or category."
+  }
+]

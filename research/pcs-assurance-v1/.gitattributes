@@ -1,0 +1,2 @@
+*.zip -text
+results/*.log -text whitespace=-blank-at-eof

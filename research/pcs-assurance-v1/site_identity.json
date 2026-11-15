@@ -1,0 +1,27 @@
+{
+  "commit": "45f14f068c18c4a0f41f9b65cf113eb7806053df",
+  "files": [
+    {
+      "bytes": 25223,
+      "path": "public/claim-check.mjs",
+      "sha256": "efd13b1a4c59bcfa45ae967cd1070181e727384fef9ad65039fe83ce06e7dd26"
+    },
+    {
+      "bytes": 17822,
+      "path": "public/claim-check-core.mjs",
+      "sha256": "3909fba751eadb42fba832d962a6c4e64a5567618bd45e7f1ab2f66b85f05837"
+    },
+    {
+      "bytes": 10167,
+      "path": "public/claim-check.html",
+      "sha256": "b41d7814ebc4dd0b844ac21860f75b06798119076c0c28328787fef06cd186fb"
+    },
+    {
+      "bytes": 8138,
+      "path": "public/claim-check/claimcheck_kernel_runner.py",
+      "sha256": "8d9e07b4ac4b0abed13c9e750cbca113f1db26d82f3709579a7aafa7401f713f"
+    }
+  ],
+  "production_probed": false,
+  "repository": "Tommaso-R-Marena/proof-carrying-science-site"
+}
