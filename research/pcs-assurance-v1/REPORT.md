@@ -119,7 +119,7 @@ Two independently written elementary scope-admission theorems compile in Lean
 with no axioms. They do not prove interpretation correctness or empirical truth.
 See CROSSWALK.md for precise capabilities, exclusions and trusted-base assumptions.
 
-All212 stdlib tests pass, including10 new diagnostic tests. Hosted CI checks
+All213 stdlib tests pass, including11 new diagnostic tests. Hosted CI checks
 recorded references/invariants and archive integrity, not a new PCS kernel run.
 Fresh local execution/replay requires Linux namespaces, Bubblewrap and Lean4.28.
 The raw archive and reproduction commands enable that independent repetition.

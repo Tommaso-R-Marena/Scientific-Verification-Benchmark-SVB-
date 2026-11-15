@@ -4,6 +4,10 @@ from pathlib import Path
 R=Path(__file__).resolve().parents[1];D=R/'research/pcs-assurance-v1'
 spec=importlib.util.spec_from_file_location('assurance_analysis',D/'analyze.py');A=importlib.util.module_from_spec(spec);spec.loader.exec_module(A)
 class Assurance(unittest.TestCase):
+ def test_capsule_and_raw_archive_integrity_from_checkout(self):
+  import subprocess
+  p=subprocess.run([sys.executable,str(D/'verify_artifacts.py')],capture_output=True,text=True)
+  self.assertEqual(p.returncode,0,p.stderr)
  def test_independent_primary_references_match_actual_theorems(self):
   r=A.analyze();self.assertEqual(r['primary']['primary_theorem_checks'],17);self.assertEqual(r['primary']['kernel_decided_primary_n'],16)
  def test_reference_defect_not_hidden_or_scored_as_subject_failure(self):
