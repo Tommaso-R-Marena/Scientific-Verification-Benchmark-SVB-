@@ -2,6 +2,7 @@
   "SVB_base": "e8dd9702ffd4717d12b19bfca727c638612bfea4",
   "diagnostic_only": true,
   "files": {
+    ".gitattributes": "02dcb6519b8a91cd69624e32f353d064c0865bbe6116a591222722dcdc4cc868",
     "CROSSWALK.md": "7dec7d9910f4ed1068b34f44a22190a91a6fd10aad282223958f997c359051aa",
     "ISOLATION.json": "1be679c11d49f7fc9b78ec2850366bbd6ecdaf959159328ce78d8834b482a322",
     "NOTICE.md": "578313d7328797efece0a089cc2badd887e17009e5b0340a6d2f4a77e9fddfdb",
@@ -31,7 +32,7 @@
     "results/replay_probes.json": "4b4591a66ec261b47cd62e6dc374e710738cf5c24c2fdc4859ace5d1fb6ecae5",
     "results/runs.json": "c7d4c34efb06a91aa41fb8b509cbe45ac5044b104033d502f010528d239bc744",
     "results/scope_proof.json": "c700144210edd72409f7b49975bb636a80135adda652e6a98549860cb42cb00d",
-    "results/setup_notes.json": "1277322f7efaebbce98006bac815e53fbb850853380734dd89c5526982eee47e",
+    "results/setup_notes.json": "51774d63b8104e0392536f250c35859bbd64ba493809fe003b31e91632681c97",
     "results/supplemental_driver.log": "9f55d0343bcccced0fab0948202b951535d7b24990a3024e7353524d38d2df76",
     "results/supplemental_probes.json": "16667162fd10411b2ceccd40f5f2df8a75e9e9388856c27affb3ed1f49c3d064",
     "results/tests.log": "41f2859d8f7cb39bfdba78965602fd804071a467ab3d60e94eb8a73fd6afa7bf",
