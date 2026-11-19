@@ -1,0 +1,69 @@
+{
+  "component": "Verifiable Agent Safety Benchmark (VASB)",
+  "representation": "New factual summary, source citations, and provenance identifiers on SVB main",
+  "svb_base_commit": "30f842e241b0a37ab5d24ef6537113d6bbbb4103",
+  "original_vasb_commit": "bb9693437864303445e8f0a39e564641cf171d90",
+  "original_vasb_commits_are_ancestors": false,
+  "original_vasb_commits_oldest_first": [
+    "aa5b2205fed246fed417dd31e739cb0c13a3e8ee",
+    "a6125798fc42c7c23ce62f6efbe3c00c866b9b2e",
+    "a309667f9cff88687e8b7aee7f60fe4d5650c3de",
+    "f45a3ddb9ce95328a3d89fba99ba7ed32bebf888",
+    "093c5d14534b72b9af116f733e72a8cedce00fcd",
+    "901470978846a728cc037e2e3084af3b1e941223",
+    "ccc1423d61db356075ae15c7266b3849263e9443",
+    "7cb6ed3be97d1baddd2b08e97bfbb2f1302981a0",
+    "4fd1c2c9b0f1e097b3a9762ca9b554f64895d803",
+    "9271847e25e30f05c46bd167fbef76e41e6fb108",
+    "e577fd79c2f09037c777c7f1c78e42561306d28d",
+    "c2ea2cb0855d6131e98041fac70c32bfe7d688d8",
+    "bb9693437864303445e8f0a39e564641cf171d90"
+  ],
+  "private_artifacts_referenced_by_hash": [
+    {
+      "path_at_original_commit": "results/vasb-final-rc1-replication.zip",
+      "bytes": 97186,
+      "sha256": "7be8dade862209cff1124bbb3fcd4f98ba63d517f5597330029718ef6dc09383",
+      "availability": "Private archive"
+    },
+    {
+      "path_at_original_commit": "results/vasb-final-rc1-audit.zip",
+      "sha256": "5d04970fe577054e097e8378d8dec13ccf2b987c22aa81bcf1e4f6d3ca196f70",
+      "availability": "Private archive"
+    }
+  ],
+  "summary_source_mapping": {
+    "README.md:scope_and_conclusions": [
+      "finalization/CLOSURE.md",
+      "finalization/rc1/TECHNICAL_NOTE.md",
+      "continuation/v0.5.1/PRIOR_ART.md"
+    ],
+    "README.md:qualification_counts": [
+      "finalization/rc1/BASE_REPRODUCTION.json",
+      "finalization/rc1/CORRECTION_RESULTS.json",
+      "finalization/rc1/RC_MANIFEST.json"
+    ],
+    "README.md:known_findings_and_correction": [
+      "continuation/v0.5.1/ISSUE_OVERLAP.md",
+      "finalization/rc1/UNKNOWN_CORRECTION.md",
+      "finalization/rc1/replication/CONTRACT.md"
+    ]
+  },
+  "historically_reproduced_counts": {
+    "distinct_tests": 233,
+    "sqlite_outcomes": 115,
+    "independent_references_and_findings": 69,
+    "selected_mutations_detected": 13,
+    "selected_mutations": 13,
+    "selected_control_allegations": 0,
+    "selected_controls": 16,
+    "correction_tests": 18,
+    "native_regression_records": 14,
+    "pre_rc1_baseline_files_verified": 443
+  },
+  "public_contents": [
+    "README.md",
+    "PROVENANCE.json"
+  ],
+  "reproducibility_boundary": "Metadata and citation inspection are public. Exact behavioral replay requires separately authorized access to the original private archive."
+}
